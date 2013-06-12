@@ -17,7 +17,8 @@ footer#foot > ul > li:not(:last-of-type):after {
 footer#foot > ul > li:last-of-type:after {
     content: "."; }
 footer#foot > p {
-    font-size: 0.8em; }
+    font-size: 0.8em;
+    text-align: justify; }
 footer#foot > p:before,
 footer#foot > ul:after {
     content: "\A0";
@@ -32,4 +33,3 @@ footer#foot > p:before {
     margin-bottom: 24px; }
 footer#foot > ul:after {
     margin-top: 24px; }
-
