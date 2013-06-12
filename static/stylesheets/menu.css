@@ -1,0 +1,22 @@
+nav#menu a.blue {
+    color: #3B8DBD; }
+nav#menu a.green {
+    color: #82B964; }
+nav#menu a.red {
+    color: #D24D33; }
+nav#menu > ol {
+    padding-bottom: 20px; }
+nav#menu > ol > li {
+    display: inline-block; }
+nav#menu > ol > li:not(:last-of-type) {
+    margin-left: 1em;
+    float: right; }
+nav#menu > ol > li > a {
+    color: #3B8DBD; }
+nav#menu > ol > li:last-of-type {
+    margin-top: 5px; }
+nav#menu > ol > li:last-of-type > a {
+    font-weight: bold; }
+nav#menu > ol > li:not(:last-of-type) > a {
+    font-size: 28px;
+    font-family: "typicons"; }

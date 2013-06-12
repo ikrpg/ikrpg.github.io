@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/static/stylesheets/index.css" />
+        <script src="/static/javascripts/expandable.js"></script>
+        <script src="/static/javascripts/opaquable.js"></script>
+        <script src="/static/javascripts/resizable.js"></script>
+    </head>
+    <body>
+        <article itemscope itemtype="http://schema.org/Article">
+            <nav id="menu">
+                <ol>
+                    <li><a href="#" class="red js-expandable">&#xE012;</a></li>
+                    <li><a href="#" class="red js-opaquable">&#xE05D;</a></li>
+                    <li><a href="#" class="red js-resizable">&#xE0EA;</a></li>
+                    <li><a href="#" class="green">&#xE099;</a></li>
+                    <li><a href="#" class="green">&#xE026;</a></li>
+                    <li><a href="#" class="green">&#xE0B5;</a></li>
+                    <li><a href="#" class="green">&#xE0F0;</a></li>
+                    <li><a href="#">&#xE09A;</a></li>
+                    <li><a href="/">&#xE081;</a></li>
+                    <li>
+                        <a href="#">
+                            <time datetime="2012-08-07" pubdate itemprop="dateCreated">{{ page.time }}</time>
+                        </a>
+                    </li>
+                </ol>
+            </nav>
+            <header id="head">
+                <h1 itemprop="name">{{ page.title }}</h1>
+                <nav>
+                    <ol>
+                    {% for tag in page.tags %}
+                        <li><a href="#">{{ tag }}</a></li>
+                    {% endfor %}
+                    </ol>
+                </nav>
+            </header>
+            <section class="content" itemprop="articleBody">{{ content }}</section>
+            <footer id="foot">
+                This page was edited by
+                <ul>
+                {% for editor in page.editors %}
+                    <li itemprop="creator" itemscope itemtype="http://schema.org/Person">
+                        <a itemprop="name" href="#">{{ editor }}</a>
+                    </li>
+                {% endfor %}
+                </ul>
+            </footer>
+        </article>
+    </body>
+</html>

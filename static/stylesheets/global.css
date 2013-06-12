@@ -1,0 +1,19 @@
+body {
+    max-width: 2000px;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #666;
+    background-image: url(/static/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-attachment: fixed;
+    background-color: #1A1A1A;
+    transition: color 1s; -webkit-transition: color 1s; -moz-transition: color 1s; -ms-transition: color 1s; }
+article {
+    margin: 0 auto;
+    padding: 18px 40px 25px 40px;
+    width: 980px;
+    background-color: rgba(252, 253, 246, 0.85);
+    transition: width 1s, background-color 1s; -webkit-transition: width 1s, background-color 1s; -moz-transition: width 1s, background-color 1s; -ms-transition: width 1s, background-color 1s; }
+a {
+    text-decoration: none; }

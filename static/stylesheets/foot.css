@@ -1,0 +1,26 @@
+footer#foot {
+    padding-bottom: 1.5em;
+    /*color: #666;*/
+    font-style: italic;
+    clear: both; }
+footer#foot a {
+    color: #3B8DBD; }
+footer#foot > ul,
+footer#foot > ul > li {
+    display: inline; }
+footer#foot > ul > li:after {
+    display: inline-block;
+    margin-left: -3px; }
+footer#foot > ul > li:not(:last-of-type):after {
+    content: ","; }
+footer#foot > ul > li:last-of-type:after {
+    content: "."; }
+footer#foot > ul:after {
+    content: "\A0";
+    margin-top: 24px;
+    display: inline-block;
+    width: 100%;
+    height: 24px;
+    background-image: url(/static/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% -1002px; }

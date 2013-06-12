@@ -1,0 +1,31 @@
+section.content {
+    font-size: 1em;
+    padding-bottom: 1.5em;
+    line-height: 1.6em;
+    font-weight: 300; }
+section.content > p {
+    margin: 1.5em 0;
+    text-align: justify; }
+section.content > h2 {
+    font-size: 1.5em;
+    margin-bottom: -0.5em;
+    font-family: 'Cabin', sans-serif;
+    text-transform: uppercase;
+    color: #2C2C2C;
+    font-weight: bold; }
+section.content > h3 {
+    font-size: 1.2em;
+    margin: 1em 0 -0.5em 0;
+    font-family: 'Cabin', sans-serif;
+    color: #2C2C2C;
+    font-weight: bold; }
+section.content a {
+    color: #3B8DBD; }
+section.content strong {
+    color: #D24D33; }
+section.content em {
+    color: #82B964; }
+section.content > h2 + table,
+section.content > h2 + table.left + table.right,
+section.content > h2 + table.right + table.left {
+    margin-top: 2em; }

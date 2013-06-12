@@ -1,0 +1,16 @@
+---
+layout: ikrpg
+time: June 2, 2013
+title: Unofficial IKRPG Wiki
+tags: [Sache, Raum, Zeit]
+editors: [Yord]
+---
+<p>
+    Welcome to the unofficial Iron Kingdoms Wiki.
+</p>
+<h2>Pages</h2>
+<ul>
+    {% for post in site.posts reversed sort:title %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
