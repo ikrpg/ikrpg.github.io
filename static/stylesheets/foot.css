@@ -1,5 +1,6 @@
 footer#foot {
-    padding-bottom: 1.5em;
+    /*padding-bottom: 1.5em;*/
+    padding-bottom: 0.5em;
     /*color: #666;*/
     font-style: italic;
     clear: both; }
@@ -15,12 +16,20 @@ footer#foot > ul > li:not(:last-of-type):after {
     content: ","; }
 footer#foot > ul > li:last-of-type:after {
     content: "."; }
+footer#foot > p {
+    font-size: 0.8em; }
+footer#foot > p:before,
 footer#foot > ul:after {
     content: "\A0";
-    margin-top: 24px;
     display: inline-block;
     width: 100%;
     height: 24px;
     background-image: url(/static/images/bg.jpg);
     background-repeat: no-repeat;
-    background-position: 50% -1002px; }
+    background-position: 50% -877px;
+    /*background-position: 50% -1002px;*/ }
+footer#foot > p:before {
+    margin-bottom: 24px; }
+footer#foot > ul:after {
+    margin-top: 24px; }
+

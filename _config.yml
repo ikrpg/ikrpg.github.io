@@ -2,3 +2,4 @@ name: IKRPG Wiki
 pygments: false
 permalink: /:title/
 port: 8080
+exclude: [ Makefile ]
