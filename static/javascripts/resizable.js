@@ -42,10 +42,10 @@
         event.preventDefault();
         var fontSize = parseFloat(style["fontSize"], 10);
         
-        if (fontSize < fontSize25)
-          article.style["fontSize"] = fontSize0+"px";
-        else if (fontSize > fontSize15)
+        if (fontSize > fontSize15)
           article.style["fontSize"] = fontSize3+"px";
+        else if (fontSize < fontSize25)
+          article.style["fontSize"] = fontSize0+"px";
       }
       
       addListener(jsOnload, "mouseover", over);
