@@ -8,6 +8,10 @@ section.content > table.left {
     float: left;
     margin-left: 0;
     margin-right: 1em; }
+section.content > table.text-left {
+    text-align: left; }
+section.content > table.text-right {
+    text-align: right; }
 section.content > table {
     margin: 0.5em auto 1em auto;
     text-align: center;
