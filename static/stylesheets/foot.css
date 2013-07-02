@@ -27,7 +27,7 @@ footer#foot > ul:after {
     height: 24px;
     background-image: url(/static/images/bg.jpg);
     background-repeat: no-repeat;
-    background-position: 50% -877px;
+    background-position: 50% -852px;
     /*background-position: 50% -1002px;*/ }
 footer#foot > p:before {
     margin-bottom: 24px; }

@@ -1,0 +1,124 @@
+---
+layout: ikrpg
+tags: [Rules, None, None]
+categories: [ Character-Sheet ]
+---
+
+<div class="sheet">
+    <form id="stats" class="card">
+        <input id="name" type="text" />
+        <input id="archetype" type="text" />
+        <input id="race" type="text" />
+        <input id="level" type="text" />
+        <input id="careers" type="text" />
+        <div id="battle" class="stats">
+            <input id="ini" type="text" />
+            <input id="spd" type="text" />
+            <input id="str" type="text" />
+            <input id="cmd" type="text" />
+            <input id="def" type="text" />
+            <input id="arm" type="text" />
+            <input id="arc" type="text" />
+        </div>
+        <div class="weapons" id="r1m1"></div>
+        <div class="weapons" id="r2m1"></div>
+        <div class="weapons" id="r1m2"></div>
+        <div class="weapons" id="r2"></div>
+        <div class="weapons" id="m2"></div>
+        <div id="rat1" class="ranged">
+            <input class="name" type="text" />
+            <div class="stats">
+                <input class="rat" type="text" />
+                <input class="rng" type="text" />
+                <input class="aoe" type="text" />
+                <input class="pow" type="text" />
+            </div>
+        </div>
+        <div id="rat2" class="ranged">
+            <input class="name" type="text" />
+            <div class="stats">
+                <input class="rat" type="text" />
+                <input class="rng" type="text" />
+                <input class="aoe" type="text" />
+                <input class="pow" type="text" />
+            </div>
+        </div>
+        <div id="mat1" class="melee">
+            <input class="name" type="text" />
+            <div class="stats">
+                <input class="mat" type="text" />
+                <input class="pow" type="text" />
+                <input class="ps" type="text" />
+            </div>
+        </div>
+        <div id="mat2" class="melee">
+            <input class="name" type="text" />
+            <div class="stats">
+                <input class="mat" type="text" />
+                <input class="pow" type="text" />
+                <input class="ps" type="text" />
+            </div>
+        </div>
+        <div id="mat3" class="melee">
+            <input class="name" type="text" />
+            <div class="stats">
+                <input class="mat" type="text" />
+                <input class="pow" type="text" />
+                <input class="ps" type="text" />
+            </div>
+        </div>
+        <input id="feats" type="text" />
+        <a id="weapons-switch" href="javascript:switchWeapons();">&nbsp;</a>
+        <div id="roleplay" class="stats">
+            <input id="phy" type="text" />
+            <input id="agl" type="text" />
+            <input id="prw" type="text" />
+            <input id="poi" type="text" />
+            <input id="int" type="text" />
+            <input id="per" type="text" />
+        </div>
+        <div id="mod">
+            <input id="ini_mod" type="text" />
+            <input id="def_mod" type="text" />
+            <input id="arm_mod" type="text" />
+            <input id="cmd_mod" type="text" />
+        </div>
+        <input id="wil" type="text" />
+        <input id="xp" type="text" />
+    </form>
+</div>
+<script type="text/javascript">
+    var Hero = {
+        "name": "Hero's name",
+        "archetype": "Archetype",
+        "race": "Race",
+        "level": "Level",
+        "careers": "Careers",
+        "phy": 0,
+        "spd": 0,
+        "str": 0,
+        "agl": 0,
+        "poi": 0,
+        "prw": 0,
+        "int": 0,
+        "arc": 0,
+        "per": 0,
+        "def": 0,
+        "ini": 0,
+        "cmd": 0,
+        "arm": 0,
+        "wil": 0,
+        "rat1": { "name": "Weapon name", "rat": 0, "rng": 0, "aoe": 0, "pow": 0 },
+        "rat2": { "name": "Weapon name", "rat": 0, "rng": 0, "aoe": 0, "pow": 0 },
+        "mat1": { "name": "Weapon name", "mat": 0, "pow": 0, "ps": 0 },
+        "mat2": { "name": "Weapon name", "mat": 0, "pow": 0, "ps": 0 },
+        "mat3": { "name": "Weapon name", "mat": 0, "pow": 0, "ps": 0 },
+        "feats": 0,
+        "ini_mod": 0,
+        "def_mod": 0,
+        "arm_mod": 0,
+        "cmd_mod": 0,
+        "xp": 0
+    };
+</script>
+<script type="text/javascript" src="/static/javascripts/heroic.js"></script>

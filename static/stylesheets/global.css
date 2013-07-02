@@ -5,7 +5,7 @@ body {
     color: #666;
     background-image: url(/static/images/bg.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 100%;
+    background-position: 50% -370px;
     background-attachment: fixed;
     background-color: #1A1A1A;
     transition: color 1s; -webkit-transition: color 1s; -moz-transition: color 1s; -ms-transition: color 1s; }

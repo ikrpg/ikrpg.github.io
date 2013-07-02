@@ -2,7 +2,7 @@ header#head {
     background-color: #1A1A1A;
     background-image: url(/static/images/bg.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 50%; }
+    background-position: 50% -436px; }
 header#head a {
     color: #FCFDF6;
     border-bottom: 1px solid #DDDDDB; }
@@ -11,10 +11,9 @@ header#head a:hover {
 header#head h1 {
     font-size: 3em;
     padding: 54px 24px 19px 24px;
-    font-family: 'Cabin', sans-serif;
+    font-family: "Cabin", sans-serif;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.85);
-    /*color: #FCFDF6;*/
     font-weight: bold; }
 header#head nav {
     padding: 0 0 30px 24px;

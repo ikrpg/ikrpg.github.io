@@ -1,5 +1,5 @@
 name: IKRPG Wiki
 pygments: false
-permalink: /:title/
+permalink: /:categories/:title/
 port: 8080
 exclude: [ Makefile, README.md ]

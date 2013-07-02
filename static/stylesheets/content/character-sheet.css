@@ -1,0 +1,124 @@
+/*form.sheet {
+    margin: 2em auto 0 auto;
+    width: 699px;
+    height: 988px;
+    background-image: url(/static/images/Stats.png);
+    background-repeat: no-repeat; }*/
+
+
+div.sheet {
+    margin: 2em auto 0 auto;
+    width: 699px;
+    height: 988px;
+}
+
+div.sheet > form.card { height: 988px; width: 699px; overflow: hidden; }
+div.sheet > form.card input,
+div.sheet > form.card textarea { height: 30px; font-family: Georgia; font-size: 23px; text-align: justify; color: #333; background: none; border: none; }
+
+div.sheet * { position: absolute; }
+div.sheet > form#stats { pointer-events: none; }
+div.sheet > form#stats * { pointer-events: auto; }
+div.sheet > form#stats { background-image: url(/static/images/sheet/Stats.png); }
+div.sheet > form#stats input#name { top: 20px; left: 180px; height: 45px; width: 485px; font-size: 37px; text-transform: uppercase; }
+div.sheet > form#stats input#archetype { top: 58px; left: 180px; width: 190px; }
+div.sheet > form#stats input#race { top: 58px; left: 370px; width: 150px; }
+div.sheet > form#stats input#level { top: 58px; left: 520px; width: 150px; }
+div.sheet > form#stats input#careers { top: 106px; left: 362px; width: 300px; }
+div.sheet > form#stats div#battle.stats { top: 157px; }
+div.sheet > form#stats div#battle.stats input { width: 30px; text-align: center; }
+div.sheet > form#stats div#battle.stats input#ini { left: 360px; }
+div.sheet > form#stats div#battle.stats input#spd { left: 406px; }
+div.sheet > form#stats div#battle.stats input#str { left: 452px; }
+div.sheet > form#stats div#battle.stats input#cmd { left: 498px; }
+div.sheet > form#stats div#battle.stats input#def { left: 544px; }
+div.sheet > form#stats div#battle.stats input#arm { left: 590px; }
+div.sheet > form#stats div#battle.stats input#arc { left: 640px; }
+div.sheet > form#stats div.weapons { height: 988px; width: 699px; pointer-events: none; display: none; }
+div.sheet > form#stats div.ranged,
+div.sheet > form#stats div.melee { left: 435px; }
+div.sheet > form#stats div.ranged input.name,
+div.sheet > form#stats div.melee input.name { width: 230px; text-transform: uppercase; }
+div.sheet > form#stats div.ranged div.stats,
+div.sheet > form#stats div.melee div.stats { top: 49px }
+div.sheet > form#stats div.melee div.stats input,
+div.sheet > form#stats div.ranged div.stats input { width: 30px; text-align: center; }
+div.sheet > form#stats div.ranged input.rat { left: 66px; }
+div.sheet > form#stats div.ranged input.rng { left: 110px; }
+div.sheet > form#stats div.ranged input.aoe { left: 154px; }
+div.sheet > form#stats div.ranged input.pow { left: 198px; }
+div.sheet > form#stats div.melee input.mat { left: 70px; }
+div.sheet > form#stats div.melee input.pow { left: 135px; }
+div.sheet > form#stats div.melee input.ps { left: 200px; }
+div.sheet > form#stats div.ranged#rat1 { top: 243px; display: block; }
+div.sheet > form#stats div.ranged#rat2 { top: 380px; display: none; }
+div.sheet > form#stats div.melee#mat1 { top: 245px; display: none; }
+div.sheet > form#stats div.melee#mat2 { top: 382px; display: block; }
+div.sheet > form#stats div.melee#mat3 { top: 516px; display: none; }
+div.sheet > form#stats div#r1m2 { background-image: url(/static/images/sheet/R+M+M.png); }
+div.sheet > form#stats div#r2m1 { background-image: url(/static/images/sheet/R+R+M.png); }
+div.sheet > form#stats div#r2 { background-image: url(/static/images/sheet/R+R.png); }
+div.sheet > form#stats div#m2 { background-image: url(/static/images/sheet/M+M.png); }
+div.sheet > form#stats input#feats { top: 502px; left: 161px; height: 52px; font-size: 40px; width: 50px; text-align: center; }
+div.sheet > form#stats a#weapons-switch { display: block; top: 532px; left: 335px; height: 60px; width: 60px; text-decoration: none; }
+div.sheet > form#stats div#roleplay.stats { top: 673px; }
+div.sheet > form#stats div#roleplay.stats input { width: 30px; text-align: center; }
+div.sheet > form#stats div#roleplay.stats input#phy { left: 398px; }
+div.sheet > form#stats div#roleplay.stats input#agl { left: 445px; }
+div.sheet > form#stats div#roleplay.stats input#prw { left: 492px; }
+div.sheet > form#stats div#roleplay.stats input#poi { left: 539px; }
+div.sheet > form#stats div#roleplay.stats input#int { left: 586px; }
+div.sheet > form#stats div#roleplay.stats input#per { left: 633px; }
+div.sheet > form#stats div#mod { top: 708px; }
+div.sheet > form#stats div#mod input { width: 30px; text-align: center; }
+div.sheet > form#stats div#mod input#ini_mod { left: 607px; }
+div.sheet > form#stats div#mod input#def_mod { top: 23px; left: 607px; }
+div.sheet > form#stats div#mod input#arm_mod { top: 46px; left: 607px; }
+div.sheet > form#stats div#mod input#cmd_mod { top: 69px; left: 516px; }
+div.sheet > form#stats input#wil { top: 784px; left: 572px; width: 92px; height: 52px; font-size: 40px; text-align: center; }
+div.sheet > form#stats input#xp { top: 918px; left: 570px; width: 40px; text-align: center; }
+div.sheet > form#stats a#weapons-switch { height: 51px; width: 51px; background-image: url(/static/images/sheet/reload.png); }
+
+div.sheet > form#skills { background-image: url(/static/images/sheet/Skills.png); }
+div.sheet > form#skills input#name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
+div.sheet > form#skills div.content { top: 180px; left: 20px; }
+div.sheet > form#skills div.content div.skill { position: relative; }
+div.sheet > form#skills div.content div.skill input { position: relative; width: 64px; text-align: center; }
+div.sheet > form#skills div.content div.skill input.title { width: 376px; font-size: 17px; text-align: left; text-transform: uppercase; font-weight: bold; }
+
+div.sheet > section#benefits { top: 0; left: 1398px; background-image: url(/static/images/sheet/Feats.png); }
+div.sheet > section#benefits input.name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
+div.sheet > section#benefits div.content { top: 200px; left: 20px; }
+div.sheet > section#benefits div.content div.benefit { position: relative; }
+div.sheet > section#benefits div.content div.benefit input.title { position: relative; width: 658px; font-size: 17px; text-transform: uppercase; font-weight: bold; }
+div.sheet > section#benefits div.content div.benefit textarea.description { position: relative; width: 658px; height: auto; font-size: 17px; }
+
+div.sheet > section#abilities { top: 0; left: 2097px; background-image: url(/static/images/sheet/Abilities.png); }
+div.sheet > section#abilities input.name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
+div.sheet > section#abilities div.content { top: 130px; left: 20px; }
+div.sheet > section#abilities div.content div.ability { position: relative; }
+div.sheet > section#abilities div.content div.ability input.title { position: relative; width: 658px; font-size: 17px; text-transform: uppercase; font-weight: bold; }
+div.sheet > section#abilities div.content div.ability textarea.description { position: relative; width: 658px; height: auto; font-size: 17px; }
+
+div.sheet > section#spells { top: 0; left: 2796px; background-image: url(/static/images/sheet/Spells.png); }
+div.sheet > section#spells input.name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
+div.sheet > section#spells div.content { top: 180px; left: 20px; }
+div.sheet > section#spells div.content div.spell { position: relative; }
+div.sheet > section#spells div.content div.spell input { position: relative; width: 64px; text-align: center; }
+div.sheet > section#spells div.content div.spell input.title { width: 236px; font-size: 17px; text-align: left; text-transform: uppercase; font-weight: bold; }
+div.sheet > section#spells div.content div.spell textarea.description { position: relative; width: 658px; height: auto; font-size: 17px; }
+
+div.sheet > section#gear { top: 0; left: 3495px; background-image: url(/static/images/sheet/Gear.png); }
+div.sheet > section#gear input.name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
+div.sheet > section#gear div.content { top: 180px; left: 20px; }
+div.sheet > section#gear div.content div.gear { position: relative; }
+div.sheet > section#gear div.content div.gear input { position: relative; font-size: 17px; }
+div.sheet > section#gear div.content div.gear input.title { width: 236px; text-transform: uppercase; font-weight: bold; }
+div.sheet > section#gear div.content div.gear input.benefit { width: 410px; }
+
+div.sheet > section#notes { top: 0; left: 4194px; background-image: url(/static/images/sheet/Abilities.png); }
+div.sheet > section#notes input.name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
+div.sheet > section#notes div.content { top: 130px; left: 20px; }
+div.sheet > section#notes div.content div.note { position: relative; }
+div.sheet > section#notes div.content div.note input.title { position: relative; width: 658px; font-size: 17px; text-transform: uppercase; font-weight: bold; }
+div.sheet > section#notes div.content div.note textarea.text { position: relative; width: 658px; height: auto; font-size: 17px; }
