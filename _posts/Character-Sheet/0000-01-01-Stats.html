@@ -1,6 +1,6 @@
 ---
 layout: ikrpg
-tags: [Rules, None, None]
+tags: [Character Sheet, None, None]
 categories: [ Character-Sheet ]
 ---
 
@@ -68,7 +68,7 @@ categories: [ Character-Sheet ]
             </div>
         </div>
         <input id="feats" type="text" />
-        <a id="weapons-switch" href="javascript:switchWeapons();">&nbsp;</a>
+        <a id="weapons-switch" href="javascript:hero.switchWeapons();">&nbsp;</a>
         <div id="roleplay" class="stats">
             <input id="phy" type="text" />
             <input id="agl" type="text" />
@@ -88,7 +88,7 @@ categories: [ Character-Sheet ]
     </form>
 </div>
 <p>
-    <a href="javascript:hero.url();">Store inserted data in URL</a>
+    <a href="javascript:hero.url();">Save sheet to URL</a>
 </p>
 <script type="text/javascript" src="/static/javascripts/heroic.js"></script>
 <script type="text/javascript">

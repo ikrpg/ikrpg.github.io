@@ -2,17 +2,25 @@ function Heroic(Hero) {
   var self = this;
   self.search = "";
   self.url = function() {
-  //var root = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname;
     document.location.search = self.search;
-  //return root+"?"+self.search;
   };
   self.redirect = function(link) {
     link.href = self.url();
     link.click();
-  //var sheet = document.querySelector("div.sheet");
-  //var parent = sheet.parentNode;
-  //var content = parent.innerHTML;
-  //parent.innerHTML = content+'<a href="'+self.url()+'">Link to this sheet</a>';
+  };
+  self.switchWeapons = function() {
+    var r1m1 = Hero.r1m1;
+    var r2m1 = Hero.r2m1;
+    var r1m2 = Hero.r1m2;
+    var r2 = Hero.r2;
+    var m2 = Hero.m2;
+    if (r1m1 == true) { Hero.r1m1 = false; Hero.r2m1 = true; }
+    else if (r2m1 == true) { Hero.r2m1 = false; Hero.r1m2 = true; }
+    else if (r1m2 == true) { Hero.r1m2 = false; Hero.r2 = true; }
+    else if (r2 == true) { Hero.r2 = false; Hero.m2 = true; }
+    else if (m2 == true) { Hero.m2 = false; Hero.r1m1 = true; }
+    else { Hero.r1m1 = true; }
+    document.location.search = encodeURIComponent(JSON.stringify(Hero));
   };
   self.bind = function() {
     var query = window.location.search;
@@ -49,24 +57,7 @@ function Heroic(Hero) {
     };
 
     var redirect = function() {
-      //document.location.search = encodeURIComponent(JSON.stringify(Hero));
       self.search = encodeURIComponent(JSON.stringify(Hero));
-      console.log(self.search);
-    };
-
-    var switchWeapons = function() {
-        var r1m1 = Hero.r1m1;
-        var r2m1 = Hero.r2m1;
-        var r1m2 = Hero.r1m2;
-        var r2 = Hero.r2;
-        var m2 = Hero.m2;
-        if (r1m1 == true) { Hero.r1m1 = false; Hero.r2m1 = true; }
-        else if (r2m1 == true) { Hero.r2m1 = false; Hero.r1m2 = true; }
-        else if (r1m2 == true) { Hero.r1m2 = false; Hero.r2 = true; }
-        else if (r2 == true) { Hero.r2 = false; Hero.m2 = true; }
-        else if (m2 == true) { Hero.m2 = false; Hero.r1m1 = true; }
-        else { Hero.r1m1 = true; }
-        redirect();
     };
 
     var initialize = function() {
