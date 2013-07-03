@@ -87,8 +87,12 @@ categories: [ Character-Sheet ]
         <input id="xp" type="text" />
     </form>
 </div>
+<p>
+    <a href="javascript:hero.url();">Store inserted data in URL</a>
+</p>
+<script type="text/javascript" src="/static/javascripts/heroic.js"></script>
 <script type="text/javascript">
-    var Hero = {
+    var hero = new Heroic({
         "name": "Hero's name",
         "archetype": "Archetype",
         "race": "Race",
@@ -125,6 +129,6 @@ categories: [ Character-Sheet ]
         "r1m2": false,
         "r2": false,
         "m2": false
-    };
+    });
+    hero.bind();
 </script>
-<script type="text/javascript" src="/static/javascripts/heroic.js"></script>

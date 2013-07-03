@@ -55,8 +55,12 @@ categories: [ Character-Sheet ]
         </div>
     </form>
 </div>
+<p>
+    <a href="javascript:hero.url();">Store inserted data in URL</a>
+</p>
+<script type="text/javascript" src="/static/javascripts/heroic.js"></script>
 <script type="text/javascript">
-    var Hero = {
+    var hero = new Heroic({
         "name": "Hero's name",
         "benefit1": { "title": "Common Feats", "description": "Boost Non-Attack Skill Roll - Heroic Dodge - Make a Quick Action - Parry - Relentless Charge - Reroll Failed Attack/Skill/Willpower roll - Run and Gun - Shake Continuous Effect - Shake Knockdown - Shake Stationary - Sprint - Two-Fister - Walk it Off" },
         "benefit2": { "title": "Benefit/Feat name", "description": "Benefit/Feat description" },
@@ -69,6 +73,6 @@ categories: [ Character-Sheet ]
         "benefit9": { "title": "", "description": "" },
         "benefit10": { "title": "", "description": "" },
         "benefit11": { "title": "", "description": "" }
-    };
+    });
+    hero.bind();
 </script>
-<script type="text/javascript" src="/static/javascripts/heroic.js"></script>

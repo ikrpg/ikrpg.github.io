@@ -121,8 +121,12 @@ categories: [ Character-Sheet ]
         </div>
     </form>
 </div>
+<p>
+    <a href="javascript:hero.url();">Store inserted data in URL</a>
+</p>
+<script type="text/javascript" src="/static/javascripts/heroic.js"></script>
 <script type="text/javascript">
-    var Hero = {
+    var hero = new Heroic({
         "name": "Hero's name",
         "spell1": { "title": "Spell 1", "cost": 0, "rng": 0, "aoe": "-", "pow": 0, "up": "NO", "off": "YES", "description": "Spell 1 description" },
         "spell2": { "title": "Spell 2", "cost": 0, "rng": 0, "aoe": "-", "pow": 0, "up": "NO", "off": "YES", "description": "Spell 2 description" },
@@ -135,6 +139,6 @@ categories: [ Character-Sheet ]
         "spell9": { "title": "", "cost": "", "rng": "", "aoe": "", "pow": "", "up": "", "off": "", "description": "" },
         "spell10": { "title": "", "cost": "", "rng": "", "aoe": "", "pow": "", "up": "", "off": "", "description": "" },
         "spell11": { "title": "", "cost": "", "rng": "", "aoe": "", "pow": "", "up": "", "off": "", "description": "" },
-    };
+    });
+    hero.bind();
 </script>
-<script type="text/javascript" src="/static/javascripts/heroic.js"></script>

@@ -158,8 +158,12 @@ categories: [ Character-Sheet ]
         </div>
     </form>
 </div>
+<p>
+    <a href="javascript:hero.url();">Store inserted data in URL</a>
+</p>
+<script type="text/javascript" src="/static/javascripts/heroic.js"></script>
 <script type="text/javascript">
-    var Hero = {
+    var hero = new Heroic({
         "name": "Hero's name",
         "s1": { "title": "Skill 1 name", "stat": "", "base": "", "lvl": "", "sum": "" },
         "s2": { "title": "Skill 2 name", "stat": "", "base": "", "lvl": "", "sum": "" },
@@ -182,6 +186,6 @@ categories: [ Character-Sheet ]
         "s19": { "title": "", "stat": "", "base": "", "lvl": "", "sum": "" },
         "s20": { "title": "", "stat": "", "base": "", "lvl": "", "sum": "" },
         "s21": { "title": "", "stat": "", "base": "", "lvl": "", "sum": "" }
-    };
+    });
+    hero.bind();
 </script>
-<script type="text/javascript" src="/static/javascripts/heroic.js"></script>

@@ -59,8 +59,12 @@ categories: [ Character-Sheet ]
         </div>
     </form>
 </div>
+<p>
+    <a href="javascript:hero.url();">Store inserted data in URL</a>
+</p>
+<script type="text/javascript" src="/static/javascripts/heroic.js"></script>
 <script type="text/javascript">
-    var Hero = {
+    var hero = new Heroic({
         "name": "Hero's name",
         "note1": { "title": "Permanent Injuries", "text": "None" },
         "note2": { "title": "Spoken Languages", "text": "" },
@@ -74,6 +78,6 @@ categories: [ Character-Sheet ]
         "note10": { "title": "", "text": "" },
         "note11": { "title": "", "text": "" },
         "note12": { "title": "", "text": "" }
-    };
+    });
+    hero.bind();
 </script>
-<script type="text/javascript" src="/static/javascripts/heroic.js"></script>
