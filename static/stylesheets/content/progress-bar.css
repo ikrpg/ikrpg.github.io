@@ -1,0 +1,120 @@
+nav.progress {
+    height: 4.5em;
+    margin: 1em 0em 0em 0.2em;
+    padding-top: 1.5em;
+    white-space: nowrap;
+    overflow: auto; }
+    nav.progress > ul {
+        background-color: #ddd;
+        box-shadow: inset 0 0.1em 0.2em rgba(0, 0, 0, 0.3); }
+    nav.progress ul {
+        float: left;
+        padding-left: 0;
+        height: 16px;
+        border-radius: 3em; }
+        nav.progress ul > li {
+            display: inline;
+            margin-top: 0em;
+            margin-bottom: 0em; }
+        nav.progress.step1 ul > li {
+            margin-left: 1em;
+            margin-right: 1em; }
+        nav.progress.step2 ul > li {
+            margin-left: 1.5em;
+            margin-right: 1.5em; }
+        nav.progress.step3 ul > li {
+            margin-left: 2em;
+            margin-right: 2em; }
+        nav.progress.step4 ul > li {
+            margin-left: 2.5em;
+            margin-right: 2.5em; }
+        nav.progress.step5 ul > li {
+            margin-left: 3em;
+            margin-right: 3em; }
+            nav.progress ul > li > a {
+                display: inline-block;
+                margin: -0.6em 0em 0em 0em;
+              /*width: 1.6em;
+                height: 1.6em;*/
+                width: 32px;
+                height: 32px;
+                background-color: #ddd;
+                border-radius: 1em;
+                box-shadow: inset 0 0.1em 0.2em rgba(0, 0, 0, 0.3); }
+            nav.progress ul li > div {
+                position: absolute;
+                display: none; }
+                nav.progress ul > li > a > span {
+                    display: block;
+                    padding-top: 2em;
+                    text-align: center;
+                    line-height: 1em;
+                    color: #666; }
+                nav.progress.step1 ul > li > a > span {
+                    margin-left: -10px;
+                    width: 3.2em; }
+                nav.progress.step2 ul > li > a > span {
+                    margin-left: -18px;
+                    width: 4.2em; }
+                nav.progress.step3 ul > li > a > span {
+                    margin-left: -26px;
+                    width: 5.2em; }
+                nav.progress.step4 ul > li > a > span {
+                    margin-left: -34px;
+                    width: 6.2em; }
+                nav.progress.step5 ul > li > a > span {
+                    margin-left: -42px;
+                    width: 7.2em; }
+
+    nav.progress.blue ul.last-sibling-of-kind,
+    nav.progress.blue ul:target,
+    nav.progress.blue ul.current { background-color: #3B8DBD; }
+    nav.progress.green ul.last-sibling-of-kind,
+    nav.progress.green ul:target,
+    nav.progress.green ul.current { background-color: #82B964; }
+    nav.progress.red ul.last-sibling-of-kind,
+    nav.progress.red ul:target,
+    nav.progress.red ul.current { background-color: #D24D33; }
+        nav.progress ul.last-sibling-of-kind > li > a,
+        nav.progress ul > li > a:hover,
+        nav.progress ul:target li > a,
+        nav.progress ul.current li > a {
+          background-repeat: no-repeat; }
+        nav.progress.blue ul.last-sibling-of-kind > li > a,
+        nav.progress.blue ul > li > a:hover,
+        nav.progress.blue ul:target li > a,
+        nav.progress.blue ul.current li > a {
+            background-color: #3B8DBD;
+            background-image: url(/static/images/progress/cygnar.png); }
+        nav.progress.red ul.last-sibling-of-kind > li > a,
+        nav.progress.red ul > li > a:hover,
+        nav.progress.red ul:target li > a,
+        nav.progress.red ul.current li > a {
+            background-color: #D24D33;
+            background-image: url(/static/images/progress/khador.png); }
+        nav.progress.green ul.last-sibling-of-kind > li > a,
+        nav.progress.green ul > li > a:hover,
+        nav.progress.green ul:target li > a,
+        nav.progress.green ul.current li > a {
+            background-color: #82B964;
+            background-image: url(/static/images/progress/mercenaries.png); }
+        nav.progress ul.last-sibling-of-kind > li > div,
+        nav.progress ul:target > li > div,
+        nav.progress ul.current > li > div { display: block; }
+        nav.progress ul:target > li > div,
+        nav.progress ul.current > li > div { z-index: 2; }
+            nav.progress ul.last-sibling-of-kind > li > a > span,
+            nav.progress ul > li > a:hover > span,
+            nav.progress ul:target li > a > span,
+            nav.progress ul.current li > a > span {
+                padding-top: 32px; }
+            nav.progress.step1 ul.current li > a > span {
+                margin-left: -12px; }
+            nav.progress.step2 ul.current li > a > span {
+                margin-left: -20px; }
+            nav.progress.step3 ul.current li > a > span {
+                margin-left: -28px; }
+            nav.progress.step4 ul.current li > a > span {
+                margin-left: -36px; }
+            nav.progress.step5 ul.current li > a > span {
+                margin-left: -44px; }
