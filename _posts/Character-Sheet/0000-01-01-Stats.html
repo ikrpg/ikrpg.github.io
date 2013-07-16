@@ -10,7 +10,7 @@ categories: [ Character-Sheet ]
 
 <h2>Usage</h2>
 <ol>
-    <li><strong>Fill out</strong> the input forms of the character sheet.</li>
+    <li><strong>Fill out</strong> the input fields of the character sheet.</li>
     <li>Click the <strong>Save sheet to URL</strong> link below the sheet.</li>
     <li><strong>Copy the URL</strong> and share it with your friends!</li>
 </ol>
@@ -22,6 +22,13 @@ categories: [ Character-Sheet ]
         <input id="race" type="text" />
         <input id="level" type="text" />
         <input id="careers" type="text" />
+        <div id="portrait">
+            <input class="url" type="text" />
+            <input class="x" type="text" />
+            <input class="y" type="text" />
+            <input class="size" type="text" />
+            <input type="button" value="apply" />
+        </div>
         <div id="battle" class="stats">
             <input id="ini" type="text" />
             <input id="spd" type="text" />
@@ -104,6 +111,7 @@ categories: [ Character-Sheet ]
 <script type="text/javascript" src="/static/javascripts/heroic.js"></script>
 <script type="text/javascript">
     var hero = new Heroic({
+        "portrait": { "url": "", "x": 0, "y": 0, "size": "auto" },
         "name": "Hero's name",
         "archetype": "Archetype",
         "race": "Race",

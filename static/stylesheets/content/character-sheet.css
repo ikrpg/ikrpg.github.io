@@ -1,18 +1,6 @@
-/*form.sheet {
-    margin: 2em auto 0 auto;
-    width: 699px;
-    height: 988px;
-    background-image: url(/static/images/Stats.png);
-    background-repeat: no-repeat; }*/
+div.sheet { margin: 2em auto 0 auto; width: 699px; height: 988px; background-repeat: no-repeat; }
 
-
-div.sheet {
-    margin: 2em auto 0 auto;
-    width: 699px;
-    height: 988px;
-}
-
-div.sheet > form.card { height: 988px; width: 699px; overflow: hidden; }
+div.sheet > form.card { height: 988px; width: 699px; background-repeat: no-repeat; overflow: hidden; }
 div.sheet > form.card input,
 div.sheet > form.card textarea { height: 30px; font-family: Georgia; font-size: 23px; text-align: justify; color: #333; background: none; border: none; }
 
@@ -25,6 +13,16 @@ div.sheet > form#stats input#archetype { top: 58px; left: 180px; width: 190px; }
 div.sheet > form#stats input#race { top: 58px; left: 370px; width: 150px; }
 div.sheet > form#stats input#level { top: 58px; left: 520px; width: 150px; }
 div.sheet > form#stats input#careers { top: 106px; left: 362px; width: 300px; }
+div.sheet > form#stats div#portrait { top: 103px; left: 2px; width: 350px; height: 400px; cursor: pointer; }
+div.sheet > form#stats div#portrait input { display: none; font-size: 1em; background-color: #BEB8AE; }
+div.sheet > form#stats div#portrait input[type="button"] { top: 72px; left: 2px; font-weight: bold; border-radius: 5px; cursor: pointer; }
+div.sheet > form#stats div#portrait input.url { width: 310px; }
+div.sheet > form#stats div#portrait input.x,
+div.sheet > form#stats div#portrait input.y,
+div.sheet > form#stats div#portrait input.size { width: 40px; text-align: right; }
+div.sheet > form#stats div#portrait input.x { top: 34px; }
+div.sheet > form#stats div#portrait input.y { top: 34px; left: 44px; }
+div.sheet > form#stats div#portrait input.size { top: 34px; left: 270px; }
 div.sheet > form#stats div#battle.stats { top: 157px; }
 div.sheet > form#stats div#battle.stats input { width: 30px; text-align: center; }
 div.sheet > form#stats div#battle.stats input#ini { left: 360px; }
@@ -79,28 +77,28 @@ div.sheet > form#stats input#wil { top: 784px; left: 572px; width: 92px; height:
 div.sheet > form#stats input#xp { top: 918px; left: 570px; width: 40px; text-align: center; }
 div.sheet > form#stats a#weapons-switch { height: 51px; width: 51px; background-image: url(/static/images/sheet/reload.png); }
 
-div.sheet > form#skills { background-image: url(/static/images/sheet/Skills.png); }
+div.sheet > form#skills { padding-top: 66px; background-image: url(/static/images/sheet/Skills.png); }
 div.sheet > form#skills input#name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
 div.sheet > form#skills div.content { top: 180px; left: 20px; }
 div.sheet > form#skills div.content div.skill { position: relative; }
 div.sheet > form#skills div.content div.skill input { position: relative; width: 64px; text-align: center; }
 div.sheet > form#skills div.content div.skill input.title { width: 376px; font-size: 17px; text-align: left; text-transform: uppercase; font-weight: bold; }
 
-div.sheet > form#benefits { background-image: url(/static/images/sheet/Feats.png); }
+div.sheet > form#benefits { padding-top: 66px; background-image: url(/static/images/sheet/Feats.png); }
 div.sheet > form#benefits input#name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
 div.sheet > form#benefits div.content { top: 200px; left: 20px; }
 div.sheet > form#benefits div.content div.benefit { position: relative; }
 div.sheet > form#benefits div.content div.benefit input.title { position: relative; width: 658px; font-size: 17px; text-transform: uppercase; font-weight: bold; }
 div.sheet > form#benefits div.content div.benefit textarea.description { position: relative; width: 658px; height: auto; font-size: 17px; }
 
-div.sheet > form#abilities { background-image: url(/static/images/sheet/Abilities.png); }
+div.sheet > form#abilities { padding-top: 66px; background-image: url(/static/images/sheet/Abilities.png); }
 div.sheet > form#abilities input#name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
 div.sheet > form#abilities div.content { top: 130px; left: 20px; }
 div.sheet > form#abilities div.content div.ability { position: relative; }
 div.sheet > form#abilities div.content div.ability input.title { position: relative; width: 658px; font-size: 17px; text-transform: uppercase; font-weight: bold; }
 div.sheet > form#abilities div.content div.ability textarea.description { position: relative; width: 658px; height: auto; font-size: 17px; }
 
-div.sheet > form#spells { background-image: url(/static/images/sheet/Spells.png); }
+div.sheet > form#spells { padding-top: 66px; background-image: url(/static/images/sheet/Spells.png); }
 div.sheet > form#spells input#name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
 div.sheet > form#spells div.content { top: 180px; left: 20px; }
 div.sheet > form#spells div.content div.spell { position: relative; }
@@ -108,7 +106,7 @@ div.sheet > form#spells div.content div.spell input { position: relative; width:
 div.sheet > form#spells div.content div.spell input.title { width: 236px; font-size: 17px; text-align: left; text-transform: uppercase; font-weight: bold; }
 div.sheet > form#spells div.content div.spell textarea.description { position: relative; width: 658px; height: auto; font-size: 17px; }
 
-div.sheet > form#gear { background-image: url(/static/images/sheet/Gear.png); }
+div.sheet > form#gear { padding-top: 66px; background-image: url(/static/images/sheet/Gear.png); }
 div.sheet > form#gear input#name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
 div.sheet > form#gear div.content { top: 180px; left: 20px; }
 div.sheet > form#gear div.content div.gear { position: relative; }
@@ -116,9 +114,13 @@ div.sheet > form#gear div.content div.gear input { position: relative; font-size
 div.sheet > form#gear div.content div.gear input.title { width: 236px; text-transform: uppercase; font-weight: bold; }
 div.sheet > form#gear div.content div.gear input.benefit { width: 410px; }
 
-div.sheet > form#notes { background-image: url(/static/images/sheet/Abilities.png); }
+div.sheet > form#notes { padding-top: 66px; background-image: url(/static/images/sheet/Abilities.png); }
 div.sheet > form#notes input#name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
 div.sheet > form#notes div.content { top: 130px; left: 20px; }
 div.sheet > form#notes div.content div.note { position: relative; }
 div.sheet > form#notes div.content div.note input.title { position: relative; width: 658px; font-size: 17px; text-transform: uppercase; font-weight: bold; }
 div.sheet > form#notes div.content div.note textarea.text { position: relative; width: 658px; height: auto; font-size: 17px; }
+
+@media print {
+    section.content > div.sheet { display: block; -webkit-transform: scale(0.4); -o-transform: scale(0.4); transform: scale(0.4); }
+}

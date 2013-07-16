@@ -1,3 +1,8 @@
+function addListener(elem, event, f) {
+  if (elem.addEventListener) elem.addEventListener(event, f, false);
+  else elem.attachEvent("on"+event, f);
+}
+
 function Heroic(Hero) {
   var self = this;
   self.search = "";
@@ -89,7 +94,10 @@ function Heroic(Hero) {
                     Hero["focus"] = attribute;
                     redirect();
                 };
-                if (isDefined(input)) { input.addEventListener("change", updateSearchString, false); }
+                if (isDefined(input)) {
+                //input.addEventListener("change", updateSearchString, false);
+                  addListener(input, "change", updateSearchString);
+                }
             } else if (isObject(value)) {
                 var parent = document.querySelector("#"+attribute);
                 updateSearchString = function(key, input) {
@@ -145,16 +153,54 @@ function Heroic(Hero) {
                 if (input != null) { input.focus(); input.scrollIntoView(); }
             }
         };
-
+        var setPortrait = function(hero) {
+          var portrait = hero["portrait"]
+            , portraitDiv = document.querySelector("#portrait");
+          if (portrait && portraitDiv) {
+            var url = portrait["url"]
+              , x = portrait["x"]
+              , y = portrait["y"]
+              , size = portrait["size"];
+            if (url != null && x != null && y != null && size != null) {
+              var sheet = document.querySelector("div.sheet");
+              if (sheet) {
+                sheet.style["backgroundImage"] = "url("+url+")";
+                sheet.style["backgroundPosition"] = y+"px "+x+"px";
+                sheet.style["backgroundSize"] = size == "auto" ? "auto" : size+"px";
+              }
+            }
+          }
+        };
+        
         for (var i = 0; i < textareas.length; i++) { autoresizableTextarea(textareas[i]); }
         showWeapons(Hero);
         for (attribute in Hero) { fillOut(attribute, Hero[attribute]); }
         for (attribute in Hero) { saveOnChange(attribute, Hero[attribute]); }
+        setPortrait(Hero);
         focusLastInput(Hero);
         
-        var names = document.querySelectorAll("section > input.name");
-        for (name in names) { names[name].value = Hero["name"]; }
+      //var names = document.querySelectorAll("section > input.name");
+      //for (name in names) { names[name].value = Hero["name"]; }
+      
+        var displayPortrait = function(portrait, value, pointerEvent) {
+          return function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            var inputs = portrait.querySelectorAll("input");
+            
+            for (var index = 0; index < inputs.length; index++) {
+              var input = inputs.item(index);
+              input.style["display"] = value;              
+              portrait.style["pointerEvents"] = pointerEvent;
+            }
+          };
+        };
+        var portrait = document.querySelector("#portrait")
+          , button = portrait.querySelector("input[type='button']");
         
+        addListener(portrait, "click", displayPortrait(portrait, "block", "none"));
+        addListener(button, "click", function(event) { displayPortrait(portrait, "none", "auto")(event); setPortrait(Hero); });
+      
         redirect();
     };
 

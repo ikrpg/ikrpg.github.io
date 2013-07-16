@@ -33,3 +33,8 @@ footer#foot > p:before {
     margin-bottom: 24px; }
 footer#foot > ul:after {
     margin-top: 24px; }
+
+@media print {
+    footer#foot {
+        display: none; }
+}

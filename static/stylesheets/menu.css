@@ -20,3 +20,8 @@ nav#menu > ol > li:nth-of-type(5) > a {
     color: #82B964; }
 nav#menu > ol > li:nth-of-type(n+6) > a {
     color: #D24D33; }
+
+@media print {
+    nav#menu {
+        display: none; }
+}

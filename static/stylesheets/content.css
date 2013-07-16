@@ -29,3 +29,10 @@ section.content > h2 + table,
 section.content > h2 + table.left + table.right,
 section.content > h2 + table.right + table.left {
     margin-top: 2em; }
+
+@media print {
+    section.content {
+        padding: 0 !important; }
+    section.content > * {
+        display: none; }
+}

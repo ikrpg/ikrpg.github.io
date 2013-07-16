@@ -17,3 +17,12 @@ article {
     transition: width 1s, background-color 1s; -webkit-transition: width 1s, background-color 1s; -moz-transition: width 1s, background-color 1s; -ms-transition: width 1s, background-color 1s; }
 a {
     text-decoration: none; }
+
+@media print {
+    body {
+        background-image: none;
+        background-color: transparent; }
+    article {
+        background-color: transparent;
+        width: auto; }
+}
