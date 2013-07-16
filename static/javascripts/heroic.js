@@ -165,7 +165,7 @@ function Heroic(Hero) {
               var sheet = document.querySelector("div.sheet");
               if (sheet) {
                 sheet.style["backgroundImage"] = "url("+url+")";
-                sheet.style["backgroundPosition"] = y+"px "+x+"px";
+                sheet.style["backgroundPosition"] = x+"px "+y+"px";
                 sheet.style["backgroundSize"] = size == "auto" ? "auto" : size+"px";
               }
             }
