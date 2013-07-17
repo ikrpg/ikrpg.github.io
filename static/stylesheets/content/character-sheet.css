@@ -121,6 +121,41 @@ div.sheet > form#notes div.content div.note { position: relative; }
 div.sheet > form#notes div.content div.note input.title { position: relative; width: 658px; font-size: 17px; text-transform: uppercase; font-weight: bold; }
 div.sheet > form#notes div.content div.note textarea.text { position: relative; width: 658px; height: auto; font-size: 17px; }
 
+div.sheet > form#details { padding-top: 66px; background-image: url(/static/images/sheet/Details.png); background-size: contain; }
+div.sheet > form#details input#name { top: 46px; left: 180px; height: 45px; width: 485px; font-size: 37px; text-transform: uppercase; }
+div.sheet > form#details div#attributes { top: 143px; left: 275px; }
+div.sheet > form#details div#attributes > input#playerName { width: 375px; }
+div.sheet > form#details div#attributes > input#careers { top: 57px; width: 270px; }
+div.sheet > form#details div#attributes > input#sex { top: 57px; left: 288px; width: 73px; }
+div.sheet > form#details div#attributes > input#archetype { top: 112px; width: 190px; }
+div.sheet > form#details div#attributes > input#race { top: 112px; left: 210px; width: 150px; }
+div.sheet > form#details div#attributes > input#definingCharacteristics { top: 167px; width: 350px; }
+div.sheet > form#details div#attributes > input#faith { top: 222px; width: 190px; }
+div.sheet > form#details div#attributes > input#weight { top: 222px; left: 200px; width: 190px; }
+div.sheet > form#details div#attributes > input#height { top: 277px; width: 190px; }
+div.sheet > form#details div#injuries { top: 500px; left: 270px; }
+div.sheet > form#details div#injuries > input { width: 390px; }
+div.sheet > form#details div#injuries > input#injury2 { top: 31px; }
+div.sheet > form#details div#injuries > input#injury3 { top: 62px; }
+div.sheet > form#details div#beliefs { top: 642px; left: 270px; }
+div.sheet > form#details div#beliefs > input { width: 390px; }
+div.sheet > form#details div#beliefs > input#belief2 { top: 31px; }
+div.sheet > form#details div#beliefs > input#belief3 { top: 62px; }
+div.sheet > form#details div#connections { top: 805px; left: 270px; }
+div.sheet > form#details div#connections > input { width: 390px; }
+div.sheet > form#details div#connections > input#connection2 { top: 28px; }
+div.sheet > form#details div#connections > input#connection3 { top: 56px; }
+div.sheet > form#details div#connections > input#connection4 { top: 84px; }
+div.sheet > form#details div#languages { top: 205px; left: 33px; }
+div.sheet > form#details div#languages > input { width: 230px; }
+div.sheet > form#details div#languages > input#language2 { top: 31px; }
+div.sheet > form#details div#languages > input#language3 { top: 62px; }
+div.sheet > form#details div#languages > input#language4 { top: 93px; }
+div.sheet > form#details div#languages > input#language5 { top: 124px; }
+div.sheet > form#details div#languages > input#language6 { top: 155px; }
+div.sheet > form#details div#languages > input#language7 { top: 186px; }
+div.sheet > form#details div#languages > input#language8 { top: 217px; }
+
 @media print {
     section.content > div.sheet { display: block; -webkit-transform: scale(0.4); -o-transform: scale(0.4); transform: scale(0.4); }
 }

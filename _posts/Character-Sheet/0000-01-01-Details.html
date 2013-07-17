@@ -1,0 +1,102 @@
+---
+layout: ikrpg
+tags: [ Character Sheet, None, None ]
+categories: [ Character-Sheet ]
+---
+
+<p>
+    <a href="/portal/Character-Sheet">Back to the Character Sheet main page</a>.
+</p>
+
+<h2>Usage</h2>
+<ol>
+    <li><strong>Fill out</strong> the input fields of the character sheet.</li>
+    <li>Click the <strong>Save sheet to URL</strong> link below the sheet.</li>
+    <li><strong>Copy the URL</strong> and share it with your friends!</li>
+</ol>
+
+<div class="sheet">
+    <form id="details" class="card">
+        <input id="name" type="text" />
+        <div id="attributes">
+            <input id="playerName" type="text" />
+            <input id="careers" type="text" />
+            <input id="sex" type="text" />
+            <input id="archetype" type="text" />
+            <input id="race" type="text" />
+            <input id="definingCharacteristics" type="text" />
+            <input id="faith" type="text" />
+            <input id="weight" type="text" />
+            <input id="height" type="text" />
+        </div>
+        <div id="injuries">
+            <input id="injury1" type="text" />
+            <input id="injury2" type="text" />
+            <input id="injury3" type="text" />
+        </div>
+        <div id="beliefs">
+            <input id="belief1" type="text" />
+            <input id="belief2" type="text" />
+            <input id="belief3" type="text" />
+        </div>
+        <div id="connections">
+            <input id="connection1" type="text" />
+            <input id="connection2" type="text" />
+            <input id="connection3" type="text" />
+            <input id="connection4" type="text" />
+        </div>
+        <div id="languages">
+            <input id="language1" type="text" />
+            <input id="language2" type="text" />
+            <input id="language3" type="text" />
+            <input id="language4" type="text" />
+            <input id="language5" type="text" />
+            <input id="language6" type="text" />
+            <input id="language7" type="text" />
+            <input id="language8" type="text" />
+        </div>
+    </form>
+</div>
+
+<p>
+    <a href="javascript:hero.url();">Save sheet to URL</a>
+</p>
+
+<p class="right">
+    Thanks to XYZ for the Sheet!
+</p>
+
+<script type="text/javascript" src="/static/javascripts/heroic.js"></script>
+<script type="text/javascript">
+    var hero = new Heroic({
+        "name": "Hero's name",
+        "archetype": "Archetype",
+        "race": "Race",
+        "careers": "Careers",
+        "playerName": "Player's Name",
+        "sex":"sex",
+        "definingCharacteristics": "Defining Characteristics",
+        "faith": "Faith",
+        "weight": "Weight",
+        "height": "Height",
+        "injury1": "Injury 1",
+        "injury2": "Injury 2",
+        "injury3": "...",
+        "belief1": "Religious Belief 1",
+        "belief2": "Religious Belief 2",
+        "belief3": "...",
+        "connection1": "Connection 1",
+        "connection2": "Connection 2",
+        "connection3": "...",
+        "connection4": "",
+        "language1": "Language 1",
+        "language2": "Language 2",
+        "language3": "...",
+        "language4": "",
+        "language5": "",
+        "language6": "",
+        "language7": "",
+        "language8": ""
+    });
+    hero.bind();
+</script>
