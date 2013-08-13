@@ -1,6 +1,6 @@
 div.sheet { margin: 2em auto 0 auto; width: 699px; height: 988px; background-repeat: no-repeat; }
 
-div.sheet > form.card { height: 988px; width: 699px; background-repeat: no-repeat; overflow: hidden; }
+div.sheet > form.card { height: 988px; width: 699px; background-repeat: no-repeat; }
 div.sheet > form.card input,
 div.sheet > form.card textarea { height: 30px; font-family: Georgia; font-size: 23px; text-align: justify; color: #333; background: none; border: none; }
 
