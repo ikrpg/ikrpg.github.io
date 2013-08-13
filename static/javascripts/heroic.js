@@ -91,7 +91,7 @@ function Heroic(Hero) {
               var input = document.querySelector("input#"+attribute);
               updateSearchString = function() {
                   Hero[attribute] = input.value;
-                  Hero["focus"] = attribute;
+                //Hero["focus"] = attribute;
                   redirect();
               };
               if (isDefined(input)) {
@@ -103,7 +103,7 @@ function Heroic(Hero) {
               updateSearchString = function(key, input) {
                   return function() {
                       Hero[attribute][key] = input.value;
-                      Hero["focus"] = attribute;
+                    //Hero["focus"] = attribute;
                       redirect();
                   };
               };
@@ -146,13 +146,13 @@ function Heroic(Hero) {
               hideElements([ r1m1, r2m1, r1m2, r2, rat1, rat2, mat3 ]);
           }
       };
-      var focusLastInput = function(hero) {
-          if (isDefined(hero["focus"])) {
-              var input = document.querySelector("input#"+hero["focus"]);
-              if (input == null) input = document.querySelector("#"+hero["focus"]+" input");
-              if (input != null) { input.focus(); input.scrollIntoView(); }
-          }
-      };
+    //var focusLastInput = function(hero) {
+    //    if (isDefined(hero["focus"])) {
+    //        var input = document.querySelector("input#"+hero["focus"]);
+    //        if (input == null) input = document.querySelector("#"+hero["focus"]+" input");
+    //        if (input != null) { input.focus(); input.scrollIntoView(); }
+    //    }
+    //};
       var setPortrait = function(hero) {
         var portrait = hero["portrait"]
           , portraitDiv = document.querySelector("#portrait");
@@ -177,7 +177,7 @@ function Heroic(Hero) {
       for (attribute in Hero) { fillOut(attribute, Hero[attribute]); }
       for (attribute in Hero) { saveOnChange(attribute, Hero[attribute]); }
       setPortrait(Hero);
-      focusLastInput(Hero);
+    //focusLastInput(Hero);
       
     //var names = document.querySelectorAll("section > input.name");
     //for (name in names) { names[name].value = Hero["name"]; }
