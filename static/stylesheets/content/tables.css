@@ -46,6 +46,8 @@ section.content > table.col-menu td:first-of-type {
 
 section.content > table.race {
     outline: none; }
+section.content > table.race > thead > tr:not(:first-of-type) {
+    border-top: 0; }
 section.content > table.race > thead > tr:first-of-type > th {
     padding-top: 0;
     font-size: 1.3em;

@@ -30,10 +30,10 @@ tags: [ Factual dimension, Geographic dimension, Time dimension ]
     {% endfor %}
 {% endcapture %}
 {% capture num_words %}
-    {{ get_items | split:' ' |  sort | join:' ' | number_of_words }}
+    {{ get_items | split:' ' | sort | join:' ' | number_of_words }}
 {% endcapture %}
 {% for item in (1..num_words) %}
-    {% assign category = get_items | split:' ' |  sort | join:' ' | truncatewords:item | remove:'...' | split:' '  | last | replace: '_', ' ' %}
+    {% assign category = get_items | split:' ' | sort | join:' ' | truncatewords:item | remove:'...' | split:' '  | last | replace: '_', ' ' %}
     <h2>{{ category | upcase }}</h2>
     <ul>
         {% for post in sorted_posts %}
