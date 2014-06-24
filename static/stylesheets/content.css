@@ -23,7 +23,7 @@ section.content > h3 {
     font-weight: bold; }
 section.content a {
     color: #3B8DBD; }
-section.content > p > a[href^='#'] {
+section.content a[href^='#'] {
     border-bottom: 1px #3B8DBD dashed; }
 section.content strong {
     color: #D24D33; }

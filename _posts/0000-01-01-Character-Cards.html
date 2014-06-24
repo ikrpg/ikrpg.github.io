@@ -1,0 +1,707 @@
+---
+layout: ikrpg
+tags: [Character Cards]
+---
+
+<style>
+    form[id], form[id]:target ~ form#stats { display: none; }
+    form[id]:target, form#stats { display: block; }
+    
+    div#pic { margin-top: 150px; width: 350px; height: 350px; overflow: hidden; }
+    div#pic > img { min-width: 350px; min-height: 500px; }
+    #portrait input.url {
+        z-index: 1000;
+        position: absolute;
+        font-size: 1em;
+        display: none;
+        margin-top: 500px;
+        width: 350px; }
+    #portrait input.top, #portrait input.left, #portrait input.width { display: none; }
+    
+    #seed { display: block; width: 100%; max-height: 26px; overflow: none; }
+</style>
+
+<p>
+    These are <strong>character cards</strong> for IKRPG heroes.
+</p>
+<p>
+    <form>
+        <textarea id="seed"></textarea>
+        <button id="update-seed">Update cards</button>
+        <button id="generate-seed">Generate seed</button>
+    </form>
+</p>
+
+<h2 style="font-weight:300;text-align:center;">
+    | <a href="#stats">Stats</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#abilities">Abilities</a> |
+    <a href="#benefits">Benefits</a> |
+    <a href="#spells">Spells</a> |
+    <a href="#gear">Gear</a> |
+    <a href="#notes">Notes</a> |
+    <!--a href="#details">Details</a-->
+</h3>
+
+<div id="stats-sheet" class="sheet">
+    <div id="pic">
+        <img src="" />
+    </div>
+    <div id="portrait">
+        <input class="url" title="url" placeholder="portrait url" type="text" />
+        <input class="top" title="top" type="text" />
+        <input class="left" title="left" type="text" />
+        <input class="width" title="width" type="text" />
+    </div>
+    <form id="stats" class="card">
+        <input class="hero-name" title="Hero's Name" type="text" />
+        <input id="archetype" title="Archetype" type="text" />
+        <input id="race" title="Race" type="text" />
+        <input id="level" title="Level" type="text" />
+        <input id="careers" title="Careers" type="text" />
+        <div id="battle" class="stats">
+            <input id="ini" title="INI" type="text" />
+            <input id="spd" title="SPD" type="text" />
+            <input id="str" title="STR" type="text" />
+            <input id="cmd" title="CMD" type="text" />
+            <input id="def" title="DEF" type="text" />
+            <input id="arm" title="ARM" type="text" />
+            <input id="arc" title="ARC" type="text" />
+        </div>
+        <div class="weapons" id="r1m1"></div>
+        <div class="weapons" id="r2m1"></div>
+        <div class="weapons" id="r1m2"></div>
+        <div class="weapons" id="r2"></div>
+        <div class="weapons" id="m2"></div>
+        <div id="rat1" class="ranged">
+            <input class="name" type="text" />
+            <div class="stats">
+                <input class="rat" title="RAT" type="text" />
+                <input class="rng" title="RNG" type="text" />
+                <input class="aoe" title="AOE" type="text" />
+                <input class="pow" title="POW" type="text" />
+            </div>
+        </div>
+        <div id="rat2" class="ranged">
+            <input class="name" type="text" />
+            <div class="stats">
+                <input class="rat" title="RAT" type="text" />
+                <input class="rng" title="RNG" type="text" />
+                <input class="aoe" title="AOE" type="text" />
+                <input class="pow" title="POW" type="text" />
+            </div>
+        </div>
+        <div id="mat1" class="melee">
+            <input class="name" type="text" />
+            <div class="stats">
+                <input title="MAT" class="mat" type="text" />
+                <input title="POW" class="pow" type="text" />
+                <input title="PS" class="ps" type="text" />
+            </div>
+        </div>
+        <div id="mat2" class="melee">
+            <input class="name" type="text" />
+            <div class="stats">
+                <input title="MAT" class="mat" type="text" />
+                <input title="POW" class="pow" type="text" />
+                <input title="PS" class="ps" type="text" />
+            </div>
+        </div>
+        <div id="mat3" class="melee">
+            <input class="name" type="text" />
+            <div class="stats">
+                <input title="MAT" class="mat" type="text" />
+                <input title="POW" class="pow" type="text" />
+                <input title="PS" class="ps" type="text" />
+            </div>
+        </div>
+        <input id="feats" type="text" />
+        <a id="weapons-switch" href="#">&nbsp;</a>
+        <div id="roleplay" class="stats">
+            <input id="phy" title="PHY" type="text" />
+            <input id="agl" title="AGL" type="text" />
+            <input id="prw" title="PRW" type="text" />
+            <input id="poi" title="POI" type="text" />
+            <input id="int" title="INI" type="text" />
+            <input id="per" title="PER" type="text" />
+        </div>
+        <div id="mod">
+            <input id="ini_mod" title="INI modificator" type="text" />
+            <input id="def_mod" title="DEF modificator" type="text" />
+            <input id="arm_mod" title="ARM modificator" type="text" />
+            <input id="cmd_mod" title="CMD modificator" type="text" />
+        </div>
+        <input title="WIL" id="wil" type="text" />
+        <input title="XP" id="xp" type="text" />
+    </form>
+    
+    <form id="skills" class="card">
+        <input class="hero-name" title="Hero's Name" type="text" />
+        <div class="content">
+            <div id="s1" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s2" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s3" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s4" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s5" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s6" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s7" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s8" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s9" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s10" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s11" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s12" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s13" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s14" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s15" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s16" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s17" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s18" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s19" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s20" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+            <div id="s21" class="skill">
+                <input type="text" title="Title" class="title" />
+                <input type="text" title="Stat" class="stat" />
+                <input type="text" title="Base" class="base" />
+                <input type="text" title="Level" class="lvl" />
+                <input type="text" title="Sum" class="sum" />
+            </div>
+        </div>
+    </form>
+    
+    <form id="abilities" class="card">
+        <input class="hero-name" title="Hero's Name" type="text" />
+        <div class="content">
+            <div id="ability1" class="ability">
+                <input class="title" title="Ability" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="ability2" class="ability">
+                <input class="title" title="Ability" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="ability3" class="ability">
+                <input class="title" title="Ability" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="ability4" class="ability">
+                <input class="title" title="Ability" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="ability5" class="ability">
+                <input class="title" title="Ability" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="ability6" class="ability">
+                <input class="title" title="Ability" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="ability7" class="ability">
+                <input class="title" title="Ability" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="ability8" class="ability">
+                <input class="title" title="Ability" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="ability9" class="ability">
+                <input class="title" title="Ability" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="ability10" class="ability">
+                <input class="title" title="Ability" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="ability11" class="ability">
+                <input class="title" title="Ability" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="ability12" class="ability">
+                <input class="title" title="Ability" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+        </div>
+    </form>
+    
+    <form id="benefits" class="card">
+        <input class="hero-name" title="Hero's Name" type="text" />
+        <div class="content">
+            <div id="benefit1" class="benefit">
+                <input class="title" title="Benefit" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="benefit2" class="benefit">
+                <input class="title" title="Benefit" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="benefit3" class="benefit">
+                <input class="title" title="Benefit" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="benefit4" class="benefit">
+                <input class="title" title="Benefit" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="benefit5" class="benefit">
+                <input class="title" title="Benefit" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="benefit6" class="benefit">
+                <input class="title" title="Benefit" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="benefit7" class="benefit">
+                <input class="title" title="Benefit" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="benefit8" class="benefit">
+                <input class="title" title="Benefit" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="benefit9" class="benefit">
+                <input class="title" title="Benefit" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="benefit10" class="benefit">
+                <input class="title" title="Benefit" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+            <div id="benefit11" class="benefit">
+                <input class="title" title="Benefit" type="text" />
+                <textarea class="description" title="Description" rows="1"></textarea>
+            </div>
+        </div>
+    </form>
+    
+    <form id="spells" class="card">
+        <input class="hero-name" title="Hero's Name" type="text" />
+        <div class="content">
+            <div id="spell1" class="spell">
+                <input type="text" title="Spell" class="title" />
+                <input type="text" title="Cost" class="cost" />
+                <input type="text" title="RNG" class="rng" />
+                <input type="text" title="AOE" class="aoe" />
+                <input type="text" title="POW" class="pow" />
+                <input type="text" title="UP" class="up" />
+                <input type="text" title="OFF" class="off" />
+                <textarea rows="1" title="Description" class="description" ></textarea>
+            </div>
+            <div id="spell2" class="spell">
+                <input type="text" title="Spell" class="title" />
+                <input type="text" title="Cost" class="cost" />
+                <input type="text" title="RNG" class="rng" />
+                <input type="text" title="AOE" class="aoe" />
+                <input type="text" title="POW" class="pow" />
+                <input type="text" title="UP" class="up" />
+                <input type="text" title="OFF" class="off" />
+                <textarea rows="1" title="Description" class="description" ></textarea>
+            </div>
+            <div id="spell3" class="spell">
+                <input type="text" title="Spell" class="title" />
+                <input type="text" title="Cost" class="cost" />
+                <input type="text" title="RNG" class="rng" />
+                <input type="text" title="AOE" class="aoe" />
+                <input type="text" title="POW" class="pow" />
+                <input type="text" title="UP" class="up" />
+                <input type="text" title="OFF" class="off" />
+                <textarea rows="1" title="Description" class="description" ></textarea>
+            </div>
+            <div id="spell4" class="spell">
+                <input type="text" title="Spell" class="title" />
+                <input type="text" title="Cost" class="cost" />
+                <input type="text" title="RNG" class="rng" />
+                <input type="text" title="AOE" class="aoe" />
+                <input type="text" title="POW" class="pow" />
+                <input type="text" title="UP" class="up" />
+                <input type="text" title="OFF" class="off" />
+                <textarea rows="1" title="Description" class="description" ></textarea>
+            </div>
+            <div id="spell5" class="spell">
+                <input type="text" title="Spell" class="title" />
+                <input type="text" title="Cost" class="cost" />
+                <input type="text" title="RNG" class="rng" />
+                <input type="text" title="AOE" class="aoe" />
+                <input type="text" title="POW" class="pow" />
+                <input type="text" title="UP" class="up" />
+                <input type="text" title="OFF" class="off" />
+                <textarea rows="1" title="Description" class="description" ></textarea>
+            </div>
+            <div id="spell6" class="spell">
+                <input type="text" title="Spell" class="title" />
+                <input type="text" title="Cost" class="cost" />
+                <input type="text" title="RNG" class="rng" />
+                <input type="text" title="AOE" class="aoe" />
+                <input type="text" title="POW" class="pow" />
+                <input type="text" title="UP" class="up" />
+                <input type="text" title="OFF" class="off" />
+                <textarea rows="1" title="Description" class="description" ></textarea>
+            </div>
+            <div id="spell7" class="spell">
+                <input type="text" title="Spell" class="title" />
+                <input type="text" title="Cost" class="cost" />
+                <input type="text" title="RNG" class="rng" />
+                <input type="text" title="AOE" class="aoe" />
+                <input type="text" title="POW" class="pow" />
+                <input type="text" title="UP" class="up" />
+                <input type="text" title="OFF" class="off" />
+                <textarea rows="1" title="Description" class="description" ></textarea>
+            </div>
+            <div id="spell8" class="spell">
+                <input type="text" title="Spell" class="title" />
+                <input type="text" title="Cost" class="cost" />
+                <input type="text" title="RNG" class="rng" />
+                <input type="text" title="AOE" class="aoe" />
+                <input type="text" title="POW" class="pow" />
+                <input type="text" title="UP" class="up" />
+                <input type="text" title="OFF" class="off" />
+                <textarea rows="1" title="Description" class="description" ></textarea>
+            </div>
+            <div id="spell9" class="spell">
+                <input type="text" title="Spell" class="title" />
+                <input type="text" title="Cost" class="cost" />
+                <input type="text" title="RNG" class="rng" />
+                <input type="text" title="AOE" class="aoe" />
+                <input type="text" title="POW" class="pow" />
+                <input type="text" title="UP" class="up" />
+                <input type="text" title="OFF" class="off" />
+                <textarea rows="1" title="Description" class="description" ></textarea>
+            </div>
+            <div id="spell10" class="spell">
+                <input type="text" title="Spell" class="title" />
+                <input type="text" title="Cost" class="cost" />
+                <input type="text" title="RNG" class="rng" />
+                <input type="text" title="AOE" class="aoe" />
+                <input type="text" title="POW" class="pow" />
+                <input type="text" title="UP" class="up" />
+                <input type="text" title="OFF" class="off" />
+                <textarea rows="1" title="Description" class="description" ></textarea>
+            </div>
+            <div id="spell11" class="spell">
+                <input type="text" title="Spell" class="title" />
+                <input type="text" title="Cost" class="cost" />
+                <input type="text" title="RNG" class="rng" />
+                <input type="text" title="AOE" class="aoe" />
+                <input type="text" title="POW" class="pow" />
+                <input type="text" title="UP" class="up" />
+                <input type="text" title="OFF" class="off" />
+                <textarea rows="1" title="Description" class="description" ></textarea>
+            </div>
+        </div>
+    </form>
+    
+    <form id="gear" class="card">
+        <input class="hero-name" title="Hero's Name" type="text" />
+        <div class="content">
+            <div id="gear1" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear2" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear3" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear4" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear5" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear6" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear7" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear8" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear9" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear10" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear11" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear12" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear13" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear14" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear15" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear16" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear17" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear18" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear19" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear20" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear21" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear22" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+            <div id="gear23" class="gear">
+                <input type="text" title="Gear" class="title" />
+                <input type="text" title="Benefit" class="benefit" />
+            </div>
+        </div>
+    </form>
+    
+    <form id="notes" class="card">
+        <input class="hero-name" title="Hero's Name" type="text" />
+        <div class="content">
+            <div id="note1" class="note">
+                <input class="title" title="Title" type="text" />
+                <textarea class="text" title="Text" rows="1"></textarea>
+            </div>
+            <div id="note2" class="note">
+                <input class="title" title="Title" type="text" />
+                <textarea class="text" title="Text" rows="1"></textarea>
+            </div>
+            <div id="note3" class="note">
+                <input class="title" title="Title" type="text" />
+                <textarea class="text" title="Text" rows="1"></textarea>
+            </div>
+            <div id="note4" class="note">
+                <input class="title" title="Title" type="text" />
+                <textarea class="text" title="Text" rows="1"></textarea>
+            </div>
+            <div id="note5" class="note">
+                <input class="title" title="Title" type="text" />
+                <textarea class="text" title="Text" rows="1"></textarea>
+            </div>
+            <div id="note6" class="note">
+                <input class="title" title="Title" type="text" />
+                <textarea class="text" title="Text" rows="1"></textarea>
+            </div>
+            <div id="note7" class="note">
+                <input class="title" title="Title" type="text" />
+                <textarea class="text" title="Text" rows="1"></textarea>
+            </div>
+            <div id="note8" class="note">
+                <input class="title" title="Title" type="text" />
+                <textarea class="text" title="Text" rows="1"></textarea>
+            </div>
+            <div id="note9" class="note">
+                <input class="title" title="Title" type="text" />
+                <textarea class="text" title="Text" rows="1"></textarea>
+            </div>
+            <div id="note10" class="note">
+                <input class="title" title="Title" type="text" />
+                <textarea class="text" title="Text" rows="1"></textarea>
+            </div>
+            <div id="note11" class="note">
+                <input class="title" title="Title" type="text" />
+                <textarea class="text" title="Text" rows="1"></textarea>
+            </div>
+            <div id="note12" class="note">
+                <input class="title" title="Title" type="text" />
+                <textarea class="text" title="Text" rows="1"></textarea>
+            </div>
+        </div>
+    </form>
+    
+    <form id="details" class="card">
+        <input class="hero-name" type="text" />
+        <div id="attributes">
+            <input id="playerName" type="text" />
+            <input id="careers" type="text" />
+            <input id="sex" type="text" />
+            <input id="archetype" type="text" />
+            <input id="race" type="text" />
+            <input id="definingCharacteristics" type="text" />
+            <input id="faith" type="text" />
+            <input id="weight" type="text" />
+            <input id="height" type="text" />
+        </div>
+        <div id="injuries">
+            <input id="injury1" type="text" />
+            <input id="injury2" type="text" />
+            <input id="injury3" type="text" />
+        </div>
+        <div id="beliefs">
+            <input id="belief1" type="text" />
+            <input id="belief2" type="text" />
+            <input id="belief3" type="text" />
+        </div>
+        <div id="connections">
+            <input id="connection1" type="text" />
+            <input id="connection2" type="text" />
+            <input id="connection3" type="text" />
+            <input id="connection4" type="text" />
+        </div>
+        <div id="languages">
+            <input id="language1" type="text" />
+            <input id="language2" type="text" />
+            <input id="language3" type="text" />
+            <input id="language4" type="text" />
+            <input id="language5" type="text" />
+            <input id="language6" type="text" />
+            <input id="language7" type="text" />
+            <input id="language8" type="text" />
+        </div>
+    </form>
+</div>
+<script type="text/javascript" src="/static/javascripts/heroic.js"></script>
+<script type="text/javascript">
+    ikrpg.cards.init();
+</script>

@@ -8,6 +8,7 @@ div.sheet * { position: absolute; }
 div.sheet > form#stats { pointer-events: none; }
 div.sheet > form#stats * { pointer-events: auto; }
 div.sheet > form#stats { background-image: url(/static/images/sheet/Stats.png); }
+div.sheet > form#stats input.hero-name,
 div.sheet > form#stats input#name { top: 20px; left: 180px; height: 45px; width: 485px; font-size: 37px; text-transform: uppercase; }
 div.sheet > form#stats input#archetype { top: 58px; left: 180px; width: 190px; }
 div.sheet > form#stats input#race { top: 58px; left: 370px; width: 150px; }
@@ -58,7 +59,7 @@ div.sheet > form#stats div#r2m1 { background-image: url(/static/images/sheet/R+R
 div.sheet > form#stats div#r2 { background-image: url(/static/images/sheet/R+R.png); }
 div.sheet > form#stats div#m2 { background-image: url(/static/images/sheet/M+M.png); }
 div.sheet > form#stats input#feats { top: 502px; left: 161px; height: 52px; font-size: 40px; width: 50px; text-align: center; }
-div.sheet > form#stats a#weapons-switch { display: block; top: 532px; left: 335px; height: 60px; width: 60px; text-decoration: none; }
+div.sheet > form#stats a#weapons-switch { display: block; top: 532px; left: 335px; height: 60px; width: 60px; text-decoration: none; border: 0; }
 div.sheet > form#stats div#roleplay.stats { top: 673px; }
 div.sheet > form#stats div#roleplay.stats input { width: 30px; text-align: center; }
 div.sheet > form#stats div#roleplay.stats input#phy { left: 398px; }
@@ -78,28 +79,28 @@ div.sheet > form#stats input#xp { top: 918px; left: 570px; width: 40px; text-ali
 div.sheet > form#stats a#weapons-switch { height: 51px; width: 51px; background-image: url(/static/images/sheet/reload.png); }
 
 div.sheet > form#skills { padding-top: 66px; background-image: url(/static/images/sheet/Skills.png); }
-div.sheet > form#skills input#name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
+div.sheet > form#skills input.hero-name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
 div.sheet > form#skills div.content { top: 180px; left: 20px; }
 div.sheet > form#skills div.content div.skill { position: relative; }
 div.sheet > form#skills div.content div.skill input { position: relative; width: 64px; text-align: center; }
 div.sheet > form#skills div.content div.skill input.title { width: 376px; font-size: 17px; text-align: left; text-transform: uppercase; font-weight: bold; }
 
 div.sheet > form#benefits { padding-top: 66px; background-image: url(/static/images/sheet/Feats.png); }
-div.sheet > form#benefits input#name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
+div.sheet > form#benefits input.hero-name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
 div.sheet > form#benefits div.content { top: 200px; left: 20px; }
 div.sheet > form#benefits div.content div.benefit { position: relative; }
 div.sheet > form#benefits div.content div.benefit input.title { position: relative; width: 658px; font-size: 17px; text-transform: uppercase; font-weight: bold; }
 div.sheet > form#benefits div.content div.benefit textarea.description { position: relative; width: 658px; height: auto; font-size: 17px; }
 
 div.sheet > form#abilities { padding-top: 66px; background-image: url(/static/images/sheet/Abilities.png); }
-div.sheet > form#abilities input#name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
+div.sheet > form#abilities input.hero-name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
 div.sheet > form#abilities div.content { top: 130px; left: 20px; }
 div.sheet > form#abilities div.content div.ability { position: relative; }
 div.sheet > form#abilities div.content div.ability input.title { position: relative; width: 658px; font-size: 17px; text-transform: uppercase; font-weight: bold; }
 div.sheet > form#abilities div.content div.ability textarea.description { position: relative; width: 658px; height: auto; font-size: 17px; }
 
 div.sheet > form#spells { padding-top: 66px; background-image: url(/static/images/sheet/Spells.png); }
-div.sheet > form#spells input#name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
+div.sheet > form#spells input.hero-name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
 div.sheet > form#spells div.content { top: 180px; left: 20px; }
 div.sheet > form#spells div.content div.spell { position: relative; }
 div.sheet > form#spells div.content div.spell input { position: relative; width: 64px; text-align: center; }
@@ -107,7 +108,7 @@ div.sheet > form#spells div.content div.spell input.title { width: 236px; font-s
 div.sheet > form#spells div.content div.spell textarea.description { position: relative; width: 658px; height: auto; font-size: 17px; }
 
 div.sheet > form#gear { padding-top: 66px; background-image: url(/static/images/sheet/Gear.png); }
-div.sheet > form#gear input#name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
+div.sheet > form#gear input.hero-name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
 div.sheet > form#gear div.content { top: 180px; left: 20px; }
 div.sheet > form#gear div.content div.gear { position: relative; }
 div.sheet > form#gear div.content div.gear input { position: relative; font-size: 17px; }
@@ -115,14 +116,14 @@ div.sheet > form#gear div.content div.gear input.title { width: 236px; text-tran
 div.sheet > form#gear div.content div.gear input.benefit { width: 410px; }
 
 div.sheet > form#notes { padding-top: 66px; background-image: url(/static/images/sheet/Abilities.png); }
-div.sheet > form#notes input#name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
+div.sheet > form#notes input.hero-name { top: 47px; left: 143px; height: 46px; width: 526px; font-size: 37px; text-transform: uppercase; }
 div.sheet > form#notes div.content { top: 130px; left: 20px; }
 div.sheet > form#notes div.content div.note { position: relative; }
 div.sheet > form#notes div.content div.note input.title { position: relative; width: 658px; font-size: 17px; text-transform: uppercase; font-weight: bold; }
 div.sheet > form#notes div.content div.note textarea.text { position: relative; width: 658px; height: auto; font-size: 17px; }
 
 div.sheet > form#details { padding-top: 66px; background-image: url(/static/images/sheet/Details.png); background-size: contain; }
-div.sheet > form#details input#name { top: 46px; left: 180px; height: 45px; width: 485px; font-size: 37px; text-transform: uppercase; }
+div.sheet > form#details input.hero-name { top: 46px; left: 180px; height: 45px; width: 485px; font-size: 37px; text-transform: uppercase; }
 div.sheet > form#details div#attributes { top: 143px; left: 275px; }
 div.sheet > form#details div#attributes > input#playerName { width: 375px; }
 div.sheet > form#details div#attributes > input#careers { top: 57px; width: 270px; }
