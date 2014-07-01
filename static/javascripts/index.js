@@ -17,7 +17,7 @@ var ikrpg = ikrpg || {};
   //     Adventuring Company, Archetype, Career, Career Option, Race
   // Armory
   //     Armor, Melee Weapon, Improvised Melee Weapon, Ranged Weapon, Ammunition,
-  //     Ranged Weapon Accessory, Improvised Ranged Weapon, Rare Ranged Weapon
+  //     Ranged Weapon Accessory, Improvised Ranged Weapon, Magical Ranged Weapon
   // Disease
   //     Disease Type, Disease Classification, Contraction Method, Symptom, Disease
   // Equipment
@@ -4683,48 +4683,20 @@ var ikrpg = ikrpg || {};
       category:    "Armory",
       subcategory: "Improvised Ranged Weapon"
     },
-    // ##### Armory > Rare Ranged Weapon ##### \\
+    // ##### Armory > Magical Ranged Weapon ##### \\
     {
       name:        "Article 1185",
       publication: "No Quarter #47",
       page:        "59",
       category:    "Armory",
-      subcategory: "Rare Ranged Weapon"
-    },
-    {
-      name:        "Fettershot",
-      publication: "No Quarter #47",
-      page:        "59",
-      category:    "Armory",
-      subcategory: "Rare Ranged Weapon"
+      subcategory: "Magical Ranged Weapon"
     },
     {
       name:        "Imprecator",
       publication: "No Quarter #47",
       page:        "60",
       category:    "Armory",
-      subcategory: "Rare Ranged Weapon"
-    },
-    {
-      name:        "Northwind",
-      publication: "No Quarter #47",
-      page:        "61",
-      category:    "Armory",
-      subcategory: "Rare Ranged Weapon"
-    },
-    {
-      name:        "Reconciler",
-      publication: "No Quarter #47",
-      page:        "62",
-      category:    "Armory",
-      subcategory: "Rare Ranged Weapon"
-    },
-    {
-      name:        "Trammel Shortarm",
-      publication: "No Quarter #47",
-      page:        "63",
-      category:    "Armory",
-      subcategory: "Rare Ranged Weapon"
+      subcategory: "Magical Ranged Weapon"
     },
     // ##### Disease > Disease Type ##### \\
     {
@@ -7125,6 +7097,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Mechanikal Weapon"
     },
     {
+      name:        "Fettershot",
+      publication: "No Quarter #47",
+      page:        "59",
+      category:    "Mechanika",
+      subcategory: "Mechanikal Weapon"
+    },
+    {
       name:        "Final Word (Mechanika Hand Cannon)",
       publication: "Urban Adventure",
       page:        "93",
@@ -7132,9 +7111,30 @@ var ikrpg = ikrpg || {};
       subcategory: "Mechanikal Weapon"
     },
     {
+      name:        "Northwind",
+      publication: "No Quarter #47",
+      page:        "61",
+      category:    "Mechanika",
+      subcategory: "Mechanikal Weapon"
+    },
+    {
+      name:        "Reconciler",
+      publication: "No Quarter #47",
+      page:        "62",
+      category:    "Mechanika",
+      subcategory: "Mechanikal Weapon"
+    },
+    {
       name:        "Storm Glaive",
       publication: "Core Rules",
       page:        "288",
+      category:    "Mechanika",
+      subcategory: "Mechanikal Weapon"
+    },
+    {
+      name:        "Trammel Shortarm",
+      publication: "No Quarter #47",
+      page:        "63",
       category:    "Mechanika",
       subcategory: "Mechanikal Weapon"
     },
