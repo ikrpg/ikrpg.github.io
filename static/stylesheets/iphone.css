@@ -1,0 +1,20 @@
+@media only screen and (max-width: 480px) {
+	
+	body {
+		max-width: 700px;
+	}
+	
+	header#head h1 {
+		font-size: 2em;
+	}
+	
+	article {
+		width: 700px;
+	}
+	
+	input, textarea {
+		-webkit-appearance: none;
+		padding: 0;
+	}
+	
+}
