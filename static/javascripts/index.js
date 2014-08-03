@@ -36,7 +36,7 @@ var ikrpg = ikrpg || {};
   //     Criminal Enterprise, Military Organization, Enterprise, Arcane Order,
   //     Religious Group, Dynasty
   // Skill
-  //     Military Skill, Occupational Skill, Duelling Maneuver
+  //     Military Skill, Occupational Skill, Duelling Maneuver, Trick Riding
   // Spell
   // Steamjack
   //     Steamjack/Vector, Chassis, Cortex, Melee Weapon, Ranged Weapon, Gear/Upgrade, Tune-Up
@@ -552,6 +552,13 @@ var ikrpg = ikrpg || {};
       name:        "Dark Scribe",
       publication: "Urban Adventure",
       page:        "68",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Deadly Skill",
+      publication: "No Quarter #55",
+      page:        "86",
       category:    "Ability",
       subcategory: ""
     },
@@ -1606,6 +1613,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Snow Wreathed",
+      publication: "No Quarter #55",
+      page:        "86",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Soul Taker",
       publication: "Urban Adventure",
       page:        "68",
@@ -1788,6 +1802,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Trick Rider",
+      publication: "No Quarter #55",
+      page:        "86",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Trip",
       publication: "Kings, Nations, and Gods",
       page:        "362",
@@ -1904,6 +1925,13 @@ var ikrpg = ikrpg || {};
       name:        "Immortality Part 2: Act of Murder",
       publication: "No Quarter #54",
       page:        "97",
+      category:    "Adventure",
+      subcategory: "Scenario"
+    },
+    {
+      name:        "Immortality Part 3: Mercilessly Alive",
+      publication: "No Quarter #55",
+      page:        "94",
       category:    "Adventure",
       subcategory: "Scenario"
     },
@@ -3073,9 +3101,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Career Option"
     },
     {
+      name:        "Flame Bringers",
+      publication: "No Quarter #55",
+      page:        "85",
+      category:    "Character Creation",
+      subcategory: "Career Option"
+    },
+    {
       name:        "Greylord",
       publication: "Kings, Nations, and Gods",
       page:        "175",
+      category:    "Character Creation",
+      subcategory: "Career Option"
+    },
+    {
+      name:        "Greylord Outrider",
+      publication: "No Quarter #55",
+      page:        "86",
       category:    "Character Creation",
       subcategory: "Career Option"
     },
@@ -3181,6 +3223,13 @@ var ikrpg = ikrpg || {};
       name:        "Storm Lance",
       publication: "Kings, Nations, and Gods",
       page:        "88",
+      category:    "Character Creation",
+      subcategory: "Career Option"
+    },
+    {
+      name:        "Tempest Blazer",
+      publication: "No Quarter #55",
+      page:        "85",
       category:    "Character Creation",
       subcategory: "Career Option"
     },
@@ -4020,6 +4069,14 @@ var ikrpg = ikrpg || {};
       page:        "24",
       category:    "Armory",
       subcategory: "Improvised Melee Weapon"
+    },
+    // ##### Armory > Magical Melee Weapon ##### \\
+    {
+      name:        "Greylords Rune Axe",
+      publication: "No Quarter #55",
+      page:        "87",
+      category:    "Armory",
+      subcategory: "Magical Melee Weapon"
     },
     // ##### Armory > Ranged Weapon ##### \\
     {
@@ -6387,6 +6444,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Balukar Rageborn",
+      publication: "No Quarter #55",
+      page:        "88",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
       name:        "Bloody Barnabas",
       publication: "No Quarter #45",
       page:        "39",
@@ -6558,6 +6622,13 @@ var ikrpg = ikrpg || {};
       name:        "Jasek Donekev, Viscount",
       publication: "Kings, Nations, and Gods",
       page:        "136",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
+      name:        "Jeris Gnarlstone",
+      publication: "No Quarter #55",
+      page:        "91",
       category:    "Individual",
       subcategory: ""
     },
@@ -8141,6 +8212,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Monster/Opponent"
     },
     {
+      name:        "Tarn Thrullgs",
+      publication: "No Quarter #55",
+      page:        "105",
+      category:    "Monster",
+      subcategory: "Monster/Opponent"
+    },
+    {
       name:        "Thamarite Guard",
       publication: "Urban Adventure",
       page:        "95",
@@ -8193,6 +8271,20 @@ var ikrpg = ikrpg || {};
       name:        "Totem Hunter",
       publication: "Core Rules Bestiary Expanded",
       page:        "17",
+      category:    "Monster",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Tower Ambusher",
+      publication: "No Quarter #55",
+      page:        "99",
+      category:    "Monster",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Tower Guard",
+      publication: "No Quarter #55",
+      page:        "99",
       category:    "Monster",
       subcategory: "Monster/Opponent"
     },
@@ -8254,6 +8346,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Solo Monster/Opponent"
     },
     {
+      name:        "Balukar Rageborn",
+      publication: "No Quarter #55",
+      page:        "90",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
       name:        "Bowden Haightly (Posessed Talon Warjack)",
       publication: "No Quarter #44",
       page:        "70",
@@ -8296,6 +8395,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Solo Monster/Opponent"
     },
     {
+      name:        "Gallo Morado, the Crimson Man",
+      publication: "No Quarter #55",
+      page:        "108",
+      category:    "Monster",
+      subcategory: "Monster/Opponent"
+    },
+    {
       name:        "Gavriel di Maro (Veteran Human Cutthroat/Investigator)",
       publication: "Urban Adventure",
       page:        "61",
@@ -8305,6 +8411,13 @@ var ikrpg = ikrpg || {};
     {
       name:        "Grot (Skilled Gobber Cutthroat/Field Mechanik)",
       publication: "Urban Adventure",
+      page:        "91",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Jeris Gnarlstone",
+      publication: "No Quarter #55",
       page:        "91",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent"
@@ -8518,6 +8631,13 @@ var ikrpg = ikrpg || {};
       name:        "Jenner's Arsenal",
       publication: "Urban Adventure",
       page:        "42",
+      category:    "Organization",
+      subcategory: "Military Organization"
+    },
+    {
+      name:        "Knightly Order of Precursors",
+      publication: "No Quarter #55",
+      page:        "60",
       category:    "Organization",
       subcategory: "Military Organization"
     },
@@ -9388,6 +9508,49 @@ var ikrpg = ikrpg || {};
       page:        "2",
       category:    "Skill",
       subcategory: "Duelling Maneuver"
+    },
+    // ##### Skill > Trick Riding ##### //
+    {
+      name:        "Capriole",
+      publication: "No Quarter #55",
+      page:        "87",
+      category:    "Skill",
+      subcategory: "Trick Riding"
+    },
+    {
+      name:        "Fast Remount",
+      publication: "No Quarter #55",
+      page:        "87",
+      category:    "Skill",
+      subcategory: "Trick Riding"
+    },
+    {
+      name:        "Leaping Dismount",
+      publication: "No Quarter #55",
+      page:        "87",
+      category:    "Skill",
+      subcategory: "Trick Riding"
+    },
+    {
+      name:        "Saddle Cover",
+      publication: "No Quarter #55",
+      page:        "87",
+      category:    "Skill",
+      subcategory: "Trick Riding"
+    },
+    {
+      name:        "Steeplechase",
+      publication: "No Quarter #55",
+      page:        "87",
+      category:    "Skill",
+      subcategory: "Trick Riding"
+    },
+    {
+      name:        "Stirrup Stand",
+      publication: "No Quarter #55",
+      page:        "87",
+      category:    "Skill",
+      subcategory: "Trick Riding"
     },
     // ##### Spell ##### \\
     {
@@ -10654,6 +10817,13 @@ var ikrpg = ikrpg || {};
       name:        "Rune Shot: Earth Shaker",
       publication: "Core Rules",
       page:        "243",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Rune Shot: Electro Leap",
+      publication: "No Quarter #55",
+      page:        "85",
       category:    "Spell",
       subcategory: ""
     },
