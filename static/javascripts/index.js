@@ -8,9 +8,9 @@ var ikrpg = ikrpg || {};
 	
 	ikrpg.index = ikrpg.index || {};
 	
-	// Ability
-	// Adventure
-	//     Scenario, Encounter, Scenario Setting, Encounter, Scenario Setting
+  // Ability
+  // Adventure
+  //     Scenario, Encounter, Scenario Setting, Encounter, Scenario Setting
   // Alchemy
   //     Alchemical Ingredient, Alchemical Item, Field Alchemy, Grenate
   // Character Creation
@@ -42,6 +42,7 @@ var ikrpg = ikrpg || {};
   //     Steamjack/Vector, Chassis, Cortex, Melee Weapon, Ranged Weapon, Gear/Upgrade, Tune-Up
   // Thrall
   //     Thrall Type, Thrall Upgrade
+  // Vehicle
 	ikrpg.index.data = [
     // ##### Ability ##### \\
     {
@@ -564,6 +565,13 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Defender",
+      publication: "Bitter Medicine",
+      page:        "53",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Defender",
       publication: "Core Rules",
       page:        "160",
       category:    "Ability",
@@ -655,6 +663,13 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dual Shot",
+      publication: "Bitter Medicine",
+      page:        "54",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Dual Shot",
       publication: "Core Rules",
       page:        "161",
       category:    "Ability",
@@ -727,6 +742,13 @@ var ikrpg = ikrpg || {};
       name:        "Fast Rearm",
       publication: "Core Rules",
       page:        "161",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Fast Reload",
+      publication: "Bitter Medicine",
+      page:        "53",
       category:    "Ability",
       subcategory: ""
     },
@@ -984,8 +1006,22 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Grenadier",
+      publication: "Bitter Medicine",
+      page:        "53",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Grenadier",
       publication: "Core Rules",
       page:        "163",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Gunfighter",
+      publication: "Bitter Medicine",
+      page:        "53",
       category:    "Ability",
       subcategory: ""
     },
@@ -1014,6 +1050,13 @@ var ikrpg = ikrpg || {};
       name:        "Head-Butt",
       publication: "Core Rules",
       page:        "164",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Hit em' Low",
+      publication: "Bitter Medicine",
+      page:        "53",
       category:    "Ability",
       subcategory: ""
     },
@@ -1217,6 +1260,13 @@ var ikrpg = ikrpg || {};
       name:        "Man of Iron",
       publication: "Kings, Nations, and Gods",
       page:        "181",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Marksman",
+      publication: "Bitter Medicine",
+      page:        "54",
       category:    "Ability",
       subcategory: ""
     },
@@ -1495,6 +1545,13 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Saddle Shot",
+      publication: "Bitter Medicine",
+      page:        "53",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Saddle Shot",
       publication: "Core Rules",
       page:        "166",
       category:    "Ability",
@@ -1718,6 +1775,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Suppressing Fire",
+      publication: "Bitter Medicine",
+      page:        "54",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Swift Hunter",
       publication: "Core Rules",
       page:        "167",
@@ -1838,6 +1902,13 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Two-Weapon Fighting",
+      publication: "Bitter Medicine",
+      page:        "54",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Two-Weapon Fighting",
       publication: "Core Rules",
       page:        "168",
       category:    "Ability",
@@ -1900,6 +1971,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     // ##### Adventure > Scenario ##### \\
+    {
+      name:        "Bitter Medicine",
+      publication: "Bitter Medicine",
+      page:        "1",
+      category:    "Adventure",
+      subcategory: "Scenario"
+    },
     {
       name:        "Fools Rush In",
       publication: "Fools Rush In",
@@ -3247,6 +3325,27 @@ var ikrpg = ikrpg || {};
       category:    "Character Creation",
       subcategory: "Career Option"
     },
+    {
+      name:        "Wyrmwall Bruiser",
+      publication: "Bitter Medicine",
+      page:        "53",
+      category:    "Character Creation",
+      subcategory: "Career Option"
+    },
+    {
+      name:        "Wyrmwall Rider",
+      publication: "Bitter Medicine",
+      page:        "53",
+      category:    "Character Creation",
+      subcategory: "Career Option"
+    },
+    {
+      name:        "Wyrmwall Veteran",
+      publication: "Bitter Medicine",
+      page:        "53",
+      category:    "Character Creation",
+      subcategory: "Career Option"
+    },
     // ##### Character Creation > Race ##### \\
     {
       name:        "Human",
@@ -4172,6 +4271,13 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Chain Gun",
+      publication: "Bitter Medicine",
+      page:        "52",
+      category:    "Armory",
+      subcategory: "Ranged Weapon"
+    },
+    {
+      name:        "Chain Gun",
       publication: "Kings, Nations, and Gods",
       page:        "94",
       category:    "Armory",
@@ -4994,6 +5100,13 @@ var ikrpg = ikrpg || {};
     {
       name:        "Black Tongue",
       publication: "No Quarter #52",
+      page:        "44",
+      category:    "Disease",
+      subcategory: "Disease"
+    },
+    {
+      name:        "Bloody Sweat",
+      publication: "Bitter Medicine",
       page:        "44",
       category:    "Disease",
       subcategory: "Disease"
@@ -6409,6 +6522,13 @@ var ikrpg = ikrpg || {};
     },
     // ##### Individual ##### \\
     {
+      name:        "Alma Barlow",
+      publication: "Bitter Medicine",
+      page:        "5",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
       name:        "Arius, Primarch",
       publication: "Kings, Nations, and Gods",
       page:        "42",
@@ -6447,6 +6567,13 @@ var ikrpg = ikrpg || {};
       name:        "Balukar Rageborn",
       publication: "No Quarter #55",
       page:        "88",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
+      name:        "Bayton Rookwood",
+      publication: "Bitter Medicine",
+      page:        "4",
       category:    "Individual",
       subcategory: ""
     },
@@ -6601,6 +6728,13 @@ var ikrpg = ikrpg || {};
       name:        "Helt Langworth, Aurum Magnus",
       publication: "Kings, Nations, and Gods",
       page:        "299",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
+      name:        "Henry Gateu, Dr.",
+      publication: "Bitter Medicine",
+      page:        "5",
       category:    "Individual",
       subcategory: ""
     },
@@ -7164,6 +7298,13 @@ var ikrpg = ikrpg || {};
       name:        "Charged Spear",
       publication: "No Quarter #48",
       page:        "69",
+      category:    "Mechanika",
+      subcategory: "Mechanikal Weapon"
+    },
+    {
+      name:        "Dominance",
+      publication: "Bitter Medicine",
+      page:        "30",
       category:    "Mechanika",
       subcategory: "Mechanikal Weapon"
     },
@@ -8337,6 +8478,27 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Monster/Opponent"
     },
+    {
+      name:        "Wyrmwall Bruiser",
+      publication: "Bitter Medicine",
+      page:        "49",
+      category:    "Monster",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Wyrmwall Rider",
+      publication: "Bitter Medicine",
+      page:        "50",
+      category:    "Monster",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Wyrmwall Veteran",
+      publication: "Bitter Medicine",
+      page:        "51",
+      category:    "Monster",
+      subcategory: "Monster/Opponent"
+    },
     // ##### Monster > Solo Monster/Opponent ##### \\
     {
       name:        "Bairn Cammol (Skilled Human Duelist)",
@@ -8349,6 +8511,13 @@ var ikrpg = ikrpg || {};
       name:        "Balukar Rageborn",
       publication: "No Quarter #55",
       page:        "90",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Bayton Rookwood",
+      publication: "Bitter Medicine",
+      page:        "45",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent"
     },
@@ -8367,9 +8536,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Solo Monster/Opponent"
     },
     {
+      name:        "Brun Whiddle",
+      publication: "Bitter Medicine",
+      page:        "47",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
       name:        "Captain Meara Brinebight",
       publication: "Full Metal Friday 1/1/4",
       page:        "2",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Darvon Shanke",
+      publication: "Bitter Medicine",
+      page:        "46",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent"
     },
@@ -8419,6 +8602,13 @@ var ikrpg = ikrpg || {};
       name:        "Jeris Gnarlstone",
       publication: "No Quarter #55",
       page:        "91",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Jig (Prospector Laborjack)",
+      publication: "Bitter Medicine",
+      page:        "51",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent"
     },
@@ -8535,6 +8725,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Solo Monster/Opponent"
     },
     {
+      name:        "Willem 'Three-Fingers' Abershawe",
+      publication: "Bitter Medicine",
+      page:        "48",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
       name:        "Zabrak Stoneshield (Mighty Trollkin Duelist)",
       publication: "Urban Adventure",
       page:        "91",
@@ -8602,6 +8799,13 @@ var ikrpg = ikrpg || {};
       name:        "Wake Isles Syndicate",
       publication: "Urban Adventure",
       page:        "41",
+      category:    "Organization",
+      subcategory: "Criminal Enterprise"
+    },
+    {
+      name:        "Wyrmwall Riders",
+      publication: "Bitter Medicine",
+      page:        "5",
       category:    "Organization",
       subcategory: "Criminal Enterprise"
     },
@@ -11543,6 +11747,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Steamjack/Vector"
     },
     {
+      name:        "Prospector Laborjack",
+      publication: "Bitter Medicine",
+      page:        "51",
+      category:    "Steamjack",
+      subcategory: "Steamjack/Vector"
+    },
+    {
       name:        "Reckoner Warjack",
       publication: "Kings, Nations, and Gods",
       page:        "376",
@@ -11736,6 +11947,13 @@ var ikrpg = ikrpg || {};
       name:        "Docker Heavy Laborjack Chassis",
       publication: "Core Rules",
       page:        "301",
+      category:    "Steamjack",
+      subcategory: "Chassis"
+    },
+    {
+      name:        "Docker Heavy Laborjack Chassis",
+      publication: "Bitter Medicine",
+      page:        "51",
       category:    "Steamjack",
       subcategory: "Chassis"
     },
@@ -11994,6 +12212,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Melee Weapon"
     },
     {
+      name:        "Drill Rig",
+      publication: "Bitter Medicine",
+      page:        "51",
+      category:    "Steamjack",
+      subcategory: "Melee Weapon"
+    },
+    {
       name:        "Electro Glaive (Light Steamjack Only)",
       publication: "Kings, Nations, and Gods",
       page:        "99",
@@ -12193,6 +12418,13 @@ var ikrpg = ikrpg || {};
       name:        "Rock Drill",
       publication: "No Quarter #49",
       page:        "68",
+      category:    "Steamjack",
+      subcategory: "Melee Weapon"
+    },
+    {
+      name:        "Rock Pick",
+      publication: "Bitter Medicine",
+      page:        "52",
       category:    "Steamjack",
       subcategory: "Melee Weapon"
     },
@@ -12991,6 +13223,93 @@ var ikrpg = ikrpg || {};
       page:        "75",
       category:    "Thrall",
       subcategory: "Thrall Upgrade"
+    },
+    // ##### Vehicle > Vehicle ##### \\
+    {
+      name:        "The Roller",
+      publication: "Bitter Medicine",
+      page:        "52",
+      category:    "Vehicle",
+      subcategory: "Vehicle"
+    },
+    // ##### Vehicle > Vehicle Type ##### \\
+    {
+      name:        "Carriage",
+      publication: "Bitter Medicine",
+      page:        "36",
+      category:    "Vehicle",
+      subcategory: "Vehicle Type"
+    },
+    {
+      name:        "Riverboat",
+      publication: "Bitter Medicine",
+      page:        "37",
+      category:    "Vehicle",
+      subcategory: "Vehicle Type"
+    },
+    {
+      name:        "Sloop",
+      publication: "Bitter Medicine",
+      page:        "38",
+      category:    "Vehicle",
+      subcategory: "Vehicle Type"
+    },
+    {
+      name:        "Wagon, Large",
+      publication: "Bitter Medicine",
+      page:        "39",
+      category:    "Vehicle",
+      subcategory: "Vehicle Type"
+    },
+    {
+      name:        "Wagon, Small",
+      publication: "Bitter Medicine",
+      page:        "38",
+      category:    "Vehicle",
+      subcategory: "Vehicle Type"
+    },
+    // ##### Vehicle > Vehicle Upgrade ##### \\
+    {
+      name:        "Armored Panels",
+      publication: "Bitter Medicine",
+      page:        "39",
+      category:    "Vehicle",
+      subcategory: "Vehicle Upgrade"
+    },
+    {
+      name:        "Enclosed Body",
+      publication: "Bitter Medicine",
+      page:        "39",
+      category:    "Vehicle",
+      subcategory: "Vehicle Upgrade"
+    },
+    {
+      name:        "Enclosed Controls",
+      publication: "Bitter Medicine",
+      page:        "39",
+      category:    "Vehicle",
+      subcategory: "Vehicle Upgrade"
+    },
+    {
+      name:        "Enlarged Body",
+      publication: "Bitter Medicine",
+      page:        "40",
+      category:    "Vehicle",
+      subcategory: "Vehicle Upgrade"
+    },
+    {
+      name:        "Patrol Wagon",
+      publication: "Bitter Medicine",
+      page:        "40",
+      category:    "Vehicle",
+      subcategory: "Vehicle Upgrade"
+    },
+    {
+      name:        "Weapon Mount",
+      publication: "Bitter Medicine",
+      page:        "40",
+      category:    "Vehicle",
+      subcategory: "Vehicle Upgrade"
     },
   ];
 })();
