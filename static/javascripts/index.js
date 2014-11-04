@@ -29,7 +29,7 @@ var ikrpg = ikrpg || {};
   //     Capacitor, Runeplate, Mechanikal Weapon, Mechanikal Armor, Ironhead Armor,
   //     Clockwork Vessel, Clockwork Vessel Upgrade, Mechanikal Device
   // Monsternomicon
-  //     Monster/Opponent, Template
+  //     Monster/Opponent, Spawn Gifts, Template
   // Monster
   //     Monster/Opponent, Solo Monster/Opponent
   // Organization
@@ -2014,6 +2014,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Scenario"
     },
     {
+      name:        "Immortality Part 4: Many Deaths, One Life",
+      publication: "No Quarter #56",
+      page:        "90",
+      category:    "Adventure",
+      subcategory: "Scenario"
+    },
+    {
       name:        "Spirit in Steel",
       publication: "No Quarter #44",
       page:        "62",
@@ -2110,6 +2117,13 @@ var ikrpg = ikrpg || {};
       name:        "Five Fingers",
       publication: "Urban Adventure",
       page:        "32",
+      category:    "Adventure",
+      subcategory: "Scenario Setting"
+    },
+    {
+      name:        "Lhen",
+      publication: "No Quarter #56",
+      page:        "39",
       category:    "Adventure",
       subcategory: "Scenario Setting"
     },
@@ -2336,6 +2350,13 @@ var ikrpg = ikrpg || {};
       name:        "Bottled Light",
       publication: "Core Rules",
       page:        "294",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item"
+    },
+    {
+      name:        "Cryptospector",
+      publication: "Monsternomicon",
+      page:        "23",
       category:    "Alchemy",
       subcategory: "Alchemical Item"
     },
@@ -5763,6 +5784,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Culture"
     },
     {
+      name:        "Trollkin",
+      publication: "No Quarter #56",
+      page:        "75",
+      category:    "Geography",
+      subcategory: "Culture"
+    },
+    {
       name:        "Umbreans (Khador)",
       publication: "Kings, Nations, and Gods",
       page:        "144",
@@ -6529,6 +6557,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Andari Gratza, Tordoran Merchant",
+      publication: "No Quarter #56",
+      page:        "42",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
       name:        "Arius, Primarch",
       publication: "Kings, Nations, and Gods",
       page:        "42",
@@ -6602,6 +6637,13 @@ var ikrpg = ikrpg || {};
       name:        "Coleman Stryker, Cygnaran Warcaster",
       publication: "No Quarter #50",
       page:        "39",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
+      name:        "Conor Roan, Guard Captain",
+      publication: "No Quarter #56",
+      page:        "42",
       category:    "Individual",
       subcategory: ""
     },
@@ -6788,6 +6830,20 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Lorio Casini, Leader of the Long Shot Society",
+      publication: "No Quarter #56",
+      page:        "41",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
+      name:        "Luan Bray, Thurian Woodsman",
+      publication: "No Quarter #56",
+      page:        "42",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
       name:        "Magda McCallahan, Pirate Captain",
       publication: "No Quarter #54",
       page:        "69",
@@ -6830,6 +6886,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Rosa Petry, Owner of Petry's Firearms and Supplies",
+      publication: "No Quarter #56",
+      page:        "41",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
       name:        "Ruskin Borga, Visgoth",
       publication: "Kings, Nations, and Gods",
       page:        "146",
@@ -6865,9 +6928,44 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Skarre Ravenmane",
+      publication: "No Quarter #56",
+      page:        "25",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
+      name:        "Tara Florys, Long Shot Lieutenant",
+      publication: "No Quarter #56",
+      page:        "42",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
+      name:        "Thalen Malvyss (Mage Hunter)",
+      publication: "No Quarter #56",
+      page:        "104",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
+      name:        "Thane Nivin Roan, Ruler of Lhen",
+      publication: "No Quarter #56",
+      page:        "41",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
       name:        "Trenton Bouridor, Grand Paladin",
       publication: "Kings, Nations, and Gods",
       page:        "339",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
+      name:        "Valoria Breno, Tordoran Landholder",
+      publication: "No Quarter #56",
+      page:        "42",
       category:    "Individual",
       subcategory: ""
     },
@@ -7719,11 +7817,482 @@ var ikrpg = ikrpg || {};
       category:    "Mechanika",
       subcategory: "Mechanikal Device"
     },
+    // ##### Monsternomicon > Deathly Burdens ##### \\
+    {
+      name:        "Afraid",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Burden"
+    },
+    {
+      name:        "Bane",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Burden"
+    },
+    {
+      name:        "Barriers",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Burden"
+    },
+    {
+      name:        "Bound",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Burden"
+    },
+    {
+      name:        "Fragmented Mind",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Burden"
+    },
+    {
+      name:        "Mad",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Burden"
+    },
+    {
+      name:        "Obsession",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Burden"
+    },
+    {
+      name:        "Semi-corporeal",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Burden"
+    },
+    {
+      name:        "Sunlight Powerlessness",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Burden"
+    },
+    {
+      name:        "Temporal Existence",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Burden"
+    },
+    // ##### Monsternomicon > Deathly Endowments ##### \\
+    {
+      name:        "Black Gifts",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Black Harvest",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Blind Fear",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Corpse Lord",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Corrosive Touch",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Dark Influence",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Dark Resurrection",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Disruptor",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Dominator",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Dread Touch",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Ectoplasmic Field",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Eldritch Touch",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Fear Master",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Fear Monger",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Ghost in the Machine",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Grave Chill",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Grave Resilience",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Grave Summons",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Keening Howl",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Lamentations of the Grave",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Malignant Presence",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Phase",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Preternatural Awareness",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Possession",
+      publication: "Monsternomicon",
+      page:        "78",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Power Drain",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Psychokinesis",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Regeneration",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Shroud of Death",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Silence",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Spectral Illusion",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Spectral Talons",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Speed of the Dead",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
+    {
+      name:        "Unholy Genesis",
+      publication: "Monsternomicon",
+      page:        "79",
+      category:    "Monsternomicon",
+      subcategory: "Deathly Endowment"
+    },
     // ##### Monsternomicon > Monster/Opponent ##### \\
+    {
+      name:        "Argus, Common",
+      publication: "Monsternomicon",
+      page:        "6",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Burrow-Mawg",
+      publication: "Monsternomicon",
+      page:        "8",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Cataphract Beetle",
+      publication: "Monsternomicon",
+      page:        "10",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Cephalyx",
+      publication: "Monsternomicon",
+      page:        "12",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Cephalyx Drudge",
+      publication: "Monsternomicon",
+      page:        "16",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Cephalyx Monstrosity",
+      publication: "Monsternomicon",
+      page:        "18",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Croak",
+      publication: "Monsternomicon",
+      page:        "20",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Crypt Spider",
+      publication: "Monsternomicon",
+      page:        "22",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Deathless",
+      publication: "Monsternomicon",
+      page:        "24",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Devil Rat",
+      publication: "Monsternomicon",
+      page:        "26",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Dracodile",
+      publication: "Monsternomicon",
+      page:        "28",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Dragonspawn",
+      publication: "Monsternomicon",
+      page:        "30",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Dragonspawn Small",
+      publication: "Monsternomicon",
+      page:        "30",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Dragonspawn Medium",
+      publication: "Monsternomicon",
+      page:        "30",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Dragonspawn Large",
+      publication: "Monsternomicon",
+      page:        "30",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Dread",
+      publication: "Monsternomicon",
+      page:        "34",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Dregg",
+      publication: "Monsternomicon",
+      page:        "36",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Duskwolf",
+      publication: "Monsternomicon",
+      page:        "38",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Eldritch",
+      publication: "Monsternomicon",
+      page:        "40",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Excruciator",
+      publication: "Monsternomicon",
+      page:        "42",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Gorax",
+      publication: "Monsternomicon",
+      page:        "44",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Grymkin, Gremlin",
+      publication: "Monsternomicon",
+      page:        "46",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
     {
       name:        "Hollowed",
       publication: "No Quarter #51",
       page:        "56",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Hollowed",
+      publication: "Monsternomicon",
+      page:        "48",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Hornbeak Trask",
+      publication: "Monsternomicon",
+      page:        "50",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent"
     },
@@ -7735,17 +8304,550 @@ var ikrpg = ikrpg || {};
       subcategory: "Monster/Opponent"
     },
     {
+      name:        "Iron Maiden",
+      publication: "Monsternomicon",
+      page:        "52",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Lethean",
+      publication: "Monsternomicon",
+      page:        "54",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Pistol Wraith",
+      publication: "Monsternomicon",
+      page:        "56",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Raevhan Buffalo",
+      publication: "Monsternomicon",
+      page:        "58",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Razorbat",
+      publication: "Monsternomicon",
+      page:        "60",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Riven",
+      publication: "Monsternomicon",
+      page:        "62",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Scylla Flock",
+      publication: "Monsternomicon",
+      page:        "64",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Sepulchral Lurker",
+      publication: "Monsternomicon",
+      page:        "66",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Shade",
+      publication: "Monsternomicon",
+      page:        "68",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Shaft Wight",
+      publication: "Monsternomicon",
+      page:        "70",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
       name:        "Shaft Wight",
       publication: "No Quarter #51",
       page:        "60",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent"
     },
+    {
+      name:        "Skigg",
+      publication: "Monsternomicon",
+      page:        "72",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Soul Stalker (Infernal)",
+      publication: "Monsternomicon",
+      page:        "74",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Specter",
+      publication: "Monsternomicon",
+      page:        "76",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Tatzylwurm, Black",
+      publication: "Monsternomicon",
+      page:        "80",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Totem Hunter",
+      publication: "Monsternomicon",
+      page:        "82",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Troll Whelp",
+      publication: "Monsternomicon",
+      page:        "84",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Troll, Common",
+      publication: "Monsternomicon",
+      page:        "86",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Troll, Dire",
+      publication: "Monsternomicon",
+      page:        "88",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Vektiss",
+      publication: "Monsternomicon",
+      page:        "90",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    // ##### Monsternomicon > Spawn Gifts ##### \\
+    {
+      name:        "Agile",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Ash and Embers",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Barbed Tail",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Blackscale",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Blight Aura",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Blood Thirst",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Burning Acid",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Camouflage Coloration",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Carapace",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Climber",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Club Tail",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Corrosive Blood",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Deathdust",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Fleet",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Hellshroud",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Impervious Flesh",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Long Neck",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Lurker",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Muscular",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Nimble",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Pathfinder",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Preternatural Awareness",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Ravenous",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Regeneration",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Ripping Jaws",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Robust",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Roiling Death",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Ruinbringer",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Searing Aura",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Seether",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Serpentine",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Snacking",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Spines",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Tail",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Talons",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Tusks",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Venomous",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
+    {
+      name:        "Wyrmfire",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monsternomicon",
+      subcategory: "Spawn Gift"
+    },
     // ##### Monsternomicon > Template ##### \\
+    {
+      name:        "Adapted (Environment)",
+      publication: "Monsternomicon",
+      page:        "92",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Alpha",
+      publication: "Monsternomicon",
+      page:        "92",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Blighted",
+      publication: "Monsternomicon",
+      page:        "93",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Cephalyx Monstrosity Subduer",
+      publication: "Monsternomicon",
+      page:        "93",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Cephalyx Monstrosity Warden",
+      publication: "Monsternomicon",
+      page:        "93",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Cephalyx Monstrosity Wrecker",
+      publication: "Monsternomicon",
+      page:        "94",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Chieftain",
+      publication: "Monsternomicon",
+      page:        "94",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Croak Conjoined Twin",
+      publication: "Monsternomicon",
+      page:        "94",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Devil Rat Matron",
+      publication: "Monsternomicon",
+      page:        "94",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Dregg Pain Monger",
+      publication: "Monsternomicon",
+      page:        "95",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Dregg Raid Master",
+      publication: "Monsternomicon",
+      page:        "95",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Duskwolf Male",
+      publication: "Monsternomicon",
+      page:        "95",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Hunter",
+      publication: "Monsternomicon",
+      page:        "95",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Juvenile",
+      publication: "Monsternomicon",
+      page:        "96",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Large Specimen",
+      publication: "Monsternomicon",
+      page:        "96",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
     {
       name:        "Large Specimen",
       publication: "No Quarter #51",
       page:        "62",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Lone Wolf",
+      publication: "Monsternomicon",
+      page:        "96",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Man-eater",
+      publication: "Monsternomicon",
+      page:        "96",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Pack Hunter",
+      publication: "Monsternomicon",
+      page:        "96",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Pestilent Hollowed",
+      publication: "Monsternomicon",
+      page:        "97",
       category:    "Monsternomicon",
       subcategory: "Template"
     },
@@ -7757,6 +8859,20 @@ var ikrpg = ikrpg || {};
       subcategory: "Template"
     },
     {
+      name:        "Pistol Wraith Spellslinger",
+      publication: "Monsternomicon",
+      page:        "97",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Predator",
+      publication: "Monsternomicon",
+      page:        "98",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
       name:        "Predator",
       publication: "No Quarter #51",
       page:        "63",
@@ -7764,9 +8880,107 @@ var ikrpg = ikrpg || {};
       subcategory: "Template"
     },
     {
+      name:        "Protector",
+      publication: "Monsternomicon",
+      page:        "98",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Razorbat King",
+      publication: "Monsternomicon",
+      page:        "98",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Resilient",
+      publication: "Monsternomicon",
+      page:        "98",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Runt",
+      publication: "Monsternomicon",
+      page:        "98",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Skittish",
+      publication: "Monsternomicon",
+      page:        "99",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Spector, Epic",
+      publication: "Monsternomicon",
+      page:        "99",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Specter, Veteran",
+      publication: "Monsternomicon",
+      page:        "99",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Starving",
+      publication: "Monsternomicon",
+      page:        "99",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Stealthy",
+      publication: "Monsternomicon",
+      page:        "99",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Swarm",
+      publication: "Monsternomicon",
+      page:        "99",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Swift",
+      publication: "Monsternomicon",
+      page:        "100",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
       name:        "Swift",
       publication: "No Quarter #51",
       page:        "63",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Trained",
+      publication: "Monsternomicon",
+      page:        "100",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Vektiss Queen",
+      publication: "Monsternomicon",
+      page:        "100",
+      category:    "Monsternomicon",
+      subcategory: "Template"
+    },
+    {
+      name:        "Wild Iron Maiden",
+      publication: "Monsternomicon",
+      page:        "100",
       category:    "Monsternomicon",
       subcategory: "Template"
     },
@@ -8395,6 +9609,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Monster/Opponent"
     },
     {
+      name:        "Thrall Guard",
+      publication: "No Quarter #56",
+      page:        "99",
+      category:    "Monster",
+      subcategory: "Monster/Opponent"
+    },
+    {
       name:        "Thrall Warrior",
       publication: "Core Rules",
       page:        "346",
@@ -8426,6 +9647,13 @@ var ikrpg = ikrpg || {};
       name:        "Tower Guard",
       publication: "No Quarter #55",
       page:        "99",
+      category:    "Monster",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Tower Guard",
+      publication: "No Quarter #56",
+      page:        "95",
       category:    "Monster",
       subcategory: "Monster/Opponent"
     },
@@ -8468,6 +9696,13 @@ var ikrpg = ikrpg || {};
       name:        "Twin Bridge Blade Knifer",
       publication: "Urban Adventure",
       page:        "88",
+      category:    "Monster",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Unkillable",
+      publication: "No Quarter #56",
+      page:        "101",
       category:    "Monster",
       subcategory: "Monster/Opponent"
     },
@@ -8693,6 +9928,20 @@ var ikrpg = ikrpg || {};
       name:        "Tantock Meryl (Gifted Human Spy/Thamarite Advocate)",
       publication: "Urban Adventure",
       page:        "96",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Thalen Malvyss (Mage Hunter)",
+      publication: "No Quarter #56",
+      page:        "107",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Tobin Marconi",
+      publication: "No Quarter #56",
+      page:        "101",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent"
     },
@@ -8954,6 +10203,13 @@ var ikrpg = ikrpg || {};
       name:        "Temple Flameguard",
       publication: "Kings, Nations, and Gods",
       page:        "334",
+      category:    "Organization",
+      subcategory: "Military Organization"
+    },
+    {
+      name:        "The United Kriels",
+      publication: "No Quarter #56",
+      page:        "76",
       category:    "Organization",
       subcategory: "Military Organization"
     },
@@ -9856,6 +11112,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Ayisla's Rebuke",
+      publication: "Monsternomicon",
+      page:        "63",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Backlash",
       publication: "No Quarter #48",
       page:        "72",
@@ -9880,6 +11143,13 @@ var ikrpg = ikrpg || {};
       name:        "Battering Ram",
       publication: "Core Rules",
       page:        "237",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Battering Ram",
+      publication: "Monsternomicon",
+      page:        "14",
       category:    "Spell",
       subcategory: ""
     },
@@ -9927,6 +11197,13 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bleed",
+      publication: "Monsternomicon",
+      page:        "41",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Bleed",
       publication: "Urban Adventure",
       page:        "69",
       category:    "Spell",
@@ -9964,6 +11241,13 @@ var ikrpg = ikrpg || {};
       name:        "Blizzard",
       publication: "Core Rules",
       page:        "237",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Blood Feast",
+      publication: "Monsternomicon",
+      page:        "41",
       category:    "Spell",
       subcategory: ""
     },
@@ -10045,6 +11329,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Celerity",
+      publication: "Monsternomicon",
+      page:        "41",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Chain Lightning",
       publication: "Core Rules",
       page:        "237",
@@ -10081,6 +11372,13 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cloak of Fear",
+      publication: "Monsternomicon",
+      page:        "14",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Cloak of Fear",
       publication: "Urban Adventure",
       page:        "69",
       category:    "Spell",
@@ -10108,9 +11406,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Curse of Shadows",
+      publication: "Monsternomicon",
+      page:        "41",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Dark Fire",
       publication: "Urban Adventure",
       page:        "69",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Dark Persuader",
+      publication: "Monsternomicon",
+      page:        "41",
       category:    "Spell",
       subcategory: ""
     },
@@ -10146,6 +11458,13 @@ var ikrpg = ikrpg || {};
       name:        "Deceleration",
       publication: "Core Rules",
       page:        "238",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Deceleration",
+      publication: "Monsternomicon",
+      page:        "14",
       category:    "Spell",
       subcategory: ""
     },
@@ -10535,6 +11854,20 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Hex Blast",
+      publication: "Monsternomicon",
+      page:        "14",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Hex Blast",
+      publication: "Monsternomicon",
+      page:        "41",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Hex Hammer",
       publication: "Kings, Nations, and Gods",
       page:        "363",
@@ -10598,6 +11931,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Hyper Awareness",
+      publication: "Monsternomicon",
+      page:        "14",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Ice Bolt",
       publication: "Core Rules",
       page:        "241",
@@ -10654,9 +11994,37 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Influence",
+      publication: "Monsternomicon",
+      page:        "14",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Influence",
+      publication: "Monsternomicon",
+      page:        "41",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Inhospitable Ground",
       publication: "Core Rules",
       page:        "241",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Instigate",
+      publication: "Monsternomicon",
+      page:        "14",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Inviolable Resolve",
+      publication: "Monsternomicon",
+      page:        "14",
       category:    "Spell",
       subcategory: ""
     },
@@ -10696,9 +12064,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Lamentation",
+      publication: "Monsternomicon",
+      page:        "41",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Light in the Darkness",
       publication: "Core Rules",
       page:        "241",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Light of Nyrro",
+      publication: "Monsternomicon",
+      page:        "63",
       category:    "Spell",
       subcategory: ""
     },
@@ -10731,6 +12113,20 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Mark of Lyliss",
+      publication: "Monsternomicon",
+      page:        "63",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Mindblow",
+      publication: "Monsternomicon",
+      page:        "14",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Mindlock",
       publication: "Kings, Nations, and Gods",
       page:        "363",
@@ -10738,9 +12134,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Mindlock",
+      publication: "Monsternomicon",
+      page:        "14",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Mirage",
       publication: "Core Rules",
       page:        "241",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Mockery of Life",
+      publication: "Monsternomicon",
+      page:        "41",
       category:    "Spell",
       subcategory: ""
     },
@@ -10766,9 +12176,30 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Occultation",
+      publication: "Monsternomicon",
+      page:        "14",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Occultation",
+      publication: "Monsternomicon",
+      page:        "41",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Overmind",
       publication: "Core Rules",
       page:        "241",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Overmind",
+      publication: "Monsternomicon",
+      page:        "14",
       category:    "Spell",
       subcategory: ""
     },
@@ -10783,6 +12214,20 @@ var ikrpg = ikrpg || {};
       name:        "Phantasm",
       publication: "Kings, Nations, and Gods",
       page:        "305",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Phantasm",
+      publication: "Monsternomicon",
+      page:        "41",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Phantom Hunter",
+      publication: "Monsternomicon",
+      page:        "41",
       category:    "Spell",
       subcategory: ""
     },
@@ -10864,9 +12309,30 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Prowess of Lurynsar",
+      publication: "Monsternomicon",
+      page:        "63",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Psi Blast",
       publication: "Core Rules Bestiary Expanded",
       page:        "6",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Psi Blast",
+      publication: "Monsternomicon",
+      page:        "14",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Psychophage",
+      publication: "Monsternomicon",
+      page:        "14",
       category:    "Spell",
       subcategory: ""
     },
@@ -10990,6 +12456,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Rune Shot: Accuracy",
+      publication: "Monsternomicon",
+      page:        "97",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Rune Shot: Black Penny",
       publication: "Core Rules",
       page:        "242",
@@ -11000,6 +12473,13 @@ var ikrpg = ikrpg || {};
       name:        "Rune Shot: Brutal",
       publication: "Core Rules",
       page:        "242",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Rune Shot: Brutal",
+      publication: "Monsternomicon",
+      page:        "97",
       category:    "Spell",
       subcategory: ""
     },
@@ -11060,9 +12540,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Rune Shot: Iron Rot",
+      publication: "Monsternomicon",
+      page:        "97",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Rune Shot: Molten Shot",
       publication: "Core Rules",
       page:        "243",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Rune Shot: Molten Shot",
+      publication: "Monsternomicon",
+      page:        "97",
       category:    "Spell",
       subcategory: ""
     },
@@ -11095,9 +12589,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Rune Shot: Shadow Fire",
+      publication: "Monsternomicon",
+      page:        "97",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Rune Shot: Silencer",
       publication: "Core Rules",
       page:        "244",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Rune Shot: Silencer",
+      publication: "Monsternomicon",
+      page:        "97",
       category:    "Spell",
       subcategory: ""
     },
@@ -11116,6 +12624,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Rune Shot: Spontaneous Combustion",
+      publication: "Monsternomicon",
+      page:        "97",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Rune Shot: Thunderbolt",
       publication: "Core Rules",
       page:        "244",
@@ -11123,9 +12638,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Rune Shot: Thunderbolt",
+      publication: "Monsternomicon",
+      page:        "97",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Rune Shot: Trick Shot",
       publication: "Core Rules",
       page:        "244",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Rune Shot: Trick Shot",
+      publication: "Monsternomicon",
+      page:        "97",
       category:    "Spell",
       subcategory: ""
     },
@@ -11172,6 +12701,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Shock Wave",
+      publication: "Monsternomicon",
+      page:        "14",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Short Out",
       publication: "Core Rules",
       page:        "244",
@@ -11210,6 +12746,13 @@ var ikrpg = ikrpg || {};
       name:        "Soul Mark",
       publication: "Urban Adventure",
       page:        "70",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Star-Crossed",
+      publication: "Monsternomicon",
+      page:        "41",
       category:    "Spell",
       subcategory: ""
     },
@@ -11312,6 +12855,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Telekinesis",
+      publication: "Monsternomicon",
+      page:        "14",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Telgesh Mark",
       publication: "Urban Adventure",
       page:        "70",
@@ -11347,6 +12897,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Total Domination",
+      publication: "Monsternomicon",
+      page:        "14",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Total Spectrum",
       publication: "No Quarter #48",
       page:        "73",
@@ -11368,6 +12925,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Triage",
+      publication: "Monsternomicon",
+      page:        "14",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "True Path",
       publication: "Core Rules",
       page:        "245",
@@ -11378,6 +12942,13 @@ var ikrpg = ikrpg || {};
       name:        "True Sight",
       publication: "Core Rules",
       page:        "245",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "True Sight",
+      publication: "Monsternomicon",
+      page:        "14",
       category:    "Spell",
       subcategory: ""
     },
@@ -11434,6 +13005,13 @@ var ikrpg = ikrpg || {};
       name:        "White Out",
       publication: "Core Rules",
       page:        "245",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Will Breaker",
+      publication: "Monsternomicon",
+      page:        "14",
       category:    "Spell",
       subcategory: ""
     },
