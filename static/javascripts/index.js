@@ -35,6 +35,8 @@ var ikrpg = ikrpg || {};
   // Organization
   //     Criminal Enterprise, Military Organization, Enterprise, Arcane Order,
   //     Religious Group, Dynasty
+  // Orgoth Relic
+  //     Boon, Curse, Relic
   // Skill
   //     Military Skill, Occupational Skill, Duelling Maneuver, Trick Riding
   // Spell
@@ -2016,6 +2018,13 @@ var ikrpg = ikrpg || {};
     {
       name:        "Immortality Part 4: Many Deaths, One Life",
       publication: "No Quarter #56",
+      page:        "90",
+      category:    "Adventure",
+      subcategory: "Scenario"
+    },
+    {
+      name:        "Immortality Part 5: Stone Cold",
+      publication: "No Quarter #57",
       page:        "90",
       category:    "Adventure",
       subcategory: "Scenario"
@@ -6914,6 +6923,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Servath Reznik, High Executioner",
+      publication: "No Quarter #57",
+      page:        "47",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
       name:        "Severius, Hierarch",
       publication: "Kings, Nations, and Gods",
       page:        "329",
@@ -7029,6 +7045,13 @@ var ikrpg = ikrpg || {};
       name:        "Zevanna Agha, Old Witch of Khador",
       publication: "Kings, Nations, and Gods",
       page:        "114",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
+      name:        "Zolor Kurang",
+      publication: "No Quarter #57",
+      page:        "86",
       category:    "Individual",
       subcategory: ""
     },
@@ -8255,6 +8278,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Monster/Opponent"
     },
     {
+      name:        "Entombed",
+      publication: "No Quarter #57",
+      page:        "84",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
       name:        "Excruciator",
       publication: "Monsternomicon",
       page:        "42",
@@ -9147,6 +9177,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Monster/Opponent"
     },
     {
+      name:        "Crypt Spider",
+      publication: "No Quarter #57",
+      page:        "99",
+      category:    "Monster",
+      subcategory: "Monster/Opponent"
+    },
+    {
       name:        "Deck Hands",
       publication: "Fools Rush In",
       page:        "17",
@@ -9283,6 +9320,13 @@ var ikrpg = ikrpg || {};
       name:        "Gravedigger Thugs",
       publication: "Urban Adventure",
       page:        "54",
+      category:    "Monster",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Guards of Fort Veknost",
+      publication: "No Quarter #57",
+      page:        "101",
       category:    "Monster",
       subcategory: "Monster/Opponent"
     },
@@ -9736,6 +9780,13 @@ var ikrpg = ikrpg || {};
     },
     // ##### Monster > Solo Monster/Opponent ##### \\
     {
+      name:        "Antone Pytorevich, Rifleman",
+      publication: "No Quarter #57",
+      page:        "95",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
       name:        "Bairn Cammol (Skilled Human Duelist)",
       publication: "Urban Adventure",
       page:        "83",
@@ -9792,6 +9843,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Solo Monster/Opponent"
     },
     {
+      name:        "Davon Barlett, Man-at-Arms",
+      publication: "No Quarter #57",
+      page:        "96",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
       name:        "Denys Manet",
       publication: "Full Metal Friday 1/5/4",
       page:        "5",
@@ -9817,12 +9875,26 @@ var ikrpg = ikrpg || {};
       publication: "No Quarter #55",
       page:        "108",
       category:    "Monster",
-      subcategory: "Monster/Opponent"
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Garrow, Warcaster",
+      publication: "No Quarter #57",
+      page:        "94",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
     },
     {
       name:        "Gavriel di Maro (Veteran Human Cutthroat/Investigator)",
       publication: "Urban Adventure",
       page:        "61",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Gerrock Scarmaker, Ranger",
+      publication: "No Quarter #57",
+      page:        "96",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent"
     },
@@ -9911,6 +9983,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Solo Monster/Opponent"
     },
     {
+      name:        "Rina Zavor, Bounty Hunter",
+      publication: "No Quarter #57",
+      page:        "95",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
       name:        "Sivto the Vild, Necromancer (Human Will Weaver)",
       publication: "Fools Rush In",
       page:        "18",
@@ -9984,6 +10063,13 @@ var ikrpg = ikrpg || {};
       name:        "Zabrak Stoneshield (Mighty Trollkin Duelist)",
       publication: "Urban Adventure",
       page:        "91",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Zolor Kurang",
+      publication: "No Quarter #57",
+      page:        "89",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent"
     },
@@ -10559,6 +10645,184 @@ var ikrpg = ikrpg || {};
       page:        "46",
       category:    "Organization",
       subcategory: "Dynasty"
+    },
+    // ##### Orgoth Relic > Boon ##### \\
+    {
+      name:        "Black Fire",
+      publication: "No Quarter #57",
+      page:        "80",
+      category:    "Orgoth Relic",
+      subcategory: "Boon"
+    },
+    {
+      name:        "Black Tongue",
+      publication: "No Quarter #57",
+      page:        "80",
+      category:    "Orgoth Relic",
+      subcategory: "Boon"
+    },
+    {
+      name:        "Dark Sight",
+      publication: "No Quarter #57",
+      page:        "80",
+      category:    "Orgoth Relic",
+      subcategory: "Boon"
+    },
+    {
+      name:        "Deathdealer",
+      publication: "No Quarter #57",
+      page:        "80",
+      category:    "Orgoth Relic",
+      subcategory: "Boon"
+    },
+    {
+      name:        "Impervious",
+      publication: "No Quarter #57",
+      page:        "80",
+      category:    "Orgoth Relic",
+      subcategory: "Boon"
+    },
+    {
+      name:        "Long Lived",
+      publication: "No Quarter #57",
+      page:        "80",
+      category:    "Orgoth Relic",
+      subcategory: "Boon"
+    },
+    {
+      name:        "Phantom Shift",
+      publication: "No Quarter #57",
+      page:        "80",
+      category:    "Orgoth Relic",
+      subcategory: "Boon"
+    },
+    {
+      name:        "Spell Reach",
+      publication: "No Quarter #57",
+      page:        "80",
+      category:    "Orgoth Relic",
+      subcategory: "Boon"
+    },
+    {
+      name:        "Spell Ward",
+      publication: "No Quarter #57",
+      page:        "80",
+      category:    "Orgoth Relic",
+      subcategory: "Boon"
+    },
+    {
+      name:        "Stormweaver",
+      publication: "No Quarter #57",
+      page:        "80",
+      category:    "Orgoth Relic",
+      subcategory: "Boon"
+    },
+    {
+      name:        "Thirsty Blade",
+      publication: "No Quarter #57",
+      page:        "81",
+      category:    "Orgoth Relic",
+      subcategory: "Boon"
+    },
+    {
+      name:        "Unwavering Commander",
+      publication: "No Quarter #57",
+      page:        "81",
+      category:    "Orgoth Relic",
+      subcategory: "Boon"
+    },
+    // ##### Orgoth Relic > Curse ##### \\
+    {
+      name:        "Air of Death",
+      publication: "No Quarter #57",
+      page:        "81",
+      category:    "Orgoth Relic",
+      subcategory: "Curse"
+    },
+    {
+      name:        "Appetite",
+      publication: "No Quarter #57",
+      page:        "81",
+      category:    "Orgoth Relic",
+      subcategory: "Curse"
+    },
+    {
+      name:        "Arcane Obstruction",
+      publication: "No Quarter #57",
+      page:        "81",
+      category:    "Orgoth Relic",
+      subcategory: "Curse"
+    },
+    {
+      name:        "Blindness",
+      publication: "No Quarter #57",
+      page:        "81",
+      category:    "Orgoth Relic",
+      subcategory: "Curse"
+    },
+    {
+      name:        "Blood Hungry",
+      publication: "No Quarter #57",
+      page:        "81",
+      category:    "Orgoth Relic",
+      subcategory: "Curse"
+    },
+    {
+      name:        "Doom",
+      publication: "No Quarter #57",
+      page:        "81",
+      category:    "Orgoth Relic",
+      subcategory: "Curse"
+    },
+    {
+      name:        "Haunted",
+      publication: "No Quarter #57",
+      page:        "81",
+      category:    "Orgoth Relic",
+      subcategory: "Curse"
+    },
+    {
+      name:        "Homeward Bound",
+      publication: "No Quarter #57",
+      page:        "82",
+      category:    "Orgoth Relic",
+      subcategory: "Curse"
+    },
+    {
+      name:        "Misfortune",
+      publication: "No Quarter #57",
+      page:        "82",
+      category:    "Orgoth Relic",
+      subcategory: "Curse"
+    },
+    {
+      name:        "Night Walker",
+      publication: "No Quarter #57",
+      page:        "82",
+      category:    "Orgoth Relic",
+      subcategory: "Curse"
+    },
+    {
+      name:        "Precious",
+      publication: "No Quarter #57",
+      page:        "82",
+      category:    "Orgoth Relic",
+      subcategory: "Curse"
+    },
+    {
+      name:        "Virality Leech",
+      publication: "No Quarter #57",
+      page:        "82",
+      category:    "Orgoth Relic",
+      subcategory: "Curse"
+    },
+    // ##### Orgoth Relic > Relic ##### \\
+    {
+      name:        "Golthana's Masthead",
+      publication: "No Quarter #57",
+      page:        "82",
+      category:    "Orgoth Relic",
+      subcategory: "Relic"
     },
     // ##### Skill > Military Skill ##### \\
     {
