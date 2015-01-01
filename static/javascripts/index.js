@@ -2611,9 +2611,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Adventuring Company"
     },
     {
+      name:        "Caspian Cortex Smugglers",
+      publication: "Urban Adventure",
+      page:        "76",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company"
+    },
+    {
       name:        "Crusaders",
       publication: "Kings, Nations, and Gods",
       page:        "363",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company"
+    },
+    {
+      name:        "Five Fingers Transporters",
+      publication: "Urban Adventure",
+      page:        "77",
       category:    "Character Creation",
       subcategory: "Adventuring Company"
     },
@@ -2663,6 +2677,13 @@ var ikrpg = ikrpg || {};
       name:        "Khadoran Military Detail",
       publication: "Kings, Nations, and Gods",
       page:        "182",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company"
+    },
+    {
+      name:        "Korsk Stanzynat Mustyn",
+      publication: "Urban Adventure",
+      page:        "78",
       category:    "Character Creation",
       subcategory: "Adventuring Company"
     },
