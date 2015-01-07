@@ -15,10 +15,14 @@ section.content > ul {
 section.content > ol ul,
 section.content > ul ul {
     list-style-type: square; }
+section.content ul.inline {
+    font-size: 0px; }
 section.content ul.inline,
 section.content ul.inline > li {
     display: inline;
     padding: 0; }
+section.content ul.inline > li {
+    font-size: 16px; }
 section.content ul.inline > li:not(:last-of-type):after {
     content: ",\0A"; }
 section.content ul.inline > li:last-of-type:before {
