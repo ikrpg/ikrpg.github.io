@@ -10011,6 +10011,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Solo Monster/Opponent"
     },
     {
+      name:        "Ilena, Beast of the North",
+      publication: "No Quarter #58",
+      page:        "91",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
       name:        "Jeris Gnarlstone",
       publication: "No Quarter #55",
       page:        "91",
