@@ -2030,6 +2030,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Scenario"
     },
     {
+      name:        "Immortality Part 6: The Death and Life of Vladislav Abrosim",
+      publication: "No Quarter #58",
+      page:        "92",
+      category:    "Adventure",
+      subcategory: "Scenario"
+    },
+    {
       name:        "Spirit in Steel",
       publication: "No Quarter #44",
       page:        "62",
@@ -3399,9 +3406,9 @@ var ikrpg = ikrpg || {};
     },
     // ##### Character Creation > Race ##### \\
     {
-      name:        "Human",
-      publication: "Core Rules",
-      page:        "108",
+      name:        "Bog Trog",
+      publication: "No Quarter #58",
+      page:        "69",
       category:    "Character Creation",
       subcategory: "Race"
     },
@@ -3416,6 +3423,13 @@ var ikrpg = ikrpg || {};
       name:        "Gobber",
       publication: "Core Rules",
       page:        "110",
+      category:    "Character Creation",
+      subcategory: "Race"
+    },
+    {
+      name:        "Human",
+      publication: "Core Rules",
+      page:        "108",
       category:    "Character Creation",
       subcategory: "Race"
     },
@@ -3480,6 +3494,13 @@ var ikrpg = ikrpg || {};
       name:        "Bastion Heavy Plate",
       publication: "Kings, Nations, and Gods",
       page:        "364",
+      category:    "Armory",
+      subcategory: "Armor"
+    },
+    {
+      name:        "Bog Trog Armor",
+      publication: "No Quarter #58",
+      page:        "69",
       category:    "Armory",
       subcategory: "Armor"
     },
@@ -3908,6 +3929,13 @@ var ikrpg = ikrpg || {};
       name:        "Ice Maul",
       publication: "Kings, Nations, and Gods",
       page:        "185",
+      category:    "Armory",
+      subcategory: "Melee Weapon"
+    },
+    {
+      name:        "Ilena's Chain-Axe",
+      publication: "No Quarter #58",
+      page:        "91",
       category:    "Armory",
       subcategory: "Melee Weapon"
     },
@@ -4394,6 +4422,13 @@ var ikrpg = ikrpg || {};
       name:        "Execrator Pistol",
       publication: "Kings, Nations, and Gods",
       page:        "95",
+      category:    "Armory",
+      subcategory: "Ranged Weapon"
+    },
+    {
+      name:        "Farrow Pig Iron",
+      publication: "No Quarter #58",
+      page:        "21",
       category:    "Armory",
       subcategory: "Ranged Weapon"
     },
@@ -5716,6 +5751,13 @@ var ikrpg = ikrpg || {};
     },
     // ##### Geography > Culture ##### \\
     {
+      name:        "Bog Trogs",
+      publication: "No Quarter #58",
+      page:        "64",
+      category:    "Geography",
+      subcategory: "Culture"
+    },
+    {
       name:        "Bogrin",
       publication: "No Quarter #52",
       page:        "109",
@@ -6741,6 +6783,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Fiona the Black",
+      publication: "No Quarter #58",
+      page:        "47",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
       name:        "Galt Langworth, General",
       publication: "Kings, Nations, and Gods",
       page:        "60",
@@ -6807,6 +6856,13 @@ var ikrpg = ikrpg || {};
       name:        "Henry Gateu, Dr.",
       publication: "Bitter Medicine",
       page:        "5",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
+      name:        "Ilena, the Beast of the North",
+      publication: "No Quarter #58",
+      page:        "88",
       category:    "Individual",
       subcategory: ""
     },
@@ -9801,6 +9857,20 @@ var ikrpg = ikrpg || {};
     },
     // ##### Monster > Solo Monster/Opponent ##### \\
     {
+      name:        "Abrosim, the Man",
+      publication: "No Quarter #58",
+      page:        "107",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Abrosim, the Monster",
+      publication: "No Quarter #58",
+      page:        "108",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
       name:        "Antone Pytorevich, Rifleman",
       publication: "No Quarter #57",
       page:        "95",
@@ -9899,6 +9969,20 @@ var ikrpg = ikrpg || {};
       subcategory: "Solo Monster/Opponent"
     },
     {
+      name:        "Gallo Morado, the Crimson Thrall",
+      publication: "No Quarter #58",
+      page:        "103",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Garrow, Dead",
+      publication: "No Quarter #58",
+      page:        "101",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
       name:        "Garrow, Warcaster",
       publication: "No Quarter #57",
       page:        "94",
@@ -9955,6 +10039,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Solo Monster/Opponent"
     },
     {
+      name:        "Loyalist Guards",
+      publication: "No Quarter #58",
+      page:        "106",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
       name:        'Luka "Left Fist" Istori',
       publication: "Full Metal Friday 1/4/4",
       page:        "2",
@@ -9972,6 +10063,13 @@ var ikrpg = ikrpg || {};
       name:        "Makar Iokav",
       publication: "No Quarter #54",
       page:        "110",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Makar Iokav, Wraith",
+      publication: "No Quarter #58",
+      page:        "96",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent"
     },
@@ -10000,6 +10098,13 @@ var ikrpg = ikrpg || {};
       name:        "Orran Vaine (Skilled Human Rifleman)",
       publication: "Urban Adventure",
       page:        "54",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Pavor Rostifenko",
+      publication: "No Quarter #58",
+      page:        "102",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent"
     },
