@@ -10,7 +10,7 @@ var ikrpg = ikrpg || {};
 	
   // Ability
   // Adventure
-  //     Scenario, Encounter, Scenario Setting, Encounter, Scenario Setting
+  //     Scenario, Encounter, Scenario Setting
   // Alchemy
   //     Alchemical Ingredient, Alchemical Item, Field Alchemy, Grenate
   // Character Creation
@@ -2118,6 +2118,13 @@ var ikrpg = ikrpg || {};
       name:        "Talons in the Dark",
       publication: "Urban Adventure",
       page:        "59",
+      category:    "Adventure",
+      subcategory: "Encounter"
+    },
+    {
+      name:        "Twisted Steel",
+      publication: "Path of Devastation Season 1",
+      page:        "20",
       category:    "Adventure",
       subcategory: "Encounter"
     },
