@@ -3947,6 +3947,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Melee Weapon"
     },
     {
+      name:        "Knuckledriver",
+      publication: "No Quarter #50",
+      page:        "50",
+      category:    "Armory",
+      subcategory: "Melee Weapon"
+    },
+    {
       name:        "Knuckledusters",
       publication: "Core Rules",
       page:        "256",
@@ -4069,6 +4076,13 @@ var ikrpg = ikrpg || {};
       name:        "Relic Blade",
       publication: "Kings, Nations, and Gods",
       page:        "366",
+      category:    "Armory",
+      subcategory: "Melee Weapon"
+    },
+    {
+      name:        "Retractable Lance",
+      publication: "No Quarter #50",
+      page:        "52",
       category:    "Armory",
       subcategory: "Melee Weapon"
     },
@@ -4939,20 +4953,34 @@ var ikrpg = ikrpg || {};
       category:    "Armory",
       subcategory: "Improvised Ranged Weapon"
     },
-    // ##### Armory > Magical Ranged Weapon ##### \\
+    // ##### Armory > Magical Weapon ##### \\
     {
       name:        "Article 1185",
       publication: "No Quarter #47",
       page:        "59",
       category:    "Armory",
-      subcategory: "Magical Ranged Weapon"
+      subcategory: "Magical Weapon"
+    },
+    {
+      name:        "Fang of Urcaen",
+      publication: "No Quarter #50",
+      page:        "50",
+      category:    "Armory",
+      subcategory: "Magical Weapon"
+    },
+    {
+      name:        "Greylords Rune Axe",
+      publication: "No Quarter #50",
+      page:        "50",
+      category:    "Armory",
+      subcategory: "Magical Weapon"
     },
     {
       name:        "Imprecator",
       publication: "No Quarter #47",
       page:        "60",
       category:    "Armory",
-      subcategory: "Magical Ranged Weapon"
+      subcategory: "Magical Weapon"
     },
     // ##### Disease > Disease Type ##### \\
     {
@@ -7848,30 +7876,9 @@ var ikrpg = ikrpg || {};
       subcategory: "Mechanikal Device"
     },
     {
-      name:        "Fang of Urcaen",
-      publication: "No Quarter #50",
-      page:        "50",
-      category:    "Mechanika",
-      subcategory: "Mechanikal Device"
-    },
-    {
       name:        "Farsight Googles",
       publication: "Core Rules",
       page:        "287",
-      category:    "Mechanika",
-      subcategory: "Mechanikal Device"
-    },
-    {
-      name:        "Greylords Rune Axe",
-      publication: "No Quarter #50",
-      page:        "50",
-      category:    "Mechanika",
-      subcategory: "Mechanikal Device"
-    },
-    {
-      name:        "Knucklerdriver",
-      publication: "No Quarter #50",
-      page:        "50",
       category:    "Mechanika",
       subcategory: "Mechanikal Device"
     },
@@ -7907,13 +7914,6 @@ var ikrpg = ikrpg || {};
       name:        "Neutralizer",
       publication: "No Quarter #50",
       page:        "51",
-      category:    "Mechanika",
-      subcategory: "Mechanikal Device"
-    },
-    {
-      name:        "Retractable Lance",
-      publication: "No Quarter #50",
-      page:        "52",
       category:    "Mechanika",
       subcategory: "Mechanikal Device"
     },
