@@ -81,7 +81,7 @@ var ikrpg = ikrpg || {};
   //"benefit1": { "title": "Common Feats", "description": "Boost Non-Attack Skill Roll - Heroic Dodge - Make a Quick Action - Parry - Relentless Charge - Reroll Failed Attack/Skill/Willpower roll - Run and Gun - Shake Continuous Effect - Shake Knockdown - Shake Stationary - Sprint - Two-Fister - Walk it Off" },
   //"benefit2": { "title": "Benefit/Feat name", "description": "Benefit/Feat description" },
   //"benefit3": { "title": "...", "description": "..." },
-    "benefit1": { "title": "benefit/feat", "description": "description" },
+  /*"benefit1": { "title": "benefit/feat", "description": "description" },
     "benefit2": { "title": "", "description": "" },
     "benefit3": { "title": "", "description": "" },
     "benefit4": { "title": "", "description": "" },
@@ -91,7 +91,7 @@ var ikrpg = ikrpg || {};
     "benefit8": { "title": "", "description": "" },
     "benefit9": { "title": "", "description": "" },
     "benefit10": { "title": "", "description": "" },
-    "benefit11": { "title": "", "description": "" },
+    "benefit11": { "title": "", "description": "" },*/
     "spell1": { "title": "spell", "cost": 0, "rng": 0, "aoe": "-", "pow": 0, "up": "NO", "off": "YES", "description": "description" },
     "spell2": { "title": "", "cost": "", "rng": "", "aoe": "", "pow": "", "up": "", "off": "", "description": "" },
     "spell3": { "title": "", "cost": "", "rng": "", "aoe": "", "pow": "", "up": "", "off": "", "description": "" },
