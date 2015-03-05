@@ -45,7 +45,7 @@ var ikrpg = ikrpg || {};
     "r1m2": false,
     "r2": false,
     "m2": false,
-    "ability1": { "title": "ability", "description": "description" },
+    "ability1": { "title": "ability/benefit", "description": "description" },
     "ability2": { "title": "", "description": "" },
     "ability3": { "title": "", "description": "" },
     "ability4": { "title": "", "description": "" },

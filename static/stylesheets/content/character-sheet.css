@@ -159,5 +159,5 @@ div.sheet > form#details div#languages > input#language8 { top: 217px; }
 
 @media print {
     section.content > div.sheet { display: block; -webkit-transform: scale(0.4); -o-transform: scale(0.4); transform: scale(0.4); }
-    #weapons-switch { display: none; }
+    div.sheet > form#stats a#weapons-switch { display: none !important; }
 }

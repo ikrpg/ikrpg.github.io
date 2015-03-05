@@ -19,6 +19,20 @@ tags: [Character Cards]
     #portrait input.top, #portrait input.left, #portrait input.width { display: none; }
     
     #seed { display: block; width: 100%; max-height: 26px; overflow: none; }
+    
+    @media print {
+        section.content form#stats { position: absolute; display: block; margin-top: -850px; margin-left: -500px; }
+        section.content form#skills { position: absolute; display: block; margin-top: -850px; margin-left: 250px; }
+        section.content form#abilities { position: absolute; display: block; margin-top: 150px; margin-left: -500px; }
+        section.content form#spells { position: absolute; display: block; margin-top: 150px; margin-left: 250px; }
+        section.content form#gear { position: absolute; display: block; margin-top: 1150px; margin-left: -500px; }
+        section.content form#notes { position: absolute; display: block; margin-top: 1150px; margin-left: 250px; }
+        body {
+            zoom: 80%;
+            -webkit-transform: scale(.8,.8); 
+            -moz-transform: scale(.8,.8);
+        }
+    }
 </style>
 
 <p>
@@ -35,14 +49,15 @@ tags: [Character Cards]
 <h2 style="font-weight:300;text-align:center;">
     | <a href="#stats">Stats</a> |
     <a href="#skills">Skills</a> |
-    <a href="#abilities">Abilities</a> |
-    <a href="#benefits">Benefits</a> |
+    <a href="#abilities">Abilities/Benefits</a> |
+    <!--a href="#benefits">Benefits</a> | -->
     <a href="#spells">Spells</a> |
     <a href="#gear">Gear</a> |
     <a href="#notes">Notes</a> |
+    <!--a href="#details">Details</a-->
 </h3>
 
-<div id="stats-sheet" class="sheet">
+<div class="sheet">
     <div id="pic">
         <img src="" />
     </div>
@@ -341,56 +356,6 @@ tags: [Character Cards]
         </div>
     </form>
     
-    <form id="benefits" class="card">
-        <input class="hero-name" title="Hero's Name" type="text" />
-        <div class="content">
-            <div id="benefit1" class="benefit">
-                <input class="title" title="Benefit" type="text" />
-                <textarea class="description" title="Description" rows="1"></textarea>
-            </div>
-            <div id="benefit2" class="benefit">
-                <input class="title" title="Benefit" type="text" />
-                <textarea class="description" title="Description" rows="1"></textarea>
-            </div>
-            <div id="benefit3" class="benefit">
-                <input class="title" title="Benefit" type="text" />
-                <textarea class="description" title="Description" rows="1"></textarea>
-            </div>
-            <div id="benefit4" class="benefit">
-                <input class="title" title="Benefit" type="text" />
-                <textarea class="description" title="Description" rows="1"></textarea>
-            </div>
-            <div id="benefit5" class="benefit">
-                <input class="title" title="Benefit" type="text" />
-                <textarea class="description" title="Description" rows="1"></textarea>
-            </div>
-            <div id="benefit6" class="benefit">
-                <input class="title" title="Benefit" type="text" />
-                <textarea class="description" title="Description" rows="1"></textarea>
-            </div>
-            <div id="benefit7" class="benefit">
-                <input class="title" title="Benefit" type="text" />
-                <textarea class="description" title="Description" rows="1"></textarea>
-            </div>
-            <div id="benefit8" class="benefit">
-                <input class="title" title="Benefit" type="text" />
-                <textarea class="description" title="Description" rows="1"></textarea>
-            </div>
-            <div id="benefit9" class="benefit">
-                <input class="title" title="Benefit" type="text" />
-                <textarea class="description" title="Description" rows="1"></textarea>
-            </div>
-            <div id="benefit10" class="benefit">
-                <input class="title" title="Benefit" type="text" />
-                <textarea class="description" title="Description" rows="1"></textarea>
-            </div>
-            <div id="benefit11" class="benefit">
-                <input class="title" title="Benefit" type="text" />
-                <textarea class="description" title="Description" rows="1"></textarea>
-            </div>
-        </div>
-    </form>
-    
     <form id="spells" class="card">
         <input class="hero-name" title="Hero's Name" type="text" />
         <div class="content">
@@ -656,47 +621,6 @@ tags: [Character Cards]
                 <input class="title" title="Title" type="text" />
                 <textarea class="text" title="Text" rows="1"></textarea>
             </div>
-        </div>
-    </form>
-    
-    <form id="details" class="card">
-        <input class="hero-name" type="text" />
-        <div id="attributes">
-            <input id="playerName" type="text" />
-            <input id="careers" type="text" />
-            <input id="sex" type="text" />
-            <input id="archetype" type="text" />
-            <input id="race" type="text" />
-            <input id="definingCharacteristics" type="text" />
-            <input id="faith" type="text" />
-            <input id="weight" type="text" />
-            <input id="height" type="text" />
-        </div>
-        <div id="injuries">
-            <input id="injury1" type="text" />
-            <input id="injury2" type="text" />
-            <input id="injury3" type="text" />
-        </div>
-        <div id="beliefs">
-            <input id="belief1" type="text" />
-            <input id="belief2" type="text" />
-            <input id="belief3" type="text" />
-        </div>
-        <div id="connections">
-            <input id="connection1" type="text" />
-            <input id="connection2" type="text" />
-            <input id="connection3" type="text" />
-            <input id="connection4" type="text" />
-        </div>
-        <div id="languages">
-            <input id="language1" type="text" />
-            <input id="language2" type="text" />
-            <input id="language3" type="text" />
-            <input id="language4" type="text" />
-            <input id="language5" type="text" />
-            <input id="language6" type="text" />
-            <input id="language7" type="text" />
-            <input id="language8" type="text" />
         </div>
     </form>
 </div>
