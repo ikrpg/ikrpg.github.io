@@ -3,8 +3,8 @@
 
 var ikrpg = ikrpg || {};
 
-(function () {
-//'use strict';
+(function() {
+  //'use strict';
   
   ikrpg.cards = ikrpg.cards || {};
   
@@ -164,7 +164,7 @@ var ikrpg = ikrpg || {};
     "note12": { "title": "", "text": "" }
   };
   
-  ikrpg.cards.updateData = function () {
+  ikrpg.cards.updateData = function() {
     var data = ikrpg.cards.data;
     for (var key in data) {
       var value = data[key];
@@ -185,7 +185,7 @@ var ikrpg = ikrpg || {};
     }
   };
   
-  ikrpg.cards.switchWeapons = function (event) {
+  ikrpg.cards.switchWeapons = function(event) {
     if(event) event.preventDefault();
     
     var data = ikrpg.cards.data;
@@ -228,7 +228,7 @@ var ikrpg = ikrpg || {};
     }
   };
   
-  ikrpg.cards.weaponSwitch = function () {
+  ikrpg.cards.weaponSwitch = function() {
     $("a#weapons-switch:first").on("click", ikrpg.cards.switchWeapons);
   };
   
@@ -240,23 +240,23 @@ var ikrpg = ikrpg || {};
     };
   };
   
-  ikrpg.cards.resizableTextareas = function () {
+  ikrpg.cards.resizableTextareas = function() {
     var resize = ikrpg.cards.resize;
     var delayedResize = function(textarea) {
       return function() { window.setTimeout(resize(textarea), 0); };
     };
     
-    $("textarea").each(function (index, elem) {
+    $("textarea").each(function(index, elem) {
       var textarea = $(elem);
       textarea.on("change", resize(textarea));
       textarea.on("cut", delayedResize(textarea));
       textarea.on("paste", delayedResize(textarea));
       textarea.on("drop", delayedResize(textarea));
       textarea.on("keydown", delayedResize(textarea));
-    })
+    });
   };
   
-  ikrpg.cards.fillOut = function () {
+  ikrpg.cards.fillOut = function() {
     for (var attribute in ikrpg.cards.data) { fill(attribute, ikrpg.cards.data[attribute]); }
     
     function fill(attribute, value) {
@@ -283,8 +283,8 @@ var ikrpg = ikrpg || {};
     }
   };
 
-  ikrpg.cards.generateSeed = function () {
-    $("#generate-seed").on("click", function (event) {
+  ikrpg.cards.generateSeed = function() {
+    $("#generate-seed").on("click", function(event) {
       event.preventDefault();
       
       ikrpg.cards.updateData();
@@ -297,8 +297,8 @@ var ikrpg = ikrpg || {};
     });
   };
   
-  ikrpg.cards.updateSeed = function () {
-    $("#update-seed").on("click", function (event) {
+  ikrpg.cards.updateSeed = function() {
+    $("#update-seed").on("click", function(event) {
       event.preventDefault();
       
       var seed = $("#seed").val();
@@ -316,10 +316,10 @@ var ikrpg = ikrpg || {};
     });
   };
   
-  ikrpg.cards.heroNameHack = function () {
+  ikrpg.cards.heroNameHack = function() {
     var heroNames = $("input.hero-name");
-    heroNames.each(function (index, input) {
-      $(input).on("change", function () {
+    heroNames.each(function(index, input) {
+      $(input).on("change", function() {
         var val = $(input).val();
         heroNames.val(val);
         ikrpg.cards.data["hero-name"] = val;
@@ -327,7 +327,7 @@ var ikrpg = ikrpg || {};
     });
   };
   
-  ikrpg.cards.setupPortrait = function () {
+  ikrpg.cards.setupPortrait = function() {
     var zoom_in = function(event) {
       var width = $(this).width() * 1.2;
       $(this).animate({ width: width });
@@ -335,20 +335,20 @@ var ikrpg = ikrpg || {};
 
       return false;
     };
-    var zoom_out = function () {
+    var zoom_out = function() {
       var width = $(this).width() / 1.2;
       $(this).animate({ width: width });
       $("#portrait input.width").val(width);
 
       return false;
     };
-    var show_url = function () {
+    var show_url = function() {
       $("#portrait input.url").show().focus();
     };
-    var hide_url = function () {
+    var hide_url = function() {
       $("#portrait input.url").hide();
     };
-    var set_img_src = function () {
+    var set_img_src = function() {
       var val = $("#portrait input.url").val();
       var img = $("#pic > img");
       if(val && img.attr("src") != val) {
@@ -361,7 +361,7 @@ var ikrpg = ikrpg || {};
     var portrait = $("#pic > img");
     portrait.draggable({
       cursor: "crosshair",
-      stop: function (event, ui) {
+      stop: function(event, ui) {
         var pos = ui.position;
         $("#portrait input.top").val(pos.top);
         $("#portrait input.left").val(pos.left);
@@ -371,13 +371,13 @@ var ikrpg = ikrpg || {};
     portrait.on("dblclick", zoom_out);
     portrait.on("contextmenu", zoom_out);
     portrait.on("mouseover", show_url);
-    portrait.on("mouseout", function () {
+    portrait.on("mouseout", function() {
       hide_url();
       set_img_src();
     });
   };
   
-  ikrpg.cards.setPortrait = function () {
+  ikrpg.cards.setPortrait = function() {
     var img = $("#pic > img");
     if(img) {
       var portrait = ikrpg.cards.data["portrait"];
@@ -389,7 +389,7 @@ var ikrpg = ikrpg || {};
   };
   
   
-  ikrpg.cards.init = function () {
+  ikrpg.cards.init = function() {
     ikrpg.cards.fillOut();
     ikrpg.cards.resizableTextareas();
     ikrpg.cards.weaponSwitch();
