@@ -2046,7 +2046,7 @@ var ikrpg = ikrpg || {};
     {
       name:        "The Lost Chamber",
       publication: "Full Metal Friday 1/3/4",
-      page:        "80",
+      page:        "1",
       category:    "Adventure",
       subcategory: "Scenario"
     },
