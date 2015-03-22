@@ -1,14 +1,21 @@
 CACHE MANIFEST
-# 2015-03-22:v6
+# 2015-03-22:v7
 
 CACHE:
 
+# index
 /
+/index.html
+
+# Character Creater
 /Character/
 /Character/index.html
 /Character-Cards/
 /Character-Cards/index.html
+
+# Index
 /Index/
+/Index/index.html
 /index/Ability-Index/
 /index/Ability-Index/index.html
 /index/Adventure-and-Encounter-Index/
@@ -21,6 +28,32 @@ CACHE:
 /index/Archetype-Index/index.html
 /index/Career-Index/
 /index/Career-Index/index.html
+/index/Disease-Index/
+/index/Disease-Index/index.html
+/index/Equipment-Index/
+/index/Equipment-Index/index.html
+/index/Individuals-Index/
+/index/Individuals-Index/index.html
+/index/Mechanika-Index/
+/index/Mechanika-Index/index.html
+/index/Monster-Index/
+/index/Monster-Index/index.html
+/index/Monsternomicon-Index/
+/index/Monsternomicon-Index/index.html
+/index/Organization-Index/
+/index/Organization-Index/index.html
+/index/Race-Index/
+/index/Race-Index/index.html
+/index/Skill-Index/
+/index/Skill-Index/index.html
+/index/Spell-Index/
+/index/Spell-Index/index.html
+/index/Steamjack-Index/
+/index/Steamjack-Index/index.html
+/index/Thrall-Index/
+/index/Thrall-Index/index.html
+
+# Index by Category
 /index/category/Ability/
 /index/category/Ability/index.html
 /index/category/Adventure/
@@ -59,21 +92,8 @@ CACHE:
 /index/category/Thrall/index.html
 /index/category/Vehicle/
 /index/category/Vehicle/index.html
-/index/Disease-Index/
-/index/Disease-Index/index.html
-/index/Equipment-Index/
-/index/Equipment-Index/index.html
-/Index/index.html
-/index/Individuals-Index/
-/index/Individuals-Index/index.html
-/index/Mechanika-Index/
-/index/Mechanika-Index/index.html
-/index/Monster-Index/
-/index/Monster-Index/index.html
-/index/Monsternomicon-Index/
-/index/Monsternomicon-Index/index.html
-/index/Organization-Index/
-/index/Organization-Index/index.html
+
+# Index by Publication
 /index/publication/Bitter-Medicine/
 /index/publication/Bitter-Medicine/index.html
 /index/publication/Core-Rules/
@@ -164,23 +184,14 @@ CACHE:
 /index/publication/Path-of-Devastation-Season-1/index.html
 /index/publication/Urban-Adventure/
 /index/publication/Urban-Adventure/index.html
-/index/Race-Index/
-/index/Race-Index/index.html
-/index/Skill-Index/
-/index/Skill-Index/index.html
-/index/Spell-Index/
-/index/Spell-Index/index.html
-/index/Steamjack-Index/
-/index/Steamjack-Index/index.html
-/index/Thrall-Index/
-/index/Thrall-Index/index.html
-/index.html
-/portal/Publications/
-/portal/Publications/index.html
+
+# fonts
 /static/fonts/typicons.eot
 /static/fonts/typicons.svg
 /static/fonts/typicons.ttf
 /static/fonts/typicons.woff
+
+# images
 /static/images/bg.jpg
 /static/images/ppforums/colbie.png
 /static/images/ppforums/index.png
@@ -203,6 +214,8 @@ CACHE:
 /static/images/sort_asc.png
 /static/images/sort_both.png
 /static/images/sort_desc.png
+
+# javascripts
 /static/javascripts/datatables-filters.js
 /static/javascripts/foo.js
 /static/javascripts/heroic-old.js
@@ -211,6 +224,8 @@ CACHE:
 /static/javascripts/jquery-ui-1.10.4.min.js
 /static/javascripts/lz-string-1.3.3-min.js
 /static/javascripts/setup-datatables.js
+
+# stylesheets
 /static/stylesheets/content/character-sheet.css
 /static/stylesheets/content/datatables.css
 /static/stylesheets/content/lists.css
@@ -226,6 +241,7 @@ CACHE:
 /static/stylesheets/iphone.css
 /static/stylesheets/menu.css
 /static/stylesheets/reset.css
+
 
 
 # Resources that require the user to be online.
