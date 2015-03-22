@@ -242,6 +242,12 @@ CACHE:
 /static/stylesheets/menu.css
 /static/stylesheets/reset.css
 
+# Other page resources
+https://code.jquery.com/jquery-2.1.1.min.js
+https://cdn.datatables.net/1.10.0/js/jquery.dataTables.min.js
+https://cdn.datatables.net/fixedheader/2.1.1/js/dataTables.fixedHeader.min.js
+
+
 
 
 # Resources that require the user to be online.
