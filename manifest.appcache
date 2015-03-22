@@ -244,8 +244,11 @@ CACHE:
 
 # Other page resources
 https://code.jquery.com/jquery-2.1.1.min.js
+http://code.jquery.com/jquery-2.1.1.min.js
 https://cdn.datatables.net/1.10.0/js/jquery.dataTables.min.js
+http://cdn.datatables.net/1.10.0/js/jquery.dataTables.min.js
 https://cdn.datatables.net/fixedheader/2.1.1/js/dataTables.fixedHeader.min.js
+http://cdn.datatables.net/fixedheader/2.1.1/js/dataTables.fixedHeader.min.js
 
 
 
