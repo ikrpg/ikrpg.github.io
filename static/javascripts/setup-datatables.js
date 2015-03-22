@@ -24,7 +24,7 @@ var ikrpg = ikrpg || {};
             "fnRowCallback": function(row, data, index) {
               var url = data.publication.replace(/[#]/g, "").replace(/[\/\s]+/g, "-")
               
-              $('td:eq(1)', row).html('<a href="/index/publication/'+url+'">'+data.publication+'</a>');
+              $('td:eq(1)', row).html('<a href="/index/publication/'+url+'/">'+data.publication+'</a>');
               return row;
             }
         });
@@ -69,7 +69,7 @@ var ikrpg = ikrpg || {};
               var c_url = data.category.replace(/[\s]+/g, "-");
               var sc_url = data.subcategory.replace(/[#]/g, "").replace(/[\/\s]+/g, "-")
               
-              $('td:eq(2)', row).html('<a href="/index/category/'+c_url+'">'+data.category+'</a>');
+              $('td:eq(2)', row).html('<a href="/index/category/'+c_url+'/">'+data.category+'</a>');
               $('td:eq(3)', row).html('<a href="/index/category/'+c_url+'/#'+sc_url+'">'+data.subcategory+'</a>');
               return row;
             }
@@ -114,8 +114,8 @@ var ikrpg = ikrpg || {};
               var c_url = data.category.replace(/[\s]+/g, "-");
               var sc_url = data.subcategory.replace(/[#]/g, "").replace(/[\/\s]+/g, "-")
               
-              $('td:eq(1)', row).html('<a href="/index/publication/'+p_url+'">'+data.publication+'</a>');
-              $('td:eq(3)', row).html('<a href="/index/category/'+c_url+'">'+data.category+'</a>');
+              $('td:eq(1)', row).html('<a href="/index/publication/'+p_url+'/">'+data.publication+'</a>');
+              $('td:eq(3)', row).html('<a href="/index/category/'+c_url+'/">'+data.category+'</a>');
               $('td:eq(4)', row).html('<a href="/index/category/'+c_url+'/#'+sc_url+'">'+data.subcategory+'</a>');
               return row;
             }
