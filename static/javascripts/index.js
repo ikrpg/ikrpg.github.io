@@ -97,6 +97,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Advisor",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "6",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Aegis",
       publication: "Kings, Nations, and Gods",
       page:        "361",
@@ -118,9 +125,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Ambush",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "6",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Anatomical Precision",
       publication: "Core Rules",
       page:        "157",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Anatomical Precision",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "7",
       category:    "Ability",
       subcategory: ""
     },
@@ -195,6 +216,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Backstab",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "7",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Battle Commander",
       publication: "Core Rules",
       page:        "157",
@@ -202,9 +230,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Battle Plan: Battlefield Coordination",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "7",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Battle Plan: Call to Action",
       publication: "Core Rules",
       page:        "157",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Battle Plan: Call to Action",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "7",
       category:    "Ability",
       subcategory: ""
     },
@@ -223,6 +265,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Battle Plan: Coordinated Strike",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "7",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Battle Plan: Desperate Pace",
       publication: "Core Rules",
       page:        "158",
@@ -233,6 +282,13 @@ var ikrpg = ikrpg || {};
       name:        "Battle Plan: Go to Ground",
       publication: "Core Rules",
       page:        "158",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Battle Plan: Go to Ground",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "7",
       category:    "Ability",
       subcategory: ""
     },
@@ -254,6 +310,20 @@ var ikrpg = ikrpg || {};
       name:        "Battle Plan: Shadow",
       publication: "Core Rules",
       page:        "158",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Battle Plan: Shadow",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "8",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Battle Plan: Take Cover",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "8",
       category:    "Ability",
       subcategory: ""
     },
@@ -286,9 +356,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Big Game Hunter",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "8",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Binding",
       publication: "Core Rules",
       page:        "158",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Binding",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "8",
       category:    "Ability",
       subcategory: ""
     },
@@ -307,9 +391,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Blood Rites",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "8",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Blood Spiller",
       publication: "Core Rules",
       page:        "158",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Blood Trade",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "8",
       category:    "Ability",
       subcategory: ""
     },
@@ -370,6 +468,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Bone Grinder",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "8",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Brawler",
       publication: "Urban Adventure",
       page:        "10",
@@ -384,6 +489,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Brew Master",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "8",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Bull Rush",
       publication: "No Quarter #45",
       page:        "32",
@@ -394,6 +506,13 @@ var ikrpg = ikrpg || {};
       name:        "Camouflage",
       publication: "Core Rules",
       page:        "159",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Camouflage",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "8",
       category:    "Ability",
       subcategory: ""
     },
@@ -503,6 +622,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Conniver",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "8",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Convergence Warcaster",
       publication: "No Quarter #48",
       page:        "66",
@@ -601,6 +727,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Disease Resistance",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "8",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Dispel",
       publication: "Core Rules",
       page:        "160",
@@ -618,6 +751,13 @@ var ikrpg = ikrpg || {};
       name:        "Dodger",
       publication: "Core Rules",
       page:        "161",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Dodger",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "8",
       category:    "Ability",
       subcategory: ""
     },
@@ -713,6 +853,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Exterminator",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "8",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Eye of the Storm",
       publication: "Kings, Nations, and Gods",
       page:        "90",
@@ -723,6 +870,13 @@ var ikrpg = ikrpg || {};
       name:        "Fabricator",
       publication: "No Quarter #52",
       page:        "34",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Fall Back",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "8",
       category:    "Ability",
       subcategory: ""
     },
@@ -741,6 +895,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Fast Draw",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "8",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Fast Rearm",
       publication: "Core Rules",
       page:        "161",
@@ -751,6 +912,13 @@ var ikrpg = ikrpg || {};
       name:        "Fast Reload",
       publication: "Bitter Medicine",
       page:        "53",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Fast Reload",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "9",
       category:    "Ability",
       subcategory: ""
     },
@@ -881,6 +1049,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Find Cover",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "9",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Fire in the Hole!",
       publication: "Core Rules",
       page:        "163",
@@ -912,6 +1087,13 @@ var ikrpg = ikrpg || {};
       name:        "Flesh of Steel",
       publication: "Kings, Nations, and Gods",
       page:        "361",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Flesh of Steel",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "9",
       category:    "Ability",
       subcategory: ""
     },
@@ -951,6 +1133,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Gang",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "9",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Gatekeeper",
       publication: "Kings, Nations, and Gods",
       page:        "361",
@@ -982,6 +1171,13 @@ var ikrpg = ikrpg || {};
       name:        "Good Breeding",
       publication: "Core Rules",
       page:        "163",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Go to Ground",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "9",
       category:    "Ability",
       subcategory: ""
     },
@@ -1035,6 +1231,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Gunfighter",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "9",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Hardened Strike",
       publication: "Kings, Nations, and Gods",
       page:        "361",
@@ -1049,9 +1252,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Haruspex",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "9",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Head-Butt",
       publication: "Core Rules",
       page:        "164",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Head-Butt",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "9",
       category:    "Ability",
       subcategory: ""
     },
@@ -1080,6 +1297,13 @@ var ikrpg = ikrpg || {};
       name:        "Hulking Presence",
       publication: "Urban Adventure",
       page:        "11",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Hunting Ground",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "9",
       category:    "Ability",
       subcategory: ""
     },
@@ -1140,6 +1364,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Inflict Pain",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "9",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Inscribe Formulae",
       publication: "Core Rules",
       page:        "164",
@@ -1196,6 +1427,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Language",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "9",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Legacy of Bragg",
       publication: "Core Rules",
       page:        "164",
@@ -1220,6 +1458,13 @@ var ikrpg = ikrpg || {};
       name:        "Load Bearing",
       publication: "Core Rules",
       page:        "164",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Load Bearing",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "9",
       category:    "Ability",
       subcategory: ""
     },
@@ -1294,6 +1539,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Natural Leader",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Necromancer",
       publication: "Urban Adventure",
       page:        "68",
@@ -1308,6 +1560,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Night Fighter",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Oath of Silence",
       publication: "Kings, Nations, and Gods",
       page:        "362",
@@ -1318,6 +1577,13 @@ var ikrpg = ikrpg || {};
       name:        "Onslaught",
       publication: "Kings, Nations, and Gods",
       page:        "181",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Onslaught",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
       category:    "Ability",
       subcategory: ""
     },
@@ -1350,6 +1616,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Pathfinder",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Perfect Timing",
       publication: "Urban Adventure",
       page:        "11",
@@ -1360,6 +1633,13 @@ var ikrpg = ikrpg || {};
       name:        "Poison Resistance",
       publication: "Core Rules",
       page:        "165",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Poison Resistance",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
       category:    "Ability",
       subcategory: ""
     },
@@ -1392,6 +1672,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Precision Strike",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Press the Attack",
       publication: "Core Rules",
       page:        "165",
@@ -1413,6 +1700,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Prowl",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Pursuit",
       publication: "Core Rules",
       page:        "165",
@@ -1423,6 +1717,13 @@ var ikrpg = ikrpg || {};
       name:        "Quick Work",
       publication: "Core Rules",
       page:        "166",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Quick Work",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
       category:    "Ability",
       subcategory: ""
     },
@@ -1458,6 +1759,13 @@ var ikrpg = ikrpg || {};
       name:        "Relentless Charge",
       publication: "Core Rules",
       page:        "166",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Relentless Charge",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
       category:    "Ability",
       subcategory: ""
     },
@@ -1539,6 +1847,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Roll with It",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Runesmith",
       publication: "Kings, Nations, and Gods",
       page:        "90",
@@ -1595,6 +1910,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Sentry",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Serpent Strike",
       publication: "Kings, Nations, and Gods",
       page:        "362",
@@ -1616,9 +1938,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Shadow Magic",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Shield Guard",
       publication: "Core Rules",
       page:        "167",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Shield Guard",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
       category:    "Ability",
       subcategory: ""
     },
@@ -1637,9 +1973,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Shootist",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Signal Language",
       publication: "Core Rules",
       page:        "167",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Signal Language",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
       category:    "Ability",
       subcategory: ""
     },
@@ -1661,6 +2011,13 @@ var ikrpg = ikrpg || {};
       name:        "Silver Tongued",
       publication: "Urban Adventure",
       page:        "11",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Skilled Trapper",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
       category:    "Ability",
       subcategory: ""
     },
@@ -1710,6 +2067,13 @@ var ikrpg = ikrpg || {};
       name:        "Sprint",
       publication: "Full Metal Friday 1/1/2",
       page:        "2",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Staredown",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
       category:    "Ability",
       subcategory: ""
     },
@@ -1784,9 +2148,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Survivalist",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Swift Hunter",
       publication: "Core Rules",
       page:        "167",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Swift Hunter",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "11",
       category:    "Ability",
       subcategory: ""
     },
@@ -1815,6 +2193,13 @@ var ikrpg = ikrpg || {};
       name:        "Team Leader",
       publication: "Core Rules",
       page:        "168",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Team Leader",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "11",
       category:    "Ability",
       subcategory: ""
     },
@@ -1850,6 +2235,13 @@ var ikrpg = ikrpg || {};
       name:        "Traceless Path",
       publication: "Core Rules",
       page:        "168",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Traceless Path",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "11",
       category:    "Ability",
       subcategory: ""
     },
@@ -1938,9 +2330,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Vivisectionist",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "11",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
       name:        "Waylay",
       publication: "Core Rules",
       page:        "168",
+      category:    "Ability",
+      subcategory: ""
+    },
+    {
+      name:        "Waylay",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "11",
       category:    "Ability",
       subcategory: ""
     },
@@ -1991,6 +2397,13 @@ var ikrpg = ikrpg || {};
       name:        "Friends in High Places",
       publication: "Urban Adventure",
       page:        "80",
+      category:    "Adventure",
+      subcategory: "Scenario"
+    },
+    {
+      name:        "Hogwash",
+      publication: "Unleashed Adventure Kit Scenario",
+      page:        "1",
       category:    "Adventure",
       subcategory: "Scenario"
     },
@@ -2503,6 +2916,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Alchemical Item"
     },
     {
+      name:        "Scent Mask",
+      publication: "Unleashed Adventure Kit Scenario",
+      page:        "12",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item"
+    },
+    {
       name:        "Somnolence Elixier",
       publication: "Core Rules",
       page:        "295",
@@ -2546,9 +2966,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Field Alchemy"
     },
     {
+      name:        "Simple Acid",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "30",
+      category:    "Alchemy",
+      subcategory: "Field Alchemy"
+    },
+    {
       name:        "Simple Stimulant",
       publication: "Core Rules",
       page:        "296",
+      category:    "Alchemy",
+      subcategory: "Field Alchemy"
+    },
+    {
+      name:        "Simple Stimulant",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "31",
       category:    "Alchemy",
       subcategory: "Field Alchemy"
     },
@@ -2560,9 +2994,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Field Alchemy"
     },
     {
+      name:        "Simple Stink Gas",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "31",
+      category:    "Alchemy",
+      subcategory: "Field Alchemy"
+    },
+    {
       name:        "Simple Smoke",
       publication: "Core Rules",
       page:        "296",
+      category:    "Alchemy",
+      subcategory: "Field Alchemy"
+    },
+    {
+      name:        "Simple Smoke",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "31",
       category:    "Alchemy",
       subcategory: "Field Alchemy"
     },
@@ -2787,6 +3235,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Archetype"
     },
     {
+      name:        "Gifted",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "6",
+      category:    "Character Creation",
+      subcategory: "Archetype"
+    },
+    {
       name:        "Intellectual",
       publication: "Core Rules",
       page:        "115",
@@ -2801,9 +3256,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Archetype"
     },
     {
+      name:        "Mighty",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "6",
+      category:    "Character Creation",
+      subcategory: "Archetype"
+    },
+    {
       name:        "Skilled",
       publication: "Core Rules",
       page:        "116",
+      category:    "Character Creation",
+      subcategory: "Archetype"
+    },
+    {
+      name:        "Skilled",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "6",
       category:    "Character Creation",
       subcategory: "Archetype"
     },
@@ -7056,6 +7525,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Morrg, Warlord",
+      publication: "Unleashed Adventure Kit Scenario",
+      page:        "4",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
       name:        "Oleg Strakhov, Kommander",
       publication: "Kings, Nations, and Gods",
       page:        "137",
@@ -8460,6 +8936,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Monster/Opponent"
     },
     {
+      name:        "Farrow Brigands",
+      publication: "Unleashed Adventure Kit Scenario",
+      page:        "31",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
       name:        "Gorax",
       publication: "Monsternomicon",
       page:        "44",
@@ -8530,6 +9013,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Monster/Opponent"
     },
     {
+      name:        "Razor Boars",
+      publication: "Unleashed Adventure Kit Scenario",
+      page:        "28",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
       name:        "Razorbat",
       publication: "Monsternomicon",
       page:        "60",
@@ -8582,6 +9072,13 @@ var ikrpg = ikrpg || {};
       name:        "Skigg",
       publication: "Monsternomicon",
       page:        "72",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Slaughterhousers",
+      publication: "Unleashed Adventure Kit Scenario",
+      page:        "30",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent"
     },
@@ -10130,6 +10627,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Solo Monster/Opponent"
     },
     {
+      name:        "Knor",
+      publication: "Unleashed Adventure Kit Scenario",
+      page:        "29",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
       name:        "Kroll Berok (Mighty Ogrun Pugilist)",
       publication: "Urban Adventure",
       page:        "83",
@@ -10182,6 +10686,13 @@ var ikrpg = ikrpg || {};
       name:        "Morna Petrork",
       publication: "Full Metal Friday 1/4/4",
       page:        "2",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Morrg, Warlord",
+      publication: "Unleashed Adventure Kit Scenario",
+      page:        "27",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent"
     },
@@ -11099,9 +11610,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Military Skill"
     },
     {
+      name:        "Great Weapon",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "11",
+      category:    "Skill",
+      subcategory: "Military Skill"
+    },
+    {
       name:        "Hand Weapon",
       publication: "Core Rules",
       page:        "172",
+      category:    "Skill",
+      subcategory: "Military Skill"
+    },
+    {
+      name:        "Hand Weapon",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "11",
       category:    "Skill",
       subcategory: "Military Skill"
     },
@@ -11141,6 +11666,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Military Skill"
     },
     {
+      name:        "Rifle",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "11",
+      category:    "Skill",
+      subcategory: "Military Skill"
+    },
+    {
       name:        "Shield",
       publication: "Core Rules",
       page:        "172",
@@ -11155,9 +11687,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Military Skill"
     },
     {
+      name:        "Thrown Weapon",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "11",
+      category:    "Skill",
+      subcategory: "Military Skill"
+    },
+    {
       name:        "Unarmed Combat",
       publication: "Core Rules",
       page:        "172",
+      category:    "Skill",
+      subcategory: "Military Skill"
+    },
+    {
+      name:        "Unarmed Combat",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "11",
       category:    "Skill",
       subcategory: "Military Skill"
     },
@@ -11170,9 +11716,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Occupational Skill"
     },
     {
+      name:        "Alchemy",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "12",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
       name:        "Animal Handling",
       publication: "Core Rules",
       page:        "174",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
+      name:        "Animal Handling",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "12",
       category:    "Skill",
       subcategory: "Occupational Skill"
     },
@@ -11191,9 +11751,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Occupational Skill"
     },
     {
+      name:        "Climbing",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "12",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
       name:        "Command",
       publication: "Core Rules",
       page:        "175",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
+      name:        "Command",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "12",
       category:    "Skill",
       subcategory: "Occupational Skill"
     },
@@ -11212,6 +11786,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Occupational Skill"
     },
     {
+      name:        "Cryptography",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "12",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
       name:        "Deception",
       publication: "Core Rules",
       page:        "177",
@@ -11219,9 +11800,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Occupational Skill"
     },
     {
+      name:        "Deception",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "12",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
       name:        "Detection",
       publication: "Core Rules",
       page:        "177",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
+      name:        "Detection",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "13",
       category:    "Skill",
       subcategory: "Occupational Skill"
     },
@@ -11289,9 +11884,30 @@ var ikrpg = ikrpg || {};
       subcategory: "Occupational Skill"
     },
     {
+      name:        "Interrogation",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "13",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
       name:        "Intimidation",
       publication: "Core Rules",
       page:        "183",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
+      name:        "Intimidation",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "13",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
+      name:        "Investigation",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "13",
       category:    "Skill",
       subcategory: "Occupational Skill"
     },
@@ -11324,6 +11940,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Occupational Skill"
     },
     {
+      name:        "Lore",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "13",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
       name:        "Mechanikal Engineering",
       publication: "Core Rules",
       page:        "186",
@@ -11338,9 +11961,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Occupational Skill"
     },
     {
+      name:        "Medicine",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "13",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
       name:        "Navigation",
       publication: "Core Rules",
       page:        "186",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
+      name:        "Navigation",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "13",
       category:    "Skill",
       subcategory: "Occupational Skill"
     },
@@ -11355,6 +11992,13 @@ var ikrpg = ikrpg || {};
       name:        "Oratory",
       publication: "Core Rules",
       page:        "189",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
+      name:        "Oratory",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "14",
       category:    "Skill",
       subcategory: "Occupational Skill"
     },
@@ -11408,6 +12052,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Occupational Skill"
     },
     {
+      name:        "Sneak",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "14",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
       name:        "Stormsmithing",
       publication: "Kings, Nations, and Gods",
       page:        "90",
@@ -11429,9 +12080,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Occupational Skill"
     },
     {
+      name:        "Survival",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "14",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
       name:        "Swimming",
       publication: "Core Rules",
       page:        "194",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
+      name:        "Swimming",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "14",
       category:    "Skill",
       subcategory: "Occupational Skill"
     },
@@ -11446,6 +12111,13 @@ var ikrpg = ikrpg || {};
       name:        "Tracking",
       publication: "Core Rules",
       page:        "194",
+      category:    "Skill",
+      subcategory: "Occupational Skill"
+    },
+    {
+      name:        "Tracking",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "14",
       category:    "Skill",
       subcategory: "Occupational Skill"
     },
@@ -11579,9 +12251,30 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Arcane Bolt",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Arcane Bonds",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Arcane Strike",
       publication: "Core Rules",
       page:        "236",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Arcane Strike",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
       category:    "Spell",
       subcategory: ""
     },
@@ -11642,9 +12335,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Bad Blood",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Banishing Ward",
       publication: "Core Rules",
       page:        "237",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Banishing Ward",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
       category:    "Spell",
       subcategory: ""
     },
@@ -11775,6 +12482,76 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Blood Magic: Accurate Strike",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Blood Magic: Bleeder",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Blood Magic: Blood Burst",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Blood Magic: Brain Damage",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Blood Magic: Brutal Strike",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Blood Magic: Dispel",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Blood Magic: Grievous Strike",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Blood Magic: Hobbler",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Blood Magic: Invigoration",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Blood Magic: Weakness",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Blow the Man Down",
       publication: "Kings, Nations, and Gods",
       page:        "305",
@@ -11806,6 +12583,13 @@ var ikrpg = ikrpg || {};
       name:        "Boundless Charge",
       publication: "Core Rules",
       page:        "237",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Boundless Charge",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "27",
       category:    "Spell",
       subcategory: ""
     },
@@ -11895,8 +12679,22 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cloak of Fear",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Cloak of Fear",
       publication: "Urban Adventure",
       page:        "69",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Cold Blooded",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
       category:    "Spell",
       subcategory: ""
     },
@@ -11939,6 +12737,13 @@ var ikrpg = ikrpg || {};
       name:        "Dark Persuader",
       publication: "Monsternomicon",
       page:        "41",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Dark Water",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
       category:    "Spell",
       subcategory: ""
     },
@@ -12002,6 +12807,13 @@ var ikrpg = ikrpg || {};
       name:        "Devil's Tongue",
       publication: "Urban Adventure",
       page:        "69",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Devil's Tongue",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
       category:    "Spell",
       subcategory: ""
     },
@@ -12188,9 +13000,23 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Flesh Eater",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Fog of War",
       publication: "Core Rules",
       page:        "238",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Fog of War",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
       category:    "Spell",
       subcategory: ""
     },
@@ -12321,6 +13147,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Guided Blade",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Guided Fire",
       publication: "Core Rules",
       page:        "240",
@@ -12338,6 +13171,13 @@ var ikrpg = ikrpg || {};
       name:        "Hand of Fate",
       publication: "Core Rules",
       page:        "240",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Hand of Fate",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
       category:    "Spell",
       subcategory: ""
     },
@@ -12380,6 +13220,13 @@ var ikrpg = ikrpg || {};
       name:        "Hex Blast",
       publication: "Monsternomicon",
       page:        "41",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Hex Blast",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
       category:    "Spell",
       subcategory: ""
     },
@@ -12531,6 +13378,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Inhospitable Ground",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Instigate",
       publication: "Monsternomicon",
       page:        "14",
@@ -12636,6 +13490,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Marked for Death",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Mindblow",
       publication: "Monsternomicon",
       page:        "14",
@@ -12660,6 +13521,13 @@ var ikrpg = ikrpg || {};
       name:        "Mirage",
       publication: "Core Rules",
       page:        "241",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Mist Shroud",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
       category:    "Spell",
       subcategory: ""
     },
@@ -12706,6 +13574,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Occultation",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Overmind",
       publication: "Core Rules",
       page:        "241",
@@ -12716,6 +13591,13 @@ var ikrpg = ikrpg || {};
       name:        "Overmind",
       publication: "Monsternomicon",
       page:        "14",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Parasite",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
       category:    "Spell",
       subcategory: ""
     },
@@ -12737,6 +13619,13 @@ var ikrpg = ikrpg || {};
       name:        "Phantasm",
       publication: "Monsternomicon",
       page:        "41",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Phantasm",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
       category:    "Spell",
       subcategory: ""
     },
@@ -12860,6 +13749,13 @@ var ikrpg = ikrpg || {};
       subcategory: ""
     },
     {
+      name:        "Quagmire",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
       name:        "Quickened",
       publication: "Kings, Nations, and Gods",
       page:        "240",
@@ -12933,6 +13829,13 @@ var ikrpg = ikrpg || {};
       name:        "Rift",
       publication: "Core Rules",
       page:        "242",
+      category:    "Spell",
+      subcategory: ""
+    },
+    {
+      name:        "Rift",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "28",
       category:    "Spell",
       subcategory: ""
     },
