@@ -2419,6 +2419,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Alchemical Item"
     },
     {
+      name:        "Gas Candles",
+      publication: "No Quarter #59",
+      page:        "71",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item"
+    },
+    {
       name:        "Healing Liniment",
       publication: "Core Rules",
       page:        "295",
@@ -4447,6 +4454,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Ranged Weapon"
     },
     {
+      name:        "Explosive Cufflinks",
+      publication: "No Quarter #59",
+      page:        "69",
+      category:    "Armory",
+      subcategory: "Ranged Weapon"
+    },
+    {
       name:        "Farrow Pig Iron",
       publication: "No Quarter #58",
       page:        "21",
@@ -5275,6 +5289,20 @@ var ikrpg = ikrpg || {};
       category:    "Equipment",
       subcategory: "Clothing"
     },
+    {
+      name:        "False Cloaks",
+      publication: "No Quarter #59",
+      page:        "69",
+      category:    "Equipment",
+      subcategory: "Clothing"
+    },
+    {
+      name:        "Reversible Clothing",
+      publication: "No Quarter #59",
+      page:        "68",
+      category:    "Equipment",
+      subcategory: "Clothing"
+    },
     // ##### Equipment > Equipment ##### \\
     {
       name:        "'Jack Wrench",
@@ -5347,6 +5375,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Equipment"
     },
     {
+      name:        "Double-Down Deck of Cards",
+      publication: "No Quarter #59",
+      page:        "69",
+      category:    "Equipment",
+      subcategory: "Equipment"
+    },
+    {
       name:        "Eavesdropper",
       publication: "Urban Adventure",
       page:        "14",
@@ -5357,6 +5392,13 @@ var ikrpg = ikrpg || {};
       name:        "Entrenching Spade",
       publication: "Core Rules",
       page:        "274",
+      category:    "Equipment",
+      subcategory: "Equipment"
+    },
+    {
+      name:        "False Ammunition Cartridges",
+      publication: "No Quarter #59",
+      page:        "70",
       category:    "Equipment",
       subcategory: "Equipment"
     },
@@ -5385,6 +5427,13 @@ var ikrpg = ikrpg || {};
       name:        "Grave Marker",
       publication: "Kings, Nations, and Gods",
       page:        "368",
+      category:    "Equipment",
+      subcategory: "Equipment"
+    },
+    {
+      name:        "Heat-Responsive Inks",
+      publication: "No Quarter #59",
+      page:        "70",
       category:    "Equipment",
       subcategory: "Equipment"
     },
@@ -5466,9 +5515,16 @@ var ikrpg = ikrpg || {};
       subcategory: "Equipment"
     },
     {
-      name:        "Rune SHot Casting Kit",
+      name:        "Rune Shot Casting Kit",
       publication: "Core Rules",
       page:        "277",
+      category:    "Equipment",
+      subcategory: "Equipment"
+    },
+    {
+      name:        "Sabotage Munitions",
+      publication: "No Quarter #59",
+      page:        "71",
       category:    "Equipment",
       subcategory: "Equipment"
     },
@@ -5504,6 +5560,13 @@ var ikrpg = ikrpg || {};
       name:        "Symbol of Faith",
       publication: "Core Rules",
       page:        "277",
+      category:    "Equipment",
+      subcategory: "Equipment"
+    },
+    {
+      name:        "The Enkheiridion Cipher",
+      publication: "No Quarter #59",
+      page:        "71",
       category:    "Equipment",
       subcategory: "Equipment"
     },
@@ -5845,6 +5908,13 @@ var ikrpg = ikrpg || {};
       name:        "Morridanes",
       publication: "Kings, Nations, and Gods",
       page:        "40",
+      category:    "Geography",
+      subcategory: "Culture"
+    },
+    {
+      name:        "Ogrun",
+      publication: "No Quarter #59",
+      page:        "79",
       category:    "Geography",
       subcategory: "Culture"
     },
@@ -7066,6 +7136,13 @@ var ikrpg = ikrpg || {};
       name:        "Tara Florys, Long Shot Lieutenant",
       publication: "No Quarter #56",
       page:        "42",
+      category:    "Individual",
+      subcategory: ""
+    },
+    {
+      name:        "Thagrosh",
+      publication: "No Quarter #59",
+      page:        "73",
       category:    "Individual",
       subcategory: ""
     },
@@ -8344,6 +8421,13 @@ var ikrpg = ikrpg || {};
       name:        "Dregg",
       publication: "Monsternomicon",
       page:        "36",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent"
+    },
+    {
+      name:        "Duelist Wrath",
+      publication: "No Quarter #59",
+      page:        "54",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent"
     },
@@ -10102,9 +10186,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Solo Monster/Opponent"
     },
     {
+      name:        "Myrus Rathborne",
+      publication: "No Quarter #59",
+      page:        "101",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
       name:        "Myrus Rathborne (Gifted Human Fire Sorcerer)",
       publication: "Urban Adventure",
       page:        "55",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Orran Vaine",
+      publication: "No Quarter #59",
+      page:        "100",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent"
     },
@@ -10175,6 +10273,13 @@ var ikrpg = ikrpg || {};
       name:        "Vayne di Brascio (Amethyst Rose Gun Mage)",
       publication: "No Quarter #52",
       page:        "105",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Vessos Ironjaw",
+      publication: "No Quarter #59",
+      page:        "100",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent"
     },
@@ -10267,6 +10372,13 @@ var ikrpg = ikrpg || {};
       name:        "Riverrose Syndicate",
       publication: "Urban Adventure",
       page:        "40",
+      category:    "Organization",
+      subcategory: "Criminal Enterprise"
+    },
+    {
+      name:        "The Black Triangle",
+      publication: "No Quarter #59",
+      page:        "97",
       category:    "Organization",
       subcategory: "Criminal Enterprise"
     },
