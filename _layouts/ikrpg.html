@@ -48,7 +48,9 @@
         <script type="text/javascript">
             (function(){
                 var webappCache = window.applicationCache;
-                webappCache.addEventListener("updateready", function() { webappCache.swapCache(); }, false);
+                if (webappCache) {
+                    webappCache.addEventListener("updateready", function() { webappCache.update(); webappCache.swapCache(); }, false);
+                }
             })();
         </script>
     </body>
