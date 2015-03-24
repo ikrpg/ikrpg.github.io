@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html manifest="cache.manifest">
+<html manifest="ikrpg.appcache">
     <head>
         <meta charset="UTF-8" />
 		<!--meta name="viewport" content="width=device-width;" /-->
@@ -45,5 +45,11 @@
                 <p>Images originating from the <a href="http://privateerpress.com">Privateer Press website</a> are © 2001—2013 Privateer Press, Inc. All Rights Reserved. Privateer Press ®, WARMACHINE ®, Cryx, Cygnar, Khador, Protectorate of Menoth, Retribution of Scryah, Steam-powered Miniatures Combat, warcaster, warjack, WARMACHINE: Prime, WARMACHINE: Escalation, WARMACHINE: Apotheosis, WARMACHINE: Superiority, WARMACHINE: Prime Remix, WARMACHINE: Legends, Forces of WARMACHINE: Pirates of the Broken Coast, Forces of WARMACHINE: Retribution of Scyrah, Forces of WARMACHINE: Cygnar, Forces of WARMACHINE: Khador, Forces of WARMACHINE: Cryx, Forces of WARMACHINE: Protectorate of Menoth, HORDES, Circle Orboros, Legion of Everblight, Skorne, Trollbloods, Trollblood, Monsterous Miniatures Combat, warbeast, HORDES: Primal, HORDES: Evolution, HORDES: Metamorphosis, Forces of HORDES: Circle Orboros, Forces of HORDES: Legion of Everblight, Forces of HORDES: Skorne, Forces of HORDES: Trollbloods, Iron Kingdoms, Immoren, The Witchfire Trilogy, Monsternomicon, Five Fingers: The Port of Deceit, Formula P3, Formula P3 Hobby Series, No Quarter Magazine and their logos are trademarks of Privateer Press, Inc. Images and trademarks used without permission. This website is unofficial and is not endorsed by Privateer Press. The background image is taken from the warmachine video game's <a href="http://whitemoondreams.com/warmachine/media/webkit-2">Webkit</a>.</p>
             </footer>
         </article>
+        <script type="text/javascript">
+            (function(){
+                var webappCache = window.applicationCache;
+                webappCache.addEventListener("updateready", function() { webappCache.swapCache(); }, false);
+            })();
+        </script>
     </body>
 </html>
