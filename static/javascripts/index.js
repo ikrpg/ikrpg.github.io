@@ -3572,7 +3572,7 @@ var ikrpg = ikrpg || {};
       subcategory: "Career"
     },
     {
-      name:        "Seaforge Trader",
+      name:        "Searforge Trader",
       publication: "Urban Adventure",
       page:        "7",
       category:    "Character Creation",

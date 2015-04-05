@@ -20,6 +20,7 @@ section.content ul.inline {
 section.content ul.inline,
 section.content ul.inline > li {
     display: inline;
+    margin: 0;
     padding: 0; }
 section.content ul.inline > li {
     font-size: 16px; }

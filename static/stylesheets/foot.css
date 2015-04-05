@@ -1,7 +1,5 @@
 footer#foot {
-    /*padding-bottom: 1.5em;*/
     padding-bottom: 0.5em;
-    /*color: #666;*/
     font-style: italic;
     clear: both; }
 footer#foot a {
@@ -19,16 +17,14 @@ footer#foot > ul > li:last-of-type:after {
 footer#foot > p {
     font-size: 0.8em;
     text-align: justify; }
-footer#foot > p:before,
-footer#foot > ul:after {
-    content: "\A0";
+footer#foot > div.banner {
     display: inline-block;
+    margin-bottom: 1em;
     width: 100%;
     height: 24px;
-    background-image: url(/static/images/bg.jpg);
+    background-image: none;
     background-repeat: no-repeat;
-    background-position: 50% -852px;
-    /*background-position: 50% -1002px;*/ }
+    background-position: 50% -897px; }
 footer#foot > p:before {
     margin-bottom: 24px; }
 footer#foot > ul:after {

@@ -1,6 +1,6 @@
 header#head {
     background-color: #1A1A1A;
-    background-image: url(/static/images/bg.jpg);
+    background-image: none;
     background-repeat: no-repeat;
     background-position: 50% -436px; }
 header#head a {

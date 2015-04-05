@@ -1,0 +1,300 @@
+---
+layout: ikrpg
+tags: [Character Generator]
+---
+
+<style>
+    
+</style>
+
+
+<div id="generator">
+    
+    <h2>Race</h2>
+    <ol>
+        <li>
+            <select id="race">
+                <option value="human">Human</option>
+                <option value="dwarf">Dwarf</option>
+            </select>
+        </li>
+    </ol>
+    
+    <h2>Archetype</h2>
+    <ol>
+        <li>
+            <select id="archetype">
+                <option value="gifted">Gifted</option>
+                <option value="mighty">Mighty</option>
+            </select>
+        </li>
+    </ol>
+    
+    <h2>Career 1</h2>
+    <ol>
+        <li>
+            <select>
+                <option value="alchemist">Alchemist</option>
+                <option value="cutthroat">Cutthroat</option>
+            </select>
+        </li>
+    </ol>
+    
+    <h2>Career 2</h2>
+    <ol>
+        <li>
+            <select>
+                <option value="alchemist">Alchemist</option>
+                <option value="cutthroat">Cutthroat</option>
+            </select>
+        </li>
+    </ol>
+    
+    <h2>Choices</h2>
+    <ol id="choices">
+    </ol>
+    
+</div>
+
+
+<script type="text/javascript" src="/static/javascripts/index.js"></script>
+<script type="text/javascript">
+    // global
+    // var ikrpg
+
+    var ikrpg = ikrpg || {};
+    
+    function ch00se(number, choices, description) {
+        return function() {
+            var li = "";
+            li += "<li><select>"
+            choices.forEach(function(choice) {
+                
+                '<option value="alchemist">Alchemist</option>'
+                '<option value="cutthroat">Cutthroat</option>'
+                
+            });
+            li += "</select></li>"
+            $("#choices").append(li);
+        };
+    }
+    
+    (function () {
+    //'use strict';
+        
+        // helpers
+               
+        function eq(a) {
+            return function(elem) { return elem == a; };
+        }
+        
+        function is_in(array) {
+            return function(elem) { return array.some(eq(elem)); };
+        }
+        
+        function add(a) {
+            return function(b) { return a + b; };
+        }
+        
+        function become(a) {
+            return function(b) { return a; };
+        }
+        
+        function append(a) {
+            return function(array) { return array.concat([a]); };
+        }
+        
+        function concat(array1) {
+            return function(array2) { return array1.concat(array2); };
+        }
+        
+        function add_all(new_obj) {
+            return function(old_obj) {
+                for(var key in new_obj) {
+                    if(!old_obj[key]) old_obj[key] = 0;
+                    old_obj[key] = old_obj[key] + new_obj[key];
+                }
+                return old_obj;
+            };
+        }
+        
+        function take_best(new_obj) {
+            return function(old_obj) {
+                for(var key in new_obj) {
+                    if(!old_obj[key]) old_obj[key] = new_obj[key];
+                    else if(old_obj[key] < new_obj[key]) old_obj[key] = new_obj[key];
+                }
+                return old_obj;
+            };
+        }
+        
+        // type can be: "one of"
+        function choices(amount, choices, description) {
+            // TODO
+        }
+        
+        function choose(number, property, choices, modifier, description) {
+            // TODO
+        }
+        
+        // choices: [[1, "PHY", add], ["Llaelese", "languages", append], ...]
+        
+        
+        
+        // data
+        
+        var all_archetypes = ikrpg.index.data.reduce(function(acc, obj) {
+            return obj["category"] == "Character Creation" && obj["subcategory"] == "Archetype" ? acc.concat([obj["name"]]) : acc;
+        }, []);
+        
+        var all_levels = ["hero", "veteran", "epic"];
+        
+        var all_races = ikrpg.index.data.reduce(function(acc, obj) {
+            return obj["category"] == "Character Creation" && obj["subcategory"] == "Race" ? acc.concat([obj["name"]]) : acc;
+        }, []);
+        
+        var all_careers = ikrpg.index.data.reduce(function(acc, obj) {
+            return []; // TODO obj["category"] == "Character Creation" && ["Career", "Career Option"].some(obj["subcategory"]) ? acc.concat([obj["name"]]) : acc;
+        }, []);
+        
+        var all_languages = [
+            "Aeric", "Caspian", "Cygnaran", "Gobberish", "Idrian", "Khadoran", "Khurzic", "Kossite", "Llelese",
+            "Molgur", "Molgur-Og", "Molgur-Trul", "Morridane", "Ordic", "Rhulic", "Satyx", "Scharde", "Shyr",
+            "Sulese", "Telgesh", "Thurian", "Umbrean"
+        ];
+        
+        var races = {
+            "Human": {
+                race: become("Human"),
+                PHY: add(5),
+                SPD: add(6),
+                STR: add(4),
+                AGL: add(3),
+                PRW: add(4),
+                POI: add(4),
+                INT: add(3),
+                ARC: add(0),
+                PER: add(3),
+                
+                choices: [
+                    ch00se(2, all_languages.map(function(lang) { return [lang, "languages", append]; }), "Choose two languages:"),
+                    ch00se(1, [ [1, "PHY", add], [1, "AGL", add], [1, "INT", add] ], "Choose one additional stat:")
+                ],
+                
+                choices: [
+                    choices(1, [ choose(2, "languages", all_languages, append, "Choose two languages:") ], "Choose one of the following:"),
+                    choices(1, [ choose(1, "PHY", [1], add, "Choose 1 PHY."), choose(1, "AGL", [1], add), choose(1, "INT", [1], add) ])
+                ],
+                
+                constraints: [
+                    [function(hero) { return hero.archetypes.every(is_in(["Gifted", "Intellectual", "Mighty", "Skilled"])); }, "Archetype must be one of: Gifted, Intellectual, Mighty, Skilled."],
+                    [function(hero) { return hero.level == "hero"    && hero.PHY <= 7; }, "Hero level for PHY can be at most 7."],
+                    [function(hero) { return hero.level == "veteran" && hero.PHY <= 8; }, "Veteran level for PHY can be at most 8."],
+                    [function(hero) { return hero.level == "epic"    && hero.PHY <= 8; }, "Epic level for PHY can be at most 8."],
+                    [function(hero) { return hero.level == "hero"    && hero.SPD <= 7; }, "Hero level for SPD can be at most 7."],
+                    [function(hero) { return hero.level == "veteran" && hero.SPD <= 7; }, "Veteran level for SPD can be at most 7."],
+                    [function(hero) { return hero.level == "epic"    && hero.SPD <= 7; }, "Epic level for SPD can be at most 7."],
+                    [function(hero) { return hero.level == "hero"    && hero.STR <= 6; }, "Hero level for STR can be at most 6."],
+                    [function(hero) { return hero.level == "veteran" && hero.STR <= 7; }, "Veteran level for STR can be at most 7."],
+                    [function(hero) { return hero.level == "epic"    && hero.STR <= 8; }, "Epic level for STR can be at most 8."],
+                    [function(hero) { return hero.level == "hero"    && hero.AGL <= 5; }, "Hero level for AGL can be at most 5."],
+                    [function(hero) { return hero.level == "veteran" && hero.AGL <= 6; }, "Veteran level for AGL can be at most 6."],
+                    [function(hero) { return hero.level == "epic"    && hero.AGL <= 7; }, "Epic level for AGL can be at most 7."],
+                    [function(hero) { return hero.level == "hero"    && hero.PRW <= 5; }, "Hero level for PRW can be at most 5."],
+                    [function(hero) { return hero.level == "veteran" && hero.PRW <= 6; }, "Veteran level for PRW can be at most 6."],
+                    [function(hero) { return hero.level == "epic"    && hero.PRW <= 7; }, "Epic level for PRW can be at most 7."],
+                    [function(hero) { return hero.level == "hero"    && hero.POI <= 5; }, "Hero level for POI can be at most 5."],
+                    [function(hero) { return hero.level == "veteran" && hero.POI <= 6; }, "Veteran level for POI can be at most 6."],
+                    [function(hero) { return hero.level == "epic"    && hero.POI <= 7; }, "Epic level for POI can be at most 7."],
+                    [function(hero) { return hero.level == "hero"    && hero.INT <= 5; }, "Hero level for INT can be at most 5."],
+                    [function(hero) { return hero.level == "veteran" && hero.INT <= 6; }, "Veteran level for INT can be at most 6."],
+                    [function(hero) { return hero.level == "epic"    && hero.INT <= 7; }, "Epic level for INT can be at most 7."],
+                    [function(hero) { return hero.level == "hero"    && hero.ARC <= 4; }, "Hero level for ARC can be at most 4."],
+                    [function(hero) { return hero.level == "veteran" && hero.ARC <= 6; }, "Veteran level for ARC can be at most 6."],
+                    [function(hero) { return hero.level == "epic"    && hero.ARC <= 8; }, "Epic level for ARC can be at most 8."],
+                    [function(hero) { return hero.level == "hero"    && hero.PER <= 5; }, "Hero level for PER can be at most 5."],
+                    [function(hero) { return hero.level == "veteran" && hero.PER <= 6; }, "Veteran level for PER can be at most 6."],
+                    [function(hero) { return hero.level == "epic"    && hero.PER <= 7; }, "Epic level for PER can be at most 7."],
+                ]
+            }
+        };
+        
+        var archetypes = {
+          //"Gifted": {
+          //    archetype: become("Gifted"),
+          //    "possible benefits": concat(["Additional Studies", "Combat Caster", "Fast Caster", "Feat: Dominator", "Feat: Powerful Caster", "Feat: Quick Cast", "Feat: Strength of Will", "Magic Sensitivity", "Rune Reader", "Warding Circle"]),
+          //    
+          //    choices: [
+          //        choices(1, [ choose(1, "benefits", archetypes["Gifted"]["possible benefits"]([]), append) ])
+          //    ],
+          //    
+          //    constraints: [
+          //        [function(hero) { return hero.benefits.every(is_in(hero["possible benefits"])); }, ""]
+          //    ]
+          //}
+        };
+        
+        var careers = {
+          //"Alchemist": {
+          //    careers: append("Alchemist"),
+          //    abilities: concat(["Grenadier", "Poison Resistance"]),
+          //    "military skills": add_all({ "Hand Weapon": 1, "Thrown Weapon": 1 }),
+          //    "occupational skills": add_all({ "Alchemy": 1, "Medicine": 1 }),
+          //    "gold coins": add(50),
+          //    "starting assets": concat(["alchemist's leather", "gas mask", "traveling alchemist's kit, any five alchemical grenades", "grenadier's bandolier"]),
+          //    "possible abilities": concat(["Bomber", "Brew Master", "Fast Cook", "Field Alchemist", "Fire in the Hole!", "Free Style", "Grenadier", "Poison Resistance"]),
+          //    "possible connections": append("alchemical order"),
+          //    "possible military skills": take_best({ "Hand Weapon": 2, "Thrown Weapon": 4, "Unarmed Combat": 2 }),
+          //    "possible occupational skills": take_best({ "Alchemy": 4 }) // CONTINUE HERE WITH CRAFT(ANY)
+          //}
+        };
+        
+        
+        
+        
+        // generator
+        ikrpg.generator = {
+            
+            hero: {
+                race: "",
+                archetype: "",
+                careers: [],
+                level: "hero",
+                PHY: 0,
+                SPD: 0,
+                STR: 0,
+                AGL: 0,
+                PRW: 0,
+                POI: 0,
+                INT: 0,
+                ARC: 0,
+                PER: 0,
+                languages: [],
+                "possible benefits": [],
+                benefits: [],
+                careers: [],
+                "possible abilities": [],
+                abilities: [],
+                "possible military skills": {},
+                "military skills": {},
+                "possible connections": [],
+                connections: [],
+                "possible occupational skills": {},
+                "occupational skills": {},
+                "gold coins": 0,
+                "starting assets": [],
+                
+                constraints: [
+                  //[function(hero) { return is_in(all_races)(hero.race); },            "Hero race must be one of: "+all_races.join(", ")+"."],
+                  //[function(hero) { return is_in(all_archetypes)(hero.archetype); },  "Hero archetype must be one of: "+all_archetypes.join(", ")+"."],
+                  //[function(hero) { return hero.careers.every(is_in(all_careers)); }, "Hero careers must be in: "+all_careers.join(", ")+"."],
+                  //[function(hero) { return is_in(all_levels)(hero.level); },          "Hero level must be one of: "+all_levels.join(", ")+"."],
+                  //// all_benefits
+                  //// Ability level constraint (hero -> 2, veteran -> 3, epic -> 4)
+                ]
+            }
+            
+        };
+        
+    })();
+</script>

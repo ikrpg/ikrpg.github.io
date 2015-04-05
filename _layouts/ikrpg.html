@@ -15,6 +15,10 @@
         <script type="text/javascript" src="//cdn.datatables.net/1.10.0/js/jquery.dataTables.min.js"></script>
         <script type="text/javascript" src="//cdn.datatables.net/fixedheader/2.1.1/js/dataTables.fixedHeader.min.js"></script>
         <script type="text/javascript" src="/static/javascripts/lz-string-1.3.3-min.js"></script>
+        <script src="//cdn.jsdelivr.net/pouchdb/3.3.1/pouchdb.min.js"></script>
+        <script type="text/javascript">
+            var db = new PouchDB('ikrpg');
+        </script>
     </head>
     <body>
         <article itemscope itemtype="http://schema.org/Article">
@@ -42,7 +46,8 @@
             </header>
             <section class="content" itemprop="articleBody">{{ content }}</section>
             <footer id="foot">
-                <p>Images originating from the <a href="http://privateerpress.com">Privateer Press website</a> are © 2001—2013 Privateer Press, Inc. All Rights Reserved. Privateer Press ®, WARMACHINE ®, Cryx, Cygnar, Khador, Protectorate of Menoth, Retribution of Scryah, Steam-powered Miniatures Combat, warcaster, warjack, WARMACHINE: Prime, WARMACHINE: Escalation, WARMACHINE: Apotheosis, WARMACHINE: Superiority, WARMACHINE: Prime Remix, WARMACHINE: Legends, Forces of WARMACHINE: Pirates of the Broken Coast, Forces of WARMACHINE: Retribution of Scyrah, Forces of WARMACHINE: Cygnar, Forces of WARMACHINE: Khador, Forces of WARMACHINE: Cryx, Forces of WARMACHINE: Protectorate of Menoth, HORDES, Circle Orboros, Legion of Everblight, Skorne, Trollbloods, Trollblood, Monsterous Miniatures Combat, warbeast, HORDES: Primal, HORDES: Evolution, HORDES: Metamorphosis, Forces of HORDES: Circle Orboros, Forces of HORDES: Legion of Everblight, Forces of HORDES: Skorne, Forces of HORDES: Trollbloods, Iron Kingdoms, Immoren, The Witchfire Trilogy, Monsternomicon, Five Fingers: The Port of Deceit, Formula P3, Formula P3 Hobby Series, No Quarter Magazine and their logos are trademarks of Privateer Press, Inc. Images and trademarks used without permission. This website is unofficial and is not endorsed by Privateer Press. The background image is taken from the warmachine video game's <a href="http://whitemoondreams.com/warmachine/media/webkit-2">Webkit</a>.</p>
+                <div class="banner"></div>
+                <p>Images originating from the <a href="http://privateerpress.com">Privateer Press website</a> are © 2001—2013 Privateer Press, Inc. All Rights Reserved. Privateer Press ®, WARMACHINE ®, Cryx, Cygnar, Khador, Protectorate of Menoth, Retribution of Scryah, Steam-powered Miniatures Combat, warcaster, warjack, WARMACHINE: Prime, WARMACHINE: Escalation, WARMACHINE: Apotheosis, WARMACHINE: Superiority, WARMACHINE: Prime Remix, WARMACHINE: Legends, Forces of WARMACHINE: Pirates of the Broken Coast, Forces of WARMACHINE: Retribution of Scyrah, Forces of WARMACHINE: Cygnar, Forces of WARMACHINE: Khador, Forces of WARMACHINE: Cryx, Forces of WARMACHINE: Protectorate of Menoth, HORDES, Circle Orboros, Legion of Everblight, Skorne, Trollbloods, Trollblood, Monsterous Miniatures Combat, warbeast, HORDES: Primal, HORDES: Evolution, HORDES: Metamorphosis, Forces of HORDES: Circle Orboros, Forces of HORDES: Legion of Everblight, Forces of HORDES: Skorne, Forces of HORDES: Trollbloods, Iron Kingdoms, Immoren, The Witchfire Trilogy, Monsternomicon, Five Fingers: The Port of Deceit, Formula P3, Formula P3 Hobby Series, No Quarter Magazine and their logos are trademarks of Privateer Press, Inc. Images and trademarks used without permission. This website is unofficial and is not endorsed by Privateer Press. The background images are taken from the warmachine video game's <a href="http://whitemoondreams.com/warmachine/media/webkit-2">Webkit</a> and the free <a href="http://www.drivethrurpg.com/product/146332/Iron-Kingdoms-Unleashed-An-Introduction-to-Savagery">Iron Kingdoms Unleashed Adventure Kit PDF</a>.</p>
             </footer>
         </article>
         <script type="text/javascript">
@@ -52,6 +57,39 @@
                     webappCache.addEventListener("updateready", function() { webappCache.update(); webappCache.swapCache(); }, false);
                 }
             })();
+        </script>
+        <script type="text/javascript">
+            function changeBackground(imageName, topX) {
+                $("body").css('background-image', 'url(/static/images/'+imageName+')');
+                $("body").css('background-position', '50% '+topX+'px');
+                $("#head").css('background-image', 'url(/static/images/'+imageName+')');
+                $("#head").css('background-position', '50% '+(topX-66)+'px');
+                $("#foot > div.banner").css('background-image', 'url(/static/images/'+imageName+')');
+            }
+            
+            function setBackground(imageName, topX) {
+                changeBackground(imageName, topX);
+                
+                db.get("bg", function(error, bg) {
+                    if(!error) {
+                        bg.name = imageName;
+                        bg.topX = topX;
+                        db.put(bg);
+                    }
+                });
+            }
+        
+            db.get("bg", function(error, bg) {
+                if(error) {
+                    bg = {
+                        _id: "bg",
+                        name: "bg-FMF.jpg",
+                        topX: -370
+                    };
+                    db.put(bg);
+                }
+                changeBackground(bg.name, bg.topX);
+            });
         </script>
     </body>
 </html>
