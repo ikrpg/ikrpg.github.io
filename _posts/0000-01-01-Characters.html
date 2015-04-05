@@ -4,8 +4,8 @@ tags: [Character Cards]
 ---
 
 <style>
-    form[id], form[id]:target ~ form#stats { display: none; }
-    form[id]:target, form#stats { display: block; }
+    form[id], form[id]:target ~ form#stats, form#import-export { display: none; }
+    form[id]:target, form#stats, form#import-export:target { display: block; }
     
     div#pic { margin-top: 150px; width: 350px; height: 350px; overflow: hidden; }
     div#pic > img { min-width: 350px; min-height: 500px; }
@@ -27,18 +27,38 @@ tags: [Character Cards]
     }
 </style>
 
-<p>
-    These <strong>character cards</strong> provide an alternative design for your IKRPG character sheets.
-</p>
-<p>
-    <form>
-        <textarea id="seed"></textarea>
-        <button id="update-seed">Update cards</button>
-        <button id="generate-seed">Generate seed</button>
-    </form>
-</p>
 
-<h2 style="font-weight:300;text-align:center;">
+
+<h2 style="font-weight:300;margin:1em 0 2em 0;">
+    | <!--a onclick="listCharacters()" href="#characters">Load Character</a> |-->
+    <a href="javascript:saveHero();">Save</a> |
+    <a href="#import-export">Export/Import Character</a> |
+</h2>
+
+<form id="import-export">
+    <textarea id="seed"></textarea>
+    <button id="generate-seed">Export seed for current cards</button>
+    <button id="update-seed">Fill out cards using current seed</button>
+</form>
+
+<div style="text-align:center;">
+    <table id="characters" class="hero">
+        <thead>
+            <tr>
+                <th>Hero Name</th>
+                <th>Archetype</th>
+                <th>Race</th>
+                <th>Careers</th>
+                <th>Load</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<h2 style="margin-top:2em;font-weight:300;text-align:center;">
     | <a href="#stats">Stats</a> |
     <a href="#skills">Skills</a> |
     <a href="#abilities">Abilities/Benefits</a> |
@@ -658,4 +678,89 @@ tags: [Character Cards]
 <script type="text/javascript" src="/static/javascripts/heroic.js"></script>
 <script type="text/javascript">
     ikrpg.cards.init();
+</script>
+<script type="text/javascript">
+    var db2 = new PouchDB('characters.ikrpg');
+    
+    var hero = ikrpg.cards.data;
+    
+    listCharacters();
+    
+    function saveHero() {
+        ikrpg.cards.updateData();
+        hero = ikrpg.cards.data;
+        
+        var _id = hero["hero-name"].replace(/["']/g, "");
+        
+        db2.get(_id, function(error, doc) {
+            if(error) {
+                doc = hero;
+                doc["_id"] = _id;
+                db2.put(doc);
+            } else {
+                hero["_id"] = doc["_id"];
+                hero["_rev"] = doc["_rev"];
+                db2.put(hero);
+            }
+            listCharacters();
+        });
+    }
+    
+    function listCharacters() {
+        $("#characters > tbody").remove();
+        
+        $("#characters").append("<tbody>");
+        
+        db2.allDocs({include_docs: true}, function(error, results) {
+            var rows = results.rows;
+            
+            $.each(rows, function(index, row) {
+                var character = row.doc;
+                
+                function appendTr() {
+                    $("#characters > tbody").append("<tr>");
+                }
+                
+                function appendTd() {
+                    $("#characters > tbody > tr:last-of-type").append("<td>");
+                }
+                
+                function lastTd() {
+                    return $("#characters > tbody > tr:last-of-type > td:last-of-type");
+                }
+                
+                appendTr();
+                appendTd();
+                lastTd().text(character["hero-name"]);
+                appendTd();
+                lastTd().text(character["archetype"]);
+                appendTd();
+                lastTd().text(character["race"]);
+                appendTd();
+                lastTd().text(character["careers"]);
+                appendTd();
+                lastTd().html("<a href=\"javascript:showCharacter('"+character["_id"]+"')\">Load</a>");
+                appendTd();
+                lastTd().html("<a href=\"javascript:deleteCharacter('"+character["_id"]+"', '"+character["_rev"]+"')\"><strong>Delete</strong></a>");
+            });
+        });
+    }
+    
+    function showCharacter(characterId) {
+        db2.get(characterId, function(error, character) {
+            if(!error) {
+                ikrpg.cards.data = character;
+                ikrpg.cards.init();
+                ikrpg.cards.switchWeapons();
+                ikrpg.cards.heroNameHack();
+                ikrpg.cards.setPortrait();
+            }
+        });
+    }
+    
+    function deleteCharacter(characterId, characterRev) {
+        db2.remove(characterId, characterRev, function(error, code) {
+            listCharacters();
+        });
+    }
 </script>
