@@ -104,29 +104,29 @@ CACHE:
 /static/fonts/typicons.woff
 
 # images
-static/images/bg-FMF.jpg
-static/images/bg-Unleashed.jpg
-static/images/ppforums/colbie.png
-static/images/ppforums/index.png
-static/images/progress/cygnar.png
-static/images/progress/khador.png
-static/images/progress/mercenaries.png
-static/images/sheet/Abilities.png
-static/images/sheet/Colbie.jpg
-static/images/sheet/Details.png
-static/images/sheet/Feats.png
-static/images/sheet/Gear.png
-static/images/sheet/M+M.png
-static/images/sheet/R+M+M.png
-static/images/sheet/R+R+M.png
-static/images/sheet/R+R.png
-static/images/sheet/reload.png
-static/images/sheet/Skills.png
-static/images/sheet/Spells.png
-static/images/sheet/Stats.png
-static/images/sort_asc.png
-static/images/sort_both.png
-static/images/sort_desc.png
+/static/images/bg-FMF.jpg
+/static/images/bg-Unleashed.jpg
+/static/images/ppforums/colbie.png
+/static/images/ppforums/index.png
+/static/images/progress/cygnar.png
+/static/images/progress/khador.png
+/static/images/progress/mercenaries.png
+/static/images/sheet/Abilities.png
+/static/images/sheet/Colbie.jpg
+/static/images/sheet/Details.png
+/static/images/sheet/Feats.png
+/static/images/sheet/Gear.png
+/static/images/sheet/M+M.png
+/static/images/sheet/R+M+M.png
+/static/images/sheet/R+R+M.png
+/static/images/sheet/R+R.png
+/static/images/sheet/reload.png
+/static/images/sheet/Skills.png
+/static/images/sheet/Spells.png
+/static/images/sheet/Stats.png
+/static/images/sort_asc.png
+/static/images/sort_both.png
+/static/images/sort_desc.png
 
 # javascripts
 /static/javascripts/datatables-filters.js
@@ -139,21 +139,21 @@ static/images/sort_desc.png
 /static/javascripts/setup-datatables.js
 
 # stylesheets
-static/stylesheets/content/character-sheet.css
-static/stylesheets/content/datatables.css
-static/stylesheets/content/lists.css
-static/stylesheets/content/progress-bar.css
-static/stylesheets/content/tables.css
-static/stylesheets/content.css
-static/stylesheets/fonts.css
-static/stylesheets/foot.css
-static/stylesheets/global.css
-static/stylesheets/head.css
-static/stylesheets/index.css
-static/stylesheets/ipad.css
-static/stylesheets/iphone.css
-static/stylesheets/menu.css
-static/stylesheets/reset.css
+/static/stylesheets/content/character-sheet.css
+/static/stylesheets/content/datatables.css
+/static/stylesheets/content/lists.css
+/static/stylesheets/content/progress-bar.css
+/static/stylesheets/content/tables.css
+/static/stylesheets/content.css
+/static/stylesheets/fonts.css
+/static/stylesheets/foot.css
+/static/stylesheets/global.css
+/static/stylesheets/head.css
+/static/stylesheets/index.css
+/static/stylesheets/ipad.css
+/static/stylesheets/iphone.css
+/static/stylesheets/menu.css
+/static/stylesheets/reset.css
 
 # Other page resources
 https://code.jquery.com/jquery-2.1.1.min.js
