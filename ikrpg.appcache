@@ -158,12 +158,16 @@ CACHE:
 /static/stylesheets/reset.css
 
 # Other page resources
-https://code.jquery.com/jquery-2.1.1.min.js
+http://fonts.googleapis.com/css?family=Cabin:700
+https://fonts.googleapis.com/css?family=Cabin:700
+http://fonts.gstatic.com/s/cabin/v7/nHiQo1BypvYzt95zlPq1TnYhjbSpvc47ee6xR_80Hnw.ttf
+https://fonts.gstatic.com/s/cabin/v7/nHiQo1BypvYzt95zlPq1TnYhjbSpvc47ee6xR_80Hnw.ttf
 http://code.jquery.com/jquery-2.1.1.min.js
-https://cdn.datatables.net/1.10.0/js/jquery.dataTables.min.js
+https://code.jquery.com/jquery-2.1.1.min.js
 http://cdn.datatables.net/1.10.0/js/jquery.dataTables.min.js
-https://cdn.datatables.net/fixedheader/2.1.1/js/dataTables.fixedHeader.min.js
+https://cdn.datatables.net/1.10.0/js/jquery.dataTables.min.js
 http://cdn.datatables.net/fixedheader/2.1.1/js/dataTables.fixedHeader.min.js
+https://cdn.datatables.net/fixedheader/2.1.1/js/dataTables.fixedHeader.min.js
 
 NETWORK:
 *
