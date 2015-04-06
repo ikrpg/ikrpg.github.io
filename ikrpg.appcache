@@ -160,6 +160,8 @@ https://cdn.datatables.net/1.10.0/js/jquery.dataTables.min.js
 http://cdn.datatables.net/1.10.0/js/jquery.dataTables.min.js
 https://cdn.datatables.net/fixedheader/2.1.1/js/dataTables.fixedHeader.min.js
 http://cdn.datatables.net/fixedheader/2.1.1/js/dataTables.fixedHeader.min.js
+https://cdn.jsdelivr.net/pouchdb/3.3.1/pouchdb.min.js
+http://cdn.jsdelivr.net/pouchdb/3.3.1/pouchdb.min.js
 
 NETWORK:
 *
