@@ -3,6 +3,9 @@ CACHE MANIFEST
 
 CACHE:
 
+# Front site
+/
+
 # Character Creater
 /Character/
 /Characters/
