@@ -135,6 +135,7 @@ CACHE:
 /static/javascripts/jquery-ui-1.10.4.min.js
 /static/javascripts/lz-string-1.3.3-min.js
 /static/javascripts/setup-datatables.js
+/static/javascripts/pouchdb-3.3.1.min.js
 
 # stylesheets
 /static/stylesheets/content/character-sheet.css
@@ -160,8 +161,6 @@ https://cdn.datatables.net/1.10.0/js/jquery.dataTables.min.js
 http://cdn.datatables.net/1.10.0/js/jquery.dataTables.min.js
 https://cdn.datatables.net/fixedheader/2.1.1/js/dataTables.fixedHeader.min.js
 http://cdn.datatables.net/fixedheader/2.1.1/js/dataTables.fixedHeader.min.js
-https://cdn.jsdelivr.net/pouchdb/3.3.1/pouchdb.min.js
-http://cdn.jsdelivr.net/pouchdb/3.3.1/pouchdb.min.js
 
 NETWORK:
 *
