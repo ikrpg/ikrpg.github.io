@@ -2486,6 +2486,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Encounter"
     },
     {
+      name:        "Dark Water",
+      publication: "Path of Devastation Season 2",
+      page:        "20",
+      category:    "Adventure",
+      subcategory: "Encounter"
+    },
+    {
       name:        "Dead End",
       publication: "Full Metal Friday 1/4/4",
       page:        "1",
@@ -10115,6 +10122,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Monster/Opponent"
     },
     {
+      name:        "Radiz Warrior",
+      publication: "Path of Devastation Season 2",
+      page:        "26",
+      category:    "Monster",
+      subcategory: "Monster/Opponent"
+    },
+    {
       name:        "Raevhan Buffalo",
       publication: "No Quarter #46",
       page:        "55",
@@ -10487,6 +10501,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Solo Monster/Opponent"
     },
     {
+      name:        "Bevoul",
+      publication: "Path of Devastation Season 2",
+      page:        "26",
+      category:    "Monster",
+      subcategory: "Monster/Opponent"
+    },
+    {
       name:        "Bowden Haightly (Posessed Talon Warjack)",
       publication: "No Quarter #44",
       page:        "70",
@@ -10674,6 +10695,13 @@ var ikrpg = ikrpg || {};
       page:        "96",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent"
+    },
+    {
+      name:        "Martinho Cardozo",
+      publication: "Path of Devastation Season 2",
+      page:        "27",
+      category:    "Monster",
+      subcategory: "Monster/Opponent"
     },
     {
       name:        "Mirek Orlov",

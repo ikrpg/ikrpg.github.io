@@ -61,11 +61,11 @@
         </script>
         <script type="text/javascript">
             function changeBackground(imageName, topX) {
-                $("body").css('background-image', 'url(/static/images/'+imageName+')');
+                $("body").css('background-image', 'url('+imageName+')');
                 $("body").css('background-position', '50% '+topX+'px');
-                $("#head").css('background-image', 'url(/static/images/'+imageName+')');
+                $("#head").css('background-image', 'url('+imageName+')');
                 $("#head").css('background-position', '50% '+(topX-66)+'px');
-                $("#foot > div.banner").css('background-image', 'url(/static/images/'+imageName+')');
+                $("#foot > div.banner").css('background-image', 'url('+imageName+')');
             }
             
             function setBackground(imageName, topX) {
@@ -84,7 +84,7 @@
                 if(error) {
                     bg = {
                         _id: "bg",
-                        name: "bg-FMF.jpg",
+                        name: "/static/images/bg-FMF.jpg",
                         topX: -370
                     };
                     db.put(bg);
