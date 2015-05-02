@@ -17,4 +17,8 @@ var ikrpg = ikrpg || {};
 	ikrpg.index.filter.publication = function (publication) {
 	  return function (obj) { return obj.publication == publication; };
 	}
+  
+  ikrpg.index.filter.game = function (name) {
+    return function (obj) { return obj.game == name; };
+  }
 })();

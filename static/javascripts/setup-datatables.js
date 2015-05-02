@@ -17,14 +17,17 @@ var ikrpg = ikrpg || {};
             "columns": [
                 { "data": "name" },
                 { "data": "publication" },
-                { "data": "page" }
+                { "data": "page" },
+                { "data": "game" }
             ],
             "paging": false,
             "info": false,
             "fnRowCallback": function(row, data, index) {
-              var url = data.publication.replace(/[#]/g, "").replace(/[\/\s]+/g, "-")
+              var url = data.publication.replace(/[#]/g, "").replace(/[\/\s]+/g, "-");
+              var g_url = data.game.replace(/[\s]+/g, "-");
               
               $('td:eq(1)', row).html('<a href="/index/publication/'+url+'/">'+data.publication+'</a>');
+              $('td:eq(3)', row).html('<a href="/index/game/'+g_url+'">'+data.game+'</a>');
               return row;
             }
         });
@@ -61,16 +64,19 @@ var ikrpg = ikrpg || {};
                 { "data": "name" },
                 { "data": "page" },
                 { "data": "category" },
-                { "data": "subcategory" }
+                { "data": "subcategory" },
+                { "data": "game" }
             ],
             "paging": false,
             "info": false,
             "fnRowCallback": function(row, data, index) {
               var c_url = data.category.replace(/[\s]+/g, "-");
-              var sc_url = data.subcategory.replace(/[#]/g, "").replace(/[\/\s]+/g, "-")
+              var sc_url = data.subcategory.replace(/[#]/g, "").replace(/[\/\s]+/g, "-");
+              var g_url = data.game.replace(/[\s]+/g, "-");
               
               $('td:eq(2)', row).html('<a href="/index/category/'+c_url+'/">'+data.category+'</a>');
               $('td:eq(3)', row).html('<a href="/index/category/'+c_url+'/#'+sc_url+'">'+data.subcategory+'</a>');
+              $('td:eq(4)', row).html('<a href="/index/game/'+g_url+'">'+data.game+'</a>');
               return row;
             }
         });
@@ -94,12 +100,13 @@ var ikrpg = ikrpg || {};
 
 (function () {
     
-    var tables = $("table[data-index]");
+    var tables = $("table[data-game]");
     
     tables.each(function (i, elem) {
+        var game = $(elem).attr("data-game");
         
         var table = $(elem).dataTable({
-            "data": ikrpg.index.data,
+            "data": ikrpg.index.data.filter(ikrpg.index.filter.game(game)),
             "columns": [
                 { "data": "name" },
                 { "data": "publication" },
@@ -117,6 +124,52 @@ var ikrpg = ikrpg || {};
               $('td:eq(1)', row).html('<a href="/index/publication/'+p_url+'/">'+data.publication+'</a>');
               $('td:eq(3)', row).html('<a href="/index/category/'+c_url+'/">'+data.category+'</a>');
               $('td:eq(4)', row).html('<a href="/index/category/'+c_url+'/#'+sc_url+'">'+data.subcategory+'</a>');
+              return row;
+            }
+        });
+
+        new $.fn.dataTable.FixedHeader(table);
+
+        function filterColumn(i, table) {            
+            var real_table = $('section.content table[data-game]');
+            var query = $('.FixedHeader_Cloned table[data-game] .col'+i+'_filter')
+            real_table.DataTable().column(i).search(query.val(), true, true).draw();
+        }
+
+        $('input.column_filter').on('keyup click', function () {
+            filterColumn($(this).attr('data-column'), $(this).closest('table'));
+        });
+    })
+})();
+
+(function () {
+    
+    var tables = $("table[data-index]");
+    
+    tables.each(function (i, elem) {
+        
+        var table = $(elem).dataTable({
+            "data": ikrpg.index.data,
+            "columns": [
+                { "data": "name" },
+                { "data": "publication" },
+                { "data": "page" },
+                { "data": "category" },
+                { "data": "subcategory" },
+                { "data": "game" }
+            ],
+            "paging": false,
+            "info": false,
+            "fnRowCallback": function(row, data, index) {
+              var p_url = data.publication.replace(/[#]/g, "").replace(/[\/\s]+/g, "-")
+              var c_url = data.category.replace(/[\s]+/g, "-");
+              var sc_url = data.subcategory.replace(/[#]/g, "").replace(/[\/\s]+/g, "-")
+              var g_url = data.game.replace(/[\s]+/g, "-");
+              
+              $('td:eq(1)', row).html('<a href="/index/publication/'+p_url+'">'+data.publication+'</a>');
+              $('td:eq(3)', row).html('<a href="/index/category/'+c_url+'">'+data.category+'</a>');
+              $('td:eq(4)', row).html('<a href="/index/category/'+c_url+'/#'+sc_url+'">'+data.subcategory+'</a>');
+              $('td:eq(5)', row).html('<a href="/index/game/'+g_url+'">'+data.game+'</a>');
               return row;
             }
         });

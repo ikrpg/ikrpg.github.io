@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2015-04-06v1
+# 2015-05-02v2
 
 CACHE:
 
@@ -52,6 +52,7 @@ CACHE:
 /index/category/Steamjack/
 /index/category/Thrall/
 /index/category/Vehicle/
+/index/category/Warbeast/
 
 # Index by Publication
 /index/publication/Bitter-Medicine/
@@ -97,8 +98,12 @@ CACHE:
 /index/publication/No-Quarter-56/
 /index/publication/No-Quarter-57/
 /index/publication/No-Quarter-58/
+/index/publication/No-Quarter-59/
 /index/publication/Path-of-Devastation-Season-1/
 /index/publication/Urban-Adventure/
+/index/publication/Unleashed/
+/index/publication/Unleashed-Adventure-Kit-Rulebook/
+/index/publication/Unleashed-Adventure-Kit-Scenario/
 
 # fonts
 /static/fonts/typicons.eot
