@@ -80,16 +80,18 @@
                 });
             }
         
-            db.get("bg", function(error, bg) {
-                if(error) {
-                    bg = {
-                        _id: "bg",
-                        name: "/static/images/bg-FMF.jpg",
-                        topX: -370
-                    };
-                    db.put(bg);
-                }
-                changeBackground(bg.name, bg.topX);
+            $(function() {
+                db.get("bg", function(error, bg) {
+                    if(error) {
+                        bg = {
+                            _id: "bg",
+                            name: "/static/images/bg-FMF.jpg",
+                            topX: -370
+                        };
+                        db.put(bg);
+                    }
+                    changeBackground(bg.name, bg.topX);
+                });
             });
         </script>
     </body>
