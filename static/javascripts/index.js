@@ -4541,6 +4541,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Hogshead",
+      publication: "Fridays Unleashed 02/20/2015",
+      page:        "1",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
+    },
+    {
       name:        "Sailor take Warning",
       publication: "Full Metal Friday 1/1/4",
       page:        "1",
@@ -4719,6 +4727,22 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Pit Traps",
+      publication: "Fridays Unleashed 01/30/2015",
+      page:        "1",
+      category:    "Adventure",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Poisonous Plants",
+      publication: "Fridays Unleashed 01/16/2014",
+      page:        "1",
+      category:    "Adventure",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
       name:        "Quicksand",
       publication: "Unleashed",
       page:        "228",
@@ -4762,6 +4786,14 @@ var ikrpg = ikrpg || {};
       name:        "Tree Deadfall",
       publication: "Unleashed",
       page:        "225",
+      category:    "Adventure",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Wounded Razor Boar",
+      publication: "Fridays Unleashed 01/30/2015",
+      page:        "1",
       category:    "Adventure",
       subcategory: "Hazard",
       game:        "IKU"
@@ -5686,6 +5718,14 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bone Fetish",
+      publication: "Fridays Unleashed 02/20/2015",
+      page:        "1",
+      category:    "Alchemy",
+      subcategory: "Bone Grinder Fetish",
+      game:        "IKU"
+    },
+    {
+      name:        "Bone Fetish",
       publication: "Unleashed",
       page:        "349",
       category:    "Alchemy",
@@ -6020,6 +6060,14 @@ var ikrpg = ikrpg || {};
       category:    "Character Creation",
       subcategory: "Adventuring Company",
       game:        "FMF"
+    },
+    {
+      name:        "Wilderness Expedition",
+      publication: "Fridays Unleashed 01/09/2015",
+      page:        "1",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "IKU"
     },
     {
       name:        "Wilderness Kriel",
@@ -12796,6 +12844,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Gullin Oakbreaker",
+      publication: "Fridays Unleashed 03/20/2015",
+      page:        "1",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Gunnbjorn, Captain",
       publication: "No Quarter #43",
       page:        "53",
@@ -12900,12 +12956,28 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Knor",
+      publication: "Fridays Unleashed 03/27/2015",
+      page:        "1",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Leto Raelthorne, King",
       publication: "Kings, Nations, and Gods",
       page:        "21",
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Longchops",
+      publication: "Fridays Unleashed 02/13/2015",
+      page:        "1",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Lorimer Kex, The Mad Arcanist",
@@ -12930,6 +13002,14 @@ var ikrpg = ikrpg || {};
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Lurk",
+      publication: "Fridays Unleashed 03/06/2015",
+      page:        "1",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Magda McCallahan, Pirate Captain",
@@ -13210,6 +13290,14 @@ var ikrpg = ikrpg || {};
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Zocha the Outcast",
+      publication: "Fridays Unleashed 01/23/2105",
+      page:        "1",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Zolor Kurang",
