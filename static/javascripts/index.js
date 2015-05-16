@@ -46,7 +46,7 @@ var ikrpg = ikrpg || {};
   //     Thrall Type, Thrall Upgrade
   // Vehicle
   // Warbeast
-  //     Devourer Warbeast, Farrow Warbeast, Swamp Warbeast, Trollblood Warbeast, Wold, Animus, Warbeast Armor
+  //     Devourer Warbeast, Farrow Warbeast, Legion Warbeast, Swamp Warbeast, Trollblood Warbeast, Wold, Animus, Warbeast Armor
   //     Warbeast Melee Weapon, Warbeast Ranged Weapon, Warbeast Gear, Warbeast Mechanikal Component
 	ikrpg.index.data = [
     // ##### Ability ##### \\
@@ -302,6 +302,14 @@ var ikrpg = ikrpg || {};
       name:        "Astute",
       publication: "Unleashed",
       page:        "155",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Athanc Shard",
+      publication: "No Quarter #60",
+      page:        "106",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -1331,6 +1339,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Draconic Eminence",
+      publication: "No Quarter #60",
+      page:        "108",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Drive: Ancillary Attack",
       publication: "Core Rules",
       page:        "161",
@@ -1430,6 +1446,14 @@ var ikrpg = ikrpg || {};
       name:        "Empower Weapon",
       publication: "Unleashed",
       page:        "159",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Energy Siphon",
+      publication: "No Quarter #60",
+      page:        "108",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -1841,6 +1865,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Field Marshal: Sprint",
+      publication: "No Quarter #60",
+      page:        "106",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Field Marshall: Unyielding",
@@ -2715,6 +2747,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Mend Flesh",
+      publication: "No Quarter #60",
+      page:        "108",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Mount Attack",
       publication: "Unleashed",
       page:        "163",
@@ -3083,6 +3123,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Range Amplifier",
+      publication: "No Quarter #60",
+      page:        "108",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Reclaim",
       publication: "Kings, Nations, and Gods",
       page:        "362",
@@ -3275,6 +3323,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Riposte",
+      publication: "No Quarter #60",
+      page:        "106",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Rock Solid",
       publication: "Core Rules",
       page:        "166",
@@ -3414,6 +3470,14 @@ var ikrpg = ikrpg || {};
       name:        "Sentry",
       publication: "Unleashed Adventure Kit Rulebook",
       page:        "10",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Serenity",
+      publication: "No Quarter #60",
+      page:        "108",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -3699,6 +3763,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Spawning Savant",
+      publication: "No Quarter #60",
+      page:        "106",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Specialization",
       publication: "Core Rules",
       page:        "167",
@@ -3726,6 +3798,14 @@ var ikrpg = ikrpg || {};
       name:        "Spirit Guide",
       publication: "Unleashed",
       page:        "167",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Spiritual Harmony",
+      publication: "No Quarter #60",
+      page:        "109",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -3937,6 +4017,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Tap Fury",
+      publication: "No Quarter #60",
+      page:        "109",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Targeteer",
@@ -4283,6 +4371,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     // ##### Adventure > Scenario ##### \\
+    {
+      name:        "1 AR: The Synthesis of Rebellion",
+      publication: "No Quarter #60",
+      page:        "82",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "FMF"
+    },
     {
       name:        "Bitter Medicine",
       publication: "Bitter Medicine",
@@ -6715,6 +6811,14 @@ var ikrpg = ikrpg || {};
       name:        "Warlock, Farrow",
       publication: "Unleashed",
       page:        "140",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
+      name:        "Warlock, Legion",
+      publication: "No Quarter #60",
+      page:        "105",
       category:    "Character Creation",
       subcategory: "Career",
       game:        "IKU"
@@ -10371,6 +10475,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Spawning Vessel",
+      publication: "No Quarter #60",
+      page:        "110",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "IKU"
+    },
+    {
       name:        "Spider Harness",
       publication: "Urban Adventure",
       page:        "15",
@@ -12588,6 +12700,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Draegyn, The Black Bastard",
+      publication: "No Quarter #60",
+      page:        "80",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Drake MacBain, Warcaster",
       publication: "No Quarter #47",
       page:        "39",
@@ -12788,6 +12908,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Lorimer Kex, The Mad Arcanist",
+      publication: "No Quarter #60",
+      page:        "85",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Lorio Casini, Leader of the Long Shot Society",
       publication: "No Quarter #56",
       page:        "41",
@@ -12895,6 +13023,14 @@ var ikrpg = ikrpg || {};
       name:        "Servath Reznik, High Executioner",
       publication: "No Quarter #57",
       page:        "47",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Seth Alkost, Monster Hunter",
+      publication: "No Quarter #60",
+      page:        "83",
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
@@ -13015,6 +13151,14 @@ var ikrpg = ikrpg || {};
       name:        "Vinter Raelthorne IV",
       publication: "Kings, Nations, and Gods",
       page:        "22",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Vinter Raelthorne IV",
+      publication: "No Quarter #60",
+      page:        "57",
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
@@ -14359,6 +14503,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Carnivean",
+      publication: "No Quarter #60",
+      page:        "116",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Cataphract Beetle",
       publication: "Monsternomicon",
       page:        "10",
@@ -14679,6 +14831,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Raek",
+      publication: "No Quarter #60",
+      page:        "114",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Raevhan Buffalo",
       publication: "Monsternomicon",
       page:        "58",
@@ -14781,6 +14941,14 @@ var ikrpg = ikrpg || {};
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Shredder",
+      publication: "No Quarter #60",
+      page:        "112",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Skigg",
@@ -16883,6 +17051,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Draegyn",
+      publication: "No Quarter #60",
+      page:        "82",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Errigan (Specter)",
       publication: "No Quarter #47",
       page:        "61",
@@ -17003,6 +17179,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Lorimer Kex",
+      publication: "No Quarter #60",
+      page:        "87",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Loyalist Guards",
       publication: "No Quarter #58",
       page:        "106",
@@ -17118,6 +17302,14 @@ var ikrpg = ikrpg || {};
       name:        "Rina Zavor, Bounty Hunter",
       publication: "No Quarter #57",
       page:        "95",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Seth Alkot",
+      publication: "No Quarter #60",
+      page:        "84",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
@@ -19697,6 +19889,22 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Blight Bringer",
+      publication: "No Quarter #60",
+      page:        "106",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Blight Field",
+      publication: "No Quarter #60",
+      page:        "106",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Blizzard",
       publication: "Core Rules",
       page:        "237",
@@ -19911,6 +20119,14 @@ var ikrpg = ikrpg || {};
       category:    "Spell",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Blood Rain",
+      publication: "No Quarter #60",
+      page:        "106",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Blow the Man Down",
@@ -20449,6 +20665,30 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Draconic Blessing",
+      publication: "No Quarter #60",
+      page:        "106",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Dragon's Blood",
+      publication: "No Quarter #60",
+      page:        "106",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Dragonsight",
+      publication: "No Quarter #60",
+      page:        "106",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Earthquake",
       publication: "Core Rules",
       page:        "238",
@@ -20596,6 +20836,14 @@ var ikrpg = ikrpg || {};
       name:        "Eruption of Life",
       publication: "Unleashed",
       page:        "245",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Eruption of Spines",
+      publication: "No Quarter #60",
+      page:        "106",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -21874,6 +22122,14 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mystic Wards",
+      publication: "No Quarter #60",
+      page:        "106",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Mystic Wards",
       publication: "Unleashed",
       page:        "249",
       category:    "Spell",
@@ -22028,6 +22284,14 @@ var ikrpg = ikrpg || {};
       name:        "Pig Pen",
       publication: "Unleashed",
       page:        "250",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Playing God",
+      publication: "No Quarter #60",
+      page:        "106",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -22372,6 +22636,14 @@ var ikrpg = ikrpg || {};
       name:        "Refuge",
       publication: "Unleashed",
       page:        "250",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Respawn",
+      publication: "No Quarter #60",
+      page:        "106",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -23548,6 +23820,14 @@ var ikrpg = ikrpg || {};
       name:        "Wind Strike",
       publication: "Unleashed",
       page:        "253",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Wind Wall",
+      publication: "No Quarter #60",
+      page:        "106",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -25828,6 +26108,31 @@ var ikrpg = ikrpg || {};
       page:        "285",
       category:    "Warbeast",
       subcategory: "Farrow Warbeast",
+      game:        "IKU"
+    },
+    // ##### Warbeast > Legion Warbeast ##### \\
+    {
+      name:        "Carnivean",
+      publication: "No Quarter #60",
+      page:        "116",
+      category:    "Warbeast",
+      subcategory: "Legion Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Raek",
+      publication: "No Quarter #60",
+      page:        "114",
+      category:    "Warbeast",
+      subcategory: "Legion Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Shredder",
+      publication: "No Quarter #60",
+      page:        "112",
+      category:    "Warbeast",
+      subcategory: "Legion Warbeast",
       game:        "IKU"
     },
     // ##### Warbeast > Swamp Warbeast ##### \\
