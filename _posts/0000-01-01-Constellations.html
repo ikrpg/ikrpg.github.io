@@ -1,0 +1,187 @@
+---
+redirect_from: "/Caen-Moons/"
+published: true
+layout: ikrpg
+tags: [ Version 1 ]
+---
+
+<style>
+    #sky { height: 150px; text-align: center; background-color: black; }
+    #calder, #laris, #artis { display: inline-block; margin: 20px; background: url(/static/images/constellations/shadow.png) no-repeat, url(/static/images/constellations/moons.jpg) no-repeat; }
+    #calder { float: left; }
+    #laris { margin-top: 34px; }
+    #artis { float: right; margin-top: 48px; }
+    #calder { width: 110px; height: 110px; background-size: 110px 110px, 410px 410px; }
+    #laris  { width:  82px; height:  82px; background-size:  82px  82px, 307px 307px; }
+    #artis  { width:  56px; height:  56px; background-size:  55px  55px, 205px 205px; }
+    input { margin: 0; font-size: 16px; width: 3em; text-align: right; background-color: rgba(255, 255, 255, 0.5); }
+</style>
+
+<p>
+    Caen has three moons: <strong>Calder</strong>, <strong>Laris</strong>, and <strong>Artis</strong>.
+    Apparently, many of Immoren's wilderness peoples have strong connection to those moons:
+    Tharn and Warpwolves transform during full moons, blackclad rituals are more effective during full moons (constellations) and so on.
+    That made me wonder how the lunar phases of Calder, Laris, and Artis would interact.
+    So let us look up to the sky:
+</p>
+
+<div id="sky">
+    <div id="calder"></div>
+    <div id="laris"></div>
+    <div id="artis"></div>
+</div>
+
+<table class="hero">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Calder</th>
+            <th>Laris</th>
+            <th>Artis</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Appearence</td>
+            <td>
+                <select id="calder_appearence" onchange="change_moon('calder', calder_appearence(), current_calder_month_day());">
+                    <option value="2" selected="selected">First</option>
+                    <option value="1">Second</option>
+                </select>
+            </td>
+            <td>
+                <select id="laris_appearence" onchange="change_moon('laris',  laris_appearence(),  current_laris_month_day() );">
+                    <option value="2" selected="selected">First</option>
+                    <option value="1">Second</option>
+                </select>
+            </td>
+            <td>
+                <select id="artis_appearence" onchange="change_moon('artis',  artis_appearence(),  current_artis_month_day() );">
+                    <option value="1" selected="selected">First</option>
+                    <option value="2">Second</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Days per Month</td>
+            <td><input id="calder_month_days" type="number" min="1" max="1000" onchange="update_max('calder'); change_moon('calder', calder_appearence(), current_calder_month_day());" value="28"></td>
+            <td><input id="laris_month_days"  type="number" min="1" max="1000" onchange="update_max('laris' ); change_moon('laris',  laris_appearence(),  current_laris_month_day() );" value="91"></td>
+            <td><input id="artis_month_days"  type="number" min="1" max="1000" onchange="update_max('artis' ); change_moon('artis',  artis_appearence(),  current_artis_month_day() );" value="104"></td>
+        </tr>
+        <tr>
+            <td>Current Day of Month</td>
+            <td><input id="current_calder_month_day" type="number" min="0" max="1" onchange="change_moon('calder', calder_appearence(), current_calder_month_day()); this.value = (parseInt(this.value) + parseInt(this.max)) % parseInt(this.max);" value="11"></td>
+            <td><input id="current_laris_month_day"  type="number" min="0" max="1" onchange="change_moon('laris',  laris_appearence(),  current_laris_month_day() ); this.value = (parseInt(this.value) + parseInt(this.max)) % parseInt(this.max);" value="67"></td>
+            <td><input id="current_artis_month_day"  type="number" min="0" max="1" onchange="change_moon('artis',  artis_appearence(),  current_artis_month_day() );  this.value = (parseInt(this.value) + parseInt(this.max)) % parseInt(this.max);" value="29"></td>
+        </tr>
+    </tbody>
+</table>
+
+<table class="veteran">
+    <thead>
+        <tr>
+            <th>Days elapsed</th>
+            <th>Future</th>
+            <th>Past</th>
+            <th>Present</th>
+            <th>Reset</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td id="days_elapsed">0</td>
+            <td><a href="javascript:if(!rewind_active) fast_forward_active = true; fast_forward();">Fast forward</a></td>
+            <td><a href="javascript:if(!fast_forward_active) rewind_active = true; rewind();">Rewind</a><br /></td>
+            <td><a href="javascript:fast_forward_active = false; rewind_active = false;">Stop fast forward or rewind</a><br /></td>
+            <td><a href="javascript:$('#days_elapsed').text('0');">Reset elapsed days</a></td>
+        </tr>
+    </tbody>
+</table>
+
+<script>
+    function calder_appearence() { return parseInt($("#calder_appearence").val()) % 2 + 1; }
+    function laris_appearence() {  return parseInt($("#laris_appearence").val())  % 2 + 1; }
+    function artis_appearence() {  return parseInt($("#artis_appearence").val())  % 2 + 1; }
+    
+    function calder_month_days() { return parseInt($("#calder_month_days").val()); }
+    function laris_month_days() {  return parseInt($("#laris_month_days").val() ); }
+    function artis_month_days() {  return parseInt($("#artis_month_days").val() ); }
+    
+    function current_calder_month_day() { return parseInt($("#current_calder_month_day").val()) % calder_month_days(); }
+    function current_laris_month_day() {  return parseInt($("#current_laris_month_day").val() ) % laris_month_days();  }
+    function current_artis_month_day() {  return parseInt($("#current_artis_month_day").val() ) % artis_month_days();  }
+    
+    function surface(moon, number) {
+        if(     moon == "calder" & number == 1) return " -25px  -25px";
+        else if(moon == "calder" & number == 2) return "-150px  -25px";
+        else if(moon == "laris"  & number == 1) return " -19px -206px";
+        else if(moon == "laris"  & number == 2) return "-113px -206px";
+        else if(moon == "artis"  & number == 1) return " -12px  -74px";
+        else if(moon == "artis"  & number == 2) return "-137px -137px";
+        else return "";
+    }
+    
+    function change_moon(moon, surface_number, amount) {
+        var right = 0;
+        if(     moon == "calder") right = -110 + 110 / calder_month_days() * 2 * amount;
+        else if(moon == "laris")  right =  -82 +  82 / laris_month_days()  * 2 * amount;
+        else if(moon == "artis")  right =  -55 +  55 / artis_month_days()  * 2 * amount;
+        $("#"+moon).css("background-position", ""+right+"px 0px, "+surface(moon, surface_number));
+    }
+    
+    function update_max(moon) {
+        var max = parseInt($("#"+moon+"_month_days").val());
+        $("#current_"+moon+"_month_day").attr("max", max);
+        
+        if($("#current_"+moon+"_month_day").val() > max) {
+            $("#current_"+moon+"_month_day").val(max);
+        }
+        
+    }
+    
+    function next_day() {
+        $("#current_calder_month_day").val((((current_calder_month_day() + 1) % calder_month_days()) + calder_month_days()) % calder_month_days());
+        $("#current_laris_month_day").val((( (current_laris_month_day()  + 1) % laris_month_days() ) + laris_month_days() ) % laris_month_days() );
+        $("#current_artis_month_day").val((( (current_artis_month_day()  + 1) % artis_month_days() ) + artis_month_days() ) % artis_month_days() );
+        
+        change_moon("calder", calder_appearence(), current_calder_month_day());
+        change_moon("laris",  laris_appearence(),  current_laris_month_day() );
+        change_moon("artis",  artis_appearence(),  current_artis_month_day() );
+    }
+    
+    function previous_day() {
+        $("#current_calder_month_day").val((((current_calder_month_day() - 1) % calder_month_days()) + calder_month_days()) % calder_month_days());
+        $("#current_laris_month_day").val((( (current_laris_month_day()  - 1) % laris_month_days() ) + laris_month_days() ) % laris_month_days() );
+        $("#current_artis_month_day").val((( (current_artis_month_day()  - 1) % artis_month_days() ) + artis_month_days() ) % artis_month_days() );
+        
+        change_moon("calder", calder_appearence(), current_calder_month_day());
+        change_moon("laris",  laris_appearence(),  current_laris_month_day() );
+        change_moon("artis",  artis_appearence(),  current_artis_month_day() );
+    }
+    
+    var fast_forward_active = false;
+    function fast_forward() {
+        if(fast_forward_active & !rewind_active) {
+            next_day();
+            $('#days_elapsed').text(parseInt($('#days_elapsed').text()) + 1);
+            setTimeout(fast_forward, 200);
+        }
+    }
+    
+    var rewind_active = false;
+    function rewind() {
+        if(rewind_active & !fast_forward_active) {
+            previous_day();
+            $('#days_elapsed').text(parseInt($('#days_elapsed').text()) - 1);
+            setTimeout(rewind, 200);
+        }
+    }
+    
+    $("#current_calder_month_day").attr("max", calder_month_days());
+    $("#current_laris_month_day" ).attr("max", laris_month_days());
+    $("#current_artis_month_day" ).attr("max", artis_month_days());
+    
+    change_moon("calder", calder_appearence(), current_calder_month_day());
+    change_moon("laris",  laris_appearence(),  current_laris_month_day() );
+    change_moon("artis",  artis_appearence(),  current_artis_month_day() );
+</script>
