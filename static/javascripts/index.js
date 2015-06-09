@@ -6560,6 +6560,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Priest of Cyriss",
+      publication: "No Quarter #48 Plus",
+      page:        "64",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "FMF"
+    },
+    {
       name:        "Priest of Menoth",
       publication: "Core Rules",
       page:        "140",
@@ -24186,6 +24194,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Inverter Vector",
+      publication: "No Quarter #48 Plus",
+      page:        "2",
+      category:    "Steamjack",
+      subcategory: "Steamjack/Vector",
+      game:        "FMF"
+    },
+    {
       name:        "Ironclad Warjack",
       publication: "Kings, Nations, and Gods",
       page:        "107",
@@ -24269,6 +24285,14 @@ var ikrpg = ikrpg || {};
       name:        "Mitigator Vector",
       publication: "No Quarter #48",
       page:        "76",
+      category:    "Steamjack",
+      subcategory: "Steamjack/Vector",
+      game:        "FMF"
+    },
+    {
+      name:        "Monitor Heavy Vector",
+      publication: "No Quarter #48 Plus",
+      page:        "3",
       category:    "Steamjack",
       subcategory: "Steamjack/Vector",
       game:        "FMF"
@@ -24550,6 +24574,14 @@ var ikrpg = ikrpg || {};
       name:        "Hunter Light Warjack Chassis",
       publication: "Kings, Nations, and Gods",
       page:        "102",
+      category:    "Steamjack",
+      subcategory: "Chassis",
+      game:        "FMF"
+    },
+    {
+      name:        "Inverter Heavy Vector Chassis",
+      publication: "No Quarter #48 Plus",
+      page:        "2",
       category:    "Steamjack",
       subcategory: "Chassis",
       game:        "FMF"
@@ -24949,6 +24981,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Macropummeler",
+      publication: "No Quarter #48 Plus",
+      page:        "2",
+      category:    "Steamjack",
+      subcategory: "Melee Weapon",
+      game:        "FMF"
+    },
+    {
       name:        "Magno Shield (Heavy Steamjack Only)",
       publication: "Kings, Nations, and Gods",
       page:        "104",
@@ -24968,6 +25008,14 @@ var ikrpg = ikrpg || {};
       name:        "Metal Saw",
       publication: "No Quarter #48",
       page:        "75",
+      category:    "Steamjack",
+      subcategory: "Melee Weapon",
+      game:        "FMF"
+    },
+    {
+      name:        "Meteor Hammer",
+      publication: "No Quarter #48 Plus",
+      page:        "2",
       category:    "Steamjack",
       subcategory: "Melee Weapon",
       game:        "FMF"
@@ -25133,6 +25181,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Spring-Spike Fist",
+      publication: "No Quarter #48 Plus",
+      page:        "3",
+      category:    "Steamjack",
+      subcategory: "Melee Weapon",
+      game:        "FMF"
+    },
+    {
       name:        "Steam Riveteer Attachment (Industrial Arm Mount Attachment)",
       publication: "Urban Adventure",
       page:        "27",
@@ -25249,6 +25305,14 @@ var ikrpg = ikrpg || {};
       name:        "Dual Cannon (Light Steamjack Only)",
       publication: "Kings, Nations, and Gods",
       page:        "98",
+      category:    "Steamjack",
+      subcategory: "Ranged Weapon",
+      game:        "FMF"
+    },
+    {
+      name:        "Ellipsaw Flinger",
+      publication: "No Quarter #48 Plus",
+      page:        "3",
       category:    "Steamjack",
       subcategory: "Ranged Weapon",
       game:        "FMF"
@@ -25722,6 +25786,14 @@ var ikrpg = ikrpg || {};
       name:        "Neural Agitator",
       publication: "Kings, Nations, and Gods",
       page:        "370",
+      category:    "Steamjack",
+      subcategory: "Gear/Upgrade",
+      game:        "FMF"
+    },
+    {
+      name:        "Optical Array",
+      publication: "No Quarter #48 Plus",
+      page:        "3",
       category:    "Steamjack",
       subcategory: "Gear/Upgrade",
       game:        "FMF"
