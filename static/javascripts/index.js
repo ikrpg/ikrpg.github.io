@@ -92,7 +92,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Acrobatics",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -108,7 +108,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Adjust Aim",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -124,7 +124,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Advisor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -148,7 +148,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Aegis",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -172,7 +172,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ambush",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -196,7 +196,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Anatomical Precision",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -220,7 +220,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Appraise",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -276,7 +276,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Arcing Shot",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -284,7 +284,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Artificer",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -300,7 +300,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Astute",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -332,7 +332,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Backstab",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -348,7 +348,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Balm of Dhunia",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -364,7 +364,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Commander",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -380,7 +380,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Plan: Battlefield Coordination",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -388,7 +388,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Plan: Brutal Charge",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -404,7 +404,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Plan: Call to Action",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -436,7 +436,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Plan: Coordinated Strike",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "155",
       category:    "Ability",
       subcategory: "",
@@ -492,7 +492,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Plan: Reconnaissance",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "156",
       category:    "Ability",
       subcategory: "",
@@ -516,7 +516,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Plan: Shadow",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "156",
       category:    "Ability",
       subcategory: "",
@@ -532,7 +532,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Plan: Take Cover",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "156",
       category:    "Ability",
       subcategory: "",
@@ -548,7 +548,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bayonet Charge",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "156",
       category:    "Ability",
       subcategory: "",
@@ -556,7 +556,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Beast Handler",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "156",
       category:    "Ability",
       subcategory: "",
@@ -588,7 +588,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Big Game Hunter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "156",
       category:    "Ability",
       subcategory: "",
@@ -612,7 +612,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Binding",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "156",
       category:    "Ability",
       subcategory: "",
@@ -636,7 +636,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blade Shield",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "156",
       category:    "Ability",
       subcategory: "",
@@ -660,7 +660,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Rites",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "156",
       category:    "Ability",
       subcategory: "",
@@ -676,7 +676,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Spiller",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -692,7 +692,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Trade",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -716,7 +716,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blur of Motion",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -756,7 +756,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bodyguard",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -780,7 +780,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bone Grinder",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -812,7 +812,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Brew Master",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -828,7 +828,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Broad Stroke",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -844,7 +844,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bull Rush",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -852,7 +852,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Calm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -868,7 +868,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Camouflage",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -900,7 +900,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cautious Advance",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -916,7 +916,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cavalry Charge",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -924,7 +924,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cavalry Fighter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -964,7 +964,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Charmer",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -996,7 +996,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cleave",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -1020,7 +1020,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cold Steel",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -1036,7 +1036,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Combat Rider",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
@@ -1060,7 +1060,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Conniver",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "158",
       category:    "Ability",
       subcategory: "",
@@ -1076,7 +1076,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Consume Essence",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "158",
       category:    "Ability",
       subcategory: "",
@@ -1124,7 +1124,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Crackshot",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "158",
       category:    "Ability",
       subcategory: "",
@@ -1148,7 +1148,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Crossbowman",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "158",
       category:    "Ability",
       subcategory: "",
@@ -1172,7 +1172,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Deadly Skill",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "158",
       category:    "Ability",
       subcategory: "",
@@ -1180,7 +1180,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Death Mastery",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "158",
       category:    "Ability",
       subcategory: "",
@@ -1204,7 +1204,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Defender",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "158",
       category:    "Ability",
       subcategory: "",
@@ -1220,7 +1220,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Defensive Line",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "158",
       category:    "Ability",
       subcategory: "",
@@ -1244,7 +1244,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Disease Resistance",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "158",
       category:    "Ability",
       subcategory: "",
@@ -1260,7 +1260,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dismember",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "158",
       category:    "Ability",
       subcategory: "",
@@ -1276,7 +1276,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dispel",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "158",
       category:    "Ability",
       subcategory: "",
@@ -1300,7 +1300,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dodger",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "158",
       category:    "Ability",
       subcategory: "",
@@ -1324,7 +1324,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dominating Presence",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "159",
       category:    "Ability",
       subcategory: "",
@@ -1380,7 +1380,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dual Fighter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "159",
       category:    "Ability",
       subcategory: "",
@@ -1404,7 +1404,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dual Shot",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "159",
       category:    "Ability",
       subcategory: "",
@@ -1412,7 +1412,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Earth Magic",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "159",
       category:    "Ability",
       subcategory: "",
@@ -1444,7 +1444,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Empower Weapon",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "159",
       category:    "Ability",
       subcategory: "",
@@ -1468,7 +1468,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Evasive Rider",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "159",
       category:    "Ability",
       subcategory: "",
@@ -1484,7 +1484,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Expert Rider",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "159",
       category:    "Ability",
       subcategory: "",
@@ -1492,7 +1492,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Exterminator",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "159",
       category:    "Ability",
       subcategory: "",
@@ -1532,7 +1532,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fall Back",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "159",
       category:    "Ability",
       subcategory: "",
@@ -1556,7 +1556,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fast Draw",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "159",
       category:    "Ability",
       subcategory: "",
@@ -1588,7 +1588,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fast Reload",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "159",
       category:    "Ability",
       subcategory: "",
@@ -1612,7 +1612,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fate Blessed",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "159",
       category:    "Ability",
       subcategory: "",
@@ -1636,7 +1636,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fearless",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "159",
       category:    "Ability",
       subcategory: "",
@@ -1660,7 +1660,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Feat of Regeneration",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "159",
       category:    "Ability",
       subcategory: "",
@@ -1676,7 +1676,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fell Call: Cacophony",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
       subcategory: "",
@@ -1692,7 +1692,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fell Call: Call of Defiance",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
       subcategory: "",
@@ -1708,7 +1708,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fell Call: Ground Shaker",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
       subcategory: "",
@@ -1724,7 +1724,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fell Call: Heroic Ballad",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
       subcategory: "",
@@ -1740,7 +1740,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fell Call: Reverberation",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
       subcategory: "",
@@ -1756,7 +1756,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fell Call: Signal Call",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
       subcategory: "",
@@ -1772,7 +1772,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fell Call: Sonic Blast",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
       subcategory: "",
@@ -1788,7 +1788,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Field Marshall: Counter Charge",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
       subcategory: "",
@@ -1804,7 +1804,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Field Marshall: Hog Wild",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
       subcategory: "",
@@ -1820,7 +1820,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Field Marshall: Magical Attack",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
       subcategory: "",
@@ -1828,7 +1828,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Field Marshall: Poltergeist",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
       subcategory: "",
@@ -1836,7 +1836,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Field Marshall: Regenerate",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
       subcategory: "",
@@ -1852,7 +1852,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Field Marshall: Relentless Charge",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
       subcategory: "",
@@ -1876,7 +1876,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Field Marshall: Unyielding",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
       subcategory: "",
@@ -1892,7 +1892,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Find Cover",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -1908,7 +1908,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Finisher",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -1948,7 +1948,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fleet Food",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -1964,7 +1964,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Flesh of Steel",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -2004,7 +2004,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Follow Up",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -2028,7 +2028,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gang",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -2068,7 +2068,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ghost Sight",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -2076,7 +2076,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gift of the Beast",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -2092,7 +2092,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Go to Ground",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -2108,7 +2108,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Goad",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -2132,7 +2132,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Grave Man",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -2156,7 +2156,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Great Power",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -2196,7 +2196,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gunfighter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -2212,7 +2212,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gunner",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -2220,7 +2220,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hack",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -2228,7 +2228,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hard",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "161",
       category:    "Ability",
       subcategory: "",
@@ -2252,7 +2252,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Haruspex",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "162",
       category:    "Ability",
       subcategory: "",
@@ -2276,7 +2276,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Head-Butt",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "162",
       category:    "Ability",
       subcategory: "",
@@ -2292,7 +2292,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Heart Eater",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "162",
       category:    "Ability",
       subcategory: "",
@@ -2332,7 +2332,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hunter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "162",
       category:    "Ability",
       subcategory: "",
@@ -2348,7 +2348,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hunting Ground",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "162",
       category:    "Ability",
       subcategory: "",
@@ -2364,7 +2364,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hyper Awareness",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "162",
       category:    "Ability",
       subcategory: "",
@@ -2388,7 +2388,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Immunity: Cold",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "162",
       category:    "Ability",
       subcategory: "",
@@ -2404,7 +2404,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Immunity: Corrosion",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "162",
       category:    "Ability",
       subcategory: "",
@@ -2420,7 +2420,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Immunity: Electricity",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "162",
       category:    "Ability",
       subcategory: "",
@@ -2436,7 +2436,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Immunity: Fire",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "162",
       category:    "Ability",
       subcategory: "",
@@ -2460,7 +2460,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Inflict Pain",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "162",
       category:    "Ability",
       subcategory: "",
@@ -2516,7 +2516,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Iron Will",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "162",
       category:    "Ability",
       subcategory: "",
@@ -2540,7 +2540,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Keen Eyed",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "162",
       category:    "Ability",
       subcategory: "",
@@ -2548,7 +2548,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Knife Thrower",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "162",
       category:    "Ability",
       subcategory: "",
@@ -2564,7 +2564,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Language",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "162",
       category:    "Ability",
       subcategory: "",
@@ -2588,7 +2588,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Legecy of Bragg",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "163",
       category:    "Ability",
       subcategory: "",
@@ -2604,7 +2604,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Light Cavalry",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "163",
       category:    "Ability",
       subcategory: "",
@@ -2620,7 +2620,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Line Breaker",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "163",
       category:    "Ability",
       subcategory: "",
@@ -2636,7 +2636,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Load Bearing",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "163",
       category:    "Ability",
       subcategory: "",
@@ -2652,7 +2652,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Long-Lived",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "163",
       category:    "Ability",
       subcategory: "",
@@ -2700,7 +2700,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Maltreatment",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "163",
       category:    "Ability",
       subcategory: "",
@@ -2732,7 +2732,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Marksman",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "163",
       category:    "Ability",
       subcategory: "",
@@ -2740,7 +2740,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Meat Alchemy",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "163",
       category:    "Ability",
       subcategory: "",
@@ -2756,7 +2756,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mount Attack",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "163",
       category:    "Ability",
       subcategory: "",
@@ -2772,7 +2772,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mounted: Counter Charge",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "163",
       category:    "Ability",
       subcategory: "",
@@ -2788,7 +2788,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Natural Leader",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "163",
       category:    "Ability",
       subcategory: "",
@@ -2820,7 +2820,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Night Fighter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "163",
       category:    "Ability",
       subcategory: "",
@@ -2852,7 +2852,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Onslaught",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "163",
       category:    "Ability",
       subcategory: "",
@@ -2868,7 +2868,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Opening Salvo",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -2884,7 +2884,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Overtake",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -2892,7 +2892,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pack Hunter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -2924,7 +2924,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pathfinder",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -2956,7 +2956,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Poison Resistance",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -2980,7 +2980,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Possession",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -3012,7 +3012,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Precision Strike",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -3052,7 +3052,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Prowl",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -3076,7 +3076,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pursuit",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -3092,7 +3092,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Quick Work",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -3116,7 +3116,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rallying Cry",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -3156,7 +3156,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Relentless Advance",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -3172,7 +3172,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Relentless Charge",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -3196,7 +3196,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Renowned",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -3204,7 +3204,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Resonance: Devourer Warbeast",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -3212,7 +3212,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Resonance: Farrow Warbeast",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "164",
       category:    "Ability",
       subcategory: "",
@@ -3220,7 +3220,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Resonance: Swamp Warbeast",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "165",
       category:    "Ability",
       subcategory: "",
@@ -3228,7 +3228,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Resonance: Trollblood Warbeast",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "165",
       category:    "Ability",
       subcategory: "",
@@ -3236,7 +3236,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Resonance: Wold",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "165",
       category:    "Ability",
       subcategory: "",
@@ -3268,7 +3268,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Retaliatory Strike",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "165",
       category:    "Ability",
       subcategory: "",
@@ -3284,7 +3284,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Return Fire",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "165",
       category:    "Ability",
       subcategory: "",
@@ -3308,7 +3308,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ride-by Attack",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "165",
       category:    "Ability",
       subcategory: "",
@@ -3340,7 +3340,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rock Solid",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "165",
       category:    "Ability",
       subcategory: "",
@@ -3364,7 +3364,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Roll with It",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "165",
       category:    "Ability",
       subcategory: "",
@@ -3404,7 +3404,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Saddle Shot",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "165",
       category:    "Ability",
       subcategory: "",
@@ -3420,7 +3420,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Scent",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "165",
       category:    "Ability",
       subcategory: "",
@@ -3460,7 +3460,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sentry",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "166",
       category:    "Ability",
       subcategory: "",
@@ -3500,7 +3500,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Set Defence",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "166",
       category:    "Ability",
       subcategory: "",
@@ -3516,7 +3516,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shadow Magic",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "166",
       category:    "Ability",
       subcategory: "",
@@ -3540,7 +3540,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shield Guard",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "166",
       category:    "Ability",
       subcategory: "",
@@ -3564,7 +3564,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shield Slam",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "166",
       category:    "Ability",
       subcategory: "",
@@ -3580,7 +3580,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shootist",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "166",
       category:    "Ability",
       subcategory: "",
@@ -3596,7 +3596,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Signal Howls",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "166",
       category:    "Ability",
       subcategory: "",
@@ -3612,7 +3612,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Signal Language",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "166",
       category:    "Ability",
       subcategory: "",
@@ -3652,7 +3652,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Skilled Trapper",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "166",
       category:    "Ability",
       subcategory: "",
@@ -3668,7 +3668,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Snacking",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "166",
       category:    "Ability",
       subcategory: "",
@@ -3676,7 +3676,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Snag & Slash",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "166",
       category:    "Ability",
       subcategory: "",
@@ -3684,7 +3684,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Snap Fire",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "166",
       category:    "Ability",
       subcategory: "",
@@ -3700,7 +3700,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sniper",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "166",
       category:    "Ability",
       subcategory: "",
@@ -3716,7 +3716,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Snow Wreathed",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "167",
       category:    "Ability",
       subcategory: "",
@@ -3724,7 +3724,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Souie!",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "167",
       category:    "Ability",
       subcategory: "",
@@ -3732,7 +3732,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Soul Taker",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "167",
       category:    "Ability",
       subcategory: "",
@@ -3780,7 +3780,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Specialization",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "167",
       category:    "Ability",
       subcategory: "",
@@ -3788,7 +3788,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Spirit Eater",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "167",
       category:    "Ability",
       subcategory: "",
@@ -3796,7 +3796,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Spirit Guide",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "167",
       category:    "Ability",
       subcategory: "",
@@ -3820,7 +3820,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sprint",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "167",
       category:    "Ability",
       subcategory: "",
@@ -3828,7 +3828,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Staredown",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "167",
       category:    "Ability",
       subcategory: "",
@@ -3876,7 +3876,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Stone Scavenger",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "167",
       category:    "Ability",
       subcategory: "",
@@ -3884,7 +3884,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Stone Warder",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "167",
       category:    "Ability",
       subcategory: "",
@@ -3900,7 +3900,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Stonecutter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -3940,7 +3940,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sucker!",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -3956,7 +3956,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Survivalist",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -3980,7 +3980,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Swift Hunter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -4004,7 +4004,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Swift Rider",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -4036,7 +4036,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Targeteer",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -4052,7 +4052,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Team Leader",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -4108,7 +4108,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Traceless Path",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -4140,7 +4140,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Trained Rider",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -4148,7 +4148,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Treewalker",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -4180,7 +4180,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Troll Speaker",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -4220,7 +4220,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Two-Weapon Fighting",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -4228,7 +4228,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Unhallowed",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -4260,7 +4260,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Vivisectionist",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -4276,7 +4276,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Warlock Bond",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -4292,7 +4292,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Waylay",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
@@ -4308,7 +4308,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Weapon Master (Javelin)",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "169",
       category:    "Ability",
       subcategory: "",
@@ -4332,7 +4332,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Whelp Companion",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "169",
       category:    "Ability",
       subcategory: "",
@@ -4356,7 +4356,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wold Mastery",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "169",
       category:    "Ability",
       subcategory: "",
@@ -4364,7 +4364,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wolf Protector",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "169",
       category:    "Ability",
       subcategory: "",
@@ -4624,7 +4624,7 @@ var ikrpg = ikrpg || {};
     // ##### Adventure > Hazard ##### \\
     {
       name:        "Avalanche",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "227",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4632,7 +4632,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blizzard",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "228",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4640,7 +4640,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bogs",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "228",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4648,7 +4648,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cane Leeches",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "228",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4656,7 +4656,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cave-Ins",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "227",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4664,7 +4664,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dense Undergrowth",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "225",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4672,7 +4672,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Flooded River",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "226",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4680,7 +4680,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fog",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "229",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4688,7 +4688,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Forest Fires",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "226",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4696,7 +4696,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Heat Wave",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "229",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4704,7 +4704,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Heavy Rain",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "229",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4712,7 +4712,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ice Sheets",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "229",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4720,7 +4720,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Marsh Gas",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "228",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4744,7 +4744,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Quicksand",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "228",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4752,7 +4752,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Scree",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "228",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4760,7 +4760,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Severe Winds",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "229",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4768,7 +4768,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Snowdrifts",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "229",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4776,7 +4776,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Thin Air",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "228",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4784,7 +4784,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tree Deadfall",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "225",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4825,7 +4825,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Alchemical Waste, Crystal",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "341",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -4841,7 +4841,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Alchemical Waste, Liquid",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "341",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -4849,7 +4849,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Alchemical Waste, Organic",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "341",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -4857,7 +4857,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Alchemist's Stone",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "341",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -4865,7 +4865,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Animal Fat",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "341",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -4881,7 +4881,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Arcane Extract",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "341",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -4897,7 +4897,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Arcane Minerals",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "341",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -4921,7 +4921,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bioluminescent Extract",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "342",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -4945,7 +4945,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Burrow-Mawg Adrenal Gland",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "342",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -4969,7 +4969,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ectoplasm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "342",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -5001,7 +5001,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Heavy Metals",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "342",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -5025,7 +5025,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Menoth's Fury",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "342",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -5041,7 +5041,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mineral Acid",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "342",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -5057,7 +5057,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mineral Crystals",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "342",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -5073,7 +5073,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mutagenic Extract",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "342",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -5089,7 +5089,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Organic Acid",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "342",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -5113,7 +5113,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Organic Toxin",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "343",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -5138,7 +5138,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Alchemical Acid",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "343",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5162,7 +5162,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Alchemical Restorative",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "343",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5178,7 +5178,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Antitoxin",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "343",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5194,7 +5194,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ashes of Urcaen",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "344",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5202,7 +5202,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Assassin's Venom",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "344",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5218,7 +5218,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bottled Light",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "344",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5234,7 +5234,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cryptospector",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "345",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5282,7 +5282,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fortemorphic Elixier",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "345",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5306,7 +5306,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Healing Liniment",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "345",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5394,7 +5394,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rust Agent",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "346",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5410,7 +5410,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Scent Mask",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "346",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5426,7 +5426,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Somnolence Elixier",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "346",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5442,7 +5442,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Spirit Salts",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "346",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5450,7 +5450,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Suntallow",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "346",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5474,7 +5474,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Vitriolic Fire",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "347",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5499,7 +5499,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Simple Acid",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "347",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5523,7 +5523,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Simple Stimulant",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "348",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5547,7 +5547,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Simple Stink Gas",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "348",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5571,7 +5571,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Simple Smoke",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "347",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -5588,7 +5588,7 @@ var ikrpg = ikrpg || {};
     // ##### Alchemy > Natural Remedy ##### \\
     {
       name:        "Arrato Seeds",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "338",
       category:    "Alchemy",
       subcategory: "Natural Remedy",
@@ -5596,7 +5596,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blackroot Balm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "338",
       category:    "Alchemy",
       subcategory: "Natural Remedy",
@@ -5604,7 +5604,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dvrydal Root",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "339",
       category:    "Alchemy",
       subcategory: "Natural Remedy",
@@ -5612,7 +5612,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Heron's Maw",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "339",
       category:    "Alchemy",
       subcategory: "Natural Remedy",
@@ -5620,7 +5620,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Horn Moss",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "339",
       category:    "Alchemy",
       subcategory: "Natural Remedy",
@@ -5628,7 +5628,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Knitbone",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "339",
       category:    "Alchemy",
       subcategory: "Natural Remedy",
@@ -5636,7 +5636,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ratwort",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "339",
       category:    "Alchemy",
       subcategory: "Natural Remedy",
@@ -5702,7 +5702,7 @@ var ikrpg = ikrpg || {};
     // ##### Alchemy > Bone Grinder Fetish ##### \\
     {
       name:        "Alexipharmic Ointment",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "348",
       category:    "Alchemy",
       subcategory: "Bone Grinder Fetish",
@@ -5710,7 +5710,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Arcane Relic",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "348",
       category:    "Alchemy",
       subcategory: "Bone Grinder Fetish",
@@ -5726,7 +5726,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bone Fetish",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "349",
       category:    "Alchemy",
       subcategory: "Bone Grinder Fetish",
@@ -5734,7 +5734,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Feral Charm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "349",
       category:    "Alchemy",
       subcategory: "Bone Grinder Fetish",
@@ -5742,7 +5742,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hand of Glory",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "350",
       category:    "Alchemy",
       subcategory: "Bone Grinder Fetish",
@@ -5750,7 +5750,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Phylactery of Venom",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "350",
       category:    "Alchemy",
       subcategory: "Bone Grinder Fetish",
@@ -5758,7 +5758,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Purulent Totem",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "350",
       category:    "Alchemy",
       subcategory: "Bone Grinder Fetish",
@@ -5766,7 +5766,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Speaker's Tongue",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "351",
       category:    "Alchemy",
       subcategory: "Bone Grinder Fetish",
@@ -5774,7 +5774,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Theriac of Health",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "351",
       category:    "Alchemy",
       subcategory: "Bone Grinder Fetish",
@@ -5782,7 +5782,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Warding Flesh",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "351",
       category:    "Alchemy",
       subcategory: "Bone Grinder Fetish",
@@ -5807,7 +5807,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bone Grinder Hunting Party",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "147",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
@@ -5823,7 +5823,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Circle Orboros Conclave",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "147",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
@@ -5839,7 +5839,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Farrow Tribe",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "148",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
@@ -5863,7 +5863,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gatorman Tribe",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "148",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
@@ -5951,7 +5951,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Northkin Kriel",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "149",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
@@ -5959,7 +5959,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Nyss Refugees",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "149",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
@@ -5991,7 +5991,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Raiders",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "149",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
@@ -5999,7 +5999,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Soldiers of Fortune",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "150",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
@@ -6023,7 +6023,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tharn Tuath",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "150",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
@@ -6039,7 +6039,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "United Kriels",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "150",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
@@ -6047,7 +6047,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Unlikely Heroes",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "151",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
@@ -6071,7 +6071,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wilderness Kriel",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "151",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
@@ -6080,7 +6080,7 @@ var ikrpg = ikrpg || {};
     // ##### Character Creation > Archetype ##### \\
     {
       name:        "Cunning",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "110",
       category:    "Character Creation",
       subcategory: "Archetype",
@@ -6096,7 +6096,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gifted",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "110",
       category:    "Character Creation",
       subcategory: "Archetype",
@@ -6128,7 +6128,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mighty",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "111",
       category:    "Character Creation",
       subcategory: "Archetype",
@@ -6152,7 +6152,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Skilled",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "111",
       category:    "Character Creation",
       subcategory: "Archetype",
@@ -6201,7 +6201,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Archer",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "115",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6233,7 +6233,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blackclad",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "116",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6241,7 +6241,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bloodtracker",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "117",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6249,7 +6249,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bloodweaver",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "118",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6257,7 +6257,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bokor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "119",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6265,7 +6265,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bone Grinder",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "120",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6281,7 +6281,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Brigand",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "121",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6289,7 +6289,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bushwhacker",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "122",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6297,7 +6297,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Chieftain",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "123",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6361,7 +6361,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fell Caller",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "124",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6369,7 +6369,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fennblade",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "125",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6449,7 +6449,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Kriel Champion",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "126",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6473,7 +6473,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Long Rider",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "127",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6513,7 +6513,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mist Speaker",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "128",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6521,7 +6521,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Monster Hunter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "129",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6585,7 +6585,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Priest of Nyssor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "130",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6617,7 +6617,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Raptor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "131",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6625,7 +6625,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ravager",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "132",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6633,7 +6633,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ryssovass",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "133",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6657,7 +6657,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Scout",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "134",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6689,7 +6689,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shaman (Devourer Wurm)",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "135",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6697,7 +6697,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shaman (Dhunia)",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "136",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6705,7 +6705,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Slaughterhouser",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "137",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6729,7 +6729,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sorcerer (Fire)",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "138",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6745,7 +6745,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sorcerer (Ice)",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "138",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6761,7 +6761,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sorcerer (Stone)",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "138",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6777,7 +6777,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sorcerer (Storm)",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "138",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6857,7 +6857,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Warlock, Circle",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "139",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6865,7 +6865,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Warlock, Farrow",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "140",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6881,7 +6881,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Warlock, Swamp",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "141",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6889,7 +6889,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Warlock, Trollkin",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "142",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6897,7 +6897,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Warrior",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "143",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6905,7 +6905,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wolf of Orboros",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "144",
       category:    "Character Creation",
       subcategory: "Career",
@@ -6913,7 +6913,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wolf Rider",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "145",
       category:    "Character Creation",
       subcategory: "Career",
@@ -7163,7 +7163,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bog Trog",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "102",
       category:    "Character Creation",
       subcategory: "Race",
@@ -7179,7 +7179,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Farrow",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "103",
       category:    "Character Creation",
       subcategory: "Race",
@@ -7187,7 +7187,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gatorman",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "104",
       category:    "Character Creation",
       subcategory: "Race",
@@ -7211,7 +7211,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Human",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "105",
       category:    "Character Creation",
       subcategory: "Race",
@@ -7235,7 +7235,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Nyss",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "106",
       category:    "Character Creation",
       subcategory: "Race",
@@ -7251,7 +7251,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pygmy Troll (Pyg)",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "107",
       category:    "Character Creation",
       subcategory: "Race",
@@ -7267,7 +7267,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tharn",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "108",
       category:    "Character Creation",
       subcategory: "Race",
@@ -7283,7 +7283,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Trollkin",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "109",
       category:    "Character Creation",
       subcategory: "Race",
@@ -7308,7 +7308,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Armored Great Coat",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "307",
       category:    "Armory",
       subcategory: "Armor",
@@ -7340,7 +7340,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bog Trog Armor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "307",
       category:    "Armory",
       subcategory: "Armor",
@@ -7356,7 +7356,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Chain Mail",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "309",
       category:    "Armory",
       subcategory: "Armor",
@@ -7388,7 +7388,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Custom Battle Armor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "308",
       category:    "Armory",
       subcategory: "Armor",
@@ -7412,7 +7412,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Full Plate",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "309",
       category:    "Armory",
       subcategory: "Armor",
@@ -7428,7 +7428,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Infantry Armor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "309",
       category:    "Armory",
       subcategory: "Armor",
@@ -7444,7 +7444,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Leather Armor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "308",
       category:    "Armory",
       subcategory: "Armor",
@@ -7468,7 +7468,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Nyss Leather Armor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "308",
       category:    "Armory",
       subcategory: "Armor",
@@ -7492,7 +7492,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ryssovass Plate",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "309",
       category:    "Armory",
       subcategory: "Armor",
@@ -7540,7 +7540,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tharn Leathers",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "308",
       category:    "Armory",
       subcategory: "Armor",
@@ -7581,7 +7581,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Assassin's Blade",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "310",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7597,7 +7597,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Axe",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "310",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7613,7 +7613,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Axe, Great",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "310",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7629,7 +7629,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Axe, Ice",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "310",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7637,7 +7637,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Axe, Riding",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "310",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7645,7 +7645,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Axe, Tharn",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "311",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7653,7 +7653,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Hammer",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "311",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7669,7 +7669,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bayonet",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "311",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7677,7 +7677,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blackclad Voulge",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "312",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7725,7 +7725,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bloodtracker Fighting Claw",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "312",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7749,7 +7749,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cleft Spear",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "312",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7757,7 +7757,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cleft Sword",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "312",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7789,7 +7789,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Club",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "312",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7805,7 +7805,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Club, Banded",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "313",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7837,7 +7837,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dagger",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "313",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7925,7 +7925,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Flail",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "313",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7941,7 +7941,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Flail, Two-Handed",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "314",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8013,7 +8013,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Halbert",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "314",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8029,7 +8029,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hooked Great Sword",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "314",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8077,7 +8077,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Knuckledusters",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "315",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8117,7 +8117,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mace",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "315",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8133,7 +8133,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Maul",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "315",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8165,7 +8165,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Nyss Claymore",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "315",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8173,7 +8173,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Nyss Great Sword",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "315",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8221,7 +8221,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pickaxe",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "315",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8277,7 +8277,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sacral Blade",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "316",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8293,7 +8293,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shield",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "316",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8317,7 +8317,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Spear",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "316",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8349,7 +8349,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Staff",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "316",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8365,7 +8365,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Staff, Battle",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "316",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8389,7 +8389,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sword",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "317",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8421,7 +8421,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sword, Great",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "317",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8461,7 +8461,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Trollkin Rune Axe",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "317",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8485,7 +8485,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "War Hammer",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "318",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8576,7 +8576,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Axe, Throwing",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "319",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8600,7 +8600,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blunderbuss",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "319",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8616,7 +8616,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bola",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "319",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8648,7 +8648,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bow",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "319",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8664,7 +8664,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bow, Great",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "320",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8680,7 +8680,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bow, Nyss",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "320",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8688,7 +8688,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bow, Tharn",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "320",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8744,7 +8744,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Crossbow",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "320",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8752,7 +8752,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Crossbow, Dual",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "321",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8776,7 +8776,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Crossbow, Repeating",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "321",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8848,7 +8848,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Farrow Pig Iron",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "321",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8856,7 +8856,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Farrow Razorback",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "321",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8936,7 +8936,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hand Cannon",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "322",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8952,7 +8952,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hand Cannon, Dual",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "322",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8968,7 +8968,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Harpoon Gun",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "322",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8992,7 +8992,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Javelin",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "322",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -9008,7 +9008,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Knife, Throwing",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "322",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -9096,7 +9096,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pistol",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "323",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -9136,7 +9136,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pistol, Repeating",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "323",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -9176,7 +9176,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rifle",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "323",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -9208,7 +9208,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rifle, Heavy",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "323",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -9232,7 +9232,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rifle, Military",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "323",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -9248,7 +9248,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rilfe, Repeating",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "324",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -9288,7 +9288,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Scattergun",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "324",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -9312,7 +9312,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sling",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "324",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -9328,7 +9328,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Slug Gun",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "324",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -9344,7 +9344,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Slugger",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "324",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -9352,7 +9352,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Snare Gun",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "325",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -9401,7 +9401,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Arrows or Bolts, Barbed",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "326",
       category:    "Armory",
       subcategory: "Ammunition",
@@ -9409,7 +9409,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Arrows or Bolts, Concussion",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "326",
       category:    "Armory",
       subcategory: "Ammunition",
@@ -9417,7 +9417,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Arrows or Bolts, Fire",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "326",
       category:    "Armory",
       subcategory: "Ammunition",
@@ -9425,7 +9425,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Arrows or Bolts, Grappling",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "326",
       category:    "Armory",
       subcategory: "Ammunition",
@@ -9433,7 +9433,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Arrows or Bolts, Signal",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "326",
       category:    "Armory",
       subcategory: "Ammunition",
@@ -9474,7 +9474,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bandolier, Ammo",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "326",
       category:    "Armory",
       subcategory: "Ranged Weapon Accessory",
@@ -9498,7 +9498,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bipod",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "327",
       category:    "Armory",
       subcategory: "Ranged Weapon Accessory",
@@ -9522,7 +9522,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gun Brace",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "327",
       category:    "Armory",
       subcategory: "Ranged Weapon Accessory",
@@ -9538,7 +9538,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gunsmith's Kit",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "327",
       category:    "Armory",
       subcategory: "Ranged Weapon Accessory",
@@ -9570,7 +9570,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Quiver",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "327",
       category:    "Armory",
       subcategory: "Ranged Weapon Accessory",
@@ -9578,7 +9578,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Quiver, Javelin",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "327",
       category:    "Armory",
       subcategory: "Ranged Weapon Accessory",
@@ -9586,7 +9586,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Scope",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "327",
       category:    "Armory",
       subcategory: "Ranged Weapon Accessory",
@@ -9693,7 +9693,7 @@ var ikrpg = ikrpg || {};
     // ##### Armory > Trap ##### \\
     {
       name:        "Animal Bait",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "335",
       category:    "Armory",
       subcategory: "Trap",
@@ -9701,7 +9701,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Caltrops",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "335",
       category:    "Armory",
       subcategory: "Trap",
@@ -9709,7 +9709,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Deadfall Trap",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "335",
       category:    "Armory",
       subcategory: "Trap",
@@ -9717,7 +9717,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fixed-Weapon Trap",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "336",
       category:    "Armory",
       subcategory: "Trap",
@@ -9725,7 +9725,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Lasso Trap",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "336",
       category:    "Armory",
       subcategory: "Trap",
@@ -9733,7 +9733,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Net Trap",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "336",
       category:    "Armory",
       subcategory: "Trap",
@@ -9741,7 +9741,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pendulum Trap",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "337",
       category:    "Armory",
       subcategory: "Trap",
@@ -9749,7 +9749,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pit Trap",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "337",
       category:    "Armory",
       subcategory: "Trap",
@@ -9757,7 +9757,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Spring Spike Trap",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "337",
       category:    "Armory",
       subcategory: "Trap",
@@ -9765,7 +9765,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Steel-Jawed Trap",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "337",
       category:    "Armory",
       subcategory: "Trap",
@@ -9773,7 +9773,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Whip Trap",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "337",
       category:    "Armory",
       subcategory: "Trap",
@@ -10107,7 +10107,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cloak, Winter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "327",
       category:    "Equipment",
       subcategory: "Clothing",
@@ -10123,7 +10123,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Coat, Great",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "328",
       category:    "Equipment",
       subcategory: "Clothing",
@@ -10196,7 +10196,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Apothecary's Kit",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "328",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10220,7 +10220,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Camouflage Netting",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "328",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10228,7 +10228,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Char Cloth",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "328",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10260,7 +10260,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dry Rations",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "328",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10284,7 +10284,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Entrenching Spade",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "329",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10300,7 +10300,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fell Caller Torch",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "329",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10308,7 +10308,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Flare",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "329",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10324,7 +10324,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Game Call Whistle",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "329",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10340,7 +10340,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gas Mask",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "329",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10356,7 +10356,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Goggles",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "330",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10364,7 +10364,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Goggles, Snow",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "330",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10404,7 +10404,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Manacles",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "330",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10428,7 +10428,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mountain Climbing Gear",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "330",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10452,7 +10452,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pocket Watch",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "330",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10476,7 +10476,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pulley Hoist",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "330",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10524,7 +10524,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Skinning Tools",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "330",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10556,7 +10556,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Spyglass",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "331",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10564,7 +10564,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Stone Scroll",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "331",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10572,7 +10572,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Stoneworking Kit",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "331",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10596,7 +10596,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Surgical Kit",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "331",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10612,7 +10612,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Symbol of Faith",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "331",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10636,7 +10636,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Thief's Tools",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "331",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10644,7 +10644,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Trapper's Kit",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "338",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10652,7 +10652,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Travois",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "331",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10668,7 +10668,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wire Saw",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "331",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10676,7 +10676,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Woodworking Kit",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "331",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10701,7 +10701,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bison",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "332",
       category:    "Equipment",
       subcategory: "Mount",
@@ -10709,7 +10709,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Duskwolf",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "332",
       category:    "Equipment",
       subcategory: "Mount",
@@ -10725,7 +10725,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Horse, Draft",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "332",
       category:    "Equipment",
       subcategory: "Mount",
@@ -10741,7 +10741,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Horse, Riding",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "333",
       category:    "Equipment",
       subcategory: "Mount",
@@ -10757,7 +10757,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Horse, War",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "333",
       category:    "Equipment",
       subcategory: "Mount",
@@ -10773,7 +10773,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Skirovik Mountain Goat",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "333",
       category:    "Equipment",
       subcategory: "Mount",
@@ -10781,7 +10781,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ulk",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "333",
       category:    "Equipment",
       subcategory: "Mount",
@@ -10814,7 +10814,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Barding, Light",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "334",
       category:    "Equipment",
       subcategory: "Riding Equipment",
@@ -10830,7 +10830,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Barding, Medium",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "334",
       category:    "Equipment",
       subcategory: "Riding Equipment",
@@ -10846,7 +10846,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Barding, Heavy",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "334",
       category:    "Equipment",
       subcategory: "Riding Equipment",
@@ -10870,7 +10870,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tack",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "334",
       category:    "Equipment",
       subcategory: "Riding Equipment",
@@ -11073,7 +11073,7 @@ var ikrpg = ikrpg || {};
     // ##### Geography > Culture ##### \\
     {
       name:        "Arjun",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "60",
       category:    "Geography",
       subcategory: "Culture",
@@ -11081,7 +11081,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Baldavan",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "60",
       category:    "Geography",
       subcategory: "Culture",
@@ -11097,7 +11097,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bog Trogs",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "68",
       category:    "Geography",
       subcategory: "Culture",
@@ -11113,7 +11113,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bogrin",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "68",
       category:    "Geography",
       subcategory: "Culture",
@@ -11121,7 +11121,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bolotov",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "59",
       category:    "Geography",
       subcategory: "Culture",
@@ -11137,7 +11137,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Circle Orboros",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "29",
       category:    "Geography",
       subcategory: "Culture",
@@ -11145,7 +11145,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Clamorgan",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "60",
       category:    "Geography",
       subcategory: "Culture",
@@ -11153,7 +11153,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Farrow",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "50",
       category:    "Geography",
       subcategory: "Culture",
@@ -11161,7 +11161,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gatorman",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "54",
       category:    "Geography",
       subcategory: "Culture",
@@ -11169,7 +11169,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gnasir",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "60",
       category:    "Geography",
       subcategory: "Culture",
@@ -11185,7 +11185,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gobbers",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "68",
       category:    "Geography",
       subcategory: "Culture",
@@ -11201,7 +11201,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Idrians",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "61",
       category:    "Geography",
       subcategory: "Culture",
@@ -11241,7 +11241,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Nyss Refugees",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "62",
       category:    "Geography",
       subcategory: "Culture",
@@ -11257,7 +11257,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Olgar",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "61",
       category:    "Geography",
       subcategory: "Culture",
@@ -11265,7 +11265,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pygmy Trolls",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "69",
       category:    "Geography",
       subcategory: "Culture",
@@ -11273,7 +11273,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Radiz",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "61",
       category:    "Geography",
       subcategory: "Culture",
@@ -11281,7 +11281,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ruscar",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "59",
       category:    "Geography",
       subcategory: "Culture",
@@ -11297,7 +11297,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sinari",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "61",
       category:    "Geography",
       subcategory: "Culture",
@@ -11321,7 +11321,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tharn",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "65",
       category:    "Geography",
       subcategory: "Culture",
@@ -11361,7 +11361,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Trollkin",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "40",
       category:    "Geography",
       subcategory: "Culture",
@@ -11385,7 +11385,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Vindol",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "59",
       category:    "Geography",
       subcategory: "Culture",
@@ -11393,7 +11393,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Vorgoi",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "59",
       category:    "Geography",
       subcategory: "Culture",
@@ -11401,7 +11401,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Yhari-Umbreans",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "59",
       category:    "Geography",
       subcategory: "Culture",
@@ -12091,7 +12091,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Nine Stone",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "97",
       category:    "Geography",
       subcategory: "City/Fortress",
@@ -12235,7 +12235,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ternon Crag",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "75",
       category:    "Geography",
       subcategory: "City/Fortress",
@@ -12276,7 +12276,7 @@ var ikrpg = ikrpg || {};
     // ##### Geography > Geographic Region ##### \\
     {
       name:        "Arman Moors",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "93",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12284,7 +12284,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blackroot Wood",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "78",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12292,7 +12292,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blindwater",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "93",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12300,7 +12300,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bloodsmeath Marsh",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "94",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12308,7 +12308,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bloodstone Desert",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "72",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12316,7 +12316,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bloodstone Marches",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "73",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12324,7 +12324,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Burningfrost Plains",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "96",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12332,7 +12332,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cloutsdown Fen",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "95",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12340,7 +12340,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dragonspine Peaks",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "87",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12348,7 +12348,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Erud Hills",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "87",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12356,7 +12356,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fenn Marsh",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "95",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12364,7 +12364,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gallowswood",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "79",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12372,7 +12372,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Glimmerwood",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "79",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12380,7 +12380,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Greybranch Mountains",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "88",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12388,7 +12388,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Helmsreach",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "88",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12396,7 +12396,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Howling Wastes",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "97",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12404,7 +12404,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Kovosk Hills",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "88",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12412,7 +12412,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Malgur Forest",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "81",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12420,7 +12420,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Murata Hills",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "88",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12428,7 +12428,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "North Berck Moors",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "96",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12436,7 +12436,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Nyschatha Mountains",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "88",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12444,7 +12444,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ravenswood",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "81",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12452,7 +12452,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Scarleforth Lake",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "74",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12460,7 +12460,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Scarsfell Forest",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "82",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12468,7 +12468,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shard Spires",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "89",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12476,7 +12476,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Targoss Forest",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "83",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12484,7 +12484,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Gnarls",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "79",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12492,7 +12492,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Guardians",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "97",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12500,7 +12500,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Marck",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "96",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12508,7 +12508,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Olgunholt",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "81",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12516,7 +12516,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Rimeshaws",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "82",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12524,7 +12524,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Rotterhorn",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "73",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12532,7 +12532,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Sand Narrows",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "97",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12540,7 +12540,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Shadoweald",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "83",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12548,7 +12548,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Stormlands",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "76",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12556,7 +12556,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Thelborn",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "97",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12564,7 +12564,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Thornwood Forest",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "83",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12572,7 +12572,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Thundercliff Peaks",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "90",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12580,7 +12580,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Upper Wyrmwall Mountains",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "91",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12588,7 +12588,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Watcher Peaks",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "91",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12596,7 +12596,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Widower's Wood",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "85",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12604,7 +12604,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wyrmwall Mountains",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "91",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -12612,7 +12612,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wythmoor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "96",
       category:    "Geography",
       subcategory: "Geographic Region",
@@ -13181,7 +13181,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Lord of the Feast",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "13",
       category:    "Individual",
       subcategory: "",
@@ -13189,7 +13189,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Old Witch",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "13",
       category:    "Individual",
       subcategory: "",
@@ -13285,7 +13285,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wurmwood, Tree of Fate",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "14",
       category:    "Individual",
       subcategory: "",
@@ -14536,7 +14536,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Argus, Common",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "354",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14544,7 +14544,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Argus, Winter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "358",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14552,7 +14552,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Argus Moonhound",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "356",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14560,7 +14560,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blackhide",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "360",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14568,7 +14568,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bogrin",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "362",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14576,7 +14576,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Boneswarm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "364",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14584,7 +14584,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Brute Boar",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "366",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14712,7 +14712,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Drake, Fog",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "368",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14720,7 +14720,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Drake, Frost",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "370",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14728,7 +14728,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Drake, Sea",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "372",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14800,7 +14800,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Feralgeist",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "374",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14808,7 +14808,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gallows Grove",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "376",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14816,7 +14816,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Giant Hog",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "378",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14832,7 +14832,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gorax",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "380",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14840,7 +14840,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Griffon, Rotterhorn",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "382",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14848,7 +14848,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Griffon, Scarsfell",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "384",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14904,7 +14904,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ironback Spitter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "386",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14944,7 +14944,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Razor Boar",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "388",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14976,7 +14976,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Satyr, Gnarlhorn",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "390",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14984,7 +14984,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Satyr, Rip Horn",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "392",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -14992,7 +14992,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Satyr, Shadowhorn",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "394",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15064,7 +15064,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Snapper",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "396",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15088,7 +15088,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Spine Ripper",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "398",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15096,7 +15096,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Swamp Horror",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "400",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15104,7 +15104,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Swamp Shambler",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "402",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15120,7 +15120,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tatzylwurm, Painted",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "404",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15128,7 +15128,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tatzylwurm, Pale",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "406",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15136,7 +15136,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tatzylwurm, Viper",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "408",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15144,7 +15144,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Thornwood Mauler",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "410",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15168,7 +15168,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Troll Whelp",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "428",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15184,7 +15184,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Troll, Common",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "412",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15200,7 +15200,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Troll, Dire",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "414",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15208,7 +15208,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Troll, Earthborn Dire",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "416",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15216,7 +15216,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Troll, Night",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "418",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15224,7 +15224,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Troll, Pyre",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "420",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15232,7 +15232,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Troll, Slag",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "422",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15240,7 +15240,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Troll, Storm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "424",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15248,7 +15248,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Troll, Swamp",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "426",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15256,7 +15256,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Troll, Winter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "430",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15272,7 +15272,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Warpwolf, Feral",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "430",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
@@ -15594,7 +15594,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Adapted (Environment)",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "458",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15602,7 +15602,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Alert",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "459",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15618,7 +15618,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Alpha",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "459",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15626,7 +15626,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Aquatic",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "459",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15634,7 +15634,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Backbiter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "459",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15650,7 +15650,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blighted",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "459",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15658,7 +15658,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bogrin Trapper",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "460",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15666,7 +15666,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bogrin War Chief",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "460",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15706,7 +15706,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Chieftain",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "460",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15722,7 +15722,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Degenerate Warpwolf",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "460",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15738,7 +15738,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Diseased",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "461",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15770,7 +15770,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gluttonous",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "461",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15778,7 +15778,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Graveswarm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "461",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15794,7 +15794,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hunter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "462",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15802,7 +15802,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ill-Tempered",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "462",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15818,7 +15818,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Juvenile",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "462",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15842,7 +15842,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Large Specimen",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "462",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15858,7 +15858,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Lone Wolf",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "462",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15874,7 +15874,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Man-Eater",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "463",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15882,7 +15882,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Nesting Drake",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "463",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15890,7 +15890,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Nimble",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "463",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15906,7 +15906,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pack Hunter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "463",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15954,7 +15954,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Predator",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "463",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -15970,7 +15970,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Protector",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "463",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -16002,7 +16002,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Runt",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "464",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -16010,7 +16010,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Satyr Elder",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "464",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -16026,7 +16026,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Skittish",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "464",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -16058,7 +16058,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Starving",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "464",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -16074,7 +16074,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Stealthy",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "464",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -16090,7 +16090,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Swarm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "465",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -16114,7 +16114,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Swift",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "465",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -16130,7 +16130,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Trained",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "465",
       category:    "Monsternomicon",
       subcategory: "Template",
@@ -17630,7 +17630,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gnarls Kriels",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "46",
       category:    "Organization",
       subcategory: "Military Organization",
@@ -17750,7 +17750,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Scarsfell Kriels",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "47",
       category:    "Organization",
       subcategory: "Military Organization",
@@ -17790,7 +17790,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Blindwater Congregation",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "57",
       category:    "Organization",
       subcategory: "Military Organization",
@@ -17798,7 +17798,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Legion of Everblight",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "90",
       category:    "Organization",
       subcategory: "Military Organization",
@@ -17806,7 +17806,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Thornfall Alliance",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "53",
       category:    "Organization",
       subcategory: "Military Organization",
@@ -17822,7 +17822,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "United Kriels",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "47",
       category:    "Organization",
       subcategory: "Military Organization",
@@ -18097,7 +18097,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fane of Nyssor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "63",
       category:    "Organization",
       subcategory: "Religious Group",
@@ -18446,7 +18446,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Archery",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "174",
       category:    "Skill",
       subcategory: "Military Skill",
@@ -18462,7 +18462,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Crossbow",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "174",
       category:    "Skill",
       subcategory: "Military Skill",
@@ -18478,7 +18478,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Great Weapon",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "175",
       category:    "Skill",
       subcategory: "Military Skill",
@@ -18502,7 +18502,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hand Weapon",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "175",
       category:    "Skill",
       subcategory: "Military Skill",
@@ -18542,7 +18542,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Light Artillery",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "175",
       category:    "Skill",
       subcategory: "Military Skill",
@@ -18558,7 +18558,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pistol",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "175",
       category:    "Skill",
       subcategory: "Military Skill",
@@ -18574,7 +18574,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rifle",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "175",
       category:    "Skill",
       subcategory: "Military Skill",
@@ -18598,7 +18598,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shield",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "175",
       category:    "Skill",
       subcategory: "Military Skill",
@@ -18614,7 +18614,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Thrown Weapon",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "175",
       category:    "Skill",
       subcategory: "Military Skill",
@@ -18638,7 +18638,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Unarmed Combat",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "175",
       category:    "Skill",
       subcategory: "Military Skill",
@@ -18663,7 +18663,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Alchemy",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "176",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -18687,7 +18687,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Animal Handling",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "177",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -18711,7 +18711,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bribery",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "177",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -18727,7 +18727,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Climbing",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "178",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -18751,7 +18751,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Command",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "178",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -18775,7 +18775,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Craft",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "179",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -18791,7 +18791,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cryptography",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "180",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -18815,7 +18815,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Deception",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "180",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -18839,7 +18839,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Detection",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "181",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -18863,7 +18863,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Disguise",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "181",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -18879,7 +18879,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Driving",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "182",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -18895,7 +18895,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Escape Artist",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "182",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -18919,7 +18919,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fell Calling",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "183",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -18951,7 +18951,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gambling",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "183",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -18967,7 +18967,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Interrogation",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "183",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -18991,7 +18991,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Intimidation",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "184",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19007,7 +19007,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Investigation",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "184",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19031,7 +19031,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Jumping",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "185",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19055,7 +19055,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Lock Picking",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "186",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19071,7 +19071,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Lore",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "186",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19103,7 +19103,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Medicine",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "187",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19127,7 +19127,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Navigation",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "187",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19151,7 +19151,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Negotiation",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "188",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19167,7 +19167,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Oratory",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "189",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19191,7 +19191,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pickpocket",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "189",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19207,7 +19207,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Research",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "190",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19223,7 +19223,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Riding",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "190",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19239,7 +19239,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rope Use",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "191",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19263,7 +19263,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Seduction",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "191",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19279,7 +19279,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sneak",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "192",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19311,7 +19311,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Streetwise",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "192",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19327,7 +19327,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Survival",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "193",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19351,7 +19351,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Swimming",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "194",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19383,7 +19383,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tracking",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "195",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -19498,7 +19498,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Admonition",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "241",
       category:    "Spell",
       subcategory: "",
@@ -19514,7 +19514,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Affliction",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "241",
       category:    "Spell",
       subcategory: "",
@@ -19530,7 +19530,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Aggravator",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "241",
       category:    "Spell",
       subcategory: "",
@@ -19538,7 +19538,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Agitation",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "241",
       category:    "Spell",
       subcategory: "",
@@ -19546,7 +19546,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Annihilation",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "241",
       category:    "Spell",
       subcategory: "",
@@ -19586,7 +19586,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Arcane Bolt",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19618,7 +19618,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Arcane Strike",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19650,7 +19650,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ashen Cloud",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19674,7 +19674,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ashes to Ashes",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19690,7 +19690,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Awakened Spirit",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19706,7 +19706,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Awareness",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19730,7 +19730,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bad Blood",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19754,7 +19754,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Banishing Ward",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19778,7 +19778,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Barrier of Flames",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19794,7 +19794,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Batten Down the Hatches",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19818,7 +19818,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battering Ram",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19826,7 +19826,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Charged",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19842,7 +19842,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Rage",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19850,7 +19850,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bestial",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19866,7 +19866,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Black Out",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19898,7 +19898,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blazing Effigy",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19914,7 +19914,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bleed",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19938,7 +19938,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "BLessing of Health",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19954,7 +19954,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blessing of the Devourer",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -19970,7 +19970,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blessings of War",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
       subcategory: "",
@@ -20010,7 +20010,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blizzard",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20026,7 +20026,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Feast",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20034,7 +20034,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Accurate Strike",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20042,7 +20042,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Black Poison",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20050,7 +20050,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Bleeder",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20058,7 +20058,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Blood Burst",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20066,7 +20066,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Brain Damage",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20074,7 +20074,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Brutal Strike",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20082,7 +20082,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Dispel",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20090,7 +20090,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Grievous Strike",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20098,7 +20098,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Heart Stopper",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20106,7 +20106,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Hobbler",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20114,7 +20114,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Invigoration",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20122,7 +20122,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Weakness",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20250,7 +20250,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bone Shaker",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20274,7 +20274,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Boundless Charge",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20290,7 +20290,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Brittle Frost",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20322,7 +20322,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bullet Dodger",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20338,7 +20338,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Carnivore",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20362,7 +20362,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Celerity",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "243",
       category:    "Spell",
       subcategory: "",
@@ -20378,7 +20378,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Chain Lightning",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
@@ -20402,7 +20402,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Chiller",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
@@ -20418,7 +20418,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cleansing Fire",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
@@ -20442,7 +20442,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cloak of Fear",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
@@ -20466,7 +20466,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cloak of the Predator",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
@@ -20474,7 +20474,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cold Blooded",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
@@ -20506,7 +20506,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Crevasse",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
@@ -20514,7 +20514,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cross-Country",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
@@ -20538,7 +20538,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Curse of Shadows",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
@@ -20546,7 +20546,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dark Fire",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
@@ -20570,7 +20570,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dark Water",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
@@ -20618,7 +20618,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Death Pact",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
@@ -20626,7 +20626,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Deathly Slumber",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
@@ -20650,7 +20650,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Deceleration",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
@@ -20666,7 +20666,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Deep Freeze",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
@@ -20682,7 +20682,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Devil's Tongue",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -20706,7 +20706,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dirge of Mists",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -20730,7 +20730,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dog Pile",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -20738,7 +20738,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dominate Undead",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -20794,7 +20794,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Earthquake",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -20810,7 +20810,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Earth's Cradle",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -20826,7 +20826,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Earthsplitter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -20866,7 +20866,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Elemental Protection",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -20882,7 +20882,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Eliminator",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -20898,7 +20898,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Entangle",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -20906,7 +20906,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Enthrall Spirit",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -20914,7 +20914,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Entropic Force",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -20930,7 +20930,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Eruption of Life",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -20954,7 +20954,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Exorcism",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -20978,7 +20978,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Extinguisher",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -21002,7 +21002,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Eyes of Truth",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -21026,7 +21026,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fair Winds",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -21034,7 +21034,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Feast of Worms",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -21066,7 +21066,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fire Starter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -21082,7 +21082,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Flames of Wrath",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -21098,7 +21098,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Flare",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -21114,7 +21114,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Flesh Eater",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -21130,7 +21130,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fog of War",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "245",
       category:    "Spell",
       subcategory: "",
@@ -21146,7 +21146,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Force Bolt",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21162,7 +21162,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Force Field",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21186,7 +21186,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Force of Faith",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21194,7 +21194,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Forced Evolution",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21210,7 +21210,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fortify",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21226,7 +21226,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fortune",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21242,7 +21242,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Foxhole",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21258,7 +21258,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Freezing Grip",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21274,7 +21274,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Freezing Mist",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21290,7 +21290,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Frostbite",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21306,7 +21306,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Frozen Ground",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21322,7 +21322,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fuel the Flames",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21346,7 +21346,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gallows",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21354,7 +21354,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ghost Shroud",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21370,7 +21370,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ghost Walk",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21378,7 +21378,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Grave Whispers",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "246",
       category:    "Spell",
       subcategory: "",
@@ -21402,7 +21402,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Grind",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "247",
       category:    "Spell",
       subcategory: "",
@@ -21426,7 +21426,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Guided Blade",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "247",
       category:    "Spell",
       subcategory: "",
@@ -21450,7 +21450,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Guided Fire",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "247",
       category:    "Spell",
       subcategory: "",
@@ -21466,7 +21466,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hallowed Guardian",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "247",
       category:    "Spell",
       subcategory: "",
@@ -21482,7 +21482,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hand of Fate",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "247",
       category:    "Spell",
       subcategory: "",
@@ -21498,7 +21498,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Harvest",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "247",
       category:    "Spell",
       subcategory: "",
@@ -21514,7 +21514,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Heal",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "247",
       category:    "Spell",
       subcategory: "",
@@ -21538,7 +21538,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hellmouth",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "247",
       category:    "Spell",
       subcategory: "",
@@ -21570,7 +21570,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hex Blast",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "247",
       category:    "Spell",
       subcategory: "",
@@ -21594,7 +21594,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hex Hammer",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "247",
       category:    "Spell",
       subcategory: "",
@@ -21602,7 +21602,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hidden Path",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21618,7 +21618,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hoarfrost",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21658,7 +21658,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Howling Flames",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21666,7 +21666,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hunter's Mark",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21714,7 +21714,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ice Bolt",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21730,7 +21730,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ice Shield",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21746,7 +21746,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Icy Grip",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21762,7 +21762,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ignite",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21778,7 +21778,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Immolation",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21786,7 +21786,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Incite",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21810,7 +21810,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Inferno",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21842,7 +21842,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Influence",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21858,7 +21858,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Inhospitable Ground",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21890,7 +21890,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Inviolable Resolve",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21914,7 +21914,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Iron Flesh",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21930,7 +21930,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Jaws of Death",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21946,7 +21946,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Jump Start",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21954,7 +21954,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Killing Ground",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21962,7 +21962,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Killing Tide",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21986,7 +21986,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Lamentation",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -21994,7 +21994,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Leash",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "248",
       category:    "Spell",
       subcategory: "",
@@ -22010,7 +22010,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Light in the Darkness",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "249",
       category:    "Spell",
       subcategory: "",
@@ -22034,7 +22034,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Lightning Storm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "249",
       category:    "Spell",
       subcategory: "",
@@ -22050,7 +22050,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Lightning Tendrils",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "249",
       category:    "Spell",
       subcategory: "",
@@ -22058,7 +22058,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Lightning Tongue",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "249",
       category:    "Spell",
       subcategory: "",
@@ -22090,7 +22090,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Marked for Death",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "249",
       category:    "Spell",
       subcategory: "",
@@ -22106,7 +22106,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Medicate",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "249",
       category:    "Spell",
       subcategory: "",
@@ -22146,7 +22146,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mirage",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "249",
       category:    "Spell",
       subcategory: "",
@@ -22154,7 +22154,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mist Shroud",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "249",
       category:    "Spell",
       subcategory: "",
@@ -22170,7 +22170,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mobility",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "249",
       category:    "Spell",
       subcategory: "",
@@ -22194,7 +22194,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mortality",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "249",
       category:    "Spell",
       subcategory: "",
@@ -22202,7 +22202,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Murder of Crows",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "249",
       category:    "Spell",
       subcategory: "",
@@ -22210,7 +22210,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Muzzle",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "249",
       category:    "Spell",
       subcategory: "",
@@ -22226,7 +22226,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mystic Wards",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "249",
       category:    "Spell",
       subcategory: "",
@@ -22242,7 +22242,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Obliteration",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "249",
       category:    "Spell",
       subcategory: "",
@@ -22274,7 +22274,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Occultation",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22306,7 +22306,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Parasite",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22330,7 +22330,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Perdition",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22354,7 +22354,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Phantasm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22378,7 +22378,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pig Pen",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22442,7 +22442,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Prayer of Guidance",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22450,7 +22450,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Primal Shock",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22466,7 +22466,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Protection from Cold",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22482,7 +22482,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Protection from Corrosion",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22498,7 +22498,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Protection from Electricity",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22514,7 +22514,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Protection from Fire",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22570,7 +22570,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Purification",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22586,7 +22586,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Quagmire",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22602,7 +22602,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Quickend",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22618,7 +22618,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Raging Winds",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22626,7 +22626,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Raise Dead",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22634,7 +22634,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rampager",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22642,7 +22642,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rapid Growth",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22658,7 +22658,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ravager",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22666,7 +22666,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rawhide",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22690,7 +22690,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Razor Wind",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22730,7 +22730,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Refuge",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "250",
       category:    "Spell",
       subcategory: "",
@@ -22746,7 +22746,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Restoration",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -22762,7 +22762,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Return Fire",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -22778,7 +22778,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rift",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -22810,7 +22810,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rime",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -22818,7 +22818,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rise in Death",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -22826,7 +22826,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rising Tide",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -22842,7 +22842,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rock Hammer",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -22858,7 +22858,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rock Wall",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -22866,7 +22866,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Roots of the Earth",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -23138,7 +23138,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sea of Fire",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -23146,7 +23146,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shadow Pack",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -23162,7 +23162,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shatter Storm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -23194,7 +23194,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shock Wave",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -23226,7 +23226,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Snipe",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -23242,7 +23242,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Solid Ground",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -23258,7 +23258,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Soothing Song",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -23274,7 +23274,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Soul Slave",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -23282,7 +23282,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Spirit Fang",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "251",
       category:    "Spell",
       subcategory: "",
@@ -23290,7 +23290,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Spirit Lash",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23306,7 +23306,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Star-Crossed",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23338,7 +23338,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Staying Winter's Hand",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23346,7 +23346,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Stone Form",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23354,7 +23354,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Stone Hold",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23362,7 +23362,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Stone Skin",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23378,7 +23378,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Stone Spray",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23394,7 +23394,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Stone Stance",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23410,7 +23410,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Stone Strength",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23426,7 +23426,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Storm Tossed",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23434,7 +23434,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Storm Wall",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23450,7 +23450,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Stranglehold",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23466,7 +23466,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Summon Vortex",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23482,7 +23482,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sunder Spirit",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23490,7 +23490,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sunhamer",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23506,7 +23506,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sure Foot",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23546,7 +23546,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Telekinesis",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23578,7 +23578,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tempest",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23602,7 +23602,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tornado",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23650,7 +23650,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Triage",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23666,7 +23666,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "True Path",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23690,7 +23690,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "True Sight",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23706,7 +23706,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Twister",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
       subcategory: "",
@@ -23714,7 +23714,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Unminding",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23722,7 +23722,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Unnatural Aggression",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23738,7 +23738,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Unstoppable Force",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23746,7 +23746,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Veil of Mist",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23754,7 +23754,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Venom",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23770,7 +23770,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Vision",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23786,7 +23786,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Voodoo Doll",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23802,7 +23802,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wall of Fire",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23810,7 +23810,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Warpath",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23834,7 +23834,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Watcher",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23842,7 +23842,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Weald Hunter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23858,7 +23858,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "White Out",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23866,7 +23866,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wild Aggression",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23890,7 +23890,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wind Blast",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23914,7 +23914,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wind Strike",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23938,7 +23938,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wings of Air",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23954,7 +23954,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Winter Storm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -23970,7 +23970,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Zephyr",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
       subcategory: "",
@@ -26135,7 +26135,7 @@ var ikrpg = ikrpg || {};
     // ##### Warbeast > Devourer Warbeast ##### \\
     {
       name:        "Argus, Common",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "275",
       category:    "Warbeast",
       subcategory: "Devourer Warbeast",
@@ -26143,7 +26143,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Argus, Winter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "276",
       category:    "Warbeast",
       subcategory: "Devourer Warbeast",
@@ -26151,7 +26151,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Argus Moonhound",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "275",
       category:    "Warbeast",
       subcategory: "Devourer Warbeast",
@@ -26159,7 +26159,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gorax",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "276",
       category:    "Warbeast",
       subcategory: "Devourer Warbeast",
@@ -26167,7 +26167,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Griffon, Rotterhorn",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "276",
       category:    "Warbeast",
       subcategory: "Devourer Warbeast",
@@ -26175,7 +26175,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Griffon, Scarsfell",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "277",
       category:    "Warbeast",
       subcategory: "Devourer Warbeast",
@@ -26183,7 +26183,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Satyr, Gnarlhorn",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "277",
       category:    "Warbeast",
       subcategory: "Devourer Warbeast",
@@ -26191,7 +26191,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Satyr, Rip Horn",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "277",
       category:    "Warbeast",
       subcategory: "Devourer Warbeast",
@@ -26199,7 +26199,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Satyr, Shadowhorn",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "278",
       category:    "Warbeast",
       subcategory: "Devourer Warbeast",
@@ -26207,7 +26207,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Warpwolf, Feral",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "278",
       category:    "Warbeast",
       subcategory: "Devourer Warbeast",
@@ -26215,7 +26215,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Warpwolf Stalker",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "279",
       category:    "Warbeast",
       subcategory: "Devourer Warbeast",
@@ -26224,7 +26224,7 @@ var ikrpg = ikrpg || {};
     // ##### Warbeast > Farrow Warbeast ##### \\
     {
       name:        "Battle Boar",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "281",
       category:    "Warbeast",
       subcategory: "Farrow Warbeast",
@@ -26232,7 +26232,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Giant Hog Tusker",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "282",
       category:    "Warbeast",
       subcategory: "Farrow Warbeast",
@@ -26240,7 +26240,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gun Boar",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "281",
       category:    "Warbeast",
       subcategory: "Farrow Warbeast",
@@ -26248,7 +26248,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Razor Boar",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "283",
       category:    "Warbeast",
       subcategory: "Farrow Warbeast",
@@ -26256,7 +26256,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Road Hog",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "284",
       category:    "Warbeast",
       subcategory: "Farrow Warbeast",
@@ -26264,7 +26264,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "War Hog",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "285",
       category:    "Warbeast",
       subcategory: "Farrow Warbeast",
@@ -26298,7 +26298,7 @@ var ikrpg = ikrpg || {};
     // ##### Warbeast > Swamp Warbeast ##### \\
     {
       name:        "Blackhide",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "287",
       category:    "Warbeast",
       subcategory: "Swamp Warbeast",
@@ -26306,7 +26306,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Boneswarm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "288",
       category:    "Warbeast",
       subcategory: "Swamp Warbeast",
@@ -26314,7 +26314,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bull Snapper",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "288",
       category:    "Warbeast",
       subcategory: "Swamp Warbeast",
@@ -26322,7 +26322,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ironback Spitter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "288",
       category:    "Warbeast",
       subcategory: "Swamp Warbeast",
@@ -26330,7 +26330,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Swamp Horror",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "288",
       category:    "Warbeast",
       subcategory: "Swamp Warbeast",
@@ -26339,7 +26339,7 @@ var ikrpg = ikrpg || {};
     // ##### Warbeast > Trollblood Warbeast ##### \\
     {
       name:        "Dire Troll, Earthborn",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "293",
       category:    "Warbeast",
       subcategory: "Trollblood Warbeast",
@@ -26347,7 +26347,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dire Troll Mauler",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "291",
       category:    "Warbeast",
       subcategory: "Trollblood Warbeast",
@@ -26355,7 +26355,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dire Troll Blitzer",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "291",
       category:    "Warbeast",
       subcategory: "Trollblood Warbeast",
@@ -26363,7 +26363,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dire Troll Bomber",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "292",
       category:    "Warbeast",
       subcategory: "Trollblood Warbeast",
@@ -26371,7 +26371,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Night Troll",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "294",
       category:    "Warbeast",
       subcategory: "Trollblood Warbeast",
@@ -26379,7 +26379,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pyre Troll",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "294",
       category:    "Warbeast",
       subcategory: "Trollblood Warbeast",
@@ -26387,7 +26387,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Slag Troll",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "294",
       category:    "Warbeast",
       subcategory: "Trollblood Warbeast",
@@ -26395,7 +26395,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Storm Troll",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "295",
       category:    "Warbeast",
       subcategory: "Trollblood Warbeast",
@@ -26403,7 +26403,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Swamp Troll",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "295",
       category:    "Warbeast",
       subcategory: "Trollblood Warbeast",
@@ -26411,7 +26411,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Troll Axer",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "289",
       category:    "Warbeast",
       subcategory: "Trollblood Warbeast",
@@ -26419,7 +26419,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Troll Boucer",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "290",
       category:    "Warbeast",
       subcategory: "Trollblood Warbeast",
@@ -26427,7 +26427,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Troll Impaler",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "290",
       category:    "Warbeast",
       subcategory: "Trollblood Warbeast",
@@ -26435,7 +26435,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Winter Troll",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "295",
       category:    "Warbeast",
       subcategory: "Trollblood Warbeast",
@@ -26444,7 +26444,7 @@ var ikrpg = ikrpg || {};
     // ##### Warbeast > Wold ##### \\
     {
       name:        "Wold Guardian",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "257",
       category:    "Warbeast",
       subcategory: "Wold",
@@ -26452,7 +26452,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Woldstalker",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "257",
       category:    "Warbeast",
       subcategory: "Wold",
@@ -26460,7 +26460,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Woldwarden",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "257",
       category:    "Warbeast",
       subcategory: "Wold",
@@ -26468,7 +26468,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Woldwatcher",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "257",
       category:    "Warbeast",
       subcategory: "Wold",
@@ -26476,7 +26476,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Woldwyrd",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "257",
       category:    "Warbeast",
       subcategory: "Wold",
@@ -26485,7 +26485,7 @@ var ikrpg = ikrpg || {};
     // ##### Warbeast > Animus ##### \\
     {
       name:        "Acceleration",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "277",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26493,7 +26493,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Acidic Touch",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "295",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26501,7 +26501,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Arcane Suppression",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "258",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26509,7 +26509,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Baying of Chaos",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "279",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26517,7 +26517,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Beguile",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "294",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26525,7 +26525,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bomb Shelter",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "293",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26533,7 +26533,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bounding",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "277",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26541,7 +26541,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bump",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "290",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26549,7 +26549,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Counterblast",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "282",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26557,7 +26557,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Earth's Blessing",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "259",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26565,7 +26565,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Elasticity",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "288",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26573,7 +26573,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Far Strike",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "291",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26581,7 +26581,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Flaming Fists",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "294",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26589,7 +26589,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Flesh of Clay",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "261",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26597,7 +26597,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Freezer",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "296",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26605,7 +26605,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Heightened Metabolism",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "281",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26613,7 +26613,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hound",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "276",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26621,7 +26621,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Irresistible Force",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "278",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26629,7 +26629,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Lightning Fists",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "295",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26637,7 +26637,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Lightning Strike",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "280",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26645,7 +26645,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Lightning Strike",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "285",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26653,7 +26653,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Massacre",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "285",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26661,7 +26661,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ornery",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "288",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26669,7 +26669,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pig Farm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "283",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26677,7 +26677,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Primal",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "276",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26685,7 +26685,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rage",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "291",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26693,7 +26693,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Repulsion",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "292",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26701,7 +26701,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rise",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "287",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26709,7 +26709,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rush",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "289",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26717,7 +26717,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shadow Shift",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "277",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26725,7 +26725,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Spiny Growth",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "288",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26733,7 +26733,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Swarm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "288",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26741,7 +26741,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Swarm",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "295",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26749,7 +26749,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tracker",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "275",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26757,7 +26757,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Transmute",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "294",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26765,7 +26765,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Vicious",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "283",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26773,7 +26773,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Virility",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "278",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26781,7 +26781,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wild Growth",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "260",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26789,7 +26789,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Winter Coat",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "276",
       category:    "Warbeast",
       subcategory: "Animus",
@@ -26798,7 +26798,7 @@ var ikrpg = ikrpg || {};
     // ##### Warbeast > Warbeast Armor ##### \\
     {
       name:        "Custom Battle Warbeast Armor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "298",
       category:    "Warbeast",
       subcategory: "Warbeast Armor",
@@ -26806,7 +26806,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dire Troll Harness",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "293",
       category:    "Warbeast",
       subcategory: "Warbeast Armor",
@@ -26814,7 +26814,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Full Plate Warbeast Armor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "299",
       category:    "Warbeast",
       subcategory: "Warbeast Armor",
@@ -26822,7 +26822,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gun Boar Harness",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "282",
       category:    "Warbeast",
       subcategory: "Warbeast Armor",
@@ -26830,7 +26830,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Leather Warbeast Armor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "298",
       category:    "Warbeast",
       subcategory: "Warbeast Armor",
@@ -26838,7 +26838,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Medium Plate Warbeast Armor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "298",
       category:    "Warbeast",
       subcategory: "Warbeast Armor",
@@ -26846,7 +26846,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Partial Plate Warbeast Armor",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "298",
       category:    "Warbeast",
       subcategory: "Warbeast Armor",
@@ -26854,7 +26854,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tusked Helmet",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "283",
       category:    "Warbeast",
       subcategory: "Warbeast Armor",
@@ -26863,7 +26863,7 @@ var ikrpg = ikrpg || {};
     // ##### Warbeast > Warbeast Melee Weapon ##### \\
     {
       name:        "Ball and Chain",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "299",
       category:    "Warbeast",
       subcategory: "Warbeast Melee Weapon",
@@ -26871,7 +26871,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Axe",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "299",
       category:    "Warbeast",
       subcategory: "Warbeast Melee Weapon",
@@ -26879,7 +26879,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Blade",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "300",
       category:    "Warbeast",
       subcategory: "Warbeast Melee Weapon",
@@ -26887,7 +26887,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Hammer",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "300",
       category:    "Warbeast",
       subcategory: "Warbeast Melee Weapon",
@@ -26895,7 +26895,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Spear",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "299",
       category:    "Warbeast",
       subcategory: "Warbeast Melee Weapon",
@@ -26903,7 +26903,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bladed Gauntlet",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "300",
       category:    "Warbeast",
       subcategory: "Warbeast Melee Weapon",
@@ -26911,7 +26911,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Halbert",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "300",
       category:    "Warbeast",
       subcategory: "Warbeast Melee Weapon",
@@ -26919,7 +26919,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hand Weapon",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "300",
       category:    "Warbeast",
       subcategory: "Warbeast Melee Weapon",
@@ -26927,7 +26927,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Heavy Shield",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "300",
       category:    "Warbeast",
       subcategory: "Warbeast Melee Weapon",
@@ -26935,7 +26935,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Punching Spike",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "301",
       category:    "Warbeast",
       subcategory: "Warbeast Melee Weapon",
@@ -26943,7 +26943,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "War Cleaver",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "301",
       category:    "Warbeast",
       subcategory: "Warbeast Melee Weapon",
@@ -26952,7 +26952,7 @@ var ikrpg = ikrpg || {};
     // ##### Warbeast > Warbeast Ranged Weapon ##### \\
     {
       name:        "Big Gun",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "281",
       category:    "Warbeast",
       subcategory: "Warbeast Ranged Weapon",
@@ -26960,7 +26960,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Powder Bomb",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "293",
       category:    "Warbeast",
       subcategory: "Warbeast Ranged Weapon",
@@ -26969,7 +26969,7 @@ var ikrpg = ikrpg || {};
     // ##### Warbeast > Warbeast Gear ##### \\
     {
       name:        "Beast Restraint",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "301",
       category:    "Warbeast",
       subcategory: "Warbeast Gear",
@@ -26977,7 +26977,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gear Straps",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "301",
       category:    "Warbeast",
       subcategory: "Warbeast Gear",
@@ -26985,7 +26985,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Spear Quiver",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "291",
       category:    "Warbeast",
       subcategory: "Warbeast Gear",
@@ -26994,7 +26994,7 @@ var ikrpg = ikrpg || {};
     // ##### Warbeast > Warbeast Mechanikal Component ##### \\
     {
       name:        "Aggression Dial",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "286",
       category:    "Warbeast",
       subcategory: "Warbeast Mechanikal Component",
@@ -27002,7 +27002,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mechano-Claw",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "286",
       category:    "Warbeast",
       subcategory: "Warbeast Mechanikal Component",
@@ -27010,7 +27010,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mechano-Fist",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "286",
       category:    "Warbeast",
       subcategory: "Warbeast Mechanikal Component",
@@ -27018,7 +27018,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Road Hog Flamethrower",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "286",
       category:    "Warbeast",
       subcategory: "Warbeast Mechanikal Component",
@@ -27026,7 +27026,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Speed Dial",
-      publication: "Unleashed",
+      publication: "Unleashed Core Rules",
       page:        "286",
       category:    "Warbeast",
       subcategory: "Warbeast Mechanikal Component",
