@@ -724,7 +724,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Boarding Action",
-      publication: "Full Metal Friday 1/1/2",
+      publication: "Full Metal Fridays 1/1/2",
       page:        "2",
       category:    "Ability",
       subcategory: "",
@@ -3188,7 +3188,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ram",
-      publication: "Full Metal Friday 1/1/2",
+      publication: "Full Metal Fridays 1/1/2",
       page:        "2",
       category:    "Ability",
       subcategory: "",
@@ -3812,7 +3812,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sprint",
-      publication: "Full Metal Friday 1/1/2",
+      publication: "Full Metal Fridays 1/1/2",
       page:        "2",
       category:    "Ability",
       subcategory: "",
@@ -4469,7 +4469,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Lost Chamber",
-      publication: "Full Metal Friday 1/3/4",
+      publication: "Full Metal Fridays 1/3/4",
       page:        "1",
       category:    "Adventure",
       subcategory: "Scenario",
@@ -4477,7 +4477,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "The Noble's Tournament",
-      publication: "Full Metal Friday 1/5/4",
+      publication: "Full Metal Fridays 1/5/4",
       page:        "1",
       category:    "Adventure",
       subcategory: "Scenario",
@@ -4486,7 +4486,7 @@ var ikrpg = ikrpg || {};
     // ##### Adventure > Encounter ##### \\
     {
       name:        "Alchemical Imbalance",
-      publication: "Full Metal Friday 1/2/4",
+      publication: "Full Metal Fridays 1/2/4",
       page:        "1",
       category:    "Adventure",
       subcategory: "Encounter",
@@ -4510,7 +4510,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dead End",
-      publication: "Full Metal Friday 1/4/4",
+      publication: "Full Metal Fridays 1/4/4",
       page:        "1",
       category:    "Adventure",
       subcategory: "Encounter",
@@ -4550,7 +4550,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sailor take Warning",
-      publication: "Full Metal Friday 1/1/4",
+      publication: "Full Metal Fridays 1/1/4",
       page:        "1",
       category:    "Adventure",
       subcategory: "Encounter",
@@ -4905,7 +4905,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Alkalic Fluid",
-      publication: "Full Metal Friday 1/2/1",
+      publication: "Full Metal Fridays 1/2/1",
       page:        "2",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -4929,7 +4929,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blackbond",
-      publication: "Full Metal Friday 1/2/1",
+      publication: "Full Metal Fridays 1/2/1",
       page:        "2",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -4977,7 +4977,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Firestifle",
-      publication: "Full Metal Friday 1/2/1",
+      publication: "Full Metal Fridays 1/2/1",
       page:        "2",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -4985,7 +4985,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Glasseater",
-      publication: "Full Metal Friday 1/2/1",
+      publication: "Full Metal Fridays 1/2/1",
       page:        "2",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -5009,7 +5009,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Laughing Gas",
-      publication: "Full Metal Friday 1/2/2",
+      publication: "Full Metal Fridays 1/2/2",
       page:        "1",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -5121,7 +5121,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Umbroculant Drops",
-      publication: "Full Metal Friday 1/2/2",
+      publication: "Full Metal Fridays 1/2/2",
       page:        "2",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
@@ -5346,7 +5346,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Preservation of Corben Pendant",
-      publication: "Full Metal Friday 1/3/1",
+      publication: "Full Metal Fridays 1/3/1",
       page:        "2",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
@@ -6601,7 +6601,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Raider",
-      publication: "Full Metal Friday 1/1/2",
+      publication: "Full Metal Fridays 1/1/2",
       page:        "2",
       category:    "Character Creation",
       subcategory: "Career",
@@ -7259,7 +7259,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Satyxis",
-      publication: "Full Metal Friday 1/1/1",
+      publication: "Full Metal Fridays 1/1/1",
       page:        "2",
       category:    "Character Creation",
       subcategory: "Race",
@@ -7484,7 +7484,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Plastron",
-      publication: "Full Metal Friday 1/5/1",
+      publication: "Full Metal Fridays 1/5/1",
       page:        "3",
       category:    "Armory",
       subcategory: "Armor",
@@ -7765,7 +7765,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cloak, Weighted",
-      publication: "Full Metal Friday 1/5/1",
+      publication: "Full Metal Fridays 1/5/1",
       page:        "2",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7861,7 +7861,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dueling Buckler",
-      publication: "Full Metal Friday 1/5/1",
+      publication: "Full Metal Fridays 1/5/1",
       page:        "2",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7869,7 +7869,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Durkin Bar",
-      publication: "Full Metal Friday 1/3/1",
+      publication: "Full Metal Fridays 1/3/1",
       page:        "2",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -7981,7 +7981,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Garrote",
-      publication: "Full Metal Friday 1/4/3",
+      publication: "Full Metal Fridays 1/4/3",
       page:        "2",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8021,7 +8021,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hand Pick",
-      publication: "Full Metal Friday 1/3/1",
+      publication: "Full Metal Fridays 1/3/1",
       page:        "2",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8093,7 +8093,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Lacerator",
-      publication: "Full Metal Friday 1/1/2",
+      publication: "Full Metal Fridays 1/1/2",
       page:        "2",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8437,7 +8437,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tournament Foil",
-      publication: "Full Metal Friday 1/5/1",
+      publication: "Full Metal Fridays 1/5/1",
       page:        "3",
       category:    "Armory",
       subcategory: "Melee Weapon",
@@ -8808,7 +8808,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dueling Pistols",
-      publication: "Full Metal Friday 1/5/1",
+      publication: "Full Metal Fridays 1/5/1",
       page:        "2",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -8976,7 +8976,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Injection Pistol",
-      publication: "Full Metal Friday 1/2/2",
+      publication: "Full Metal Fridays 1/2/2",
       page:        "2",
       category:    "Armory",
       subcategory: "Ranged Weapon",
@@ -9651,7 +9651,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tar Candle",
-      publication: "Full Metal Friday 1/2/3",
+      publication: "Full Metal Fridays 1/2/3",
       page:        "2",
       category:    "Armory",
       subcategory: "Improvised Ranged Weapon",
@@ -10156,7 +10156,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Adventuring Scholar's Tools",
-      publication: "Full Metal Friday 1/3/1",
+      publication: "Full Metal Fridays 1/3/1",
       page:        "2",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10188,7 +10188,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "All-Weather Notebook",
-      publication: "Full Metal Friday 1/3/1",
+      publication: "Full Metal Fridays 1/3/1",
       page:        "2",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -10212,7 +10212,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bottled Light",
-      publication: "Full Metal Friday 1/3/1",
+      publication: "Full Metal Fridays 1/3/1",
       page:        "2",
       category:    "Equipment",
       subcategory: "Equipment",
@@ -16179,7 +16179,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Black Ogrun Boarder",
-      publication: "Full Metal Friday 1/1/4",
+      publication: "Full Metal Fridays 1/1/4",
       page:        "3",
       category:    "Monster",
       subcategory: "Monster/Opponent",
@@ -16379,7 +16379,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dread Tomb Guard",
-      publication: "Full Metal Friday 1/3/4",
+      publication: "Full Metal Fridays 1/3/4",
       page:        "4",
       category:    "Monster",
       subcategory: "Monster/Opponent",
@@ -16547,7 +16547,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Human Duelist",
-      publication: "Full Metal Friday 1/5/4",
+      publication: "Full Metal Fridays 1/5/4",
       page:        "5",
       category:    "Monster",
       subcategory: "Monster/Opponent",
@@ -16563,7 +16563,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Human Thief",
-      publication: "Full Metal Friday 1/4/4",
+      publication: "Full Metal Fridays 1/4/4",
       page:        "3",
       category:    "Monster",
       subcategory: "Monster/Opponent",
@@ -16579,7 +16579,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Human Thug",
-      publication: "Full Metal Friday 1/4/4",
+      publication: "Full Metal Fridays 1/4/4",
       page:        "3",
       category:    "Monster",
       subcategory: "Monster/Opponent",
@@ -16723,7 +16723,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Satyxis Raider",
-      publication: "Full Metal Friday 1/1/4",
+      publication: "Full Metal Fridays 1/1/4",
       page:        "3",
       category:    "Monster",
       subcategory: "Monster/Opponent",
@@ -17116,7 +17116,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Captain Meara Brinebight",
-      publication: "Full Metal Friday 1/1/4",
+      publication: "Full Metal Fridays 1/1/4",
       page:        "2",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
@@ -17140,7 +17140,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Denys Manet",
-      publication: "Full Metal Friday 1/5/4",
+      publication: "Full Metal Fridays 1/5/4",
       page:        "5",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
@@ -17164,7 +17164,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fynne di Vinianni",
-      publication: "Full Metal Friday 1/4/4",
+      publication: "Full Metal Fridays 1/4/4",
       page:        "2",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
@@ -17292,7 +17292,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        'Luka "Left Fist" Istori',
-      publication: "Full Metal Friday 1/4/4",
+      publication: "Full Metal Fridays 1/4/4",
       page:        "2",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
@@ -17332,7 +17332,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mirek Orlov",
-      publication: "Full Metal Friday 1/5/4",
+      publication: "Full Metal Fridays 1/5/4",
       page:        "5",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
@@ -17340,7 +17340,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Morna Petrork",
-      publication: "Full Metal Friday 1/4/4",
+      publication: "Full Metal Fridays 1/4/4",
       page:        "2",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
@@ -17484,7 +17484,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Victor di Cavour (Specter)",
-      publication: "Full Metal Friday 1/2/4",
+      publication: "Full Metal Fridays 1/2/4",
       page:        "3",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
@@ -17565,7 +17565,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Red Kings",
-      publication: "Full Metal Friday 1/4/3",
+      publication: "Full Metal Fridays 1/4/3",
       page:        "1",
       category:    "Organization",
       subcategory: "Criminal Enterprise",
@@ -19400,7 +19400,7 @@ var ikrpg = ikrpg || {};
     // ##### Skill > Duelling Maneuver ##### \\
     {
       name:        "Deflecting Strike",
-      publication: "Full Metal Friday 1/5/3",
+      publication: "Full Metal Fridays 1/5/3",
       page:        "1",
       category:    "Skill",
       subcategory: "Duelling Maneuver",
@@ -19408,7 +19408,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Feint",
-      publication: "Full Metal Friday 1/5/3",
+      publication: "Full Metal Fridays 1/5/3",
       page:        "1",
       category:    "Skill",
       subcategory: "Duelling Maneuver",
@@ -19416,7 +19416,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hidden Guard",
-      publication: "Full Metal Friday 1/5/3",
+      publication: "Full Metal Fridays 1/5/3",
       page:        "2",
       category:    "Skill",
       subcategory: "Duelling Maneuver",
@@ -19424,7 +19424,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Lashing Strike",
-      publication: "Full Metal Friday 1/5/3",
+      publication: "Full Metal Fridays 1/5/3",
       page:        "2",
       category:    "Skill",
       subcategory: "Duelling Maneuver",
@@ -19432,7 +19432,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Turning Riposte",
-      publication: "Full Metal Friday 1/5/3",
+      publication: "Full Metal Fridays 1/5/3",
       page:        "2",
       category:    "Skill",
       subcategory: "Duelling Maneuver",
