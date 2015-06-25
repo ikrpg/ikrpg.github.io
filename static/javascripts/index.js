@@ -6063,7 +6063,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wilderness Expedition",
-      publication: "Fridays Unleashed 1/9/2015",
+      publication: "Fridays Unleashed 1/9/2105",
       page:        "1",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
