@@ -4542,7 +4542,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hogshead",
-      publication: "Fridays Unleashed 02/20/2015",
+      publication: "Fridays Unleashed 2/20/2015",
       page:        "1",
       category:    "Adventure",
       subcategory: "Encounter",
@@ -4728,7 +4728,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pit Traps",
-      publication: "Fridays Unleashed 01/30/2015",
+      publication: "Fridays Unleashed 1/30/2015",
       page:        "1",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4736,7 +4736,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Poisonous Plants",
-      publication: "Fridays Unleashed 01/16/2014",
+      publication: "Fridays Unleashed 1/16/2014",
       page:        "1",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -4792,7 +4792,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wounded Razor Boar",
-      publication: "Fridays Unleashed 01/30/2015",
+      publication: "Fridays Unleashed 1/30/2015",
       page:        "1",
       category:    "Adventure",
       subcategory: "Hazard",
@@ -5718,7 +5718,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bone Fetish",
-      publication: "Fridays Unleashed 02/20/2015",
+      publication: "Fridays Unleashed 2/20/2015",
       page:        "1",
       category:    "Alchemy",
       subcategory: "Bone Grinder Fetish",
@@ -6063,7 +6063,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Wilderness Expedition",
-      publication: "Fridays Unleashed 01/09/2015",
+      publication: "Fridays Unleashed 1/9/2015",
       page:        "1",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
@@ -12853,7 +12853,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gullin Oakbreaker",
-      publication: "Fridays Unleashed 03/20/2015",
+      publication: "Fridays Unleashed 3/20/2015",
       page:        "1",
       category:    "Individual",
       subcategory: "",
@@ -12965,7 +12965,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Knor",
-      publication: "Fridays Unleashed 03/27/2015",
+      publication: "Fridays Unleashed 3/27/2015",
       page:        "1",
       category:    "Individual",
       subcategory: "",
@@ -12981,7 +12981,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Longchops",
-      publication: "Fridays Unleashed 02/13/2015",
+      publication: "Fridays Unleashed 2/13/2015",
       page:        "1",
       category:    "Individual",
       subcategory: "",
@@ -13013,7 +13013,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Lurk",
-      publication: "Fridays Unleashed 03/06/2015",
+      publication: "Fridays Unleashed 3/6/2015",
       page:        "1",
       category:    "Individual",
       subcategory: "",
@@ -13301,7 +13301,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Zocha the Outcast",
-      publication: "Fridays Unleashed 01/23/2105",
+      publication: "Fridays Unleashed 1/23/2105",
       page:        "1",
       category:    "Individual",
       subcategory: "",
