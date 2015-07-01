@@ -38,7 +38,7 @@ var ikrpg = ikrpg || {};
   // Orgoth Relic
   //     Boon, Curse, Relic
   // Skill
-  //     Military Skill, Occupational Skill, Duelling Maneuver, Trick Riding
+  //     Military Skill, Occupational Skill, Duelling Maneuver, Trick Riding, Group Tactics
   // Spell
   // Steamjack
   //     Steamjack/Vector, Chassis, Cortex, Melee Weapon, Ranged Weapon, Gear/Upgrade, Tune-Up
@@ -4375,6 +4375,14 @@ var ikrpg = ikrpg || {};
       name:        "1 AR: The Synthesis of Rebellion",
       publication: "No Quarter #60",
       page:        "82",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "FMF"
+    },
+    {
+      name:        "Bad Moon Rising",
+      publication: "Bad Moon Rising",
+      page:        "1",
       category:    "Adventure",
       subcategory: "Scenario",
       game:        "FMF"
@@ -11938,6 +11946,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Fort Bolovan",
+      publication: "Bad Moon Rising",
+      page:        "6",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "FMF"
+    },
+    {
       name:        "Fort Brunzig",
       publication: "Kings, Nations, and Gods",
       page:        "157",
@@ -16186,6 +16202,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Blackclad Druid",
+      publication: "Bad Moon Rising",
+      page:        "70",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Blighted Nyss Archer",
       publication: "Core Rules Bestiary Expanded",
       page:        "2",
@@ -16370,6 +16394,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Devourer Cultist",
+      publication: "Bad Moon Rising",
+      page:        "69",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Dire Troll",
       publication: "No Quarter #47",
       page:        "57",
@@ -16461,6 +16493,22 @@ var ikrpg = ikrpg || {};
       name:        "Farrow Warlord",
       publication: "Core Rules",
       page:        "343",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Feral Argus",
+      publication: "Bad Moon Rising",
+      page:        "71",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Fort Bolovan Winter Guard",
+      publication: "Bad Moon Rising",
+      page:        "73",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -16677,6 +16725,22 @@ var ikrpg = ikrpg || {};
       name:        "Razorbat Swarm",
       publication: "No Quarter #46",
       page:        "51",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Reeve Hunter",
+      publication: "Bad Moon Rising",
+      page:        "68",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Reeves of Orboros",
+      publication: "Bad Moon Rising",
+      page:        "67",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -17002,9 +17066,25 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Warpwolf, Feral",
+      publication: "Bad Moon Rising",
+      page:        "74",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Winter Argus",
       publication: "No Quarter #47",
       page:        "53",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Wolves of Orboros",
+      publication: "Bad Moon Rising",
+      page:        "66",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -17051,6 +17131,22 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Amadaz Volovsky",
+      publication: "Bad Moon Rising",
+      page:        "60",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Anacia Myetrova",
+      publication: "Bad Moon Rising",
+      page:        "65",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Antone Pytorevich, Rifleman",
       publication: "No Quarter #57",
       page:        "95",
@@ -17088,6 +17184,14 @@ var ikrpg = ikrpg || {};
       page:        "26",
       category:    "Monster",
       subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Borbor Gulk",
+      publication: "Bad Moon Rising",
+      page:        "63",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
       game:        "FMF"
     },
     {
@@ -17275,6 +17379,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Liyr",
+      publication: "Bad Moon Rising",
+      page:        "59",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Lorimer Kex",
       publication: "No Quarter #60",
       page:        "87",
@@ -17371,6 +17483,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Nerys",
+      publication: "Bad Moon Rising",
+      page:        "64",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Orran Vaine",
       publication: "No Quarter #59",
       page:        "100",
@@ -17403,6 +17523,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Ruus Kuragin, Kapitan",
+      publication: "Bad Moon Rising",
+      page:        "58",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Seth Alkot",
       publication: "No Quarter #60",
       page:        "84",
@@ -17419,6 +17547,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Stazi Vietzen",
+      publication: "Bad Moon Rising",
+      page:        "62",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Stevan Igoris",
       publication: "No Quarter #54",
       page:        "102",
@@ -17430,6 +17566,14 @@ var ikrpg = ikrpg || {};
       name:        "Tantock Meryl (Gifted Human Spy/Thamarite Advocate)",
       publication: "Urban Adventure",
       page:        "96",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Taza Kozloz",
+      publication: "Bad Moon Rising",
+      page:        "61",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
@@ -17454,6 +17598,14 @@ var ikrpg = ikrpg || {};
       name:        "Valeria Karpov, Steelsoul Protector",
       publication: "No Quarter #53",
       page:        "108",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Vasa, Blackclad Overseer",
+      publication: "Bad Moon Rising",
+      page:        "72",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
@@ -19485,6 +19637,39 @@ var ikrpg = ikrpg || {};
       page:        "87",
       category:    "Skill",
       subcategory: "Trick Riding",
+      game:        "FMF"
+    },
+    // ##### Skill > Group Tactic ##### //
+    {
+      name:        "Tactics: Clear!",
+      publication: "Bad Moon Rising",
+      page:        "75",
+      category:    "Skill",
+      subcategory: "Group Tactic",
+      game:        "FMF"
+    },
+    {
+      name:        "Tactics: Fall Back!",
+      publication: "Bad Moon Rising",
+      page:        "75",
+      category:    "Skill",
+      subcategory: "Group Tactic",
+      game:        "FMF"
+    },
+    {
+      name:        "Tactics: Hit the Deck!",
+      publication: "Bad Moon Rising",
+      page:        "75",
+      category:    "Skill",
+      subcategory: "Group Tactic",
+      game:        "FMF"
+    },
+    {
+      name:        "Tactics: Serpentine!",
+      publication: "Bad Moon Rising",
+      page:        "75",
+      category:    "Skill",
+      subcategory: "Group Tactic",
       game:        "FMF"
     },
     // ##### Spell ##### \\
