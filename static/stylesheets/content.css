@@ -10,13 +10,19 @@ section.content > p.right {
     text-align: right; }
 section.content > h2 {
     font-size: 1.5em;
-    margin-bottom: -0.5em;
+    margin: 3em 0 -0.5em 0;
     font-family: 'Cabin', sans-serif;
     text-transform: uppercase;
     color: #2C2C2C;
     font-weight: bold; }
 section.content > h3 {
     font-size: 1.2em;
+    margin: 1em 0 -0.5em 0;
+    font-family: 'Cabin', sans-serif;
+    color: #2C2C2C;
+    font-weight: bold; }
+section.content > h4 {
+    font-size: 1em;
     margin: 1em 0 -0.5em 0;
     font-family: 'Cabin', sans-serif;
     color: #2C2C2C;
