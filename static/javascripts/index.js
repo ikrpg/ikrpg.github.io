@@ -3828,16 +3828,16 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Staredown",
-      publication: "Unleashed Core Rules",
-      page:        "167",
+      publication: "Unleashed Adventure Kit Rulebook",
+      page:        "10",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
     },
     {
       name:        "Staredown",
-      publication: "Unleashed Adventure Kit Rulebook",
-      page:        "10",
+      publication: "Unleashed Core Rules",
+      page:        "167",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
