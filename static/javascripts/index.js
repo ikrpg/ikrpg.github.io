@@ -14,7 +14,7 @@ var ikrpg = ikrpg || {};
   // Alchemy
   //     Alchemical Ingredient, Alchemical Item, Field Alchemy, Grenate
   // Character Creation
-  //     Adventuring Company, Archetype, Career, Career Option, Race
+  //     Adventuring Company, Archetype, Career, Career Option, Race, Scorne Caste
   // Armory
   //     Armor, Melee Weapon, Improvised Melee Weapon, Ranged Weapon, Ammunition,
   //     Ranged Weapon Accessory, Improvised Ranged Weapon, Magical Ranged Weapon, Trap
@@ -211,6 +211,30 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Anatomist",
+      publication: "Skorne Empire",
+      page:        "62",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Anestetize",
+      publication: "Skorne Empire",
+      page:        "62",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Animal Control",
+      publication: "Skorne Empire",
+      page:        "62",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Appraise",
       publication: "Core Rules",
       page:        "157",
@@ -321,6 +345,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Awe Inspiring",
+      publication: "Skorne Empire",
+      page:        "99",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Backstab",
@@ -483,6 +515,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Battle Plan: Press Forward",
+      publication: "Skorne Empire",
+      page:        "62",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Battle Plan: Reconnaissance",
       publication: "Core Rules",
       page:        "158",
@@ -494,6 +534,14 @@ var ikrpg = ikrpg || {};
       name:        "Battle Plan: Reconnaissance",
       publication: "Unleashed Core Rules",
       page:        "156",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Battle Plan: Relentless Charge",
+      publication: "Skorne Empire",
+      page:        "62",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -558,6 +606,38 @@ var ikrpg = ikrpg || {};
       name:        "Beast Handler",
       publication: "Unleashed Core Rules",
       page:        "156",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Beast Manipulation: Dominator",
+      publication: "Skorne Empire",
+      page:        "62",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Beast Manipulation: Enrage",
+      publication: "Skorne Empire",
+      page:        "62",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Beast Manipulation: Medicate",
+      publication: "Skorne Empire",
+      page:        "62",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Beast Manipulation: Toughen",
+      publication: "Skorne Empire",
+      page:        "62",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -651,6 +731,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Blood Frenzy",
+      publication: "Skorne Empire",
+      page:        "62",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Blood Rites",
       publication: "Unleashed Adventure Kit Rulebook",
       page:        "8",
@@ -694,6 +782,14 @@ var ikrpg = ikrpg || {};
       name:        "Blood Trade",
       publication: "Unleashed Core Rules",
       page:        "157",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Bloodletting",
+      publication: "Skorne Empire",
+      page:        "62",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -891,6 +987,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Cataphract",
+      publication: "Skorne Empire",
+      page:        "62",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Cautious Advance",
       publication: "Core Rules",
       page:        "159",
@@ -987,6 +1091,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Circular Vision",
+      publication: "Skorne Empire",
+      page:        "62",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Cleave",
       publication: "Core Rules",
       page:        "159",
@@ -1043,12 +1155,28 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Combo Strike (Praetorian Sword)",
+      publication: "Skorne Empire",
+      page:        "62",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Communion",
       publication: "Kings, Nations, and Gods",
       page:        "361",
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Conditioning",
+      publication: "Skorne Empire",
+      page:        "63",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Conniver",
@@ -1115,6 +1243,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Covering Fire",
+      publication: "Skorne Empire",
+      page:        "63",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Crackshot",
       publication: "Core Rules",
       page:        "159",
@@ -1150,6 +1286,14 @@ var ikrpg = ikrpg || {};
       name:        "Crossbowman",
       publication: "Unleashed Core Rules",
       page:        "158",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Dark Dominion",
+      publication: "Skorne Empire",
+      page:        "63",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -1283,6 +1427,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Distiller",
+      publication: "Skorne Empire",
+      page:        "63",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Divine Fortitude",
       publication: "Kings, Nations, and Gods",
       page:        "361",
@@ -1326,6 +1478,14 @@ var ikrpg = ikrpg || {};
       name:        "Dominating Presence",
       publication: "Unleashed Core Rules",
       page:        "159",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Doom Gaze",
+      publication: "Skorne Empire",
+      page:        "63",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -1468,8 +1628,40 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Evasive Rider",
+      publication: "Skorne Empire",
+      page:        "63",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Evasive Rider",
       publication: "Unleashed Core Rules",
       page:        "159",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Exalted",
+      publication: "Skorne Empire",
+      page:        "63",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Exalted Dialogue",
+      publication: "Skorne Empire",
+      page:        "63",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Excruciator",
+      publication: "Skorne Empire",
+      page:        "63",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -1502,6 +1694,14 @@ var ikrpg = ikrpg || {};
       name:        "Exterminator",
       publication: "Unleashed Adventure Kit Rulebook",
       page:        "8",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Extoller",
+      publication: "Skorne Empire",
+      page:        "64",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -1577,6 +1777,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Fast Rearm",
+      publication: "Skorne Empire",
+      page:        "64",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Fast Reload",
@@ -1923,6 +2131,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "First to Fight",
+      publication: "Skorne Empire",
+      page:        "64",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Fist of God",
       publication: "Kings, Nations, and Gods",
       page:        "361",
@@ -1979,12 +2195,28 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Fleshcrafting",
+      publication: "Skorne Empire",
+      page:        "64",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Flying Fists",
       publication: "Kings, Nations, and Gods",
       page:        "361",
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Flying Fists",
+      publication: "Skorne Empire",
+      page:        "64",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Flying Fists",
@@ -2006,6 +2238,14 @@ var ikrpg = ikrpg || {};
       name:        "Follow Up",
       publication: "Unleashed Core Rules",
       page:        "161",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Foresight",
+      publication: "Skorne Empire",
+      page:        "99",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -2057,6 +2297,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Ghost Shield",
+      publication: "Skorne Empire",
+      page:        "64",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Ghost Shield",
@@ -2243,6 +2491,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Hardened Strike",
+      publication: "Skorne Empire",
+      page:        "64",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Haruspex",
       publication: "Urban Adventure",
       page:        "68",
@@ -2299,6 +2555,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "High-Pressure Fire",
+      publication: "Skorne Empire",
+      page:        "64",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Hit em' Low",
       publication: "Bitter Medicine",
       page:        "53",
@@ -2321,6 +2585,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Hit the Deck!",
+      publication: "Skorne Empire",
+      page:        "64",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Hulking Presence",
@@ -2443,6 +2715,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Impelled Companions",
+      publication: "Skorne Empire",
+      page:        "99",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Imperishable Conviction",
       publication: "Kings, Nations, and Gods",
       page:        "361",
@@ -2457,6 +2737,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Improvised Formula",
+      publication: "Skorne Empire",
+      page:        "65",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Inflict Pain",
@@ -2627,6 +2915,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Live Drinker",
+      publication: "Skorne Empire",
+      page:        "99",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Load Bearing",
       publication: "Core Rules",
       page:        "164",
@@ -2739,6 +3035,22 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Master Chymist",
+      publication: "Skorne Empire",
+      page:        "65",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Maul",
+      publication: "Skorne Empire",
+      page:        "65",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Meat Alchemy",
       publication: "Unleashed Core Rules",
       page:        "163",
@@ -2758,6 +3070,14 @@ var ikrpg = ikrpg || {};
       name:        "Mount Attack",
       publication: "Unleashed Core Rules",
       page:        "163",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Mounted: Bounding Leap",
+      publication: "Skorne Empire",
+      page:        "65",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -2875,6 +3195,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Ossify",
+      publication: "Skorne Empire",
+      page:        "99",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Overpower",
       publication: "No Quarter #48",
       page:        "66",
@@ -2894,6 +3222,22 @@ var ikrpg = ikrpg || {};
       name:        "Pack Hunter",
       publication: "Unleashed Core Rules",
       page:        "164",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Pain Flow",
+      publication: "Skorne Empire",
+      page:        "65",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Pain Monger",
+      publication: "Skorne Empire",
+      page:        "65",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -2947,6 +3291,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Poison Glaze",
+      publication: "Skorne Empire",
+      page:        "65",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Poison Resistance",
       publication: "Core Rules",
       page:        "165",
@@ -2966,6 +3318,22 @@ var ikrpg = ikrpg || {};
       name:        "Poison Resistance",
       publication: "Unleashed Adventure Kit Rulebook",
       page:        "10",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Poisoner",
+      publication: "Skorne Empire",
+      page:        "65",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Poltergeist",
+      publication: "Skorne Empire",
+      page:        "65",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -3083,6 +3451,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Quick Chymist",
+      publication: "Skorne Empire",
+      page:        "65",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Quick Work",
       publication: "Core Rules",
       page:        "166",
@@ -3195,6 +3571,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Remedy",
+      publication: "Skorne Empire",
+      page:        "65",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Renowned",
       publication: "Unleashed Core Rules",
       page:        "164",
@@ -3214,6 +3598,14 @@ var ikrpg = ikrpg || {};
       name:        "Resonance: Farrow Warbeast",
       publication: "Unleashed Core Rules",
       page:        "164",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Resonance: Skorne Warbeast",
+      publication: "Skorne Empire",
+      page:        "65",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -3281,6 +3673,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Return Fire",
+      publication: "Skorne Empire",
+      page:        "65",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Return Fire",
@@ -3491,6 +3891,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Serpent Strike",
+      publication: "Skorne Empire",
+      page:        "65",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Set Defense",
       publication: "Core Rules",
       page:        "167",
@@ -3643,6 +4051,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Silence",
+      publication: "Skorne Empire",
+      page:        "65",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Silver Tongued",
       publication: "Urban Adventure",
       page:        "11",
@@ -3731,6 +4147,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Soul Guard",
+      publication: "Skorne Empire",
+      page:        "99",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Soul Taker",
       publication: "Unleashed Core Rules",
       page:        "167",
@@ -3803,6 +4227,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Spirit Vision",
+      publication: "Skorne Empire",
+      page:        "99",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Spiritual Harmony",
       publication: "No Quarter #60",
       page:        "109",
@@ -3838,6 +4270,14 @@ var ikrpg = ikrpg || {};
       name:        "Staredown",
       publication: "Unleashed Adventure Kit Rulebook",
       page:        "10",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Stay Death",
+      publication: "Skorne Empire",
+      page:        "66",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -3931,6 +4371,38 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Street Sweeper",
+      publication: "Skorne Empire",
+      page:        "66",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Strength of Arms",
+      publication: "Skorne Empire",
+      page:        "66",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Student of Kexorus",
+      publication: "Skorne Empire",
+      page:        "66",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Studious",
+      publication: "Skorne Empire",
+      page:        "66",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Sucker!",
       publication: "Core Rules",
       page:        "167",
@@ -4019,6 +4491,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Take Down",
+      publication: "Skorne Empire",
+      page:        "66",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Tap Fury",
       publication: "No Quarter #60",
       page:        "109",
@@ -4083,6 +4563,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Thick Skin",
+      publication: "Skorne Empire",
+      page:        "66",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Tinkerer",
       publication: "No Quarter #52",
       page:        "34",
@@ -4097,6 +4585,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Torture",
+      publication: "Skorne Empire",
+      page:        "66",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Traceless Path",
@@ -4147,6 +4643,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Transcend the Flesh",
+      publication: "Skorne Empire",
+      page:        "66",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Treewalker",
       publication: "Unleashed Core Rules",
       page:        "168",
@@ -4172,6 +4676,14 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Trip",
+      publication: "Skorne Empire",
+      page:        "66",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Trip",
       publication: "Urban Adventure",
       page:        "11",
       category:    "Ability",
@@ -4187,12 +4699,20 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Truth Leader",
+      name:        "Truth Reader",
       publication: "Core Rules",
       page:        "168",
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Truth Reader",
+      publication: "Skorne Empire",
+      page:        "66",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Tune Up",
@@ -4249,6 +4769,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Vampiric Harvest",
+      publication: "Skorne Empire",
+      page:        "66",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Vessel Upgrade",
@@ -4315,6 +4843,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Weapon Master (Praetorian Sword)",
+      publication: "Skorne Empire",
+      page:        "66",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Weatherman",
       publication: "Kings, Nations, and Gods",
       page:        "90",
@@ -4345,6 +4881,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Whirlwind",
+      publication: "Skorne Empire",
+      page:        "66",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Whispers of the Creator",
@@ -4880,6 +5424,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Aradus Bile",
+      publication: "Skorne Empire",
+      page:        "82",
+      category:    "Alchemy",
+      subcategory: "Alchemical Ingredient",
+      game:        "IKU"
+    },
+    {
       name:        "Arcane Extract",
       publication: "Core Rules",
       page:        "292",
@@ -4960,12 +5512,36 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Chymical Waste, Crystal",
+      publication: "Skorne Empire",
+      page:        "82",
+      category:    "Alchemy",
+      subcategory: "Alchemical Ingredient",
+      game:        "IKU"
+    },
+    {
+      name:        "Chymical Waste, Liquid",
+      publication: "Skorne Empire",
+      page:        "82",
+      category:    "Alchemy",
+      subcategory: "Alchemical Ingredient",
+      game:        "IKU"
+    },
+    {
       name:        "Crypt Spider Brain",
       publication: "No Quarter #43",
       page:        "46",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
       game:        "FMF"
+    },
+    {
+      name:        "Cyclops Brain Tissue",
+      publication: "Skorne Empire",
+      page:        "82",
+      category:    "Alchemy",
+      subcategory: "Alchemical Ingredient",
+      game:        "IKU"
     },
     {
       name:        "Ectoplasm",
@@ -5011,6 +5587,14 @@ var ikrpg = ikrpg || {};
       name:        "Heavy Metals",
       publication: "Unleashed Core Rules",
       page:        "342",
+      category:    "Alchemy",
+      subcategory: "Alchemical Ingredient",
+      game:        "IKU"
+    },
+    {
+      name:        "Jevisha Extract",
+      publication: "Skorne Empire",
+      page:        "82",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
       game:        "IKU"
@@ -5128,13 +5712,29 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Sacral Shards",
+      publication: "Skorne Empire",
+      page:        "82",
+      category:    "Alchemy",
+      subcategory: "Alchemical Ingredient",
+      game:        "IKU"
+    },
+    {
       name:        "Umbroculant Drops",
       publication: "Full Metal Fridays 1/2/2",
       page:        "2",
       category:    "Alchemy",
       subcategory: "Alchemical Ingredient",
       game:        "FMF"
-    },  
+    },
+    {
+      name:        "Vitriol",
+      publication: "Skorne Empire",
+      page:        "82",
+      category:    "Alchemy",
+      subcategory: "Alchemical Ingredient",
+      game:        "IKU"
+    },
     // ##### Alchemy > Alchemical Item ##### \\
     {
       name:        "Alchemical Acid",
@@ -5177,6 +5777,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Amkrashaar",
+      publication: "Skorne Empire",
+      page:        "82",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "IKU"
+    },
+    {
       name:        "Antitoxin",
       publication: "Core Rules",
       page:        "294",
@@ -5212,6 +5820,14 @@ var ikrpg = ikrpg || {};
       name:        "Assassin's Venom",
       publication: "Unleashed Core Rules",
       page:        "344",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "IKU"
+    },
+    {
+      name:        "Beshtal",
+      publication: "Skorne Empire",
+      page:        "83",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
       game:        "IKU"
@@ -5263,6 +5879,14 @@ var ikrpg = ikrpg || {};
       category:    "Alchemy",
       subcategory: "Alchemical Item",
       game:        "FMF"
+    },
+    {
+      name:        "Demxaat",
+      publication: "Skorne Empire",
+      page:        "83",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "IKU"
     },
     {
       name:        "Fear Gas",
@@ -5321,12 +5945,60 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Hokar",
+      publication: "Skorne Empire",
+      page:        "83",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "IKU"
+    },
+    {
       name:        "Invisible Ink",
       publication: "Urban Adventure",
       page:        "17",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
       game:        "FMF"
+    },
+    {
+      name:        "Iskiir",
+      publication: "Skorne Empire",
+      page:        "84",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "IKU"
+    },
+    {
+      name:        "Jakkamsar",
+      publication: "Skorne Empire",
+      page:        "84",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "IKU"
+    },
+    {
+      name:        "Jevisha",
+      publication: "Skorne Empire",
+      page:        "84",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "IKU"
+    },
+    {
+      name:        "Jikkar",
+      publication: "Skorne Empire",
+      page:        "84",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "IKU"
+    },
+    {
+      name:        "Kand",
+      publication: "Skorne Empire",
+      page:        "85",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "IKU"
     },
     {
       name:        "Knorva's Kiss",
@@ -5351,6 +6023,14 @@ var ikrpg = ikrpg || {};
       category:    "Alchemy",
       subcategory: "Alchemical Item",
       game:        "FMF"
+    },
+    {
+      name:        "Poisonkeeper",
+      publication: "Skorne Empire",
+      page:        "85",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "IKU"
     },
     {
       name:        "Preservation of Corben Pendant",
@@ -5425,6 +6105,22 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Shakkara",
+      publication: "Skorne Empire",
+      page:        "85",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "IKU"
+    },
+    {
+      name:        "Shiiraskar",
+      publication: "Skorne Empire",
+      page:        "86",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "IKU"
+    },
+    {
       name:        "Somnolence Elixier",
       publication: "Core Rules",
       page:        "295",
@@ -5471,6 +6167,14 @@ var ikrpg = ikrpg || {};
       category:    "Alchemy",
       subcategory: "Alchemical Item",
       game:        "FMF"
+    },
+    {
+      name:        "Venhokar",
+      publication: "Skorne Empire",
+      page:        "86",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "IKU"
     },
     {
       name:        "Vitriolic Fire",
@@ -5796,6 +6500,15 @@ var ikrpg = ikrpg || {};
       subcategory: "Bone Grinder Fetish",
       game:        "IKU"
     },
+    // ##### Alchemy > Chymical Ammunition ##### \\
+    {
+      name:        "Chymical Sling Shell",
+      publication: "Skorne Empire",
+      page:        "86",
+      category:    "Alchemy",
+      subcategory: "Chymical Ammunition",
+      game:        "IKU"
+    },
     // ##### Character Creation > Adventuring Company ##### \\
     {
       name:        "Agents of the Crucible",
@@ -5812,6 +6525,30 @@ var ikrpg = ikrpg || {};
       category:    "Character Creation",
       subcategory: "Adventuring Company",
       game:        "FMF"
+    },
+    {
+      name:        "Army of the Western Reaches",
+      publication: "Skorne Empire",
+      page:        "60",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "IKU"
+    },
+    {
+      name:        "Beast Hunters",
+      publication: "Skorne Empire",
+      page:        "60",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "IKU"
+    },
+    {
+      name:        "Bonded Porters",
+      publication: "Skorne Empire",
+      page:        "60",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "IKU"
     },
     {
       name:        "Bone Grinder Hunting Party",
@@ -5894,6 +6631,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "House Taberna",
+      publication: "Skorne Empire",
+      page:        "60",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "IKU"
+    },
+    {
       name:        "Idrian Tribe",
       publication: "Kings, Nations, and Gods",
       page:        "364",
@@ -5950,12 +6695,28 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Mystics",
+      publication: "Skorne Empire",
+      page:        "61",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "IKU"
+    },
+    {
       name:        "Nobile Exiles",
       publication: "Kings, Nations, and Gods",
       page:        "241",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
       game:        "FMF"
+    },
+    {
+      name:        "Nomads",
+      publication: "Skorne Empire",
+      page:        "61",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "IKU"
     },
     {
       name:        "Northkin Kriel",
@@ -6001,6 +6762,14 @@ var ikrpg = ikrpg || {};
       name:        "Raiders",
       publication: "Unleashed Core Rules",
       page:        "149",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "IKU"
+    },
+    {
+      name:        "Renegades",
+      publication: "Skorne Empire",
+      page:        "61",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
       game:        "IKU"
@@ -6176,6 +6945,14 @@ var ikrpg = ikrpg || {};
     },
     // ##### Character Creation > Career ##### \\
     {
+      name:        "Ascetic",
+      publication: "Skorne Empire",
+      page:        "45",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Alchemist",
       publication: "Core Rules",
       page:        "120",
@@ -6240,9 +7017,25 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Beast Handler",
+      publication: "Skorne Empire",
+      page:        "46",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Blackclad",
       publication: "Unleashed Core Rules",
       page:        "116",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
+      name:        "Bloodrunner",
+      publication: "Skorne Empire",
+      page:        "47",
       category:    "Character Creation",
       subcategory: "Career",
       game:        "IKU"
@@ -6304,9 +7097,33 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Cataphract",
+      publication: "Skorne Empire",
+      page:        "48",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Chieftain",
       publication: "Unleashed Core Rules",
       page:        "123",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
+      name:        "Chirurgeon",
+      publication: "Skorne Empire",
+      page:        "49",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
+      name:        "Chymist",
+      publication: "Skorne Empire",
+      page:        "50",
       category:    "Character Creation",
       subcategory: "Career",
       game:        "IKU"
@@ -6360,6 +7177,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Extoller",
+      publication: "Skorne Empire",
+      page:        "51",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Fell Caller",
       publication: "Core Rules",
       page:        "128",
@@ -6379,6 +7204,14 @@ var ikrpg = ikrpg || {};
       name:        "Fennblade",
       publication: "Unleashed Core Rules",
       page:        "125",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
+      name:        "Ferox Rider",
+      publication: "Skorne Empire",
+      page:        "52",
       category:    "Character Creation",
       subcategory: "Career",
       game:        "IKU"
@@ -6536,6 +7369,22 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Mortitheurge",
+      publication: "Skorne Empire",
+      page:        "53",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
+      name:        "Nihilator",
+      publication: "Skorne Empire",
+      page:        "54",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Paladin",
       publication: "Kings, Nations, and Gods",
       page:        "358",
@@ -6558,6 +7407,14 @@ var ikrpg = ikrpg || {};
       category:    "Character Creation",
       subcategory: "Career",
       game:        "FMF"
+    },
+    {
+      name:        "Praetorian",
+      publication: "Skorne Empire",
+      page:        "55",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
     },
     {
       name:        "Priest of Cyriss",
@@ -6832,6 +7689,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Tormentor",
+      publication: "Skorne Empire",
+      page:        "56",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Trencher",
       publication: "Core Rules",
       page:        "148",
@@ -6840,12 +7705,28 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Tyrant",
+      publication: "Skorne Empire",
+      page:        "57",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Urban Nomad",
       publication: "Urban Adventure",
       page:        "9",
       category:    "Character Creation",
       subcategory: "Career",
       game:        "FMF"
+    },
+    {
+      name:        "Venator",
+      publication: "Skorne Empire",
+      page:        "58",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
     },
     {
       name:        "Warcaster",
@@ -6883,6 +7764,14 @@ var ikrpg = ikrpg || {};
       name:        "Warlock, Legion",
       publication: "No Quarter #60",
       page:        "105",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
+      name:        "Warlock: Skorne",
+      publication: "Skorne Empire",
+      page:        "59",
       category:    "Character Creation",
       subcategory: "Career",
       game:        "IKU"
@@ -7274,6 +8163,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Skorne",
+      publication: "Skorne Empire",
+      page:        "42",
+      category:    "Character Creation",
+      subcategory: "Race",
+      game:        "IKU"
+    },
+    {
       name:        "Tharn",
       publication: "Unleashed Core Rules",
       page:        "108",
@@ -7295,6 +8192,55 @@ var ikrpg = ikrpg || {};
       page:        "109",
       category:    "Character Creation",
       subcategory: "Race",
+      game:        "IKU"
+    },
+    // ##### Character Creation > Skorne Caste ##### \\
+    {
+      name:        "Extoller",
+      publication: "Skorne Empire",
+      page:        "43",
+      category:    "Character Creation",
+      subcategory: "Skorne Caste",
+      game:        "IKU"
+    },
+    {
+      name:        "Outcast",
+      publication: "Skorne Empire",
+      page:        "44",
+      category:    "Character Creation",
+      subcategory: "Skorne Caste",
+      game:        "IKU"
+    },
+    {
+      name:        "Paingiver",
+      publication: "Skorne Empire",
+      page:        "43",
+      category:    "Character Creation",
+      subcategory: "Skorne Caste",
+      game:        "IKU"
+    },
+    {
+      name:        "Slave",
+      publication: "Skorne Empire",
+      page:        "44",
+      category:    "Character Creation",
+      subcategory: "Skorne Caste",
+      game:        "IKU"
+    },
+    {
+      name:        "Warrior",
+      publication: "Skorne Empire",
+      page:        "43",
+      category:    "Character Creation",
+      subcategory: "Skorne Caste",
+      game:        "IKU"
+    },
+    {
+      name:        "Worker",
+      publication: "Skorne Empire",
+      page:        "44",
+      category:    "Character Creation",
+      subcategory: "Skorne Caste",
       game:        "IKU"
     },
     // ##### Armory > Armor ##### \\
@@ -7350,6 +8296,14 @@ var ikrpg = ikrpg || {};
       name:        "Bog Trog Armor",
       publication: "Unleashed Core Rules",
       page:        "307",
+      category:    "Armory",
+      subcategory: "Armor",
+      game:        "IKU"
+    },
+    {
+      name:        "Cataphract Armor",
+      publication: "Skorne Empire",
+      page:        "71",
       category:    "Armory",
       subcategory: "Armor",
       game:        "IKU"
@@ -7491,6 +8445,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Paingiver Armor",
+      publication: "Skorne Empire",
+      page:        "72",
+      category:    "Armory",
+      subcategory: "Armor",
+      game:        "IKU"
+    },
+    {
       name:        "Plastron",
       publication: "Full Metal Fridays 1/5/1",
       page:        "3",
@@ -7499,9 +8461,25 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Praetorian Armor",
+      publication: "Skorne Empire",
+      page:        "72",
+      category:    "Armory",
+      subcategory: "Armor",
+      game:        "IKU"
+    },
+    {
       name:        "Ryssovass Plate",
       publication: "Unleashed Core Rules",
       page:        "309",
+      category:    "Armory",
+      subcategory: "Armor",
+      game:        "IKU"
+    },
+    {
+      name:        "Skorne Infantry Armor",
+      publication: "Skorne Empire",
+      page:        "72",
       category:    "Armory",
       subcategory: "Armor",
       game:        "IKU"
@@ -7571,6 +8549,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     // ##### Armory > Melee Weapon ##### \\
+    {
+      name:        "Ancestral Guardian Stone Weapon",
+      publication: "Skorne Empire",
+      page:        "102",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
     {
       name:        "Annihilator Blade",
       publication: "Kings, Nations, and Gods",
@@ -7655,6 +8641,14 @@ var ikrpg = ikrpg || {};
       name:        "Axe, Tharn",
       publication: "Unleashed Core Rules",
       page:        "311",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
+    {
+      name:        "Barbed Whip",
+      publication: "Skorne Empire",
+      page:        "72",
       category:    "Armory",
       subcategory: "Melee Weapon",
       game:        "IKU"
@@ -7916,6 +8910,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Fighting Claws, Pair",
+      publication: "Skorne Empire",
+      page:        "73",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
+    {
       name:        "Firebrand",
       publication: "Kings, Nations, and Gods",
       page:        "365",
@@ -8068,6 +9070,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Katara, Pair",
+      publication: "Skorne Empire",
+      page:        "73",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
+    {
       name:        "Knuckledriver",
       publication: "No Quarter #50",
       page:        "50",
@@ -8087,6 +9097,14 @@ var ikrpg = ikrpg || {};
       name:        "Knuckledusters",
       publication: "Unleashed Core Rules",
       page:        "315",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
+    {
+      name:        "Kolas Club",
+      publication: "Skorne Empire",
+      page:        "73",
       category:    "Armory",
       subcategory: "Melee Weapon",
       game:        "IKU"
@@ -8127,6 +9145,14 @@ var ikrpg = ikrpg || {};
       name:        "Mace",
       publication: "Unleashed Core Rules",
       page:        "315",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
+    {
+      name:        "Man Catcher",
+      publication: "Skorne Empire",
+      page:        "73",
       category:    "Armory",
       subcategory: "Melee Weapon",
       game:        "IKU"
@@ -8236,6 +9262,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Pike",
+      publication: "Skorne Empire",
+      page:        "73",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
+    {
       name:        "Railman's Adze",
       publication: "No Quarter #45",
       page:        "64",
@@ -8316,6 +9350,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Shield, Karax",
+      publication: "Skorne Empire",
+      page:        "74",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
+    {
       name:        "Spear",
       publication: "Core Rules",
       page:        "258",
@@ -8327,6 +9369,22 @@ var ikrpg = ikrpg || {};
       name:        "Spear",
       publication: "Unleashed Core Rules",
       page:        "316",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
+    {
+      name:        "Spear, Cavalry",
+      publication: "Skorne Empire",
+      page:        "74",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
+    {
+      name:        "Spear, War",
+      publication: "Skorne Empire",
+      page:        "74",
       category:    "Armory",
       subcategory: "Melee Weapon",
       game:        "IKU"
@@ -8375,6 +9433,14 @@ var ikrpg = ikrpg || {};
       name:        "Staff, Battle",
       publication: "Unleashed Core Rules",
       page:        "316",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
+    {
+      name:        "Stone Great Sword",
+      publication: "Skorne Empire",
+      page:        "102",
       category:    "Armory",
       subcategory: "Melee Weapon",
       game:        "IKU"
@@ -8436,12 +9502,28 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Sword, Praetorian, Pair",
+      publication: "Skorne Empire",
+      page:        "74",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
+    {
       name:        "Telescoping Staff",
       publication: "No Quarter #48",
       page:        "70",
       category:    "Armory",
       subcategory: "Melee Weapon",
       game:        "FMF"
+    },
+    {
+      name:        "Tobresh",
+      publication: "Skorne Empire",
+      page:        "75",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
     },
     {
       name:        "Tournament Foil",
@@ -8566,6 +9648,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     // ##### Armory > Ranged Weapon ##### \\
+    {
+      name:        "Arcus",
+      publication: "Skorne Empire",
+      page:        "75",
+      category:    "Armory",
+      subcategory: "Ranged Weapon",
+      game:        "IKU"
+    },
     {
       name:        "Assault Kommando Flamethrower",
       publication: "Kings, Nations, and Gods",
@@ -8879,6 +9969,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Flayer Cannon",
+      publication: "Skorne Empire",
+      page:        "76",
+      category:    "Armory",
+      subcategory: "Ranged Weapon",
+      game:        "IKU"
+    },
+    {
       name:        "Field Gun",
       publication: "Kings, Nations, and Gods",
       page:        "186",
@@ -8978,6 +10076,14 @@ var ikrpg = ikrpg || {};
       name:        "Harpoon Gun",
       publication: "Unleashed Core Rules",
       page:        "322",
+      category:    "Armory",
+      subcategory: "Ranged Weapon",
+      game:        "IKU"
+    },
+    {
+      name:        "Incindus",
+      publication: "Skorne Empire",
+      page:        "77",
       category:    "Armory",
       subcategory: "Ranged Weapon",
       game:        "IKU"
@@ -9183,6 +10289,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Reiver",
+      publication: "Skorne Empire",
+      page:        "77",
+      category:    "Armory",
+      subcategory: "Ranged Weapon",
+      game:        "IKU"
+    },
+    {
       name:        "Rifle",
       publication: "Unleashed Core Rules",
       page:        "323",
@@ -9317,6 +10431,14 @@ var ikrpg = ikrpg || {};
       category:    "Armory",
       subcategory: "Ranged Weapon",
       game:        "FMF"
+    },
+    {
+      name:        "Sling",
+      publication: "Skorne Empire",
+      page:        "77",
+      category:    "Armory",
+      subcategory: "Ranged Weapon",
+      game:        "IKU"
     },
     {
       name:        "Sling",
@@ -10243,6 +11365,22 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Chirurgeon's Kit",
+      publication: "Skorne Empire",
+      page:        "78",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "IKU"
+    },
+    {
+      name:        "Chymistry Kit",
+      publication: "Skorne Empire",
+      page:        "78",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "IKU"
+    },
+    {
       name:        "Clockwork Detonator",
       publication: "Kings, Nations, and Gods",
       page:        "245",
@@ -10395,6 +11533,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Lightning Rod",
+      publication: "Skorne Empire",
+      page:        "78",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "IKU"
+    },
+    {
       name:        "Man-O-War Ammo Bandolier",
       publication: "Kings, Nations, and Gods",
       page:        "189",
@@ -10451,6 +11597,22 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Oculus",
+      publication: "Skorne Empire",
+      page:        "94",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "IKU"
+    },
+    {
+      name:        "Paingiver Mask",
+      publication: "Skorne Empire",
+      page:        "78",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "IKU"
+    },
+    {
       name:        "Pocket Watch",
       publication: "Core Rules",
       page:        "276",
@@ -10499,6 +11661,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Reiver Ammo Bandolier",
+      publication: "Skorne Empire",
+      page:        "79",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "IKU"
+    },
+    {
       name:        "Rivet Gun",
       publication: "Core Rules",
       page:        "276",
@@ -10534,6 +11704,14 @@ var ikrpg = ikrpg || {};
       name:        "Skinning Tools",
       publication: "Unleashed Core Rules",
       page:        "330",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "IKU"
+    },
+    {
+      name:        "Sling Bullet Pouch",
+      publication: "Skorne Empire",
+      page:        "79",
       category:    "Equipment",
       subcategory: "Equipment",
       game:        "IKU"
@@ -10651,6 +11829,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Torture Implements",
+      publication: "Skorne Empire",
+      page:        "79",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "IKU"
+    },
+    {
       name:        "Trapper's Kit",
       publication: "Unleashed Core Rules",
       page:        "338",
@@ -10719,6 +11905,14 @@ var ikrpg = ikrpg || {};
       name:        "Duskwolf",
       publication: "Unleashed Core Rules",
       page:        "332",
+      category:    "Equipment",
+      subcategory: "Mount",
+      game:        "IKU"
+    },
+    {
+      name:        "Ferox",
+      publication: "Skorne Empire",
+      page:        "79",
       category:    "Equipment",
       subcategory: "Mount",
       game:        "IKU"
@@ -11729,6 +12923,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "The Northern Marches",
+      publication: "Skorne Empire",
+      page:        "39",
+      category:    "Geography",
+      subcategory: "Political Region",
+      game:        "IKU"
+    },
+    {
       name:        "Thornwood (Province)",
       publication: "Kings, Nations, and Gods",
       page:        "67",
@@ -11743,6 +12945,54 @@ var ikrpg = ikrpg || {};
       category:    "Geography",
       subcategory: "Political Region",
       game:        "FMF"
+    },
+    {
+      name:        "Tor-Halaak",
+      publication: "Skorne Empire",
+      page:        "31",
+      category:    "Geography",
+      subcategory: "Political Region",
+      game:        "IKU"
+    },
+    {
+      name:        "Tor-Kademe",
+      publication: "Skorne Empire",
+      page:        "34",
+      category:    "Geography",
+      subcategory: "Political Region",
+      game:        "IKU"
+    },
+    {
+      name:        "Tor-Malphas",
+      publication: "Skorne Empire",
+      page:        "35",
+      category:    "Geography",
+      subcategory: "Political Region",
+      game:        "IKU"
+    },
+    {
+      name:        "Tor-Sharikaan",
+      publication: "Skorne Empire",
+      page:        "37",
+      category:    "Geography",
+      subcategory: "Political Region",
+      game:        "IKU"
+    },
+    {
+      name:        "Tor-Sortan",
+      publication: "Skorne Empire",
+      page:        "37",
+      category:    "Geography",
+      subcategory: "Political Region",
+      game:        "IKU"
+    },
+    {
+      name:        "Tor of the Western Reaches",
+      publication: "Skorne Empire",
+      page:        "38",
+      category:    "Geography",
+      subcategory: "Political Region",
+      game:        "IKU"
     },
     {
       name:        "Tordoro (Grav)",
@@ -11978,6 +13228,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Halaak",
+      publication: "Skorne Empire",
+      page:        "32",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "IKU"
+    },
+    {
       name:        "Hearthstone",
       publication: "Kings, Nations, and Gods",
       page:        "281",
@@ -12018,6 +13276,46 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Kademe",
+      publication: "Skorne Empire",
+      page:        "34",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "IKU"
+    },
+    {
+      name:        "Kajim",
+      publication: "Skorne Empire",
+      page:        "37",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "IKU"
+    },
+    {
+      name:        "Kaleed",
+      publication: "Skorne Empire",
+      page:        "33",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "IKU"
+    },
+    {
+      name:        "Kalos",
+      publication: "Skorne Empire",
+      page:        "38",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "IKU"
+    },
+    {
+      name:        "Kalvat",
+      publication: "Skorne Empire",
+      page:        "35",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "IKU"
+    },
+    {
       name:        "Khardov",
       publication: "Kings, Nations, and Gods",
       page:        "158",
@@ -12034,12 +13332,28 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Konesaan",
+      publication: "Skorne Empire",
+      page:        "35",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "IKU"
+    },
+    {
       name:        "Korsk",
       publication: "Kings, Nations, and Gods",
       page:        "155",
       category:    "Geography",
       subcategory: "City/Fortress",
       game:        "FMF"
+    },
+    {
+      name:        "Kotaan",
+      publication: "Skorne Empire",
+      page:        "39",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "IKU"
     },
     {
       name:        "Laedry",
@@ -12056,6 +13370,14 @@ var ikrpg = ikrpg || {};
       category:    "Geography",
       subcategory: "City/Fortress",
       game:        "FMF"
+    },
+    {
+      name:        "Malphas",
+      publication: "Skorne Empire",
+      page:        "36",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "IKU"
     },
     {
       name:        "Mercir",
@@ -12258,6 +13580,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Tokraas",
+      publication: "Skorne Empire",
+      page:        "38",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "IKU"
+    },
+    {
       name:        "Tverkutsk",
       publication: "Kings, Nations, and Gods",
       page:        "167",
@@ -12272,6 +13602,14 @@ var ikrpg = ikrpg || {};
       category:    "Geography",
       subcategory: "City/Fortress",
       game:        "FMF"
+    },
+    {
+      name:        "Verskone",
+      publication: "Skorne Empire",
+      page:        "33",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "IKU"
     },
     {
       name:        "Volningrad",
@@ -12403,6 +13741,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Helkan's Reward",
+      publication: "Skorne Empire",
+      page:        "39",
+      category:    "Geography",
+      subcategory: "Geographic Region",
+      game:        "IKU"
+    },
+    {
       name:        "Helmsreach",
       publication: "Unleashed Core Rules",
       page:        "88",
@@ -12435,6 +13781,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Mirketh Lake",
+      publication: "Skorne Empire",
+      page:        "33",
+      category:    "Geography",
+      subcategory: "Geographic Region",
+      game:        "IKU"
+    },
+    {
       name:        "Murata Hills",
       publication: "Unleashed Core Rules",
       page:        "88",
@@ -12454,6 +13808,14 @@ var ikrpg = ikrpg || {};
       name:        "Nyschatha Mountains",
       publication: "Unleashed Core Rules",
       page:        "88",
+      category:    "Geography",
+      subcategory: "Geographic Region",
+      game:        "IKU"
+    },
+    {
+      name:        "Ocean of Gras",
+      publication: "Skorne Empire",
+      page:        "35",
       category:    "Geography",
       subcategory: "Geographic Region",
       game:        "IKU"
@@ -12523,6 +13885,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "The Mokkar",
+      publication: "Skorne Empire",
+      page:        "33",
+      category:    "Geography",
+      subcategory: "Geographic Region",
+      game:        "IKU"
+    },
+    {
       name:        "The Olgunholt",
       publication: "Unleashed Core Rules",
       page:        "81",
@@ -12582,6 +13952,14 @@ var ikrpg = ikrpg || {};
       name:        "Thornwood Forest",
       publication: "Unleashed Core Rules",
       page:        "83",
+      category:    "Geography",
+      subcategory: "Geographic Region",
+      game:        "IKU"
+    },
+    {
+      name:        "Trembling Waste",
+      publication: "Skorne Empire",
+      page:        "37",
       category:    "Geography",
       subcategory: "Geographic Region",
       game:        "IKU"
@@ -13992,14 +15370,30 @@ var ikrpg = ikrpg || {};
       subcategory: "Ironhead Armor",
       game:        "FMF"
     },
-    // ##### Mechanika > Clockwork Vessel ##### \\
+    // ##### Mechanika > Vessel ##### \\
+    {
+      name:        "Ancestral Guardian",
+      publication: "Skorne Empire",
+      page:        "101",
+      category:    "Mechanika",
+      subcategory: "Vessel",
+      game:        "IKU"
+    },
     {
       name:        "Clockwork Priest Vessel",
       publication: "No Quarter #48",
       page:        "68",
       category:    "Mechanika",
-      subcategory: "Clockwork Vessel",
+      subcategory: "Vessel",
       game:        "FMF"
+    },
+    {
+      name:        "Immortal",
+      publication: "Skorne Empire",
+      page:        "102",
+      category:    "Mechanika",
+      subcategory: "Vessel",
+      game:        "IKU"
     },
     // ##### Mechanika > Clockwork Vessel Upgrade ##### \\
     {
@@ -14543,6 +15937,22 @@ var ikrpg = ikrpg || {};
     },
     // ##### Monsternomicon > Monster/Opponent ##### \\
     {
+      name:        "Animantrax",
+      publication: "Skorne Empire",
+      page:        "120",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Aradus",
+      publication: "Skorne Empire",
+      page:        "122",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Argus, Common",
       publication: "Monsternomicon",
       page:        "6",
@@ -14570,6 +15980,14 @@ var ikrpg = ikrpg || {};
       name:        "Argus Moonhound",
       publication: "Unleashed Core Rules",
       page:        "356",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Basilisk",
+      publication: "Skorne Empire",
+      page:        "124",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "IKU"
@@ -14671,12 +16089,28 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Cyclops",
+      publication: "Skorne Empire",
+      page:        "126",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Deathless",
       publication: "Monsternomicon",
       page:        "24",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Desert Hydra",
+      publication: "Skorne Empire",
+      page:        "128",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Devil Rat",
@@ -14743,6 +16177,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Drake, Deep",
+      publication: "Skorne Empire",
+      page:        "130",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Drake, Sea",
       publication: "Unleashed Core Rules",
       page:        "372",
@@ -14773,6 +16215,14 @@ var ikrpg = ikrpg || {};
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Dune Prowler",
+      publication: "Skorne Empire",
+      page:        "132",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Duskwolf",
@@ -14826,6 +16276,14 @@ var ikrpg = ikrpg || {};
       name:        "Gallows Grove",
       publication: "Unleashed Core Rules",
       page:        "376",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Genzoul",
+      publication: "Skorne Empire",
+      page:        "134",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "IKU"
@@ -14927,12 +16385,28 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Kovaas",
+      publication: "Skorne Empire",
+      page:        "136",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Lethean",
       publication: "Monsternomicon",
       page:        "54",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Mammoth",
+      publication: "Skorne Empire",
+      page:        "138",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Pistol Wraith",
@@ -14975,12 +16449,36 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Razor Worm",
+      publication: "Skorne Empire",
+      page:        "140",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Razorbat",
       publication: "Monsternomicon",
       page:        "60",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Reptile Hound",
+      publication: "Skorne Empire",
+      page:        "142",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Rhinodon",
+      publication: "Skorne Empire",
+      page:        "144",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Riven",
@@ -15167,6 +16665,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Titan",
+      publication: "Skorne Empire",
+      page:        "146",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Totem Hunter",
       publication: "Monsternomicon",
       page:        "82",
@@ -15285,6 +16791,14 @@ var ikrpg = ikrpg || {};
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Void Spirit",
+      publication: "Skorne Empire",
+      page:        "148",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Warpwolf, Feral",
@@ -18717,6 +20231,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Reiver",
+      publication: "Skorne Empire",
+      page:        "68",
+      category:    "Skill",
+      subcategory: "Military Skill",
+      game:        "IKU"
+    },
+    {
       name:        "Rifle",
       publication: "Core Rules",
       page:        "172",
@@ -18865,6 +20387,14 @@ var ikrpg = ikrpg || {};
       name:        "Bribery",
       publication: "Unleashed Core Rules",
       page:        "177",
+      category:    "Skill",
+      subcategory: "Occupational Skill",
+      game:        "IKU"
+    },
+    {
+      name:        "Chymistry",
+      publication: "Skorne Empire",
+      page:        "69",
       category:    "Skill",
       subcategory: "Occupational Skill",
       game:        "IKU"
@@ -19674,6 +21204,14 @@ var ikrpg = ikrpg || {};
     },
     // ##### Spell ##### \\
     {
+      name:        "Abuse",
+      publication: "Skorne Empire",
+      page:        "91",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Admonition",
       publication: "Kings, Nations, and Gods",
       page:        "240",
@@ -20042,6 +21580,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Beyond Death",
+      publication: "Skorne Empire",
+      page:        "91",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Black Out",
       publication: "Core Rules",
       page:        "237",
@@ -20122,7 +21668,7 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "BLessing of Health",
+      name:        "Blessing of Health",
       publication: "Unleashed Core Rules",
       page:        "242",
       category:    "Spell",
@@ -20394,6 +21940,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Blood Mark",
+      publication: "Skorne Empire",
+      page:        "91",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Blood Rain",
       publication: "Core Rules Bestiary Expanded",
       page:        "11",
@@ -20520,6 +22074,14 @@ var ikrpg = ikrpg || {};
       category:    "Spell",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Carnage",
+      publication: "Skorne Empire",
+      page:        "91",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Carnivore",
@@ -20792,6 +22354,14 @@ var ikrpg = ikrpg || {};
       category:    "Spell",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Death Field",
+      publication: "Skorne Empire",
+      page:        "91",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Death Field",
@@ -21125,6 +22695,14 @@ var ikrpg = ikrpg || {};
       name:        "Eruption of Spines",
       publication: "No Quarter #60",
       page:        "106",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Essence Blast",
+      publication: "Skorne Empire",
+      page:        "92",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -21522,6 +23100,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Fury",
+      publication: "Skorne Empire",
+      page:        "92",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Gallows",
       publication: "Kings, Nations, and Gods",
       page:        "182",
@@ -21594,12 +23180,28 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Grip of Death",
+      publication: "Skorne Empire",
+      page:        "92",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Ground Zero",
       publication: "No Quarter #49",
       page:        "64",
       category:    "Spell",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Guidance",
+      publication: "Skorne Empire",
+      page:        "92",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Guided Blade",
@@ -21677,6 +23279,14 @@ var ikrpg = ikrpg || {};
       name:        "Hand of Fate",
       publication: "Unleashed Adventure Kit Rulebook",
       page:        "28",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Hardened Flesh",
+      publication: "Skorne Empire",
+      page:        "92",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -21805,6 +23415,14 @@ var ikrpg = ikrpg || {};
       name:        "Hoarfrost",
       publication: "Unleashed Core Rules",
       page:        "248",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Hollow",
+      publication: "Skorne Empire",
+      page:        "92",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -21949,6 +23567,14 @@ var ikrpg = ikrpg || {};
       name:        "Ignite",
       publication: "Unleashed Core Rules",
       page:        "248",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Illusion of Vitality",
+      publication: "Skorne Empire",
+      page:        "92",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -22258,6 +23884,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Mage Sight",
+      publication: "Skorne Empire",
+      page:        "92",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Magnetic Hold",
       publication: "No Quarter #48",
       page:        "73",
@@ -22490,6 +24124,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Overmind",
+      publication: "Skorne Empire",
+      page:        "92",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Parasite",
       publication: "Unleashed Core Rules",
       page:        "250",
@@ -22501,6 +24143,14 @@ var ikrpg = ikrpg || {};
       name:        "Parasite",
       publication: "Unleashed Adventure Kit Rulebook",
       page:        "28",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Parasitic Invigoration",
+      publication: "Skorne Empire",
+      page:        "92",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -22736,6 +24386,14 @@ var ikrpg = ikrpg || {};
       category:    "Spell",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Psychic Vampire",
+      publication: "Skorne Empire",
+      page:        "92",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Psychophage",
@@ -23298,12 +24956,28 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Sacraficial Pawn",
+      publication: "Skorne Empire",
+      page:        "92",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Sanguine Blessing",
       publication: "Core Rules",
       page:        "244",
       category:    "Spell",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Savagery",
+      publication: "Skorne Empire",
+      page:        "92",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Sea Legs",
@@ -23333,6 +25007,14 @@ var ikrpg = ikrpg || {};
       name:        "Shadow Pack",
       publication: "Unleashed Core Rules",
       page:        "251",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Shadow Sight",
+      publication: "Skorne Empire",
+      page:        "92",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -23442,6 +25124,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Somnambulist",
+      publication: "Skorne Empire",
+      page:        "92",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Soothing Song",
       publication: "Unleashed Core Rules",
       page:        "251",
@@ -23461,6 +25151,14 @@ var ikrpg = ikrpg || {};
       name:        "Soul Slave",
       publication: "Unleashed Core Rules",
       page:        "251",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Soulfire",
+      publication: "Skorne Empire",
+      page:        "92",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -23778,6 +25476,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Torment",
+      publication: "Skorne Empire",
+      page:        "92",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Tornado",
       publication: "Core Rules",
       page:        "245",
@@ -23816,6 +25522,14 @@ var ikrpg = ikrpg || {};
       category:    "Spell",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Transference",
+      publication: "Skorne Empire",
+      page:        "92",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Triage",
@@ -23898,6 +25612,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Unease",
+      publication: "Skorne Empire",
+      page:        "92",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Unminding",
       publication: "Unleashed Core Rules",
       page:        "253",
@@ -23970,6 +25692,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Void Curse",
+      publication: "Skorne Empire",
+      page:        "93",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Voodoo Doll",
       publication: "Unleashed Core Rules",
       page:        "253",
@@ -24021,6 +25751,14 @@ var ikrpg = ikrpg || {};
       name:        "Watcher",
       publication: "Unleashed Core Rules",
       page:        "253",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Wave of Vivification",
+      publication: "Skorne Empire",
+      page:        "93",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -26480,6 +28218,127 @@ var ikrpg = ikrpg || {};
       subcategory: "Legion Warbeast",
       game:        "IKU"
     },
+    // ##### Warbeast > Skorne Warbeast ##### \\
+    {
+      name:        "Aradus Soldier",
+      publication: "Skorne Empire",
+      page:        "104",
+      category:    "Warbeast",
+      subcategory: "Skorne Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Basilsk Drake",
+      publication: "Skorne Empire",
+      page:        "105",
+      category:    "Warbeast",
+      subcategory: "Skorne Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Basilsk Krea",
+      publication: "Skorne Empire",
+      page:        "105",
+      category:    "Warbeast",
+      subcategory: "Skorne Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Bronzeback Titan",
+      publication: "Skorne Empire",
+      page:        "112",
+      category:    "Warbeast",
+      subcategory: "Skorne Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Cyclops Brute",
+      publication: "Skorne Empire",
+      page:        "106",
+      category:    "Warbeast",
+      subcategory: "Skorne Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Cyclops Raider",
+      publication: "Skorne Empire",
+      page:        "107",
+      category:    "Warbeast",
+      subcategory: "Skorne Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Cyclops Savage",
+      publication: "Skorne Empire",
+      page:        "108",
+      category:    "Warbeast",
+      subcategory: "Skorne Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Desert Hydra",
+      publication: "Skorne Empire",
+      page:        "109",
+      category:    "Warbeast",
+      subcategory: "Skorne Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Mammoth",
+      publication: "Skorne Empire",
+      page:        "110",
+      category:    "Warbeast",
+      subcategory: "Skorne Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Razor Worm",
+      publication: "Skorne Empire",
+      page:        "111",
+      category:    "Warbeast",
+      subcategory: "Skorne Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Reptile Hound",
+      publication: "Skorne Empire",
+      page:        "111",
+      category:    "Warbeast",
+      subcategory: "Skorne Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Rhinodon",
+      publication: "Skorne Empire",
+      page:        "112",
+      category:    "Warbeast",
+      subcategory: "Skorne Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Titan Gladiator",
+      publication: "Skorne Empire",
+      page:        "114",
+      category:    "Warbeast",
+      subcategory: "Skorne Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Titan Cannoneer",
+      publication: "Skorne Empire",
+      page:        "114",
+      category:    "Warbeast",
+      subcategory: "Skorne Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Titan Sentry",
+      publication: "Skorne Empire",
+      page:        "115",
+      category:    "Warbeast",
+      subcategory: "Skorne Warbeast",
+      game:        "IKU"
+    },
     // ##### Warbeast > Swamp Warbeast ##### \\
     {
       name:        "Blackhide",
@@ -26685,6 +28544,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Amuck",
+      publication: "Skorne Empire",
+      page:        "112",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
       name:        "Arcane Suppression",
       publication: "Unleashed Core Rules",
       page:        "258",
@@ -26704,6 +28571,14 @@ var ikrpg = ikrpg || {};
       name:        "Beguile",
       publication: "Unleashed Core Rules",
       page:        "294",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Bomb Shelter",
+      publication: "Skorne Empire",
+      page:        "111",
       category:    "Warbeast",
       subcategory: "Animus",
       game:        "IKU"
@@ -26734,8 +28609,24 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Counterblast",
+      publication: "Skorne Empire",
+      page:        "110",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Counterblast",
       publication: "Unleashed Core Rules",
       page:        "282",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Diminish",
+      publication: "Skorne Empire",
+      page:        "115",
       category:    "Warbeast",
       subcategory: "Animus",
       game:        "IKU"
@@ -26752,6 +28643,14 @@ var ikrpg = ikrpg || {};
       name:        "Elasticity",
       publication: "Unleashed Core Rules",
       page:        "288",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Far Strike",
+      publication: "Skorne Empire",
+      page:        "108",
       category:    "Warbeast",
       subcategory: "Animus",
       game:        "IKU"
@@ -26784,6 +28683,14 @@ var ikrpg = ikrpg || {};
       name:        "Freezer",
       publication: "Unleashed Core Rules",
       page:        "296",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Heightened Metabolism",
+      publication: "Skorne Empire",
+      page:        "105",
       category:    "Warbeast",
       subcategory: "Animus",
       game:        "IKU"
@@ -26837,6 +28744,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Locker",
+      publication: "Skorne Empire",
+      page:        "116",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
       name:        "Massacre",
       publication: "Unleashed Core Rules",
       page:        "285",
@@ -26853,9 +28768,25 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Paralytic Aura",
+      publication: "Skorne Empire",
+      page:        "106",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
       name:        "Pig Farm",
       publication: "Unleashed Core Rules",
       page:        "283",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Prescience",
+      publication: "Skorne Empire",
+      page:        "108",
       category:    "Warbeast",
       subcategory: "Animus",
       game:        "IKU"
@@ -26894,8 +28825,32 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rush",
+      publication: "Skorne Empire",
+      page:        "114",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Rush",
       publication: "Unleashed Core Rules",
       page:        "289",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Safeguard",
+      publication: "Skorne Empire",
+      page:        "107",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Sand Storm",
+      publication: "Skorne Empire",
+      page:        "109",
       category:    "Warbeast",
       subcategory: "Animus",
       game:        "IKU"
@@ -26904,6 +28859,14 @@ var ikrpg = ikrpg || {};
       name:        "Shadow Shift",
       publication: "Unleashed Core Rules",
       page:        "277",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Slaughterhouse",
+      publication: "Skorne Empire",
+      page:        "111",
       category:    "Warbeast",
       subcategory: "Animus",
       game:        "IKU"
@@ -26936,6 +28899,14 @@ var ikrpg = ikrpg || {};
       name:        "Tracker",
       publication: "Unleashed Core Rules",
       page:        "275",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Train Wreck",
+      publication: "Skorne Empire",
+      page:        "114",
       category:    "Warbeast",
       subcategory: "Animus",
       game:        "IKU"
@@ -26976,6 +28947,14 @@ var ikrpg = ikrpg || {};
       name:        "Winter Coat",
       publication: "Unleashed Core Rules",
       page:        "276",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Wraithbane",
+      publication: "Skorne Empire",
+      page:        "105",
       category:    "Warbeast",
       subcategory: "Animus",
       game:        "IKU"
@@ -27038,6 +29017,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Reptile Hound Carapace",
+      publication: "Skorne Empire",
+      page:        "111",
+      category:    "Warbeast",
+      subcategory: "Warbeast Armor",
+      game:        "IKU"
+    },
+    {
       name:        "Tusked Helmet",
       publication: "Unleashed Core Rules",
       page:        "283",
@@ -27095,6 +29082,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Falchion",
+      publication: "Skorne Empire",
+      page:        "116",
+      category:    "Warbeast",
+      subcategory: "Warbeast Melee Weapon",
+      game:        "IKU"
+    },
+    {
       name:        "Halbert",
       publication: "Unleashed Core Rules",
       page:        "300",
@@ -27134,11 +29129,27 @@ var ikrpg = ikrpg || {};
       subcategory: "Warbeast Melee Weapon",
       game:        "IKU"
     },
+    {
+      name:        "War Mace",
+      publication: "Skorne Empire",
+      page:        "117",
+      category:    "Warbeast",
+      subcategory: "Warbeast Melee Weapon",
+      game:        "IKU"
+    },
     // ##### Warbeast > Warbeast Ranged Weapon ##### \\
     {
       name:        "Big Gun",
       publication: "Unleashed Core Rules",
       page:        "281",
+      category:    "Warbeast",
+      subcategory: "Warbeast Ranged Weapon",
+      game:        "IKU"
+    },
+    {
+      name:        "Heavy Reiver",
+      publication: "Skorne Empire",
+      page:        "117",
       category:    "Warbeast",
       subcategory: "Warbeast Ranged Weapon",
       game:        "IKU"
@@ -27151,7 +29162,31 @@ var ikrpg = ikrpg || {};
       subcategory: "Warbeast Ranged Weapon",
       game:        "IKU"
     },
+    {
+      name:        "Siege Battery and Harness",
+      publication: "Skorne Empire",
+      page:        "110",
+      category:    "Warbeast",
+      subcategory: "Warbeast Ranged Weapon",
+      game:        "IKU"
+    },
+    {
+      name:        "Siege Gun",
+      publication: "Skorne Empire",
+      page:        "117",
+      category:    "Warbeast",
+      subcategory: "Warbeast Ranged Weapon",
+      game:        "IKU"
+    },
     // ##### Warbeast > Warbeast Gear ##### \\
+    {
+      name:        "Barbed Harness",
+      publication: "Skorne Empire",
+      page:        "117",
+      category:    "Warbeast",
+      subcategory: "Warbeast Ranged Weapon",
+      game:        "IKU"
+    },
     {
       name:        "Beast Restraint",
       publication: "Unleashed Core Rules",
@@ -27174,6 +29209,14 @@ var ikrpg = ikrpg || {};
       page:        "291",
       category:    "Warbeast",
       subcategory: "Warbeast Gear",
+      game:        "IKU"
+    },
+    {
+      name:        "War Spikes",
+      publication: "Skorne Empire",
+      page:        "117",
+      category:    "Warbeast",
+      subcategory: "Warbeast Ranged Weapon",
       game:        "IKU"
     },
     // ##### Warbeast > Warbeast Mechanikal Component ##### \\
