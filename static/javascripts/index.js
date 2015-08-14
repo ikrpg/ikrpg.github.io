@@ -5207,6 +5207,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "The Tale of Ol'Mudfoot",
+      publication: "Path of Devastation Season 3",
+      page:        "20",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "FMF"
+    },
+    {
       name:        "Twisted Steel",
       publication: "Path of Devastation Season 1",
       page:        "20",
@@ -18389,6 +18397,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Progeny",
+      publication: "Path of Devastation Season 3",
+      page:        "29",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Radiz Warrior",
       publication: "Path of Devastation Season 2",
       page:        "26",
@@ -18874,7 +18890,7 @@ var ikrpg = ikrpg || {};
       publication: "Path of Devastation Season 2",
       page:        "26",
       category:    "Monster",
-      subcategory: "Monster/Opponent",
+      subcategory: "Solo Monster/Opponent",
       game:        "FMF"
     },
     {
@@ -19130,7 +19146,7 @@ var ikrpg = ikrpg || {};
       publication: "Path of Devastation Season 2",
       page:        "27",
       category:    "Monster",
-      subcategory: "Monster/Opponent",
+      subcategory: "Solo Monster/Opponent",
       game:        "FMF"
     },
     {
@@ -19177,6 +19193,14 @@ var ikrpg = ikrpg || {};
       name:        "Nerys",
       publication: "Bad Moon Rising",
       page:        "64",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Ol'Mudfoot",
+      publication: "Path of Devastation Season 3",
+      page:        "28",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
