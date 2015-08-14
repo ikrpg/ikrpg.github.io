@@ -28091,7 +28091,7 @@ var ikrpg = ikrpg || {};
       publication: "No Quarter #61",
       page:        "93",
       category:    "Survival",
-      subcategory: "Shelter",
+      subcategory: "Trap",
       game:        "IKU"
     },
     {
@@ -28099,7 +28099,7 @@ var ikrpg = ikrpg || {};
       publication: "No Quarter #61",
       page:        "94",
       category:    "Survival",
-      subcategory: "Shelter",
+      subcategory: "Trap",
       game:        "IKU"
     },
     {
@@ -28115,7 +28115,7 @@ var ikrpg = ikrpg || {};
       publication: "No Quarter #61",
       page:        "94",
       category:    "Survival",
-      subcategory: "Shelter",
+      subcategory: "Trap",
       game:        "IKU"
     },
     {
