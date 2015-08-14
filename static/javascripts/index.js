@@ -42,6 +42,8 @@ var ikrpg = ikrpg || {};
   // Spell
   // Steamjack
   //     Steamjack/Vector, Chassis, Cortex, Melee Weapon, Ranged Weapon, Gear/Upgrade, Tune-Up
+  // Survival
+  //     Shelter, Trap
   // Thrall
   //     Thrall Type, Thrall Upgrade
   // Vehicle
@@ -73,6 +75,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Abomination",
+      publication: "No Quarter #61",
+      page:        "101",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Ace Commander",
@@ -659,6 +669,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Berserk",
+      publication: "No Quarter #61",
+      page:        "101",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Big Game Hunter",
       publication: "Core Rules",
       page:        "158",
@@ -729,6 +747,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Blood Drinker",
+      publication: "No Quarter #61",
+      page:        "101",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Blood Frenzy",
@@ -841,6 +867,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Body Slam",
+      publication: "No Quarter #61",
+      page:        "101",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Bodyguard",
@@ -1595,6 +1629,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Elusive Rider",
+      publication: "No Quarter #61",
+      page:        "77",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Empower",
       publication: "Core Rules",
       page:        "161",
@@ -1865,6 +1907,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Fearsome Howl",
+      publication: "No Quarter #61",
+      page:        "101",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Feat of Regeneration",
@@ -3094,6 +3144,14 @@ var ikrpg = ikrpg || {};
       name:        "Mounted: Counter Charge",
       publication: "Unleashed Core Rules",
       page:        "163",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Mounted: Outride",
+      publication: "No Quarter #61",
+      page:        "77",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -4483,6 +4541,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Tactical Coordination",
+      publication: "No Quarter #61",
+      page:        "101",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Take Down",
       publication: "Core Rules",
       page:        "167",
@@ -4614,6 +4680,22 @@ var ikrpg = ikrpg || {};
       name:        "Traceless Path",
       publication: "Unleashed Adventure Kit Rulebook",
       page:        "11",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Tracker",
+      publication: "No Quarter #61",
+      page:        "77",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Tracker",
+      publication: "No Quarter #61",
+      page:        "101",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -5833,6 +5915,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Bloodhearth",
+      publication: "No Quarter #61",
+      page:        "91",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "FMF"
+    },
+    {
       name:        "Bottled Light",
       publication: "Core Rules",
       page:        "294",
@@ -5903,6 +5993,14 @@ var ikrpg = ikrpg || {};
       category:    "Alchemy",
       subcategory: "Alchemical Item",
       game:        "FMF"
+    },
+    {
+      name:        "Firefat",
+      publication: "No Quarter #61",
+      page:        "91",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "IKU"
     },
     {
       name:        "Fortemorphic Elixier",
@@ -6036,6 +6134,14 @@ var ikrpg = ikrpg || {};
       name:        "Preservation of Corben Pendant",
       publication: "Full Metal Fridays 1/3/1",
       page:        "2",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "FMF"
+    },
+    {
+      name:        "Pyrophoric Crystals",
+      publication: "No Quarter #61",
+      page:        "91",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
       game:        "FMF"
@@ -6461,6 +6567,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Nightgaze",
+      publication: "No Quarter #61",
+      page:        "92",
+      category:    "Alchemy",
+      subcategory: "Bone Grinder Fetish",
+      game:        "IKU"
+    },
+    {
       name:        "Phylactery of Venom",
       publication: "Unleashed Core Rules",
       page:        "350",
@@ -6488,6 +6602,22 @@ var ikrpg = ikrpg || {};
       name:        "Theriac of Health",
       publication: "Unleashed Core Rules",
       page:        "351",
+      category:    "Alchemy",
+      subcategory: "Bone Grinder Fetish",
+      game:        "IKU"
+    },
+    {
+      name:        "Treewalker's Path",
+      publication: "No Quarter #61",
+      page:        "92",
+      category:    "Alchemy",
+      subcategory: "Bone Grinder Fetish",
+      game:        "IKU"
+    },
+    {
+      name:        "Vermin Bag",
+      publication: "No Quarter #61",
+      page:        "92",
       category:    "Alchemy",
       subcategory: "Bone Grinder Fetish",
       game:        "IKU"
@@ -7137,6 +7267,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Deathstalker",
+      publication: "No Quarter #61",
+      page:        "99",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Doom Reaver",
       publication: "Kings, Nations, and Gods",
       page:        "178",
@@ -7380,6 +7518,14 @@ var ikrpg = ikrpg || {};
       name:        "Nihilator",
       publication: "Skorne Empire",
       page:        "54",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
+      name:        "Nomad",
+      publication: "No Quarter #61",
+      page:        "76",
       category:    "Character Creation",
       subcategory: "Career",
       game:        "IKU"
@@ -7793,6 +7939,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Warmonger",
+      publication: "No Quarter #61",
+      page:        "100",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Warrior",
       publication: "Unleashed Core Rules",
       page:        "143",
@@ -8051,6 +8205,14 @@ var ikrpg = ikrpg || {};
     },
     // ##### Character Creation > Race ##### \\
     {
+      name:        "Blighted Ogrun",
+      publication: "No Quarter #61",
+      page:        "98",
+      category:    "Character Creation",
+      subcategory: "Race",
+      game:        "IKU"
+    },
+    {
       name:        "Bog Trog",
       publication: "No Quarter #58",
       page:        "69",
@@ -8073,6 +8235,14 @@ var ikrpg = ikrpg || {};
       category:    "Character Creation",
       subcategory: "Race",
       game:        "FMF"
+    },
+    {
+      name:        "Efaarit",
+      publication: "No Quarter #61",
+      page:        "75",
+      category:    "Character Creation",
+      subcategory: "Race",
+      game:        "IKU"
     },
     {
       name:        "Farrow",
@@ -8166,6 +8336,14 @@ var ikrpg = ikrpg || {};
       name:        "Skorne",
       publication: "Skorne Empire",
       page:        "42",
+      category:    "Character Creation",
+      subcategory: "Race",
+      game:        "IKU"
+    },
+    {
+      name:        "Strider",
+      publication: "No Quarter #61",
+      page:        "97",
       category:    "Character Creation",
       subcategory: "Race",
       game:        "IKU"
@@ -8641,6 +8819,14 @@ var ikrpg = ikrpg || {};
       name:        "Axe, Tharn",
       publication: "Unleashed Core Rules",
       page:        "311",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
+    {
+      name:        "Az'Tal",
+      publication: "No Quarter #61",
+      page:        "77",
       category:    "Armory",
       subcategory: "Melee Weapon",
       game:        "IKU"
@@ -9220,6 +9406,14 @@ var ikrpg = ikrpg || {};
       category:    "Armory",
       subcategory: "Melee Weapon",
       game:        "FMF"
+    },
+    {
+      name:        "Ogrun Warcleaver",
+      publication: "No Quarter #61",
+      page:        "101",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
     },
     {
       name:        "Orgoth Staff",
@@ -9921,6 +10115,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Efaarit Hunting Rifle",
+      publication: "No Quarter #61",
+      page:        "77",
+      category:    "Armory",
+      subcategory: "Ranged Weapon",
+      game:        "IKU"
+    },
+    {
       name:        "Execrator Pistol",
       publication: "Kings, Nations, and Gods",
       page:        "95",
@@ -10512,6 +10714,14 @@ var ikrpg = ikrpg || {};
       subcategory: "Ranged Weapon",
       game:        "FMF"
     },
+    {
+      name:        "War Spear",
+      publication: "No Quarter #61",
+      page:        "101",
+      category:    "Armory",
+      subcategory: "Ranged Weapon",
+      game:        "IKU"
+    },
     // ##### Armory > Ammunition ##### \\
     {
       name:        "Arrows, Explosive",
@@ -10819,95 +11029,6 @@ var ikrpg = ikrpg || {};
       category:    "Armory",
       subcategory: "Magical Weapon",
       game:        "FMF"
-    },
-    // ##### Armory > Trap ##### \\
-    {
-      name:        "Animal Bait",
-      publication: "Unleashed Core Rules",
-      page:        "335",
-      category:    "Armory",
-      subcategory: "Trap",
-      game:        "IKU"
-    },
-    {
-      name:        "Caltrops",
-      publication: "Unleashed Core Rules",
-      page:        "335",
-      category:    "Armory",
-      subcategory: "Trap",
-      game:        "IKU"
-    },
-    {
-      name:        "Deadfall Trap",
-      publication: "Unleashed Core Rules",
-      page:        "335",
-      category:    "Armory",
-      subcategory: "Trap",
-      game:        "IKU"
-    },
-    {
-      name:        "Fixed-Weapon Trap",
-      publication: "Unleashed Core Rules",
-      page:        "336",
-      category:    "Armory",
-      subcategory: "Trap",
-      game:        "IKU"
-    },
-    {
-      name:        "Lasso Trap",
-      publication: "Unleashed Core Rules",
-      page:        "336",
-      category:    "Armory",
-      subcategory: "Trap",
-      game:        "IKU"
-    },
-    {
-      name:        "Net Trap",
-      publication: "Unleashed Core Rules",
-      page:        "336",
-      category:    "Armory",
-      subcategory: "Trap",
-      game:        "IKU"
-    },
-    {
-      name:        "Pendulum Trap",
-      publication: "Unleashed Core Rules",
-      page:        "337",
-      category:    "Armory",
-      subcategory: "Trap",
-      game:        "IKU"
-    },
-    {
-      name:        "Pit Trap",
-      publication: "Unleashed Core Rules",
-      page:        "337",
-      category:    "Armory",
-      subcategory: "Trap",
-      game:        "IKU"
-    },
-    {
-      name:        "Spring Spike Trap",
-      publication: "Unleashed Core Rules",
-      page:        "337",
-      category:    "Armory",
-      subcategory: "Trap",
-      game:        "IKU"
-    },
-    {
-      name:        "Steel-Jawed Trap",
-      publication: "Unleashed Core Rules",
-      page:        "337",
-      category:    "Armory",
-      subcategory: "Trap",
-      game:        "IKU"
-    },
-    {
-      name:        "Whip Trap",
-      publication: "Unleashed Core Rules",
-      page:        "337",
-      category:    "Armory",
-      subcategory: "Trap",
-      game:        "IKU"
     },
     // ##### Disease > Disease Type ##### \\
     {
@@ -11389,6 +11510,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Compass",
+      publication: "No Quarter #61",
+      page:        "90",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "IKU"
+    },
+    {
       name:        "Disguise Kit",
       publication: "Urban Adventure",
       page:        "14",
@@ -11669,6 +11798,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Rhulic Climbing Hammer",
+      publication: "No Quarter #61",
+      page:        "90",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "IKU"
+    },
+    {
       name:        "Rivet Gun",
       publication: "Core Rules",
       page:        "276",
@@ -11712,6 +11849,14 @@ var ikrpg = ikrpg || {};
       name:        "Sling Bullet Pouch",
       publication: "Skorne Empire",
       page:        "79",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "IKU"
+    },
+    {
+      name:        "Snowshoes",
+      publication: "No Quarter #61",
+      page:        "91",
       category:    "Equipment",
       subcategory: "Equipment",
       game:        "IKU"
@@ -11897,6 +12042,14 @@ var ikrpg = ikrpg || {};
       name:        "Bison",
       publication: "Unleashed Core Rules",
       page:        "332",
+      category:    "Equipment",
+      subcategory: "Mount",
+      game:        "IKU"
+    },
+    {
+      name:        "Bletcher",
+      publication: "No Quarter #61",
+      page:        "77",
       category:    "Equipment",
       subcategory: "Mount",
       game:        "IKU"
@@ -12349,6 +12502,14 @@ var ikrpg = ikrpg || {};
       name:        "Clamorgan",
       publication: "Unleashed Core Rules",
       page:        "60",
+      category:    "Geography",
+      subcategory: "Culture",
+      game:        "IKU"
+    },
+    {
+      name:        "Efaarit",
+      publication: "No Quarter #61",
+      page:        "69",
       category:    "Geography",
       subcategory: "Culture",
       game:        "IKU"
@@ -14013,6 +14174,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     // ##### Individual ##### \\
+    {
+      name:        "Aleksandra Zerkova",
+      publication: "No Quarter #61",
+      page:        "37",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
     {
       name:        "Alma Barlow",
       publication: "Bitter Medicine",
@@ -16359,6 +16528,14 @@ var ikrpg = ikrpg || {};
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Incubus",
+      publication: "No Quarter #61",
+      page:        "102",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Iron Maiden",
@@ -27825,6 +28002,145 @@ var ikrpg = ikrpg || {};
       category:    "Steamjack",
       subcategory: "Tune-Up",
       game:        "FMF"
+    },
+    // ##### Survival > Shelter ##### \\
+    {
+      name:        "Sand Canopy",
+      publication: "No Quarter #61",
+      page:        "93",
+      category:    "Survival",
+      subcategory: "Shelter",
+      game:        "IKU"
+    },
+    {
+      name:        "Wolf of Orboros Lodge",
+      publication: "No Quarter #61",
+      page:        "93",
+      category:    "Survival",
+      subcategory: "Shelter",
+      game:        "IKU"
+    },
+    // ##### Survival > Survival Item ##### \\
+    {
+      name:        "Needle and Bowl Compass",
+      publication: "No Quarter #61",
+      page:        "95",
+      category:    "Survival",
+      subcategory: "Survival Item",
+      game:        "IKU"
+    },
+    // ##### Survival > Trap ##### \\
+    {
+      name:        "Animal Bait",
+      publication: "Unleashed Core Rules",
+      page:        "335",
+      category:    "Survival",
+      subcategory: "Trap",
+      game:        "IKU"
+    },
+    {
+      name:        "Caltrops",
+      publication: "Unleashed Core Rules",
+      page:        "335",
+      category:    "Survival",
+      subcategory: "Trap",
+      game:        "IKU"
+    },
+    {
+      name:        "Deadfall Trap",
+      publication: "Unleashed Core Rules",
+      page:        "335",
+      category:    "Survival",
+      subcategory: "Trap",
+      game:        "IKU"
+    },
+    {
+      name:        "Fixed-Weapon Trap",
+      publication: "Unleashed Core Rules",
+      page:        "336",
+      category:    "Survival",
+      subcategory: "Trap",
+      game:        "IKU"
+    },
+    {
+      name:        "Gas Bag Trap",
+      publication: "No Quarter #61",
+      page:        "93",
+      category:    "Survival",
+      subcategory: "Shelter",
+      game:        "IKU"
+    },
+    {
+      name:        "Hornet's Nest Trap",
+      publication: "No Quarter #61",
+      page:        "94",
+      category:    "Survival",
+      subcategory: "Shelter",
+      game:        "IKU"
+    },
+    {
+      name:        "Lasso Trap",
+      publication: "Unleashed Core Rules",
+      page:        "336",
+      category:    "Survival",
+      subcategory: "Trap",
+      game:        "IKU"
+    },
+    {
+      name:        "Mandible Trap",
+      publication: "No Quarter #61",
+      page:        "94",
+      category:    "Survival",
+      subcategory: "Shelter",
+      game:        "IKU"
+    },
+    {
+      name:        "Net Trap",
+      publication: "Unleashed Core Rules",
+      page:        "336",
+      category:    "Survival",
+      subcategory: "Trap",
+      game:        "IKU"
+    },
+    {
+      name:        "Pendulum Trap",
+      publication: "Unleashed Core Rules",
+      page:        "337",
+      category:    "Survival",
+      subcategory: "Trap",
+      game:        "IKU"
+    },
+    {
+      name:        "Pit Trap",
+      publication: "Unleashed Core Rules",
+      page:        "337",
+      category:    "Survival",
+      subcategory: "Trap",
+      game:        "IKU"
+    },
+    {
+      name:        "Spring Spike Trap",
+      publication: "Unleashed Core Rules",
+      page:        "337",
+      category:    "Survival",
+      subcategory: "Trap",
+      game:        "IKU"
+    },
+    {
+      name:        "Steel-Jawed Trap",
+      publication: "Unleashed Core Rules",
+      page:        "337",
+      category:    "Survival",
+      subcategory: "Trap",
+      game:        "IKU"
+    },
+    {
+      name:        "Whip Trap",
+      publication: "Unleashed Core Rules",
+      page:        "337",
+      category:    "Survival",
+      subcategory: "Trap",
+      game:        "IKU"
     },
     // ##### Thrall > Thrall Type ##### \\
     {
