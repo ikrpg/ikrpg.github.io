@@ -1,15 +1,18 @@
 CACHE MANIFEST
-# 2015-09-12
+# 2015-09-20 13:01
 
 CACHE:
 
 # Front site
 /
 
-# Character Creater
+# Character Cards
 /Character/
 /Characters/
 /Character-Cards/
+
+# Character Sheets
+/Character-Sheets/
 
 # Moons of Caen Tool
 /Constellations/

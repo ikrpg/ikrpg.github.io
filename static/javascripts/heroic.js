@@ -11,29 +11,53 @@ var ikrpg = ikrpg || {};
   ikrpg.cards.data = {
     "portrait": { "url": "", "top": 0, "left": 0, "width": 0 },
     "hero-name": "Hero's name",
+    "sex": "", // sheet
+    "definingcharacteristics": "", // sheet
+    "weight": "", // sheet
     "archetype": "Archetype",
     "race": "Race",
     "level": "Level",
     "careers": "Careers",
+    "faith": "", // sheet
+    "playername": "", // sheet
+    "height": "", // sheet
     "phy": 0,
+    "phymax": 0, // sheet
     "spd": 0,
+    "spdmax": 0, // sheet
     "str": 0,
+    "strmax": 0, // sheet
     "agl": 0,
+    "aglmax": 0, // sheet
     "poi": 0,
+    "poimax": 0, // sheet
     "prw": 0,
+    "prwmax": 0, // sheet
     "int": 0,
+    "intmax": 0, // sheet
     "arc": 0,
+    "arcmax": 0, // sheet
     "per": 0,
+    "permax": 0, // sheet
+    "defracialmodifier": 0, // sheet
+    "defequipmentmodifiers": 0, // sheet
     "def": 0,
+    "iniequipmentmodifiers": 0, // sheet
+    "iniadditionalmodifiers": 0, // sheet
     "ini": 0,
+    "cmdcommandskill": 0, // sheet
+    "cmdabilitymodifier": 0, // sheet
     "cmd": 0,
+    "armshieldmodifier": 0, // sheet
+    "armarmormodifiers": 0, // sheet
+    "armothermodifiers": 0, // sheet
     "arm": 0,
     "wil": 0,
-    "rat1": { "name": "Weapon name", "rat": 0, "rng": 0, "aoe": 0, "pow": 0 },
-    "rat2": { "name": "Weapon name", "rat": 0, "rng": 0, "aoe": 0, "pow": 0 },
-    "mat1": { "name": "Weapon name", "mat": 0, "pow": 0, "ps": 0 },
-    "mat2": { "name": "Weapon name", "mat": 0, "pow": 0, "ps": 0 },
-    "mat3": { "name": "Weapon name", "mat": 0, "pow": 0, "ps": 0 },
+    "rat1": { "name": "Weapon name", "rat": 0, "rng": 0, "aoe": 0, "pow": 0, "notes": "", "ammo": "" },
+    "rat2": { "name": "Weapon name", "rat": 0, "rng": 0, "aoe": 0, "pow": 0, "notes": "", "ammo": "" },
+    "mat1": { "name": "Weapon name", "mat": 0, "pow": 0, "ps": 0, "notes": "" },
+    "mat2": { "name": "Weapon name", "mat": 0, "pow": 0, "ps": 0, "notes": "" },
+    "mat3": { "name": "Weapon name", "mat": 0, "pow": 0, "ps": 0, "notes": "", "free": "" },
     "feats": 0,
     "ini_mod": 0,
     "def_mod": 0,
@@ -45,26 +69,26 @@ var ikrpg = ikrpg || {};
     "r1m2": false,
     "r2": false,
     "m2": false,
-    "ability1": { "title": "ability/benefit", "description": "description" },
-    "ability2": { "title": "", "description": "" },
-    "ability3": { "title": "", "description": "" },
-    "ability4": { "title": "", "description": "" },
-    "ability5": { "title": "", "description": "" },
-    "ability6": { "title": "", "description": "" },
-    "ability7": { "title": "", "description": "" },
-    "ability8": { "title": "", "description": "" },
-    "ability9": { "title": "", "description": "" },
-    "ability10": { "title": "", "description": "" },
-    "ability11": { "title": "", "description": "" },
-    "ability12": { "title": "", "description": "" },
-    "ability13": { "title": "", "description": "" },
-    "ability14": { "title": "", "description": "" },
-    "ability15": { "title": "", "description": "" },
-    "ability16": { "title": "", "description": "" },
-    "ability17": { "title": "", "description": "" },
-    "ability18": { "title": "", "description": "" },
-    "ability19": { "title": "", "description": "" },
-    "ability20": { "title": "", "description": "" },
+    "ability1": { "title": "ability/benefit", "description": "description", "page": "" },
+    "ability2": { "title": "", "description": "", "page": "" },
+    "ability3": { "title": "", "description": "", "page": "" },
+    "ability4": { "title": "", "description": "", "page": "" },
+    "ability5": { "title": "", "description": "", "page": "" },
+    "ability6": { "title": "", "description": "", "page": "" },
+    "ability7": { "title": "", "description": "", "page": "" },
+    "ability8": { "title": "", "description": "", "page": "" },
+    "ability9": { "title": "", "description": "", "page": "" },
+    "ability10": { "title": "", "description": "", "page": "" },
+    "ability11": { "title": "", "description": "", "page": "" },
+    "ability12": { "title": "", "description": "", "page": "" },
+    "ability13": { "title": "", "description": "", "page": "" },
+    "ability14": { "title": "", "description": "", "page": "" },
+    "ability15": { "title": "", "description": "", "page": "" },
+    "ability16": { "title": "", "description": "", "page": "" },
+    "ability17": { "title": "", "description": "", "page": "" },
+    "ability18": { "title": "", "description": "", "page": "" },
+    "ability19": { "title": "", "description": "", "page": "" },
+    "ability20": { "title": "", "description": "", "page": "" },
     "s1": { "title": "skill", "stat": "INT", "base": "0", "lvl": "0", "sum": "0" },
     "s2": { "title": "", "stat": "", "base": "", "lvl": "", "sum": "" },
     "s3": { "title": "", "stat": "", "base": "", "lvl": "", "sum": "" },
@@ -86,20 +110,17 @@ var ikrpg = ikrpg || {};
     "s19": { "title": "", "stat": "", "base": "", "lvl": "", "sum": "" },
     "s20": { "title": "", "stat": "", "base": "", "lvl": "", "sum": "" },
     "s21": { "title": "", "stat": "", "base": "", "lvl": "", "sum": "" },
-  //"benefit1": { "title": "Common Feats", "description": "Boost Non-Attack Skill Roll - Heroic Dodge - Make a Quick Action - Parry - Relentless Charge - Reroll Failed Attack/Skill/Willpower roll - Run and Gun - Shake Continuous Effect - Shake Knockdown - Shake Stationary - Sprint - Two-Fister - Walk it Off" },
-  //"benefit2": { "title": "Benefit/Feat name", "description": "Benefit/Feat description" },
-  //"benefit3": { "title": "...", "description": "..." },
-    "benefit1": { "title": "benefit/feat", "description": "description" },
-    "benefit2": { "title": "", "description": "" },
-    "benefit3": { "title": "", "description": "" },
-    "benefit4": { "title": "", "description": "" },
-    "benefit5": { "title": "", "description": "" },
-    "benefit6": { "title": "", "description": "" },
-    "benefit7": { "title": "", "description": "" },
-    "benefit8": { "title": "", "description": "" },
-    "benefit9": { "title": "", "description": "" },
-    "benefit10": { "title": "", "description": "" },
-    "benefit11": { "title": "", "description": "" },
+    "benefit1": { "title": "benefit/feat", "description": "description", "page": "" },
+    "benefit2": { "title": "", "description": "", "page": "" },
+    "benefit3": { "title": "", "description": "", "page": "" },
+    "benefit4": { "title": "", "description": "", "page": "" },
+    "benefit5": { "title": "", "description": "", "page": "" },
+    "benefit6": { "title": "", "description": "", "page": "" },
+    "benefit7": { "title": "", "description": "", "page": "" },
+    "benefit8": { "title": "", "description": "", "page": "" },
+    "benefit9": { "title": "", "description": "", "page": "" },
+    "benefit10": { "title": "", "description": "", "page": "" },
+    "benefit11": { "title": "", "description": "", "page": "" },
     "spell1": { "title": "spell", "cost": 0, "rng": 0, "aoe": "-", "pow": 0, "up": "NO", "off": "YES", "description": "description" },
     "spell2": { "title": "", "cost": "", "rng": "", "aoe": "", "pow": "", "up": "", "off": "", "description": "" },
     "spell3": { "title": "", "cost": "", "rng": "", "aoe": "", "pow": "", "up": "", "off": "", "description": "" },
@@ -134,30 +155,28 @@ var ikrpg = ikrpg || {};
     "gear21": { "title": "", "benefit": "" },
     "gear22": { "title": "", "benefit": "" },
     "gear23": { "title": "", "benefit": "" },
-    "playerName": "Player's Name",
-    "sex": "sex",
-    "definingCharacteristics": "Defining Characteristics",
-    "faith": "Faith",
-    "weight": "Weight",
-    "height": "Height",
-    "injury1": "Injury 1",
-    "injury2": "Injury 2",
-    "injury3": "...",
-    "belief1": "Religious Belief 1",
-    "belief2": "Religious Belief 2",
-    "belief3": "...",
-    "connection1": "Connection 1",
-    "connection2": "Connection 2",
-    "connection3": "...",
-    "connection4": "",
-    "language1": "Language 1",
-    "language2": "Language 2",
-    "language3": "...",
-    "language4": "",
-    "language5": "",
-    "language6": "",
-    "language7": "",
-    "language8": "",
+    "wornarmor1": { "name": "", "notes": "", "spd": "", "def": "", "arm": "" }, // sheet
+    "wornarmor2": { "name": "", "notes": "", "spd": "", "def": "", "arm": "" }, // sheet
+    "wornarmor3": { "name": "", "notes": "", "spd": "", "def": "", "arm": "" }, // sheet
+    "wornarmor4": { "name": "", "notes": "", "spd": "", "def": "", "arm": "" }, // sheet
+    "connection1": { "name": "", "notes": "", "page": "" }, // sheet
+    "connection2": { "name": "", "notes": "", "page": "" }, // sheet
+    "connection3": { "name": "", "notes": "", "page": "" }, // sheet
+    "connection4": { "name": "", "notes": "", "page": "" }, // sheet
+    "arcanetradition": "", // sheet
+    "mechanika1": { "housing": "", "runeplate": "", "capacitor": "", "note": "" }, // sheet
+    "mechanika2": { "housing": "", "runeplate": "", "capacitor": "", "note": "" }, // sheet
+    "mechanika3": { "housing": "", "runeplate": "", "capacitor": "", "note": "" }, // sheet
+    "mechanika4": { "housing": "", "runeplate": "", "capacitor": "", "note": "" }, // sheet
+    "mechanika5": { "housing": "", "runeplate": "", "capacitor": "", "note": "" }, // sheet
+    "runeplate1": { "title": "", "benefit": "" }, // sheet
+    "runeplate2": { "title": "", "benefit": "" }, // sheet
+    "runeplate3": { "title": "", "benefit": "" }, // sheet
+    "runeplate4": { "title": "", "benefit": "" }, // sheet
+    "capacitor1": { "title": "", "charges": "" }, // sheet
+    "capacitor2": { "title": "", "charges": "" }, // sheet
+    "capacitor3": { "title": "", "charges": "" }, // sheet
+    "capacitor4": { "title": "", "charges": "" }, // sheet
     "note1": { "title": "Permanent Injuries", "text": "None" },
     "note2": { "title": "Spoken Languages", "text": "" },
     "note3": { "title": "Religious Beliefs", "text": "" },
@@ -169,7 +188,17 @@ var ikrpg = ikrpg || {};
     "note9": { "title": "", "text": "" },
     "note10": { "title": "", "text": "" },
     "note11": { "title": "", "text": "" },
-    "note12": { "title": "", "text": "" }
+    "note12": { "title": "", "text": "" },
+    "permanentinjury1": "", // sheet
+    "permanentinjury2": "", // sheet
+    "permanentinjury3": "", // sheet
+    "spokenlanguage1": "", // sheet
+    "spokenlanguage2": "", // sheet
+    "spokenlanguage3": "", // sheet
+    "religiousbelief1": "", // sheet
+    "religiousbelief2": "", // sheet
+    "religiousbelief3": "", // sheet
+    "gold": 0 // sheet
   };
   
   ikrpg.cards.updateData = function() {
