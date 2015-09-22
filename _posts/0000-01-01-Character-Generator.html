@@ -5,6 +5,7 @@ tags: [Character Generator]
 
 <style>
     div.data label { display: block; }
+    .character-generator-table tbody td:nth-of-type(2) { text-align: left; }
 </style>
 
 <h2>Race</h2>
@@ -13,7 +14,17 @@ tags: [Character Generator]
         <option value="empty"></option>
     </select>
 </p>
-<p id="race-data" class="character-generator-data"></p>
+<table class="hero character-generator-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody id="race-data" class="character-generator-data">
+        
+    </tbody>
+</table>
 
 <h2>Caste</h2>
 <p>
@@ -21,7 +32,17 @@ tags: [Character Generator]
         <option value="empty"></option>
     </select>
 </p>
-<p id="caste-data" class="character-generator-data"></p>
+<table class="veteran character-generator-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody id="caste-data" class="character-generator-data">
+        
+    </tbody>
+</table>
 
 <h2>Archetype</h2>
 <p>
@@ -29,7 +50,17 @@ tags: [Character Generator]
         <option value="empty"></option>
     </select>
 </p>
-<p id="archetype-data" class="character-generator-data"></p>
+<table class="epic character-generator-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody id="archetype-data" class="character-generator-data">
+        
+    </tbody>
+</table>
 
 <h2>Career 1</h2>
 <p>
@@ -37,7 +68,17 @@ tags: [Character Generator]
         <option value="empty"></option>
     </select>
 </p>
-<p id="career1-data" class="character-generator-data"></p>
+<table class="hero character-generator-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody id="career1-data" class="character-generator-data">
+        
+    </tbody>
+</table>
 
 <h2>Career 2</h2>
 <p>
@@ -45,7 +86,17 @@ tags: [Character Generator]
         <option value="empty"></option>
     </select>
 </p>
-<p id="career2-data" class="character-generator-data"></p>
+<table class="veteran character-generator-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody id="career2-data" class="character-generator-data">
+        
+    </tbody>
+</table>
 
 <h2>Adventuring Company</h2>
 <p>
@@ -53,7 +104,18 @@ tags: [Character Generator]
         <option value="empty"></option>
     </select>
 </p>
-<p id="adventuring-company-data" class="character-generator-data"></p>
+<table class="epic character-generator-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody id="adventuring-company-data" class="character-generator-data">
+        
+    </tbody>
+</table>
+
 
 <div><a href="javascript:test()">test</a></div>
     
@@ -65,10 +127,10 @@ tags: [Character Generator]
         this.value = value;
         this.html = function() {
             var str = '';
-            str += '<div class="data">';
-            str += '    '+this.key+': ';
-            str += '    <input class="'+this.key+'" type="number" data-type="number" min="'+this.value+'" max="'+this.value+'" value="'+this.value+'" disabled />';
-            str += '</div>';
+            str += '<tr>\n';
+            str += '    <td>'+this.key+'</td>\n';
+            str += '    <td><input class="'+this.key+'" type="number" data-type="number" min="'+this.value+'" max="'+this.value+'" value="'+this.value+'" disabled /></td>\n';
+            str += '</tr>\n';
             
             return str;
         };
@@ -85,10 +147,10 @@ tags: [Character Generator]
         this.max = max;
         this.html = function() {
             var str = '';
-            str += '<div class="data">';
-            str += '    '+this.key+': ';
-            str += '    <input class="'+this.key+'" type="number" data-type="number" min="'+this.min+'" max="'+this.max+'" value="'+this.min+'" />';
-            str += '</div>';
+            str += '<tr>\n';
+            str += '    <td>'+this.key+'</td>\n';
+            str += '    <td><input class="'+this.key+'" type="number" data-type="number" min="'+this.min+'" max="'+this.max+'" value="'+this.min+'" /></td>\n';
+            str += '</tr>\n';
             
             return str;
         };
@@ -104,10 +166,10 @@ tags: [Character Generator]
         this.value = value;
         this.html = function() {
             var str = '';
-            str += '<div class="data">';
-            str += '    '+this.key+': ';
-            str += '    <input class="'+this.key+'" type="text" data-type="text" value="'+this.value+'" disabled />';
-            str += '</div>';
+            str += '<tr>\n';
+            str += '    <td>'+this.key+'</td>\n';
+            str += '    <td><input class="'+this.key+'" type="text" data-type="text" value="'+this.value+'" disabled /></td>\n';
+            str += '</tr>\n';
             
             return str;
         };
@@ -123,10 +185,10 @@ tags: [Character Generator]
         this.value = value;
         this.html = function() {
             var str = '';
-            str += '<div class="data">';
-            str += '    '+this.key+': ';
-            str += '    <input class="'+this.key+'" type="text" data-type="array" value="'+this.value+'" disabled />';
-            str += '</div>';
+            str += '<tr>\n';
+            str += '    <td>'+this.key+'</td>\n';
+            str += '    <td><input class="'+this.key+'" type="text" data-type="array" value="'+this.value+'" disabled /></td>\n';
+            str += '</tr>\n';
             
             return str;
         }
@@ -155,7 +217,7 @@ tags: [Character Generator]
         this.key = key;
         this.value = value;
         this.html = function() {
-            return '<option class="'+this.key+'" data-type="number" value="'+this.value+'">'+this.key+': '+this.value+'</option>';
+            return '<option class="'+this.key+'" data-type="number" value="'+this.value+'">'+this.key+': '+this.value+'</option>\n';
         };
     }
     
@@ -172,7 +234,7 @@ tags: [Character Generator]
         this.key = key;
         this.value = value;
         this.html = function() {
-            return '<option class="'+this.key+'" data-type="array" value="'+this.value+'">'+this.key+': '+this.value+'</option>';
+            return '<option class="'+this.key+'" data-type="array" value="'+this.value+'">'+this.key+': '+this.value+'</option>\n';
         };
     }
     
@@ -189,12 +251,12 @@ tags: [Character Generator]
         this.pairs = pairs;
         this.html = function() {
             var str = '';
-            str += '<div class="data">\n';
-            if(label) str += '    <label>'+label+':</label>\n';
-            str += '    <select multiple>\n';
+            str += '<tr>\n';
+            if(label) str += '    <td><label>'+label+':</label></td>\n';
+            str += '    <td><select multiple>\n';
             str += mkString($.map(pairs, function(pair) { return pair.html(); }), "\n        ", "", "\n");
-            str += '    </select>\n';
-            str += '</div>\n';
+            str += '    </select></td>\n';
+            str += '</tr>\n';
             
             return str;
         };
@@ -359,7 +421,7 @@ tags: [Character Generator]
         "Cunning": [],
         "Gifted (FMF)": [
             string("archetype", "Gifted"),
-            choices(numberPairs("ARC", [2, 3]), "Focusers start with ARC 2, will weavers with ARC 3"),
+            choices(numberPairs("ARC", [2, 3]), "Focusers start with ARC 2,<br />Will Weavers with ARC 3"),
             choices(arrayPairs("benefits", ["Additional Study", "Combat Caster", "Fast Caster", "Feat: Domninator", "Feat: Powerful Caster", "Feat: Quick Cast", "Feat: Strength of Will", "Magic Sensitivity", "Rune Reader", "Warding Circle"]), "Choose 1")
         ],
         "Gifted (IKU)": [],
@@ -404,9 +466,26 @@ tags: [Character Generator]
             choices(arrayPairs("gear", ["mechanika weapon", "mechanika suit of armor"]), "Choose 1")
         ],
         "Arcane Tempest Gun Mage": [],
-        "Arcanist": [],
+        "Arcanist": [
+            listItem("careers", "Arcanist"),
+            listItem("abilities", "Great Power"),
+            list("occupational skills", ["Lore (Arcane)", "Research"]),
+            list("spells", ["Arcane Bolt", "Aura of Protection", "Light in the Darkness"]),
+            listItem("benefits", "Rune Reader"),
+            number("gold", 75)
+        ],
         "Archer": [],
-        "Aristocrat": [],
+        "Aristocrat": [
+            listItem("careers", "Aristocrat"),
+            list("abilities", ["Good Breeding", "Privilege"]),
+            choices(arrayPairs("abilities", languages), "Choose 1"),
+            listItem("connections", "Connections (nobility)"),
+            listItem("military skills", "Hand Weapon"),
+            choices(arrayPairs("military skills", ["Archery", "Pistol", "Rifle"]), "Choose 1"),
+            list("occupational skills", ["Command", "Etiquette"]),
+            listItem("notes", "50gc each month from familiy holdings"),
+            number("gold", 200)
+        ],
         "Artillerist": [],
         "Ascetic": [],
         "Assault Kommando": [],
@@ -417,7 +496,13 @@ tags: [Character Generator]
         "Bloodweaver": [],
         "Bokor": [],
         "Bone Grinder": [],
-        "Bounty Hunter": [],
+        "Bounty Hunter": [
+            listItem("careers", "Bounty Hunter"),
+            list("abilities", ["Binding", "Take Down"]),
+            choices(arrayPairs("military skills", ["Crossbow", "Hand Weapon", "Pistol", "Rifle", "Unarmed Combat"]), "Choose 2"),
+            list("occupational skills", ["Detection", "Intimidation", "Rope Use", "Tracking"]),
+            number("gold", 75)
+        ],
         "Brigand": [],
         "Bushwhacker": [],
         "Cataphract": [],
@@ -425,46 +510,146 @@ tags: [Character Generator]
         "Chirurgeon": [],
         "Chymist": [],
         "Crucible Guard": [],
-        "Cutthroat": [],
+        "Cutthroat": [
+            listItem("careers", "Cutthroat"),
+            list("abilities", ["Anatomical Precision", "Backstab", "Prowl"]),
+            listItem("military skills", "Hand Weapon"),
+            choices(arrayPairs("military skills", ["Crossbow", "Thrown Weapon", "Unarmed Combat"]), "Choose 1"),
+            list("occupational skills", ["Intimidation", "Sneak", "Streetwise"]),
+            number("gold", 75)
+        ],
         "Cygnaran Warcaster": [],
         "Deathstalker": [],
         "Doom Reaver": [],
-        "Duelist": [],
+        "Duelist": [
+            listItem("careers", "Duelist"),
+            list("abilities", ["Parry", "Riposte"]),
+            list("military skills", ["Hand Weapon", "Pistol"]),
+            list("occupational skills", ["Gambling", "Intimidation", "Jumping"]),
+            number("gold", 75)
+        ],
         "Exemplar": [],
         "Exemplar Errant": [],
         "Exemplar Vengar": [],
-        "Explorer": [],
+        "Explorer": [
+            listItem("careers", "Explorer"),
+            list("abilities", ["Big Game Hunter", "Port of Call"]),
+            choices(arrayPairs("languages", languages), "Choose 1"),
+            listItem("connections", "Connections (patron)"),
+            choices(arrayPairs("military skills", ["Archery", "Hand Weapon", "Pistol", "Rifle"]), "Choose 1"),
+            list("occupational skills", ["Detection", "Medicine", "Navigation", "Survival"]),
+            listItem("notes", "20gc each month from a patron"),
+            number("gold", 150),
+            list("gear", ["map case", "spyglass"])
+        ],
         "Extoller": [],
-        "Fell Caller": [],
+        "Fell Caller": [
+            listItem("careers", "Fell Caller"),
+            list("abilities", ["Fell Call: Signal Call", "Fell Call: Sonic Blast"]),
+            choices(arrayPairs("military skills", ["Hand Weapon", "Great Weapon"]), "Choose 1"),
+            list("occupational skills", ["Command", "Fell Calling", "Fell Calling", "Lore (Trollkin)", "Oratory"]),
+            number("gold", 75)
+        ],
         "Fennblade": [],
         "Ferox Rider": [],
-        "Field Mechanik": [],
+        "Field Mechanik": [
+            listItem("careers", "Field Mechanik"),
+            list("abilities", ["'Jack Marshal", "Bodge", "Hit the Deck!"]),
+            choices(arrayPairs("military skills", ["Hand Weapon", "Pistol"]), "Choose 1"),
+            list("occupational skills", ["Command", "Craft (metalworking)", "Mechanikal Engineering"]),
+            number("gold", 25),
+            list("gear", ["mechanik's tool kit", "light laborjack with up to 200gc of weapons"])
+        ],
         "Flame Bringers": [],
         "Greylord": [],
         "Greylord Outrider": [],
-        "Gun Mage": [],
+        "Gun Mage": [
+            listItem("careers", "Gun Mage"),
+            list("abilities", ["Craft Rune Shot", "Fast Reload"]),
+            choices(arrayPairs("military skills", ["Pistol", "Rifle"]), "Choose 1"),
+            list("occupational skills", ["Detection", "Intimidation"]),
+            list("spells", ["Rune Shot: Accuracy", "Rune Shot: Brutal", "Rune Shot: Thunderbolt"]),
+            number("gold", 25),
+            list("gear", ["ammo bandolier", "rune shot casting kit", "powder and ten rounds of ammunition"]),
+            choices(arrayPairs("gear", ["magelock pistol", "magelock rifle"]), "Choose 1")
+        ],
         "Gun Mage of the Amethyst Rose": [],
         "Guttersnipe": [],
-        "Highwayman": [],
+        "Highwayman": [
+            listItem("careers", "Highwayman"),
+            list("abilities", ["Ambush", "Saddle Shot"]),
+            listItem("military skills", "Hand Weapon"),
+            choices(arrayPairs("military skills", ["Archery", "Crossbow", "Pistol"]), "Choose 1"),
+            list("occupational skills", ["Animal Handling", "Detection", "Intimidation", "Riding"]),
+            number("gold", 75),
+            list("gear", ["mask", "riding horse", "tack"])
+        ],
         "Horseman": [],
         "Illuminated Arcanist": [],
-        "Investigator": [],
-        "Iron Fang": [],
+        "Investigator": [
+            listItem("careers", "Investigator"),
+            listItem("abilities", "Astute"),
+            choices(arrayPairs("languages", languages), "Choose 1"),
+            choices(arrayPairs("military skills", ["Hand Weapon", "Pistol"]), "Choose 1"),
+            list("occupational skills", ["Detection", "Forensic Science", "Interrogation", "Law", "Medicine", "Sneak"]),
+            listItem("benefits", "Hyper Perception"),
+            number("gold", 100)
+        ],
+        "Iron Fang": [
+            listItem("careers", "Iron Fang"),
+            listItem("notes", "Must choose between Aristocrat, Military Officer, Soldier, or Warcaster as second career"),
+            list("abilities", ["Fast Rearm (Blasting Pike)", "Specialization (Blasting Pike)"]),
+            listItem("connections", "Connections (Khadoran military)"),
+            list("military skills", ["Great Weapon", "Shield"]),
+            list("occupational skills", ["Command", "Survival"]),
+            number("gold", 25),
+            list("gear", ["blasting pike with spear head", "ten blasting heads", "Iron Fang full plate", "shield"])
+        ],
         "Iron Fang Uhlan": [],
         "Ironhead": [],
         "Khadoran Warcaster": [],
-        "Knight": [],
+        "Knight": [
+            listItem("careers", "Knight"),
+            list("abilities", ["Cleave", "Defender"]),
+            listItem("connections", "Connections (knightly order)"),
+            list("military skills", ["Great Weapon", "Hand Weapon", "Shield"]),
+            list("occupational skills", ["Command", "Etiquette", "Lore (knightly order)"]),
+            number("gold", 100)
+        ],
         "Kriel Champion": [],
         "Labor Korune": [],
         "Llaelese Warcaster": [],
         "Long Rider": [],
-        "Mage Hunter": [],
-        "Man-at-Arms": [],
+        "Mage Hunter": [
+            listItem("careers", "Mage Hunter"),
+            list("abilities", ["Arcane Assassin", "Iron Will"]),
+            listItem("connections", "Connections (Retribution of Scyrah)"),
+            listItem("military skills", "Hand Weapon"),
+            choices(arrayPairs("military skills", ["Archery", "Crossbow"]), "Choose 1"),
+            list("occupational skills", ["Climbing", "Jumping", "Sneak", "Tracking"]),
+            number("gold", 75)
+        ],
+        "Man-at-Arms": [
+            listItem("careers", "Man-at-Arms"),
+            list("abilities", ["Defensive Line", "Shield Guard"]),
+            list("military skills", ["Great Weapon", "Shield"]),
+            choices(arrayPairs("military skills", ["Hand Weapon", "Pistol"]), "Choose 1"),
+            list("occupational skills", ["Command", "Detection"]),
+            number("gold", 100)
+        ],
         "Man-O-War": [],
         "Man-O-War Drakhun": [],
         "Marine": [],
         "Maritime Order of the Trident Arcanist": [],
-        "Military Officer": [],
+        "Military Officer": [
+            listItem("careers", "Military Officer"),
+            list("abilities", ["Battle Plan: Call to Action", "Natural Leader", "Team Leader"]),
+            listItem("military skills", "Hand Weapon"),
+            choices(arrayPairs("military skills", ["Great Weapon", "Pistol"]), "Choose 1"),
+            list("occupational skills", ["Command", "Medicine", "Navigation"]),
+            number("gold", 100),
+            listItem("gear", "officer's uniform")
+        ],
         "Mist Speaker": [],
         "Monster Hunter": [],
         "Mortitheurge": [],
@@ -472,24 +657,71 @@ tags: [Character Generator]
         "Nomad": [],
         "Ordic Warcaster": [],
         "Paladin": [],
-        "Pirate": [],
-        "Pistoleer": [],
+        "Pirate": [
+            listItem("careers", "Pirate"),
+            list("abilities", ["Gang", "Steady", "Specialization (Cutlass)"]),
+            listItem("military skills", "Hand Weapon"),
+            choices(arrayPairs("military skills", ["Pistol", "Thrown Weapon"]), "Choose 1"),
+            list("occupational skills", ["Climbing", "Intimidation", "Sailing", "Swimming"]),
+            number("gold", 75)
+        ],
+        "Pistoleer": [
+            listItem("careers", "Pistoleer"),
+            list("abilities", ["Fast Draw", "Gunfighter", "Return Fire"]),
+            listItem("military skills", "Pistol"),
+            list("occupational skills", ["Detection", "Intimidation", "Sneak"]),
+            number("gold", 50),
+            listItem("gear", "ammo bandolier"),
+            choices(arrayPairs("gear", ["hand cannon", "2 repeating pistols"]), "Choose 1"),
+            choices(arrayPairs("gear", ["ammunition for ten shots", "2 ammo wheels with ammunition for ten shots"]), "Choose 1")
+        ],
         "Praetorian": [],
         "Priest of Cyriss": [],
-        "Priest of Menoth": [],
-        "Priest of Morrow": [],
+        "Priest of Menoth": [
+            listItem("careers", "Priest of Menoth"),
+            listItem("abilities", "Dispel"),
+            listItem("connections", "Connections (Menite temple)"),
+            choices(arrayPairs("military skills", ["Great Weapon", "Hand Weapon"]), "Choose 1"),
+            list("occupational skills", ["Lore (Menite faith)", "Oratory"]),
+            list("spells", ["Guided Blade", "Ignite", "Immolation"]),
+            number("gold", 75)
+        ],
+        "Priest of Morrow": [
+            listItem("careers", "Priest of Morrow"),
+            listItem("abilities", "Empower"),
+            listItem("connections", "Connections (Morrowan temple)"),
+            choices(arrayPairs("military skills", ["Great Weapon", "Hand Weapon"]), "Choose 1"),
+            list("occupational skills", ["Lore (Morrowan faith)", "Medicine"]),
+            list("spells", ["Blade of Radiance", "Solovin's Boon", "True Sight"]),
+            number("gold", 75)
+        ],
         "Priest of Nyssor": [],
         "Protectorate Warcaster": [],
         "Pugilist": [],
         "Raider": [],
-        "Ranger": [],
+        "Ranger": [
+            listItem("careers", "Ranger"),
+            list("abilities", ["Camouflage", "Pathfinder"]),
+            listItem("military skills", "Hand Weapon"),
+            choices(arrayPairs("military skills", ["Archery", "Crossbow", "Pistol", "Rifle"]), "Choose 1"),
+            list("occupational skills", ["Detection", "Sneak", "Survival", "Tracking"]),
+            number("gold", 75)
+        ],
         "Raptor": [],
         "Ravager": [],
         "Reclaimer": [],
         "Rhulic 'Jack Marshal": [],
         "Rhulic Field Mechanik": [],
         "Rhulic Warcaster": [],
-        "Rifleman": [],
+        "Rifleman": [
+            listItem("careers", "Rifleman"),
+            list("abilities", ["Crackshot", "Dual Shot", "Marksman"]),
+            listItem("military skills", "Rifle"),
+            list("occupational skills", ["Climbing", "Detection", "Survival"]),
+            number("gold", 50),
+            list("gear", ["ammo bandolier", "powder and ammunition for ten shots"]),
+            choices(arrayPairs("gear", ["heavy rifle", "repeating long rifle"]))
+        ],
         "Ryssovass": [],
         "Scout": [],
         "Scrutator": [],
@@ -498,31 +730,105 @@ tags: [Character Generator]
         "Shaman (Devourer Wurm)": [],
         "Shaman (Dhunia)": [],
         "Slaughterhouser": [],
-        "Soldier": [],
-        "Sorcerer (Fire) (FMF)": [],
+        "Soldier": [
+            listItem("careers", "Soldier"),
+            list("abilities", ["Find Cover", "Sentry"]),
+            choices(arrayPairs("military skills", ["Hand Weapon", "Pistol", "Crossbow", "Great Weapon", "Rifle", "Thrown Weapon"]), "Choose 2"),
+            list("occupational skills", ["Detection", "Driving", "Medicine", "Survival"]),
+            number("gold", 100)
+        ],
+        "Sorcerer (Fire) (FMF)": [
+            listItem("careers", "Sorcerer (Fire)"),
+            listItem("abilities", "Immunity: Fire"),
+            choices(arrayPairs("military skills", ["Archery", "Crossbow", "Hand Weapon"]), "Choose 1"),
+            list("occupational skills", ["Detection", "Survival"]),
+            list("spells", ["Fire Starter", "Howling Flames", "Wall of Fire"]),
+            number("gold", 75)
+        ],
         "Sorcerer (Fire) (IKU)": [],
-        "Sorcerer (Ice) (FMF)": [],
+        "Sorcerer (Ice) (FMF)": [
+            listItem("careers", "Sorcerer (Ice)"),
+            listItem("abilities", "Immunity: Cold"),
+            choices(arrayPairs("military skills", ["Archery", "Crossbow", "Hand Weapon"]), "Choose 1"),
+            list("occupational skills", ["Detection", "Survival"]),
+            list("spells", ["Blizzard", "Chiller", "Ice Bolt"]),
+            number("gold", 75)
+        ],
         "Sorcerer (Ice) (IKU)": [],
-        "Sorcerer (Stone) (FMF)": [],
+        "Sorcerer (Stone) (FMF)": [
+            listItem("careers", "Sorcerer (Stone)"),
+            number("PHY", 1),
+            choices(arrayPairs("military skills", ["Archery", "Crossbow", "Hand Weapon"]), "Choose 1"),
+            list("occupational skills", ["Detection", "Survival"]),
+            list("spells", ["Battering Ram", "Solid Ground", "Stone Stance"]),
+            number("gold", 75)
+        ],
         "Sorcerer (Stone) (IKU)": [],
-        "Sorcerer (Storm) (FMF)": [],
+        "Sorcerer (Storm) (FMF)": [
+            listItem("careers", "Sorcerer (Storm)"),
+            number("SPD", 1),
+            choices(arrayPairs("military skills", ["Archery", "Crossbow", "Hand Weapon"]), "Choose 1"),
+            list("occupational skills", ["Detection", "Survival"]),
+            list("spells", ["Razor Wind", "Storm Tossed", "Wind Blast"]),
+            number("gold", 75)
+        ],
         "Sorcerer (Storm) (IKU)": [],
-        "Spy": [],
+        "Spy": [
+            listItem("careers", "Spy"),
+            list("abilities", ["Battle Plan: Shadow", "Cover Identity"]),
+            choices(arrayPairs("languages", languages), "Choose 1"),
+            listItem("connections", "Connections (intelligence network)"),
+            choices(arrayPairs("military skills", ["Hand Weapon", "Pistol", "Thrown Weapon"]), "Choose 1"),
+            list("occupational skills", ["Command", "Deception", "Detection", "Disguise", "Sneak"]),
+            number("gold", 100),
+            listItem("gear", "forged identity papers")
+        ],
         "Storm Lance": [],
-        "Stormblade": [],
+        "Stormblade": [
+            listItem("careers", "Stormblade"),
+            listItem("notes", "Must choose between Aristocrat, Knight, Man-at-Arms, Military Officer, Soldier, or Warcaster for second career"),
+            list("abilities", ["Blaster", "Specialization (Storm Glaive)"]),
+            listItem("connections", "Connections (Cygnaran military)"),
+            listItem("military skills", "Great Weapon"),
+            list("occupational skills", ["Command", "Detection", "Etiquette"]),
+            list("gear", ["Storm Glaive", "Storm Knight armor"])
+        ],
         "Stormguard": [],
         "Stormsmith": [],
         "Tempest Blazer": [],
         "Thamarite Advocate": [],
-        "Thief": [],
+        "Thief": [
+            listItem("careers", "Thief"),
+            list("abilities", ["Conniver", "Dodge"]),
+            choices(arrayPairs("military skills", ["Hand Weapon", "Thrown Weapon"]), "Choose 1"),
+            list("occupational skills", ["Bribery", "Deception", "Escape Artist", "Lock Picking", "Lock Picking", "Pickpocket", "Pickpocket", "Sneak", "Streetwise"]),
+            number("gold", 75),
+            listItem("gear", "thief's tools")
+        ],
         "Tormentor": [],
-        "Trencher": [],
+        "Trencher": [
+            listItem("careers", "Trencher"),
+            listItem("notes", "Must choose between Military Officer, Ranger, Rifleman, Soldier, or Warcaster for second career"),
+            list("abilities", ["Bayonet Charge", "Dig In"]),
+            listItem("connections", "Connections (Cygnaran military)"),
+            list("military skills", ["Great Weapon", "Rifle", "Thrown Weapon"]),
+            list("occupational skills", ["Command", "Detection"]),
+            number("gold", 25),
+            list("gear", ["ammo bandolier", "bayonet", "entrenching spade", "military rifle", "smoke grenate", "smoke grenate", "smoke grenate", "Trencher medium infantry armor"])
+        ],
         "Trencher Commando": [],
         "Tyrant": [],
         "Urban Nomad": [],
         "Vassal of Menoth": [],
         "Venator": [],
-        "Warcaster": [],
+        "Warcaster": [
+            listItem("careers", "Warcaster"),
+            listItem("abilities", "Bond"),
+            list("military skills", ["Hand Weapon", "Pistol"]),
+            list("occupational skills", ["Command", "Detection"]),
+            list("spells", ["Boundless Charge", "Convection"]),
+            choices(arrayPairs("gear", ["light suit of warcaster armor", "medium suit of warcaster armor", "mechanika hand weapon", "mechanika hand cannon (with 10 rounds of ammunition)"]), "Choose 1")
+        ],
         "Warcaster, Cyriss": [],
         "Warlock, Circle": [],
         "Warlock, Farrow": [],
@@ -541,7 +847,12 @@ tags: [Character Generator]
     
     var adventuringCompanies = {
         "Agents of the Crucible": [],
-        "Arcane Order": [],
+        "Arcane Order": [
+            string("adventuring company", "Arcane Order"),
+            listItem("notes", "At least one of the characters must be Gifted"),
+            listItem("occupational skills", "Lore (Arcane)"),
+            choices(arrayPairs("occupational skills", ["Arcane Scholar", "Shield Guard"]), "Choose 1")
+        ],
         "Army of the Western Reaches": [],
         "Beast Hunters": [],
         "Bonded Porters": [],
@@ -558,23 +869,52 @@ tags: [Character Generator]
         "House Taberna": [],
         "Idrian Tribe": [],
         "Illuminated Ones": [],
-        "Intrepid Investigators": [],
+        "Intrepid Investigators": [
+            string("adventuring company", "Intrepid Investigators"),
+            listItem("notes", "All characters must either be an Alchemist, Arcane Mechanik, Arcanist, Aristocrat, Explorer, Investigator, Military Officer, Priest, or Spy"),
+            listItem("notes", "All characters can benefit from the Intellectual archetype benefit twice"),
+        ],
         "Khadoran Military Detail": [],
         "Korsk Stanzynat Mustyn": [],
-        "Law Dogs": [],
-        "Mercenary Charter": [],
+        "Law Dogs": [
+            string("adventuring company", "Law Dogs"),
+            listItem("notes", "All characters must either be a Bounty Hunter, Highwayman, Investigator, Military Officer, Ranger, or Soldier"),
+            listItem("notes", "While pursuing a bounty, character gain boni on skill and attack rolls")
+        ],
+        "Mercenary Charter": [
+            string("adventuring company", "Mercenary Charter"),
+            listItem("notes", "One character is the captain"),
+            choices(arrayPair("abilities", "Natural Leader"), "The leader gets the Natural Leader ability"),
+            choices(arrayPairs("occupational skills", ["Animal Handling", "Command", "Driving", "Gambling", "Interrogation", "Medicine", "Negotiation", "Riding"]), "Choose 1")
+        ],
         "Mystics": [],
         "Nobile Exiles": [],
         "Nomads": [],
         "Northkin Kriel": [],
         "Nyss Refugees": [],
         "Ordic Naval Expedition": [],
-        "Outlaws": [],
-        "Pirates of the Broken Cost": [],
+        "Outlaws": [
+            string("adventuring company", "Outlaws"),
+            listItem("notes", "All characters must either be an Alchemist, Cutthroat, Duelist, Highwayman, Pistoleer, Rifleman, Sorcerer, Spy, or Thief"),
+            listItem("notes", "One character is the boss"),
+            list("abilities", ["Gang", "Language (Five Chant)"])
+        ],
+        "Pirates of the Broken Cost": [
+            string("adventuring company", "Pirates of the Broken Cost"),
+            listItem("notes", "All characters must either be a Cutthroat, Explorer, Military Officer, Pirate, or Thief"),
+            listItem("notes", "One character is the captain"),
+            choices(arrayPair("abilities", "Natural Leader"), "The captain gets the Natural Leader ability"),
+            listItem("abilities", "Hit the Deck!")
+        ],
         "Raiders": [],
         "Renegades": [],
         "Soldiers of Fortune": [],
-        "Spy Ring": [],
+        "Spy Ring": [
+            string("adventuring company", "Spy Ring"),
+            listItem("notes", "All characters must either be an Aristocrat, Investigator, Ranger, Spy, or Thief"),
+            listItem("notes", "One character is the captain"),
+            choices($.merge(arrayPairs("languages", languages), arrayPairs("occupational skills", ["Bribery", "Climbing", "Cryptography", "Deception", "Detection", "Disguise", "Escape Artist", "Etiquette", "Forensic Science", "Forgery", "Gambling", "Interrogation", "Intimidation", "Jumping", "Lock Picking", "Negotiation", "Pickpocket", "Research", "Riding", "Rope Use", "Seduction", "Sneak", "Streetwise"])), "Choose 1")
+        ],
         "Thamarite Sept": [],
         "Tharn Tuath": [],
         "The Inner Circle": [],
@@ -642,7 +982,8 @@ tags: [Character Generator]
                 "spells": [],
                 "gear": [],
                 "gold": 0,
-                "notes": []
+                "notes": [],
+                "adventuring company": ""
             };
         }
         
