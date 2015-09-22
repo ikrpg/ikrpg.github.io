@@ -8,6 +8,22 @@ var ikrpg = ikrpg || {};
   
   ikrpg.cards = ikrpg.cards || {};
   
+  ikrpg.cards.cleanData = function() {
+    
+    function clean(object) {
+      $.each(object, function(key, value) {
+        if($.type(value) === "object") {
+          clean(value);
+        } else {
+          object[key] = "";
+        }
+      });
+    }
+    
+    clean(ikrpg.cards.data);
+    
+  };
+  
   ikrpg.cards.data = {
     "portrait": { "url": "", "top": 0, "left": 0, "width": 0 },
     "hero-name": "Hero's name",
