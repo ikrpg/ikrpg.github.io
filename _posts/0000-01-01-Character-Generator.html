@@ -4,297 +4,747 @@ tags: [Character Generator]
 ---
 
 <style>
-    
+    div.data label { display: block; }
 </style>
 
+<h2>Race</h2>
+<p>
+    <select id="race">
+        <option value="empty"></option>
+    </select>
+</p>
+<p id="race-data" class="character-generator-data"></p>
 
-<div id="generator">
-    
-    <h2>Race</h2>
-    <ol>
-        <li>
-            <select id="race">
-                <option value="human">Human</option>
-                <option value="dwarf">Dwarf</option>
-            </select>
-        </li>
-    </ol>
-    
-    <h2>Archetype</h2>
-    <ol>
-        <li>
-            <select id="archetype">
-                <option value="gifted">Gifted</option>
-                <option value="mighty">Mighty</option>
-            </select>
-        </li>
-    </ol>
-    
-    <h2>Career 1</h2>
-    <ol>
-        <li>
-            <select>
-                <option value="alchemist">Alchemist</option>
-                <option value="cutthroat">Cutthroat</option>
-            </select>
-        </li>
-    </ol>
-    
-    <h2>Career 2</h2>
-    <ol>
-        <li>
-            <select>
-                <option value="alchemist">Alchemist</option>
-                <option value="cutthroat">Cutthroat</option>
-            </select>
-        </li>
-    </ol>
-    
-    <h2>Choices</h2>
-    <ol id="choices">
-    </ol>
-    
-</div>
+<h2>Caste</h2>
+<p>
+    <select id="caste">
+        <option value="empty"></option>
+    </select>
+</p>
+<p id="caste-data" class="character-generator-data"></p>
 
+<h2>Archetype</h2>
+<p>
+    <select id="archetype">
+        <option value="empty"></option>
+    </select>
+</p>
+<p id="archetype-data" class="character-generator-data"></p>
 
-<script type="text/javascript" src="/static/javascripts/index.js"></script>
+<h2>Career 1</h2>
+<p>
+    <select id="career1">
+        <option value="empty"></option>
+    </select>
+</p>
+<p id="career1-data" class="character-generator-data"></p>
+
+<h2>Career 2</h2>
+<p>
+    <select id="career2">
+        <option value="empty"></option>
+    </select>
+</p>
+<p id="career2-data" class="character-generator-data"></p>
+
+<h2>Adventuring Company</h2>
+<p>
+    <select id="adventuring-company">
+        <option value="empty"></option>
+    </select>
+</p>
+<p id="adventuring-company-data" class="character-generator-data"></p>
+
+<div><a href="javascript:test()">test</a></div>
+    
+
+<script type="text/javascript">
+    
+    function HeroNumber(key, value) {
+        this.key = key;
+        this.value = value;
+        this.html = function() {
+            var str = '';
+            str += '<div class="data">';
+            str += '    '+this.key+': ';
+            str += '    <input class="'+this.key+'" type="number" data-type="number" min="'+this.value+'" max="'+this.value+'" value="'+this.value+'" disabled />';
+            str += '</div>';
+            
+            return str;
+        };
+    }
+    
+    function number(key, value) {
+        return new HeroNumber(key, value);
+    }
+    
+    
+    function HeroRange(key, min, max) {
+        this.key = key;
+        this.min = min;
+        this.max = max;
+        this.html = function() {
+            var str = '';
+            str += '<div class="data">';
+            str += '    '+this.key+': ';
+            str += '    <input class="'+this.key+'" type="number" data-type="number" min="'+this.min+'" max="'+this.max+'" value="'+this.min+'" />';
+            str += '</div>';
+            
+            return str;
+        };
+    }
+    
+    function range(key, min, max) {
+        return new HeroRange(key, min, max);
+    }
+    
+    
+    function HeroString(key, value) {
+        this.key = key;
+        this.value = value;
+        this.html = function() {
+            var str = '';
+            str += '<div class="data">';
+            str += '    '+this.key+': ';
+            str += '    <input class="'+this.key+'" type="text" data-type="text" value="'+this.value+'" disabled />';
+            str += '</div>';
+            
+            return str;
+        };
+    }
+    
+    function string(key, value) {
+        return new HeroString(key, value);
+    }
+    
+    
+    function HeroListItem(key, value) {
+        this.key = key;
+        this.value = value;
+        this.html = function() {
+            var str = '';
+            str += '<div class="data">';
+            str += '    '+this.key+': ';
+            str += '    <input class="'+this.key+'" type="text" data-type="array" value="'+this.value+'" disabled />';
+            str += '</div>';
+            
+            return str;
+        }
+    }
+    
+    function listItem(key, value) {
+        return new HeroListItem(key, value);
+    }
+    
+    
+    function HeroList(key, listItems) {
+        this.key = key;
+        this.listItems = listItems;
+        this.html = function() {
+            var htmls = $.map(this.listItems, function(item) { return listItem(key, item).html(); });
+            return mkString(htmls, "\n");
+        }
+    }
+    
+    function list(key, listItems) {
+        return new HeroList(key, listItems);
+    }
+    
+    
+    function HeroNumberPair(key, value) {
+        this.key = key;
+        this.value = value;
+        this.html = function() {
+            return '<option class="'+this.key+'" data-type="number" value="'+this.value+'">'+this.key+': '+this.value+'</option>';
+        };
+    }
+    
+    function numberPair(key, value) {
+        return new HeroNumberPair(key, value);
+    }
+    
+    function numberPairs(key, values) {
+        return $.map(values, function(value) { return numberPair(key, value); });
+    }
+    
+    
+    function HeroArrayPair(key, value) {
+        this.key = key;
+        this.value = value;
+        this.html = function() {
+            return '<option class="'+this.key+'" data-type="array" value="'+this.value+'">'+this.key+': '+this.value+'</option>';
+        };
+    }
+    
+    function arrayPair(key, value) {
+        return new HeroArrayPair(key, value);
+    }
+    
+    function arrayPairs(key, values) {
+        return $.map(values, function(value) { return arrayPair(key, value); });
+    }
+    
+    
+    function HeroChoices(pairs, label) {
+        this.pairs = pairs;
+        this.html = function() {
+            var str = '';
+            str += '<div class="data">\n';
+            if(label) str += '    <label>'+label+':</label>\n';
+            str += '    <select multiple>\n';
+            str += mkString($.map(pairs, function(pair) { return pair.html(); }), "\n        ", "", "\n");
+            str += '    </select>\n';
+            str += '</div>\n';
+            
+            return str;
+        };
+    }
+    
+    function choices(pairs, label) {
+        return new HeroChoices(pairs, label);
+    }
+    
+</script>
+    
+<script type="text/javascript">
+    
+    // TODO: All languages
+    var languages = ["Cygnaran", "Khadoran", "Ordic"];
+    
+    var races = {
+        "Blighted Ogrun": [],
+        "Bog Trog": [],
+        "Dwarf": [
+            string("race", "Dwarf"),
+            number("PHY", 6),
+            number("SPD", 4),
+            number("STR", 5),
+            number("AGL", 3),
+            number("PRW", 4),
+            number("POI", 3),
+            number("INT", 4),
+            number("PER", 3),
+            listItem("languages", "Rhulic"),
+            choices(arrayPairs("languages", languages), "Choose 1"),
+            range("height", 47, 60),
+            range("weight", 105, 190),
+            listItem("abilities", "Load Bearing"),
+            listItem("connections", "Connection (dwarven clan)")
+        ],
+        "Efaarit": [],
+        "Farrow": [],
+        "Gatorman": [],
+        "Gobber": [
+            string("race", "Gobber"),
+            number("PHY", 4),
+            number("SPD", 6),
+            number("STR", 3),
+            number("AGL", 4),
+            number("PRW", 4),
+            number("POI", 3),
+            number("INT", 3),
+            number("PER", 3),
+            listItem("languages", "Gobberish"),
+            choices(arrayPairs("languages", languages), "Choose 1"),
+            range("height", 32, 42),
+            range("weight", 38, 60),
+            listItem("benefits", "Deft"),
+            number("DEF racial modifier", 1),
+            listItem("notes", "Gobbers cannot use great weapons or rifles")
+        ],
+        "Human (FMF)": [
+            string("race", "Human"),
+            number("PHY", 5),
+            number("SPD", 6),
+            number("STR", 4),
+            number("AGL", 3),
+            number("PRW", 4),
+            number("POI", 4),
+            number("INT", 3),
+            number("PER", 3),
+            choices(arrayPairs("languages", languages), "Choose 2"),
+            range("height", 55, 75),
+            range("weight", 90, 200),
+            choices([ numberPair("PHY", 1), numberPair("AGL", 1), numberPair("INT", 1) ], "Choose 1")
+        ],
+        "Human (IKU)": [],
+        "Iosan": [
+            string("race", "Iosan"),
+            number("PHY", 5),
+            number("SPD", 6),
+            number("STR", 4),
+            number("AGL", 3),
+            number("PRW", 4),
+            number("POI", 4),
+            number("INT", 4),
+            number("PER", 3),
+            listItem("languages", "Shyr"),
+            choices(arrayPairs("languages", languages), "Choose 1"),
+            range("height", 60, 75),
+            range("weight", 85, 180),
+            listItem("notes", "begins the game with an additional ability selected from on of the careers")
+        ],
+        "Nyss (FMF)": [
+            string("race", "Nyss"),
+            number("PHY", 5),
+            number("SPD", 6),
+            number("STR", 4),
+            number("AGL", 4),
+            number("PRW", 4),
+            number("POI", 4),
+            number("INT", 3),
+            number("PER", 3),
+            listItem("languages", "Aeric"),
+            choices(arrayPairs("languages", languages), "Choose 1"),
+            range("height", 62, 77),
+            range("weight", 95, 195),
+            list("notes", ["Cannot be an Arcane Mechanik, Arcanist, Gun Mage, or Warcaster",
+                "Nyss bows/claymores are cheaper at charater creation",
+                "Gains +1 on Initiative and PER rolls",
+                "Gains +3 ARM against cold damage",
+                "Gains -3 ARM against fire damage"])
+        ],
+        "Nyss (IKU)": [],
+        "Ogrun": [
+            string("race", "Ogrun"),
+            number("PHY", 6),
+            number("SPD", 5),
+            number("STR", 6),
+            number("AGL", 3),
+            number("PRW", 4),
+            number("POI", 3),
+            number("INT", 3),
+            number("PER", 2),
+            list("languages", ["Molgur-Og", "Rhulic"]),
+            choices(arrayPairs("languages", languages), "Choose 1"),
+            range("height", 82, 105),
+            range("weight", 330, 500),
+            listItem("notes", "Can wield two-handed weapons in one hand but suffers -2 on attack rolls")
+        ],
+        "Pygmy Troll": [],
+        "Satyxis": [],
+        "Skorne": [],
+        "Strider": [],
+        "Tharn": [],
+        "Trollkin (FMF)": [
+            string("race", "Trollkin"),
+            number("PHY", 6),
+            number("SPD", 5),
+            number("STR", 5),
+            number("AGL", 3),
+            number("PRW", 4),
+            number("POI", 2),
+            number("INT", 3),
+            number("PER", 3),
+            listItem("languages", "Molgur-Trul"),
+            choices(arrayPairs("languages", languages), "Choose 1"),
+            range("height", 63, 84),
+            range("weight", 150, 330),
+            listItem("notes", "Trollkin cannot be Arcane Mechaniks, Arcanists, or Warcasters"),
+            list("benefits", ["Tough", "Feat: Revitalize"])
+        ],
+        "Trollkin (IKU)": []
+    };
+    
+    var castes = {
+        "Extoller": [],
+        "Outcast": [],
+        "Paingiver": [],
+        "Slave": [],
+        "Warrior": [],
+        "Worker": []
+    }
+    
+    var archetypes = {
+        "Cunning": [],
+        "Gifted (FMF)": [
+            string("archetype", "Gifted"),
+            choices(numberPairs("ARC", [2, 3]), "Focusers start with ARC 2, will weavers with ARC 3"),
+            choices(arrayPairs("benefits", ["Additional Study", "Combat Caster", "Fast Caster", "Feat: Domninator", "Feat: Powerful Caster", "Feat: Quick Cast", "Feat: Strength of Will", "Magic Sensitivity", "Rune Reader", "Warding Circle"]), "Choose 1")
+        ],
+        "Gifted (IKU)": [],
+        "Intellectual": [
+            string("archetype", "Intellectual"),
+            choices(arrayPairs("benefits", ["Battlefield Coordination", "Feat: Flawless Timing", "Feat: Prescient", "Feat: Perfect Plot", "Feat: Plan of Action", "Feat: Quick Thinking", "Feat: Unconventional Warfare", "Genius", "Hyper Perception", "Photographic Memory"]), "Choose 1"),
+            listItem("notes", "friendly models gain +1 on attack and damage rolls if within command range")
+        ],
+        "Mighty (FMF)": [
+            string("archetype", "Mighty"),
+            choices(arrayPairs("benefits", ["Beat Back", "Feat: Back Swing", "Feat: Bounding Leap", "Feat: Counter Charge", "Feat: Invulnerable", "Feat: Revitalize", "Feat: Shield Breaker", "Feat: Vendetta", "Righteous Anger", "Tough"]), "Choose 1"),
+            listItem("notes", "gains an additional die on melee damage rolls")
+        ],
+        "Mighty (IKU)": [],
+        "Skilled (FMF)": [
+            string("archetype", "Skilled"),
+            choices(arrayPairs("benefits", ["Ambidextrous", "Cagey", "Deft", "Feat: Defensive Strike", "Feat: Disarm", "Feat: Swashbuckler", "Feat: Untouchable", "Preternatural Awareness", "Sidestep", "Virtuoso"]), "Choose 1"),
+            listItem("notes", "gains an additional attack")
+        ],
+        "Skilled (IKU)": []
+    };
+    
+    var careers = {
+        "Alchemist": [
+            listItem("careers", "Alchemist"),
+            list("abilities", ["Grenadier", "Poison Resistance"]),
+            list("military skills", ["Hand Weapon", "Thrown Weapon"]),
+            list("occupational skills", ["Alchemy", "Medicine"]),
+            number("gold", 50),
+            list("gear", ["alchemist's leather", "gas mask", "travelling alchemist's kit", "grenadier's bandolier"]),
+            list("gear", ["any alchemical grenate", "any alchemical grenate", "any alchemical grenate", "any alchemical grenate", "any alchemical grenate"])
+        ],
+        "Allegiant": [],
+        "Arcane Mechanik": [
+            listItem("careers", "Arcane Mechanik"),
+            listItem("abilities", "Inscribe Formulae"),
+            choices(arrayPairs("military skills", ["Hand Weapon", "Rifle"]), "Choose 1"),
+            list("occupational skills", ["Craft (gunsmithing)", "Craft (metalworking)", "Mechanikal Engineering"]),
+            list("spells", ["Arcantrik Bolt", "Polarity Shield"]),
+            number("gold", 50),
+            listItem("gear", "rune etching kit"),
+            choices(arrayPairs("gear", ["mechanika weapon", "mechanika suit of armor"]), "Choose 1")
+        ],
+        "Arcane Tempest Gun Mage": [],
+        "Arcanist": [],
+        "Archer": [],
+        "Aristocrat": [],
+        "Artillerist": [],
+        "Ascetic": [],
+        "Assault Kommando": [],
+        "Beast Handler": [],
+        "Blackclad": [],
+        "Bloodrunner": [],
+        "Bloodtracker": [],
+        "Bloodweaver": [],
+        "Bokor": [],
+        "Bone Grinder": [],
+        "Bounty Hunter": [],
+        "Brigand": [],
+        "Bushwhacker": [],
+        "Cataphract": [],
+        "Chieftain": [],
+        "Chirurgeon": [],
+        "Chymist": [],
+        "Crucible Guard": [],
+        "Cutthroat": [],
+        "Cygnaran Warcaster": [],
+        "Deathstalker": [],
+        "Doom Reaver": [],
+        "Duelist": [],
+        "Exemplar": [],
+        "Exemplar Errant": [],
+        "Exemplar Vengar": [],
+        "Explorer": [],
+        "Extoller": [],
+        "Fell Caller": [],
+        "Fennblade": [],
+        "Ferox Rider": [],
+        "Field Mechanik": [],
+        "Flame Bringers": [],
+        "Greylord": [],
+        "Greylord Outrider": [],
+        "Gun Mage": [],
+        "Gun Mage of the Amethyst Rose": [],
+        "Guttersnipe": [],
+        "Highwayman": [],
+        "Horseman": [],
+        "Illuminated Arcanist": [],
+        "Investigator": [],
+        "Iron Fang": [],
+        "Iron Fang Uhlan": [],
+        "Ironhead": [],
+        "Khadoran Warcaster": [],
+        "Knight": [],
+        "Kriel Champion": [],
+        "Labor Korune": [],
+        "Llaelese Warcaster": [],
+        "Long Rider": [],
+        "Mage Hunter": [],
+        "Man-at-Arms": [],
+        "Man-O-War": [],
+        "Man-O-War Drakhun": [],
+        "Marine": [],
+        "Maritime Order of the Trident Arcanist": [],
+        "Military Officer": [],
+        "Mist Speaker": [],
+        "Monster Hunter": [],
+        "Mortitheurge": [],
+        "Nihilator": [],
+        "Nomad": [],
+        "Ordic Warcaster": [],
+        "Paladin": [],
+        "Pirate": [],
+        "Pistoleer": [],
+        "Praetorian": [],
+        "Priest of Cyriss": [],
+        "Priest of Menoth": [],
+        "Priest of Morrow": [],
+        "Priest of Nyssor": [],
+        "Protectorate Warcaster": [],
+        "Pugilist": [],
+        "Raider": [],
+        "Ranger": [],
+        "Raptor": [],
+        "Ravager": [],
+        "Reclaimer": [],
+        "Rhulic 'Jack Marshal": [],
+        "Rhulic Field Mechanik": [],
+        "Rhulic Warcaster": [],
+        "Rifleman": [],
+        "Ryssovass": [],
+        "Scout": [],
+        "Scrutator": [],
+        "Searforge Trader": [],
+        "Seeker": [],
+        "Shaman (Devourer Wurm)": [],
+        "Shaman (Dhunia)": [],
+        "Slaughterhouser": [],
+        "Soldier": [],
+        "Sorcerer (Fire) (FMF)": [],
+        "Sorcerer (Fire) (IKU)": [],
+        "Sorcerer (Ice) (FMF)": [],
+        "Sorcerer (Ice) (IKU)": [],
+        "Sorcerer (Stone) (FMF)": [],
+        "Sorcerer (Stone) (IKU)": [],
+        "Sorcerer (Storm) (FMF)": [],
+        "Sorcerer (Storm) (IKU)": [],
+        "Spy": [],
+        "Storm Lance": [],
+        "Stormblade": [],
+        "Stormguard": [],
+        "Stormsmith": [],
+        "Tempest Blazer": [],
+        "Thamarite Advocate": [],
+        "Thief": [],
+        "Tormentor": [],
+        "Trencher": [],
+        "Trencher Commando": [],
+        "Tyrant": [],
+        "Urban Nomad": [],
+        "Vassal of Menoth": [],
+        "Venator": [],
+        "Warcaster": [],
+        "Warcaster, Cyriss": [],
+        "Warlock, Circle": [],
+        "Warlock, Farrow": [],
+        "Warlock, Legion": [],
+        "Warlock, Swamp": [],
+        "Warlock, Trollkin": [],
+        "Warlock: Skorne": [],
+        "Warmonger": [],
+        "Warrior": [],
+        "Wolf of Orboros": [],
+        "Wolf Rider": [],
+        "Wyrmwall Bruiser": [],
+        "Wyrmwall Rider": [],
+        "Wyrmwall Veteran": []
+    };
+    
+    var adventuringCompanies = {
+        "Agents of the Crucible": [],
+        "Arcane Order": [],
+        "Army of the Western Reaches": [],
+        "Beast Hunters": [],
+        "Bonded Porters": [],
+        "Bone Grinder Hunting Party": [],
+        "Caspian Cortex Smugglers": [],
+        "Circle Orboros Conclave": [],
+        "Crusaders": [],
+        "Farrow Tribe": [],
+        "Five Fingers Transporters": [],
+        "Fringe Cultists": [],
+        "Gatorman Tribe": [],
+        "Greylords": [],
+        "Heroes of the Resistance": [],
+        "House Taberna": [],
+        "Idrian Tribe": [],
+        "Illuminated Ones": [],
+        "Intrepid Investigators": [],
+        "Khadoran Military Detail": [],
+        "Korsk Stanzynat Mustyn": [],
+        "Law Dogs": [],
+        "Mercenary Charter": [],
+        "Mystics": [],
+        "Nobile Exiles": [],
+        "Nomads": [],
+        "Northkin Kriel": [],
+        "Nyss Refugees": [],
+        "Ordic Naval Expedition": [],
+        "Outlaws": [],
+        "Pirates of the Broken Cost": [],
+        "Raiders": [],
+        "Renegades": [],
+        "Soldiers of Fortune": [],
+        "Spy Ring": [],
+        "Thamarite Sept": [],
+        "Tharn Tuath": [],
+        "The Inner Circle": [],
+        "United Kriels": [],
+        "Unlikely Heroes": [],
+        "Unorthodox Engagement Team": [],
+        "Wilderness Expedition": [],
+        "Wilderness Kriel": []
+    }
+    
+</script>
+    
+<script type="text/javascript">
+    
+    function addOption(selector) {
+        return function(key, value) {
+            if(value.length > 0) {
+                var html = $(selector).html();
+                $(selector).html(html+'\n<option value="'+key+'">'+key+'</option>');
+            }
+        }
+    }
+    
+    $.each(races, addOption("#race"));
+    $.each(castes, addOption("#caste"));
+    $.each(archetypes, addOption("#archetype"));
+    $.each(careers, addOption("#career1"));
+    $.each(careers, addOption("#career2"));
+    $.each(adventuringCompanies, addOption("#adventuring-company"));
+    
+</script>
+
 <script type="text/javascript">
     // global
     // var ikrpg
 
     var ikrpg = ikrpg || {};
     
-    function ch00se(number, choices, description) {
-        return function() {
-            var li = "";
-            li += "<li><select>"
-            choices.forEach(function(choice) {
-                
-                '<option value="alchemist">Alchemist</option>'
-                '<option value="cutthroat">Cutthroat</option>'
-                
-            });
-            li += "</select></li>"
-            $("#choices").append(li);
-        };
-    }
     
-    (function () {
+    //(function () {
     //'use strict';
         
-        // helpers
-               
-        function eq(a) {
-            return function(elem) { return elem == a; };
-        }
-        
-        function is_in(array) {
-            return function(elem) { return array.some(eq(elem)); };
-        }
-        
-        function add(a) {
-            return function(b) { return a + b; };
-        }
-        
-        function become(a) {
-            return function(b) { return a; };
-        }
-        
-        function append(a) {
-            return function(array) { return array.concat([a]); };
-        }
-        
-        function concat(array1) {
-            return function(array2) { return array1.concat(array2); };
-        }
-        
-        function add_all(new_obj) {
-            return function(old_obj) {
-                for(var key in new_obj) {
-                    if(!old_obj[key]) old_obj[key] = 0;
-                    old_obj[key] = old_obj[key] + new_obj[key];
-                }
-                return old_obj;
+        function hero() {
+            return {
+                "race": "",
+                "PHY": 0,
+                "SPD": 0,
+                "STR": 0,
+                "AGL": 0,
+                "PRW": 0,
+                "POI": 0,
+                "INT": 0,
+                "PER": 0,
+                "DEF racial modifier": 0,
+                "languages": [],
+                "height": 0,
+                "weight": 0,
+                "archetype": "",
+                "benefits": [],
+                "careers": [],
+                "abilities": [],
+                "connections": [],
+                "military skills": [],
+                "occupational skills": [],
+                "spells": [],
+                "gear": [],
+                "gold": 0,
+                "notes": []
             };
         }
         
-        function take_best(new_obj) {
-            return function(old_obj) {
-                for(var key in new_obj) {
-                    if(!old_obj[key]) old_obj[key] = new_obj[key];
-                    else if(old_obj[key] < new_obj[key]) old_obj[key] = new_obj[key];
+        function test() {
+            var data = hero();
+            
+            $(".character-generator-data input, .character-generator-data option:selected").each(function(index, entry) {
+                var elem = $(entry);
+                var clazz = elem.attr("class");
+                var value = elem.val();
+                var type = elem.attr("data-type");
+                
+                switch(type) {
+                    case "number":
+                        if(!data[clazz]) data[clazz] = parseInt(value);
+                        else data[clazz] += parseInt(value);
+                        break;
+                    case "array":
+                        if(!data[clazz]) data[clazz] = [value];
+                        else data[clazz].push(value);
+                        break;
+                    default:
+                        data[clazz] = value;
                 }
-                return old_obj;
-            };
+            });
+            
+            console.log(data);
         }
         
-        // type can be: "one of"
-        function choices(amount, choices, description) {
-            // TODO
-        }
         
-        function choose(number, property, choices, modifier, description) {
-            // TODO
-        }
-        
-        // choices: [[1, "PHY", add], ["Llaelese", "languages", append], ...]
-        
-        
-        
-        // data
-        
-        var all_archetypes = ikrpg.index.data.reduce(function(acc, obj) {
-            return obj["category"] == "Character Creation" && obj["subcategory"] == "Archetype" ? acc.concat([obj["name"]]) : acc;
-        }, []);
-        
-        var all_levels = ["hero", "veteran", "epic"];
-        
-        var all_races = ikrpg.index.data.reduce(function(acc, obj) {
-            return obj["category"] == "Character Creation" && obj["subcategory"] == "Race" ? acc.concat([obj["name"]]) : acc;
-        }, []);
-        
-        var all_careers = ikrpg.index.data.reduce(function(acc, obj) {
-            return []; // TODO obj["category"] == "Character Creation" && ["Career", "Career Option"].some(obj["subcategory"]) ? acc.concat([obj["name"]]) : acc;
-        }, []);
-        
-        var all_languages = [
-            "Aeric", "Caspian", "Cygnaran", "Gobberish", "Idrian", "Khadoran", "Khurzic", "Kossite", "Llelese",
-            "Molgur", "Molgur-Og", "Molgur-Trul", "Morridane", "Ordic", "Rhulic", "Satyx", "Scharde", "Shyr",
-            "Sulese", "Telgesh", "Thurian", "Umbrean"
-        ];
-        
-        var races = {
-            "Human": {
-                race: become("Human"),
-                PHY: add(5),
-                SPD: add(6),
-                STR: add(4),
-                AGL: add(3),
-                PRW: add(4),
-                POI: add(4),
-                INT: add(3),
-                ARC: add(0),
-                PER: add(3),
-                
-                choices: [
-                    ch00se(2, all_languages.map(function(lang) { return [lang, "languages", append]; }), "Choose two languages:"),
-                    ch00se(1, [ [1, "PHY", add], [1, "AGL", add], [1, "INT", add] ], "Choose one additional stat:")
-                ],
-                
-                choices: [
-                    choices(1, [ choose(2, "languages", all_languages, append, "Choose two languages:") ], "Choose one of the following:"),
-                    choices(1, [ choose(1, "PHY", [1], add, "Choose 1 PHY."), choose(1, "AGL", [1], add), choose(1, "INT", [1], add) ])
-                ],
-                
-                constraints: [
-                    [function(hero) { return hero.archetypes.every(is_in(["Gifted", "Intellectual", "Mighty", "Skilled"])); }, "Archetype must be one of: Gifted, Intellectual, Mighty, Skilled."],
-                    [function(hero) { return hero.level == "hero"    && hero.PHY <= 7; }, "Hero level for PHY can be at most 7."],
-                    [function(hero) { return hero.level == "veteran" && hero.PHY <= 8; }, "Veteran level for PHY can be at most 8."],
-                    [function(hero) { return hero.level == "epic"    && hero.PHY <= 8; }, "Epic level for PHY can be at most 8."],
-                    [function(hero) { return hero.level == "hero"    && hero.SPD <= 7; }, "Hero level for SPD can be at most 7."],
-                    [function(hero) { return hero.level == "veteran" && hero.SPD <= 7; }, "Veteran level for SPD can be at most 7."],
-                    [function(hero) { return hero.level == "epic"    && hero.SPD <= 7; }, "Epic level for SPD can be at most 7."],
-                    [function(hero) { return hero.level == "hero"    && hero.STR <= 6; }, "Hero level for STR can be at most 6."],
-                    [function(hero) { return hero.level == "veteran" && hero.STR <= 7; }, "Veteran level for STR can be at most 7."],
-                    [function(hero) { return hero.level == "epic"    && hero.STR <= 8; }, "Epic level for STR can be at most 8."],
-                    [function(hero) { return hero.level == "hero"    && hero.AGL <= 5; }, "Hero level for AGL can be at most 5."],
-                    [function(hero) { return hero.level == "veteran" && hero.AGL <= 6; }, "Veteran level for AGL can be at most 6."],
-                    [function(hero) { return hero.level == "epic"    && hero.AGL <= 7; }, "Epic level for AGL can be at most 7."],
-                    [function(hero) { return hero.level == "hero"    && hero.PRW <= 5; }, "Hero level for PRW can be at most 5."],
-                    [function(hero) { return hero.level == "veteran" && hero.PRW <= 6; }, "Veteran level for PRW can be at most 6."],
-                    [function(hero) { return hero.level == "epic"    && hero.PRW <= 7; }, "Epic level for PRW can be at most 7."],
-                    [function(hero) { return hero.level == "hero"    && hero.POI <= 5; }, "Hero level for POI can be at most 5."],
-                    [function(hero) { return hero.level == "veteran" && hero.POI <= 6; }, "Veteran level for POI can be at most 6."],
-                    [function(hero) { return hero.level == "epic"    && hero.POI <= 7; }, "Epic level for POI can be at most 7."],
-                    [function(hero) { return hero.level == "hero"    && hero.INT <= 5; }, "Hero level for INT can be at most 5."],
-                    [function(hero) { return hero.level == "veteran" && hero.INT <= 6; }, "Veteran level for INT can be at most 6."],
-                    [function(hero) { return hero.level == "epic"    && hero.INT <= 7; }, "Epic level for INT can be at most 7."],
-                    [function(hero) { return hero.level == "hero"    && hero.ARC <= 4; }, "Hero level for ARC can be at most 4."],
-                    [function(hero) { return hero.level == "veteran" && hero.ARC <= 6; }, "Veteran level for ARC can be at most 6."],
-                    [function(hero) { return hero.level == "epic"    && hero.ARC <= 8; }, "Epic level for ARC can be at most 8."],
-                    [function(hero) { return hero.level == "hero"    && hero.PER <= 5; }, "Hero level for PER can be at most 5."],
-                    [function(hero) { return hero.level == "veteran" && hero.PER <= 6; }, "Veteran level for PER can be at most 6."],
-                    [function(hero) { return hero.level == "epic"    && hero.PER <= 7; }, "Epic level for PER can be at most 7."],
-                ]
+        function mkString(array, between, before, after) {
+            var str = "";
+            
+            if(before) str += before;
+            if(array.length > 0) {
+                str += array.slice(0, 1);
+                $.each(array.slice(1, array.length), function(index, entry) {
+                    if(between) str += between;
+                    str += entry;
+                });
             }
-        };
-        
-        var archetypes = {
-          //"Gifted": {
-          //    archetype: become("Gifted"),
-          //    "possible benefits": concat(["Additional Studies", "Combat Caster", "Fast Caster", "Feat: Dominator", "Feat: Powerful Caster", "Feat: Quick Cast", "Feat: Strength of Will", "Magic Sensitivity", "Rune Reader", "Warding Circle"]),
-          //    
-          //    choices: [
-          //        choices(1, [ choose(1, "benefits", archetypes["Gifted"]["possible benefits"]([]), append) ])
-          //    ],
-          //    
-          //    constraints: [
-          //        [function(hero) { return hero.benefits.every(is_in(hero["possible benefits"])); }, ""]
-          //    ]
-          //}
-        };
-        
-        var careers = {
-          //"Alchemist": {
-          //    careers: append("Alchemist"),
-          //    abilities: concat(["Grenadier", "Poison Resistance"]),
-          //    "military skills": add_all({ "Hand Weapon": 1, "Thrown Weapon": 1 }),
-          //    "occupational skills": add_all({ "Alchemy": 1, "Medicine": 1 }),
-          //    "gold coins": add(50),
-          //    "starting assets": concat(["alchemist's leather", "gas mask", "traveling alchemist's kit, any five alchemical grenades", "grenadier's bandolier"]),
-          //    "possible abilities": concat(["Bomber", "Brew Master", "Fast Cook", "Field Alchemist", "Fire in the Hole!", "Free Style", "Grenadier", "Poison Resistance"]),
-          //    "possible connections": append("alchemical order"),
-          //    "possible military skills": take_best({ "Hand Weapon": 2, "Thrown Weapon": 4, "Unarmed Combat": 2 }),
-          //    "possible occupational skills": take_best({ "Alchemy": 4 }) // CONTINUE HERE WITH CRAFT(ANY)
-          //}
-        };
+            if(after) str += after;
+            
+            return str;
+        }
         
         
+        function lookupAndFillOut(selectSelector, dataSelector, data) {
+            return function(event) {
+                $(dataSelector).html("");
+            
+                var option = $(selectSelector).val();
+                if(data[option]) {
+                    var stuff = data[option];
+                    $(dataSelector).html("");
+                    $.each(stuff, function(index, entry) {
+                        var html = $(dataSelector).html();
+                        $(dataSelector).html(html+"\n"+entry.html());
+                    });
+                } else {
+                    // TODO: option does not exist!
+                }
+            };
+        }
+        
+        $("#race").change(lookupAndFillOut("#race", "#race-data", races));
+        $("#caste").change(lookupAndFillOut("#caste", "#caste-data", castes));
+        $("#archetype").change(lookupAndFillOut("#archetype", "#archetype-data", archetypes));
+        $("#career1").change(lookupAndFillOut("#career1", "#career1-data", careers));
+        $("#career2").change(lookupAndFillOut("#career2", "#career2-data", careers));
+        $("#adventuring-company").change(lookupAndFillOut("#adventuring-company", "#adventuring-company-data", adventuringCompanies));
         
         
         // generator
         ikrpg.generator = {
             
-            hero: {
-                race: "",
-                archetype: "",
-                careers: [],
-                level: "hero",
-                PHY: 0,
-                SPD: 0,
-                STR: 0,
-                AGL: 0,
-                PRW: 0,
-                POI: 0,
-                INT: 0,
-                ARC: 0,
-                PER: 0,
-                languages: [],
-                "possible benefits": [],
-                benefits: [],
-                careers: [],
-                "possible abilities": [],
-                abilities: [],
-                "possible military skills": {},
-                "military skills": {},
-                "possible connections": [],
-                connections: [],
-                "possible occupational skills": {},
-                "occupational skills": {},
-                "gold coins": 0,
-                "starting assets": [],
-                
-                constraints: [
-                  //[function(hero) { return is_in(all_races)(hero.race); },            "Hero race must be one of: "+all_races.join(", ")+"."],
-                  //[function(hero) { return is_in(all_archetypes)(hero.archetype); },  "Hero archetype must be one of: "+all_archetypes.join(", ")+"."],
-                  //[function(hero) { return hero.careers.every(is_in(all_careers)); }, "Hero careers must be in: "+all_careers.join(", ")+"."],
-                  //[function(hero) { return is_in(all_levels)(hero.level); },          "Hero level must be one of: "+all_levels.join(", ")+"."],
-                  //// all_benefits
-                  //// Ability level constraint (hero -> 2, veteran -> 3, epic -> 4)
-                ]
-            }
+            //hero: {
+            //    race: "",
+            //    PHY: 0,
+            //    SPD: 0,
+            //    STR: 0,
+            //    AGL: 0,
+            //    PRW: 0,
+            //    POI: 0,
+            //    INT: 0,
+            //    ARC: 0,
+            //    PER: 0,
+            //    //archetype: "",
+            //    //careers: [],
+            //    //level: "hero",
+            //    //languages: [],
+            //    //benefits: [],
+            //    //careers: [],
+            //    //abilities: [],
+            //    //"military skills": {},
+            //    //connections: [],
+            //    //"occupational skills": {},
+            //    //"gold coins": 0,
+            //    //"starting assets": []
+            //}
             
         };
         
-    })();
+    //})();
 </script>
