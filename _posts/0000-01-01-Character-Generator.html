@@ -3,6 +3,51 @@ layout: ikrpg
 tags: [Character Generator]
 ---
 
+<script type="text/todos">
+    
+    Simple:
+    S010: Add all races, careers, etc.
+    S020: "overflow" input fields
+    S030: Fill out Skill Parent Set Value (M020)
+    S040: Compute Skill sum (S030)
+    S050: Benefit descriptions and pages (M030)
+    S060: Ability descriptions and pages (M040)
+    S070: Fill Melee Weapon data (M050)
+    S080: Fill Ranged Weapon data (M060)
+    S090: Fill Arcane Tradition
+    Done: S100: Fill Languages
+    S110: Connections descriptions and pages (M080)
+    S120: Connection descriptions and pages (M150)
+    
+    Medium:
+    M010: Armor DB
+    M020: Skill DB
+    M030: Benefit DB
+    M040: Ability DB
+    M050: Melee Weapon DB
+    M060: Ranged Weapon DB
+    M070: Gear DB
+    M080: Connections DB
+    M090: Mechanika DB
+    M100: Runeplate DB
+    M110: Capacitor DB
+    M120: Steamjack DB
+    M130: Riding DB
+    M140: Character Portraits
+    M150: Connection DB
+    
+    Complex:
+    C010: Track Equipment Modifiers (M010, M040, M050, M060, M070)
+    C020: compute DEF, ARM, INI, etc. (C010)
+    C030: Mechanika Widget (M090)
+    C040: Runeplate Widget (M100)
+    C050: Capacitor Widget (M110)
+    C060: Steamjack Widget (M120)
+    C070: Riding Widget (M130)
+    C080: Leveling
+    
+</script>
+
 <style>
     div.data label { display: block; }
     .character-generator-table tbody td:nth-of-type(2) { text-align: left; }
@@ -118,7 +163,7 @@ tags: [Character Generator]
 
 
 <div><a href="javascript:test()">test</a></div>
-    
+
 
 <script type="text/javascript">
     // global
@@ -376,7 +421,7 @@ tags: [Character Generator]
                 range(_height, 47, 60),
                 range(_weight, 105, 190),
                 listItem(_abilities, "Load Bearing"),
-                listItem(_connections, "Connection (dwarven clan)")
+                listItem(_connections, "dwarven clan")
             ],
             "Efaarit": [],
             "Farrow": [],
@@ -674,7 +719,7 @@ tags: [Character Generator]
                 listItem(_careers, "Aristocrat"),
                 list(_abilities, ["Good Breeding", "Privilege"]),
                 choices(arrayPairs(_languages, languages), "Choose 1"),
-                listItem(_connections, "Connections (nobility)"),
+                listItem(_connections, "nobility"),
                 listItem(_military_skills, "Hand Weapon"),
                 choices(arrayPairs(_military_skills, [
                     "Archery",
@@ -744,7 +789,7 @@ tags: [Character Generator]
                 listItem(_careers, "Explorer"),
                 list(_abilities, ["Big Game Hunter", "Port of Call"]),
                 choices(arrayPairs(_languages, languages), "Choose 1"),
-                listItem(_connections, "Connections (patron)"),
+                listItem(_connections, "patron"),
                 choices(arrayPairs(_military_skills, [
                     "Archery",
                     "Hand Weapon",
@@ -853,7 +898,7 @@ tags: [Character Generator]
                 list(_abilities, [
                     "Fast Rearm (Blasting Pike)",
                     "Specialization (Blasting Pike)"]),
-                listItem(_connections, "Connections (Khadoran military)"),
+                listItem(_connections, "Khadoran military"),
                 list(_military_skills, ["Great Weapon", "Shield"]),
                 list(_occupational_skills, ["Command", "Survival"]),
                 number(_gold, 25),
@@ -870,7 +915,7 @@ tags: [Character Generator]
             "Knight": [
                 listItem(_careers, "Knight"),
                 list(_abilities, ["Cleave", "Defender"]),
-                listItem(_connections, "Connections (knightly order)"),
+                listItem(_connections, "knightly order"),
                 list(_military_skills, ["Great Weapon", "Hand Weapon", "Shield"]),
                 list(_occupational_skills, [
                     "Command",
@@ -885,7 +930,7 @@ tags: [Character Generator]
             "Mage Hunter": [
                 listItem(_careers, "Mage Hunter"),
                 list(_abilities, ["Arcane Assassin", "Iron Will"]),
-                listItem(_connections, "Connections (Retribution of Scyrah)"),
+                listItem(_connections, "Retribution of Scyrah"),
                 listItem(_military_skills, "Hand Weapon"),
                 choices(arrayPairs(_military_skills, [
                     "Archery",
@@ -966,7 +1011,7 @@ tags: [Character Generator]
             "Priest of Menoth": [
                 listItem(_careers, "Priest of Menoth"),
                 listItem(_abilities, "Dispel"),
-                listItem(_connections, "Connections (Menite temple)"),
+                listItem(_connections, "Menite temple"),
                 choices(arrayPairs(_military_skills, [
                     "Great Weapon",
                     "Hand Weapon"]), "Choose 1"),
@@ -977,7 +1022,7 @@ tags: [Character Generator]
             "Priest of Morrow": [
                 listItem(_careers, "Priest of Morrow"),
                 listItem(_abilities, "Empower"),
-                listItem(_connections, "Connections (Morrowan temple)"),
+                listItem(_connections, "Morrowan temple"),
                 choices(arrayPairs(_military_skills, [
                     "Great Weapon",
                     "Hand Weapon"]), "Choose 1"),
@@ -1074,6 +1119,7 @@ tags: [Character Generator]
             "Sorcerer (Stone) (FMF)": [
                 listItem(_careers, "Sorcerer (Stone)"),
                 number(_PHY, 1),
+                number(_PHY_max, 1),
                 choices(arrayPairs(_military_skills, [
                     "Archery",
                     "Crossbow",
@@ -1099,7 +1145,7 @@ tags: [Character Generator]
                 listItem(_careers, "Spy"),
                 list(_abilities, ["Battle Plan: Shadow", "Cover Identity"]),
                 choices(arrayPairs(_languages, languages), "Choose 1"),
-                listItem(_connections, "Connections (intelligence network)"),
+                listItem(_connections, "intelligence network"),
                 choices(arrayPairs(_military_skills, [
                     "Hand Weapon",
                     "Pistol",
@@ -1118,7 +1164,7 @@ tags: [Character Generator]
                 listItem(_careers, "Stormblade"),
                 listItem(_notes, "Must choose between Aristocrat, Knight, Man-at-Arms, Military Officer, Soldier, or Warcaster for second career"),
                 list(_abilities, ["Blaster", "Specialization (Storm Glaive)"]),
-                listItem(_connections, "Connections (Cygnaran military)"),
+                listItem(_connections, "Cygnaran military"),
                 listItem(_military_skills, "Great Weapon"),
                 list(_occupational_skills, ["Command", "Detection", "Etiquette"]),
                 listItem(_melee_weapons, "Storm Glaive"),
@@ -1152,7 +1198,7 @@ tags: [Character Generator]
                 listItem(_careers, "Trencher"),
                 listItem(_notes, "Must choose between Military Officer, Ranger, Rifleman, Soldier, or Warcaster for second career"),
                 list(_abilities, ["Bayonet Charge", "Dig In"]),
-                listItem(_connections, "Connections (Cygnaran military)"),
+                listItem(_connections, "Cygnaran military"),
                 list(_military_skills, ["Great Weapon", "Rifle", "Thrown Weapon"]),
                 list(_occupational_skills, ["Command", "Detection"]),
                 number(_gold, 25),
@@ -1261,7 +1307,7 @@ tags: [Character Generator]
                 list(_notes, [
                     "All characters must either be an Alchemist, Cutthroat, Duelist, Highwayman, Pistoleer, Rifleman, Sorcerer, Spy, or Thief",
                     "One character is the boss" ]),
-                list(_abilities, ["Gang", "Language (Five Cant)"])
+                list(_languages, ["Gang", "Five Cant"])
             ],
             "Pirates of the Broken Cost": [
                 string(_adventuring_company, "Pirates of the Broken Cost"),
@@ -1488,7 +1534,8 @@ tags: [Character Generator]
             "defracialmodifier": data["defracialmodifier"],
             "note1": {"text": "Adventuring company: "+data["adventuring company"]},
             "gold": data["gold"],
-            "XP": 0
+            "xp": 0,
+            "feats": 3
         };
                 
         $.each($.merge(data["benefits"], data["abilities"]) || [], function(index, ability) {
@@ -1535,6 +1582,16 @@ tags: [Character Generator]
         $.each(data["notes"] || [], function(index, note) {
             character["note"+(index+2)] = character["note"+(index+2)] || {};
             character["note"+(index+2)]["text"] = note;
+        });
+        
+        $.each(data["languages"] || [], function(index, language) {
+            if(index < 3) character["spokenlanguage"+(index+1)] = language;
+            else character["spokenlanguage"+((index % 3)+1)] += ", "+language;
+        });
+        
+        $.each(data["connections"] || [], function(index, connection) {
+            character["connection"+(index+1)] = character["connection"+(index+1)] || {};
+            character["connection"+(index+1)]["name"] = connection;
         });
         
         console.log(character)
@@ -1622,8 +1679,18 @@ tags: [Character Generator]
     .character-sheet #definingcharacteristics { margin: 20px 0 0 300px; width: 304px; }
     .character-sheet #weight { margin: 20px 0 0 619px; width: 82px; }
     .character-sheet #archetype { margin: 48px 0 0 4px; width: 86px; }
+    /*
+    .character-sheet #archetype-div { position: absolute; margin: 45px 0 0 4px; max-width: 500px; overflow: hidden; }
+    .character-sheet #archetype { display: inline-block; min-width: 86px; font-size: 13px; height: 15px; padding: 2px 1px; font-family: Arial; color: black; 
+        border-style: solid;
+        border-width: 3px;
+        border-color: transparent;
+        border-radius: 4px;
+     }
+    .character-sheet #archetype:focus { border-color: rgba(59, 153, 252, 0.35); outline: none; }
+    */
     .character-sheet #race { margin: 48px 0 0 105px; width: 78px; }
-    .character-sheet #careers { margin: 48px 0 0 198px; width: 126px; }
+    .character-sheet #careers { margin: 48px 0 0 198px; width: 221px; }
     .character-sheet #faith { margin: 48px 0 0 333px; width: 86px; }
     .character-sheet #playername { margin: 48px 0 0 433px; width: 172px; }
     .character-sheet #height { margin: 48px 0 0 619px; width: 82px; }
@@ -1655,7 +1722,7 @@ tags: [Character Generator]
     .character-sheet #rat1 .rat { margin: 106px 0 0 375px; width: 25px; text-align: center; }
     .character-sheet #rat1 .aoe {}
     .character-sheet #rat1 .pow { margin: 106px 0 0 409px; width: 25px; text-align: center; }
-    .character-sheet #rat1 .notes { margin: 138px 0 0 224px; width: 103px; }
+    .character-sheet #rat1 .notes { margin: 138px 0 0 224px; width: 216px; }
     .character-sheet #rat1 .ammo { margin: 138px 0 0 341px; width: 99px; }
     .character-sheet #rat2 { display: block !important; }
     .character-sheet #rat2 .name { margin: 182px 0 0 224px; width: 103px; }
@@ -1663,7 +1730,7 @@ tags: [Character Generator]
     .character-sheet #rat2 .rat { margin: 174px 0 0 375px; width: 25px; text-align: center; }
     .character-sheet #rat2 .aoe {}
     .character-sheet #rat2 .pow { margin: 174px 0 0 409px; width: 25px; text-align: center; }
-    .character-sheet #rat2 .notes { margin: 206px 0 0 224px; width: 103px; }
+    .character-sheet #rat2 .notes { margin: 206px 0 0 224px; width: 216px; }
     .character-sheet #rat2 .ammo { margin: 206px 0 0 341px; width: 99px; }
     .character-sheet #mat1 { display: block !important; }
     .character-sheet #mat1 .name { margin: 265px 0 0 224px; width: 140px; }
@@ -1697,60 +1764,171 @@ tags: [Character Generator]
     .character-sheet #cmdcommandskill { margin: 668px 0 0 289px; width: 34px; font-size: 20px; text-align: center; }
     .character-sheet #cmdabilitymodifier { margin: 668px 0 0 344px; width: 34px; font-size: 20px; text-align: center; }
     .character-sheet #cmd { margin: 668px 0 0 399px; width: 34px; font-size: 20px; text-align: center; }
-    .character-sheet div.stat .title { margin: 2px 0 0 460px; width: 105px; }
-    .character-sheet div.stat .base { margin: 2px 0 0 570px; width: 15px; text-align: center; }
-    .character-sheet div.stat .lvl { margin: 2px 0 0 610px; width: 15px; text-align: center; }
-    .character-sheet div.stat .sum { margin: 2px 0 0 643px; width: 15px; text-align: center; }
-    .character-sheet div.stat { position: absolute; }
-    .character-sheet div#s1 { margin-top: 120px; }
-    .character-sheet div#s2 { margin-top: 141px; }
-    .character-sheet div#s3 { margin-top: 162px; }
-    .character-sheet div#s4 { margin-top: 184px; }
-    .character-sheet div#s5 { margin-top: 205px; }
-    .character-sheet div#s6 { margin-top: 226px; }
-    .character-sheet div#s7 { margin-top: 247px; }
-    .character-sheet div#s8 { margin-top: 269px; }
-    .character-sheet div#s9 { margin-top: 290px; }
-    .character-sheet div#s10 { margin-top: 311px; }
-    .character-sheet div#s11 { margin-top: 332px; }
-    .character-sheet div#s12 { margin-top: 353px; }
-    .character-sheet div#s13 { margin-top: 374px; }
-    .character-sheet div#s14 { margin-top: 396px; }
-    .character-sheet div#s15 { margin-top: 417px; }
-    .character-sheet div#s16 { margin-top: 438px; }
-    .character-sheet div#s17 { margin-top: 459px; }
-    .character-sheet div#s18 {}
-    .character-sheet div#s19 {}
-    .character-sheet div#s20 {}
-    .character-sheet div#s21 {}
-    .character-sheet div.ability { position: absolute; }
-    .character-sheet div.ability .title { margin-left: 689px; width: 100px; }
-    .character-sheet div.ability .description { margin-left: 796px; width: 150px; }
-    .character-sheet div.ability .page { margin-left: 946px; width: 28px; text-align: right; }
-    .character-sheet div#ability1 { margin-top: 135px; }
-    .character-sheet div#ability2 { margin-top: 156px; }
-    .character-sheet div#ability3 { margin-top: 177px; }
-    .character-sheet div#ability4 { margin-top: 198px; }
-    .character-sheet div#ability5 { margin-top: 219px; }
-    .character-sheet div#ability6 { margin-top: 240px; }
-    .character-sheet div#ability7 { margin-top: 261px; }
-    .character-sheet div#ability8 { margin-top: 282px; }
-    .character-sheet div#ability9 { margin-top: 303px; }
-    .character-sheet div#ability10 { margin-top: 324px; }
-    .character-sheet div#ability11 { margin-top: 345px; }
-    .character-sheet div#ability12 { margin-top: 366px; }
-    .character-sheet div#ability13 { margin-top: 387px; }
-    .character-sheet div#ability14 { margin-top: 408px; }
-    .character-sheet div#ability15 { margin-top: 429px; }
-    .character-sheet div#ability16 { margin-top: 450px; }
-    .character-sheet div#ability17 { margin-top: 471px; }
-    .character-sheet div#ability18 { margin-top: 492px; }
-    .character-sheet div#ability19 { margin-top: 513px; }
-    .character-sheet div#ability20 { margin-top: 534px; }
+    .character-sheet .stat .title { margin: 2px 0 0 460px; width: 105px; }
+    .character-sheet .stat .base { margin: 2px 0 0 570px; width: 15px; text-align: center; }
+    .character-sheet .stat .lvl { margin: 2px 0 0 610px; width: 15px; text-align: center; }
+    .character-sheet .stat .sum { margin: 2px 0 0 643px; width: 15px; text-align: center; }
+    .character-sheet .stat { position: absolute; }
+    .character-sheet #s1 { margin-top: 120px; }
+    .character-sheet #s2 { margin-top: 141px; }
+    .character-sheet #s3 { margin-top: 162px; }
+    .character-sheet #s4 { margin-top: 184px; }
+    .character-sheet #s5 { margin-top: 205px; }
+    .character-sheet #s6 { margin-top: 226px; }
+    .character-sheet #s7 { margin-top: 247px; }
+    .character-sheet #s8 { margin-top: 269px; }
+    .character-sheet #s9 { margin-top: 290px; }
+    .character-sheet #s10 { margin-top: 311px; }
+    .character-sheet #s11 { margin-top: 332px; }
+    .character-sheet #s12 { margin-top: 353px; }
+    .character-sheet #s13 { margin-top: 374px; }
+    .character-sheet #s14 { margin-top: 396px; }
+    .character-sheet #s15 { margin-top: 417px; }
+    .character-sheet #s16 { margin-top: 438px; }
+    .character-sheet #s17 { margin-top: 459px; }
+    .character-sheet #s18 {}
+    .character-sheet #s19 {}
+    .character-sheet #s20 {}
+    .character-sheet #s21 {}
+    .character-sheet .ability { position: absolute; }
+    .character-sheet .ability .title { margin-left: 689px; width: 285px; }
+    .character-sheet .ability .description { margin-left: 796px; width: 178px; }
+    .character-sheet .ability .page { margin-left: 946px; width: 28px; text-align: right; }
+    .character-sheet #ability1 { margin-top: 135px; }
+    .character-sheet #ability2 { margin-top: 156px; }
+    .character-sheet #ability3 { margin-top: 177px; }
+    .character-sheet #ability4 { margin-top: 198px; }
+    .character-sheet #ability5 { margin-top: 219px; }
+    .character-sheet #ability6 { margin-top: 240px; }
+    .character-sheet #ability7 { margin-top: 261px; }
+    .character-sheet #ability8 { margin-top: 282px; }
+    .character-sheet #ability9 { margin-top: 303px; }
+    .character-sheet #ability10 { margin-top: 324px; }
+    .character-sheet #ability11 { margin-top: 345px; }
+    .character-sheet #ability12 { margin-top: 366px; }
+    .character-sheet #ability13 { margin-top: 387px; }
+    .character-sheet #ability14 { margin-top: 408px; }
+    .character-sheet #ability15 { margin-top: 429px; }
+    .character-sheet #ability16 { margin-top: 450px; }
+    .character-sheet #ability17 { margin-top: 471px; }
+    .character-sheet #ability18 { margin-top: 492px; }
+    .character-sheet #ability19 { margin-top: 513px; }
+    .character-sheet #ability20 { margin-top: 534px; }
     .character-sheet #feats { font-size: 40px; margin: 606px 0 0 698px; width: 51px; text-align: center; }
     
     .character-sheet .gear { position: absolute; margin-left: 5px; }
-    .character-sheet .gear .title { width: 125px; }
+    .character-sheet .gear .title { width: 285px; }
+    .character-sheet .gear .benefit { margin-left: 125px; width: 160px; }
+    .character-sheet #gear1 { margin-top: 35px; }
+    .character-sheet #gear2 { margin-top: 55px; }
+    .character-sheet #gear3 { margin-top: 75px; }
+    .character-sheet #gear4 { margin-top: 94px; }
+    .character-sheet #gear5 { margin-top: 114px; }
+    .character-sheet #gear6 { margin-top: 134px; }
+    .character-sheet #gear7 { margin-top: 154px; }
+    .character-sheet #gear8 { margin-top: 174px; }
+    .character-sheet #gear9 { margin-top: 194px; }
+    .character-sheet #gear10 { margin-top: 214px; }
+    .character-sheet #gear11 { margin-top: 234px; }
+    .character-sheet #gear12 { margin-top: 254px; }
+    .character-sheet #gear13 { margin-top: 273px; }
+    .character-sheet #gear14 { margin-top: 293px; }
+    .character-sheet #gear15 { margin-top: 313px; }
+    .character-sheet #gear16 { margin-top: 333px; }
+    .character-sheet #gear17 { margin-top: 353px; }
+    .character-sheet #gear18 { margin-top: 373px; }
+    .character-sheet #gear19 { margin-top: 393px; }
+    .character-sheet .wornarmor { position: absolute; margin-left: 5px; }
+    .character-sheet .wornarmor .name { width: 70px; }
+    .character-sheet .wornarmor .notes { margin-left: 75px; width: 108px; }
+    .character-sheet .wornarmor .spd { margin-left: 186px; width: 17px; text-align: center; }
+    .character-sheet .wornarmor .def { margin-left: 225px; width: 17px; text-align: center; }
+    .character-sheet .wornarmor .arm { margin-left: 260px; width: 17px; text-align: center; }
+    .character-sheet #wornarmor1 { margin-top: 465px; }
+    .character-sheet #wornarmor2 { margin-top: 485px; }
+    .character-sheet #wornarmor3 { margin-top: 505px; }
+    .character-sheet #wornarmor4 { margin-top: 525px; }
+    .character-sheet .connection { position: absolute; margin-left: 5px; }
+    .character-sheet .connection .name { width: 286px; }
+    .character-sheet .connection .notes { margin-left: 98px; width: 188px; }
+    .character-sheet .connection .page { margin-left: 238px; width: 48px; text-align: right; }
+    .character-sheet #connection1 { margin-top: 597px; }
+    .character-sheet #connection2 { margin-top: 617px; }
+    .character-sheet #connection3 { margin-top: 637px; }
+    .character-sheet #connection4 { margin-top: 657px; }
+    .character-sheet #arcanetradition { position: absolute; margin: 9px 0 0 398px; width: 256px; }
+    .character-sheet .spell { position: absolute; margin-left: 312px; }
+    .character-sheet .spell .title { width: 134px; }
+    .character-sheet .spell .cost { margin-left: 140px; width: 33px; text-align: center; }
+    .character-sheet .spell .rng { margin-left: 178px; width: 32px; text-align: center; }
+    .character-sheet .spell .aoe { margin-left: 215px; width: 32px; text-align: center; }
+    .character-sheet .spell .pow { margin-left: 252px; width: 33px; text-align: center; }
+    .character-sheet .spell .up { margin-left: 290px; width: 32px; text-align: center; }
+    .character-sheet .spell .off { margin-left: 327px; width: 28px; text-align: center; }
+    .character-sheet .spell .description { margin-top: 23px; width: 355px; }
+    .character-sheet #spell1 { margin-top: 47px; }
+    .character-sheet #spell2 { margin-top: 97px; }
+    .character-sheet #spell3 { margin-top: 147px; }
+    .character-sheet #spell4 { margin-top: 197px; }
+    .character-sheet #spell5 { margin-top: 247px; }
+    .character-sheet #spell6 { margin-top: 296px; }
+    .character-sheet #spell7 { margin-top: 345px; }
+    .character-sheet #spell8 { margin-top: 395px; }
+    .character-sheet .iku .mechanika { display: none; }
+    .character-sheet .mechanika { position: absolute; margin-left: 312px; }
+    .character-sheet .mechanika .housing { width: 84px; }
+    .character-sheet .mechanika .runeplate { margin-left: 90px; width: 84px; }
+    .character-sheet .mechanika .capacitor { margin-left: 180px; width: 84px; }
+    .character-sheet .mechanika .notes { margin-left: 270px; width: 84px; }
+    .character-sheet #mechanika1 { margin-top: 483px; }
+    .character-sheet #mechanika2 { margin-top: 503px; }
+    .character-sheet #mechanika3 { margin-top: 523px; }
+    .character-sheet #mechanika4 { margin-top: 543px; }
+    .character-sheet #mechanika5 { margin-top: 563px; }
+    .character-sheet .iku .runeplate { display: none; }
+    .character-sheet .runeplate { position: absolute; margin-left: 312px; }
+    .character-sheet .runeplate .title { width: 84px; }
+    .character-sheet .runeplate .benefit { margin-left: 90px; width: 78px; }
+    .character-sheet #runeplate1 { margin-top: 599px; }
+    .character-sheet #runeplate2 { margin-top: 619px; }
+    .character-sheet #runeplate3 { margin-top: 639px; }
+    .character-sheet #runeplate4 { margin-top: 659px; }
+    .character-sheet .iku .capacitor { display: none; }
+    .character-sheet .capacitor { position: absolute; margin-left: 498px; }
+    .character-sheet .capacitor .title { width: 78px; }
+    .character-sheet .capacitor .charges { margin-left: 84px; width: 84px; }
+    .character-sheet #capacitor1 { margin-top: 599px; }
+    .character-sheet #capacitor2 { margin-top: 619px; }
+    .character-sheet #capacitor3 { margin-top: 639px; }
+    .character-sheet #capacitor4 { margin-top: 659px; }
+    .character-sheet .note { position: absolute; margin-left: 698px; }
+    .character-sheet .note .text { width: 265px; }
+    .character-sheet #note1 { margin-top: 35px; }
+    .character-sheet #note2 { margin-top: 54px; }
+    .character-sheet #note3 { margin-top: 73px; }
+    .character-sheet #note4 { margin-top: 92px; }
+    .character-sheet #note5 { margin-top: 110px; }
+    .character-sheet #note6 { margin-top: 129px; }
+    .character-sheet #note7 { margin-top: 148px; }
+    .character-sheet #note8 { margin-top: 166px; }
+    .character-sheet #note9 { margin-top: 185px; }
+    .character-sheet #note10 { margin-top: 204px; }
+    .character-sheet #note11 { margin-top: 223px; }
+    .character-sheet #note12 { margin-top: 242px; }
+    .character-sheet #permanentinjury1 { position: absolute; margin-top: 307px; margin-left: 698px; width: 265px; }
+    .character-sheet #permanentinjury2 { position: absolute; margin-top: 327px; margin-left: 698px; width: 265px; }
+    .character-sheet #permanentinjury3 { position: absolute; margin-top: 347px; margin-left: 698px; width: 265px; }
+    .character-sheet #spokenlanguage1 { position: absolute; margin-top: 408px; margin-left: 698px; width: 265px; }
+    .character-sheet #spokenlanguage2 { position: absolute; margin-top: 428px; margin-left: 698px; width: 265px; }
+    .character-sheet #spokenlanguage3 { position: absolute; margin-top: 448px; margin-left: 698px; width: 265px; }
+    .character-sheet #religiousbelief1 { position: absolute; margin-top: 509px; margin-left: 698px; width: 265px; }
+    .character-sheet #religiousbelief2 { position: absolute; margin-top: 529px; margin-left: 698px; width: 265px; }
+    .character-sheet #religiousbelief3 { position: absolute; margin-top: 549px; margin-left: 698px; width: 265px; }
+    .character-sheet #gold { position: absolute; margin-top: 610px; margin-left: 698px; font-size: 50px; width: 100px; text-align: right; }
+    
+    /*
+    .character-sheet .gear { position: absolute; margin-left: 5px; }
+    .character-sheet .gear .title { width: 285px; }
     .character-sheet .gear .benefit { margin-left: 125px; width: 160px; }
     .character-sheet #gear1 { margin-top: 38px; }
     .character-sheet #gear2 { margin-top: 58px; }
@@ -1858,6 +2036,7 @@ tags: [Character Generator]
     .character-sheet #religiousbelief2 { position: absolute; margin-top: 532px; margin-left: 698px; width: 265px; }
     .character-sheet #religiousbelief3 { position: absolute; margin-top: 552px; margin-left: 698px; width: 265px; }
     .character-sheet #gold { position: absolute; margin-top: 613px; margin-left: 698px; font-size: 50px; width: 100px; text-align: right; }
+    */
     
     @media print {
         html { zoom: 140%; }
@@ -1951,6 +2130,9 @@ tags: [Character Generator]
     <input id="definingcharacteristics" title="Defining Characteristics" type="text" />
     <input id="weight" title="Weight" type="text" />
     <input id="archetype" title="Archetype" type="text" />
+    <!--div id="archetype-div">
+        <span id="archetype" contenteditable="true"></span>
+    </div-->
     <input id="race" title="Race" type="text" />
     <input id="careers" title="Careers" type="text" />
     <input id="faith" title="Faith" type="text" />

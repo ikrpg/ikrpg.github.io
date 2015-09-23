@@ -13,11 +13,13 @@ var ikrpg = ikrpg || {};
     function clean(object) {
       $.each(object, function(key, value) {
         if($.type(value) === "object") {
-          clean(value);
+          object[key] = clean(value);
         } else {
           object[key] = "";
         }
       });
+      
+      return object;
     }
     
     clean(ikrpg.cards.data);
