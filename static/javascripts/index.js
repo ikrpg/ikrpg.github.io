@@ -8607,14 +8607,6 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Naval Warcaster Armor",
-      publication: "Kings, Nations, and Gods",
-      page:        "307",
-      category:    "Armory",
-      subcategory: "Armor",
-      game:        "FMF"
-    },
-    {
       name:        "Nyss Leather Armor",
       publication: "Unleashed Core Rules",
       page:        "308",
@@ -15379,9 +15371,25 @@ var ikrpg = ikrpg || {};
     },
     // ##### Mechanika > Mechanikal Armor ##### \\
     {
+      name:        "Naval Warcaster Armor",
+      publication: "Kings, Nations, and Gods",
+      page:        "307",
+      category:    "Mechanika",
+      subcategory: "Mechanikal Armor",
+      game:        "FMF"
+    },
+    {
       name:        "Opifex Armor",
       publication: "No Quarter #48",
       page:        "69",
+      category:    "Mechanika",
+      subcategory: "Mechanikal Armor",
+      game:        "FMF"
+    },
+    {
+      name:        "Warcaster Armor, heavy",
+      publication: "Core Rules",
+      page:        "290",
       category:    "Mechanika",
       subcategory: "Mechanikal Armor",
       game:        "FMF"
@@ -15398,14 +15406,6 @@ var ikrpg = ikrpg || {};
       name:        "Warcaster Armor, medium",
       publication: "Core Rules",
       page:        "289",
-      category:    "Mechanika",
-      subcategory: "Mechanikal Armor",
-      game:        "FMF"
-    },
-    {
-      name:        "Warcaster Armor, heavy",
-      publication: "Core Rules",
-      page:        "290",
       category:    "Mechanika",
       subcategory: "Mechanikal Armor",
       game:        "FMF"
@@ -20595,7 +20595,7 @@ var ikrpg = ikrpg || {};
     {
       name:        "Chymistry",
       publication: "Skorne Empire",
-      page:        "69",
+      page:        "68",
       category:    "Skill",
       subcategory: "Occupational Skill",
       game:        "IKU"

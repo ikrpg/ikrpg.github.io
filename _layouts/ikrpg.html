@@ -2,11 +2,11 @@
 <html manifest="/ikrpg.appcache">
     <head>
         <meta charset="UTF-8" />
-		<!--meta name="viewport" content="width=device-width;" /-->
         <title>{{ page.title }}</title>
         <meta name="description" content="Unofficial Iron Kingdoms Role Playing Game (IKRPG) Resources: IKRPG content index and character sheets." />
         <link rel="stylesheet" href="/static/stylesheets/index.css" />
         <link rel="stylesheet" href="/static/stylesheets/content/datatables.css" />
+        
         <!--script src="/static/javascripts/expandable.js"></script>
         <script src="/static/javascripts/opaquable.js"></script>
         <script src="/static/javascripts/resizable.js"></script-->
@@ -15,13 +15,47 @@
         <script type="text/javascript" src="//cdn.datatables.net/1.10.0/js/jquery.dataTables.min.js"></script>
         <script type="text/javascript" src="//cdn.datatables.net/fixedheader/2.1.1/js/dataTables.fixedHeader.min.js"></script>
         <script type="text/javascript" src="/static/javascripts/lz-string-1.3.3-min.js"></script>
-        <!--script src="//cdn.jsdelivr.net/pouchdb/3.3.1/pouchdb.min.js"></script-->
         <script type="text/javascript" src="/static/javascripts/pouchdb-3.3.1.min.js"></script>
         <script type="text/javascript">
             var db = new PouchDB('ikrpg');
         </script>
     </head>
     <body>
+        <script type="text/javascript">
+            function changeBackground(imageName, topX) {
+                $("body").css('background-image', 'url('+imageName+')');
+                $("body").css('background-position', '50% '+topX+'px');
+                $("#head").css('background-image', 'url('+imageName+')');
+                $("#head").css('background-position', '50% '+(topX-66)+'px');
+                $("#foot > div.banner").css('background-image', 'url('+imageName+')');
+            }
+            
+            function setBackground(imageName, topX) {
+                changeBackground(imageName, topX);
+                
+                db.get("bg", function(error, bg) {
+                    if(!error) {
+                        bg.name = imageName;
+                        bg.topX = topX;
+                        db.put(bg);
+                    }
+                });
+            }
+        
+            $(function() {
+                db.get("bg", function(error, bg) {
+                    if(error) {
+                        bg = {
+                            _id: "bg",
+                            name: "/static/images/bg-FMF.jpg",
+                            topX: -370
+                        };
+                        db.put(bg);
+                    }
+                    changeBackground(bg.name, bg.topX);
+                });
+            });
+        </script>
         <article itemscope itemtype="http://schema.org/Article">
             <nav id="menu">
                 <ol>
@@ -59,43 +93,8 @@
                 }
             })();
         </script>
+        
         <script type="text/javascript">
-            function changeBackground(imageName, topX) {
-                $("body").css('background-image', 'url('+imageName+')');
-                $("body").css('background-position', '50% '+topX+'px');
-                $("#head").css('background-image', 'url('+imageName+')');
-                $("#head").css('background-position', '50% '+(topX-66)+'px');
-                $("#foot > div.banner").css('background-image', 'url('+imageName+')');
-            }
-            
-            function setBackground(imageName, topX) {
-                changeBackground(imageName, topX);
-                
-                db.get("bg", function(error, bg) {
-                    if(!error) {
-                        bg.name = imageName;
-                        bg.topX = topX;
-                        db.put(bg);
-                    }
-                });
-            }
-        
-            $(function() {
-                db.get("bg", function(error, bg) {
-                    if(error) {
-                        bg = {
-                            _id: "bg",
-                            name: "/static/images/bg-FMF.jpg",
-                            topX: -370
-                        };
-                        db.put(bg);
-                    }
-                    changeBackground(bg.name, bg.topX);
-                });
-            });
-        </script>
-        
-        <script type="text/disabled">
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
