@@ -55,6 +55,7 @@ tags: [Character Generator]
     Bugs:
     B010: Custom descriptions stay when I generate a new hero.
     B020: Changing font size in mechanika and connections and such.
+    B030: Is computed-SPD stored in save()?
     
     Features:
     F010: Add Chrome sync for local store!
@@ -168,30 +169,40 @@ tags: [Character Generator]
     <input id="wil" title="WIL" type="text" />
     <div id="rat1">
         <input class="name" title="Name" type="text" />
+        <input class="skill" title="Skill" type="hidden" />
         <input class="rng" title="RNG" type="text" />
         <input class="rat" title="RAT" type="text" />
+        <input class="ratmod" title="RAT mod" type="hidden" />
         <input class="pow" title="POW" type="text" />
         <input class="notes" title="Notes" type="text" />
         <input class="ammo" title="Ammo" type="text" />
     </div>
     <div id="rat2">
         <input class="name" title="Name" type="text" />
+        <input class="skill" title="Skill" type="hidden" />
         <input class="rng" title="RNG" type="text" />
         <input class="rat" title="RAT" type="text" />
+        <input class="ratmod" title="RAT mod" type="hidden" />
         <input class="pow" title="POW" type="text" />
         <input class="notes" title="Notes" type="text" />
         <input class="ammo" title="Ammo" type="text" />
     </div>
     <div id="mat1">
         <input class="name" title="Name" type="text" />
+        <input class="skill" title="Skill" type="hidden" />
         <input class="mat" title="MAT" type="text" />
-        <input class="ps" title="POW" type="text" />
+        <input class="matmod" title="RAT mod" type="hidden" />
+        <input class="pow" title="POW" type="hidden" />
+        <input class="ps" title="PS" type="text" />
         <input class="notes" title="Notes" type="text" />
     </div>
     <div id="mat2">
         <input class="name" title="Name" type="text" />
+        <input class="skill" title="Skill" type="hidden" />
         <input class="mat" title="MAT" type="text" />
-        <input class="ps" title="POW" type="text" />
+        <input class="matmod" title="RAT mod" type="hidden" />
+        <input class="pow" title="POW" type="hidden" />
+        <input class="ps" title="PS" type="text" />
         <input class="notes" title="Notes" type="text" />
     </div>
     <div id="mat3">

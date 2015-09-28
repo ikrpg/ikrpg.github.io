@@ -38,7 +38,7 @@ var ikrpg = ikrpg || {};
   // Orgoth Relic
   //     Boon, Curse, Relic
   // Skill
-  //     Military Skill, Occupational Skill, Duelling Maneuver, Trick Riding, Group Tactics
+  //     Military Skill, Occupational Skill, Dueling Maneuver, Trick Riding, Group Tactics
   // Spell
   // Steamjack
   //     Steamjack/Vector, Chassis, Cortex, Melee Weapon, Ranged Weapon, Gear/Upgrade, Tune-Up
@@ -9824,15 +9824,6 @@ var ikrpg = ikrpg || {};
       subcategory: "Improvised Melee Weapon",
       game:        "FMF"
     },
-    // ##### Armory > Magical Melee Weapon ##### \\
-    {
-      name:        "Greylords Rune Axe",
-      publication: "No Quarter #55",
-      page:        "87",
-      category:    "Armory",
-      subcategory: "Magical Melee Weapon",
-      game:        "FMF"
-    },
     // ##### Armory > Ranged Weapon ##### \\
     {
       name:        "Arcus",
@@ -10099,7 +10090,7 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Duelling Pistols",
+      name:        "Dueling Pistols",
       publication: "Kings, Nations, and Gods",
       page:        "243",
       category:    "Armory",
@@ -11010,6 +11001,14 @@ var ikrpg = ikrpg || {};
       name:        "Greylords Rune Axe",
       publication: "No Quarter #50",
       page:        "50",
+      category:    "Armory",
+      subcategory: "Magical Weapon",
+      game:        "FMF"
+    },
+    {
+      name:        "Greylords Rune Axe",
+      publication: "No Quarter #55",
+      page:        "87",
       category:    "Armory",
       subcategory: "Magical Weapon",
       game:        "FMF"
@@ -21280,13 +21279,13 @@ var ikrpg = ikrpg || {};
       subcategory: "Occupational Skill",
       game:        "IKU"
     },
-    // ##### Skill > Duelling Maneuver ##### \\
+    // ##### Skill > Dueling Maneuver ##### \\
     {
       name:        "Deflecting Strike",
       publication: "Full Metal Fridays 1/5/3",
       page:        "1",
       category:    "Skill",
-      subcategory: "Duelling Maneuver",
+      subcategory: "Dueling Maneuver",
       game:        "FMF"
     },
     {
@@ -21294,7 +21293,7 @@ var ikrpg = ikrpg || {};
       publication: "Full Metal Fridays 1/5/3",
       page:        "1",
       category:    "Skill",
-      subcategory: "Duelling Maneuver",
+      subcategory: "Dueling Maneuver",
       game:        "FMF"
     },
     {
@@ -21302,7 +21301,7 @@ var ikrpg = ikrpg || {};
       publication: "Full Metal Fridays 1/5/3",
       page:        "2",
       category:    "Skill",
-      subcategory: "Duelling Maneuver",
+      subcategory: "Dueling Maneuver",
       game:        "FMF"
     },
     {
@@ -21310,7 +21309,7 @@ var ikrpg = ikrpg || {};
       publication: "Full Metal Fridays 1/5/3",
       page:        "2",
       category:    "Skill",
-      subcategory: "Duelling Maneuver",
+      subcategory: "Dueling Maneuver",
       game:        "FMF"
     },
     {
@@ -21318,7 +21317,7 @@ var ikrpg = ikrpg || {};
       publication: "Full Metal Fridays 1/5/3",
       page:        "2",
       category:    "Skill",
-      subcategory: "Duelling Maneuver",
+      subcategory: "Dueling Maneuver",
       game:        "FMF"
     },
     // ##### Skill > Trick Riding ##### //

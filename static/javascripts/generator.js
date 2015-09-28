@@ -468,7 +468,7 @@ var ikrpg = ikrpg || {};
       
     })();
     
-    // ## Worn Armor Index ## \\
+    // ## Worn Armor DB ## \\ TODO: Add Warcaster Armor etc.
     (function() {
       
       var wornArmorDB = {
@@ -504,6 +504,217 @@ var ikrpg = ikrpg || {};
       };
       
       ikrpg.generator.db.wornArmor = wornArmorDB;
+      
+    })();
+    
+    // ## Melee Weapon DB ## \\
+    (function() {
+      
+      var meleeWeaponDB = {
+        "Ancestral Guardian Stone Weapon": undefined,
+        "Annihilator Blade": undefined,
+        "Assassin's Blade": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 4, "notes": "+2 backstrike" },
+        "Axe": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 3, "notes": "" },
+        "Axe, Great": { "skill": "Great Weapon", "mat-mod": 0, "pow": 6, "notes": "Crit: +1 die dmg" },
+        "Axe, Horseman's": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 3, "notes": "reach, mounted: at-mod 0, POW 5, +2 charge at" },
+        "Axe, Ice": undefined,
+        "Axe, Riding": undefined,
+        "Axe, Tharn": undefined,
+        "Az'Tal": undefined,
+        "Barbed Whip": undefined,
+        "Battle Hammer": undefined,
+        "Bayonet": { "skill": "Great Weapon", "mat-mod": -1, "pow": 3, "notes": "reach, for Rifles, +2 charge at" },
+        "Blackclad Voulge": undefined,
+        "Blast Shield": undefined,
+        "Blasting Lance": undefined,
+        "Blasting Pike": { "skill": "Great Weapon", "mat-mod": -2, "pow": 7, "notes": "reach, Crit: Knockdown" },
+        "Blazing Sword": undefined,
+        "Blessed Lance": undefined,
+        "Bloodtracker Fighting Claw": undefined,
+        "Caspian Battleblade": { "skill": "Great Weapon", "mat-mod": 0, "pow": 6, "notes": "1-H: mat-mod -1, POW 4" },
+        "Cat's Paw": undefined,
+        "Cleft Spear": undefined,
+        "Cleft Sword": undefined,
+        "Cloak, Weighted": undefined,
+        "Clockwork Injector": undefined,
+        "Club": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 2, "notes": "Crit: Knockout chance" },
+        "Club, Banded": { "skill": "Great Weapon", "mat-mod": -1, "pow": 4, "notes": "Crit: Knockout chance" },
+        "Consecrated Halbert": undefined,
+        "Cutlass": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 4, "notes": "" },
+        "Dagger": { "skill": "Hand Weapon", "mat-mod": 1, "pow": 1, "notes": "" },
+        "Dagger, Poisoner's": undefined,
+        "Deadblow Hammer": undefined,
+        "Dueling Buckler": undefined,
+        "Durkin Bar": undefined,
+        "Electro Lance": undefined,
+        "Entrenching Tool, Military": undefined,
+        "Fellblade": undefined,
+        "Fighting Claws, Pair": undefined,
+        "Firebrand": undefined,
+        "Flail": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 4, "notes": "ignore shields" },
+        "Flail, Two-Handed": { "skill": "Great Weapon", "mat-mod": -2, "pow": 6, "notes": "reach, ignore shields, Crit: p.255" },
+        "Flame Spear": undefined,
+        "Gaff Spear": undefined,
+        "Gaff, Hand": undefined,
+        "Gaff, Pole": undefined,
+        "Garrote": undefined,
+        "Garrote, Clockwork": undefined,
+        "Halbert": { "skill": "Great Weapon", "mat-mod": 0, "pow": 5, "notes": "reach, +2 charge at, 1-H: at-mod -1, POW 4" },
+        "Hand Pick": undefined,
+        "Hooked Great Sword": undefined,
+        "Ice Axe": undefined,
+        "Ice Maul": undefined,
+        "Ilena's Chain-Axe": undefined,
+        "Katara, Pair": undefined,
+        "Knuckledriver": undefined,
+        "Knuckledusters": { "skill": "Unarmed Combat", "mat-mod": 0, "pow": 1, "notes": "better knockouts" },
+        "Kolas Club": undefined,
+        "Kopis": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 3, "notes": "+2 charge at, Crit: 1 feat for +1 die dmg" },
+        "Lacerator": undefined,
+        "Lance": { "skill": "Lance", "mat-mod": 0, "pow": 8, "notes": "reach" },
+        "Mace": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 4, "notes": "Crit: Knockout chance" },
+        "Man Catcher": undefined,
+        "Maul": { "skill": "Great Weapon", "mat-mod": 0, "pow": 6, "notes": "Crit: 1 feat slam d3" },
+        "Mechanoflail": undefined,
+        "FMF Nyss Claymore": { "skill": "Great Weapon", "mat-mod": 0, "pow": 6, "notes": "1 feat: boost at" },
+        "IKU Nyss Claymore": undefined,
+        "Nyss Great Sword": undefined,
+        "Ogrun Warcleaver": { "skill": "Great Weapon", "mat-mod": -1, "pow": 6, "notes": "reach, +2 charge at" },
+        "Orgoth Staff": undefined,
+        "Pen, Blade": undefined,
+        "Pen, Poison": undefined,
+        "Pickaxe": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 4, "notes": "special: p. 257" },
+        "Pike": undefined,
+        "Railman's Adze": undefined,
+        "Rapier": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 2, "notes": "1 feat boost at and dmg" },
+        "Reclaimant Torch": undefined,
+        "Relic Blade": undefined,
+        "Retractable Lance": undefined,
+        "Rynnish Fan": undefined,
+        "Sacral Blade": undefined,
+        "Shield": { "skill": "Shield", "mat-mod": 0, "pow": 0, "notes": "" },
+        "Shield, Combat": { "skill": "Shield", "mat-mod": -1, "pow": 3, "notes": "" },
+        "Shield, Karax": undefined,
+        "Spear": { "skill": "Great Weapon", "mat-mod": -1, "pow": 5, "notes": "reach, +2 charge at, 1-H: POW 4" },
+        "Spear, Cavalry": undefined,
+        "Spear, War": undefined,
+        "Spike Mail": undefined,
+        "Springblade": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 1, "notes": "draw without quick action" },
+        "Staff": { "skill": "Great Weapon", "mat-mod": 0, "pow": 3, "notes": "reach, 1 feat: trip at" },
+        "Staff, Battle": { "skill": "Great Weapon", "mat-mod": 0, "pow": 4, "notes": "reach, 1 feat: trip at, Crit: Knockout chance" },
+        "Stone Great Sword": undefined,
+        "Stormcaller and Lightning Rod": undefined,
+        "Sword": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 3, "notes": "" },
+        "Sword Cane": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 0, "notes": "drawn POW 2" },
+        "Sword, Dress": undefined,
+        "Sword, Great": { "skill": "Great Weapon", "mat-mod": 0, "pow": 6, "notes": "reach" },
+        "Sword, Praetorian, Pair": undefined,
+        "Telescoping Staff": undefined,
+        "Tobresh": undefined,
+        "Tournament Foil": undefined,
+        "Trench Knife": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 2, "notes": "alt. Unarmed Combat" },
+        "Trench Sword": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 4, "notes": "alt. Unarmed Combat" },
+        "Trollkin Rune Axe": undefined,
+        "Voltaic Halbert": undefined,
+        "War Hammer": { "skill": "Great Weapon", "mat-mod": -1, "pow": 5, "notes": "Crit: Knockout chance" }
+      };
+      
+      ikrpg.generator.db.meleeWeapon = meleeWeaponDB;
+      
+    })();
+    
+    // ## Ranged Weapon DB ## \\
+    (function() {
+      
+      var rangedWeaponDB = {
+        "Arcus": undefined,
+        "Assault Kommando Flamethrower": undefined,
+        "Axe, Throwing": { "rng": 6, "skill": "Thrown Weapon", "pow": 3, "rat-mod": 0, "notes": "add STR to POW", "ammo": "" },
+        "Blowtorch": undefined,
+        "Blunderbuss": { "rng": 8, "skill": "Rifle", "pow": 12, "rat-mod": -1, "notes": "1-H: RAT -2", "ammo": "1" },
+        "Bola": { "rng": 8, "skill": "Thrown Weapon", "pow": 0, "rat-mod": -2, "notes": "add STR to POW", "ammo": "" },
+        "Bomb Lance": undefined,
+        "Bombardier Grenade Cannon": undefined,
+        "Bow": { "rng": 10, "skill": "Archery", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "1" },
+        "Bow, Great": { "rng": 10, "skill": "Archery", "pow": 12, "rat-mod": 0, "notes": "", "ammo": "1" },
+        "Bow, Nyss": { "rng": 12, "skill": "Archery", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "1" },
+        "Bow, Tharn": undefined,
+        "Cannon, Royal Weight": undefined,
+        "Cannon-Shield": { "rng": 8, "skill": "Rifle", "pow": 12, "rat-mod": -2, "notes": "", "ammo": "1" },
+        "Carbine": { "rng": 10, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "5" },
+        "Chain Gun": undefined,
+        "Crossbow": { "rng": 10, "skill": "Crossbow", "pow": 12, "rat-mod": 0, "notes": "1-H: RAT -2", "ammo": "1" },
+        "Crossbow, Dual": undefined,
+        "Crossbow, Lawbringer": undefined,
+        "Crossbow, Repeating": { "rng": 10, "skill": "Crossbow", "pow": 10, "rat-mod": -1, "notes": "", "ammo": "6" },
+        "Crucible Arms Model 603": undefined,
+        "Deck Gun": undefined,
+        "Dual Magelock": undefined,
+        "Dueling Pistols": undefined,
+        "Duelling Pistols": undefined,
+        "Efaarit Hunting Rifle": undefined,
+        "Execrator Pistol": undefined,
+        "Explosive Cufflinks": undefined,
+        "Farrow Pig Iron": undefined,
+        "Farrow Razorback": undefined,
+        "Field Gun": undefined,
+        "Fire Bomb": undefined,
+        "Flare Pistol": undefined,
+        "Flayer Cannon": undefined,
+        "Grenade, Concussion": { "rng": 8, "skill": "Thrown Weapon", "pow": "", "rat-mod": 0, "notes": "AOE 3", "ammo": "" },
+        "Grenade, Explosive": { "rng": 8, "skill": "Thrown Weapon", "pow": 12, "rat-mod": 0, "notes": "AOE 3", "ammo": "" },
+        "Grenade, Smoke": { "rng": 8, "skill": "Thrown Weapon", "pow": "", "rat-mod": 0, "notes": "AOE 3", "ammo": "" },
+        "Grenade, Strangle Gas": { "rng": 8, "skill": "Thrown Weapon", "pow": "", "rat-mod": 0, "notes": "AOE 3", "ammo": "" },
+        "Gun Axe": { "rng": 8, "skill": "Rifle", "pow": 12, "rat-mod": -1, "notes": "", "ammo": "1" },
+        "Hand Cannon": { "rng": 12, "skill": "Pistol", "pow": 12, "rat-mod": 0, "notes": "", "ammo": "1" },
+        "Hand Cannon, Dual": { "rng": 12, "skill": "Pistol", "pow": 12, "rat-mod": 0, "notes": "", "ammo": "2" },
+        "Harpoon Gun": { "rng": 10, "skill": "Rifle", "pow": 12, "rat-mod": -2, "notes": "", "ammo": "1" },
+        "Incindus": undefined,
+        "Injection Pistol": undefined,
+        "Javelin": { "rng": 8, "skill": "Thrown Weapon", "pow": 3, "rat-mod": 0, "notes": "add STR to POW", "ammo": "" },
+        "Knife, Throwing": { "rng": 6, "skill": "Thrown Weapon", "pow": 2, "rat-mod": 0, "notes": "add STR to POW", "ammo": "" },
+        "Light Cannon": undefined,
+        "Linethrower": undefined,
+        "Man-O-War Axe Cannon": undefined,
+        "Man-O-War Shield Cannon": undefined,
+        "Mini-Slugger": undefined,
+        "Mortar": undefined,
+        "Ogrun Battle Cannon": { "rng": 12, "skill": "Rifle", "pow": 12, "rat-mod": -1, "notes": "AOE 3, 1-H: RAT -2", "ammo": "1" },
+        "Pen, Grenade": undefined,
+        "Pen, Shot": undefined,
+        "Pistol": { "rng": 8, "skill": "Pistol", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "1" },
+        "Pistol, Collapsible": undefined,
+        "Pistol, Holdout": { "rng": 4, "skill": "Pistol", "pow": 8, "rat-mod": 1, "notes": "", "ammo": "1" },
+        "Pistol, Magelock": { "rng": 10, "skill": "Pistol", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "1" },
+        "Pistol, Repeating": { "rng": 8, "skill": "Pistol", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "5" },
+        "Purifier": undefined,
+        "Quad-Iron": { "rng": 10, "skill": "Pistol", "pow": 10, "rat-mod": -1, "notes": "", "ammo": "4" },
+        "Radcliffe Carbine": { "rng": 13, "skill": "Rifle", "pow": 11, "rat-mod": 0, "notes": "1-H: RAT -2", "ammo": "5" },
+        "Radcliffe Firestorm": undefined,
+        "Reiver": undefined,
+        "Rifle": undefined,
+        "Rifle, Collapsible": undefined,
+        "Rifle, Heavy": { "rng": 14, "skill": "Rifle", "pow": 12, "rat-mod": 0, "notes": "", "ammo": "1" },
+        "Rifle, Long": { "rng": 14, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "1" },
+        "Rifle, Magelock": { "rng": 14, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "1-H: RAT -2", "ammo": "1" },
+        "Rifle, Military": { "rng": 10, "skill": "Rifle", "pow": 11, "rat-mod": 0, "notes": "", "ammo": "1" },
+        "Rilfe, Repeating": { "rng": 14, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "5" },
+        "Rockbreaker Spray": undefined,
+        "Rocket Tube": undefined,
+        "Rynnish Walking Stick": { "rng": 8, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "1-H: RAT -2", "ammo": "1" },
+        "Scattergun": { "rng": 8, "skill": "Rifle", "pow": 12, "rat-mod": 0, "notes": "SP8, 1-H: RAT -2", "ammo": "1" },
+        "Skyhammer": undefined,
+        "Sling": { "rng": 10, "skill": "Thrown Weapon", "pow": 8, "rat-mod": -2, "notes": "", "ammo": "1" },
+        "Slug Gun": { "rng": 4, "skill": "Pistol", "pow": 14, "rat-mod": -1, "notes": "1-H: RAT -2", "ammo": "1" },
+        "Slugger": undefined,
+        "Snare Gun": undefined,
+        "Sword-Cannon, Heavy": { "rng": 10, "skill": "Rifle", "pow": 12, "rat-mod": -1, "notes": "", "ammo": "1" },
+        "Sword-Cannon, Repeating": { "rng": 10, "skill": "Rifle", "pow": 10, "rat-mod": -1, "notes": "", "ammo": "5" },
+        "Vislovski Carbine": undefined,
+        "War Spear": undefined
+      };
+      
+      ikrpg.generator.db.rangedWeapon = rangedWeaponDB;
       
     })();
     
@@ -614,7 +825,9 @@ var ikrpg = ikrpg || {};
           var lvlValue = parseInt(input.val());
           var baseValue = parseInt(skill.find(".base").val());
           if((lvlValue || lvlValue == 0) && (baseValue || baseValue == 0)) {
-            skill.find(".sum").val(lvlValue + baseValue);
+            var sum = skill.find(".sum");
+            sum.val(lvlValue + baseValue);
+            sum.trigger("change");
           }
         });
       
@@ -629,7 +842,9 @@ var ikrpg = ikrpg || {};
           var baseValue = parseInt(input.val());
           var lvlValue = parseInt(skill.find(".lvl").val());
           if((lvlValue || lvlValue == 0) && (baseValue || baseValue == 0)) {
-            skill.find(".sum").val(lvlValue + baseValue);
+            var sum = skill.find(".sum");
+            sum.val(lvlValue + baseValue);
+            sum.trigger("change");
           }
         });
       
@@ -671,6 +886,19 @@ var ikrpg = ikrpg || {};
         
       })();
       
+      // ### Update SPD on computed SPD change ### \\
+      (function() {
+        
+        $(".character-sheet #computed-spd").change(function(event) {
+          var input = $(event.target);
+          var computedSpd = parseInt(input.val()) || 0;
+          var spdMod = parseInt($(".character-sheet #wornarmor1 .spd").val()) || 0;
+          
+          $(".character-sheet #spd").val(computedSpd - spdMod);
+        })
+        
+      })();
+      
     })();
     
     // ## Update page value on ability change ## \\
@@ -688,6 +916,178 @@ var ikrpg = ikrpg || {};
           ability.find(".page").val(page);
         }
       });
+      
+    })();
+    
+    // ## Ranged Weapons ## \\
+    (function() {
+      
+      var db = ikrpg.generator.db.rangedWeapon;
+      
+      // ### Update on name change ### \\
+      (function() {
+        
+        $(".character-sheet #rat1 .name, .character-sheet #rat2 .name").change(function(event) {
+          var input = $(event.target);
+          var title = input.val();
+          var rangedWeapon = input.parent();
+          
+          // remove previously remembered skill and rat mod
+          rangedWeapon.find(".skill").val("");
+          rangedWeapon.find(".ratmod").val("");
+          
+          var rangedWeaponData = db[title];
+          
+          if(rangedWeaponData) {
+            rangedWeapon.find(".rng").val(rangedWeaponData["rng"]);
+            rangedWeapon.find(".pow").val(rangedWeaponData["pow"]);
+            rangedWeapon.find(".notes").val(rangedWeaponData["notes"]);
+            rangedWeapon.find(".ammo").val(rangedWeaponData["ammo"]);
+            rangedWeapon.find(".ratmod").val(rangedWeaponData["rat-mod"]);
+            
+            var skillName = rangedWeaponData["skill"];
+            var skills = $.grep($(".character-sheet .skill .title"), function(input) { return $(input).val() == skillName; });
+            
+            var skillDB = ikrpg.generator.db.skill;
+            var statNames = skillDB[skillName];
+            
+            if(skills && skills.length > 0) {
+              var skill = $(skills[0]);
+              var lvl = parseInt(skill.parent().find(".lvl").val()) || 0;
+              
+              if(statNames && statNames.length > 0) {
+                var statName = statNames[0].toLowerCase();
+                var stat = parseInt($(".character-sheet #"+statName).val()) || 0;
+                
+                var ratMod = parseInt(rangedWeaponData["rat-mod"]);
+                
+                rangedWeapon.find(".rat").val(stat + lvl + ratMod);
+              } else {
+                rangedWeapon.find(".rat").val("");
+              }
+              rangedWeapon.find(".skill").val(skillName);
+            } else {
+              rangedWeapon.find(".skill").val("");
+              rangedWeapon.find(".rat").val("");
+            }
+          }
+        });
+        
+      })();
+      
+      // ### Update RAT on skill lvl or sum change ### \\
+      (function() {
+        
+        $(".character-sheet .skill .lvl, .character-sheet .skill .sum").change(function(event) {
+          var input = $(event.target);
+          var skill = input.parent();
+          var title = skill.find(".title").val();
+          var base = parseInt(skill.find(".base").val()) || 0;
+          var lvl = parseInt(skill.find(".lvl").val()) || 0;
+          
+          var rangedWeaponSkills = $(".character-sheet #rat1 .skill[value='"+title+"'], .character-sheet #rat2 .skill[value='"+title+"']");
+          
+          rangedWeaponSkills.each(function(index, rangedWeaponSkill) {
+            var rangedWeapon = $(rangedWeaponSkill).parent();
+            
+            var ratMod = parseInt(rangedWeapon.find(".ratmod").val()) || 0;
+            rangedWeapon.find(".rat").val(base + lvl + ratMod);
+          });
+        });
+        
+      })();
+      
+    })();
+    
+    // ## Melee Weapons ## \\
+    (function() {
+      
+      var db = ikrpg.generator.db.meleeWeapon;
+      
+      // ### Update on name change ### \\
+      (function() {
+        
+        $(".character-sheet #mat1 .name, .character-sheet #mat2 .name").change(function(event) {
+          var input = $(event.target);
+          var name = input.val();
+          var meleeWeapon = input.parent();
+          
+          // remove previously remembered skill, rat mod, and pow
+          meleeWeapon.find(".skill").val("");
+          meleeWeapon.find(".matmod").val("");
+          meleeWeapon.find(".pow").val("");
+          
+          var meleeWeaponData = db[name];
+          if(meleeWeaponData) {
+            meleeWeapon.find(".notes").val(meleeWeaponData["notes"]);
+            meleeWeapon.find(".skill").val(meleeWeaponData["skill"]);
+            meleeWeapon.find(".matmod").val(meleeWeaponData["mat-mod"]);
+            meleeWeapon.find(".pow").val(meleeWeaponData["pow"]);
+            
+            var skillName = meleeWeaponData["skill"];
+            var skills = $.grep($(".character-sheet .skill .title"), function(input) { return $(input).val() == skillName; });
+            
+            if(skills && skills.length > 0) {
+              var skill = $(skills[0]).parent();
+              var sum = parseInt(skill.find(".sum").val()) || 0;
+              var matMod = parseInt(meleeWeaponData["mat-mod"]);
+              
+              meleeWeapon.find(".mat").val(sum + matMod);
+            } else {
+              meleeWeapon.find(".mat").val("");
+            }
+            
+            var str = parseInt($(".character-sheet #str").val()) || 0;
+            if(str || str == 0) {
+              var pow = parseInt(meleeWeaponData["pow"]);
+              meleeWeapon.find(".ps").val(pow + str);
+            } else {
+              meleeWeapon.find(".ps").val("");
+            }
+          }
+        });
+        
+      })();
+      
+      // ### Update MAT on skill lvl or sum change ### \\
+      (function() {
+        
+        $(".character-sheet .skill .lvl, .character-sheet .skill .sum").change(function(event) {
+          var input = $(event.target);
+          var skill = input.parent();
+          var title = skill.find(".title").val();
+          var base = parseInt(skill.find(".base").val()) || 0;
+          var lvl = parseInt(skill.find(".lvl").val()) || 0;
+          
+          var meleeWeaponSkills = $(".character-sheet #mat1 .skill[value='"+title+"'], .character-sheet #mat2 .skill[value='"+title+"']");
+          
+          meleeWeaponSkills.each(function(index, meleeWeaponSkill) {
+            var meleeWeapon = $(meleeWeaponSkill).parent();
+            
+            var matMod = parseInt(meleeWeapon.find(".matmod").val()) || 0;
+            meleeWeapon.find(".mat").val(base + lvl + matMod);
+          });
+        });
+        
+      })();
+      
+      // ### Update P+S on STR change ### \\
+      (function() {
+        
+        $(".character-sheet #str").change(function(event) {
+          var input = $(event.target);
+          var str = parseInt(input.val());
+          
+          $(".character-sheet #mat1, .character-sheet #mat2").each(function(index, mat) {
+            var name = $(mat).find(".name").val();
+            if(name) {
+              var pow = parseInt($(mat).find(".pow").val()) || 0;
+              $(mat).find(".ps").val(pow + str);
+            }
+          });
+        });
+        
+      })();
       
     })();
     
@@ -1351,7 +1751,8 @@ var ikrpg = ikrpg || {};
         list(_military_skills, ["Hand Weapon", "Thrown Weapon"]),
         list(_occupational_skills, ["Alchemy", "Medicine"]),
         number(_gold, 50),
-        list(_gear, ["alchemist's leather",
+        listItem(_armors, "Alchemist's Leather"),
+        list(_gear, [
           "gas mask",
           "travelling alchemist's kit",
           "grenadier's bandolier",
@@ -2345,11 +2746,43 @@ var ikrpg = ikrpg || {};
           // #### Ranged Weapons #### \\
           (function() {
             
+            var db = ikrpg.generator.db.rangedWeapon;
+            
             var rangedWeapons = data["ranged weapons"] || [];
             
-            $.each(rangedWeapons.sort(), function(index, weapon) {
-              character["rat"+(index+1)] = character["rat"+(index+1)] || {};
-              character["rat"+(index+1)]["name"] = weapon;
+            $.each(rangedWeapons.sort(), function(index, name) {
+              var rat = "rat"+(index+1);
+              
+              character[rat] = character[rat] || {};
+              character[rat]["name"] = name;
+              
+              var weapon = db[name];
+              if(weapon) {
+                var skill = weapon["skill"];
+                var ratMod = parseInt(weapon["rat-mod"]) || 0;
+                
+                character[rat]["skill"] = skill;
+                character[rat]["ratmod"] = ratMod;
+                character[rat]["rng"] = weapon["rng"];
+                character[rat]["pow"] = weapon["pow"];
+                character[rat]["notes"] = weapon["notes"];
+                character[rat]["ammo"] = weapon["ammo"];
+                
+                var mskills = histogram(data["military skills"]);
+                var lvl = mskills[skill];
+                
+                var skillDB = ikrpg.generator.db.skill;
+                var mskill = skillDB[skill];
+                
+                if(mskill) {
+                  var stat = mskill[0];
+                  var base = parseInt(character[stat.toLowerCase()]) || 0;
+                  
+                  character[rat]["rat"] = base + lvl + ratMod;
+                } else {
+                  character[rat]["rat"] = "";
+                }
+              }
             });
             
           })();
@@ -2357,11 +2790,45 @@ var ikrpg = ikrpg || {};
           // #### Melee Weapons #### \\
           (function() {
             
+            var db = ikrpg.generator.db.meleeWeapon;
+            
             var meleeWeapons = data["melee weapons"] || [];
             
-            $.each(meleeWeapons.sort(), function(index, weapon) {
-              character["mat"+(index+1)] = character["mat"+(index+1)] || {};
-              character["mat"+(index+1)]["name"] = weapon;
+            $.each(meleeWeapons.sort(), function(index, name) {
+              var mat = "mat"+(index+1);
+              
+              character[mat] = character[mat] || {};
+              character[mat]["name"] = name;
+              
+              var weapon = db[name];
+              if(weapon) {
+                var skill = weapon["skill"];
+                var matMod = parseInt(weapon["mat-mod"]) || 0;
+                
+                character[mat]["skill"] = skill;
+                character[mat]["matmod"] = matMod;
+                character[mat]["pow"] = weapon["pow"];
+                character[mat]["notes"] = weapon["notes"];
+                
+                var str = parseInt(character["str"]) || 0;
+                var pow = parseInt(weapon["pow"]) || 0;
+                character[mat]["ps"] = pow + str;
+                
+                var mskills = histogram(data["military skills"]);
+                var lvl = mskills[skill];
+                
+                var skillDB = ikrpg.generator.db.skill;
+                var mskill = skillDB[skill];
+                
+                if(mskill) {
+                  var stat = mskill[0];
+                  var base = parseInt(character[stat.toLowerCase()]) || 0;
+                  
+                  character[mat]["mat"] = base + lvl + matMod;
+                } else {
+                  character[mat]["mat"] = "";
+                }
+              }
             });
             
           })();
