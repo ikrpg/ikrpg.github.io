@@ -19,13 +19,14 @@ tags: [Character Generator]
     Done: S100: Fill Languages
     S110: Connections descriptions and pages (M080)
     S120: Connection descriptions and pages (M150)
-    S130: Use Skill DB on change of Skill name/value (M20) [Done for Core Rules]
+    Done: S130: Use Skill DB on change of Skill name/value (M020)
     S140: Use Spell DB on change of Spell name (M160) [Done for Core Rules]
     S150: Fill out Spell data [Done for Core Rules]
+    S160: Add Warcaster Armor etc. to Armor DB
     
     Medium:
-    M010: Armor DB
-    M020: Skill DB [Done for Core Rules]
+    M010: Armor DB [Done for regular armor]
+    Done: M020: Skill DB
     M030: Benefit DB
     M040: Ability DB
     M050: Melee Weapon DB
@@ -42,14 +43,21 @@ tags: [Character Generator]
     M160: Spell DB [Done for Core Rules]
     
     Complex:
-    C010: Track Equipment Modifiers (M010, M040, M050, M060, M070)
-    C020: compute DEF, ARM, INI, etc. (C010)
+    C010: Track Equipment Modifiers (M010, M040, M050, M060, M070) [worn armor/Shield/Command done]
+    C020: compute DEF, ARM, INI, etc. (C010) [Done for basic modifiers]
     C030: Mechanika Widget (M090)
     C040: Runeplate Widget (M100)
     C050: Capacitor Widget (M110)
     C060: Steamjack Widget (M120)
     C070: Riding Widget (M130)
     C080: Leveling
+    
+    Bugs:
+    B010: Custom descriptions stay when I generate a new hero.
+    B020: Changing font size in mechanika and connections and such.
+    
+    Features:
+    F010: Add Chrome sync for local store!
     
 </script>
 
@@ -140,7 +148,8 @@ tags: [Character Generator]
     <!--div id="portrait"></div-->
     <input id="phy" title="PHY" type="text" class="stat" />
     <input id="phymax" title="PHY max" type="text" />
-    <input id="spd" title="SPD" type="text" class="stat" />
+    <input id="spd" title="SPD" type="text" class="stat" hidden />
+    <input id="computed-spd" title="SPD" type="text" class="stat" value="0" />
     <input id="spdmax" title="SPD max" type="text" />
     <input id="str" title="STR" type="text" class="stat" />
     <input id="strmax" title="STR max" type="text" />

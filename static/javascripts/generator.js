@@ -84,57 +84,144 @@ var ikrpg = ikrpg || {};
     (function() {
       
       var spellDB = {
+        "Abuse": undefined,
+        "Admonition": undefined,
+        "Affliction": undefined,
+        "Aggravator": undefined,
+        "Agitation": undefined,
+        "Annihilation": undefined,
+        "Arcane Blast": undefined,
         "Arcane Bolt": { "cost": 2, "rng": 12, "aoe": "–", "pow": 11, "up": "NO", "off": "YES", "description": "" },
+        "Arcane Bonds": undefined,
         "Arcane Strike": { "cost": 1, "rng": 8, "aoe": "–", "pow": 8, "up": "NO", "off": "YES", "description": "" },
         "Arcantrik Bolt": { "cost": 2, "rng": 10, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
         "Ashen Cloud": { "cost": 2, "rng": "CTRL", "aoe": 3, "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Ashen Veil": undefined,
         "Ashes to Ashes": { "cost": 4, "rng": 8, "aoe": "*", "pow": 10, "up": "NO", "off": "YES", "description": "" },
         "Aura of Protection": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Awakened Spirit": undefined,
         "Awareness": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Ayisla's Rebuke": undefined,
+        "Backlash": undefined,
+        "Bad Blood": undefined,
         "Banishing Ward": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Barrier of FLames": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Barrier of Flames": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Battering Ram": { "cost": 2, "rng": 6, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
         "Batten Down the Hatches": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Battle Charged": undefined,
+        "Battle Frost": undefined,
+        "Battle Rage": undefined,
+        "Bestial": undefined,
+        "Beyond Death": undefined,
         "Black Out": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Blade of Radiance": { "cost": 2, "rng": 10, "aoe": "–", "pow": 10, "up": "NO", "off": "YES", "description": "" },
+        "Blaze of Glory": undefined,
         "Blazing Effigy": { "cost": 4, "rng": "SELF", "aoe": "*", "pow": 14, "up": "NO", "off": "NO", "description": "" },
+        "Bleed": undefined,
         "Blessing of Health": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Blessing of Morrow": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Blessing of the Devourer": undefined,
         "Blessings of War": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Blight Blast": undefined,
+        "Blight Bringer": undefined,
+        "Blight Field": undefined,
         "Blizzard": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Blood Feast": undefined,
+        "Blood Magic: Accurate Strike": undefined,
+        "Blood Magic: Black Poison": undefined,
+        "Blood Magic: Bleeder": undefined,
+        "Blood Magic: Blood Burst": undefined,
+        "Blood Magic: Brain Damage": undefined,
+        "Blood Magic: Brutal Strike": undefined,
+        "Blood Magic: Dispel": undefined,
+        "Blood Magic: Grievous Strike": undefined,
+        "Blood Magic: Heart Stopper": undefined,
+        "Blood Magic: Hobbler": undefined,
+        "Blood Magic: Invigoration": undefined,
+        "Blood Magic: Weekness": undefined,
+        "Blood Mark": undefined,
+        "Blood Rain": undefined,
+        "Blow the Man Down": undefined,
+        "Blur": undefined,
+        "Bone Shaker": undefined,
         "Brittle Frost": { "cost": 3, "rng": 8, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
         "Boundless Charge": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Broadside": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Bullet Dodger": undefined,
+        "Buoyancy": undefined,
+        "Carnage": undefined,
+        "Carnivore": undefined,
         "Celerity": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Chain Lightning": { "cost": 3, "rng": 10, "aoe": "–", "pow": 10, "up": "NO", "off": "YES", "description": "" },
+        "Chasten": undefined,
         "Chiller": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Cleansing Fire": { "cost": 3, "rng": 8, "aoe": 3, "pow": 14, "up": "NO", "off": "YES", "description": "" },
+        "Cloak of Fear": undefined,
+        "Cloak of the Predator": undefined,
+        "Cold Blooded": undefined,
         "Convection": { "cost": 2, "rng": 10, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
         "Crevasse": { "cost": 3, "rng": 8, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
+        "Cross-Country": undefined,
         "Crusader's Call": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Curse of Shadows": undefined,
+        "Dark Fire": undefined,
+        "Dark Persuader": undefined,
+        "Dark Water": undefined,
         "Daylight": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Deadeye": undefined,
+        "Deadweight": undefined,
+        "Death Field": undefined,
+        "Death Pact": undefined,
+        "Deathly Slumber": undefined,
         "Deceleration": { "cost": 3, "rng": "SELF", "aoe": "DTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Deep Freeze": { "cost": 3, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Devil's Tongue": undefined,
+        "Dirge of Mists": undefined,
+        "Disruptor": undefined,
+        "Dissolution Bolt": undefined,
+        "Dog Pile": undefined,
+        "Dominate Undead": undefined,
+        "Domination": undefined,
+        "Draconic Blessing": undefined,
+        "Dragon's Blood": undefined,
+        "Dragonsight": undefined,
         "Earthquake": { "cost": 3, "rng": 10, "aoe": 5, "pow": "–", "up": "NO", "off": "YES", "description": "" },
         "Earth's Cradle": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Earthsplitter": { "cost": 4, "rng": 10, "aoe": 3, "pow": 14, "up": "NO", "off": "YES", "description": "" },
         "Electrical Blast": { "cost": 3, "rng": 8, "aoe": 3, "pow": 13, "up": "NO", "off": "YES", "description": "" },
+        "Electrical Charge": undefined,
         "Electrify": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Electrodynamics": undefined,
+        "Elemental Protection": undefined,
         "Eliminator": { "cost": 3, "rng": 8, "aoe": 3, "pow": 13, "up": "NO", "off": "YES", "description": "" },
         "Entangle": { "cost": 1, "rng": 8, "aoe": "–", "pow": "–", "up": "NO", "off": "YES", "description": "" },
-        "Eyes of Truth": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Enthrall Spirit": undefined,
+        "Entropic Force": undefined,
+        "Eruption of Life": undefined,
+        "Eruption of Spines": undefined,
+        "Essence Blast": undefined,
+        "Exorcism": undefined,
+        "Explosivo": undefined,
         "Extinguisher": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Eye of Menoth": undefined,
+        "Eyes of Truth": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Fail Safe": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Fair Winds": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Feast of Worms": undefined,
+        "Fire for Effect": undefined,
         "Fire Group": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Fire Starter": { "cost": 1, "rng": 8, "aoe": "–", "pow": "–", "up": "NO", "off": "*", "description": "" },
         "Flames of Wrath": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Flare": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Flesh Eater": undefined,
         "Fog of War": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Force Bolt": undefined,
         "Force Field": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Force Hammer": { "cost": 4, "rng": 10, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
         "Force of Faith": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Forced Evolution": undefined,
         "Fortify": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Fortune": undefined,
         "Foxhole": { "cost": 2, "rng": "CTRL", "aoe": 5, "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Freezing Grip": { "cost": 4, "rng": 8, "aoe": "–", "pow": "–", "up": "NO", "off": "YES", "description": "" },
         "Freezing Mist": { "cost": 4, "rng": "SELF", "aoe": "*", "pow": "–", "up": "NO", "off": "NO", "description": "" },
@@ -142,110 +229,281 @@ var ikrpg = ikrpg || {};
         "Frostbite": { "cost": 2, "rng": "SP8", "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
         "Fuel the Flames": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Full Throttle": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Fury": undefined,
+        "Gallows": undefined,
+        "Ghost Shroud": undefined,
+        "Ghost Walk": undefined,
+        "Grave Whispers": undefined,
         "Grind": { "cost": 3, "rng": 10, "aoe": "–", "pow": 14, "up": "NO", "off": "YES", "description": "" },
+        "Grip of Death": undefined,
+        "Ground Zero": undefined,
+        "Guidance": undefined,
         "Guided Blade": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Guilded Fire": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Hallowed Avender": undefined,
+        "Hallowed Guardian": undefined,
         "Hand of Fate": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Hardened Flesh": undefined,
+        "Harvest": undefined,
         "Heal": { "cost": 4, "rng": "*", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Heightened Reflexes": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Hellfire": undefined,
+        "Hellmouth": undefined,
         "Hex Blast": { "cost": 3, "rng": 10, "aoe": 3, "pow": 13, "up": "NO", "off": "YES", "description": "" },
+        "Hex Hammer": undefined,
+        "Hidden Path": undefined,
         "Hoarfrost": { "cost": 3, "rng": 8, "aoe": 3, "pow": 14, "up": "NO", "off": "YES", "description": "" },
+        "Hollow": undefined,
+        "Holy Ward": undefined,
+        "Hot Shot": undefined,
         "Howling Flames": { "cost": 2, "rng": "SP8", "aoe": "–", "pow": 10, "up": "NO", "off": "YES", "description": "" },
+        "Hunter's Mark": undefined,
         "Hymn of Battle": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Hymn of Passage": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Hymn of Shielding": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Hyper Awareness": undefined,
         "Ice Bolt": { "cost": 2, "rng": 10, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
         "Ice Shield": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Icy Grip": { "cost": 2, "rng": 8, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
         "Ignite": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Illusion of Vitality": undefined,
         "Immolation": { "cost": 2, "rng": 8, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
+        "Incite": undefined,
+        "Infernal Machine": undefined,
         "Inferno": { "cost": 3, "rng": 10, "aoe": 3, "pow": 12, "up": "NO", "off": "YES", "description": "" },
         "Influence": { "cost": 1, "rng": 10, "aoe": "–", "pow": "–", "up": "NO", "off": "YES", "description": "" },
         "Inhospitable Ground": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Instigate": undefined,
+        "Inviolable Resolve": undefined,
         "Iron Aggression": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Iron Flesh": undefined,
         "Jackhammer": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Jaws of Death": undefined,
         "Jump Start": { "cost": 1, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Killing Ground": undefined,
+        "Killing Tide": undefined,
         "Lamentation": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Leash": undefined,
         "Light in the Darkness": { "cost": 1, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Light of Nyrro": undefined,
+        "Lightning Shroud": undefined,
+        "Lightning Storm": undefined,
         "Lightning Tendrils": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Lightning Tongue": undefined,
         "Locomotion": { "cost": "1+", "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Mage Sight": undefined,
+        "Magnetic Hold": undefined,
+        "Mark of Lyliss": undefined,
+        "Marked for Death": undefined,
+        "Medicate": undefined,
+        "Mindblow": undefined,
         "Mirage": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Mist Shroud": undefined,
+        "Mobility": undefined,
+        "Mockery of Life": undefined,
+        "Molten Metal": undefined,
+        "Mortality": undefined,
+        "Murder of Crows": undefined,
+        "Muzzle": undefined,
+        "Mystic Wards": undefined,
         "Obliteration": { "cost": 4, "rng": 10, "aoe": 4, "pow": 15, "up": "NO", "off": "YES", "description": "" },
         "Occultation": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Overmind": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Parasite": undefined,
+        "Parasitic Invigoration": undefined,
+        "Perdition": undefined,
+        "Phantasm": undefined,
+        "Phantom Hunter": undefined,
+        "Pig Pen": undefined,
+        "Playing God": undefined,
         "Polarity Shield": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Positive Charge": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Powder Keg": undefined,
         "Power Booster": { "cost": 1, "rng": 5, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Prayer for Guidance": undefined,
         "Prayer of Guidance": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Primal Shock": undefined,
         "Protection from Cold": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Protection from Corrosion": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Protection from Electricity": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Protection from Fire": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Protector's Mark": undefined,
+        "Prowess of Lurynsar": undefined,
+        "Psi Blast": undefined,
+        "Psychic Vampire": undefined,
+        "Psychophage": undefined,
         "Purification": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Quagmire": undefined,
+        "Quickened": undefined,
         "Raging Winds": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Raise Dead": undefined,
+        "Rampager": undefined,
+        "Rapid Growth": undefined,
+        "Ravager": undefined,
+        "Rawhide": undefined,
+        "Razor Wall": undefined,
         "Razor Wind": { "cost": 2, "rng": 10, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
+        "Realignment": undefined,
+        "Reconstruction": undefined,
         "Redline": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Refuge": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Respawn": undefined,
+        "Restoration": undefined,
         "Return Fire": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rift": { "cost": 3, "rng": 8, "aoe": 4, "pow": 13, "up": "NO", "off": "YES", "description": "" },
         "Righteous Flames": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rime": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Rise in Death": undefined,
+        "Rising Tide": undefined,
         "Rock Hammer": { "cost": 3, "rng": 10, "aoe": 3, "pow": 14, "up": "NO", "off": "YES", "description": "" },
         "Rock Wall": { "cost": 2, "rng": "CTRL", "aoe": "WALL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Roots of the Earth": undefined,
         "Rune Shot: Accuracy": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Black Penny": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Brutal": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Detonator": { "cost": 3, "rng": "SELF", "aoe": "*", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Rune Shot: Disruption": undefined,
         "Rune Shot: Earth Shaker": { "cost": 3, "rng": "SELF", "aoe": "*", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Rune Shot Electro Leap": undefined,
+        "Rune Shot: Fire Beacon": undefined,
         "Rune Shot: Freeze Fire": { "cost": 4, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Heart Stopper": { "cost": 4, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Rune Shot: Iron Bolt": undefined,
         "Rune Shot: Iron Rot": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Molten Shot": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Momentum": { "cost": 4, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Phantom Seeker": { "cost": 3, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Rune Shot: Piercer": undefined,
         "Rune Shot: Shadow Fire": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Silencer": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Spell Cracker": { "cost": 3, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Spontaneous Combustion": { "cost": 1, "rng": "SELF", "aoe": "*", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Thunderbolt": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Trick Shot": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Sacraficial Pawn": undefined,
         "Sanguine Blessing": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Savagery": undefined,
+        "Sea Legs": undefined,
         "Sea of Fire": { "cost": 4, "rng": "SELF", "aoe": "*", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Shadow Pack": undefined,
+        "Shadow Sight": undefined,
         "Shatter Storm": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Shield of Faith": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Shock Wave": { "cost": 4, "rng": "SELF", "aoe": "*", "pow": 13, "up": "NO", "off": "NO", "description": "" },
         "Short Out": { "cost": 1, "rng": 8, "aoe": "–", "pow": "–", "up": "NO", "off": "YES", "description": "" },
+        "Shrapnel Swarm": undefined,
         "Snipe": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Solid Ground": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Solovin's Boon": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Somnambulist": undefined,
+        "Soothing Song": undefined,
+        "Soul Mark": undefined,
+        "Soul Slave": undefined,
+        "Soulfire": undefined,
+        "Spirit Fang": undefined,
+        "Spirit Lash": undefined,
+        "Star Crossed": undefined,
         "Star Fire": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Star-Crossed": undefined,
         "Staying Winter's Hand": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Stone Form": undefined,
+        "Stone Hold": undefined,
+        "Stone Skin": undefined,
+        "Stone Spray": undefined,
         "Stone Stance": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Stone Strength": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Storm Tossed": { "cost": 1, "rng": 8, "aoe": "–", "pow": "–", "up": "NO", "off": "YES", "description": "" },
+        "Storm Wall": undefined,
+        "Stranglehold": undefined,
+        "Stygian Abyss": undefined,
+        "Summon Vortex": undefined,
         "Sunburst": { "cost": 3, "rng": 10, "aoe": 3, "pow": 13, "up": "NO", "off": "YES", "description": "" },
+        "Sunder Spirit": undefined,
+        "Sunhammer": undefined,
         "Superiority": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Sure Foot": undefined,
+        "Synergy": undefined,
         "Telekinesis": { "cost": 2, "rng": 8, "aoe": "–", "pow": "–", "up": "NO", "off": "*", "description": "" },
+        "Telgesh Mark": undefined,
         "Temper Metal": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Tempest": { "cost": 4, "rng": 8, "aoe": 4, "pow": 12, "up": "NO", "off": "YES", "description": "" },
         "Tide of Steel": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Torment": undefined,
         "Tornado": { "cost": 4, "rng": 10, "aoe": "–", "pow": 13, "up": "NO", "off": "YES", "description": "" },
+        "Total Domination": undefined,
+        "Total Spectrum": undefined,
         "Transference": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Triage": { "cost": 2, "rng": "B2B", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "True Path": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "True Sight": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Twister": undefined,
+        "Unease": undefined,
+        "Unminding": undefined,
+        "Unnatural Aggression": undefined,
+        "Unstoppable Force": undefined,
+        "Veil of Mist": undefined,
+        "Venom": undefined,
         "Vision": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Void Curse": undefined,
         "Voltaic Lock": { "cost": 4, "rng": 10, "aoe": "*", "pow": "–", "up": "NO", "off": "YES", "description": "" },
+        "Voodoo Doll": undefined,
         "Wall of Fire": { "cost": 2, "rng": "CTRL", "aoe": "WALL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Warpath": undefined,
+        "Watcher": undefined,
+        "Wave of Vivification": undefined,
+        "Weald Hunter": undefined,
         "White Out": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Wild Aggression": undefined,
+        "Will Breaker": undefined,
         "Wind Blast": { "cost": 2, "rng": "CTRL", "aoe": 5, "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Wind Ravager": undefined,
         "Wind Strike": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "YES", "description": "" },
+        "Wind Wall": undefined,
         "Wings of Air": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Winter Storm": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Zephyr": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" }
       };
       
       ikrpg.generator.db.spell = spellDB;
+      
+    })();
+    
+    // ## Worn Armor Index ## \\
+    (function() {
+      
+      var wornArmorDB = {
+        "Alchemist's Leather": { "spd": 0, "def": -1, "arm": 5, "description": "" },
+        "Armored Great Coat": { "spd": 0, "def": -1, "arm": 5, "description": "" },
+        "Assault Kommando Armor": { "spd": 0, "def": -2, "arm": 7, "description": "" },
+        "Bastion Heavy Plate": { "spd": -3, "def": -4, "arm": 10, "description": "" },
+        "Bog Trog Armor": { "spd": 0, "def": -1, "arm": 6, "description": "" },
+        "Cataphract Armor": { "spd": -2, "def": -3, "arm": 9, "description": "" },
+        "Chain Mail": { "spd": 0, "def": -2, "arm": 7, "description": "" },
+        "Cleanser Armor": { "spd": -1, "def": -3, "arm": 8, "description": "" },
+        "Crucible Armor": { "spd": -1, "def": -3, "arm": 8, "description": "" },
+        "Custom Battle Armor": { "spd": 0, "def": -1, "arm": 6, "description": "" },
+        "Exemplar Plate": { "spd": -2, "def": -3, "arm": 9, "description": "" },
+        "Full Plate": { "spd": -1, "def": -3, "arm": 8, "description": "" },
+        "Infantry Armor": { "spd": 0, "def": -2, "arm": 7, "description": "" },
+        "Leather Armor": { "spd": 0, "def": -1, "arm": 5, "description": "" },
+        "Man-O-War Armor": { "spd": -3, "def": -3, "arm": 9, "description": "" },
+        "Nyss Leather Armor": { "spd": 0, "def": -1, "arm": 6, "description": "" },
+        "Ordic Royal Marine Armor": { "spd": 0, "def": -1, "arm": 6, "description": "" },
+        "Paingiver Armor": { "spd": 0, "def": 0, "arm": 5, "description": "" },
+        "Plastron": { "spd": 0, "def": 0, "arm": 2, "description": "" },
+        "Praetorian Armor": { "spd": 0, "def": -2, "arm": 8, "description": "" },
+        "Ryssovass Plate": { "spd": -2, "def": -3, "arm": 9, "description": "" },
+        "Skorne Infantry Armor": { "spd": 0, "def": -1, "arm": 7, "description": "" },
+        "Storm Knight Armor": { "spd": -2, "def": -3, "arm": 9, "description": "" },
+        "Stormsmith Armor": { "spd": 0, "def": -1, "arm": 5, "description": "" },
+        "Tailored Plate": { "spd": 0, "def": -1, "arm": 7, "description": "" },
+        "Temple Flameguard Armor": { "spd": 0, "def": -1, "arm": 5, "description": "" },
+        "Tharn Leathers": { "spd": 0, "def": 0, "arm": 4, "description": "" },
+        "Vassal Armor": { "spd": 0, "def": -2, "arm": 7, "description": "" },
+        "Winter Guard Armor": { "spd": 0, "def": -2, "arm": 7, "description": "" }
+      };
+      
+      ikrpg.generator.db.wornArmor = wornArmorDB;
       
     })();
     
@@ -406,8 +664,6 @@ var ikrpg = ikrpg || {};
           var intInput = $(".character-sheet #int");
           var phy = parseInt(phyInput.val());
           var int = parseInt(intInput.val());
-          console.log(phy)
-          console.log(int)
           if((phy || phy == 0) && (int || int == 0)) {
             $(".character-sheet #wil").val(phy + int);
           }
@@ -432,6 +688,177 @@ var ikrpg = ikrpg || {};
           ability.find(".page").val(page);
         }
       });
+      
+    })();
+    
+    // ## Computed Values (DEF, ARM, INI, CMD) ## \\
+    (function() {
+      
+      // ### Update total DEF ### \\
+      (function() {
+        
+        $(".character-sheet #computed-spd, .character-sheet #agl, .character-sheet #per, .character-sheet #defracialmodifier, .character-sheet #defequipmentmodifiers").change(function() {
+          var spd = parseInt($(".character-sheet #computed-spd").val()) || 0;
+          var agl = parseInt($(".character-sheet #agl").val()) || 0;
+          var per = parseInt($(".character-sheet #per").val()) || 0;
+          var defracialmodifier = parseInt($(".character-sheet #defracialmodifier").val()) || 0;
+          var defequipmentmodifiers = parseInt($(".character-sheet #defequipmentmodifiers").val()) || 0;
+          
+          if((spd || spd == 0) && (agl || agl == 0) && (per || per == 0) && (defracialmodifier || defracialmodifier == 0) && (defequipmentmodifiers || defequipmentmodifiers == 0)) {
+            $(".character-sheet #def").val(spd + agl + per + defracialmodifier + defequipmentmodifiers);
+          }
+        });
+        
+      })();
+      
+      // ### Update total ARM ### \\
+      (function() {
+        
+        $(".character-sheet #phy, .character-sheet #armshieldmodifier, .character-sheet #armarmormodifiers, .character-sheet #armothermodifiers").change(function() {
+          var phy = parseInt($(".character-sheet #phy").val()) || 0;
+          var armshieldmodifier = parseInt($(".character-sheet #armshieldmodifier").val()) || 0;
+          var armarmormodifiers = parseInt($(".character-sheet #armarmormodifiers").val()) || 0;
+          var armothermodifiers = parseInt($(".character-sheet #armothermodifiers").val()) || 0;
+                    
+          if((phy || phy == 0) && (armshieldmodifier || armshieldmodifier == 0) && (armarmormodifiers || armarmormodifiers == 0) && (armothermodifiers || armothermodifiers == 0)) {
+            $(".character-sheet #arm").val(phy + armshieldmodifier + armarmormodifiers + armothermodifiers);
+          }
+        });
+        
+      })();
+      
+      // ### Update ARM shield modifier on Shield skill change ### \\
+      (function() {
+        
+        $(".character-sheet .skill .lvl").change(function(event) {
+          var input = $(event.target);
+          var lvl = input.val();
+          var skill = input.parent();
+          var name = skill.find(".title").val();
+          
+          if(name == "Shield") {
+            var mod = $(".character-sheet #armshieldmodifier");
+            mod.val(lvl);
+            mod.trigger("change");
+          }
+        });
+        
+      })();
+      
+      // ### Update total INI ### \\
+      (function() {
+        
+        $(".character-sheet #computed-spd, .character-sheet #prw, .character-sheet #per, .character-sheet #iniequipmentmodifiers, .character-sheet #iniadditionalmodifiers").change(function() {
+          var spd = parseInt($(".character-sheet #computed-spd").val()) || 0;
+          var prw = parseInt($(".character-sheet #prw").val()) || 0;
+          var per = parseInt($(".character-sheet #per").val()) || 0;
+          var iniequipmentmodifiers = parseInt($(".character-sheet #iniequipmentmodifiers").val()) || 0;
+          var iniadditionalmodifiers = parseInt($(".character-sheet #iniadditionalmodifiers").val()) || 0;
+          
+          if((spd || spd == 0) && (prw || prw == 0) && (per || per == 0) && (iniequipmentmodifiers || iniequipmentmodifiers == 0) && (iniadditionalmodifiers || iniadditionalmodifiers == 0)) {
+            $(".character-sheet #ini").val(spd + prw + per + iniequipmentmodifiers + iniadditionalmodifiers);
+          }
+        });
+        
+      })();
+      
+      // ### Update total CMD ### \\
+      (function() {
+        
+        $(".character-sheet #int, .character-sheet #cmdcommandskill, .character-sheet #cmdabilitymodifier").change(function() {
+          var int = parseInt($(".character-sheet #int").val()) || 0;
+          var cmdcommandskill = parseInt($(".character-sheet #cmdcommandskill").val()) || 0;
+          var cmdabilitymodifier = parseInt($(".character-sheet #cmdabilitymodifier").val()) || 0;
+          
+          if((int || int == 0) && (cmdcommandskill || cmdcommandskill == 0) && (cmdabilitymodifier || cmdabilitymodifier == 0)) {
+            $(".character-sheet #cmd").val(int + cmdcommandskill + cmdabilitymodifier);
+          }
+        });
+        
+      })();
+      
+    })();
+    
+    // ## Worn Armor changes ## \\ 
+    (function() {
+      
+      var db = ikrpg.generator.db.wornArmor;
+      
+      // ### Name changes ### \\
+      (function() {
+        
+        $(".character-sheet .wornarmor .name").change(function(event) {
+          var input = $(event.target);
+          var name = input.val();
+          var wornArmor = input.parent();
+          
+          var wornArmorData = db[name];
+          if(wornArmorData) {
+            wornArmor.find(".description").val(wornArmorData["description"]);
+            wornArmor.find(".spd").val(wornArmorData["spd"]);
+            wornArmor.find(".def").val(wornArmorData["def"]);
+            wornArmor.find(".arm").val(wornArmorData["arm"]);
+            
+            wornArmor.find(".spd").trigger("change");
+            wornArmor.find(".def").trigger("change");
+            wornArmor.find(".arm").trigger("change");
+          }
+        });
+        
+      })();
+      
+      // ### wornarmor1 changes ### \\
+      (function() {
+        
+        // #### wornarmor1 SPD change #### \\
+        (function() {
+          
+          $(".character-sheet #wornarmor1 .spd").change(function(event) {
+            var input = $(event.target);
+            var spdMalus = input.val();
+            if(spdMalus == "") {
+              spdMalus = 0;
+            }
+            var spd = parseInt($(".character-sheet #spd").val());
+            
+            $(".character-sheet #computed-spd").val(spd + parseInt(spdMalus));
+          });
+          
+        })();
+        
+        // #### wornarmor1 DEF change #### \\
+        (function() {
+          
+          $(".character-sheet #wornarmor1 .def").change(function(event) {
+            var input = $(event.target);
+            var defMalus = input.val();
+            if(defMalus == "") {
+              defMalus = 0;
+            }
+            var mods = $(".character-sheet #defequipmentmodifiers");
+            mods.val(defMalus);
+            mods.trigger("change");
+          });
+          
+        })();
+        
+        // #### wornarmor1 ARM change #### \\
+        (function() {
+          
+          $(".character-sheet #wornarmor1 .arm").change(function(event) {
+            var input = $(event.target);
+            var armBonus = input.val();
+            if(armBonus == "") {
+              armBonus = 0;
+            }
+            var mods = $(".character-sheet #armarmormodifiers");
+            mods.val(armBonus);
+            mods.trigger("change");
+          });
+          
+        })();
+        
+      })();
       
     })();
     
@@ -1742,7 +2169,7 @@ var ikrpg = ikrpg || {};
         
         var data = hero();
         
-        // ### Read in data from html user input ### \\
+        // ### Read in data from generator user input tags ### \\
         (function() {
           
           $(".character-generator-data input, .character-generator-data option:selected").each(function(index, entry) {
@@ -1777,6 +2204,7 @@ var ikrpg = ikrpg || {};
           "phy": data["PHY"],
           "phymax": data["PHY max"],
           "spd": data["SPD"],
+          "computed-spd": 0,
           "spdmax": data["SPD max"],
           "str": data["STR"],
           "strmax": data["STR max"],
@@ -1794,7 +2222,6 @@ var ikrpg = ikrpg || {};
           "permax": data["PER max"],
           "wil": parseInt(data["PHY"]) + parseInt(data["INT"]),
           "defracialmodifier": data["DEF racial modifier"],
-          "note1": {"text": "Adventuring company: "+data["adventuring company"]},
           "gold": data["gold"],
           "xp": 0,
           "feats": 3
@@ -1939,14 +2366,24 @@ var ikrpg = ikrpg || {};
             
           })();
           
-          // #### Armor #### \\
+          // #### Worn Armor #### \\
           (function() {
             
-            var armors = data["armor"] || [];
+            var db = ikrpg.generator.db.wornArmor;
+            
+            var armors = data["armors"] || [];
             
             $.each(armors.sort(), function(index, armor) {
               character["wornarmor"+(index+1)] = character["wornarmor"+(index+1)] || {};
               character["wornarmor"+(index+1)]["name"] = armor;
+                            
+              var wornArmorData = db[armor];
+              if(wornArmorData) {
+                character["wornarmor"+(index+1)]["description"] = wornArmorData["description"];
+                character["wornarmor"+(index+1)]["spd"] = wornArmorData["spd"];
+                character["wornarmor"+(index+1)]["def"] = wornArmorData["def"];
+                character["wornarmor"+(index+1)]["arm"] = wornArmorData["arm"];
+              }
             });
             
           })();
@@ -1957,8 +2394,8 @@ var ikrpg = ikrpg || {};
             var notes = data["notes"] || [];
             
             $.each(notes.sort(), function(index, note) {
-              character["note"+(index+2)] = character["note"+(index+2)] || {};
-              character["note"+(index+2)]["text"] = note;
+              character["note"+(index+1)] = character["note"+(index+1)] || {};
+              character["note"+(index+1)]["text"] = note;
             });
             
           })();
@@ -1984,6 +2421,80 @@ var ikrpg = ikrpg || {};
               character["connection"+(index+1)] = character["connection"+(index+1)] || {};
               character["connection"+(index+1)]["name"] = connection;
             });
+            
+          })();
+          
+          // #### Computed SPD #### \\
+          (function() {
+            // SPD base stat minus SPD malus from first worn armor
+            
+            var spd = parseInt(character["spd"]);
+            var wornArmor1 = character["wornarmor1"];
+            
+            if(wornArmor1) {
+              var spdMalus = parseInt(wornArmor1["spd"]);
+              
+              if(spdMalus) {
+                character["computed-spd"] = spd + spdMalus;
+              } else {
+                character["computed-spd"] = spd;
+              }
+            } else {
+              character["computed-spd"] = spd;
+            }
+            
+          })();
+          
+          // #### ARM, DEF, INI, CMD #### \\
+          (function() {
+            
+            var wornarmor1 = character["wornarmor1"];
+            
+            if(wornarmor1) {
+              var def = wornarmor1["def"];
+              var arm = wornarmor1["arm"];
+              character["defequipmentmodifiers"] = def;
+              character["armarmormodifiers"] = arm;
+            }
+            
+            var mskills = histogram(data["military skills"]);
+                        
+            if(mskills["Shield"]) {
+              var shield = parseInt(mskills["Shield"]);
+              character["armshieldmodifier"] = shield;
+            } else {
+              character["armshieldmodifier"] = 0;
+            }
+            
+            var oskills = histogram(data["occupational skills"]);
+            
+            if(oskills["Command"]) {
+              var command = parseInt(oskills["Command"]);
+              character["cmdcommandskill"] = command;
+            } else {
+              character["cmdcommandskill"] = 0;
+            }
+            
+            var spd = character["computed-spd"] || 0;
+            var agl = character["agl"] || 0;
+            var per = character["per"] || 0;
+            var defracialmodifier = character["defracialmodifier"] || 0;
+            var defequipmentmodifiers = character["defequipmentmodifiers"] || 0;
+            var phy = character["phy"] || 0;
+            var armshieldmodifier = character["armshieldmodifier"] || 0;
+            var armarmormodifiers = character["armarmormodifiers"] || 0;
+            var armothermodifiers = character["armothermodifiers"] || 0;
+            var prw = character["prw"] || 0;
+            var iniequipmentmodifiers = character["iniequipmentmodifiers"] || 0;
+            var iniadditionalmodifiers = character["iniadditionalmodifiers"] || 0;
+            var int = character["int"] || 0;
+            var cmdcommandskill = character["cmdcommandskill"] || 0;
+            var cmdabilitymodifier = character["cmdabilitymodifier"] || 0;
+            
+            character["def"] = spd + agl + per + defracialmodifier + defequipmentmodifiers;
+            character["arm"] = phy + armshieldmodifier + armarmormodifiers + armothermodifiers;
+            character["ini"] = spd + prw + per + iniequipmentmodifiers + iniadditionalmodifiers;
+            character["cmd"] = int + cmdcommandskill + cmdabilitymodifier;
             
           })();
           

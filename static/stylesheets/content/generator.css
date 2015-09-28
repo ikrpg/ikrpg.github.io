@@ -60,7 +60,7 @@ form#import-export:target { display: block; }
 .character-sheet #prwmax { margin: 441px 0 0 129px; width: 13px; text-align: center; }
 .character-sheet #poi { margin: 476px 0 0 92px; width: 32px; font-size: 20px; text-align: center; }
 .character-sheet #poimax { margin: 489px 0 0 129px; width: 13px; text-align: center; }
-.character-sheet #spd { margin: 315px 0 0 92px; width: 32px; font-size: 20px; text-align: center; }
+.character-sheet #computed-spd { margin: 315px 0 0 92px; width: 32px; font-size: 20px; text-align: center; }
 .character-sheet #spdmax { margin: 328px 0 0 129px; width: 13px; text-align: center; }
 .character-sheet #arc { margin: 541px 0 0 92px; width: 32px; font-size: 20px; text-align: center; }
 .character-sheet #arcmax { margin: 554px 0 0 129px; width: 13px; text-align: center; }
@@ -190,7 +190,7 @@ form#import-export:target { display: block; }
 .character-sheet #gear18 { margin-top: 373px; }
 .character-sheet #gear19 { margin-top: 393px; }
 .character-sheet .wornarmor { position: absolute; margin-left: 5px; }
-.character-sheet .wornarmor .name { width: 70px; }
+.character-sheet .wornarmor .name { width: 183px; }
 .character-sheet .wornarmor .notes { margin-left: 75px; width: 108px; }
 .character-sheet .wornarmor .spd { margin-left: 186px; width: 17px; text-align: center; }
 .character-sheet .wornarmor .def { margin-left: 225px; width: 17px; text-align: center; }

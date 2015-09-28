@@ -8671,14 +8671,6 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Storm Knight Barding",
-      publication: "Kings, Nations, and Gods",
-      page:        "92",
-      category:    "Armory",
-      subcategory: "Armor",
-      game:        "FMF"
-    },
-    {
       name:        "Stormsmith Armor",
       publication: "Kings, Nations, and Gods",
       page:        "92",
@@ -12211,6 +12203,14 @@ var ikrpg = ikrpg || {};
       name:        "Gas Mask, Equestrian",
       publication: "Core Rules",
       page:        "278",
+      category:    "Equipment",
+      subcategory: "Riding Equipment",
+      game:        "FMF"
+    },
+    {
+      name:        "Storm Knight Barding",
+      publication: "Kings, Nations, and Gods",
+      page:        "92",
       category:    "Equipment",
       subcategory: "Riding Equipment",
       game:        "FMF"
@@ -23653,7 +23653,7 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Howling FLames",
+      name:        "Howling Flames",
       publication: "Core Rules",
       page:        "240",
       category:    "Spell",
@@ -25573,7 +25573,7 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Sunhamer",
+      name:        "Sunhammer",
       publication: "Unleashed Core Rules",
       page:        "252",
       category:    "Spell",
