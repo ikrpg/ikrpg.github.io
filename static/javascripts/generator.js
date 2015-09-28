@@ -1177,6 +1177,24 @@ var ikrpg = ikrpg || {};
         
       })();
       
+      // ### Update CMD command skill on Command skill change ### \\
+      (function() {
+        
+        $(".character-sheet .skill .lvl").change(function(event) {
+          var input = $(event.target);
+          var lvl = input.val();
+          var skill = input.parent();
+          var name = skill.find(".title").val();
+          
+          if(name == "Command") {
+            var mod = $(".character-sheet #cmdcommandskill");
+            mod.val(lvl);
+            mod.trigger("change");
+          }
+        });
+        
+      })();
+      
     })();
     
     // ## Worn Armor changes ## \\ 
