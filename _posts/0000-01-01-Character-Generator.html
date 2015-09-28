@@ -7,30 +7,32 @@ tags: [Character Generator]
 <script type="text/todos">
     
     Simple:
-    S010: Add all races, careers, etc.
-    S020: "overflow" input fields
     Done: S030: Fill out Skill Parent Set Value (M020)
     Done: S040: Compute Skill sum (S030)
+    Done: S070: Fill Melee Weapon data (M050)
+    Done: S080: Fill Ranged Weapon data (M060)
+    Done: S100: Fill Languages
+    Done: S130: Use Skill DB on change of Skill name/value (M020)
+    Done: S140: Use Spell DB on change of Spell name (M160)
+    Done: S150: Fill out Spell data
+    S010: Add all races, careers, etc.
+    S020: "overflow" input fields
     S050: Benefit descriptions and pages (M030)
     S060: Ability descriptions and pages (M040) [Pages Done]
-    S070: Fill Melee Weapon data (M050)
-    S080: Fill Ranged Weapon data (M060)
     S090: Fill Arcane Tradition
-    Done: S100: Fill Languages
     S110: Connections descriptions and pages (M080)
-    S120: Connection descriptions and pages (M150)
-    Done: S130: Use Skill DB on change of Skill name/value (M020)
-    S140: Use Spell DB on change of Spell name (M160) [Done for Core Rules]
-    S150: Fill out Spell data [Done for Core Rules]
     S160: Add Warcaster Armor etc. to Armor DB
+    S170: Worn Armor Widget
+    S180: Melee Weapon Widget
+    S190: Ranged Weapon Widget
     
     Medium:
-    M010: Armor DB [Done for regular armor]
     Done: M020: Skill DB
+    M010: Armor DB [Done for regular armor]
     M030: Benefit DB
     M040: Ability DB
-    M050: Melee Weapon DB
-    M060: Ranged Weapon DB
+    M050: Melee Weapon DB [Done for Core Rules]
+    M060: Ranged Weapon DB [Done for Code Rules]
     M070: Gear DB
     M080: Connections DB
     M090: Mechanika DB
@@ -39,7 +41,6 @@ tags: [Character Generator]
     M120: Steamjack DB
     M130: Riding DB
     M140: Character Portraits
-    M150: Connection DB
     M160: Spell DB [Done for Core Rules]
     
     Complex:
@@ -53,9 +54,9 @@ tags: [Character Generator]
     C080: Leveling
     
     Bugs:
+    Done: B030: Is computed-SPD stored in save()?
     B010: Custom descriptions stay when I generate a new hero.
     B020: Changing font size in mechanika and connections and such.
-    B030: Is computed-SPD stored in save()?
     
     Features:
     F010: Add Chrome sync for local store!
@@ -783,9 +784,9 @@ tags: [Character Generator]
 </p>
 <p>
     <ul>
-        <li>It automatically fills out a character's race, caste, archetype, careers, and adventuring company</li>
-        <li>It automatically computes some of the values (not all yet)</li>
-        <li>It automatically fills out spell and skill data (just type the spell or skill name)</li>
+        <li>It automatically enters all values for the chosen races, castes, archetypes, careers, and adventuring companies</li>
+        <li>It automatically computes DEF, ARM, Initiative, Command Range, Willpower, MAT, P+S, RAT, and Skill totals</li>
+        <li>It automatically fills out spell, skill, ranged weapon, melee weapon, and worn armor data (we use the respective names from our index!)</li>
         <li>The beta only supports the entries of the FMF Core Rules</li>
     </ul>
 </p>

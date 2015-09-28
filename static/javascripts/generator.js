@@ -80,7 +80,7 @@ var ikrpg = ikrpg || {};
     
     })();
     
-    // ## Spell DB ## \\
+    // ## Spell DB [Done for Core Rules] ## \\
     (function() {
       
       var spellDB = {
@@ -468,7 +468,7 @@ var ikrpg = ikrpg || {};
       
     })();
     
-    // ## Worn Armor DB ## \\ TODO: Add Warcaster Armor etc.
+    // ## Worn Armor DB [Done for Regular Armor] ## \\ TODO: Add Warcaster Armor etc.
     (function() {
       
       var wornArmorDB = {
@@ -507,7 +507,7 @@ var ikrpg = ikrpg || {};
       
     })();
     
-    // ## Melee Weapon DB ## \\
+    // ## Melee Weapon DB [Done for Core Rules] ## \\
     (function() {
       
       var meleeWeaponDB = {
@@ -623,7 +623,7 @@ var ikrpg = ikrpg || {};
       
     })();
     
-    // ## Ranged Weapon DB ## \\
+    // ## Ranged Weapon DB [Done for Core Rules] ## \\
     (function() {
       
       var rangedWeaponDB = {
