@@ -317,6 +317,10 @@ ul.ui-autocomplete li.ui-state-focus {
     cursor: pointer;
 }
 
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
 
 @media print {
     html { zoom: 140%; }

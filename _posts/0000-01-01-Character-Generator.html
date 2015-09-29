@@ -15,6 +15,9 @@ tags: [Version 0.2 beta]
     Done: S130: Use Skill DB on change of Skill name/value (M020)
     Done: S140: Use Spell DB on change of Spell name (M160)
     Done: S150: Fill out Spell data
+    Done: S170: Worn Armor Widget
+    Done: S180: Melee Weapon Widget
+    Done: S190: Ranged Weapon Widget
     S010: Add all races, careers, etc.
     S020: "overflow" input fields
     S050: Benefit descriptions and pages (M030)
@@ -22,15 +25,13 @@ tags: [Version 0.2 beta]
     S090: Fill Arcane Tradition
     S110: Connections descriptions and pages (M080)
     S160: Add Warcaster Armor etc. to Armor DB
-    S170: Worn Armor Widget
-    S180: Melee Weapon Widget
-    S190: Ranged Weapon Widget
+    S200: Add Benefits to Index
     
     Medium:
     Done: M020: Skill DB
     M010: Armor DB [Done for regular armor]
-    M030: Benefit DB
-    M040: Ability DB
+    M030: Benefit DB (S200)
+    M040: Ability DB [Done for all names]
     M050: Melee Weapon DB [Done for Core Rules]
     M060: Ranged Weapon DB [Done for Code Rules]
     M070: Gear DB
@@ -49,9 +50,11 @@ tags: [Version 0.2 beta]
     C030: Mechanika Widget (M090)
     C040: Runeplate Widget (M100)
     C050: Capacitor Widget (M110)
-    C060: Steamjack Widget (M120)
-    C070: Riding Widget (M130)
+    C060: Steamjack Widget (M120, C090)
+    C070: Riding Widget (M130, C100)
     C080: Leveling
+    C090: Steamjack Sheet
+    C100: Riding Sheet
     
     Bugs:
     Done: B030: Is computed-SPD stored in save()?
@@ -787,6 +790,7 @@ tags: [Version 0.2 beta]
         <li>It automatically enters all values for the chosen races, castes, archetypes, careers, and adventuring companies</li>
         <li>It automatically computes DEF, ARM, Initiative, Command Range, Willpower, MAT, P+S, RAT, and Skill totals</li>
         <li>It automatically fills out spell, skill, ranged weapon, melee weapon, and worn armor data (we use the respective names from our index!)</li>
+        <li>It autocompletes Ranged Weapons, Melee Weapons, Skills, Abilities, Worn Armor, and Spells.</li>
         <li>The beta only supports the entries of the FMF Core Rules</li>
     </ul>
 </p>

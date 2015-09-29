@@ -718,7 +718,7 @@ var ikrpg = ikrpg || {};
       
     })();
     
-    // ## Benefits DB ##\\
+    // ## Benefits DB ##\\ [empty]
     (function() {
       
       var benefitsDB = {};
@@ -727,7 +727,7 @@ var ikrpg = ikrpg || {};
       
     })();
     
-    // ## Abilities DB ## \\
+    // ## Abilities DB ## \\ [only names]
     (function() {
       
       var abilitiesDB = {
@@ -2810,6 +2810,7 @@ var ikrpg = ikrpg || {};
       "Sorcerer (Storm) (FMF)": [
         listItem(_careers, "Sorcerer (Storm)"),
         number(_SPD, 1),
+        number(_SPD_max, 1),
         choices(arrayPairs(_military_skills, [
           "Archery",
           "Crossbow",
