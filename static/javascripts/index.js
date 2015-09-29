@@ -18,6 +18,7 @@ var ikrpg = ikrpg || {};
   // Armory
   //     Armor, Melee Weapon, Improvised Melee Weapon, Ranged Weapon, Ammunition,
   //     Ranged Weapon Accessory, Improvised Ranged Weapon, Magical Ranged Weapon, Trap
+  // Benefit
   // Disease
   //     Disease Type, Disease Classification, Contraction Method, Symptom, Disease
   // Equipment
@@ -11019,6 +11020,703 @@ var ikrpg = ikrpg || {};
       page:        "60",
       category:    "Armory",
       subcategory: "Magical Weapon",
+      game:        "FMF"
+    },
+    // ##### Benefit ##### \\
+    {
+      name:        "Additional Study",
+      publication: "Core Rules",
+      page:        "115",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Ambidextrous",
+      publication: "Core Rules",
+      page:        "117",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Ambidextrous",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Battlefield Coordination",
+      publication: "Core Rules",
+      page:        "115",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Battlefield Coordination",
+      publication: "Unleashed Core Rules",
+      page:        "110",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Beat Back",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Beat Back",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Blood Boon",
+      publication: "Unleashed Core Rules",
+      page:        "110",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Cagey",
+      publication: "Core Rules",
+      page:        "117",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Cagey",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Combat Caster",
+      publication: "Unleashed Core Rules",
+      page:        "110",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Combat Caster",
+      publication: "Urban Adventure Kit Rulebook",
+      page:        "6",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Deft",
+      publication: "Core Rules",
+      page:        "117",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Deft",
+      publication: "Unleashed Core Rules",
+      page:        "112",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Fast Caster",
+      publication: "Core Rules",
+      page:        "115",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Fast Caster",
+      publication: "Unleashed Core Rules",
+      page:        "110",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Back Swing",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Back Swing",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Back Swing",
+      publication: "Urban Adventure Kit Rulebook",
+      page:        "6",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Bounding Leap",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Bounding Leap",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Counter Charge",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Counter Charge",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Defensive Strike",
+      publication: "Core Rules",
+      page:        "117",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Defensive Strike",
+      publication: "Unleashed Core Rules",
+      page:        "112",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Disarm",
+      publication: "Core Rules",
+      page:        "117",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Disarm",
+      publication: "Unleashed Core Rules",
+      page:        "112",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Dominator",
+      publication: "Core Rules",
+      page:        "115",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Dominator",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Flawless Timing",
+      publication: "Core Rules",
+      page:        "115",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Flawless Timing",
+      publication: "Unleashed Core Rules",
+      page:        "110",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Influence",
+      publication: "Unleashed Core Rules",
+      page:        "110",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Invulnerable",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Invulnerable",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Perfect Plot",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Perfect Plot",
+      publication: "Unleashed Core Rules",
+      page:        "110",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Plan of Action",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Plan of Action",
+      publication: "Unleashed Core Rules",
+      page:        "110",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Powerful Caster",
+      publication: "Core Rules",
+      page:        "115",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Powerful Caster",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Prescient",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Prescient",
+      publication: "Unleashed Core Rules",
+      page:        "110",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Revitalize",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Revitalize",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Shield Breaker",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Swashbuckler",
+      publication: "Core Rules",
+      page:        "117",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Swashbuckler",
+      publication: "Unleashed Core Rules",
+      page:        "112",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Quick Cast",
+      publication: "Core Rules",
+      page:        "115",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Quick Cast",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Quick Cast",
+      publication: "Urban Adventure Kit Rulebook",
+      page:        "6",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Quick Thinking",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Quick Thinking",
+      publication: "Unleashed Core Rules",
+      page:        "110",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Shield Breaker",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Strength of Will",
+      publication: "Core Rules",
+      page:        "115",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Strength of Will",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Strength of Will",
+      publication: "Urban Adventure Kit Rulebook",
+      page:        "6",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Unconventional Warfare",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Untouchable",
+      publication: "Core Rules",
+      page:        "117",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Untouchable",
+      publication: "Unleashed Core Rules",
+      page:        "112",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Feat: Vendetta",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Feat: Vendetta",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Genius",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Genius",
+      publication: "Unleashed Core Rules",
+      page:        "110",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Hyper Perception",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Hyper Perception",
+      publication: "Unleashed Core Rules",
+      page:        "110",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Magic Sensitivity",
+      publication: "Core Rules",
+      page:        "115",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Magic Sensitivity",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Occult Secrets",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Occult Secrets",
+      publication: "Urban Adventure Kit Rulebook",
+      page:        "6",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Photographic Memory",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Preternatural Awareness",
+      publication: "Core Rules",
+      page:        "117",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Preternatural Awareness",
+      publication: "Unleashed Core Rules",
+      page:        "112",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Preternatural Awareness",
+      publication: "Urban Adventure Kit Rulebook",
+      page:        "6",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Righteous Anger",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Righteous Anger",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Righteous Anger",
+      publication: "Urban Adventure Kit Rulebook",
+      page:        "6",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Rune Reader",
+      publication: "Core Rules",
+      page:        "115",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Rune Reader",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Savant",
+      publication: "Unleashed Core Rules",
+      page:        "110",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Sidestep",
+      publication: "Core Rules",
+      page:        "117",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Sidestep",
+      publication: "Unleashed Core Rules",
+      page:        "112",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Tough",
+      publication: "Core Rules",
+      page:        "116",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Tough",
+      publication: "Unleashed Core Rules",
+      page:        "111",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Virtuoso",
+      publication: "Core Rules",
+      page:        "117",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Virtuoso",
+      publication: "Unleashed Core Rules",
+      page:        "112",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Virtuoso",
+      publication: "Urban Adventure Kit Rulebook",
+      page:        "6",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Warding Circle",
+      publication: "Core Rules",
+      page:        "115",
+      category:    "Benefit",
+      subcategory: "",
       game:        "FMF"
     },
     // ##### Disease > Disease Type ##### \\
