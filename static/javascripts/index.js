@@ -2045,7 +2045,7 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Field Marshall: Counter Charge",
+      name:        "Field Marshal: Counter Charge",
       publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
@@ -2053,7 +2053,7 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Field Marshall: Celestial Harmony",
+      name:        "Field Marshal: Celestial Harmony",
       publication: "No Quarter #48",
       page:        "66",
       category:    "Ability",
@@ -2061,7 +2061,7 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Field Marshall: Hog Wild",
+      name:        "Field Marshal: Hog Wild",
       publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
@@ -2077,7 +2077,7 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Field Marshall: Magical Attack",
+      name:        "Field Marshal: Magical Attack",
       publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
@@ -2085,7 +2085,7 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Field Marshall: Poltergeist",
+      name:        "Field Marshal: Poltergeist",
       publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
@@ -2093,7 +2093,7 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Field Marshall: Regenerate",
+      name:        "Field Marshal: Regenerate",
       publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
@@ -2109,7 +2109,7 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Field Marshall: Relentless Charge",
+      name:        "Field Marshal: Relentless Charge",
       publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",
@@ -2133,7 +2133,7 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Field Marshall: Unyielding",
+      name:        "Field Marshal: Unyielding",
       publication: "Unleashed Core Rules",
       page:        "160",
       category:    "Ability",

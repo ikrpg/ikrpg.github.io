@@ -277,117 +277,46 @@ form#import-export:target { display: block; }
 .character-sheet #religiousbelief3 { position: absolute; margin-top: 549px; margin-left: 698px; width: 265px; }
 .character-sheet #gold { position: absolute; margin-top: 610px; margin-left: 698px; font-size: 50px; width: 100px; text-align: right; }
 
-/*
-.character-sheet .gear { position: absolute; margin-left: 5px; }
-.character-sheet .gear .title { width: 285px; }
-.character-sheet .gear .benefit { margin-left: 125px; width: 160px; }
-.character-sheet #gear1 { margin-top: 38px; }
-.character-sheet #gear2 { margin-top: 58px; }
-.character-sheet #gear3 { margin-top: 78px; }
-.character-sheet #gear4 { margin-top: 97px; }
-.character-sheet #gear5 { margin-top: 117px; }
-.character-sheet #gear6 { margin-top: 137px; }
-.character-sheet #gear7 { margin-top: 157px; }
-.character-sheet #gear8 { margin-top: 177px; }
-.character-sheet #gear9 { margin-top: 197px; }
-.character-sheet #gear10 { margin-top: 217px; }
-.character-sheet #gear11 { margin-top: 237px; }
-.character-sheet #gear12 { margin-top: 257px; }
-.character-sheet #gear13 { margin-top: 276px; }
-.character-sheet #gear14 { margin-top: 296px; }
-.character-sheet #gear15 { margin-top: 316px; }
-.character-sheet #gear16 { margin-top: 336px; }
-.character-sheet #gear17 { margin-top: 356px; }
-.character-sheet #gear18 { margin-top: 376px; }
-.character-sheet #gear19 { margin-top: 396px; }
-.character-sheet .wornarmor { position: absolute; margin-left: 5px; }
-.character-sheet .wornarmor .name { width: 70px; }
-.character-sheet .wornarmor .notes { margin-left: 75px; width: 108px; }
-.character-sheet .wornarmor .spd { margin-left: 186px; width: 17px; text-align: center; }
-.character-sheet .wornarmor .def { margin-left: 225px; width: 17px; text-align: center; }
-.character-sheet .wornarmor .arm { margin-left: 260px; width: 17px; text-align: center; }
-.character-sheet #wornarmor1 { margin-top: 468px; }
-.character-sheet #wornarmor2 { margin-top: 488px; }
-.character-sheet #wornarmor3 { margin-top: 508px; }
-.character-sheet #wornarmor4 { margin-top: 528px; }
-.character-sheet .connection { position: absolute; margin-left: 5px; }
-.character-sheet .connection .name { width: 98px; }
-.character-sheet .connection .notes { margin-left: 98px; width: 140px; }
-.character-sheet .connection .page { margin-left: 238px; width: 48px; text-align: right; }
-.character-sheet #connection1 { margin-top: 600px; }
-.character-sheet #connection2 { margin-top: 620px; }
-.character-sheet #connection3 { margin-top: 640px; }
-.character-sheet #connection4 { margin-top: 660px; }
-.character-sheet #arcanetradition { position: absolute; margin: 12px 0 0 398px; width: 256px; }
-.character-sheet .spell { position: absolute; margin-left: 312px; }
-.character-sheet .spell .title { width: 134px; }
-.character-sheet .spell .cost { margin-left: 140px; width: 33px; text-align: center; }
-.character-sheet .spell .rng { margin-left: 178px; width: 32px; text-align: center; }
-.character-sheet .spell .aoe { margin-left: 215px; width: 32px; text-align: center; }
-.character-sheet .spell .pow { margin-left: 252px; width: 33px; text-align: center; }
-.character-sheet .spell .up { margin-left: 290px; width: 32px; text-align: center; }
-.character-sheet .spell .off { margin-left: 327px; width: 28px; text-align: center; }
-.character-sheet .spell .description { margin-top: 23px; width: 355px; }
-.character-sheet .iku .mechanika { display: none; }
-.character-sheet .mechanika { position: absolute; margin-left: 312px; }
-.character-sheet .mechanika .housing { width: 84px; }
-.character-sheet .mechanika .runeplate { margin-left: 90px; width: 84px; }
-.character-sheet .mechanika .capacitor { margin-left: 180px; width: 84px; }
-.character-sheet .mechanika .notes { margin-left: 270px; width: 84px; }
-.character-sheet #mechanika1 { margin-top: 486px; }
-.character-sheet #mechanika2 { margin-top: 506px; }
-.character-sheet #mechanika3 { margin-top: 526px; }
-.character-sheet #mechanika4 { margin-top: 546px; }
-.character-sheet #mechanika5 { margin-top: 566px; }
-.character-sheet .iku .runeplate { display: none; }
-.character-sheet .runeplate { position: absolute; margin-left: 312px; }
-.character-sheet .runeplate .title { width: 84px; }
-.character-sheet .runeplate .benefit { margin-left: 90px; width: 78px; }
-.character-sheet #runeplate1 { margin-top: 602px; }
-.character-sheet #runeplate2 { margin-top: 622px; }
-.character-sheet #runeplate3 { margin-top: 642px; }
-.character-sheet #runeplate4 { margin-top: 662px; }
-.character-sheet .iku .capacitor { display: none; }
-.character-sheet .capacitor { position: absolute; margin-left: 498px; }
-.character-sheet .capacitor .title { width: 78px; }
-.character-sheet .capacitor .charges { margin-left: 84px; width: 84px; }
-.character-sheet #capacitor1 { margin-top: 602px; }
-.character-sheet #capacitor2 { margin-top: 622px; }
-.character-sheet #capacitor3 { margin-top: 642px; }
-.character-sheet #capacitor4 { margin-top: 662px; }
-.character-sheet #spell1 { margin-top: 50px; }
-.character-sheet #spell2 { margin-top: 100px; }
-.character-sheet #spell3 { margin-top: 150px; }
-.character-sheet #spell4 { margin-top: 200px; }
-.character-sheet #spell5 { margin-top: 250px; }
-.character-sheet #spell6 { margin-top: 299px; }
-.character-sheet #spell7 { margin-top: 348px; }
-.character-sheet #spell8 { margin-top: 398px; }
-.character-sheet .note { position: absolute; margin-left: 698px; }
-.character-sheet .note .text { width: 265px; }
-.character-sheet #note1 { margin-top: 37px; }
-.character-sheet #note2 { margin-top: 56px; }
-.character-sheet #note3 { margin-top: 75px; }
-.character-sheet #note4 { margin-top: 94px; }
-.character-sheet #note5 { margin-top: 112px; }
-.character-sheet #note6 { margin-top: 131px; }
-.character-sheet #note7 { margin-top: 150px; }
-.character-sheet #note8 { margin-top: 168px; }
-.character-sheet #note9 { margin-top: 187px; }
-.character-sheet #note10 { margin-top: 206px; }
-.character-sheet #note11 { margin-top: 225px; }
-.character-sheet #note12 { margin-top: 244px; }
-.character-sheet #permanentinjury1 { position: absolute; margin-top: 310px; margin-left: 698px; width: 265px; }
-.character-sheet #permanentinjury2 { position: absolute; margin-top: 330px; margin-left: 698px; width: 265px; }
-.character-sheet #permanentinjury3 { position: absolute; margin-top: 350px; margin-left: 698px; width: 265px; }
-.character-sheet #spokenlanguage1 { position: absolute; margin-top: 411px; margin-left: 698px; width: 265px; }
-.character-sheet #spokenlanguage2 { position: absolute; margin-top: 431px; margin-left: 698px; width: 265px; }
-.character-sheet #spokenlanguage3 { position: absolute; margin-top: 451px; margin-left: 698px; width: 265px; }
-.character-sheet #religiousbelief1 { position: absolute; margin-top: 512px; margin-left: 698px; width: 265px; }
-.character-sheet #religiousbelief2 { position: absolute; margin-top: 532px; margin-left: 698px; width: 265px; }
-.character-sheet #religiousbelief3 { position: absolute; margin-top: 552px; margin-left: 698px; width: 265px; }
-.character-sheet #gold { position: absolute; margin-top: 613px; margin-left: 698px; font-size: 50px; width: 100px; text-align: right; }
-*/
+
+ul.ui-autocomplete {
+    z-index: 1000;
+    position: absolute;
+    font-size: 13px;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-left: -1px;
+    width: 140px !important;
+    max-height: 200px;
+    color: black;
+    list-style-type: none;
+    overflow-y: scroll;
+    border: 2px solid black;
+}
+
+ul.ui-autocomplete li.ui-menu-item {
+    margin: 0 !important;
+    padding: 0 3px !important;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+ul.ui-autocomplete li.ui-menu-item:not(:first-of-type) {
+    border-top: 2px solid black;
+}
+
+ul.ui-autocomplete li.ui-menu-item:nth-of-type(2n) {
+    background-color: #F0F7EB;
+}
+
+ul.ui-autocomplete li.ui-menu-item:nth-of-type(2n-1) {
+    background-color: #CEE4BD;
+}
+
+ul.ui-autocomplete li.ui-state-focus {
+    font-weight: bold;
+    cursor: pointer;
+}
+
 
 @media print {
     html { zoom: 140%; }

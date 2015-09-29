@@ -718,33 +718,493 @@ var ikrpg = ikrpg || {};
       
     })();
     
+    // ## Benefits DB ##\\
+    (function() {
+      
+      var benefitsDB = {};
+      
+      ikrpg.generator.db.benefit = benefitsDB;
+      
+    })();
+    
+    // ## Abilities DB ## \\
+    (function() {
+      
+      var abilitiesDB = {
+        "'Jack Marshal": undefined,
+        "Abomination": undefined,
+        "Ace Commander": undefined,
+        "Acrobatics": undefined,
+        "Adaptable [Urban]": undefined,
+        "Adjust Aim": undefined,
+        "Advisor": undefined,
+        "Aegis": undefined,
+        "Always a Deal to be Made": undefined,
+        "Ambush": undefined,
+        "Anatomical Precision": undefined,
+        "Anatomist": undefined,
+        "Anestetize": undefined,
+        "Animal Control": undefined,
+        "Appraise": undefined,
+        "Arcane Assassin": undefined,
+        "Arcane Defenses": undefined,
+        "Arcane Engineer": undefined,
+        "Arcane Precision": undefined,
+        "Arcane Scholar": undefined,
+        "Archer": undefined,
+        "Arcing Shot": undefined,
+        "Artificer": undefined,
+        "Astute": undefined,
+        "Astute": undefined,
+        "Athanc Shard": undefined,
+        "Authority": undefined,
+        "Awe Inspiring": undefined,
+        "Backstab": undefined,
+        "Balm of Dhunia": undefined,
+        "Battle Commander": undefined,
+        "Battle Plan: Battlefield Coordination": undefined,
+        "Battle Plan: Brutal Charge": undefined,
+        "Battle Plan: Call to Action": undefined,
+        "Battle Plan: Close Fire": undefined,
+        "Battle Plan: Coordinated Strike": undefined,
+        "Battle Plan: Desperate Pace": undefined,
+        "Battle Plan: Go to Ground": undefined,
+        "Battle Plan: Orchestrate Fire": undefined,
+        "Battle Plan: Press Forward": undefined,
+        "Battle Plan: Reconnaissance": undefined,
+        "Battle Plan: Relentless Charge": undefined,
+        "Battle Plan: Shadow": undefined,
+        "Battle Plan: Take Cover": undefined,
+        "Bayonet Charge": undefined,
+        "Beast Handler": undefined,
+        "Beast Manipulation: Dominator": undefined,
+        "Beast Manipulation: Enrage": undefined,
+        "Beast Manipulation: Medicate": undefined,
+        "Beast Manipulation: Toughen": undefined,
+        "Berserk": undefined,
+        "Big Game Hunter": undefined,
+        "Binding": undefined,
+        "Black Tongue": undefined,
+        "Blade Shield": undefined,
+        "Blaster": undefined,
+        "Blood Drinker": undefined,
+        "Blood Frenzy": undefined,
+        "Blood Rites": undefined,
+        "Blood Spiller": undefined,
+        "Blood Trade": undefined,
+        "Bloodletting": undefined,
+        "Bloodlust": undefined,
+        "Blur of Motion": undefined,
+        "Boarding Action": undefined,
+        "Bodge": undefined,
+        "Body Slam": undefined,
+        "Bodyguard": undefined,
+        "Bomber": undefined,
+        "Bond": undefined,
+        "Bone Grinder": undefined,
+        "Brawler": undefined,
+        "Brew Master": undefined,
+        "Broad Stroke": undefined,
+        "Bull Rush": undefined,
+        "Calm": undefined,
+        "Camouflage": undefined,
+        "Card Sharp": undefined,
+        "Cataphract": undefined,
+        "Cautious Advance": undefined,
+        "Cavalry Charge": undefined,
+        "Cavalry Fighter": undefined,
+        "Chain Attack: Bleed Out": undefined,
+        "Chain Attack: Body Slam": undefined,
+        "Chain Attack: Pin Down": undefined,
+        "Chain Attack: Smite": undefined,
+        "Charmer": undefined,
+        "Choir": undefined,
+        "Circular Vision": undefined,
+        "Cleave": undefined,
+        "Clockwork Transcendence": undefined,
+        "Close Shot": undefined,
+        "Cold Steel": undefined,
+        "Combat Rider": undefined,
+        "Combo Strike (Praetorian Sword)": undefined,
+        "Communion": undefined,
+        "Conditioning": undefined,
+        "Conniver": undefined,
+        "Consume Essence": undefined,
+        "Convergence Warcaster": undefined,
+        "Corruptor": undefined,
+        "Counter Offer": undefined,
+        "Cover Identity": undefined,
+        "Covering Fire": undefined,
+        "Crackshot": undefined,
+        "Craft Rune Shot": undefined,
+        "Crossbowman": undefined,
+        "Dark Dominion": undefined,
+        "Dark Scribe": undefined,
+        "Deadly Skill": undefined,
+        "Death Mastery": undefined,
+        "Defender": undefined,
+        "Defensive Line": undefined,
+        "Dig In": undefined,
+        "Disease Resistance": undefined,
+        "Dismember": undefined,
+        "Dispel": undefined,
+        "Distiller": undefined,
+        "Divine Fortitude": undefined,
+        "Dodger": undefined,
+        "Dominating Presence": undefined,
+        "Doom Gaze": undefined,
+        "Double Powder Ration": undefined,
+        "Draconic Eminence": undefined,
+        "Drive: Ancillary Attack": undefined,
+        "Drive: Assault": undefined,
+        "Drive: Off Road": undefined,
+        "Drive: Pronto": undefined,
+        "Dual Fighter": undefined,
+        "Dual Shot": undefined,
+        "Earth Magic": undefined,
+        "Electromancer": undefined,
+        "Elemental Master": undefined,
+        "Elusive Rider": undefined,
+        "Empower": undefined,
+        "Empower Weapon": undefined,
+        "Energy Siphon": undefined,
+        "Enigma Cipher": undefined,
+        "Evasive Rider": undefined,
+        "Exalted": undefined,
+        "Exalted Dialogue": undefined,
+        "Excruciator": undefined,
+        "Expert Rider": undefined,
+        "Exterminator": undefined,
+        "Extoller": undefined,
+        "Eye of the Storm": undefined,
+        "Fabricator": undefined,
+        "Fall Back": undefined,
+        "Fast Cook": undefined,
+        "Fast Draw": undefined,
+        "Fast Rearm": undefined,
+        "Fast Reload": undefined,
+        "Fate Blessed": undefined,
+        "Fearless": undefined,
+        "Fearsome Howl": undefined,
+        "Feat of Regeneration": undefined,
+        "Fell Call: Cacophony": undefined,
+        "Fell Call: Call of Defiance": undefined,
+        "Fell Call: Ground Shaker": undefined,
+        "Fell Call: Heroic Ballad": undefined,
+        "Fell Call: Reverberation": undefined,
+        "Fell Call: Signal Call": undefined,
+        "Fell Call: Sonic Blast": undefined,
+        "Field Alchemist": undefined,
+        "Field Marshal: Counter Charge": undefined,
+        "Field Marshal: Celestial Harmony": undefined,
+        "Field Marshal: Hog Wild": undefined,
+        "Field Marshal: Magical Attack": undefined,
+        "Field Marshal: Poltergeist": undefined,
+        "Field Marshal: Regenerate": undefined,
+        "Field Marshal: Relentless Charge": undefined,
+        "Field Marshal: Shield Guard": undefined,
+        "Field Marshal: Sprint": undefined,
+        "Field Marshal: Unyielding": undefined,
+        "Find Cover": undefined,
+        "Finisher": undefined,
+        "Fire in the Hole!": undefined,
+        "First to Fight": undefined,
+        "Fist of God": undefined,
+        "Flash Thief": undefined,
+        "Fleet Foot": undefined,
+        "Fleet Food": undefined,
+        "Flesh of Steel": undefined,
+        "Fleshcrafting": undefined,
+        "Flying Fists": undefined,
+        "Follow Up": undefined,
+        "Foresight": undefined,
+        "Free Style": undefined,
+        "Gang": undefined,
+        "Gatekeeper": undefined,
+        "Get Away": undefined,
+        "Ghost Shield": undefined,
+        "Ghost Sight": undefined,
+        "Gift of the Beast": undefined,
+        "Girded": undefined,
+        "Go to Ground": undefined,
+        "Goad": undefined,
+        "Good Breeding": undefined,
+        "Grappler": undefined,
+        "Grave Man": undefined,
+        "Great Power": undefined,
+        "Grenadier": undefined,
+        "Gunfighter": undefined,
+        "Gunner": undefined,
+        "Hack": undefined,
+        "Hard": undefined,
+        "Hardened Strike": undefined,
+        "Haruspex": undefined,
+        "Head-Butt": undefined,
+        "Heart Eater": undefined,
+        "High-Pressure Fire": undefined,
+        "Hit em' Low": undefined,
+        "Hit the Deck!": undefined,
+        "Hulking Presence": undefined,
+        "Hunter": undefined,
+        "Hunting Ground": undefined,
+        "Hyper Awareness": undefined,
+        "Imbue Weapon": undefined,
+        "Immunity: Cold": undefined,
+        "Immunity: Corrosion": undefined,
+        "Immunity: Electricity": undefined,
+        "Immunity: Fire": undefined,
+        "Impelled Companions": undefined,
+        "Imperishable Conviction": undefined,
+        "Impervious Wall Stance": undefined,
+        "Improvised Formula": undefined,
+        "Inflict Pain": undefined,
+        "Inscribe Formulae": undefined,
+        "Inscribe Thrall Rune": undefined,
+        "Instructor": undefined,
+        "Iron Sentinel": undefined,
+        "Iron Will": undefined,
+        "Ironhead": undefined,
+        "Keen Eyed": undefined,
+        "Knife Thrower": undefined,
+        "Language": undefined,
+        "Legecy of Bragg": undefined,
+        "Light Cavalry": undefined,
+        "Line Breaker": undefined,
+        "Live Drinker": undefined,
+        "Load Bearing": undefined,
+        "Long-Lived": undefined,
+        "Lost in the Crowd": undefined,
+        "Low Breeding": undefined,
+        "Maestro": undefined,
+        "Mage Killer": undefined,
+        "Makeshift Engineering": undefined,
+        "Maltreatment": undefined,
+        "Man of Iron": undefined,
+        "Marksman": undefined,
+        "Master Chymist": undefined,
+        "Maul": undefined,
+        "Meat Alchemy": undefined,
+        "Mend Flesh": undefined,
+        "Mount Attack": undefined,
+        "Mounted: Bounding Leap": undefined,
+        "Mounted: Counter Charge": undefined,
+        "Mounted: Outride": undefined,
+        "Natural Leader": undefined,
+        "Necromancer": undefined,
+        "Night Fighter": undefined,
+        "Oath of Silence": undefined,
+        "Onslaught": undefined,
+        "Opening Salvo": undefined,
+        "Ossify": undefined,
+        "Overpower": undefined,
+        "Overtake": undefined,
+        "Pack Hunter": undefined,
+        "Pain Flow": undefined,
+        "Pain Monger": undefined,
+        "Parry": undefined,
+        "Patch Up": undefined,
+        "Pathfinder": undefined,
+        "Perfect Timing": undefined,
+        "Poison Glaze": undefined,
+        "Poison Resistance": undefined,
+        "Poisoner": undefined,
+        "Poltergeist": undefined,
+        "Port of Call": undefined,
+        "Possession": undefined,
+        "Power of Truth": undefined,
+        "Powerstrain": undefined,
+        "Precision Strike": undefined,
+        "Press the Attack": undefined,
+        "Previlege": undefined,
+        "Prowl": undefined,
+        "Pursuit": undefined,
+        "Quick Chymist": undefined,
+        "Quick Work": undefined,
+        "Rallying Cry": undefined,
+        "Range Amplifier": undefined,
+        "Reclaim": undefined,
+        "Reed in the Wind": undefined,
+        "Relentless Advance": undefined,
+        "Relentless Charge": undefined,
+        "Ram": undefined,
+        "Remedy": undefined,
+        "Renowned": undefined,
+        "Resonance: Devourer Warbeast": undefined,
+        "Resonance: Farrow Warbeast": undefined,
+        "Resonance: Skorne Warbeast": undefined,
+        "Resonance: Swamp Warbeast": undefined,
+        "Resonance: Trollblood Warbeast": undefined,
+        "Resonance: Wold": undefined,
+        "Resourceful": undefined,
+        "Restoration": undefined,
+        "Retaliatory Strike": undefined,
+        "Return Fire": undefined,
+        "Rhulic Warcaster": undefined,
+        "Ride-by Attack": undefined,
+        "Riposte": undefined,
+        "Rock Solid": undefined,
+        "Rock Steady": undefined,
+        "Roll with It": undefined,
+        "Runesmith": undefined,
+        "Saddle Shot": undefined,
+        "Sanguine Bond": undefined,
+        "Scent": undefined,
+        "Scoping it Out": undefined,
+        "Scorched Earth": undefined,
+        "Scrounge": undefined,
+        "Sentry": undefined,
+        "Serenity": undefined,
+        "Serpent Strike": undefined,
+        "Set Defence": undefined,
+        "Shadow Magic": undefined,
+        "Shield Guard": undefined,
+        "Shield Slam": undefined,
+        "Shifting Sands Stance": undefined,
+        "Shootist": undefined,
+        "Signal Howls": undefined,
+        "Signal Language": undefined,
+        "Silence": undefined,
+        "Silver Tongued": undefined,
+        "Skilled Trapper": undefined,
+        "Snacking": undefined,
+        "Snag & Slash": undefined,
+        "Snap Fire": undefined,
+        "Sniper": undefined,
+        "Snow Wreathed": undefined,
+        "Souie!": undefined,
+        "Soul Guard": undefined,
+        "Soul Taker": undefined,
+        "Soul Thief": undefined,
+        "Soulstorm": undefined,
+        "Spawning Savant": undefined,
+        "Specialization": undefined,
+        "Spirit Eater": undefined,
+        "Spirit Guide": undefined,
+        "Spirit Vision": undefined,
+        "Spiritual Harmony": undefined,
+        "Sprint": undefined,
+        "Staredown": undefined,
+        "Stay Death": undefined,
+        "Steady": undefined,
+        "Steam Jockey": undefined,
+        "Steam Savant": undefined,
+        "Steamo": undefined,
+        "Stone Scavenger": undefined,
+        "Stone Warder": undefined,
+        "Stone-and-Mortars Stance": undefined,
+        "Stonecutter": undefined,
+        "Storm Booster": undefined,
+        "Strangler": undefined,
+        "Street Survivor": undefined,
+        "Street Sweeper": undefined,
+        "Strength of Arms": undefined,
+        "Student of Kexorus": undefined,
+        "Studious": undefined,
+        "Sucker!": undefined,
+        "Suppressing Fire": undefined,
+        "Survivalist": undefined,
+        "Swift Hunter": undefined,
+        "Swift Rider": undefined,
+        "Tactical Coordination": undefined,
+        "Take Down": undefined,
+        "Tap Fury": undefined,
+        "Targeteer": undefined,
+        "Team Leader": undefined,
+        "Team Player": undefined,
+        "Test the Wind": undefined,
+        "Thick Skin": undefined,
+        "Tinkerer": undefined,
+        "Torture": undefined,
+        "Traceless Path": undefined,
+        "Tracker": undefined,
+        "Trained Rider": undefined,
+        "Transcend the Flesh": undefined,
+        "Treewalker": undefined,
+        "Trick Rider": undefined,
+        "Trip": undefined,
+        "Troll Speaker": undefined,
+        "Truth Reader": undefined,
+        "Tune Up": undefined,
+        "Two-Weapon Fighting": undefined,
+        "Unhallowed": undefined,
+        "University Education": undefined,
+        "Urcaen's Gate": undefined,
+        "Vampiric Harvest": undefined,
+        "Vessel Upgrade": undefined,
+        "Vivisectionist": undefined,
+        "Warlock Bond": undefined,
+        "Waylay": undefined,
+        "Weapon Master (Javelin)": undefined,
+        "Weapon Master (Praetorian Sword)": undefined,
+        "Weatherman": undefined,
+        "Weather Vane": undefined,
+        "Whelp Companion": undefined,
+        "Whirlwind": undefined,
+        "Whispers of the Creator": undefined,
+        "Wold Mastery": undefined,
+        "Wolf Protector": undefined
+      };
+      
+      ikrpg.generator.db.ability = abilitiesDB;
+      
+    })();
+    
   })();
   
   
   // # Fill character sheet input fields with DB data # \\
   (function() {
     
-    // ## Fill spell data on title change ## \\
+    // ## Spell changes ## \\
     (function() {
       
       var db = ikrpg.generator.db.spell;
       
-      $(".character-sheet .spell .title").change(function(event) {
-        var input = $(event.target);
-        var title = input.val();
-        var spell = input.parent();
+      // ### Fill spell data on title change ### \\
+      (function() {
         
-        var spellData = db[title];
-        if(spellData) {
-          spell.find(".cost").val(spellData["cost"]);
-          spell.find(".rng").val(spellData["rng"]);
-          spell.find(".aoe").val(spellData["aoe"]);
-          spell.find(".pow").val(spellData["pow"]);
-          spell.find(".up").val(spellData["up"]);
-          spell.find(".off").val(spellData["off"]);
-          spell.find(".description").val(spellData["description"]);
+        $(".character-sheet .spell .title").change(function(event) {
+          var input = $(event.target);
+          var title = input.val();
+          var spell = input.parent();
+        
+          var spellData = db[title];
+          if(spellData) {
+            spell.find(".cost").val(spellData["cost"]);
+            spell.find(".rng").val(spellData["rng"]);
+            spell.find(".aoe").val(spellData["aoe"]);
+            spell.find(".pow").val(spellData["pow"]);
+            spell.find(".up").val(spellData["up"]);
+            spell.find(".off").val(spellData["off"]);
+            spell.find(".description").val(spellData["description"]);
+          }
+        });
+        
+      })();
+      
+      // ### Autocomplete ### \\
+      (function() {
+        
+        var source = $.grep(Object.keys(db), function(key) {
+          return db[key];
+        });
+        
+        function buildAutocomplete(selector) {
+          $(selector + " .title").autocomplete({
+            appendTo: selector,
+            minLength: 0,
+            source: source,
+            select: function(event, ui) {
+              event.target.value = ui.item.value;
+              $(event.target).trigger("change");
+            }
+          });
         }
-      });
+        
+        $(".character-sheet .spell").each(function(index, skill) {
+          buildAutocomplete(".character-sheet #"+$(skill).attr("id"));
+        });
+      })();
       
     })();
     
@@ -850,6 +1310,30 @@ var ikrpg = ikrpg || {};
       
       })();
       
+      // ### Autocomplete ### \\
+      (function() {
+        
+        var source = $.grep(Object.keys(db), function(key) {
+          return db[key];
+        });
+        
+        function buildAutocomplete(selector) {
+          $(selector + " .title").autocomplete({
+            appendTo: selector,
+            minLength: 0,
+            source: source,
+            select: function(event, ui) {
+              event.target.value = ui.item.value;
+              $(event.target).trigger("change");
+            }
+          });
+        }
+        
+        $(".character-sheet .skill").each(function(index, skill) {
+          buildAutocomplete(".character-sheet #"+$(skill).attr("id"));
+        });
+      })();
+      
     })();
     
     // ## Stat changes ## \\
@@ -901,21 +1385,50 @@ var ikrpg = ikrpg || {};
       
     })();
     
-    // ## Update page value on ability change ## \\
+    // ## Ability changes ## \\
     (function() {
       
-      var db = ikrpg.index.data;
+      var db = ikrpg.generator.db.ability;
       
-      $(".character-sheet .ability").change(function(event) {
-        var input = $(event.target);
-        var title = input.val();
-        var ability = input.parent();
-        var entry = $.grep(db, function(e) { return e["name"] == title; });
-        if(entry && entry.length > 0) {
-          var page = entry[0]["page"];
-          ability.find(".page").val(page);
+      // ### Update page value on ability change ### \\
+      (function() {
+        
+        var data = ikrpg.index.data;
+        
+        $(".character-sheet .ability").change(function(event) {
+          var input = $(event.target);
+          var title = input.val();
+          var ability = input.parent();
+          var entry = $.grep(data, function(e) { return e["name"] == title; });
+          if(entry && entry.length > 0) {
+            var page = entry[0]["page"];
+            ability.find(".page").val(page);
+          }
+        });
+      
+      })();
+      
+      // ### Autocomplete ### \\
+      (function() {
+        
+        var source = Object.keys(db);
+        
+        function buildAutocomplete(selector) {
+          $(selector + " .title").autocomplete({
+            appendTo: selector,
+            minLength: 0,
+            source: source,
+            select: function(event, ui) {
+              event.target.value = ui.item.value;
+              $(event.target).trigger("change");
+            }
+          });
         }
-      });
+        
+        $(".character-sheet .ability").each(function(index, ability) {
+          buildAutocomplete(".character-sheet #"+$(ability).attr("id"));
+        });
+      })();
       
     })();
     
@@ -995,6 +1508,29 @@ var ikrpg = ikrpg || {};
           });
         });
         
+      })();
+      
+      // ### Autocomplete ### \\
+      (function() {
+        
+        var source = $.grep(Object.keys(db), function(key) {
+          return db[key];
+        });
+        
+        function buildAutocomplete(selector) {
+          $(selector + " .name").autocomplete({
+            appendTo: selector,
+            minLength: 0,
+            source: source,
+            select: function(event, ui) {
+              event.target.value = ui.item.value;
+              $(event.target).trigger("change");
+            }
+          });
+        }
+        
+        buildAutocomplete(".character-sheet #rat1");
+        buildAutocomplete(".character-sheet #rat2");
       })();
       
     })();
@@ -1087,6 +1623,29 @@ var ikrpg = ikrpg || {};
           });
         });
         
+      })();
+      
+      // ### Autocomplete ### \\
+      (function() {
+        
+        var source = $.grep(Object.keys(db), function(key) {
+          return db[key];
+        });
+        
+        function buildAutocomplete(selector) {
+          $(selector + " .name").autocomplete({
+            appendTo: selector,
+            minLength: 0,
+            source: source,
+            select: function(event, ui) {
+              event.target.value = ui.item.value;
+              $(event.target).trigger("change");
+            }
+          });
+        }
+        
+        buildAutocomplete(".character-sheet #mat1");
+        buildAutocomplete(".character-sheet #mat2");
       })();
       
     })();
@@ -1276,6 +1835,30 @@ var ikrpg = ikrpg || {};
           
         })();
         
+      })();
+      
+      // ### Autocomplete ### \\
+      (function() {
+        
+        var source = $.grep(Object.keys(db), function(key) {
+          return db[key];
+        });
+        
+        function buildAutocomplete(selector) {
+          $(selector + " .name").autocomplete({
+            appendTo: selector,
+            minLength: 0,
+            source: source,
+            select: function(event, ui) {
+              event.target.value = ui.item.value;
+              $(event.target).trigger("change");
+            }
+          });
+        }
+        
+        $(".character-sheet .wornarmor").each(function(index, wornArmor) {
+          buildAutocomplete(".character-sheet #"+$(wornArmor).attr("id"));
+        });
       })();
       
     })();
