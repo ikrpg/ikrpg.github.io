@@ -270,6 +270,22 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Arcane Craftsmanship",
+      publication: "No Quarter #62",
+      page:        "101",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Arcane Consumption",
+      publication: "No Quarter #62",
+      page:        "101",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Arcane Defenses",
       publication: "Core Rules",
       page:        "157",
@@ -385,6 +401,14 @@ var ikrpg = ikrpg || {};
       name:        "Backstab",
       publication: "Unleashed Adventure Kit Rulebook",
       page:        "7",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Balance Out",
+      publication: "No Quarter #62",
+      page:        "101",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -1537,6 +1561,14 @@ var ikrpg = ikrpg || {};
       name:        "Draconic Eminence",
       publication: "No Quarter #60",
       page:        "108",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Drain Essence",
+      publication: "No Quarter #62",
+      page:        "101",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -3998,6 +4030,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Shadow Steel",
+      publication: "No Quarter #62",
+      page:        "101",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Shield Guard",
       publication: "Core Rules",
       page:        "167",
@@ -4281,6 +4321,14 @@ var ikrpg = ikrpg || {};
       name:        "Spirit Guide",
       publication: "Unleashed Core Rules",
       page:        "167",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Spirit Tap",
+      publication: "No Quarter #62",
+      page:        "101",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -5005,6 +5053,14 @@ var ikrpg = ikrpg || {};
       category:    "Adventure",
       subcategory: "Scenario",
       game:        "FMF"
+    },
+    {
+      name:        "A Walk in the Park",
+      publication: "No Quarter #62",
+      page:        "82",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "IKU"
     },
     {
       name:        "Bad Moon Rising",
@@ -7172,6 +7228,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Blighted Sorcerer",
+      publication: "No Quarter #62",
+      page:        "100",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Bloodrunner",
       publication: "Skorne Empire",
       page:        "47",
@@ -7386,6 +7450,14 @@ var ikrpg = ikrpg || {};
       category:    "Character Creation",
       subcategory: "Career",
       game:        "FMF"
+    },
+    {
+      name:        "Hex Hunter",
+      publication: "No Quarter #62",
+      page:        "99",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
     },
     {
       name:        "Highwayman",
@@ -12760,6 +12832,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Hellion",
+      publication: "No Quarter #62",
+      page:        "102",
+      category:    "Equipment",
+      subcategory: "Mount",
+      game:        "IKU"
+    },
+    {
       name:        "Horse, Draft",
       publication: "Core Rules",
       page:        "277",
@@ -12903,6 +12983,14 @@ var ikrpg = ikrpg || {};
       category:    "Equipment",
       subcategory: "Riding Equipment",
       game:        "FMF"
+    },
+    {
+      name:        "Hellion Tack",
+      publication: "No Quarter #62",
+      page:        "103",
+      category:    "Equipment",
+      subcategory: "Mount",
+      game:        "IKU"
     },
     {
       name:        "Storm Knight Barding",
@@ -15408,6 +15496,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Supreme Aptimus Zaal",
+      publication: "No Quarter #62",
+      page:        "43",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Tara Florys, Long Shot Lieutenant",
       publication: "No Quarter #56",
       page:        "42",
@@ -15526,6 +15622,14 @@ var ikrpg = ikrpg || {};
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Vorath the Exile",
+      publication: "No Quarter #62",
+      page:        "78",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Vyros Narr, Dawnlord",
@@ -16955,6 +17059,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Croak Raider",
+      publication: "No Quarter #62",
+      page:        "87",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Crypt Spider",
       publication: "Monsternomicon",
       page:        "22",
@@ -17483,6 +17595,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Spell Martyr",
+      publication: "No Quarter #62",
+      page:        "104",
+      category:    "Equipment",
+      subcategory: "Mount",
+      game:        "IKU"
+    },
+    {
       name:        "Spine Ripper",
       publication: "Unleashed Core Rules",
       page:        "398",
@@ -17542,6 +17662,14 @@ var ikrpg = ikrpg || {};
       name:        "Thornwood Mauler",
       publication: "Unleashed Core Rules",
       page:        "410",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Throatfish",
+      publication: "No Quarter #62",
+      page:        "93",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "IKU"
@@ -19098,7 +19226,7 @@ var ikrpg = ikrpg || {};
       publication: "Path of Devastation Season 3",
       page:        "29",
       category:    "Monster",
-      subcategory: "Solo Monster/Opponent",
+      subcategory: "Monster/Opponent",
       game:        "FMF"
     },
     {
@@ -19783,6 +19911,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Kwaak, Croak Sorcerer",
+      publication: "No Quarter #62",
+      page:        "96",
+      category:    "Monsternomicon",
+      subcategory: "Solo Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Liyr",
       publication: "Bad Moon Rising",
       page:        "59",
@@ -19927,6 +20063,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Qurak Swampfather, Croak Chieftain",
+      publication: "No Quarter #62",
+      page:        "94",
+      category:    "Monsternomicon",
+      subcategory: "Solo Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Rina Zavor, Bounty Hunter",
       publication: "No Quarter #57",
       page:        "95",
@@ -20053,6 +20197,14 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Vorath the Exile",
+      publication: "No Quarter #62",
+      page:        "81",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Willem 'Three-Fingers' Abershawe",
@@ -22134,6 +22286,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Aerial Coordination",
+      publication: "No Quarter #62",
+      page:        "102",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Affliction",
       publication: "Unleashed Core Rules",
       page:        "241",
@@ -22225,6 +22385,14 @@ var ikrpg = ikrpg || {};
       name:        "Arcane Bonds",
       publication: "Unleashed Adventure Kit Rulebook",
       page:        "27",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Arcane Static",
+      publication: "No Quarter #62",
+      page:        "102",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -22625,6 +22793,30 @@ var ikrpg = ikrpg || {};
       name:        "Blight Field",
       publication: "No Quarter #60",
       page:        "106",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Blight Storm",
+      publication: "No Quarter #62",
+      page:        "102",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Blight Strike",
+      publication: "No Quarter #62",
+      page:        "102",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Blind Spot",
+      publication: "No Quarter #62",
+      page:        "102",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -23225,6 +23417,14 @@ var ikrpg = ikrpg || {};
       name:        "Dark Water",
       publication: "Unleashed Adventure Kit Rulebook",
       page:        "28",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Dash",
+      publication: "No Quarter #62",
+      page:        "102",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -24278,6 +24478,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Hex Bolt",
+      publication: "No Quarter #62",
+      page:        "102",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Hex Hammer",
       publication: "Kings, Nations, and Gods",
       page:        "363",
@@ -24366,6 +24574,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Howling Wind",
+      publication: "No Quarter #62",
+      page:        "102",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Hunter's Mark",
       publication: "Unleashed Core Rules",
       page:        "248",
@@ -24417,6 +24633,14 @@ var ikrpg = ikrpg || {};
       name:        "Ice Bolt",
       publication: "Unleashed Core Rules",
       page:        "248",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Ice Cage",
+      publication: "No Quarter #62",
+      page:        "102",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -27768,6 +27992,14 @@ var ikrpg = ikrpg || {};
       category:    "Steamjack",
       subcategory: "Melee Weapon",
       game:        "FMF"
+    },
+    {
+      name:        "Hex Razor",
+      publication: "No Quarter #62",
+      page:        "102",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Hydraulic Clamp Attachment (Industrial Arm Mount Attachment)",
