@@ -240,18 +240,18 @@ form#import-export:target { display: block; }
 .character-sheet .runeplate { position: absolute; margin-left: 312px; }
 .character-sheet .runeplate .title { width: 84px; }
 .character-sheet .runeplate .benefit { margin-left: 90px; width: 78px; }
-.character-sheet #runeplate1 { margin-top: 599px; }
-.character-sheet #runeplate2 { margin-top: 619px; }
-.character-sheet #runeplate3 { margin-top: 639px; }
-.character-sheet #runeplate4 { margin-top: 659px; }
+.character-sheet #runeplate1 { margin-top: 601px; }
+.character-sheet #runeplate2 { margin-top: 621px; }
+.character-sheet #runeplate3 { margin-top: 641px; }
+.character-sheet #runeplate4 { margin-top: 661px; }
 .character-sheet .iku .capacitor { display: none; }
 .character-sheet .capacitor { position: absolute; margin-left: 498px; }
 .character-sheet .capacitor .title { width: 78px; }
 .character-sheet .capacitor .charges { margin-left: 84px; width: 84px; }
-.character-sheet #capacitor1 { margin-top: 599px; }
-.character-sheet #capacitor2 { margin-top: 619px; }
-.character-sheet #capacitor3 { margin-top: 639px; }
-.character-sheet #capacitor4 { margin-top: 659px; }
+.character-sheet #capacitor1 { margin-top: 601px; }
+.character-sheet #capacitor2 { margin-top: 621px; }
+.character-sheet #capacitor3 { margin-top: 641px; }
+.character-sheet #capacitor4 { margin-top: 661px; }
 .character-sheet .note { position: absolute; margin-left: 698px; }
 .character-sheet .note .text { width: 265px; }
 .character-sheet #note1 { margin-top: 35px; }
