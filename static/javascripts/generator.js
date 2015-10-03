@@ -2566,7 +2566,7 @@ var ikrpg = ikrpg || {};
         list(_abilities, ["Flesh of Steel", "Hardened Strike", "Shifting Sands Stance"]),
         listItem(_connections, "Order of the Fist"),
         listItem(_military_skills, "Unarmed Combat"),
-        list(_occupational_skills, ["Detection", "Jump", "Sneak"])
+        list(_occupational_skills, ["Detection", "Jumping", "Sneak"])
       ],
       "Arcane Mechanik": [
         listItem(_careers, "Arcane Mechanik"),
