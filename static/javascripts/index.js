@@ -8085,7 +8085,7 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Exemplar Vengar",
+      name:        "Exemplar Venger",
       publication: "Kings, Nations, and Gods",
       page:        "355",
       category:    "Character Creation",
@@ -9065,7 +9065,7 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Consecrated Halbert",
+      name:        "Consecrated Halberd",
       publication: "Kings, Nations, and Gods",
       page:        "365",
       category:    "Armory",
