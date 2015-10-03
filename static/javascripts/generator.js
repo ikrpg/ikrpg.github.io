@@ -4143,7 +4143,7 @@ var ikrpg = ikrpg || {};
                   character["s"+(index+1)]["sum"] = statValue + value;
                 }
               }
-              if(stats.length > 1) {
+              if(stats && stats.length > 1) {
                 var stat = stats[1];
                 var lowerStat = stat.toLowerCase();
                 index += 1;
