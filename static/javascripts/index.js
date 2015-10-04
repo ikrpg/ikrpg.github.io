@@ -198,6 +198,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Amphibious",
+      publication: "Unleashed Core Rules",
+      page:        "102",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Anatomical Precision",
       publication: "Core Rules",
       page:        "157",
@@ -750,6 +758,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Bite",
+      publication: "Unleashed Core Rules",
+      page:        "104",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Black Tongue",
       publication: "Urban Adventure",
       page:        "68",
@@ -772,6 +788,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Blending",
+      publication: "Unleashed Core Rules",
+      page:        "102",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Blood Drinker",
@@ -1489,6 +1513,14 @@ var ikrpg = ikrpg || {};
       name:        "Distiller",
       publication: "Skorne Empire",
       page:        "63",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Distrusted",
+      publication: "Unleashed Core Rules",
+      page:        "105",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -2646,6 +2678,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Hightened Olfactory Senses",
+      publication: "Unleashed Core Rules",
+      page:        "103",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Hit em' Low",
       publication: "Bitter Medicine",
       page:        "53",
@@ -2732,6 +2772,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Imitative Power",
+      publication: "Unleashed Core Rules",
+      page:        "104",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Immunity: Cold",
@@ -3185,6 +3233,14 @@ var ikrpg = ikrpg || {};
       name:        "Mounted: Outride",
       publication: "No Quarter #61",
       page:        "77",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Natatorial",
+      publication: "Unleashed Core Rules",
+      page:        "102",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -4286,6 +4342,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Spawn Whelps",
+      publication: "Unleashed Core Rules",
+      page:        "107",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Spawning Savant",
       publication: "No Quarter #60",
       page:        "106",
@@ -4820,6 +4884,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Troll Resilience",
+      publication: "Unleashed Core Rules",
+      page:        "107",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Troll Speaker",
@@ -11472,6 +11544,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Feat: Transformation",
+      publication: "Unleashed Core Rules",
+      page:        "108",
+      category:    "Benefit",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Feat: Quick Cast",
       publication: "Core Rules",
       page:        "115",
@@ -13321,6 +13401,14 @@ var ikrpg = ikrpg || {};
       page:        "60",
       category:    "Geography",
       subcategory: "Culture",
+      game:        "IKU"
+    },
+    {
+      name:        "Gnawing Hunger",
+      publication: "Unleashed Core Rules",
+      page:        "104",
+      category:    "Ability",
+      subcategory: "",
       game:        "IKU"
     },
     {
@@ -23310,7 +23398,7 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Cold Blooded",
+      name:        "Cold-Blooded",
       publication: "Unleashed Core Rules",
       page:        "244",
       category:    "Spell",
@@ -26774,7 +26862,7 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Veil of Mist",
+      name:        "Veil of Mists",
       publication: "Unleashed Core Rules",
       page:        "253",
       category:    "Spell",
