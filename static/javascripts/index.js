@@ -310,6 +310,22 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Arcane Potential",
+      publication: "Skorne Empire",
+      page:        "43",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Limited Arcane Tradition",
+      publication: "Skorne Empire",
+      page:        "43",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Arcane Precision",
       publication: "Core Rules",
       page:        "157",
@@ -9849,7 +9865,7 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Tobresh",
+      name:        "Toboresh",
       publication: "Skorne Empire",
       page:        "75",
       category:    "Armory",
