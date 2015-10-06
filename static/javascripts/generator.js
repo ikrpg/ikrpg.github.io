@@ -81,21 +81,20 @@ var ikrpg = ikrpg || {};
     })();
     
     // ## Spell DB ## \\
-    // [Done for Core Rules/Urban Adventure/KNG/Unleashed Core Rules/Skorne Empire]
     (function() {
       
       var spellDB = { // { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" }
         "Abuse": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Admonition": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Aerial Coordination": undefined,
+        "Aerial Coordination": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Affliction": { "cost": 3, "rng": 8, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
         "Aggravator": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Agitation": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Annihilation": { "cost": 4, "rng": 10, "aoe": 3, "pow": 10, "up": "NO", "off": "YES", "description": "" },
         "Arcane Blast": { "cost": 3, "rng": 10, "aoe": 3, "pow": 13, "up": "NO", "off": "YES", "description": "" },
         "Arcane Bolt": { "cost": 2, "rng": 12, "aoe": "–", "pow": 11, "up": "NO", "off": "YES", "description": "" },
-        "Arcane Bonds": undefined,
-        "Arcane Static": undefined,
+        "Arcane Bonds": { "cost": 2, "rng": 10, "aoe": "–", "pow": 10, "up": "NO", "off": "YES", "description": "" },
+        "Arcane Static": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Arcane Strike": { "cost": 1, "rng": 8, "aoe": "–", "pow": 8, "up": "NO", "off": "YES", "description": "" },
         "Arcantrik Bolt": { "cost": 2, "rng": 10, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
         "Ashen Cloud": { "cost": 2, "rng": "CTRL", "aoe": 3, "pow": "–", "up": "YES", "off": "NO", "description": "" },
@@ -104,15 +103,14 @@ var ikrpg = ikrpg || {};
         "Aura of Protection": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Awakened Spirit": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Awareness": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
-        "Ayisla's Rebuke": undefined,
-        "Backlash": undefined,
+        "Ayisla's Rebuke": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Backlash": { "cost": 3, "rng": 8, "aoe": "–", "pow": 12, "up": "YES", "off": "YES", "description": "" },
         "Bad Blood": { "cost": 2, "rng": 10, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
         "Banishing Ward": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Barrier of Flames": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Battering Ram": { "cost": 2, "rng": 6, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
         "Batten Down the Hatches": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Battle Charged": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Battle Frost": undefined,
         "Battle Rage": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Bestial": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Beyond Death": { "cost": 4, "rng": "B2B", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
@@ -125,12 +123,12 @@ var ikrpg = ikrpg || {};
         "Blessing of Morrow": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Blessing of the Devourer": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Blessings of War": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Blight Blast": undefined,
-        "Blight Bringer": undefined,
-        "Blight Field": undefined,
-        "Blight Storm": undefined,
-        "Blight Strike": undefined,
-        "Blind Spot": undefined,
+        "Blight Blast": { "cost": 3, "rng": 8, "aoe": 4, "pow": 13, "up": "NO", "off": "YES", "description": "" },
+        "Blight Bringer": { "cost": 4, "rng": 10, "aoe": 5, "pow": 12, "up": "NO", "off": "NO", "description": "" },
+        "Blight Field": { "cost": 2, "rng": "CTRL", "aoe": 4, "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Blight Storm": { "cost": 4, "rng": "CTRL", "aoe": 5, "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Blight Strike": { "cost": 2, "rng": 8, "aoe": "–", "pow": 10, "up": "NO", "off": "YES", "description": "" },
+        "Blind Spot": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Blizzard": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Blood Feast": { "cost": 4, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Blood Magic: Accurate Strike": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
@@ -146,7 +144,7 @@ var ikrpg = ikrpg || {};
         "Blood Magic: Invigoration": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Blood Magic: Weekness": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Blood Mark": { "cost": 2, "rng": 8, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
-        "Blood Rain": undefined,
+        "Blood Rain": { "cost": 3, "rng": 8, "aoe": 3, "pow": 12, "up": "NO", "off": "YES", "description": "" },
         "Blow the Man Down": { "cost": 3, "rng": 8, "aoe": "–", "pow": 15, "up": "NO", "off": "YES", "description": "" },
         "Blur": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Bone Shaker": { "cost": 2, "rng": 8, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
@@ -171,9 +169,9 @@ var ikrpg = ikrpg || {};
         "Crusader's Call": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Curse of Shadows": { "cost": 3, "rng": 8, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
         "Dark Fire": { "cost": 2, "rng": 10, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
-        "Dark Persuader": undefined,
+        "Dark Persuader": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
         "Dark Water": { "cost": 3, "rng": "CTRL", "aoe": "4", "pow": "–", "up": "NO", "off": "NO", "description": "" },
-        "Dash": undefined,
+        "Dash": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Daylight": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Deadeye": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "YES", "description": "" },
         "Deadweight": { "cost": 2, "rng": 8, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
@@ -185,37 +183,37 @@ var ikrpg = ikrpg || {};
         "Devil's Tongue": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Dirge of Mists": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Disruptor": { "cost": 2, "rng": 10, "aoe": "–", "pow": "–", "up": "NO", "off": "YES", "description": "" },
-        "Dissolution Bolt": undefined,
+        "Dissolution Bolt": { "cost": 2, "rng": 8, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
         "Dog Pile": { "cost": 2, "rng": 10, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
         "Dominate Undead": { "cost": 3, "rng": 10, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Domination": undefined,
-        "Draconic Blessing": undefined,
-        "Dragon's Blood": undefined,
-        "Dragonsight": undefined,
+        "Domination": { "cost": 3, "rng": 8, "aoe": "–", "pow": "–", "up": "NO", "off": "YES", "description": "" },
+        "Draconic Blessing": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Dragon's Blood": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Dragonsight": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Earthquake": { "cost": 3, "rng": 10, "aoe": 5, "pow": "–", "up": "NO", "off": "YES", "description": "" },
         "Earth's Cradle": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Earthsplitter": { "cost": 4, "rng": 10, "aoe": 3, "pow": 14, "up": "NO", "off": "YES", "description": "" },
         "Electrical Blast": { "cost": 3, "rng": 8, "aoe": 3, "pow": 13, "up": "NO", "off": "YES", "description": "" },
-        "Electrical Charge": undefined,
+        "Electrical Charge": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Electrify": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Electrodynamics": undefined,
+        "Electrodynamics": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Elemental Protection": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Eliminator": { "cost": 3, "rng": 8, "aoe": 3, "pow": 13, "up": "NO", "off": "YES", "description": "" },
         "Entangle": { "cost": 1, "rng": 8, "aoe": "–", "pow": "–", "up": "NO", "off": "YES", "description": "" },
         "Enthrall Spirit": { "cost": 3, "rng": 8, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
         "Entropic Force": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Eruption of Life": { "cost": 3, "rng": 10, "aoe": "–", "pow": 13, "up": "NO", "off": "YES", "description": "" },
-        "Eruption of Spines": undefined,
+        "Eruption of Spines": { "cost": 3, "rng": 10, "aoe": "–", "pow": 10, "up": "NO", "off": "YES", "description": "" },
         "Essence Blast": { "cost": 3, "rng": "CTRL", "aoe": "*", "pow": "–", "up": "NO", "off": "YES", "description": "" },
         "Exorcism": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Explosivo": undefined,
+        "Explosivo": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Extinguisher": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Eye of Menoth": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Eyes of Truth": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Fail Safe": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Fair Winds": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Feast of Worms": { "cost": 4, "rng": 10, "aoe": 4, "pow": 12, "up": "YES", "off": "YES", "description": "" },
-        "Fire for Effect": undefined,
+        "Fire for Effect": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Fire Group": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Fire Starter": { "cost": 1, "rng": 8, "aoe": "–", "pow": "–", "up": "NO", "off": "*", "description": "" },
         "Flames of Wrath": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
@@ -243,7 +241,7 @@ var ikrpg = ikrpg || {};
         "Grave Whispers": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Grind": { "cost": 3, "rng": 10, "aoe": "–", "pow": 14, "up": "NO", "off": "YES", "description": "" },
         "Grip of Death": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Ground Zero": undefined,
+        "Ground Zero": { "cost": 3, "rng": "SELF", "aoe": 5, "pow": 13, "up": "NO", "off": "NO", "description": "" },
         "Guidance": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Guided Blade": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Guilded Fire": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
@@ -257,23 +255,22 @@ var ikrpg = ikrpg || {};
         "Hellfire": { "cost": 3, "rng": 10, "aoe": "–", "pow": 14, "up": "NO", "off": "YES", "description": "" },
         "Hellmouth": { "cost": 4, "rng": 8, "aoe": "*", "pow": "–", "up": "NO", "off": "YES", "description": "" },
         "Hex Blast": { "cost": 3, "rng": 10, "aoe": 3, "pow": 13, "up": "NO", "off": "YES", "description": "" },
-        "Hex Bolt": undefined,
+        "Hex Bolt": { "cost": 2, "rng": 6, "aoe": "–", "pow": 13, "up": "NO", "off": "YES", "description": "" },
         "Hex Hammer": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Hex Razor": undefined,
         "Hidden Path": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Hoarfrost": { "cost": 3, "rng": 8, "aoe": 3, "pow": 14, "up": "NO", "off": "YES", "description": "" },
         "Hollow": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Holy Ward": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Hot Shot": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Howling Flames": { "cost": 2, "rng": "SP8", "aoe": "–", "pow": 10, "up": "NO", "off": "YES", "description": "" },
-        "Howling Wind": undefined,
+        "Howling Wind": { "cost": 1, "rng": "SELF", "aoe": "*", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Hunter's Mark": { "cost": 4, "rng": 10, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Hymn of Battle": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Hymn of Passage": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Hymn of Shielding": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
-        "Hyper Awareness": undefined,
+        "Hyper Awareness": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Ice Bolt": { "cost": 2, "rng": 10, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
-        "Ice Cage": undefined,
+        "Ice Cage": { "cost": 3, "rng": 10, "aoe": "–", "pow": 10, "up": "NO", "off": "YES", "description": "" },
         "Ice Shield": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Icy Grip": { "cost": 2, "rng": 8, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
         "Ignite": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
@@ -284,7 +281,7 @@ var ikrpg = ikrpg || {};
         "Inferno": { "cost": 3, "rng": 10, "aoe": 3, "pow": 12, "up": "NO", "off": "YES", "description": "" },
         "Influence": { "cost": 1, "rng": 10, "aoe": "–", "pow": "–", "up": "NO", "off": "YES", "description": "" },
         "Inhospitable Ground": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
-        "Instigate": undefined,
+        "Instigate": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Inviolable Resolve": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Iron Aggression": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Iron Flesh": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
@@ -296,24 +293,24 @@ var ikrpg = ikrpg || {};
         "Lamentation": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Leash": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Light in the Darkness": { "cost": 1, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Light of Nyrro": undefined,
+        "Light of Nyrro": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Lightning Shroud": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Lightning Storm": { "cost": 3, "rng": 8, "aoe": 3, "pow": 10, "up": "NO", "off": "YES", "description": "" },
         "Lightning Tendrils": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Lightning Tongue": { "cost": 3, "rng": 10, "aoe": "–", "pow": 13, "up": "NO", "off": "YES", "description": "" },
         "Locomotion": { "cost": "1+", "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Mage Sight": { "cost": 2, "rng": "CTRL", "aoe": 5, "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Magnetic Hold": undefined,
-        "Mark of Lyliss": undefined,
+        "Magnetic Hold": { "cost": 2, "rng": 8, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
+        "Mark of Lyliss": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
         "Marked for Death": { "cost": 2, "rng": 8, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
         "Medicate": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
-        "Mindblow": undefined,
+        "Mindblow": { "cost": 2, "rng": 8, "aoe": "–", "pow": 11, "up": "NO", "off": "YES", "description": "" },
         "Mindlock": { "cost": 4, "rng": 8, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
         "Mirage": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Mist Shroud": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Mobility": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
-        "Mockery of Life": undefined,
-        "Molten Metal": undefined,
+        "Mockery of Life": { "cost": 2, "rng": "CTRL", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Molten Metal": { "cost": 2, "rng": 10, "aoe": "–", "pow": "–", "up": "NO", "off": "YES", "description": "" },
         "Mortality": { "cost": 3, "rng": 10, "aoe": "–", "pow": "–", "up": "NO", "off": "YES", "description": "" },
         "Murder of Crows": { "cost": 3, "rng": "CTRL", "aoe": 5, "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Muzzle": { "cost": 2, "rng": 10, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
@@ -325,14 +322,13 @@ var ikrpg = ikrpg || {};
         "Parasitic Invigoration": { "cost": 1, "rng": 10, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Perdition": { "cost": 2, "rng": 10, "aoe": "–", "pow": 10, "up": "NO", "off": "YES", "description": "" },
         "Phantasm": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Phantom Hunter": undefined,
+        "Phantom Hunter": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Pig Pen": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Playing God": undefined,
+        "Playing God": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Polarity Shield": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Positive Charge": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Powder Keg": { "cost": 4, "rng": 10, "aoe": 5, "pow": 14, "up": "NO", "off": "YES", "description": "" },
         "Power Booster": { "cost": 1, "rng": 5, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
-        "Prayer for Guidance": undefined,
         "Prayer of Guidance": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Primal Shock": { "cost": 2, "rng": "CTRL", "aoe": "–", "pow": "*", "up": "NO", "off": "YES", "description": "" },
         "Protection from Cold": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
@@ -340,10 +336,10 @@ var ikrpg = ikrpg || {};
         "Protection from Electricity": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Protection from Fire": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Protector's Mark": { "cost": 3, "rng": 8, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
-        "Prowess of Lurynsar": undefined,
-        "Psi Blast": undefined,
+        "Prowess of Lurynsar": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
+        "Psi Blast": { "cost": 2, "rng": 8, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "SP8" },
         "Psychic Vampire": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Psychophage": undefined,
+        "Psychophage": { "cost": 3, "rng": 8, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
         "Purification": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Quagmire": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Quickened": { "cost": 4, "rng": "SELF", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
@@ -353,13 +349,13 @@ var ikrpg = ikrpg || {};
         "Rapid Growth": { "cost": 2, "rng": "CTRL", "aoe": 4, "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Ravager": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rawhide": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Razor Wall": undefined,
+        "Razor Wall": { "cost": 2, "rng": "CTRL", "aoe": "WALL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Razor Wind": { "cost": 2, "rng": 10, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
-        "Realignment": undefined,
-        "Reconstruction": undefined,
+        "Realignment": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Reconstruction": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Redline": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Refuge": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Respawn": undefined,
+        "Respawn": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Restoration": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Return Fire": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rift": { "cost": 3, "rng": 8, "aoe": 4, "pow": 13, "up": "NO", "off": "YES", "description": "" },
@@ -376,11 +372,10 @@ var ikrpg = ikrpg || {};
         "Rune Shot: Detonator": { "cost": 3, "rng": "SELF", "aoe": "*", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Disruption": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Earth Shaker": { "cost": 3, "rng": "SELF", "aoe": "*", "pow": "–", "up": "NO", "off": "NO", "description": "" },
-        "Rune Shot Electro Leap": undefined,
-        "Rune Shot: Fire Beacon": undefined,
+        "Rune Shot: Electro Leap": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
+        "Rune Shot: Fire Beacon": { "cost": 2, "rng": "SELF", "aoe": "*", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Freeze Fire": { "cost": 4, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Heart Stopper": { "cost": 4, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
-        "Rune Shot: Iron Bolt": undefined,
         "Rune Shot: Iron Rot": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Molten Shot": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Rune Shot: Momentum": { "cost": 4, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
@@ -403,7 +398,7 @@ var ikrpg = ikrpg || {};
         "Shield of Faith": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Shock Wave": { "cost": 4, "rng": "SELF", "aoe": "*", "pow": 13, "up": "NO", "off": "NO", "description": "" },
         "Short Out": { "cost": 1, "rng": 8, "aoe": "–", "pow": "–", "up": "NO", "off": "YES", "description": "" },
-        "Shrapnel Swarm": undefined,
+        "Shrapnel Swarm": { "cost": 3, "rng": 8, "aoe": "*", "pow": 13, "up": "NO", "off": "YES", "description": "" },
         "Snipe": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Solid Ground": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Solovin's Boon": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
@@ -442,8 +437,8 @@ var ikrpg = ikrpg || {};
         "Tide of Steel": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Torment": { "cost": 2, "rng": 10, "aoe": "–", "pow": 12, "up": "NO", "off": "YES", "description": "" },
         "Tornado": { "cost": 4, "rng": 10, "aoe": "–", "pow": 13, "up": "NO", "off": "YES", "description": "" },
-        "Total Domination": undefined,
-        "Total Spectrum": undefined,
+        "Total Domination": { "cost": 4, "rng": 8, "aoe": "–", "pow": "–", "up": "YES", "off": "YES", "description": "" },
+        "Total Spectrum": { "cost": 1, "rng": "SELF", "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Transference": { "cost": 2, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Triage": { "cost": 2, "rng": "B2B", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "True Path": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
@@ -466,11 +461,11 @@ var ikrpg = ikrpg || {};
         "Weald Hunter": { "cost": 2, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "White Out": { "cost": 4, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Wild Aggression": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "YES", "off": "NO", "description": "" },
-        "Will Breaker": undefined,
+        "Will Breaker": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "YES", "off": "NO", "description": "" },
         "Wind Blast": { "cost": 2, "rng": "CTRL", "aoe": 5, "pow": "–", "up": "NO", "off": "NO", "description": "" },
-        "Wind Ravager": undefined,
+        "Wind Ravager": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Wind Strike": { "cost": 1, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "YES", "description": "" },
-        "Wind Wall": undefined,
+        "Wind Wall": { "cost": 3, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Wings of Air": { "cost": 2, "rng": "SELF", "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Winter Storm": { "cost": 3, "rng": "SELF", "aoe": "CTRL", "pow": "–", "up": "NO", "off": "NO", "description": "" },
         "Zephyr": { "cost": 3, "rng": 6, "aoe": "–", "pow": "–", "up": "NO", "off": "NO", "description": "" }
@@ -520,10 +515,9 @@ var ikrpg = ikrpg || {};
     })();
     
     // ## Melee Weapon DB ## \\
-    // [Done for Core Rules/Urban Adventure/KNG/Unleashed Core Rules/Skorne Empire]
     (function() {
       
-      var meleeWeaponDB = { // { "skill": "Hand Weapon", "mat-mod": 0, "pow": 4, "notes": "" }
+      var meleeWeaponDB = {
         "Ancestral Guardian Stone Weapon": { "skill": "Great Weapon", "mat-mod": 0, "pow": 7, "notes": "reach, no guardian: -3 at mod" },
         "Annihilator Blade": { "skill": "Great Weapon", "mat-mod": 0, "pow": 5, "notes": "reach" },
         "Assassin's Blade": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 4, "notes": "+2 backstrike" },
@@ -533,7 +527,7 @@ var ikrpg = ikrpg || {};
         "Axe, Ice": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 2, "notes": "+1 to Climbing rolls" },
         "Axe, Riding": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 5, "notes": "reach, charge: +2 dmg rolls, foot: -1 at mod, POW 3" },
         "Axe, Tharn": { "skill": "Great Weapon", "mat-mod": -1, "pow": 5, "notes": "reach, charge: +2 charge at rolls, 1-H: POW 4" },
-        "Az'Tal": undefined,
+        "Az'Tal": { "skill": "Great Weapon", "mat-mod": 0, "pow": 4, "notes": "reach, charge: +2 dmg, foot: -1 at mod" },
         "Barbed Whip": { "skill": "Hand Weapon", "mat-mod": -2, "pow": 3, "notes": "reach" },
         "Battle Hammer": { "skill": "Great Weapon", "mat-mod": -1, "pow": 6, "notes": "reach, 1-H: -2 at mod, POW 5" },
         "Bayonet": { "skill": "Great Weapon", "mat-mod": -1, "pow": 3, "notes": "reach, for Rifles, +2 charge at" },
@@ -545,10 +539,9 @@ var ikrpg = ikrpg || {};
         "Blessed Lance": { "skill": "Lance", "mat-mod": 0, "pow": 8, "notes": "ignore ARM/DEF spell effects, only charge at, can dmg incorporeal" },
         "Bloodtracker Fighting Claw": { "skill": "Hand Weapon", "mat-mod": -2, "pow": 3, "notes": "" },
         "Caspian Battleblade": { "skill": "Great Weapon", "mat-mod": 0, "pow": 6, "notes": "1-H: mat-mod -1, POW 4" },
-        "Cat's Paw": undefined,
+        "Cat's Paw": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 2, "notes": "Crit: Knockout" },
         "Cleft Spear": { "skill": "Great Weapon", "mat-mod": -2, "pow": 5, "notes": "reach, charge: +2 at rolls, Crit: 1 feat for +1 dmg die, 1-H: POW 4" },
         "Cleft Sword": { "skill": "Great Weapon", "mat-mod": -2, "pow": 6, "notes": "harge: +2 at rolls, Crit: 1 feat for +1 dmg die, 1-H: POW 5" },
-        "Cloak, Weighted": undefined,
         "Clockwork Injector": { "skill": "Hand Weapon", "mat-mod": -2, "pow": "–", "notes": "1 dmg, injection" },
         "Club": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 2, "notes": "Crit: Knockout chance" },
         "Club, Banded": { "skill": "Great Weapon", "mat-mod": -1, "pow": 4, "notes": "Crit: Knockout chance" },
@@ -556,11 +549,11 @@ var ikrpg = ikrpg || {};
         "Cutlass": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 4, "notes": "" },
         "Dagger": { "skill": "Hand Weapon", "mat-mod": 1, "pow": 1, "notes": "" },
         "Dagger, Poisoner's": { "skill": "Hand Weapon", "mat-mod": 1, "pow": 1, "notes": "holds 3 doses of poison" },
-        "Deadblow Hammer": undefined,
-        "Dueling Buckler": undefined,
-        "Durkin Bar": undefined,
+        "Deadblow Hammer": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 3, "notes": "1 feat: +1 dmg die against knockdown" },
+        "Dueling Buckler": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 0, "notes": "" },
+        "Durkin Bar": { "skill": "Great Weapon", "mat-mod": -2, "pow": 5, "notes": "" },
         "Electro Lance": { "skill": "Great Weapon", "mat-mod": 0, "pow": 7, "notes": "reach, charge +2 POW, foot: at mod -4" },
-        "Entrenching Tool, Military": undefined,
+        "Entrenching Tool, Military": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 3, "notes": "" },
         "Fellblade": { "skill": "Great Weapon", "mat-mod": 0, "pow": 6, "notes": "reach, magical weapon, 1-H: at mod -2" },
         "Fighting Claws, Pair": { "skill": "Unarmed Combat", "mat-mod": -2, "pow": 1, "notes": "Crit: lower at" },
         "Firebrand": { "skill": "Great Weapon", "mat-mod": -2, "pow": 7, "notes": "maical weapon, Crit: fire cont. eff." },
@@ -568,27 +561,27 @@ var ikrpg = ikrpg || {};
         "Flail, Two-Handed": { "skill": "Great Weapon", "mat-mod": -2, "pow": 6, "notes": "reach, ignore shields, Crit: p.255" },
         "Flame Spear": { "skill": "Great Weapon", "mat-mod": -1, "pow": 5, "notes": "reach, +1 fire dmg" },
         "Gaff Spear": { "skill": "Great Weapon", "mat-mod": -1, "pow": 4, "notes": "reach, feat: knockdown, 1-H: POW 3" },
-        "Gaff, Hand": undefined,
-        "Gaff, Pole": undefined,
+        "Gaff, Hand": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 2, "notes": "" },
+        "Gaff, Pole": { "skill": "Great Weapon", "mat-mod": -1, "pow": 4, "notes": "reach, Crit: Knockdown on dmg" },
         "Garrote": { "skill": "Unarmed Weapon", "mat-mod": 0, "pow": "–", "notes": "srangle the victim" },
         "Garrote, Clockwork": { "skill": "Unarmed Weapon", "mat-mod": 0, "pow": "–", "notes": "strangles the victim" },
         "Halbert": { "skill": "Great Weapon", "mat-mod": 0, "pow": 5, "notes": "reach, +2 charge at, 1-H: at-mod -1, POW 4" },
-        "Hand Pick": undefined,
+        "Hand Pick": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 2, "notes": "1 feat: additional dmg die against knocked down targets" },
         "Hooked Great Sword": { "skill": "Great Weapon", "mat-mod": -2, "pow": 6, "notes": "reach, 1-H: POW 5" },
-        "Ice Axe": undefined,
+        "Ice Axe": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 2, "notes": "+1 on climbing" },
         "Ice Maul": { "skill": "Great Weapon", "mat-mod": 0, "pow": 5, "notes": "reach, dmg boosted unless immunity cold" },
-        "Ilena's Chain-Axe": undefined,
+        "Ilena's Chain-Axe": { "skill": "Hand Weapon", "mat-mod": -3, "pow": 4, "notes": "reach, ignores shields, can be thrown" },
         "Katara, Pair": { "skill": "Unarmed Combat", "mat-mod": -1, "pow": 4, "notes": "" },
-        "Knuckledriver": undefined,
+        "Knuckledriver": { "skill": "Unarmed Combat", "mat-mod": -1, "pow": 3, "notes": "Beat Back, Crit: slam d3" },
         "Knuckledusters": { "skill": "Unarmed Combat", "mat-mod": 0, "pow": 1, "notes": "better knockouts" },
         "Kolas Club": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 3, "notes": "Crit: 1 feat +1 die" },
         "Kopis": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 3, "notes": "+2 charge at, Crit: 1 feat for +1 die dmg" },
-        "Lacerator": undefined,
+        "Lacerator": { "skill": "Hand Weapon", "mat-mod": -3, "pow": 4, "notes": "reach, Crit: Knockdown, ignore shields" },
         "Lance": { "skill": "Lance", "mat-mod": 0, "pow": 8, "notes": "reach" },
         "Mace": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 4, "notes": "Crit: Knockout chance" },
         "Man Catcher": { "skill": "Great Weapon", "mat-mod": -1, "pow": 4, "notes": "reach" },
         "Maul": { "skill": "Great Weapon", "mat-mod": 0, "pow": 6, "notes": "Crit: 1 feat slam d3" },
-        "Mechanoflail": undefined,
+        "Mechanoflail": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 5, "notes": "ignores shields, feat: additional at" },
         "Nyss Claymore": { "skill": "Great Weapon", "mat-mod": -2, "pow": 6, "notes": "1 feat: boost at" },
         "Nyss Great Sword": { "skill": "Great Weapon", "mat-mod": -2, "pow": 6, "notes": "reach, 1 feat: boost at" },
         "Ogrun Warcleaver": { "skill": "Great Weapon", "mat-mod": -1, "pow": 6, "notes": "reach, +2 charge at" },
@@ -597,11 +590,11 @@ var ikrpg = ikrpg || {};
         "Pen, Poison": { "skill": "Hand Weapon", "mat-mod": 0, "pow": -2, "notes": "injects poison" },
         "Pickaxe": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 4, "notes": "special: p. 257" },
         "Pike": { "skill": "Great Weapon", "mat-mod": 0, "pow": 5, "notes": "reach, charge: +2 at, 1-H: -1 at mod, POW 4" },
-        "Railman's Adze": undefined,
+        "Railman's Adze": { "skill": "Great Weapon", "mat-mod": -2, "pow": 7, "notes": "" },
         "Rapier": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 2, "notes": "1 feat boost at and dmg" },
         "Reclaimant Torch": { "skill": "Great Weapon", "mat-mod": -1, "pow": 4, "notes": "reach, +1 fire dmg, fire cont. eff." },
         "Relic Blade": { "skill": "Great Weapon", "mat-mod": 0, "pow": 5, "notes": "magical weapon" },
-        "Retractable Lance": undefined,
+        "Retractable Lance": { "skill": "Great Weapon", "mat-mod": -1, "pow": 5, "notes": "reach, NQ#50, p. 52" },
         "Rynnish Fan": { "skill": "Hand Weapon", "mat-mod": 1, "pow": 1, "notes": "" },
         "Sacral Blade": { "skill": "Hand Weapon", "mat-mod": 1, "pow": 3, "notes": "POW 1 if not empowered" },
         "Shield": { "skill": "Shield", "mat-mod": 0, "pow": 0, "notes": "" },
@@ -610,7 +603,7 @@ var ikrpg = ikrpg || {};
         "Spear": { "skill": "Great Weapon", "mat-mod": -1, "pow": 5, "notes": "reach, +2 charge at, 1-H: POW 4" },
         "Spear, Cavalry": { "skill": "Great Weapon", "mat-mod": -1, "pow": 5, "notes": "charge: +2 dmg, 1-H or foot: -2 at mod, POW 4" },
         "Spear, War": { "skill": "Great Weapon", "mat-mod": 0, "pow": 6, "notes": "reach, charge: +2 dmg, 1-H: -1 at mod, POW 5" },
-        "Spike Mail": undefined,
+        "Spike Maul": { "skill": "Great Weapon", "mat-mod": -2, "pow": 6, "notes": "Crit: Knock down" },
         "Springblade": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 1, "notes": "draw without quick action" },
         "Staff": { "skill": "Great Weapon", "mat-mod": 0, "pow": 3, "notes": "reach, 1 feat: trip at" },
         "Staff, Battle": { "skill": "Great Weapon", "mat-mod": 0, "pow": 4, "notes": "reach, 1 feat: trip at, Crit: Knockout chance" },
@@ -621,9 +614,9 @@ var ikrpg = ikrpg || {};
         "Sword, Dress": { "skill": "Hand Weapon", "mat-mod": 1, "pow": 1, "notes": "Feat: boost at and dmg" },
         "Sword, Great": { "skill": "Great Weapon", "mat-mod": 0, "pow": 6, "notes": "reach" },
         "Sword, Praetorian": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 3, "notes": "" },
-        "Telescoping Staff": undefined,
+        "Telescoping Staff": { "skill": "Great Weapon", "mat-mod": 0, "pow": 4, "notes": "reach, feat: Knockdown no dmg, 1-H: POW 3" },
         "Tobresh": { "skill": "Great Weapon", "mat-mod": -2, "pow": 4, "notes": "reach" },
-        "Tournament Foil": undefined,
+        "Tournament Foil": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 0, "notes": "" },
         "Trench Knife": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 2, "notes": "alt. Unarmed Combat" },
         "Trench Sword": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 4, "notes": "alt. Unarmed Combat" },
         "Trollkin Rune Axe": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 4, "notes": "magical, Connection (Trollkin Kriel): at mod 0" },
@@ -636,17 +629,16 @@ var ikrpg = ikrpg || {};
     })();
     
     // ## Ranged Weapon DB ## \\
-    // [Done for Core Rules/Urban Abventure/KNG/Unleashed Core Rules/Skorne Empire]
     (function() {
       
-      var rangedWeaponDB = { // { "rng": 10, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "1" }
+      var rangedWeaponDB = {
         "Arcus": { "rng": 8, "skill": "Crossbow", "pow": 12, "rat-mod": -2, "notes": "push", "ammo": "1" },
         "Assault Kommando Flamethrower": { "rng": 8, "skill": "Light Artillery", "pow": 12, "rat-mod": 0, "notes": "SP 8, -1 SPD and DEF, fire dmg, fire cont. eff.", "ammo": "10" },
         "Axe, Throwing": { "rng": 6, "skill": "Thrown Weapon", "pow": 3, "rat-mod": 0, "notes": "add STR to POW", "ammo": "" },
-        "Blowtorch": undefined,
+        "Blowtorch": { "rng": 0.5, "skill": "Pistol", "pow": 10, "rat-mod": -1, "notes": "fire dmg, Crit: Fire cont eff", "ammo": "10" },
         "Blunderbuss": { "rng": 8, "skill": "Rifle", "pow": 12, "rat-mod": -1, "notes": "1-H: RAT -2", "ammo": "1" },
         "Bola": { "rng": 8, "skill": "Thrown Weapon", "pow": 0, "rat-mod": -2, "notes": "add STR to POW", "ammo": "" },
-        "Bomb Lance": undefined,
+        "Bomb Lance": { "rng": 8, "skill": "Light Artillery", "pow": 12, "rat-mod": -2, "notes": 'on hit 3" AOE with POW 6', "ammo": "1" },
         "Bombardier Grenade Cannon": { "rng": 10, "skill": "Light Artillery", "pow": 14, "rat-mod": -1, "notes": "AOE 3", "ammo": "1" },
         "Bow": { "rng": 10, "skill": "Archery", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "1" },
         "Bow, Great": { "rng": 10, "skill": "Archery", "pow": 12, "rat-mod": 0, "notes": "", "ammo": "1" },
@@ -664,14 +656,14 @@ var ikrpg = ikrpg || {};
         "Deck Gun": { "rng": 14, "skill": "Light Artillery", "pow": 13, "rat-mod": 0, "notes": "", "ammo": "1" },
         "Dual Magelock": { "rng": 10, "skill": "Pistol", "pow": 10, "rat-mod": 0, "notes": "both barrels: at mod -2, POW 13", "ammo": "2" },
         "Dueling Pistols": { "rng": 10, "skill": "Pistol", "pow": 10, "rat-mod": 1, "notes": "standard round: at mod 0", "ammo": "1" },
-        "Efaarit Hunting Rifle": undefined,
+        "Efaarit Hunting Rifle": { "rng": 12, "skill": "Rifle", "pow": 7, "rat-mod": 0, "notes": "once per turn Piercer at", "ammo": "1" },
         "Execrator Pistol": { "rng": 8, "skill": "Pistol", "pow": 11, "rat-mod": 0, "notes": "magical, +1 die against infernal and undead", "ammo": "2" },
-        "Explosive Cufflinks": undefined,
+        "Explosive Cufflinks": { "rng": 6, "skill": "Thrown Weapon", "pow": 14, "rat-mod": -3, "notes": "POW 14 blast dmg", "ammo": "–" },
         "Farrow Pig Iron": { "rng": 10, "skill": "Rifle", "pow": 12, "rat-mod": 0, "notes": "", "ammo": "1" },
         "Farrow Razorback": { "rng": 14, "skill": "Light Artillery", "pow": 15, "rat-mod": -2, "notes": "AOE 3", "ammo": "1" },
         "Field Gun": { "rng": 16, "skill": "Light Artillery", "pow": 14, "rat-mod": 0, "notes": "", "ammo": "1" },
         "Fire Bomb": { "rng": 5, "skill": "Thrown Weapon", "pow": 12, "rat-mod": -2, "notes": "fire dmg, Crit: fire cont. eff.", "ammo": "–" },
-        "Flare Pistol": undefined,
+        "Flare Pistol": { "rng": 6, "skill": "Pistol", "pow": "*", "rat-mod": -3, "notes": "Signal Flare or Smoke Signal", "ammo": "1" },
         "Flayer Cannon": { "rng": 14, "skill": "Reiver", "pow": 12, "rat-mod": 0, "notes": "bigger bases: more dmg", "ammo": "18" },
         "Grenade, Concussion": { "rng": 8, "skill": "Thrown Weapon", "pow": "", "rat-mod": 0, "notes": "AOE 3", "ammo": "" },
         "Grenade, Explosive": { "rng": 8, "skill": "Thrown Weapon", "pow": 12, "rat-mod": 0, "notes": "AOE 3", "ammo": "" },
@@ -682,11 +674,11 @@ var ikrpg = ikrpg || {};
         "Hand Cannon, Dual": { "rng": 12, "skill": "Pistol", "pow": 12, "rat-mod": 0, "notes": "", "ammo": "2" },
         "Harpoon Gun": { "rng": 10, "skill": "Rifle", "pow": 12, "rat-mod": -2, "notes": "", "ammo": "1" },
         "Incindus": { "rng": 10, "skill": "Light Artillery", "pow": 12, "rat-mod": -2, "notes": "fire dmg, fire cont. eff.", "ammo": "1" },
-        "Injection Pistol": undefined,
+        "Injection Pistol": { "rng": 4, "skill": "Pistol", "pow": 8, "rat-mod": -2, "notes": "injects alchemical compound", "ammo": "1" },
         "Javelin": { "rng": 8, "skill": "Thrown Weapon", "pow": 3, "rat-mod": 0, "notes": "add STR to POW", "ammo": "" },
         "Knife, Throwing": { "rng": 6, "skill": "Thrown Weapon", "pow": 2, "rat-mod": 0, "notes": "add STR to POW", "ammo": "" },
         "Light Cannon": { "rng": 15, "skill": "Light Artillery", "pow": 13, "rat-mod": 0, "notes": "AOE 3", "ammo": "1" },
-        "Linethrower": undefined,
+        "Linethrower": { "rng": 4, "skill": "Light Artillery", "pow": 10, "rat-mod": -2, "notes": 'pull 3"', "ammo": "1" },
         "Man-O-War Axe Cannon": { "rng": 8, "skill": "Light Artillery", "pow": 14, "rat-mod": -1, "notes": "", "ammo": "1" },
         "Man-O-War Shield Cannon": { "rng": 6, "skill": "Light Artillery", "pow": 14, "rat-mod": -1, "notes": "melee: at mod -1, POW 1", "ammo": "1" },
         "Mini-Slugger": { "rng": 10, "skill": "Light Artillery", "pow": 11, "rat-mod": 0, "notes": "fired standing: at mod -1", "ammo": "30" },
@@ -711,7 +703,7 @@ var ikrpg = ikrpg || {};
         "Rifle, Magelock": { "rng": 14, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "1-H: RAT -2", "ammo": "1" },
         "Rifle, Military": { "rng": 10, "skill": "Rifle", "pow": 11, "rat-mod": 0, "notes": "", "ammo": "1" },
         "Rilfe, Repeating": { "rng": 14, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "5" },
-        "Rockbreaker Spray": undefined,
+        "Rockbreaker Spray": { "rng": 6, "skill": "Light Artillery", "pow": 10, "rat-mod": -2, "notes": "SP6, corrosion dmg, corrosion cont effect, stone/brick add dmg die", "ammo": "6" },
         "Rocket Tube": { "rng": 14, "skill": "Light Artillery", "pow": 12, "rat-mod": 0, "notes": "AOE 3, not crouching: at mod -2", "ammo": "1" },
         "Rynnish Walking Stick": { "rng": 8, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "1-H: RAT -2", "ammo": "1" },
         "Scattergun": { "rng": 8, "skill": "Rifle", "pow": 12, "rat-mod": 0, "notes": "SP8, 1-H: RAT -2", "ammo": "1" },
@@ -723,7 +715,7 @@ var ikrpg = ikrpg || {};
         "Sword-Cannon, Heavy": { "rng": 10, "skill": "Rifle", "pow": 12, "rat-mod": -1, "notes": "", "ammo": "1" },
         "Sword-Cannon, Repeating": { "rng": 10, "skill": "Rifle", "pow": 10, "rat-mod": -1, "notes": "", "ammo": "5" },
         "Vislovski Carbine": { "rng": 10, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "5" },
-        "War Spear": undefined
+        "War Spear": { "rng": 8, "skill": "Thrown Weapon", "pow": 4, "rat-mod": 0, "notes": "melee: reach, Great Weapon", "ammo": "1" }
       };
       
       ikrpg.generator.db.rangedWeapon = rangedWeaponDB;
@@ -2685,7 +2677,7 @@ var ikrpg = ikrpg || {};
         listItem(_notes, "Trollkin cannot be Arcane Mechaniks, Arcanists, or Warcasters"),
         list(_benefits, ["Tough", "Feat: Revitalize"])
       ]
-    };
+    }; // 3 left
     var castes = {
       "Extoller": [
         listItem(_notes, "Extoller Caste"),
@@ -2852,7 +2844,9 @@ var ikrpg = ikrpg || {};
           "mechanika weapon",
           "mechanika suit of armor"]), "Choose 1")
       ],
-      "Arcane Tempest Gun Mage": [],
+      "Arcane Tempest Gun Mage": [
+        
+      ],
       "Arcanist": [
         listItem(_careers, "Arcanist"),
         listItem(_abilities, "Great Power"),
@@ -2945,7 +2939,9 @@ var ikrpg = ikrpg || {};
         listItem(_gear, "cloak and robes of a blackclad"),
         number(_gold, 75)
       ],
-      "Blighted Sorcerer": [],
+      "Blighted Sorcerer": [
+        
+      ],
       "Bloodrunner": [
         listItem(_careers, "Bloodrunner"),
         listItem(_notes, "Must choose between Beast Handler, Brigand, Mortitheurge, Scout, Tormentor, or Warlock: Skorne"),
@@ -3125,7 +3121,9 @@ var ikrpg = ikrpg || {};
           "10 sl",
           "10 sl of chymical items and ingredients"])
       ],
-      "Crucible Guard": [],
+      "Crucible Guard": [
+        
+      ],
       "Cutthroat": [
         listItem(_careers, "Cutthroat"),
         list(_abilities, ["Anatomical Precision", "Backstab", "Prowl"]),
@@ -3151,7 +3149,9 @@ var ikrpg = ikrpg || {};
           arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: mechanikal weapon
           arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)")], "Choose 1")
       ],
-      "Deathstalker": [],
+      "Deathstalker": [
+        
+      ],
       "Doom Reaver": [
         listItem(_careers, "Doom Reaver"),
         listItem(_notes, "Must choose between Cutthroat, Horseman, Pirate, Ranger, Soldier, or Thief"),
@@ -3320,7 +3320,9 @@ var ikrpg = ikrpg || {};
           "mechanik's tool kit",
           "light laborjack with up to 200gc of weapons"])
       ],
-      "Flame Bringers": [],
+      "Flame Bringers": [
+        
+      ],
       "Greylord": [
         listItem(_careers, "Greylord"),
         listItem(_notes, "Must choose between Alchemist, Arcane Mechanik, Aristocrat, Explorer, Horseman, Investigator, Military Officer, Sorcerer (any), Spy, or Warcaster"),
@@ -3331,7 +3333,9 @@ var ikrpg = ikrpg || {};
         listItem(_benefits, "Rune Reader"),
         number(_gold, 75)
       ],
-      "Greylord Outrider": [],
+      "Greylord Outrider": [
+        
+      ],
       "Gun Mage": [
         listItem(_careers, "Gun Mage"),
         list(_abilities, ["Craft Rune Shot", "Fast Reload"]),
@@ -3384,7 +3388,9 @@ var ikrpg = ikrpg || {};
           "Streetwise"]),
         number(_gold, 50)
       ],
-      "Hex Hunter": [],
+      "Hex Hunter": [
+        
+      ],
       "Highwayman": [
         listItem(_careers, "Highwayman"),
         list(_abilities, ["Ambush", "Saddle Shot"]),
@@ -3481,7 +3487,9 @@ var ikrpg = ikrpg || {};
         listItem(_armors, "Iron Fang Full Plate"), // TODO: Add this to armors
         list(_melee_weapons, ["Blasting Lance", "Shield"])
       ],
-      "Ironhead": [],
+      "Ironhead": [
+        
+      ],
       "Khadoran Warcaster": [
         listItem(_careers, "Khadoran Warcaster"),
         listItem(_notes, "Must choose between Arcane Mechanik, Arcanist, Aristocrat, Assault Kommando, Horseman, Investigator, Iron Fang, Military Officer, Pistoleer, Ranger, Rifleman, Soldier, Sorcerer (any), or Spy"),
@@ -3734,7 +3742,9 @@ var ikrpg = ikrpg || {};
         listItem(_gear, "12 sl"),
         listItem(_melee_weapons, "Great Sword")
       ],
-      "Nomad": [],
+      "Nomad": [
+        
+      ],
       "Ordic Warcaster": [
         listItem(_careers, "Ordic Warcaster"),
         listItem(_notes, "Must choose between Arcane Mechanik, Arcanist, Aristocrat, Artillerist, Duelist, Explorer, Field Mechanik, Horseman, Man-at-Arms, Military Officer, Pirate, Priest (Morrowan), Soldier, or Sorcerer"),
@@ -3816,7 +3826,9 @@ var ikrpg = ikrpg || {};
           arrayPair(_military_skills, "Sword, Praetorian"),
           arrayPair(_military_skills, "Sword, Praetorian") ], "Choose Toboresh,<br />Shield and Pike, or<br />both Praetorian Swords")
       ],
-      "Priest of Cyriss": [],
+      "Priest of Cyriss": [
+        
+      ],
       "Priest of Menoth": [
         listItem(_careers, "Priest of Menoth"),
         listItem(_abilities, "Dispel"),
@@ -3876,7 +3888,9 @@ var ikrpg = ikrpg || {};
         choices([ numberPair("PHY", 1), numberPair("STR", 1) ], "Choose 1"),
         number(_gold, 100)
       ],
-      "Raider": [],
+      "Raider": [
+        
+      ],
       "Ranger": [
         listItem(_careers, "Ranger"),
         list(_abilities, ["Camouflage", "Pathfinder"]),
@@ -3943,9 +3957,15 @@ var ikrpg = ikrpg || {};
         list(_gear, ["Reclaimant's Mask", "ten grave markers"]),
         listItem(_melee_weapons, "Reclaimant Torch")
       ],
-      "Rhulic 'Jack Marshal": [],
-      "Rhulic Field Mechanik": [],
-      "Rhulic Warcaster": [],
+      "Rhulic 'Jack Marshal": [
+        
+      ],
+      "Rhulic Field Mechanik": [
+        
+      ],
+      "Rhulic Warcaster": [
+        
+      ],
       "Rifleman": [
         listItem(_careers, "Rifleman"),
         list(_abilities, ["Crackshot", "Dual Shot", "Marksman"]),
@@ -4219,7 +4239,9 @@ var ikrpg = ikrpg || {};
         listItem(_melee_weapons, "Stormcaller and Lightning Rod"),
         listItem(_armors, "Stormsmith Armor")
       ],
-      "Tempest Blazer": [],
+      "Tempest Blazer": [
+        
+      ],
       "Thamarite Advocate": [
         listItem(_careers, "Thamarite Advocate"),
         list(_abilities, ["Corruptor", "Imbue Weapon"]),
@@ -4397,7 +4419,9 @@ var ikrpg = ikrpg || {};
           arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: mechanikal weapon
           arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)")], "Choose 1")
       ],
-      "Warcaster, Cyriss": [],
+      "Warcaster, Cyriss": [
+        
+      ],
       "Warlock, Circle": [
         listItem(_careers, "Warlock, Circle"),
         listItem(_abilities, "Warlock Bond"),
@@ -4438,7 +4462,9 @@ var ikrpg = ikrpg || {};
           "Razor Boar Warbeast",
           "Razor Boar Warbeast"]), "Choose either the Farrow Warbeast or<br />both Razor Boars")
       ],
-      "Warlock, Legion": [],
+      "Warlock, Legion": [
+        
+      ],
       "Warlock, Swamp": [
         listItem(_careers, "Warlock, Swamp"),
         list(_abilities, ["Resonance: Swamp Warbeast", "Warlock Bond"]),
@@ -4478,7 +4504,9 @@ var ikrpg = ikrpg || {};
         number(_gold, 25),
         listItem(_gear, "medium-based Trollblood Warbeast")
       ],
-      "Warmonger": [],
+      "Warmonger": [
+        
+      ],
       "Warrior": [
         listItem(_careers, "Warrior"),
         list(_abilities, ["Fast Draw", "Roll with It"]),
@@ -4530,10 +4558,16 @@ var ikrpg = ikrpg || {};
         number(_gold, 75),
         list(_gear, ["Duskwolf", "tack"])
       ],
-      "Wyrmwall Bruiser": [],
-      "Wyrmwall Rider": [],
-      "Wyrmwall Veteran": []
-    };
+      "Wyrmwall Bruiser": [
+        
+      ],
+      "Wyrmwall Rider": [
+        
+      ],
+      "Wyrmwall Veteran": [
+        
+      ]
+    }; // 21 left
     var adventuringCompanies = {
       "Agents of the Crucible": [
         listItem(_notes, "Agents of the Crucible"),
@@ -4656,7 +4690,9 @@ var ikrpg = ikrpg || {};
         listItem(_occupational_skills, "Disguise"),
         listItem(_abilities, "Cover Identity")
       ],
-      "Fringe Cultists": [],
+      "Fringe Cultists": [
+        
+      ],
       "Gatorman Tribe": [
         listItem(_notes, "Gatorman Tribe"),
         list(_notes, [
@@ -4942,7 +4978,9 @@ var ikrpg = ikrpg || {};
           "Sneak",
           "Survival"]), "Choose 1")
       ],
-      "The Inner Circle": [],
+      "The Inner Circle": [
+        
+      ],
       "United Kriels": [
         listItem(_notes, "United Kriels"),
         list(_notes, ["One Trollkin is the captain"]),
@@ -4973,7 +5011,9 @@ var ikrpg = ikrpg || {};
         choices([arrayPair(_abilities, "Natural Leader")], "For the lieutenant"),
         listItem(_abilities, "Find Cover")  
       ],
-      "Wilderness Expedition": [],
+      "Wilderness Expedition": [
+        
+      ],
       "Wilderness Kriel": [
         listItem(_notes, "Wilderness Kriel"),
         list(_notes, ["One Chieftain or Shaman is the warband leader"]),
@@ -4992,12 +5032,11 @@ var ikrpg = ikrpg || {};
           "Survival",
           "Tracking"]), "Choose 1")
       ]
-    };
+    }; // 3 left
     
     
     // ## Character Generator Variables ## \\
-  
-    var generator = ikrpg.generator;
+    
     generator.races = races;
     generator.castes = castes;
     generator.archetypes = archetypes;

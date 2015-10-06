@@ -9105,14 +9105,6 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Cloak, Weighted",
-      publication: "Full Metal Fridays 1/5/1",
-      page:        "2",
-      category:    "Armory",
-      subcategory: "Melee Weapon",
-      game:        "FMF"
-    },
-    {
       name:        "Clockwork Injector",
       publication: "Urban Adventure",
       page:        "12",
@@ -9737,7 +9729,7 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Spike Mail",
+      name:        "Spike Maul",
       publication: "No Quarter #45",
       page:        "65",
       category:    "Armory",
@@ -25494,7 +25486,7 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Prayer for Guidance",
+      name:        "Prayer of Guidance",
       publication: "Core Rules",
       page:        "242",
       category:    "Spell",
@@ -26031,14 +26023,6 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rune Shot: Heart Stopper",
-      publication: "Core Rules",
-      page:        "243",
-      category:    "Spell",
-      subcategory: "",
-      game:        "FMF"
-    },
-    {
-      name:        "Rune Shot: Iron Bolt",
       publication: "Core Rules",
       page:        "243",
       category:    "Spell",
@@ -28096,14 +28080,6 @@ var ikrpg = ikrpg || {};
       category:    "Steamjack",
       subcategory: "Melee Weapon",
       game:        "FMF"
-    },
-    {
-      name:        "Hex Razor",
-      publication: "No Quarter #62",
-      page:        "102",
-      category:    "Spell",
-      subcategory: "",
-      game:        "IKU"
     },
     {
       name:        "Hydraulic Clamp Attachment (Industrial Arm Mount Attachment)",
