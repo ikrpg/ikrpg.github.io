@@ -2725,7 +2725,7 @@ var ikrpg = ikrpg || {};
         choices(arrayPairs(_languages, languages), "Choose 1"),
         range(_height, 61, 79),
         range(_weight, 95, 195),
-        list(_abilities, ["Blight Gifts"])
+        list(_abilities, ["Blight Gifts"]),
         list(_notes, [
           "Gains +3 ARM against cold damage",
           "Gains -3 ARM against fire damage"]),
@@ -3615,7 +3615,7 @@ var ikrpg = ikrpg || {};
         list(_spells, ["Blind Spot", "Hex Bolt", "Hidden Path"]),
         number(_ARC, 1), // Sorcerous Blessing blight gift
         number(_ARC_max, 1), // Sorcerous Blessing blight gift
-        listItem(_melee_weapon, "Hex Razor"), // TODO: add me
+        listItem(_melee_weapons, "Hex Razor"), // TODO: add me
         listItem(_armors, "Nyss Leather Armor")
       ],
       "Highwayman": [
@@ -4248,7 +4248,7 @@ var ikrpg = ikrpg || {};
         listItem(_careers, "Rhulic Warcaster"),
         list(_abilities, ["Bond", "Rhulic Warcaster"]),
         listItem(_connections, "Dwarven Clan"),
-        choice(arrayPairs(_military_skills, [
+        choices(arrayPairs(_military_skills, [
           "Great Weapon",
           "Hand Weapon",
           "Pistol",
