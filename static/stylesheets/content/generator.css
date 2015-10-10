@@ -322,6 +322,15 @@ ul.ui-autocomplete li.ui-state-focus {
 }
 
 
+.character-generator-table input[type="text"] {
+    width: 400px;
+}
+
+.character-generator-table select {
+    width: 406px;
+}
+
+
 @media print {
     html { zoom: 140%; }
     form.character-sheet {
