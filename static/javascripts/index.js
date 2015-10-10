@@ -814,6 +814,22 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Blight Gifts",
+      publication: "No Quarter #61",
+      page:        "97",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Blight Gifts",
+      publication: "No Quarter #61",
+      page:        "98",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Blood Drinker",
       publication: "No Quarter #61",
       page:        "101",
@@ -825,6 +841,14 @@ var ikrpg = ikrpg || {};
       name:        "Blood Frenzy",
       publication: "Skorne Empire",
       page:        "62",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Blood Mad",
+      publication: "No Quarter #61",
+      page:        "98",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -2734,6 +2758,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Huge Stature",
+      publication: "No Quarter #61",
+      page:        "98",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Hulking Presence",
       publication: "Urban Adventure",
       page:        "11",
@@ -4105,6 +4137,14 @@ var ikrpg = ikrpg || {};
       name:        "Shadow Steel",
       publication: "No Quarter #62",
       page:        "101",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Shallow Breathing",
+      publication: "No QUarter #61",
+      page:        "75",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -8280,14 +8320,6 @@ var ikrpg = ikrpg || {};
       name:        "Protectorate Warcaster",
       publication: "Kings, Nations, and Gods",
       page:        "355",
-      category:    "Character Creation",
-      subcategory: "Career Option",
-      game:        "FMF"
-    },
-    {
-      name:        "Rhulic 'Jack Marshal",
-      publication: "No Quarter #49",
-      page:        "63",
       category:    "Character Creation",
       subcategory: "Career Option",
       game:        "FMF"

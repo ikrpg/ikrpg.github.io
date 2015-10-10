@@ -597,6 +597,7 @@ var ikrpg = ikrpg || {};
         "Retractable Lance": { "skill": "Great Weapon", "mat-mod": -1, "pow": 5, "notes": "reach, NQ#50, p. 52" },
         "Rynnish Fan": { "skill": "Hand Weapon", "mat-mod": 1, "pow": 1, "notes": "" },
         "Sacral Blade": { "skill": "Hand Weapon", "mat-mod": 1, "pow": 3, "notes": "POW 1 if not empowered" },
+        "Satyxis Horns": { "skill": "Unarmed Combat", "mat-mod": 0, "pow": 3, "notes": "Crit: Knockout strike" },
         "Shield": { "skill": "Shield", "mat-mod": 0, "pow": 0, "notes": "" },
         "Shield, Combat": { "skill": "Shield", "mat-mod": -1, "pow": 3, "notes": "" },
         "Shield, Karax": { "skill": "Shield", "mat-mod": -2, "pow": 0, "notes": "" },
@@ -2236,6 +2237,7 @@ var ikrpg = ikrpg || {};
     
     var languages = [
       "Aeric",
+      "Blaati",
       "Caspian",
       "Cygnaran",
       "Five Cant",
@@ -2268,7 +2270,30 @@ var ikrpg = ikrpg || {};
       "Umbrean"
     ];
     var races = {
-      "Blighted Ogrun": [],
+      "Blighted Ogrun": [
+        string(_race, "Blighted Ogrun"),
+        number(_PHY, 6),
+        number(_SPD, 5),
+        number(_STR, 7),
+        number(_AGL, 3),
+        number(_PRW, 4),
+        number(_POI, 3),
+        number(_INT, 2),
+        number(_PER, 2),
+        number(_PHY_max, 7),
+        number(_SPD_max, 6),
+        number(_STR_max, 8),
+        number(_AGL_max, 5),
+        number(_PRW_max, 5),
+        number(_POI_max, 4),
+        number(_INT_max, 5),
+        number(_PER_max, 4),
+        list(_languages, ["Molgur-Og", "Aeric"]),
+        choices(arrayPairs(_languages, languages), "Choose 1"),
+        range(_height, 82, 105),
+        range(_weight, 330, 500),
+        list(_abilities, ["Blight Gifts", "Blood Mad", "Huge Stature"])
+      ],
       "Bog Trog": [
         string(_race, "Bog Trog"),
         number(_PHY, 6),
@@ -2320,7 +2345,33 @@ var ikrpg = ikrpg || {};
         listItem(_abilities, "Load Bearing"),
         listItem(_connections, "dwarven clan")
       ],
-      "Efaarit": [],
+      "Efaarit": [
+        string(_race, "Efaarit"),
+        number(_PHY, 6),
+        number(_SPD, 6),
+        number(_STR, 4),
+        number(_AGL, 3),
+        number(_PRW, 3),
+        number(_POI, 4),
+        number(_INT, 2),
+        number(_PER, 4),
+        number(_PHY_max, 7),
+        number(_SPD_max, 7),
+        number(_STR_max, 6),
+        number(_AGL_max, 5),
+        number(_PRW_max, 5),
+        number(_POI_max, 5),
+        number(_INT_max, 4),
+        number(_PER_max, 5),
+        listItem(_languages, "Blaati"),
+        choices(arrayPairs(_languages, languages), "Choose 1"),
+        range(_height, 38, 54),
+        range(_weight, 48, 90),
+        list(_abilities, [
+          "Adapted (Desert)",
+          "Shallow Breathing",
+          "Trained Rider (bletcher)"])
+      ],
       "Farrow": [
         string(_race, "Farrow"),
         number(_PHY, 6),
@@ -2598,7 +2649,34 @@ var ikrpg = ikrpg || {};
           "Troll Resilience"]),
         listItem(_benefits, "Tough")
       ],
-      "Satyxis": [],
+      "Satyxis": [
+        string(_race, "Satyxis"),
+        number(_PHY, 5),
+        number(_SPD, 6),
+        number(_STR, 5),
+        number(_AGL, 3),
+        number(_PRW, 4),
+        number(_POI, 3),
+        number(_INT, 3),
+        number(_PER, 3),
+        number(_PHY_max, 7),
+        number(_SPD_max, 7),
+        number(_STR_max, 6),
+        number(_AGL_max, 5),
+        number(_PRW_max, 5),
+        number(_POI_max, 4),
+        number(_INT_max, 5),
+        number(_ARC_max, 4),
+        number(_PER_max, 5),
+        list(_languages, ["Satyxi", "Sharde"]),
+        choices(arrayPairs(_languages, languages), "Choose 1"),
+        range(_height, 55, 69),
+        range(_weight, 100, 160),
+        list(_notes, [
+          "Satyxis cannot be Arcane Mechanik or Arcanist",
+          "A satyxis must be female"]),
+        listItem(_melee_weapons, "Satyxis Horns")
+      ],
       "Skorne": [
         string(_race, "Skorne"),
         number(_PHY, 5),
@@ -2625,7 +2703,38 @@ var ikrpg = ikrpg || {};
         range(_weight, 90, 200),
         list(_abilities, ["Arcane Potential", "Limited Arcane Tradition"])
       ],
-      "Strider": [],
+      "Strider": [
+        string(_race, "Strider"),
+        number(_PHY, 5),
+        number(_SPD, 7),
+        number(_STR, 4),
+        number(_AGL, 4),
+        number(_PRW, 4),
+        number(_POI, 4),
+        number(_INT, 3),
+        number(_PER, 3),
+        number(_PHY_max, 7),
+        number(_SPD_max, 8),
+        number(_STR_max, 6),
+        number(_AGL_max, 5),
+        number(_PRW_max, 5),
+        number(_POI_max, 5),
+        number(_INT_max, 4),
+        number(_PER_max, 5),
+        listItem(_languages, "Aeric"),
+        choices(arrayPairs(_languages, languages), "Choose 1"),
+        range(_height, 61, 79),
+        range(_weight, 95, 195),
+        list(_abilities, ["Blight Gifts"])
+        list(_notes, [
+          "Gains +3 ARM against cold damage",
+          "Gains -3 ARM against fire damage"]),
+        list(_abilities, [
+          "Blight Gifts",
+          "Pathfinder",
+          "Specialization (Nyss Claymore)",
+          "Specialization (Nyss Bow)"])
+      ],
       "Tharn": [
         string(_race, "Tharn"),
         number(_PHY, 6),
@@ -2677,7 +2786,7 @@ var ikrpg = ikrpg || {};
         listItem(_notes, "Trollkin cannot be Arcane Mechaniks, Arcanists, or Warcasters"),
         list(_benefits, ["Tough", "Feat: Revitalize"])
       ]
-    }; // 3 left
+    };
     var castes = {
       "Extoller": [
         listItem(_notes, "Extoller Caste"),
@@ -2845,7 +2954,24 @@ var ikrpg = ikrpg || {};
           "mechanika suit of armor"]), "Choose 1")
       ],
       "Arcane Tempest Gun Mage": [
-        
+        listItem(_careers, "Arcane Tempest Gun Mage"),
+        list(_abilities, ["Craft Rune Shot", "Fast Reload"]),
+        listItem(_connections, "Cygnaran military"),
+        choices(arrayPairs(_military_skills, ["Pistol", "Rifle"]), "Choose 1"),
+        list(_occupational_skills, ["Detection", "Intimidation"]),
+        list(_spells, [
+          "Rune Shot: Accuracy",
+          "Rune Shot: Brutal",
+          "Rune Shot: Thunderbolt"]),
+        number(_gold, 25),
+        list(_gear, [
+          "ammo bandolier",
+          "rune shot casting kit",
+          "powder and ten rounds of ammunition"]),
+        choices(arrayPairs(_ranged_weapons, [
+          "Pistol, Magelock",
+          "Rifle, Magelock"]), "Choose 1"),
+        listItem(_armors, "Armored Great Coat")
       ],
       "Arcanist": [
         listItem(_careers, "Arcanist"),
@@ -2940,7 +3066,17 @@ var ikrpg = ikrpg || {};
         number(_gold, 75)
       ],
       "Blighted Sorcerer": [
-        
+        listItem(_careers, "Blighted Sorcerer"),
+        listItem(_abilities, "Arcane Crafmanship"),
+        list(_occupational_skills, ["Craft (metalworking)", "Lore (Everblight)"]),
+        listItem(_connections, "Legion of Everblight"),
+        choices(arrayPairs(_military_skills, [
+          "Archery",
+          "Hand Weapon"]), "Choose 1"),
+        list(_spells, ["Blizzard", "Howling Wind", "Ice Bolt"]),
+        number(_ARC, 1), // Sorcerous Blessing blight gift
+        number(_ARC_max, 1), // Sorcerous Blessing blight gift
+        number(_gold, 25)
       ],
       "Bloodrunner": [
         listItem(_careers, "Bloodrunner"),
@@ -3122,7 +3258,24 @@ var ikrpg = ikrpg || {};
           "10 sl of chymical items and ingredients"])
       ],
       "Crucible Guard": [
-        
+        listItem(_careers, "Crucible Guard"),
+        listItem(_notes, "Must choose between Artillerist, Field Mechanik, Horseman, Investigator, Man-at-Arms, Military Officer, Rifleman, or Warcaster"),
+        list(_abilities, ["Find Cover", "Sentry"]),
+        listItem(_connections, "Golden Crucible"),
+        choices(arrayPairs(_military_skills, [
+          "Hand Weapon",
+          "Pistol",
+          "Crossbow",
+          "Great Weapon",
+          "Rifle",
+          "Thrown Weapon"]), "Choose 2"),
+        list(_occupational_skills, [
+          "Detection",
+          "Driving",
+          "Medicine",
+          "Survival"]),
+        listItem(_armors, "Crucible Armor"),
+        listItem(_notes, "250 gc of grenates and Crucible Arms weapons with ammunition"),
       ],
       "Cutthroat": [
         listItem(_careers, "Cutthroat"),
@@ -3150,7 +3303,17 @@ var ikrpg = ikrpg || {};
           arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)")], "Choose 1")
       ],
       "Deathstalker": [
-        
+        listItem(_careers, "Deathstalker"),
+        list(_abilities, ["Ambush", "Prowl", "Signal Language"]),
+        list(_military_skills, ["Archery", "Great Weapon"]),
+        list(_occupational_skills, [
+          "Sneak",
+          "Survival",
+          "Tracking"]),
+        listItem(_melee_weapons, "Nyss Claymore"),
+        listItem(_ranged_weapons, "Nyss Bow"),
+        list(_gear, ["quiver", "20 arrows"]),
+        listItem(_gold, 25)
       ],
       "Doom Reaver": [
         listItem(_careers, "Doom Reaver"),
@@ -3321,7 +3484,35 @@ var ikrpg = ikrpg || {};
           "light laborjack with up to 200gc of weapons"])
       ],
       "Flame Bringers": [
-        
+        listItem(_notes, "If you choose Flame Bringers do not choose a second career!"),
+        listItem(_careers, "Flame Bringers"),
+        list(_abilities, [
+          "Ambush",
+          "Anatomical Precision",
+          "Prowl",
+          "Skilled Rider",
+          "Two-Weapon Fighting"]),
+        listItem(_connections, "Daughters of the Flame"),
+        list(_military_skills, [
+          "Crossbow",
+          "Crossbow",
+          "Hand Weapon",
+          "Hand Weapon"]),
+        list(_occupational_skills, [
+          "Animal Handling",
+          "Detection",
+          "Detection",
+          "Intimidation",
+          "Intimidation",
+          "Riding",
+          "Riding",
+          "Survival",
+          "Survival"]),
+        listItem(_benefits, "Sidestep"),
+        number(_gold, 75),
+        list(_melee_weapons, ["Sword", "Sword"]),
+        listItem(_armors, "Custom Battle Armor"),
+        list(_gear, ["riding horse", "tack", "light barding"]) // TODO: horse widget
       ],
       "Greylord": [
         listItem(_careers, "Greylord"),
@@ -3334,7 +3525,34 @@ var ikrpg = ikrpg || {};
         number(_gold, 75)
       ],
       "Greylord Outrider": [
-        
+        listItem(_notes, "If you choose Greylord Outrider do not choose a second career!"),
+        listItem(_careers, "Greylord Outrider"),
+        list(_abilities, ["Great Power", "Snow Wreathed", "Skilled Rider"]),
+        listItem(_connections, "Greylords"),
+        listItem(_military_skills, "Hand Weapon"),
+        choices(arrayPairs(_military_skills, [
+          "Archery",
+          "Crossbow",
+          "Pistol",
+          "Rifle"]), "Choose 1"),
+        list(_occupational_skills, [
+          "Cryptography",
+          "Detection",
+          "Hand Weapon",
+          "Hand Weapon",
+          "Lore (Arcane)",
+          "Riding",
+          "Riding",
+          "Survival",
+          "Survival"]),
+        choices([
+          arrayPair(_spells, "Frostbite"),
+          arrayPair(_spells, "Rime"),
+          arrayPair(_spells, "Wind Strike"),
+          arrayPair(_melee_weapons, "Greylords Rune Axe") // TODO: Add me!
+        ], "Choose 3"),
+        listItem(_benefits, "Rune Reader"),
+        number(_gold, 75)
       ],
       "Gun Mage": [
         listItem(_careers, "Gun Mage"),
@@ -3389,7 +3607,16 @@ var ikrpg = ikrpg || {};
         number(_gold, 50)
       ],
       "Hex Hunter": [
-        
+        listItem(_careers, "Hex Hunter"),
+        list(_abilities, ["Pathfinder", "Specialization (Hex Razor)"]),
+        list(_occupational_skills, ["Lore (Morrdh)", "Sneak", "Survival"]),
+        listItem(_connections, "Legion of Everblight"),
+        listItem(_military_skills, "Hand Weapon"),
+        list(_spells, ["Blind Spot", "Hex Bolt", "Hidden Path"]),
+        number(_ARC, 1), // Sorcerous Blessing blight gift
+        number(_ARC_max, 1), // Sorcerous Blessing blight gift
+        listItem(_melee_weapon, "Hex Razor"), // TODO: add me
+        listItem(_armors, "Nyss Leather Armor")
       ],
       "Highwayman": [
         listItem(_careers, "Highwayman"),
@@ -3488,7 +3715,18 @@ var ikrpg = ikrpg || {};
         list(_melee_weapons, ["Blasting Lance", "Shield"])
       ],
       "Ironhead": [
-        
+        listItem(_careers, "Ironhead"),
+        list(_abilities, ["Ironhead", "Tinkerer"]),
+        listItem(_connections, "Mechaniks Association"),
+        choices(arrayPairs(_military_skills, [
+          "Great Weapon",
+          "Light Artillery"]), "Choose 1"),
+        list(_occupational_skills, [
+          "Craft (metalworking)",
+          "Mechanikal Engineering"]),
+        list(_gear, [
+          "a suit of Ironhead Armor",
+          "one equipment upgrade"])
       ],
       "Khadoran Warcaster": [
         listItem(_careers, "Khadoran Warcaster"),
@@ -3743,7 +3981,22 @@ var ikrpg = ikrpg || {};
         listItem(_melee_weapons, "Great Sword")
       ],
       "Nomad": [
-        
+        listItem(_careers, "Nomad"),
+        list(_abilities, ["Saddle Shot", "Traceless Path"]),
+        choices(arrayPairs(_military_skills, [
+          "Archery",
+          "Great Weapon",
+          "Hand Weapon",
+          "Reiver",
+          "Rifle",
+          "Thrown Weapon",
+          "Unarmed Combat"]), "Choose 2"),
+        list(_occupational_skills, [
+          "Navigation",
+          "Riding",
+          "Survival"]),
+        number(_gold, 25),
+        list(_notes, ["Mount worth of 80 gc", "tack"])
       ],
       "Ordic Warcaster": [
         listItem(_careers, "Ordic Warcaster"),
@@ -3827,7 +4080,15 @@ var ikrpg = ikrpg || {};
           arrayPair(_military_skills, "Sword, Praetorian") ], "Choose Toboresh,<br />Shield and Pike, or<br />both Praetorian Swords")
       ],
       "Priest of Cyriss": [
-        
+        listItem(_careers, "Priest of Cyriss"),
+        listItem(_abilities, "Enigma Cipher"),
+        listItem(_connections, "Convergence of Cyriss"),
+        listItem(_military_skills, "Hand Weapon"),
+        list(_occupational_skills, ["Lore (Cyriss)", "Mechanikal Engineering"]),
+        listItem(_benefits, "Genius"),
+        list(_spells, ["Guided Blade", "Dissolution Bolt"]),
+        listItem(_gear, "Tuning Kit"),
+        listItem(_armors, "Opifex Armor") // TODO: Add me!
       ],
       "Priest of Menoth": [
         listItem(_careers, "Priest of Menoth"),
@@ -3889,7 +4150,18 @@ var ikrpg = ikrpg || {};
         number(_gold, 100)
       ],
       "Raider": [
-        
+        listItem(_careers, "Raider"),
+        listItem(_notes, "Must choose between Cutthroat, Duelist, Gun Mage, Military Officer, Pirate, Pistoleer, Ranger, Sorcerer, or Warcaster"),
+        listItem(_abilities, "Specialization (Lacerator)"),
+        listItem(_connections, "Black Fleet"),
+        list(_military_skills, ["Hand Weapon", "Unarmed Combat"]),
+        list(_occupational_skills, [
+          "Intimidation",
+          "Jumping",
+          "Sailing",
+          "Swimming"]),
+        listItem(_melee_weapons, "Lacerator"),
+        listItem(_armors, "Leather Armor")
       ],
       "Ranger": [
         listItem(_careers, "Ranger"),
@@ -3957,14 +4229,38 @@ var ikrpg = ikrpg || {};
         list(_gear, ["Reclaimant's Mask", "ten grave markers"]),
         listItem(_melee_weapons, "Reclaimant Torch")
       ],
-      "Rhulic 'Jack Marshal": [
-        
-      ],
       "Rhulic Field Mechanik": [
-        
+        listItem(_careers, "Rhulic Field Mechanik"),
+        list(_abilities, ["Rhulic 'Jack Marshal", "Bodge", "Hit the Deck!"]),
+        choices(arrayPairs(_military_skills, [
+          "Hand Weapon",
+          "Pistol"]), "Choose 1"),
+        list(_occupational_skills, [
+          "Command",
+          "Craft (metalworking)",
+          "Mechanikal Engineering"]),
+        number(_gold, 25),
+        list(_gear, [
+          "mechanik's tool kit",
+          "Grundback Runner light warjack with either a Grundback light cannon or hail shot cannon"])
       ],
       "Rhulic Warcaster": [
-        
+        listItem(_careers, "Rhulic Warcaster"),
+        list(_abilities, ["Bond", "Rhulic Warcaster"]),
+        listItem(_connections, "Dwarven Clan"),
+        choice(arrayPairs(_military_skills, [
+          "Great Weapon",
+          "Hand Weapon",
+          "Pistol",
+          "Rifle"]), "Choose 2"),
+        list(_occupational_skills, ["Command", "Detection"]),
+        list(_spells, ["Battering Ram", "Molten Metal"]),
+        choices([
+          arrayPair(_armors, "Warcaster Armor, light"),
+          arrayPair(_armors, "Warcaster Armor, medium"),
+          arrayPair(_melee_weapons, "Mechanika Great Weapon"), // TODO:mechanikal weapon
+          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: mechanikal weapon
+          arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)")], "Choose 1")
       ],
       "Rifleman": [
         listItem(_careers, "Rifleman"),
@@ -4240,7 +4536,40 @@ var ikrpg = ikrpg || {};
         listItem(_armors, "Stormsmith Armor")
       ],
       "Tempest Blazer": [
+        listItem(_notes,
+          "If you choose Tempest Blazer do not choose a second career!"),
         
+        listItem(_careers, "Tempest Blazer"),
+        list(_abilities, [
+          "Craft Rune Shot",
+          "Fast Reload",
+          "Gunfighter",
+          "Saddle Shot"]),
+        listItem(_connections, "Cygnaran military"),
+        list(_military_skills, [
+          "Pistol",
+          "Pistol"]),
+        list(_occupational_skills, [
+          "Detection",
+          "Detection",
+          "Riding",
+          "Riding",
+          "Survival",
+          "Tracking"]),
+        list(_spells, [
+          "Rune Shot: Accuracy",
+          "Rune Shot: Brutal",
+          "Rune Shot: Electro Leap"]),
+        list(_gear, [
+          "ammo bandolier",
+          "rune shot casting kit",
+          "riding horse",
+          "tack",
+          "light barding",
+          "powder and ten rounds of ammunition"]),
+        listItem(_ranged_weapons, "Pistol, Magelock"),
+        listItem(_armors, "Armored Great Coat"),
+        number(_gold, 25)
       ],
       "Thamarite Advocate": [
         listItem(_careers, "Thamarite Advocate"),
@@ -4420,7 +4749,18 @@ var ikrpg = ikrpg || {};
           arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)")], "Choose 1")
       ],
       "Warcaster, Cyriss": [
-        
+        listItem(_careers, "Warcaster, Cyriss"),
+        listItem(_notes, "Must choose between Alchemist, Arkane Mechanik, Arcanist, Aristocrat, Explorer, Field Mechanik, Gun Mage, Investigator, Man-at-Arms, Military Officer, or Priest of Cyriss"),
+        list(_abilities, ["Bond", "Convergence Warcaster"]),
+        listItem(_connections, "Convergence of Cyriss"),
+        list(_military_skills, ["Great Weapon", "Hand Weapon"]),
+        list(_occupational_skills, ["Detection", "Mechanikal Engineering"]),
+        list(_spells, ["Arcane Strike", "Jump Start", "Temper Metal"]),
+        choices([
+          arrayPair(_armors, "Warcaster Armor, light"),
+          arrayPair(_armors, "Warcaster Armor, medium"),
+          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: mechanikal weapon
+          arrayPair(_ranged_weapons, "Light Vector")], "Choose 1")
       ],
       "Warlock, Circle": [
         listItem(_careers, "Warlock, Circle"),
@@ -4463,7 +4803,19 @@ var ikrpg = ikrpg || {};
           "Razor Boar Warbeast"]), "Choose either the Farrow Warbeast or<br />both Razor Boars")
       ],
       "Warlock, Legion": [
-        
+        listItem(_careers, "Warlock, Legion"),
+        list(_abilities, ["Athanc Shard", "Resonance: Everblight Warbeast", "Warlock Bond"]),
+        choices(arrayPairs(_military_skills, [
+          "Archery",
+          "Great Weapon",
+          "Hand Weapon"]), "Choose 1"),
+        list(_occupational_skills, ["Command", "Detection", "Lore (dragons)"]),
+        list(_spells, ["Draconic Blessing", "Razor Wind"]),
+        number(_gold, 25),
+        choices(arrayPairs(_gear, [
+          "medium-based Everblight Warbeast",
+          "Lesser Warbeast",
+          "Lesser Warbeast"]), "Choose either the Everblight Warbeast or<br />both Lesser Warbeasts")
       ],
       "Warlock, Swamp": [
         listItem(_careers, "Warlock, Swamp"),
@@ -4505,7 +4857,25 @@ var ikrpg = ikrpg || {};
         listItem(_gear, "medium-based Trollblood Warbeast")
       ],
       "Warmonger": [
-        
+        listItem(_careers, "Warmonger"),
+        list(_abilities, ["Berserk", "Fearless", "Onslaught"]),
+        listItem(_military_skills, "Unarmed Combat"),
+        choices(arrayPairs(_military_skills, [
+          "Great Weapon",
+          "Thrown Weapon"]), "Choose 1"),
+        list(_occupational_skills, [
+          "Detection",
+          "Intimidation",
+          "Survival"]),
+        choices([
+          arrayPair(_armors, "Infantry Armor"),
+          arrayPair(_melee_weapons, "Ogrun Warcleaver"),
+          arrayPair(_melee_weapons, "War Spear"),
+          arrayPair(_melee_weapons, "War Spear"),
+          arrayPair(_melee_weapons, "War Spear"),
+          arrayPair(_melee_weapons, "War Spear"),
+          arrayPair(_melee_weapons, "War Spear"),
+          arrayPair(_gear, "quiver")], "Choose armor and cleaver or<br />all spears and quiver")
       ],
       "Warrior": [
         listItem(_careers, "Warrior"),
@@ -4557,17 +4927,8 @@ var ikrpg = ikrpg || {};
           "Tracking"]),
         number(_gold, 75),
         list(_gear, ["Duskwolf", "tack"])
-      ],
-      "Wyrmwall Bruiser": [
-        
-      ],
-      "Wyrmwall Rider": [
-        
-      ],
-      "Wyrmwall Veteran": [
-        
       ]
-    }; // 21 left
+    };
     var adventuringCompanies = {
       "Agents of the Crucible": [
         listItem(_notes, "Agents of the Crucible"),
@@ -4691,7 +5052,20 @@ var ikrpg = ikrpg || {};
         listItem(_abilities, "Cover Identity")
       ],
       "Fringe Cultists": [
-        
+        listItem(_notes, "Fringe Cultists"),
+        list(_notes, [
+          "All characters must be worshippers of Cyriss, and at least one must be Intellectual or a Priest of Cyriss",
+          "One Priest or Intellectual is the leader"]),
+          choices([
+            arrayPair(_abilities, "Team Leader"),
+            arrayPair(_notes, "+2 social skill rolls against other members") ], "Choose all if leader"),
+          choices(arrayPairs(_occupational_skills, [
+            "Craft (metalworking)",
+            "Craft (stoneworking)",
+            "Forensic Science",
+            "Lore (Cyriss)",
+            "Mechanikal Engineering",
+            "Research"]), "Choose 1 if not leader")
       ],
       "Gatorman Tribe": [
         listItem(_notes, "Gatorman Tribe"),
@@ -4979,7 +5353,11 @@ var ikrpg = ikrpg || {};
           "Survival"]), "Choose 1")
       ],
       "The Inner Circle": [
-        
+        listItem(_notes, "The Inner Circle"),
+        list(_notes, [
+          "All characters must be Intellectual and either be a Priest of Cyriss, or a Cyrissist Warcaster",
+          "One Priest is the leader"]),
+        listItem(_abilities, "University Education")
       ],
       "United Kriels": [
         listItem(_notes, "United Kriels"),
@@ -5012,7 +5390,18 @@ var ikrpg = ikrpg || {};
         listItem(_abilities, "Find Cover")  
       ],
       "Wilderness Expedition": [
-        
+        listItem(_notes, "Wilderness Expedition"),
+        list(_notes, [
+          "All characters must either be an Aristocrat, Explorer, Highwayman, Horseman, Man-at-Arms, Pistoleer, Ranger, Rifleman, or an non-Cunning IKU character",
+          "One member is the leader, typically an Explorer"]),
+        choices(arrayPairs(_occupational_skills, [
+          "Climbing",
+          "Driving",
+          "Medicine",
+          "Riding",
+          "Navigation",
+          "Survival",
+          "Tracking"]), "Choose 1")
       ],
       "Wilderness Kriel": [
         listItem(_notes, "Wilderness Kriel"),
@@ -5032,7 +5421,7 @@ var ikrpg = ikrpg || {};
           "Survival",
           "Tracking"]), "Choose 1")
       ]
-    }; // 3 left
+    };
     
     
     // ## Character Generator Variables ## \\
