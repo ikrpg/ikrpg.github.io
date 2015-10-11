@@ -5450,9 +5450,70 @@ var ikrpg = ikrpg || {};
     $.each(ikrpg.generator.races, addOption("#race-select"));
     $.each(ikrpg.generator.castes, addOption("#caste-select"));
     $.each(ikrpg.generator.archetypes, addOption("#archetype-select"));
-    $.each(ikrpg.generator.careers, addOption("#career1-select"));
-    $.each(ikrpg.generator.careers, addOption("#career2-select"));
-    $.each(ikrpg.generator.adventuringCompanies, addOption("#adventuring-company-select"));
+    
+    
+    var index = ikrpg.index.data;
+    
+    function addOptionsGroupedByPublication(selector, data, publications, category, subcategories) {
+      
+      var groups = { "Other Publications": [] };
+      
+      $.each(publications, function(i, publication) {
+        groups[publication] = [];
+      });
+      
+      $.each(index, function(i, entry) {
+        if(entry.category == category && $.inArray(entry.subcategory, subcategories) > -1 && data.hasOwnProperty(entry.name)) {
+          if(groups.hasOwnProperty(entry.publication)) {
+            groups[entry.publication].push(entry.name);
+          } else {
+            groups["Other Publications"].push(entry.name);
+          }
+        }
+      });
+            
+      var html = "";
+      
+      $.each($.merge(publications, ["Other Publications"]), function(i, publication) {
+        if(groups[publication]) {
+          html += '\n<optgroup label="'+publication+':">';
+          $.each(groups[publication].sort(), function(key, entry) {
+            html += '\n<option value="'+entry+'">'+entry+'</option>';
+          });
+          html += '\n</optgroup>';
+        }
+      });
+      
+      var old = $(selector).html();
+      $(selector).html(old + html);
+    }
+    
+    addOptionsGroupedByPublication(
+      "#adventuring-company-select",
+      ikrpg.generator.adventuringCompanies,
+      ["Core Rules", "Urban Adventure", "Kings, Nations, and Gods", "Unleashed Core Rules", "Skorne Empire"],
+      "Character Creation",
+      ["Adventuring Company"]
+    );
+    addOptionsGroupedByPublication(
+      "#career1-select",
+      ikrpg.generator.careers,
+      ["Core Rules", "Urban Adventure", "Kings, Nations, and Gods", "Unleashed Core Rules", "Skorne Empire"],
+      "Character Creation",
+      ["Career", "Career Option"]
+    );
+    addOptionsGroupedByPublication(
+      "#career2-select",
+      ikrpg.generator.careers,
+      ["Core Rules", "Urban Adventure", "Kings, Nations, and Gods", "Unleashed Core Rules", "Skorne Empire"],
+      "Character Creation",
+      ["Career", "Career Option"]
+    );
+    
+    
+  //$.each(ikrpg.generator.careers, addOption("#career1-select"));
+  //$.each(ikrpg.generator.careers, addOption("#career2-select"));
+  //$.each(ikrpg.generator.adventuringCompanies, addOption("#adventuring-company-select"));
       
   })();
   
