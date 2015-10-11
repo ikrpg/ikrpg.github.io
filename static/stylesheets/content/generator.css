@@ -68,39 +68,39 @@ form#import-export:target { display: block; }
 .character-sheet #permax { margin: 602px 0 0 129px; width: 13px; text-align: center; }
 .character-sheet #wil { margin: 648px 0 0 50px; width: 48px; font-size: 30px; text-align: center; }
 .character-sheet #rat1 { display: block !important; }
-.character-sheet #rat1 .name { margin: 114px 0 0 224px; width: 103px; }
+.character-sheet #rat1 .name { font-size: 11px; padding-top: 3px; margin: 114px 0 0 224px; width: 103px; }
 .character-sheet #rat1 .rng { margin: 106px 0 0 341px; width: 25px; text-align: center; }
 .character-sheet #rat1 .rat { margin: 106px 0 0 375px; width: 25px; text-align: center; }
 .character-sheet #rat1 .aoe {}
 .character-sheet #rat1 .pow { margin: 106px 0 0 409px; width: 25px; text-align: center; }
-.character-sheet #rat1 .notes { margin: 138px 0 0 224px; width: 216px; }
+.character-sheet #rat1 .notes { font-size: 11px; padding-top: 3px; margin: 138px 0 0 224px; width: 216px; }
 .character-sheet #rat1 .ammo { margin: 138px 0 0 341px; width: 99px; }
 .character-sheet #rat2 { display: block !important; }
-.character-sheet #rat2 .name { margin: 182px 0 0 224px; width: 103px; }
+.character-sheet #rat2 .name { font-size: 11px; padding-top: 3px; margin: 182px 0 0 224px; width: 103px; }
 .character-sheet #rat2 .rng { margin: 174px 0 0 341px; width: 25px; text-align: center; }
 .character-sheet #rat2 .rat { margin: 174px 0 0 375px; width: 25px; text-align: center; }
 .character-sheet #rat2 .aoe {}
 .character-sheet #rat2 .pow { margin: 174px 0 0 409px; width: 25px; text-align: center; }
-.character-sheet #rat2 .notes { margin: 206px 0 0 224px; width: 216px; }
+.character-sheet #rat2 .notes { font-size: 11px; padding-top: 3px; margin: 206px 0 0 224px; width: 216px; }
 .character-sheet #rat2 .ammo { margin: 206px 0 0 341px; width: 99px; }
 .character-sheet #mat1 { display: block !important; }
-.character-sheet #mat1 .name { margin: 265px 0 0 224px; width: 140px; }
+.character-sheet #mat1 .name { font-size: 11px; padding-top: 3px; margin: 265px 0 0 224px; width: 140px; }
 .character-sheet #mat1 .mat { margin: 277px 0 0 375px; width: 25px; text-align: center; }
 .character-sheet #mat1 .pow {}
 .character-sheet #mat1 .ps { margin: 277px 0 0 409px; width: 25px; text-align: center; }
-.character-sheet #mat1 .notes { margin: 289px 0 0 224px; width: 140px; }
+.character-sheet #mat1 .notes { font-size: 11px; padding-top: 3px; margin: 289px 0 0 224px; width: 140px; }
 .character-sheet #mat2 { display: block !important; }
-.character-sheet #mat2 .name { margin: 327px 0 0 224px; width: 140px; }
+.character-sheet #mat2 .name { font-size: 11px; padding-top: 3px; margin: 327px 0 0 224px; width: 140px; }
 .character-sheet #mat2 .mat { margin: 339px 0 0 375px; width: 25px; text-align: center; }
 .character-sheet #mat2 .pow {}
 .character-sheet #mat2 .ps { margin: 339px 0 0 409px; width: 25px; text-align: center; }
-.character-sheet #mat2 .notes { margin: 351px 0 0 224px; width: 140px; }
+.character-sheet #mat2 .notes { font-size: 11px; padding-top: 3px; margin: 351px 0 0 224px; width: 140px; }
 .character-sheet #mat3 { display: block !important; }
-.character-sheet #mat3 .name { margin: 415px 0 0 171px; width: 160px; }
+.character-sheet #mat3 .name { font-size: 11px; padding-top: 3px; margin: 415px 0 0 171px; width: 160px; }
 .character-sheet #mat3 .mat { margin: 429px 0 0 375px; width: 25px; text-align: center; }
 .character-sheet #mat3 .pow {}
 .character-sheet #mat3 .ps { margin: 429px 0 0 409px; width: 25px; text-align: center; }
-.character-sheet #mat3 .notes { margin: 439px 0 0 171px; width: 160px; }
+.character-sheet #mat3 .notes { font-size: 11px; padding-top: 3px; margin: 439px 0 0 171px; width: 160px; }
 .character-sheet #mat3 .free { margin: 429px 0 0 341px; width: 25px; text-align: center; }
 .character-sheet #defracialmodifier { margin: 496px 0 0 289px; width: 34px; font-size: 20px; text-align: center; }
 .character-sheet #defequipmentmodifiers { margin: 496px 0 0 344px; width: 34px; font-size: 20px; text-align: center; }
@@ -115,7 +115,7 @@ form#import-export:target { display: block; }
 .character-sheet #cmdcommandskill { margin: 668px 0 0 289px; width: 34px; font-size: 20px; text-align: center; }
 .character-sheet #cmdabilitymodifier { margin: 668px 0 0 344px; width: 34px; font-size: 20px; text-align: center; }
 .character-sheet #cmd { margin: 668px 0 0 399px; width: 34px; font-size: 20px; text-align: center; }
-.character-sheet .skill .title { margin: 2px 0 0 460px; width: 105px; }
+.character-sheet .skill .title { font-size: 11px; padding-top: 3px; margin: 2px 0 0 460px; width: 105px; }
 .character-sheet .skill .base { margin: 2px 0 0 570px; width: 15px; text-align: center; }
 .character-sheet .skill .lvl { margin: 2px 0 0 609px; width: 15px; text-align: center; }
 .character-sheet .skill .sum { margin: 2px 0 0 643px; width: 15px; text-align: center; }
@@ -142,8 +142,8 @@ form#import-export:target { display: block; }
 .character-sheet #s20 {}
 .character-sheet #s21 {}
 .character-sheet .ability { position: absolute; }
-.character-sheet .ability .title { margin-left: 689px; width: 285px; }
-.character-sheet .ability .description { margin-left: 796px; width: 178px; }
+.character-sheet .ability .title { font-size: 11px; padding-top: 3px; margin-left: 689px; width: 285px; }
+.character-sheet .ability .description { font-size: 11px; padding-top: 3px; margin-left: 796px; width: 178px; }
 .character-sheet .ability .page { margin-left: 946px; width: 28px; text-align: right; }
 .character-sheet #ability1 { margin-top: 135px; }
 .character-sheet #ability2 { margin-top: 156px; }
@@ -168,8 +168,8 @@ form#import-export:target { display: block; }
 .character-sheet #feats { font-size: 40px; margin: 606px 0 0 698px; width: 51px; text-align: center; }
 
 .character-sheet .gear { position: absolute; margin-left: 5px; }
-.character-sheet .gear .title { width: 285px; }
-.character-sheet .gear .benefit { margin-left: 125px; width: 160px; }
+.character-sheet .gear .title { font-size: 11px; padding-top: 3px; width: 285px; }
+.character-sheet .gear .benefit { font-size: 11px; padding-top: 3px; margin-left: 125px; width: 160px; }
 .character-sheet #gear1 { margin-top: 35px; }
 .character-sheet #gear2 { margin-top: 55px; }
 .character-sheet #gear3 { margin-top: 75px; }
@@ -190,8 +190,8 @@ form#import-export:target { display: block; }
 .character-sheet #gear18 { margin-top: 373px; }
 .character-sheet #gear19 { margin-top: 393px; }
 .character-sheet .wornarmor { position: absolute; margin-left: 5px; }
-.character-sheet .wornarmor .name { width: 183px; }
-.character-sheet .wornarmor .notes { margin-left: 75px; width: 108px; }
+.character-sheet .wornarmor .name { font-size: 11px; padding-top: 3px; width: 183px; }
+.character-sheet .wornarmor .notes { font-size: 11px; padding-top: 3px; margin-left: 75px; width: 108px; }
 .character-sheet .wornarmor .spd { margin-left: 186px; width: 17px; text-align: center; }
 .character-sheet .wornarmor .def { margin-left: 225px; width: 17px; text-align: center; }
 .character-sheet .wornarmor .arm { margin-left: 260px; width: 17px; text-align: center; }
@@ -200,8 +200,8 @@ form#import-export:target { display: block; }
 .character-sheet #wornarmor3 { margin-top: 505px; }
 .character-sheet #wornarmor4 { margin-top: 525px; }
 .character-sheet .connection { position: absolute; margin-left: 5px; }
-.character-sheet .connection .name { width: 286px; }
-.character-sheet .connection .notes { margin-left: 98px; width: 188px; }
+.character-sheet .connection .name { font-size: 11px; padding-top: 3px; width: 286px; }
+.character-sheet .connection .notes { font-size: 11px; padding-top: 3px; margin-left: 98px; width: 188px; }
 .character-sheet .connection .page { margin-left: 238px; width: 48px; text-align: right; }
 .character-sheet #connection1 { margin-top: 597px; }
 .character-sheet #connection2 { margin-top: 617px; }
@@ -209,14 +209,14 @@ form#import-export:target { display: block; }
 .character-sheet #connection4 { margin-top: 657px; }
 .character-sheet #arcanetradition { position: absolute; margin: 9px 0 0 398px; width: 256px; }
 .character-sheet .spell { position: absolute; margin-left: 312px; }
-.character-sheet .spell .title { width: 134px; }
+.character-sheet .spell .title { font-size: 11px; padding-top: 3px; width: 134px; }
 .character-sheet .spell .cost { margin-left: 140px; width: 33px; text-align: center; }
 .character-sheet .spell .rng { margin-left: 178px; width: 32px; text-align: center; }
 .character-sheet .spell .aoe { margin-left: 215px; width: 32px; text-align: center; }
 .character-sheet .spell .pow { margin-left: 252px; width: 33px; text-align: center; }
 .character-sheet .spell .up { margin-left: 290px; width: 32px; text-align: center; }
 .character-sheet .spell .off { margin-left: 327px; width: 28px; text-align: center; }
-.character-sheet .spell .description { margin-top: 23px; width: 355px; }
+.character-sheet .spell .description { font-size: 11px; padding-top: 3px; margin-top: 23px; width: 355px; }
 .character-sheet #spell1 { margin-top: 47px; }
 .character-sheet #spell2 { margin-top: 97px; }
 .character-sheet #spell3 { margin-top: 147px; }
@@ -227,10 +227,10 @@ form#import-export:target { display: block; }
 .character-sheet #spell8 { margin-top: 395px; }
 .character-sheet .iku .mechanika { display: none; }
 .character-sheet .mechanika { position: absolute; margin-left: 312px; }
-.character-sheet .mechanika .housing { width: 84px; }
-.character-sheet .mechanika .runeplate { margin-left: 90px; width: 84px; }
-.character-sheet .mechanika .capacitor { margin-left: 180px; width: 84px; }
-.character-sheet .mechanika .notes { margin-left: 270px; width: 84px; }
+.character-sheet .mechanika .housing { font-size: 11px; padding-top: 3px; width: 84px; }
+.character-sheet .mechanika .runeplate { font-size: 11px; padding-top: 3px; margin-left: 90px; width: 84px; }
+.character-sheet .mechanika .capacitor { font-size: 11px; padding-top: 3px; margin-left: 180px; width: 84px; }
+.character-sheet .mechanika .notes { font-size: 11px; padding-top: 3px; margin-left: 270px; width: 84px; }
 .character-sheet #mechanika1 { margin-top: 483px; }
 .character-sheet #mechanika2 { margin-top: 503px; }
 .character-sheet #mechanika3 { margin-top: 523px; }
@@ -238,22 +238,22 @@ form#import-export:target { display: block; }
 .character-sheet #mechanika5 { margin-top: 563px; }
 .character-sheet .iku .runeplate { display: none; }
 .character-sheet .runeplate { position: absolute; margin-left: 312px; }
-.character-sheet .runeplate .title { width: 84px; }
-.character-sheet .runeplate .benefit { margin-left: 90px; width: 78px; }
+.character-sheet .runeplate .title { font-size: 11px; padding-top: 3px; width: 84px; }
+.character-sheet .runeplate .benefit { font-size: 11px; padding-top: 3px; margin-left: 90px; width: 78px; }
 .character-sheet #runeplate1 { margin-top: 601px; }
 .character-sheet #runeplate2 { margin-top: 621px; }
 .character-sheet #runeplate3 { margin-top: 641px; }
 .character-sheet #runeplate4 { margin-top: 661px; }
 .character-sheet .iku .capacitor { display: none; }
 .character-sheet .capacitor { position: absolute; margin-left: 498px; }
-.character-sheet .capacitor .title { width: 78px; }
-.character-sheet .capacitor .charges { margin-left: 84px; width: 84px; }
+.character-sheet .capacitor .title { font-size: 11px; padding-top: 3px; width: 78px; }
+.character-sheet .capacitor .charges { font-size: 11px; padding-top: 3px; margin-left: 84px; width: 84px; }
 .character-sheet #capacitor1 { margin-top: 601px; }
 .character-sheet #capacitor2 { margin-top: 621px; }
 .character-sheet #capacitor3 { margin-top: 641px; }
 .character-sheet #capacitor4 { margin-top: 661px; }
 .character-sheet .note { position: absolute; margin-left: 698px; }
-.character-sheet .note .text { width: 265px; }
+.character-sheet .note .text { font-size: 11px; padding-top: 3px; width: 265px; }
 .character-sheet #note1 { margin-top: 35px; }
 .character-sheet #note2 { margin-top: 54px; }
 .character-sheet #note3 { margin-top: 73px; }
@@ -266,15 +266,15 @@ form#import-export:target { display: block; }
 .character-sheet #note10 { margin-top: 204px; }
 .character-sheet #note11 { margin-top: 223px; }
 .character-sheet #note12 { margin-top: 242px; }
-.character-sheet #permanentinjury1 { position: absolute; margin-top: 307px; margin-left: 698px; width: 265px; }
-.character-sheet #permanentinjury2 { position: absolute; margin-top: 327px; margin-left: 698px; width: 265px; }
-.character-sheet #permanentinjury3 { position: absolute; margin-top: 347px; margin-left: 698px; width: 265px; }
-.character-sheet #spokenlanguage1 { position: absolute; margin-top: 408px; margin-left: 698px; width: 265px; }
-.character-sheet #spokenlanguage2 { position: absolute; margin-top: 428px; margin-left: 698px; width: 265px; }
-.character-sheet #spokenlanguage3 { position: absolute; margin-top: 448px; margin-left: 698px; width: 265px; }
-.character-sheet #religiousbelief1 { position: absolute; margin-top: 509px; margin-left: 698px; width: 265px; }
-.character-sheet #religiousbelief2 { position: absolute; margin-top: 529px; margin-left: 698px; width: 265px; }
-.character-sheet #religiousbelief3 { position: absolute; margin-top: 549px; margin-left: 698px; width: 265px; }
+.character-sheet #permanentinjury1 { position: absolute; font-size: 11px; padding-top: 3px; margin-top: 307px; margin-left: 698px; width: 265px; }
+.character-sheet #permanentinjury2 { position: absolute; font-size: 11px; padding-top: 3px; margin-top: 327px; margin-left: 698px; width: 265px; }
+.character-sheet #permanentinjury3 { position: absolute; font-size: 11px; padding-top: 3px; margin-top: 347px; margin-left: 698px; width: 265px; }
+.character-sheet #spokenlanguage1 { position: absolute; font-size: 11px; padding-top: 3px; margin-top: 408px; margin-left: 698px; width: 265px; }
+.character-sheet #spokenlanguage2 { position: absolute; font-size: 11px; padding-top: 3px; margin-top: 428px; margin-left: 698px; width: 265px; }
+.character-sheet #spokenlanguage3 { position: absolute; font-size: 11px; padding-top: 3px; margin-top: 448px; margin-left: 698px; width: 265px; }
+.character-sheet #religiousbelief1 { position: absolute; font-size: 11px; padding-top: 3px; margin-top: 509px; margin-left: 698px; width: 265px; }
+.character-sheet #religiousbelief2 { position: absolute; font-size: 11px; padding-top: 3px; margin-top: 529px; margin-left: 698px; width: 265px; }
+.character-sheet #religiousbelief3 { position: absolute; font-size: 11px; padding-top: 3px; margin-top: 549px; margin-left: 698px; width: 265px; }
 .character-sheet #gold { position: absolute; margin-top: 610px; margin-left: 698px; font-size: 50px; width: 100px; text-align: right; }
 
 
