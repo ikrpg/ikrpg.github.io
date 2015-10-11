@@ -703,7 +703,7 @@ var ikrpg = ikrpg || {};
         "Rifle, Long": { "rng": 14, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "1" },
         "Rifle, Magelock": { "rng": 14, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "1-H: RAT -2", "ammo": "1" },
         "Rifle, Military": { "rng": 10, "skill": "Rifle", "pow": 11, "rat-mod": 0, "notes": "", "ammo": "1" },
-        "Rilfe, Repeating": { "rng": 14, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "5" },
+        "Rifle, Repeating": { "rng": 14, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "5" },
         "Rockbreaker Spray": { "rng": 6, "skill": "Light Artillery", "pow": 10, "rat-mod": -2, "notes": "SP6, corrosion dmg, corrosion cont effect, stone/brick add dmg die", "ammo": "6" },
         "Rocket Tube": { "rng": 14, "skill": "Light Artillery", "pow": 12, "rat-mod": 0, "notes": "AOE 3, not crouching: at mod -2", "ammo": "1" },
         "Rynnish Walking Stick": { "rng": 8, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "1-H: RAT -2", "ammo": "1" },
@@ -4271,7 +4271,7 @@ var ikrpg = ikrpg || {};
         list(_gear, ["ammo bandolier", "powder and ammunition for ten shots"]),
         choices(arrayPairs(_ranged_weapons, [
           "Rifle, Heavy",
-          "Rifle, Repeating"]))
+          "Rifle, Repeating"]), "Choose 1")
       ],
       "Ryssovass": [
         listItem(_careers, "Ryssovass"),
@@ -4931,18 +4931,18 @@ var ikrpg = ikrpg || {};
     };
     var adventuringCompanies = {
       "Agents of the Crucible": [
-        listItem(_notes, "Agents of the Crucible"),
+        listItem(_notes, "Adventuring Company: Agents of the Crucible"),
         listItem(_notes, "All characters must either be an Alchemist, Arcane Mechanik, Arcanist, Crucible Guard, Field Mechanik, or Warcaster"),
         listItem(_notes, "Each character gains 25 gc per month")
       ],
       "Arcane Order": [
-        listItem(_notes, "Arcane Order"),
+        listItem(_notes, "Adventuring Company: Arcane Order"),
         listItem(_notes, "At least one of the characters must be Gifted"),
         listItem(_occupational_skills, "Lore (Arcane)"),
         choices(arrayPairs(_abilities, ["Arcane Scholar", "Shield Guard"]), "Choose 1")
       ],
       "Army of the Western Reaches": [
-        listItem(_notes, "Army of the Western Reaches"),
+        listItem(_notes, "Adventuring Company: Army of the Western Reaches"),
         list(_notes, [
           "A member of the Warrior caste is the leader",
           "Can requisition 100 sl in skorne arms, ammo, and gear per month"]),
@@ -4961,7 +4961,7 @@ var ikrpg = ikrpg || {};
           "Survival"]), "Choose 1")
       ],
       "Beast Hunters": [
-        listItem(_notes, "Beast Hunters"),
+        listItem(_notes, "Adventuring Company: Beast Hunters"),
         list(_notes, [
           "A member of the Warrior caste is the leader",
           "Can requisition 100 sl in skorne arms, ammo, and gear per month"]),
@@ -4980,7 +4980,7 @@ var ikrpg = ikrpg || {};
           "Survival"]), "Choose 1")
       ],
       "Bonded Porters": [
-        listItem(_notes, "Bonded Porters"),
+        listItem(_notes, "Adventuring Company: Bonded Porters"),
         listItem(_notes, "One is the leader"),
         choices([
           arrayPair(_benefits, "Battle Field Coordination") ], "Choose if leader"),
@@ -4992,7 +4992,7 @@ var ikrpg = ikrpg || {};
           "Survival"]), "Choose 1")
       ],
       "Bone Grinder Hunting Party": [
-        listItem(_notes, "Bone Grinder Hunting Party"),
+        listItem(_notes, "Adventuring Company: Bone Grinder Hunting Party"),
         list(_notes, [
           "All characters must either be a Bone Grinder, Brigand, Bushwhacker, Monster Hunter, Scout, or Warrior",
           "One Bone Grinder leads the party",
@@ -5003,13 +5003,13 @@ var ikrpg = ikrpg || {};
           "Lore (extraordinary zoology)"]), "Choose 1 if<br />not Bone Grinder")
       ],
       "Caspian Cortex Smugglers": [
-        listItem(_notes, "Caspian Cortex Smugglers"),
+        listItem(_notes, "Adventuring Company: Caspian Cortex Smugglers"),
         list(_notes, [
           "All characters must either be an Arcane Mechanik, Cutthroat, Field Mechanik, Military Officer, Soldier, Spy, or Thief",
           "One is the lead smuggler"])
       ],
       "Circle Orboros Conclave": [
-        listItem(_notes, "Circle Orboros Conclave"),
+        listItem(_notes, "Adventuring Company: Circle Orboros Conclave"),
         list(_notes, [
           "All characters must either be a Blackclad, Circle Warlock, or Wolf of Orboros",
           "One Blackclad is the leader"]),
@@ -5021,7 +5021,7 @@ var ikrpg = ikrpg || {};
         listItem(_notes, "All non-Blackclad members of the party gain one additional rank in the general skill of their choice"),
       ],
       "Crusaders": [
-        listItem(_notes, "Crusaders"),
+        listItem(_notes, "Adventuring Company: Crusaders"),
         list(_notes, [
           "All characters must either be an Allegiant, Cutthroat, Exemplar, Man-at-Arms, Paladin, Priest (Menite), Protectorate Warcaster, Reclaimer, Scritator, Soldier, or Vassal of Menoth",
           "One Priest, Protectorate Warcaster, or Scrutator leads the party",
@@ -5029,7 +5029,7 @@ var ikrpg = ikrpg || {};
         choices([ arrayPair(_abilities, "Natural Leader") ], "For the leader")
       ],
       "Farrow Tribe": [
-        listItem(_notes, "Farrow Tribe"),
+        listItem(_notes, "Adventuring Company: Farrow Tribe"),
         list(_notes, [
           "One Chieftain is the leader"]),
         choices(arrayPairs(_occupational_skills, [
@@ -5042,7 +5042,7 @@ var ikrpg = ikrpg || {};
         listItem(_notes, "All mighty characters as well as the leader gain an additional might archetype benefit")
       ],
       "Five Fingers Transporters": [
-        listItem(_notes, "Five Fingers Transporters"),
+        listItem(_notes, "Adventuring Company: Five Fingers Transporters"),
         list(_notes, [
           "All characters must either be an Bounty Hunter, Explorer, Highwayman, Investigator, Man-at-Arms, Ranger, or Spy",
           "One is the boss"]),
@@ -5052,7 +5052,7 @@ var ikrpg = ikrpg || {};
         listItem(_abilities, "Cover Identity")
       ],
       "Fringe Cultists": [
-        listItem(_notes, "Fringe Cultists"),
+        listItem(_notes, "Adventuring Company: Fringe Cultists"),
         list(_notes, [
           "All characters must be worshippers of Cyriss, and at least one must be Intellectual or a Priest of Cyriss",
           "One Priest or Intellectual is the leader"]),
@@ -5068,7 +5068,7 @@ var ikrpg = ikrpg || {};
             "Research"]), "Choose 1 if not leader")
       ],
       "Gatorman Tribe": [
-        listItem(_notes, "Gatorman Tribe"),
+        listItem(_notes, "Adventuring Company: Gatorman Tribe"),
         list(_notes, [
           "One Bokor or Chieftain is the leader"]),
         choices(arrayPairs(_occupational_skills, [
@@ -5081,7 +5081,7 @@ var ikrpg = ikrpg || {};
           "All Swamp Warlocks may begin the game with a large-base Swamp Warbeast")
       ],
       "Greylords": [
-        listItem(_notes, "Greylords"),
+        listItem(_notes, "Adventuring Company: Greylords"),
         list(_notes, [
           "All characters must either be an Arcane Mechanik, Greylord Arcanist, Doom Reaver, Explorer, Investigator, Man-at-Arms, Military Officer, Soldier, Spy, or Khadoran Warcaster",
           "One Arcane Mechanik, Greylord Arcanist, or Khadoran Warcaster is the magziev",
@@ -5092,7 +5092,7 @@ var ikrpg = ikrpg || {};
           "Orgoth Staff") ], "Choose if magziev and<br />commpany includes a Doom Reaver")
       ],
       "Heroes of the Resistance": [
-        listItem(_notes, "Heroes of the Resistance"),
+        listItem(_notes, "Adventuring Company: Heroes of the Resistance"),
         listItem(_connections, "Llaelese Resistance"),
         choices(_occupational_skills, [
           "Bribery",
@@ -5107,14 +5107,14 @@ var ikrpg = ikrpg || {};
           "Sneak"], "Choose 1")
       ],
       "House Taberna": [
-        listItem(_notes, "House Taberna"),
+        listItem(_notes, "Adventuring Company: House Taberna"),
         list(_notes, [
           "One is the leader",
           "All characters must either be a Cataphract, Ferox Rider, Praetorian, Tyrant, or Venator",
           "Each month the characters gain 300 sl from their house"])
       ],
       "Idrian Tribe": [
-        listItem(_notes, "Idrian Tribe"),
+        listItem(_notes, "Adventuring Company: Idrian Tribe"),
         list(_notes, [
           "All characters must either be an Highwayman, Horseman, Priest (Menite), Ranger, Rifleman, or Sorcerer",
           "One Idrian is the chieftain"]),
@@ -5122,7 +5122,7 @@ var ikrpg = ikrpg || {};
         listItem(_notes, "Riding Horse")
       ],
       "Illuminated Ones": [
-        listItem(_notes, "Illuminated Ones"),
+        listItem(_notes, "Adventuring Company: Illuminated Ones"),
         listItem(_notes,
           "All characters must either be an Illuminated Arcanist, Investigator, Knight, or Priest (Morrowan)"),
         listItem(_abilities, "Iron Will"),
@@ -5134,13 +5134,13 @@ var ikrpg = ikrpg || {};
           arrayPair(_ranged_weapons, "Execrator Pistol")], "Choose 1 blessed weapon")
       ],
       "Intrepid Investigators": [
-        listItem(_notes, "Intrepid Investigators"),
+        listItem(_notes, "Adventuring Company: Intrepid Investigators"),
         list(_notes, [
           "All characters must either be an Alchemist, Arcane Mechanik, Arcanist, Aristocrat, Explorer, Investigator, Military Officer, Priest, or Spy",
           "All characters can benefit from the Intellectual archetype benefit twice" ]),
       ],
       "Khadoran Military Detail": [
-        listItem(_notes, "Khadoran Military Detail"),
+        listItem(_notes, "Adventuring Company: Khadoran Military Detail"),
         list(_notes, [
           "All characters must either be an Assault Kommando, Field Mechanik, Greylord Arcanist, Iron Fang, Man-O-War, Ranger, Rifleman, Soldier, or Khadoran Warcaster",
           "One member is the lieutenant",
@@ -5149,7 +5149,7 @@ var ikrpg = ikrpg || {};
         choices([ arrayPair(_abilities, "Natural Leader") ], "Choose if lieutenant")
       ],
       "Korsk Stanzynat Mustyn": [
-        listItem(_notes, "Korsk Stanzynat Mustyn"),
+        listItem(_notes, "Adventuring Company: Korsk Stanzynat Mustyn"),
         list(_notes, [
           "All characters must either be an Cutthroat, Pirate, or Thief",
           "One is the boss"]),
@@ -5160,13 +5160,13 @@ var ikrpg = ikrpg || {};
           "Iron Will"]), "Choose 1")
       ],
       "Law Dogs": [
-        listItem(_notes, "Law Dogs"),
+        listItem(_notes, "Adventuring Company: Law Dogs"),
         listItem(_notes, [
           "All characters must either be a Bounty Hunter, Highwayman, Investigator, Military Officer, Ranger, or Soldier",
           "While pursuing a bounty, character gain boni on skill and attack rolls" ])
       ],
       "Mercenary Charter": [
-        listItem(_notes, "Mercenary Charter"),
+        listItem(_notes, "Adventuring Company: Mercenary Charter"),
         listItem(_notes, "One character is the captain"),
         choices([ arrayPair(_abilities, "Natural Leader") ], "The leader gets the Natural Leader ability"),
         choices(arrayPairs(_occupational_skills, [
@@ -5180,7 +5180,7 @@ var ikrpg = ikrpg || {};
           "Riding"]), "Choose 1")
       ],
       "Mystics": [
-        listItem(_notes, "Mystics"),
+        listItem(_notes, "Adventuring Company: Mystics"),
         list(_notes, [
           "All characters must either be an Ascetic, Extoller, Mortitheurge, Nihilator, or Worlock: Skorne",
           "One is the leader"]),
@@ -5193,7 +5193,7 @@ var ikrpg = ikrpg || {};
           arrayPair(_abilities, "Shield Guard") ], "Choose if not Gifted")
       ],
       "Nobile Exiles": [
-        listItem(_notes, "Nobile Exiles"),
+        listItem(_notes, "Adventuring Company: Nobile Exiles"),
         listItem(_notes, "One Aristocrat is a baron"),
         listItem(_connections, "exiled Llaelese aristocracy"),
         choices([
@@ -5202,7 +5202,7 @@ var ikrpg = ikrpg || {};
         number(_gold, 50)
       ],
       "Nomads": [
-        listItem(_notes, "Nomads"),
+        listItem(_notes, "Adventuring Company: Nomads"),
         list(_notes, [
           "All characters must either be a Beast Handler, Bushwhacker, Chieftain, Guide, Monster Hunter, Raptor, Scout, Warrior, or Wolf Rider",
           "One is the chief"]),
@@ -5217,7 +5217,7 @@ var ikrpg = ikrpg || {};
           "Tracking"]), "Choose 1")
       ],
       "Northkin Kriel": [
-        listItem(_notes, "Northkin Kriel"),
+        listItem(_notes, "Adventuring Company: Northkin Kriel"),
         list(_notes, ["One Chieftain or Shaman is the warband leader"]),
         choices([
           arrayPair(_abilities, "Immunity: Cold") ], "Choose if Trollkin or Pyg"),
@@ -5227,7 +5227,7 @@ var ikrpg = ikrpg || {};
           "Every character gains one rank in any general skill or in Unarmed Combat")
       ],
       "Nyss Refugees": [
-        listItem(_notes, "Nyss Refugees"),
+        listItem(_notes, "Adventuring Company: Nyss Refugees"),
         list(_notes, ["he eldest Nyss is the leader"]),
         choices($.merge(arrayPairs(_abilities, [
           "Astute",
@@ -5237,14 +5237,14 @@ var ikrpg = ikrpg || {};
         choices([ arrayPair(_languages, "Aeric") ], "Choose if non-Nyss")
       ],
       "Ordic Naval Expedition": [
-        listItem(_notes, "Ordic Naval Expedition"),
+        listItem(_notes, "Adventuring Company: Ordic Naval Expedition"),
         list(_notes, [
           "All characters must either be an Artillerist, Explorer, Marine, Maritime Order of the Trident Arcanist, or Ordic Warcaster",
           "One character with Military Officer is the captain" ]),
         list(_occupational_skills, ["Climbing", "Rope Use", "Sailing", "Swimming"])
       ],
       "Outlaws": [
-        listItem(_notes, "Outlaws"),
+        listItem(_notes, "Adventuring Company: Outlaws"),
         list(_notes, [
           "All characters must either be an Alchemist, Cutthroat, Duelist, Highwayman, Pistoleer, Rifleman, Sorcerer, Spy, or Thief",
           "One character is the boss" ]),
@@ -5252,14 +5252,14 @@ var ikrpg = ikrpg || {};
         listItem(_abilities, "Gang")
       ],
       "Pirates of the Broken Cost": [
-        listItem(_notes, "Pirates of the Broken Cost"),
+        listItem(_notes, "Adventuring Company: Pirates of the Broken Cost"),
         listItem(_notes, "All characters must either be a Cutthroat, Explorer, Military Officer, Pirate, or Thief"),
         listItem(_notes, "One character is the captain"),
         choices([ arrayPair(_abilities, "Natural Leader") ], "The captain gets the Natural Leader ability"),
         listItem(_abilities, "Hit the Deck!")
       ],
       "Raiders": [
-        listItem(_notes, "Raiders"),
+        listItem(_notes, "Adventuring Company: Raiders"),
         list(_notes, ["One member is the captain"]),
         choices([
           arrayPair(_abilities, "Natural Leader") ], "Choose if captain"),
@@ -5275,14 +5275,14 @@ var ikrpg = ikrpg || {};
           "Survival"]), "Choose 1")
       ],
       "Renegades": [
-        listItem(_notes, "Renegades"),
+        listItem(_notes, "Adventuring Company: Renegades"),
         listItem(_notes, "One is the leader"),
         list(_abilities, [
           "Ambush",
           "Traceless Path"])
       ],
       "Soldiers of Fortune": [
-        listItem(_notes, "Soldiers of Fortune"),
+        listItem(_notes, "Adventuring Company: Soldiers of Fortune"),
         list(_notes, ["One member is the captain"]),
         choices([
           arrayPair(_abilities, "Natural Leader") ], "Choose if captain"),
@@ -5295,7 +5295,7 @@ var ikrpg = ikrpg || {};
           "Survival"]), "Choose 1")
       ],
       "Spy Ring": [
-        listItem(_notes, "Spy Ring"),
+        listItem(_notes, "Adventuring Company: Spy Ring"),
         list(_notes, [
           "All characters must either be an Aristocrat, Investigator, Ranger, Spy, or Thief",
           "One character is the captain" ]),
@@ -5325,7 +5325,7 @@ var ikrpg = ikrpg || {};
           "Streetwise"])), "Choose 1")
       ],
       "Thamarite Sept": [
-        listItem(_notes, "Thamarite Sept"),
+        listItem(_notes, "Adventuring Company: Thamarite Sept"),
         list(_notes, [
           "All characters must either be a Thamarite Advocate, follow Thamar or be irreligious",
           "One Thamarite Advocate is the leader",
@@ -5337,7 +5337,7 @@ var ikrpg = ikrpg || {};
           "Sneak"]), "Choose all if not Thamarite Advocate")
       ],
       "Tharn Tuath": [
-        listItem(_notes, "Tharn Tuath"),
+        listItem(_notes, "Adventuring Company: Tharn Tuath"),
         list(_notes, ["One Chieftain or Circle Warlock leads the party"]),
         choices([
           arrayPair(_abilities, "Natural Leader") ], "Choose if leader"),
@@ -5353,14 +5353,14 @@ var ikrpg = ikrpg || {};
           "Survival"]), "Choose 1")
       ],
       "The Inner Circle": [
-        listItem(_notes, "The Inner Circle"),
+        listItem(_notes, "Adventuring Company: The Inner Circle"),
         list(_notes, [
           "All characters must be Intellectual and either be a Priest of Cyriss, or a Cyrissist Warcaster",
           "One Priest is the leader"]),
         listItem(_abilities, "University Education")
       ],
       "United Kriels": [
-        listItem(_notes, "United Kriels"),
+        listItem(_notes, "Adventuring Company: United Kriels"),
         list(_notes, ["One Trollkin is the captain"]),
         choices([
           arrayPair(_abilities, "Natural Leader") ], "Choose if captain"),
@@ -5376,12 +5376,12 @@ var ikrpg = ikrpg || {};
         listItem(_notes, "gain 50 gc in weapons or gear")
       ],
       "Unlikely Heroes": [
-        listItem(_notes, "Unlikely Heroes"),
+        listItem(_notes, "Adventuring Company: Unlikely Heroes"),
         choices(arrayPairs(_languages, languages), "Choose 1"),
         listItem(_notes, "gain an additional rank in one of your careers' occupational skills")
       ],
       "Unorthodox Engagement Team": [
-        listItem(_notes, "Unorthodox Engagement Team"),
+        listItem(_notes, "Adventuring Company: Unorthodox Engagement Team"),
         list(_notes, [
           "All characters must either be an Arcane Mechanik, Arcane Tempest Gun Mage, Field Mechanik, Ranger, Rifleman, Stormblade, Stormsmith, Trencher, or Cygnaran Warcaster",
           "One member is the lieutenant",
@@ -5390,7 +5390,7 @@ var ikrpg = ikrpg || {};
         listItem(_abilities, "Find Cover")  
       ],
       "Wilderness Expedition": [
-        listItem(_notes, "Wilderness Expedition"),
+        listItem(_notes, "Adventuring Company: Wilderness Expedition"),
         list(_notes, [
           "All characters must either be an Aristocrat, Explorer, Highwayman, Horseman, Man-at-Arms, Pistoleer, Ranger, Rifleman, or an non-Cunning IKU character",
           "One member is the leader, typically an Explorer"]),
@@ -5404,7 +5404,7 @@ var ikrpg = ikrpg || {};
           "Tracking"]), "Choose 1")
       ],
       "Wilderness Kriel": [
-        listItem(_notes, "Wilderness Kriel"),
+        listItem(_notes, "Adventuring Company: Wilderness Kriel"),
         list(_notes, ["One Chieftain or Shaman is the warband leader"]),
         choices([
           arrayPair(_abilities, "Natural Leader") ], "Choose if leader"),
@@ -5509,11 +5509,6 @@ var ikrpg = ikrpg || {};
       "Character Creation",
       ["Career", "Career Option"]
     );
-    
-    
-  //$.each(ikrpg.generator.careers, addOption("#career1-select"));
-  //$.each(ikrpg.generator.careers, addOption("#career2-select"));
-  //$.each(ikrpg.generator.adventuringCompanies, addOption("#adventuring-company-select"));
       
   })();
   

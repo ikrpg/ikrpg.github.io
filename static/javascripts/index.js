@@ -10739,7 +10739,7 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Rilfe, Repeating",
+      name:        "Rifle, Repeating",
       publication: "Unleashed Core Rules",
       page:        "324",
       category:    "Armory",
