@@ -5680,8 +5680,10 @@ var ikrpg = ikrpg || {};
             var abilities = $.merge(data["benefits"], data["abilities"]) || [];
             
             $.each(abilities.sort(), function(index, ability) {
-              character["ability"+(index+1)] = character["ability"+(index+1)] || {};
-              character["ability"+(index+1)]["title"] = ability;
+              var identifier = "ability"+(index+1);
+              
+              character[identifier] = character[identifier] || { "title": "", "description": "", "page": "" };
+              character[identifier]["title"] = ability;
               
               var db = ikrpg.index.data;
               
@@ -5689,7 +5691,7 @@ var ikrpg = ikrpg || {};
               var entry = $.grep(db, function(e) { return e["name"] == abilityBaseName; });
               if(entry && entry.length > 0) {
                 var page = entry[0]["page"];
-                character["ability"+(index+1)]["page"] = page;
+                character[identifier]["page"] = page;
               }
             });
             
@@ -5707,7 +5709,7 @@ var ikrpg = ikrpg || {};
             $.each(skillsKeys.sort(), function(i, skill) {
               var value = skills[skill];
               
-              character["s"+(index+1)] = character["s"+(index+1)] || {};
+              character["s"+(index+1)] = character["s"+(index+1)] || { "title": "", "stat": "", "base": "", "lvl": "", "sum": "" };
               character["s"+(index+1)]["title"] = skill;
               character["s"+(index+1)]["lvl"] = value;
               
@@ -5758,7 +5760,7 @@ var ikrpg = ikrpg || {};
             var spells = data["spells"] || [];
             
             $.each(spells.sort(), function(index, spell) {
-              character["spell"+(index+1)] = character["spell"+(index+1)] || {};
+              character["spell"+(index+1)] = character["spell"+(index+1)] || { "title": "", "cost": "", "rng": "", "aoe": "", "pow": "", "up": "", "off": "", "description": "" };
               character["spell"+(index+1)]["title"] = spell;
               
               var spellData = db[spell];
@@ -5781,7 +5783,7 @@ var ikrpg = ikrpg || {};
             var gears = data["gear"] || [];
             
             $.each(gears.sort(), function(index, gear) {
-              character["gear"+(index+1)] = character["gear"+(index+1)] || {};
+              character["gear"+(index+1)] = character["gear"+(index+1)] || { "title": "", "benefit": "" };
               character["gear"+(index+1)]["title"] = gear;
             });
             
@@ -5797,7 +5799,7 @@ var ikrpg = ikrpg || {};
             $.each(rangedWeapons.sort(), function(index, name) {
               var rat = "rat"+(index+1);
               
-              character[rat] = character[rat] || {};
+              character[rat] = character[rat] || { "name": "", "rat": "", "rng": "", "aoe": "", "pow": "", "notes": "", "ammo": "" };
               character[rat]["name"] = name;
               
               var weapon = db[name];
@@ -5841,7 +5843,7 @@ var ikrpg = ikrpg || {};
             $.each(meleeWeapons.sort(), function(index, name) {
               var mat = "mat"+(index+1);
               
-              character[mat] = character[mat] || {};
+              character[mat] = character[mat] || { "name": "", "mat": "", "pow": "", "ps": "", "notes": "" };
               character[mat]["name"] = name;
               
               var weapon = db[name];
@@ -5885,7 +5887,7 @@ var ikrpg = ikrpg || {};
             var armors = data["armors"] || [];
             
             $.each(armors.sort(), function(index, armor) {
-              character["wornarmor"+(index+1)] = character["wornarmor"+(index+1)] || {};
+              character["wornarmor"+(index+1)] = character["wornarmor"+(index+1)] || { "name": "", "notes": "", "spd": "", "def": "", "arm": "" };
               character["wornarmor"+(index+1)]["name"] = armor;
                             
               var wornArmorData = db[armor];
@@ -5905,7 +5907,7 @@ var ikrpg = ikrpg || {};
             var notes = data["notes"] || [];
             
             $.each(notes.sort(), function(index, note) {
-              character["note"+(index+1)] = character["note"+(index+1)] || {};
+              character["note"+(index+1)] = character["note"+(index+1)] || { "title": "", "text": "" };
               character["note"+(index+1)]["text"] = note;
             });
             
@@ -5929,7 +5931,7 @@ var ikrpg = ikrpg || {};
             var connections = data["connections"] || [];
             
             $.each(connections.sort(), function(index, connection) {
-              character["connection"+(index+1)] = character["connection"+(index+1)] || {};
+              character["connection"+(index+1)] = character["connection"+(index+1)] || { "name": "", "notes": "", "page": "" };
               character["connection"+(index+1)]["name"] = connection;
             });
             

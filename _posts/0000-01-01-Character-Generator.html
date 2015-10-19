@@ -4,71 +4,6 @@ redirect_from: "/Character-Sheets/"
 tags: [Version 0.2 beta]
 ---
 
-<script type="text/todos">
-    
-    Simple:
-    Done: S030: Fill out Skill Parent Set Value (M020)
-    Done: S040: Compute Skill sum (S030)
-    Done: S070: Fill Melee Weapon data (M050)
-    Done: S080: Fill Ranged Weapon data (M060)
-    Done: S100: Fill Languages
-    Done: S130: Use Skill DB on change of Skill name/value (M020)
-    Done: S140: Use Spell DB on change of Spell name (M160)
-    Done: S150: Fill out Spell data
-    Done: S170: Worn Armor Widget
-    Done: S180: Melee Weapon Widget
-    Done: S190: Ranged Weapon Widget
-    Done: S200: Add Benefits to Index
-    Done: S010: Add all races, careers, etc.
-    S020: "overflow" input fields
-    S050: Benefit descriptions and pages (M030) [Pages Done]
-    S060: Ability descriptions and pages (M040) [Pages Done]
-    S090: Fill Arcane Tradition
-    S110: Connections descriptions and pages (M080)
-    S160: Add Warcaster Armor etc. to Armor DB
-    
-    Medium:
-    Done: M020: Skill DB
-    Done: M090: Mechanika DB [not needed]
-    Done: M110: Capacitor DB
-    Done: M050: Melee Weapon DB
-    Done: M060: Ranged Weapon DB
-    Done: M160: Spell DB
-    M010: Armor DB [Done for regular armor]
-    M030: Benefit DB (S200) [only all names]
-    M040: Ability DB [only all names]
-    M070: Gear DB
-    M080: Connections DB (M170)
-    M100: Runeplate DB [only all names]
-    M140: Character Portraits
-    M170: Add Connections to Index
-    L8er: M120: Steamjack DB
-    L8er: M130: Riding DB
-    
-    Complex:
-    Done: C030: Mechanika Widget (M090)
-    Done: C040: Runeplate Widget (M100)
-    Done: C050: Capacitor Widget (M110)
-    C010: Track Equipment Modifiers (M010, M040, M050, M060, M070) [worn armor/Shield/Command done]
-    C020: compute DEF, ARM, INI, etc. (C010) [Done for basic modifiers]
-    C110: Add Character Cards as alternative design to Character Generator
-    L8er: C060: Steamjack Widget (M120, C090)
-    L8er: C070: Riding Widget (M130, C100)
-    L8er: C080: Leveling
-    L8er: C090: Steamjack Sheet
-    L8er: C100: Riding Sheet
-    
-    Bugs:
-    Done: B030: Is computed-SPD stored in save()?
-    B010: Custom descriptions stay when I generate a new hero.
-    B020: Changing font size in mechanika and connections and such.
-    
-    Features:
-    L8er: F010: Add Chrome sync for local store!
-    
-</script>
-
-
 <link rel="stylesheet" href="/static/stylesheets/content/generator.css" />
 
 
@@ -990,6 +925,386 @@ tags: [Version 0.2 beta]
 
 <div><input id="generator-submit" type="submit" value="Generate Character" /></div>
 
+
+
+<h2 style="margin-top: 10em;">Future Plans</h2>
+
+<p>
+    The following tables contain features that are planned for the character generator
+    and either will be implemented soonish or did not make it into the current version.
+</p>
+
+<h3>Simple Features</h3>
+
+<table class="hero">
+    <thead>
+        <tr>
+            <th>Number</th>
+            <th>Feature</th>
+            <th>Dependencies</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody id="features-simple">
+        <tr>
+            <td>S010</td>
+            <td>Add all races, careers, etc.</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S030</td>
+            <td>Fill out Skill Parent Set Value</td>
+            <td>M020</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S040</td>
+            <td>Compute Skill sum</td>
+            <td>S030</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S070</td>
+            <td>Fill Melee Weapon data</td>
+            <td>M050</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S080</td>
+            <td>Fill Ranged Weapon data</td>
+            <td>M060</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S100</td>
+            <td>Fill Languages</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S130</td>
+            <td>Use Skill DB on change of Skill name/value</td>
+            <td>M020</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S140</td>
+            <td>Use Spell DB on change of Spell name</td>
+            <td>M160</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S150</td>
+            <td>Fill out Spell data</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S170</td>
+            <td>Worn Armor Autofill</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S180</td>
+            <td>Melee Weapon Autofill</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S190</td>
+            <td>Ranged Weapon Autofill</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S200</td>
+            <td>Add Benefits to Index</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S020</td>
+            <td>"overflow" for input fields</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>S050</td>
+            <td>Benefit descriptions and pages</td>
+            <td>M030</td>
+            <td>Pages Done</td>
+        </tr>
+        <tr>
+            <td>S060</td>
+            <td>Ability descriptions and pages</td>
+            <td>M040</td>
+            <td>Pages Done</td>
+        </tr>
+        <tr>
+            <td>S090</td>
+            <td>Fill Arcane Tradition</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>S110</td>
+            <td>Connections descriptions and pages</td>
+            <td>M080</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>S160</td>
+            <td>Add Warcaster Armor/Mechanikal Armor/etc. to Armor DB</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>S170</td>
+            <td>Introduce "Clear Sheet" Button</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Challenging Features</h3>
+
+<table class="veteran">
+    <thead>
+        <tr>
+            <th>Number</th>
+            <th>Feature</th>
+            <th>Dependencies</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody id="features-challenging">
+        <tr>
+            <td>M090</td>
+            <td>Mechanika DB</td>
+            <td>&nbsp;</td>
+            <td>Canceled</td>
+        </tr>
+        <tr>
+            <td>M020</td>
+            <td>Skill DB</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>M110</td>
+            <td>Capacitor DB</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>M050</td>
+            <td>Melee Weapon DB</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>M060</td>
+            <td>Ranged Weapon DB</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>M160</td>
+            <td>Spell DB</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>M010</td>
+            <td>Armor DB</td>
+            <td>&nbsp;</td>
+            <td>Done for regular armor</td>
+        </tr>
+        <tr>
+            <td>M030</td>
+            <td>Benefit DB</td>
+            <td>S200</td>
+            <td>only all names</td>
+        </tr>
+        <tr>
+            <td>M040</td>
+            <td>Ability DB</td>
+            <td>&nbsp;</td>
+            <td>only all names</td>
+        </tr>
+        <tr>
+            <td>M070</td>
+            <td>Gear DB</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>M080</td>
+            <td>Connections DB</td>
+            <td>M170</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>M100</td>
+            <td>Runeplate DB</td>
+            <td>&nbsp;</td>
+            <td>only all names</td>
+        </tr>
+        <tr>
+            <td>M140</td>
+            <td>Character Portraits</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>M170</td>
+            <td>Add Connections to Index</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>M120</td>
+            <td>Steamjack DB</td>
+            <td>&nbsp;</td>
+            <td>Later</td>
+        </tr>
+        <tr>
+            <td>M130</td>
+            <td>Riding DB</td>
+            <td>&nbsp;</td>
+            <td>Later</td>
+        </tr>
+    </tbody>
+</table>
+    
+<h3>Complex Features</h3>
+
+<table class="epic">
+    <thead>
+        <tr>
+            <th>Number</th>
+            <th>Feature</th>
+            <th>Dependencies</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody id="features-complex">
+        <tr>
+            <td>C030</td>
+            <td>Mechanika Autofill</td>
+            <td>M090</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>C040</td>
+            <td>Runeplate Autofill</td>
+            <td>M100</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>C050</td>
+            <td>Capacitor Widget</td>
+            <td>M110</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>C010</td>
+            <td>Track Equipment Modifiers</td>
+            <td>M010, M040, M050, M060, M070</td>
+            <td>worn armor/Shield/Command done</td>
+        </tr>
+        <tr>
+            <td>C020</td>
+            <td>compute DEF, ARM, INI, etc.</td>
+            <td>C010</td>
+            <td>Done for basic modifiers</td>
+        </tr>
+        <tr>
+            <td>C110</td>
+            <td>Add Character Cards as alternative design</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>C060</td>
+            <td>Steamjack Widget</td>
+            <td>M120, C090</td>
+            <td>Later</td>
+        </tr>
+        <tr>
+            <td>C070</td>
+            <td>Riding Widget</td>
+            <td>M130, C100</td>
+            <td>Later</td>
+        </tr>
+        <tr>
+            <td>C080</td>
+            <td>Leveling</td>
+            <td>&nbsp;</td>
+            <td>Later</td>
+        </tr>
+        <tr>
+            <td>C090</td>
+            <td>Steamjack Sheet</td>
+            <td>&nbsp;</td>
+            <td>Later</td>
+        </tr>
+        <tr>
+            <td>C100</td>
+            <td>Riding Sheet</td>
+            <td>&nbsp;</td>
+            <td>Later</td>
+        </tr>
+        <tr>
+            <td>C120</td>
+            <td>Chrome sync for local store</td>
+            <td>&nbsp;</td>
+            <td>Later</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Bugs</h3>
+
+<table class="hero">
+    <thead>
+        <tr>
+            <th>Number</th>
+            <th>Feature</th>
+            <th>Dependencies</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody id="bugs">
+        <tr>
+            <td>B010</td>
+            <td>Some descriptions stay when I generate a new hero.</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>B020</td>
+            <td>Changing font size in mechanika and connections and such.</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>B030</td>
+            <td>Is computed-SPD stored in save()?</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>B040</td>
+            <td>When the Thrown Weapon Skill is added, missing RAT is not updated.</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
 
 <script type="text/javascript" src="/static/javascripts/index.js"></script>
 <script type="text/javascript" src="/static/javascripts/heroic.js"></script>

@@ -221,13 +221,13 @@ var ikrpg = ikrpg || {};
   
   ikrpg.cards.updateData = function() {
     var data = ikrpg.cards.data;
-    for (var key in data) {
+    for(var key in data) {
       var value = data[key];
       
-      if (key == "hero-name") {
+      if(key == "hero-name") {
         var currentData = $(".hero-name").val();
         ikrpg.cards.data["hero-name"] = currentData;
-      } else if (typeof value === "object") {
+      } else if(typeof value === "object") {
         for (var subkey in value) {
           var subvalue = value[subkey];
           var currentData = $("#"+key+" ."+subkey).val();

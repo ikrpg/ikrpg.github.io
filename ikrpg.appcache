@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2015-10-10 v6
+# 2015-10-19
 
 CACHE:
 
@@ -19,6 +19,8 @@ CACHE:
 
 # Moons of Caen Tool
 /Constellations/
+/static/images/constellations/shadow.png
+/static/images/constellations/moons.jpg
 
 # Index
 /Index/

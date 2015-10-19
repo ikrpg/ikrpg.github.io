@@ -14,19 +14,19 @@ var ikrpg = ikrpg || {};
   
   // # Manage characters # \\
   (function() {
-      
+    
     var db2 = new PouchDB('characters.ikrpg');
     
     var hero = ikrpg.cards.data;
     
     listCharacters();
-  
+    
     function saveHero() {
       ikrpg.cards.updateData();
       hero = ikrpg.cards.data;
     
       var _id = hero["hero-name"].replace(/["']/g, "");
-    
+      
       db2.get(_id, function(error, doc) {
         if(error) { // hero not in db yet
           doc = hero;
