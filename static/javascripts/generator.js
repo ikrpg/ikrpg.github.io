@@ -2012,7 +2012,7 @@ var ikrpg = ikrpg || {};
         }
         
         $(".character-sheet .capacitor").each(function(index, capacitor) {
-          buildAutocomplete(".character-sheet #"+$(capacitor).attr("id"));
+          buildAutocomplete(".character-sheet #"+$(capacitor).attr("id"), ".title");
         });
         
         $(".character-sheet .mechanika").each(function(index, mechanika) {
