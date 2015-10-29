@@ -5360,6 +5360,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Hadrin's Rest",
+      publication: "Path of Devastation Season 4",
+      page:        "20",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "FMF"
+    },
+    {
       name:        "Hogshead",
       publication: "Fridays Unleashed 2/20/2015",
       page:        "1",
@@ -17123,6 +17131,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Broken Wheels",
+      publication: "Path of Devastation Season 4",
+      page:        "28",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Brute Boar",
       publication: "Unleashed Core Rules",
       page:        "366",
@@ -20268,6 +20284,14 @@ var ikrpg = ikrpg || {};
       page:        "107",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Thayle Hadrin",
+      publication: "Path of Devastation Season 4",
+      page:        "29",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
       game:        "FMF"
     },
     {
