@@ -598,6 +598,7 @@ var ikrpg = ikrpg || {};
         "Rynnish Fan": { "skill": "Hand Weapon", "mat-mod": 1, "pow": 1, "notes": "" },
         "Sacral Blade": { "skill": "Hand Weapon", "mat-mod": 1, "pow": 3, "notes": "POW 1 if not empowered" },
         "Satyxis Horns": { "skill": "Unarmed Combat", "mat-mod": 0, "pow": 3, "notes": "Crit: Knockout strike" },
+        "Shepherd's Crook": { "skill": "Great Weapon", "mat-mod": -1, "pow": 4, "notes": "reach, +2 Animal Handling" },
         "Shield": { "skill": "Shield", "mat-mod": 0, "pow": 0, "notes": "" },
         "Shield, Combat": { "skill": "Shield", "mat-mod": -1, "pow": 3, "notes": "" },
         "Shield, Karax": { "skill": "Shield", "mat-mod": -2, "pow": 0, "notes": "" },
@@ -796,6 +797,7 @@ var ikrpg = ikrpg || {};
         "Anatomist": undefined,
         "Anestetize": undefined,
         "Animal Control": undefined,
+        "Animal Mastery": undefined,
         "Appraise": undefined,
         "Arcane Assassin": undefined,
         "Arcane Consumption": undefined,
@@ -831,10 +833,12 @@ var ikrpg = ikrpg || {};
         "Battle Plan: Take Cover": undefined,
         "Bayonet Charge": undefined,
         "Beast Handler": undefined,
+        "Beast Manipulation: Caretaker": undefined,
         "Beast Manipulation: Dominator": undefined,
         "Beast Manipulation: Enrage": undefined,
         "Beast Manipulation: Medicate": undefined,
         "Beast Manipulation: Toughen": undefined,
+        "Beast Master": undefined,
         "Berserk": undefined,
         "Big Game Hunter": undefined,
         "Binding": undefined,
@@ -880,6 +884,7 @@ var ikrpg = ikrpg || {};
         "Cold Steel": undefined,
         "Combat Rider": undefined,
         "Combo Strike (Praetorian Sword)": undefined,
+        "Combo Strike (Nyss Claymore)": undefined,
         "Communion": undefined,
         "Conditioning": undefined,
         "Conniver": undefined,
@@ -1059,6 +1064,7 @@ var ikrpg = ikrpg || {};
         "Parry": undefined,
         "Patch Up": undefined,
         "Pathfinder": undefined,
+        "Perfect Form": undefined,
         "Perfect Timing": undefined,
         "Poison Glaze": undefined,
         "Poison Resistance": undefined,
@@ -1132,6 +1138,7 @@ var ikrpg = ikrpg || {};
         "Soul Taker": undefined,
         "Soul Thief": undefined,
         "Soulstorm": undefined,
+        "Spawn Whisperer": undefined,
         "Spawning Savant": undefined,
         "Specialization": undefined,
         "Spirit Eater": undefined,
@@ -1189,6 +1196,7 @@ var ikrpg = ikrpg || {};
         "Vampiric Harvest": undefined,
         "Vessel Upgrade": undefined,
         "Vivisectionist": undefined,
+        "Wall of Flesh": undefined,
         "Warlock Bond": undefined,
         "Waylay": undefined,
         "Weapon Master (Javelin)": undefined,
@@ -3078,6 +3086,14 @@ var ikrpg = ikrpg || {};
         number(_ARC_max, 1), // Sorcerous Blessing blight gift
         number(_gold, 25)
       ],
+      "Blighted Swordsman": [
+        listItem(_careers, "Blighted Swordsman"),
+        list(_abilities, ["Fearless", "Flesh of Steel"]),
+        listItem(_military_skills, "Great Weapon"),
+        list(_occupational_skills, ["Command", "Intimidation", "Survival"]),
+        listItem(_notes, "+1 bonus to ARM from Bone Spurs blight gift"),
+        listItem(_melee_weapons, "Nyss Claymore")
+      ],
       "Bloodrunner": [
         listItem(_careers, "Bloodrunner"),
         listItem(_notes, "Must choose between Beast Handler, Brigand, Mortitheurge, Scout, Tormentor, or Warlock: Skorne"),
@@ -4377,6 +4393,14 @@ var ikrpg = ikrpg || {};
           "Oratory"]),
         list(_spells, ["Earth's Cradle", "Inviolable Resolve", "Triage"]),
         number(_gold, 75)
+      ],
+      "Shepherd": [
+        listItem(_careers, "Shepherd"),
+        list(_abilities, ["Animal Mastery", "Specialization (Shepherd's Crook)"]),
+        listItem(_military_skills, "Great Weapon"),
+        list(_occupational_skills, ["Animal Handling", "Survival", "Tracking"]),
+        listItem(_melee_weapons, "Shepherd's Crook"),
+        number(_gold, 50)
       ],
       "Slaughterhouser": [
         listItem(_careers, "Slaughterhouser"),

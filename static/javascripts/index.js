@@ -4199,7 +4199,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shallow Breathing",
-      publication: "No QUarter #61",
+      publication: "No Quarter #61",
       page:        "75",
       category:    "Ability",
       subcategory: "",
