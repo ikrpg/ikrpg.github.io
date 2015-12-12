@@ -254,6 +254,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Animal Mastery",
+      publication: "No Quarter #63",
+      page:        "108",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Appraise",
       publication: "Core Rules",
       page:        "157",
@@ -670,9 +678,25 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Beast Manipulation: Caretaker",
+      publication: "No Quarter #63",
+      page:        "108",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Beast Manipulation: Dominator",
       publication: "Skorne Empire",
       page:        "62",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Beast Manipulation: Enrage",
+      publication: "No Quarter #63",
+      page:        "108",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -695,8 +719,24 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Beast Manipulation: Toughen",
+      publication: "No Quarter #63",
+      page:        "108",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Beast Manipulation: Toughen",
       publication: "Skorne Empire",
       page:        "62",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Beast Master",
+      publication: "No Quarter #63",
+      page:        "108",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -1273,6 +1313,14 @@ var ikrpg = ikrpg || {};
       name:        "Combat Rider",
       publication: "Unleashed Core Rules",
       page:        "157",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Combo Strike (Nyss Claymore)",
+      publication: "No Quarter #63",
+      page:        "108",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -3478,6 +3526,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Perfect Form",
+      publication: "No Quarter #63",
+      page:        "108",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Perfect Timing",
       publication: "Urban Adventure",
       page:        "11",
@@ -4406,6 +4462,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Spawn Whisperer",
+      publication: "No Quarter #63",
+      page:        "108",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Spawning Savant",
       publication: "No Quarter #60",
       page:        "106",
@@ -5057,6 +5121,14 @@ var ikrpg = ikrpg || {};
       name:        "Vivisectionist",
       publication: "Unleashed Adventure Kit Rulebook",
       page:        "11",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Wall of Flesh",
+      publication: "No Quarter #63",
+      page:        "108",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -7372,6 +7444,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Blighted Swordsman",
+      publication: "No Quarter #63",
+      page:        "102",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Bloodrunner",
       publication: "Skorne Empire",
       page:        "47",
@@ -7927,6 +8007,14 @@ var ikrpg = ikrpg || {};
       name:        "Shaman (Dhunia)",
       publication: "Unleashed Core Rules",
       page:        "136",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
+      name:        "Shepherd",
+      publication: "No Quarter #63",
+      page:        "103",
       category:    "Character Creation",
       subcategory: "Career",
       game:        "IKU"
@@ -9700,6 +9788,14 @@ var ikrpg = ikrpg || {};
       name:        "Sacral Blade",
       publication: "Unleashed Core Rules",
       page:        "316",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
+    {
+      name:        "Shepherd's Crook",
+      publication: "No Quarter #63",
+      page:        "108",
       category:    "Armory",
       subcategory: "Melee Weapon",
       game:        "IKU"
@@ -15320,6 +15416,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Ghostmaker",
+      publication: "No Quarter #63",
+      page:        "91",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Govan Trent, Navarch",
       publication: "Kings, Nations, and Gods",
       page:        "30",
@@ -15390,6 +15494,14 @@ var ikrpg = ikrpg || {};
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Hoarluk Doomshaper",
+      publication: "No Quarter #63",
+      page:        "43",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Ilena, the Beast of the North",
@@ -19206,6 +19318,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Grotesque",
+      publication: "No Quarter #63",
+      page:        "104",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Gorax",
       publication: "No Quarter #47",
       page:        "55",
@@ -19580,6 +19700,14 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Succubus",
+      publication: "No Quarter #63",
+      page:        "106",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Tarn Thrullgs",
@@ -19994,6 +20122,14 @@ var ikrpg = ikrpg || {};
       name:        "Gerrock Scarmaker, Ranger",
       publication: "No Quarter #57",
       page:        "96",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Ghostmaker",
+      publication: "No Quarter #63",
+      page:        "93",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
@@ -29919,6 +30055,14 @@ var ikrpg = ikrpg || {};
       name:        "Woldwatcher",
       publication: "Unleashed Core Rules",
       page:        "257",
+      category:    "Warbeast",
+      subcategory: "Wold",
+      game:        "IKU"
+    },
+    {
+      name:        "Woldwrath",
+      publication: "No Quarter #63",
+      page:        "99",
       category:    "Warbeast",
       subcategory: "Wold",
       game:        "IKU"
