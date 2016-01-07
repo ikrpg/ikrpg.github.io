@@ -5374,6 +5374,14 @@ var ikrpg = ikrpg || {};
       subcategory: "Scenario",
       game:        "FMF"
     },
+    {
+      name:        "The Treason of Dakaan",
+      publication: "The Treason of Dakaan",
+      page:        "18",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "IKU"
+    },
     // ##### Adventure > Encounter ##### \\
     {
       name:        "Alchemical Imbalance",
@@ -19150,6 +19158,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Cyclops",
+      publication: "The Treason of Dakaan",
+      page:        "34",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Deck Hands",
       publication: "Fools Rush In",
       page:        "17",
@@ -19318,6 +19334,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Genzoul",
+      publication: "The Treason of Dakaan",
+      page:        "36",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Grotesque",
       publication: "No Quarter #63",
       page:        "104",
@@ -19484,6 +19508,22 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Praetorian Karax",
+      publication: "The Treason of Dakaan",
+      page:        "31",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Praetorian Swordsman",
+      publication: "The Treason of Dakaan",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Progeny",
@@ -19868,6 +19908,14 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Venator Slinger",
+      publication: "The Treason of Dakaan",
+      page:        "33",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Warpwolf, Feral",
@@ -20341,6 +20389,14 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Primus Dakaan",
+      publication: "The Treason of Dakaan",
+      page:        "30",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Qurak Swampfather, Croak Chieftain",
