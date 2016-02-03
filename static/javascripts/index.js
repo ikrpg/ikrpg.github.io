@@ -1287,7 +1287,15 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Close Shot",
-      publication: "Errata",
+      publication: "Errata Febuary 2013",
+      page:        "1",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Close Shot",
+      publication: "Errata January 2016",
       page:        "1",
       category:    "Ability",
       subcategory: "",
@@ -1617,6 +1625,14 @@ var ikrpg = ikrpg || {};
       name:        "Divine Fortitude",
       publication: "Kings, Nations, and Gods",
       page:        "361",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Divine Might",
+      publication: "Errata January 2016",
+      page:        "2",
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
@@ -5300,7 +5316,7 @@ var ikrpg = ikrpg || {};
       page:        "1",
       category:    "Adventure",
       subcategory: "Scenario",
-      game:        "FMF"
+      game:        "IKU"
     },
     {
       name:        "Immortality Part 1: Undeath Metal",
@@ -6481,7 +6497,7 @@ var ikrpg = ikrpg || {};
       page:        "12",
       category:    "Alchemy",
       subcategory: "Alchemical Item",
-      game:        "FMF"
+      game:        "IKU"
     },
     {
       name:        "Scent Mask",
@@ -15653,7 +15669,7 @@ var ikrpg = ikrpg || {};
       page:        "4",
       category:    "Individual",
       subcategory: "",
-      game:        "FMF"
+      game:        "IKU"
     },
     {
       name:        "Oleg Strakhov, Kommander",
@@ -17512,7 +17528,7 @@ var ikrpg = ikrpg || {};
       page:        "31",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
-      game:        "FMF"
+      game:        "IKU"
     },
     {
       name:        "Feralgeist",
@@ -17704,7 +17720,7 @@ var ikrpg = ikrpg || {};
       page:        "28",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
-      game:        "FMF"
+      game:        "IKU"
     },
     {
       name:        "Razor Worm",
@@ -17832,7 +17848,7 @@ var ikrpg = ikrpg || {};
       page:        "30",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
-      game:        "FMF"
+      game:        "IKU"
     },
     {
       name:        "Snapper",
@@ -18795,6 +18811,14 @@ var ikrpg = ikrpg || {};
       category:    "Monsternomicon",
       subcategory: "Template",
       game:        "FMF"
+    },
+    {
+      name:        "Resilient",
+      publication: "Errata January 2016",
+      page:        "3",
+      category:    "Monsternomicon",
+      subcategory: "Template",
+      game:        "IKU"
     },
     {
       name:        "Runt",
@@ -20228,7 +20252,7 @@ var ikrpg = ikrpg || {};
       page:        "29",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
-      game:        "FMF"
+      game:        "IKU"
     },
     {
       name:        "Kroll Berok (Mighty Ogrun Pugilist)",
@@ -20332,7 +20356,7 @@ var ikrpg = ikrpg || {};
       page:        "27",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
-      game:        "FMF"
+      game:        "IKU"
     },
     {
       name:        "Myrus Rathborne",
@@ -23742,6 +23766,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Dark Guidance",
+      publication: "Errata January 2016",
+      page:        "3",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Dark Persuader",
       publication: "Monsternomicon",
       page:        "41",
@@ -24380,6 +24412,14 @@ var ikrpg = ikrpg || {};
       category:    "Spell",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Force Hammer",
+      publication: "Errata January 2016",
+      page:        "3",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Force of Faith",
