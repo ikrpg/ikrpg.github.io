@@ -5311,6 +5311,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Full Circle",
+      publication: "Unleashed Game Master Toolkit Scenario",
+      page:        "3",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "IKU"
+    },
+    {
       name:        "Hogwash",
       publication: "Unleashed Adventure Kit Scenario",
       page:        "1",
@@ -11301,6 +11309,14 @@ var ikrpg = ikrpg || {};
       category:    "Armory",
       subcategory: "Magical Weapon",
       game:        "FMF"
+    },
+    {
+      name:        "Fang of Calder",
+      publication: "Unleashed Game Master Toolkit Scenario",
+      page:        "6",
+      category:    "Armory",
+      subcategory: "Magical Weapon",
+      game:        "IKU"
     },
     {
       name:        "Fang of Urcaen",
@@ -17627,6 +17643,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Human Mercenary",
+      publication: "Unleashed Game Master Toolkit Scenario",
+      page:        "9",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Incubus",
       publication: "No Quarter #61",
       page:        "102",
@@ -17678,6 +17702,14 @@ var ikrpg = ikrpg || {};
       name:        "Mammoth",
       publication: "Skorne Empire",
       page:        "138",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Mannikin",
+      publication: "Unleashed Game Master Toolkit Scenario",
+      page:        "12",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "IKU"
@@ -17969,6 +18001,14 @@ var ikrpg = ikrpg || {};
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Trencher",
+      publication: "Unleashed Game Master Toolkit Scenario",
+      page:        "7",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Troll Whelp",
@@ -20031,6 +20071,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Artek",
+      publication: "Unleashed Game Master Toolkit Scenario",
+      page:        "14",
+      category:    "Monsternomicon",
+      subcategory: "Solo Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Bairn Cammol (Skilled Human Duelist)",
       publication: "Urban Adventure",
       page:        "83",
@@ -20509,6 +20557,14 @@ var ikrpg = ikrpg || {};
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "The Entombed",
+      publication: "Unleashed Game Master Toolkit Scenario",
+      page:        "14",
+      category:    "Monsternomicon",
+      subcategory: "Solo Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Tobin Marconi",
