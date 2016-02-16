@@ -538,6 +538,7 @@ var ikrpg = ikrpg || {};
         "Blasting Pike": { "skill": "Great Weapon", "mat-mod": -2, "pow": 7, "notes": "reach, Crit: Knockdown" },
         "Blazing Sword": { "skill": "Great Weapon", "mat-mod": 0, "pow": 5, "notes": 'magical weapon, 1" AOE if enemy incapacitated' },
         "Blessed Lance": { "skill": "Lance", "mat-mod": 0, "pow": 8, "notes": "ignore ARM/DEF spell effects, only charge at, can dmg incorporeal" },
+        "Blighted Blade": { "skill": "Hand Weapon", "mat-mod": 2, "pow": 3, "notes": "crit: no tough, p.92" },
         "Bloodtracker Fighting Claw": { "skill": "Hand Weapon", "mat-mod": -2, "pow": 3, "notes": "" },
         "Caspian Battleblade": { "skill": "Great Weapon", "mat-mod": 0, "pow": 6, "notes": "1-H: mat-mod -1, POW 4" },
         "Cat's Paw": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 2, "notes": "Crit: Knockout" },
@@ -948,6 +949,7 @@ var ikrpg = ikrpg || {};
         "Fate Blessed": undefined,
         "Fearless": undefined,
         "Fearsome Howl": undefined,
+        "Feat: Hit-and-Run": undefined,
         "Feat of Regeneration": undefined,
         "Fell Call: Cacophony": undefined,
         "Fell Call: Call of Defiance": undefined,
@@ -1174,6 +1176,7 @@ var ikrpg = ikrpg || {};
         "Tactical Coordination": undefined,
         "Take Down": undefined,
         "Tap Fury": undefined,
+        "Targeted Strike": undefined,
         "Targeteer": undefined,
         "Team Leader": undefined,
         "Team Player": undefined,
@@ -3074,6 +3077,19 @@ var ikrpg = ikrpg || {};
         listItem(_melee_weapons, "Druid Voulge"), // TODO: Add this to melee weapons
         listItem(_gear, "cloak and robes of a blackclad"),
         number(_gold, 75)
+      ],
+      "Blightblade": [
+        listItem(_careers, "Blightblade"),
+        list(_abilities, ["Ambush", "Camouflage", "Specialization (Blighted Blade)"]),
+        listItem(_connections, "Legion of Everblight"),
+        list(_military_skills, ["Hand Weapon", "Unarmed Combat"]),
+        list(_occupational_skills, [
+          "Detection",
+          "Jumping",
+          "Sneak"]),
+        listItem(_melee_weapons, "Blighted Blade"),
+        listItem(_armors, "Nyss Leathers"),
+        number(_gold, 25)
       ],
       "Blighted Sorcerer": [
         listItem(_careers, "Blighted Sorcerer"),

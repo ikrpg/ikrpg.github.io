@@ -2086,6 +2086,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Feat: Hit-and-Run",
+      publication: "No Quarter #64",
+      page:        "92",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Feat of Regeneration",
       publication: "Unleashed Core Rules",
       page:        "159",
@@ -2556,6 +2564,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Gnawing Hunger",
+      publication: "Unleashed Core Rules",
+      page:        "104",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Go to Ground",
@@ -4822,6 +4838,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Targeted Strike",
+      publication: "No Quarter #64",
+      page:        "92",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Targeteer",
       publication: "Core Rules",
       page:        "168",
@@ -5290,6 +5314,14 @@ var ikrpg = ikrpg || {};
       name:        "Bitter Medicine",
       publication: "Bitter Medicine",
       page:        "1",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "FMF"
+    },
+    {
+      name:        "Down in the Dregs",
+      publication: "No Quarter #64",
+      page:        "96",
       category:    "Adventure",
       subcategory: "Scenario",
       game:        "FMF"
@@ -7468,6 +7500,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Blightblade",
+      publication: "No Quarter #64",
+      page:        "91",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Blighted Sorcerer",
       publication: "No Quarter #62",
       page:        "100",
@@ -9223,6 +9263,14 @@ var ikrpg = ikrpg || {};
       category:    "Armory",
       subcategory: "Melee Weapon",
       game:        "FMF"
+    },
+    {
+      name:        "Blighted Blade",
+      publication: "No Quarter #64",
+      page:        "92",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
     },
     {
       name:        "Bloodtracker Fighting Claw",
@@ -13588,14 +13636,6 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Gnawing Hunger",
-      publication: "Unleashed Core Rules",
-      page:        "104",
-      category:    "Ability",
-      subcategory: "",
-      game:        "IKU"
-    },
-    {
       name:        "Gobbers",
       publication: "No Quarter #52",
       page:        "106",
@@ -15256,6 +15296,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Anson Durst",
+      publication: "No Quarter #64",
+      page:        "39",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Arius, Primarch",
       publication: "Kings, Nations, and Gods",
       page:        "42",
@@ -15582,6 +15630,14 @@ var ikrpg = ikrpg || {};
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Karagh-Ko",
+      publication: "No Quarter #64",
+      page:        "86",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Karloff the Relentless, Scrutator",
@@ -17491,6 +17547,46 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Dregg",
+      publication: "No Quarter #64",
+      page:        "107",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Dregg Chain Gunner",
+      publication: "No Quarter #64",
+      page:        "107",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Dregg Looter",
+      publication: "No Quarter #64",
+      page:        "109",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Dregg Pain Monger",
+      publication: "No Quarter #64",
+      page:        "108",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Dregg Torturer",
+      publication: "No Quarter #64",
+      page:        "108",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Duelist Wrath",
       publication: "No Quarter #59",
       page:        "54",
@@ -17710,6 +17806,14 @@ var ikrpg = ikrpg || {};
       name:        "Mannikin",
       publication: "Unleashed Game Master Toolkit Scenario",
       page:        "12",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Nephilim",
+      publication: "No Quarter #64",
+      page:        "96",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "IKU"
@@ -20255,11 +20359,27 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Gradig, Hive Leader",
+      publication: "No Quarter #64",
+      page:        "110",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Grot (Skilled Gobber Cutthroat/Field Mechanik)",
       publication: "Urban Adventure",
       page:        "91",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Heaget, Dregg Torturer",
+      publication: "No Quarter #64",
+      page:        "109",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
       game:        "FMF"
     },
     {
@@ -20285,6 +20405,14 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Karagh-Ko",
+      publication: "No Quarter #64",
+      page:        "89",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Karloff the Relentless, Scrutator",
@@ -28274,6 +28402,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Ballista",
+      publication: "No Quarter #64",
+      page:        "94",
+      category:    "Steamjack",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
+    {
       name:        "Cargo Claw (Heavy Steamjack Only)",
       publication: "Core Rules",
       page:        "307",
@@ -28712,6 +28848,14 @@ var ikrpg = ikrpg || {};
       category:    "Steamjack",
       subcategory: "Melee Weapon",
       game:        "FMF"
+    },
+    {
+      name:        "Two-Handed Sword",
+      publication: "No Quarter #64",
+      page:        "93",
+      category:    "Steamjack",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
     },
     {
       name:        "War Flail (Light Steamjack Only)",
@@ -29896,6 +30040,38 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Nephilim Bloodseer",
+      publication: "No Quarter #64",
+      page:        "93",
+      category:    "Warbeast",
+      subcategory: "Legion Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Nephilim Bolt Thrower",
+      publication: "No Quarter #64",
+      page:        "94",
+      category:    "Warbeast",
+      subcategory: "Legion Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Nephilim Protector",
+      publication: "No Quarter #64",
+      page:        "95",
+      category:    "Warbeast",
+      subcategory: "Legion Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Nephilim Soldier",
+      publication: "No Quarter #64",
+      page:        "93",
+      category:    "Warbeast",
+      subcategory: "Legion Warbeast",
+      game:        "IKU"
+    },
+    {
       name:        "Raek",
       publication: "No Quarter #60",
       page:        "114",
@@ -30253,6 +30429,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Arcane Supression",
+      publication: "No Quarter #64",
+      page:        "94",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
       name:        "Arcane Suppression",
       publication: "Unleashed Core Rules",
       page:        "258",
@@ -30454,8 +30638,24 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Massacre",
+      publication: "No Quarter #64",
+      page:        "93",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Massacre",
       publication: "Unleashed Core Rules",
       page:        "285",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Ornery",
+      publication: "No Quarter #64",
+      page:        "95",
       category:    "Warbeast",
       subcategory: "Animus",
       game:        "IKU"
