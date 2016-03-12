@@ -1080,7 +1080,7 @@ var ikrpg = ikrpg || {};
         "Powerstrain": undefined,
         "Precision Strike": undefined,
         "Press the Attack": undefined,
-        "Previlege": undefined,
+        "Privilege": undefined,
         "Prowl": undefined,
         "Pursuit": undefined,
         "Quick Chymist": undefined,
@@ -2813,7 +2813,7 @@ var ikrpg = ikrpg || {};
       "Paingiver": [
         listItem(_notes, "Paingiver Caste"),
         listItem(_AGL, 1),
-        listItem(_occupational_skills, "Anatomical Precision")
+        listItem(_abilities, "Anatomical Precision")
       ],
       "Slave": [
         listItem(_notes, "Slave Caste"),
@@ -2854,7 +2854,7 @@ var ikrpg = ikrpg || {};
           "Additional Study",
           "Combat Caster",
           "Fast Caster",
-          "Feat: Domninator",
+          "Feat: Dominator",
           "Feat: Powerful Caster",
           "Feat: Quick Cast",
           "Feat: Strength of Will",
@@ -2869,7 +2869,7 @@ var ikrpg = ikrpg || {};
           "Blood Boon",
           "Combat Caster",
           "Fast Caster",
-          "Feat: Domninator",
+          "Feat: Dominator",
           "Feat: Powerful Caster",
           "Feat: Quick Cast",
           "Feat: Strength of Will",
@@ -3088,12 +3088,12 @@ var ikrpg = ikrpg || {};
           "Jumping",
           "Sneak"]),
         listItem(_melee_weapons, "Blighted Blade"),
-        listItem(_armors, "Nyss Leathers"),
+        listItem(_armors, "Nyss Leather Armor"),
         number(_gold, 25)
       ],
       "Blighted Sorcerer": [
         listItem(_careers, "Blighted Sorcerer"),
-        listItem(_abilities, "Arcane Crafmanship"),
+        listItem(_abilities, "Arcane Craftsmanship"),
         list(_occupational_skills, ["Craft (metalworking)", "Lore (Everblight)"]),
         listItem(_connections, "Legion of Everblight"),
         choices(arrayPairs(_military_skills, [
@@ -3331,10 +3331,10 @@ var ikrpg = ikrpg || {};
         list(_occupational_skills, ["Command", "Detection"]),
         list(_spells, ["Arcane Bolt", "Blur"]),
         choices([
-          arrayPair(_armors, "Warcaster Armor, light"),
-          arrayPair(_armors, "Warcaster Armor, medium"),
-          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: mechanikal weapon
-          arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)")], "Choose 1")
+          arrayPair(_armors, "Warcaster Armor, light"), // TODO: Not in db
+          arrayPair(_armors, "Warcaster Armor, medium"), // TODO: Not in db
+          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: Not in db
+          arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)")], "Choose 1") // TODO: Not in db
       ],
       "Deathstalker": [
         listItem(_careers, "Deathstalker"),
@@ -3345,7 +3345,7 @@ var ikrpg = ikrpg || {};
           "Survival",
           "Tracking"]),
         listItem(_melee_weapons, "Nyss Claymore"),
-        listItem(_ranged_weapons, "Nyss Bow"),
+        listItem(_ranged_weapons, "Bow, Nyss"),
         list(_gear, ["quiver", "20 arrows"]),
         listItem(_gold, 25)
       ],
@@ -3375,7 +3375,7 @@ var ikrpg = ikrpg || {};
         listItem(_armors, "Exemplar Plate"),
         choices(arrayPairs(_melee_weapons, [
           "Blazing Sword",
-          "Consecrated Halberd",
+          "Consecrated Halberd", // TODO: Not in db
           "Relic Blade"]), "Choose 1")
       ],
       "Exemplar Errant": [
@@ -3524,7 +3524,7 @@ var ikrpg = ikrpg || {};
           "Ambush",
           "Anatomical Precision",
           "Prowl",
-          "Skilled Rider",
+          "Trick Rider",
           "Two-Weapon Fighting"]),
         listItem(_connections, "Daughters of the Flame"),
         list(_military_skills, [
@@ -3561,7 +3561,7 @@ var ikrpg = ikrpg || {};
       "Greylord Outrider": [
         listItem(_notes, "If you choose Greylord Outrider do not choose a second career!"),
         listItem(_careers, "Greylord Outrider"),
-        list(_abilities, ["Great Power", "Snow Wreathed", "Skilled Rider"]),
+        list(_abilities, ["Great Power", "Snow Wreathed", "Trick Rider"]),
         listItem(_connections, "Greylords"),
         listItem(_military_skills, "Hand Weapon"),
         choices(arrayPairs(_military_skills, [
@@ -3745,7 +3745,7 @@ var ikrpg = ikrpg || {};
           "ten blasting heads",
           "Pozdyov Warhorse",
           "Tack and Heavy Barding"]),
-        listItem(_armors, "Iron Fang Full Plate"), // TODO: Add this to armors
+        listItem(_armors, "Iron Fang Full Plate"), // TODO: Not in db
         list(_melee_weapons, ["Blasting Lance", "Shield"])
       ],
       "Ironhead": [
@@ -3771,10 +3771,10 @@ var ikrpg = ikrpg || {};
         list(_occupational_skills, ["Command", "Detection"]),
         list(_spells, ["Boundless Charge", "Jump Start", "Razor Wind"]),
         choices([
-          arrayPair(_armors, "Warcaster Armor, light"),
-          arrayPair(_armors, "Warcaster Armor, medium"),
-          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: mechanikal weapon
-          arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)") ], "Choose 1")
+          arrayPair(_armors, "Warcaster Armor, light"), // TODO: Not in db
+          arrayPair(_armors, "Warcaster Armor, medium"), // TODO: Not in db
+          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: Not in db
+          arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)") ], "Choose 1") // TODO: Not in db
       ],
       "Knight": [
         listItem(_careers, "Knight"),
@@ -3823,10 +3823,10 @@ var ikrpg = ikrpg || {};
         list(_occupational_skills, ["Command", "Detection"]),
         list(_spells, ["Blur", "Twister"]),
         choices([
-          arrayPair(_armors, "Warcaster Armor, light"),
-          arrayPair(_armors, "Warcaster Armor, medium"),
-          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: mechanikal weapon
-          arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)") ], "Choose 1")
+          arrayPair(_armors, "Warcaster Armor, light"), // TODO: Not in db
+          arrayPair(_armors, "Warcaster Armor, medium"), // TODO: Not in db
+          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: Not in db
+          arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)") ], "Choose 1") // TODO: Not in db
       ],
       "Long Rider": [
         listItem(_careers, "Long Rider"),
@@ -4005,14 +4005,14 @@ var ikrpg = ikrpg || {};
         listItem(_careers, "Nihilator"),
         list(_abilities, ["Berserk", "Fearless"]),
         listItem(_connections, "Nihilator Cult"),
-        listItem(_military_skills, "Geat Weapon"),
+        listItem(_military_skills, "Great Weapon"),
         list(_occupational_skills, [
           "Intimidation",
           "Lore (hoksune code)",
           "Lore (philosophy of Morkaash)"]),
         listItem(_benefits, "Tough"),
         listItem(_gear, "12 sl"),
-        listItem(_melee_weapons, "Great Sword")
+        listItem(_melee_weapons, "Sword, Great")
       ],
       "Nomad": [
         listItem(_careers, "Nomad"),
@@ -4041,16 +4041,16 @@ var ikrpg = ikrpg || {};
         list(_occupational_skills, ["Command", "Detection"]),
         list(_spells, ["Convection", "Fortune"]),
         choices([
-          arrayPair(_armors, "Naval Warcaster Armor"), // TODO: Add to armors
-          arrayPair(_armors, "Warcaster Armor, light"), // TODO: Add to armors
-          arrayPair(_armors, "Warcaster Armor, medium"), // TODO: Add to armors
-          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: mechanikal weapon
-          arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)")], "Choose 1")
+          arrayPair(_armors, "Naval Warcaster Armor"), // TODO: Not in db
+          arrayPair(_armors, "Warcaster Armor, light"), // TODO: Not in db
+          arrayPair(_armors, "Warcaster Armor, medium"), // TODO: Not in db
+          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: Not in db
+          arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)")], "Choose 1") // TODO: Not in db
       ],
       "Paladin": [
         listItem(_careers, "Paladin"),
         listItem(_notes, "Must choose between Aristocrat, Horseman, Investigator, Man-at-Arms, Military Officer, Priest (Menite), Ranger, Soldier, or Warcaster"),
-        list(_abilities, ["Specialization (Firebrand)", "Stone-and-Mortar Stance"]),
+        list(_abilities, ["Specialization (Firebrand)", "Stone-and-Mortars Stance"]),
         listItem(_connections, "Order of the Wall"),
         list(_military_skills, ["Great Weapon", "Shield"]),
         list(_occupational_skills, ["Command", "Etiquette", "Lore (Menite Faith)"]),
@@ -4107,11 +4107,11 @@ var ikrpg = ikrpg || {};
           "Lore (hoksune code)"]),
         listItem(_armors, "Praetorian Armor"),
         choices([
-          arrayPair(_military_skills, "Toboresh"),
-          arrayPair(_military_skills, "Shield, Karax"),
-          arrayPair(_military_skills, "Pike"),
-          arrayPair(_military_skills, "Sword, Praetorian"),
-          arrayPair(_military_skills, "Sword, Praetorian") ], "Choose Toboresh,<br />Shield and Pike, or<br />both Praetorian Swords")
+          arrayPair(_melee_weapons, "Toboresh"),
+          arrayPair(_melee_weapons, "Shield, Karax"),
+          arrayPair(_melee_weapons, "Pike"),
+          arrayPair(_melee_weapons, "Sword, Praetorian"),
+          arrayPair(_melee_weapons, "Sword, Praetorian") ], "Choose Toboresh,<br />Shield and Pike, or<br />both Praetorian Swords")
       ],
       "Priest of Cyriss": [
         listItem(_careers, "Priest of Cyriss"),
@@ -4122,7 +4122,7 @@ var ikrpg = ikrpg || {};
         listItem(_benefits, "Genius"),
         list(_spells, ["Guided Blade", "Dissolution Bolt"]),
         listItem(_gear, "Tuning Kit"),
-        listItem(_armors, "Opifex Armor") // TODO: Add me!
+        listItem(_armors, "Opifex Armor") // TODO: Not in db
       ],
       "Priest of Menoth": [
         listItem(_careers, "Priest of Menoth"),
@@ -4170,10 +4170,10 @@ var ikrpg = ikrpg || {};
         list(_occupational_skills, ["Command", "Detection"]),
         list(_spells, ["Ashen Veil", "Immolation"]),
         choices([
-          arrayPair(_armors, "Warcaster Armor, light"),
-          arrayPair(_armors, "Warcaster Armor, medium"),
-          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: mechanikal weapon
-          arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)")], "Choose 1")
+          arrayPair(_armors, "Warcaster Armor, light"), // TODO: Not in db
+          arrayPair(_armors, "Warcaster Armor, medium"), // TODO: Not in db
+          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: Not in db
+          arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)")], "Choose 1") // TODO: Not in db
       ],
       "Pugilist": [
         listItem(_careers, "Pugilist"),
@@ -4290,11 +4290,11 @@ var ikrpg = ikrpg || {};
         list(_occupational_skills, ["Command", "Detection"]),
         list(_spells, ["Battering Ram", "Molten Metal"]),
         choices([
-          arrayPair(_armors, "Warcaster Armor, light"),
-          arrayPair(_armors, "Warcaster Armor, medium"),
-          arrayPair(_melee_weapons, "Mechanika Great Weapon"), // TODO:mechanikal weapon
-          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: mechanikal weapon
-          arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)")], "Choose 1")
+          arrayPair(_armors, "Warcaster Armor, light"), // TODO: Not in db
+          arrayPair(_armors, "Warcaster Armor, medium"), // TODO: Not in db
+          arrayPair(_melee_weapons, "Mechanika Great Weapon"), // TODO: Not in db
+          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: Not in db
+          arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)")], "Choose 1") // TODO: Not in db
       ],
       "Rifleman": [
         listItem(_careers, "Rifleman"),
@@ -4631,7 +4631,7 @@ var ikrpg = ikrpg || {};
       ],
       "Thief": [
         listItem(_careers, "Thief"),
-        list(_abilities, ["Conniver", "Dodge"]),
+        list(_abilities, ["Conniver", "Dodger"]),
         choices(arrayPairs(_military_skills, [
           "Hand Weapon",
           "Thrown Weapon"]), "Choose 1"),
@@ -4785,10 +4785,10 @@ var ikrpg = ikrpg || {};
         list(_occupational_skills, ["Command", "Detection"]),
         list(_spells, ["Boundless Charge", "Convection"]),
         choices([
-          arrayPair(_armors, "Warcaster Armor, light"),
-          arrayPair(_armors, "Warcaster Armor, medium"),
-          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: mechanikal weapon
-          arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)")], "Choose 1")
+          arrayPair(_armors, "Warcaster Armor, light"), // TODO: Not in db
+          arrayPair(_armors, "Warcaster Armor, medium"), // TODO: Not in db
+          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: Not in db
+          arrayPair(_ranged_weapons, "Mechanika Hand Cannon (with 10 rounds of ammunition)")], "Choose 1") // TODO: Not in db
       ],
       "Warcaster, Cyriss": [
         listItem(_careers, "Warcaster, Cyriss"),
@@ -4799,10 +4799,10 @@ var ikrpg = ikrpg || {};
         list(_occupational_skills, ["Detection", "Mechanikal Engineering"]),
         list(_spells, ["Arcane Strike", "Jump Start", "Temper Metal"]),
         choices([
-          arrayPair(_armors, "Warcaster Armor, light"),
-          arrayPair(_armors, "Warcaster Armor, medium"),
-          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: mechanikal weapon
-          arrayPair(_ranged_weapons, "Light Vector")], "Choose 1")
+          arrayPair(_armors, "Warcaster Armor, light"), // TODO: Not in db
+          arrayPair(_armors, "Warcaster Armor, medium"), // TODO: Not in db
+          arrayPair(_melee_weapons, "Mechanika Hand Weapon"), // TODO: Not in db
+          arrayPair(_gear, "Light Vector")], "Choose 1")
       ],
       "Warlock, Circle": [
         listItem(_careers, "Warlock, Circle"),
@@ -4912,11 +4912,11 @@ var ikrpg = ikrpg || {};
         choices([
           arrayPair(_armors, "Infantry Armor"),
           arrayPair(_melee_weapons, "Ogrun Warcleaver"),
-          arrayPair(_melee_weapons, "War Spear"),
-          arrayPair(_melee_weapons, "War Spear"),
-          arrayPair(_melee_weapons, "War Spear"),
-          arrayPair(_melee_weapons, "War Spear"),
-          arrayPair(_melee_weapons, "War Spear"),
+          arrayPair(_ranged_weapons, "War Spear"),
+          arrayPair(_ranged_weapons, "War Spear"),
+          arrayPair(_ranged_weapons, "War Spear"),
+          arrayPair(_ranged_weapons, "War Spear"),
+          arrayPair(_ranged_weapons, "War Spear"),
           arrayPair(_gear, "quiver")], "Choose armor and cleaver or<br />all spears and quiver")
       ],
       "Warrior": [
@@ -4962,7 +4962,7 @@ var ikrpg = ikrpg || {};
         list(_abilities, ["Scent", "Trained Rider (Duskwolf)"]),
         list(_military_skills, ["Great Weapon", "Hand Weapon"]),
         list(_occupational_skills, [
-          "Anumal Handling",
+          "Animal Handling",
           "Navigation",
           "Riding",
           "Survival",

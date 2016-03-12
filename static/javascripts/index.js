@@ -3686,7 +3686,7 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Previlege",
+      name:        "Privilege",
       publication: "Core Rules",
       page:        "165",
       category:    "Ability",
@@ -3972,6 +3972,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
+    },
+    {
+      name:        "Rhulic 'Jack Marshal",
+      publication: "No Quarter #49",
+      page:        "63",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
     },
     {
       name:        "Rhulic Warcaster",
