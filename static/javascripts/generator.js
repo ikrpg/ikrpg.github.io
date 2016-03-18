@@ -2830,7 +2830,7 @@ var ikrpg = ikrpg || {};
         choices([ numberPair(_STR, 1), numberPair(_INT, 1) ], "Choose 1"),
         listItem(_notes, "Workers gain boosted Craft rolls")
       ]
-    }
+    };
     var archetypes = {
       "Cunning": [
         string(_archetype, "Cunning"),
@@ -4746,7 +4746,7 @@ var ikrpg = ikrpg || {};
           "Sneak",
           "Survival"]),
         listItem(_benefits, "Preternatural Awareness"),
-        listItem(_melee_weapons, "Nyss Claymore (FMF)"),
+        listItem(_melee_weapons, "Nyss Claymore"),
         listItem(_ranged_weapons, "Bow, Nyss")
       ],
       "Vassal of Menoth": [
