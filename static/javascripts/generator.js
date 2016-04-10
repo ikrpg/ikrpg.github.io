@@ -1515,8 +1515,29 @@ var ikrpg = ikrpg || {};
           var spdMod = parseInt($(".character-sheet #wornarmor1 .spd").val()) || 0;
           
           $(".character-sheet #spd").val(computedSpd - spdMod);
-        })
+        });
         
+      })();
+      
+      // ### Update computed SPD (on load) ### \\ HACK!
+      (function() {
+        
+        setTimeout(function() {
+          $("#characters > tbody > tr > td:nth-of-type(5) > a").click(function(event) {
+            event.preventDefault();
+          
+            var a = $(event.target);
+            var tr = a.parent().parent();
+            var name = tr.find("td:nth-of-type(1)").text();
+          
+            ikrpg.sheet.showCharacter(name);
+            
+            setTimeout(function() { // HACK! (problem seems to be that pouch db is async loading)
+              var spd = $(".character-sheet #spd").val() || 0;
+              $(".character-sheet #computed-spd").val(spd);
+            }, 500);
+          });
+        }, 500);
       })();
       
     })();
