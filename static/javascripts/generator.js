@@ -492,6 +492,7 @@ var ikrpg = ikrpg || {};
         "Custom Battle Armor": { "spd": 0, "def": -1, "arm": 6, "description": "" },
         "Exemplar Plate": { "spd": -2, "def": -3, "arm": 9, "description": "" },
         "Full Plate": { "spd": -1, "def": -3, "arm": 8, "description": "" },
+        "Heavy-Duty Armored Great Coat": { "spd": -1, "def": -1, "arm": 7, "description": "" },
         "Infantry Armor": { "spd": 0, "def": -2, "arm": 7, "description": "" },
         "Leather Armor": { "spd": 0, "def": -1, "arm": 5, "description": "" },
         "Man-O-War Armor": { "spd": -3, "def": -3, "arm": 9, "description": "" },
@@ -2297,6 +2298,7 @@ var ikrpg = ikrpg || {};
       "Scharde",
       "Shyr",
       "Soresh",
+      "Street Code",
       "Sulese",
       "Telgesh",
       "Thrallspeak",
@@ -3444,6 +3446,20 @@ var ikrpg = ikrpg || {};
         number(_gold, 25),
         list(_gear, ["Warhorse", "Tack and Heavy Barding"])
       ],
+      "Exiled Noble": [
+        listItem(_careers, "Exiled Noble"),
+        list(_abilities, ["Good Breeding", "Parry"]),
+        choices(arrayPairs(_languages, languages), "Choose 1"),
+        listItem(_connections, "nobility"),
+        listItem(_military_skills, "Hand Weapon"),
+        choices(arrayPairs(_military_skills, [
+          "Archery",
+          "Pistol",
+          "Rifle"]), "Choose 1"),
+        list(_occupational_skills, ["Command", "Etiquette"]),
+        listItem(_benefits, "Feat: Vendetta"),
+        number(_gold, 200)
+      ],
       "Explorer": [
         listItem(_careers, "Explorer"),
         list(_abilities, ["Big Game Hunter", "Port of Call"]),
@@ -4283,6 +4299,41 @@ var ikrpg = ikrpg || {};
           "Lore (Urcaen)"]),
         list(_gear, ["Reclaimant's Mask", "ten grave markers"]),
         listItem(_melee_weapons, "Reclaimant Torch")
+      ],
+      "Resistance Saboteur": [
+        listItem(_careers, "Resistance Saboteur"),
+        list(_abilities, ["Fire in the Hole!", "Grenadier"]),
+        list(_military_skills, ["Hand Weapon", "Thrown Weapon"]),
+        list(_occupational_skills, ["Alchemy", "Medicine"]),
+        number(_gold, 25),
+        listItem(_armors, "Alchemist's Leather"),
+        list(_gear, [
+          "alchemical bomb with a clockwork detonator",
+          "grenadier's bandolier",
+          "any alchemical grenate",
+          "any alchemical grenate",
+          "any alchemical grenate",
+          "any alchemical grenate",
+          "any alchemical grenate"])
+      ],
+      "Resistance Sleeper Agent": [
+        listItem(_careers, "Resistance Sleeper Agent"),
+        listItem(_benefits, "Feat: Perfect Plot"),
+        list(_abilities, ["Conniver", "Cover Identity"]),
+        choices(arrayPairs(_languages, languages), "Choose 1"),
+        list(_connections, ["Khadoran Military", "Llaelese Resistance"]),
+        choices(arrayPairs(_military_skills, [
+          "Hand Weapon",
+          "Pistol",
+          "Thrown Weapon"]), "Choose 1"),
+        list(_occupational_skills, [
+          "Command",
+          "Deception",
+          "Detection",
+          "Disguise",
+          "Sneak"]),
+        number(_gold, 100),
+        listItem(_gear, "forged identity papers")
       ],
       "Rhulic Field Mechanik": [
         listItem(_careers, "Rhulic Field Mechanik"),
@@ -5344,6 +5395,30 @@ var ikrpg = ikrpg || {};
           "Ambush",
           "Traceless Path"])
       ],
+      "Resistance Saboteurs": [
+        listItem(_notes, "Adventuring Company: Resistance Saboteurs"),
+        listItem(_notes, "One human Llaelese member is the leader"),
+        listItem(_gear,
+          "Cach of explosives (standard grenades, alchemical grenades, or alchemical explosives) worth up to 200gc for the whole team that is restocked once per month."),
+        choices($.merge(
+          arrayPairs(_military_skills, [ "Thrown Weapon" ]),
+          arrayPairs(_occupational_skills, [ "Mechanikal Engineering" ])
+          ), "Choose 1")
+      ],
+      "Sleeper Cell": [
+        listItem(_notes, "Adventuring Company: Sleeper Cell"),
+        listItem(_notes, "One human Llaelese member is the leader"),
+        listItem(_gear,
+          "100gc for non-mechanical arms and armor, ammunition, non-mechanical gear, clothing in the form of disguises, equipment, mounts and riding equipment, and food and drink."),
+        choices(arrayPairs(_occupational_skills, [
+          "Bribery",
+          "Cryptography",
+          "Deception",
+          "Disguise",
+          "Escape Artist",
+          "Seduction",
+          "Streetwise"]), "Choose 1")
+      ],
       "Soldiers of Fortune": [
         listItem(_notes, "Adventuring Company: Soldiers of Fortune"),
         list(_notes, ["One member is the captain"]),
@@ -5421,6 +5496,24 @@ var ikrpg = ikrpg || {};
           "All characters must be Intellectual and either be a Priest of Cyriss, or a Cyrissist Warcaster",
           "One Priest is the leader"]),
         listItem(_abilities, "University Education")
+      ],
+      "The Lost Company": [
+        listItem(_notes, "Adventuring Company: The Lost Company"),
+        list(_notes, [
+          "All characters must be either Arcane Tempest Gun Mage, Rifleman, Stormblade, Stormguard, Stormsmith, Trencher, or Trencher Commando",
+          "One member is the leader"]),
+        choices(arrayPairs(_occupational_skills, [
+          "Decection",
+          "Disguise",
+          "Escape Artist",
+          "Forgery",
+          "Negotiation",
+          "Sneak",
+          "Streetwise",
+          "Survival",
+          "Tracking"]), "Choose 1"),
+        choices(arrayPairs(_connections, [
+          "Llaelese Resistance"]), "Choose if leader")
       ],
       "United Kriels": [
         listItem(_notes, "Adventuring Company: United Kriels"),

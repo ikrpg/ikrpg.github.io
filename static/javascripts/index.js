@@ -5415,6 +5415,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Once Upon a Time in Khadoran-Occupied Llael",
+      publication: "No Quarter #65",
+      page:        "98",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "FMF"
+    },
+    {
       name:        "Spirit in Steel",
       publication: "No Quarter #44",
       page:        "62",
@@ -6322,6 +6330,14 @@ var ikrpg = ikrpg || {};
       category:    "Alchemy",
       subcategory: "Alchemical Item",
       game:        "IKU"
+    },
+    {
+      name:        "Exploding Ink",
+      publication: "No Quarter #65",
+      page:        "95",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "FMF"
     },
     {
       name:        "Fear Gas",
@@ -7250,6 +7266,22 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Resistance Saboteurs",
+      publication: "No Quarter #65",
+      page:        "94",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "FMF"
+    },
+    {
+      name:        "Sleeper Cell",
+      publication: "No Quarter #65",
+      page:        "94",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "FMF"
+    },
+    {
       name:        "Soldiers of Fortune",
       publication: "Unleashed Core Rules",
       page:        "150",
@@ -7285,6 +7317,14 @@ var ikrpg = ikrpg || {};
       name:        "The Inner Circle",
       publication: "No Quarter #48",
       page:        "72",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "FMF"
+    },
+    {
+      name:        "The Lost Company",
+      publication: "No Quarter #65",
+      page:        "94",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
       game:        "FMF"
@@ -8397,6 +8437,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Exiled Noble",
+      publication: "No Quarter #65",
+      page:        "93",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "FMF"
+    },
+    {
       name:        "Flame Bringers",
       publication: "No Quarter #55",
       page:        "85",
@@ -8496,6 +8544,22 @@ var ikrpg = ikrpg || {};
       name:        "Protectorate Warcaster",
       publication: "Kings, Nations, and Gods",
       page:        "355",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "FMF"
+    },
+    {
+      name:        "Resistance Saboteur",
+      publication: "No Quarter #65",
+      page:        "93",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "FMF"
+    },
+    {
+      name:        "Resistance Sleeper Agent",
+      publication: "No Quarter #65",
+      page:        "93",
       category:    "Character Creation",
       subcategory: "Career Option",
       game:        "FMF"
@@ -8934,6 +8998,14 @@ var ikrpg = ikrpg || {};
       category:    "Armory",
       subcategory: "Armor",
       game:        "IKU"
+    },
+    {
+      name:        "Heavy-Duty Armored Great Coat",
+      publication: "No Quarter #65",
+      page:        "95",
+      category:    "Armory",
+      subcategory: "Armor",
+      game:        "FMF"
     },
     {
       name:        "Infantry Armor",
@@ -11159,6 +11231,14 @@ var ikrpg = ikrpg || {};
       name:        "Bolts, Grappling",
       publication: "Core Rules",
       page:        "271",
+      category:    "Armory",
+      subcategory: "Ammunition",
+      game:        "FMF"
+    },
+    {
+      name:        "Poison Bullet",
+      publication: "No Quarter #65",
+      page:        "95",
       category:    "Armory",
       subcategory: "Ammunition",
       game:        "FMF"
@@ -15672,6 +15752,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Lanel Gozca, The Clockwork Killer",
+      publication: "No Quarter #65",
+      page:        "87",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Leto Raelthorne, King",
       publication: "Kings, Nations, and Gods",
       page:        "21",
@@ -15771,6 +15859,14 @@ var ikrpg = ikrpg || {};
       name:        "Olyado Caetan, Castellan",
       publication: "Kings, Nations, and Gods",
       page:        "284",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Pyrrhus",
+      publication: "No Quarter #65",
+      page:        "65",
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
@@ -17467,6 +17563,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Doom Reaver",
+      publication: "No Quarter #65",
+      page:        "106",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Dracodile",
       publication: "Monsternomicon",
       page:        "28",
@@ -17846,6 +17950,14 @@ var ikrpg = ikrpg || {};
       name:        "Raevhan Buffalo",
       publication: "Monsternomicon",
       page:        "58",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Rager Warjack",
+      publication: "No Quarter #65",
+      page:        "106",
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -18249,6 +18361,22 @@ var ikrpg = ikrpg || {};
       category:    "Monsternomicon",
       subcategory: "Monster/Opponent",
       game:        "IKU"
+    },
+    {
+      name:        "Winter Guard",
+      publication: "No Quarter #65",
+      page:        "101",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Winter Guard Sergeant",
+      publication: "No Quarter #65",
+      page:        "101",
+      category:    "Monsternomicon",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
     },
     // ##### Monsternomicon > Spawn Gifts ##### \\
     {
@@ -20167,6 +20295,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Ambroz Grishka, Koldun",
+      publication: "No Quarter #65",
+      page:        "108",
+      category:    "Monsternomicon",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Anacia Myetrova",
       publication: "Bad Moon Rising",
       page:        "65",
@@ -20453,6 +20589,14 @@ var ikrpg = ikrpg || {};
       category:    "Monsternomicon",
       subcategory: "Solo Monster/Opponent",
       game:        "IKU"
+    },
+    {
+      name:        "Lanel Gozca",
+      publication: "No Quarter #65",
+      page:        "89",
+      category:    "Monsternomicon",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
     },
     {
       name:        "Liyr",
@@ -20771,6 +20915,14 @@ var ikrpg = ikrpg || {};
       publication: "Bitter Medicine",
       page:        "48",
       category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Yurik Zarov, Kapitan",
+      publication: "No Quarter #65",
+      page:        "107",
+      category:    "Monsternomicon",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
     },
@@ -28858,6 +29010,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Timberjack Arm",
+      publication: "No Quarter #65",
+      page:        "96",
+      category:    "Steamjack",
+      subcategory: "Melee Weapon",
+      game:        "FMF"
+    },
+    {
       name:        "Two-Handed Sword",
       publication: "No Quarter #64",
       page:        "93",
@@ -29316,6 +29476,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "False Arm Cowling",
+      publication: "No Quarter #65",
+      page:        "96",
+      category:    "Steamjack",
+      subcategory: "Gear/Upgrade",
+      game:        "FMF"
+    },
+    {
       name:        "Field Repair Array",
       publication: "No Quarter #48",
       page:        "76",
@@ -29423,6 +29591,14 @@ var ikrpg = ikrpg || {};
       name:        "Optical Array",
       publication: "No Quarter #48 Plus",
       page:        "3",
+      category:    "Steamjack",
+      subcategory: "Gear/Upgrade",
+      game:        "FMF"
+    },
+    {
+      name:        "Power Diverter",
+      publication: "No Quarter #65",
+      page:        "96",
       category:    "Steamjack",
       subcategory: "Gear/Upgrade",
       game:        "FMF"
@@ -29582,6 +29758,14 @@ var ikrpg = ikrpg || {};
       category:    "Survival",
       subcategory: "Trap",
       game:        "IKU"
+    },
+    {
+      name:        "Door Trap",
+      publication: "No Quarter #65",
+      page:        "96",
+      category:    "Survival",
+      subcategory: "Trap",
+      game:        "FMF"
     },
     {
       name:        "Fixed-Weapon Trap",
