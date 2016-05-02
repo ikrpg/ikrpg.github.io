@@ -47,37 +47,39 @@ var ikrpg = ikrpg || {};
       $("#characters").append("<tbody>");
     
       db2.allDocs({include_docs: true}, function(error, results) {
-        var rows = results.rows;
+        if(!error) {
+          var rows = results.rows;
         
-        $.each(rows, function(index, row) {
-          var character = row.doc;
+          $.each(rows, function(index, row) {
+            var character = row.doc;
             
-          function appendTr() {
-            $("#characters > tbody").append("<tr>");
-          }
+            function appendTr() {
+              $("#characters > tbody").append("<tr>");
+            }
             
-          function appendTd() {
-            $("#characters > tbody > tr:last-of-type").append("<td>");
-          }
+            function appendTd() {
+              $("#characters > tbody > tr:last-of-type").append("<td>");
+            }
             
-          function lastTd() {
-            return $("#characters > tbody > tr:last-of-type > td:last-of-type");
-          }
+            function lastTd() {
+              return $("#characters > tbody > tr:last-of-type > td:last-of-type");
+            }
             
-          appendTr();
-          appendTd();
-          lastTd().text(character["hero-name"]);
-          appendTd();
-          lastTd().text(character["archetype"]);
-          appendTd();
-          lastTd().text(character["race"]);
-          appendTd();
-          lastTd().text(character["careers"]);
-          appendTd();
-          lastTd().html("<a href=\"javascript:ikrpg.sheet.showCharacter('"+character["_id"]+"')\">Load</a>");
-          appendTd();
-          lastTd().html("<a href=\"javascript:ikrpg.sheet.deleteCharacter('"+character["_id"]+"', '"+character["_rev"]+"')\"><strong>Delete</strong></a>");
-        });
+            appendTr();
+            appendTd();
+            lastTd().text(character["hero-name"]);
+            appendTd();
+            lastTd().text(character["archetype"]);
+            appendTd();
+            lastTd().text(character["race"]);
+            appendTd();
+            lastTd().text(character["careers"]);
+            appendTd();
+            lastTd().html("<a href=\"javascript:ikrpg.sheet.showCharacter('"+character["_id"]+"')\">Load</a>");
+            appendTd();
+            lastTd().html("<a href=\"javascript:ikrpg.sheet.deleteCharacter('"+character["_id"]+"', '"+character["_rev"]+"')\"><strong>Delete</strong></a>");
+          });
+        }
       });
     }
     

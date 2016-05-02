@@ -1,0 +1,86 @@
+---
+layout: ikrpg
+tags: [ Version 1 ]
+---
+
+<link rel="stylesheet" href="/static/stylesheets/content/maps.css" />
+
+<p>
+    This <strong>map builder</strong> lets you create, save, and print your own IK maps made with the official Iron Kingdoms tiles
+    and tokens that can be downloaded for free at
+    <a href="http://privateerpress.com/boostyourexperience">http://privateerpress.com/boostyourexperience</a>.
+    Game masters may use it to create printouts of their planned encounter setups.
+</p>
+
+<ul>
+    <li><strong>Scroll</strong> the Image Library <strong>to list</strong> all available tiles.</li>
+    <li><strong>Click a thumbnail</strong> in the Image Library <strong>to create</strong> a tile.</li>
+    <li><strong>Drag and drop</strong> a tile <strong>to move</strong> it.</li>
+    <li><strong>Click</strong> a tile <strong>to rotate</strong> it clockwise.</li>
+    <li><strong>Rightclick</strong> a tile <strong>to rotate</strong> it counterclockwise.</li>
+    <li><strong>Drop a tile</strong> on the Image Library <strong>to remove</strong> it.</li>
+</ul>
+
+
+<div id="maps">
+    
+    <div id="map-area"></div>
+    
+    <div id="img-library">
+        
+        <h2>Image Library</h2>
+        
+        <h3>Tiles 16x21</h3>
+        <ul id="tiles"></ul>
+
+        <h3>Tokens 1x1 S</h3>
+        <ul id="tokens1x1s"></ul>
+        
+        <h3>Tokens 10x3</h3>
+        <ul id="tokens10x3"></ul>
+        
+        <h3>Tokens 4x3</h3>
+        <ul id="tokens4x3"></ul>
+        
+        <h3>Tokens 1x1 L</h3>
+        <ul id="tokens1x1l"></ul>
+        
+        <h3>Small Bases</h3>
+        <ul id="bases-small"></ul>
+        
+        <h3>Medium Bases</h3>
+        <ul id="bases-medium"></ul>
+        
+    </div>
+    
+</div>
+
+
+<h2 style="font-weight:300;margin:1em 0 2em 0;">
+    | <a id="save-as" href="#">Save As</a> <input id="map-name" placeholder="Map name" value="" /> |
+    <!--a href="#import-export">Import/Export Map</a> |-->
+</h2>
+
+<!--form id="import-export">
+    <textarea id="seed"></textarea>
+    <button id="generate-seed">Export seed for current map</button>
+    <button id="update-seed">Fill out map using current seed</button>
+</form-->
+
+
+<div style="text-align:center;">
+    <table id="load-maps" class="hero">
+        <thead>
+            <tr>
+                <th>Map Name</th>
+                <th>Load</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+
+<script type="text/javascript" src="/static/javascripts/maps.js"></script>

@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2016-05-01v2
+# 2016-05-02
 
 CACHE:
 
@@ -16,6 +16,9 @@ CACHE:
 
 # Character Generator
 /Character-Generator/
+
+# Map Builder
+/Maps/
 
 # Moons of Caen Tool
 /Constellations/
