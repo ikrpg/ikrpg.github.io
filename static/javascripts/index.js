@@ -26,6 +26,8 @@ var ikrpg = ikrpg || {};
   // Geography
   //     Nation, Culture, Political Region, City/Fortress, Geographic Region
   // Individual
+  // Magic
+  //     Rune, Vessel, Magical Item, Ritual
   // Mechanika
   //     Capacitor, Runeplate, Mechanikal Weapon, Mechanikal Armor, Ironhead Armor,
   //     Clockwork Vessel, Clockwork Vessel Upgrade, Mechanikal Device
@@ -121,6 +123,14 @@ var ikrpg = ikrpg || {};
       name:        "Adjust Aim",
       publication: "Unleashed Core Rules",
       page:        "155",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Advance Move",
+      publication: "Wild Adventure",
+      page:        "24",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -262,6 +272,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Applied Knowledge",
+      publication: "Wild Adventure",
+      page:        "24",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Appraise",
       publication: "Core Rules",
       page:        "157",
@@ -326,20 +344,20 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Limited Arcane Tradition",
-      publication: "Skorne Empire",
-      page:        "43",
-      category:    "Ability",
-      subcategory: "",
-      game:        "IKU"
-    },
-    {
       name:        "Arcane Precision",
       publication: "Core Rules",
       page:        "157",
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Arcane Rider",
+      publication: "Wild Adventure",
+      page:        "24",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Arcane Scholar",
@@ -558,6 +576,22 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Battle Plan: Desperate Pace",
+      publication: "Wild Adventure",
+      page:        "24",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Battle Plan: Double Time",
+      publication: "Wild Adventure",
+      page:        "24",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Battle Plan: Go to Ground",
       publication: "Core Rules",
       page:        "158",
@@ -766,6 +800,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Berserk",
+      publication: "Wild Adventure",
+      page:        "24",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Big Game Hunter",
       publication: "Core Rules",
       page:        "158",
@@ -894,6 +936,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Blood Quenched",
+      publication: "Wild Adventure",
+      page:        "24",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Blood Rites",
       publication: "Unleashed Adventure Kit Rulebook",
       page:        "8",
@@ -910,6 +960,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Blood Ritual",
+      publication: "Wild Adventure",
+      page:        "24",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Blood Spiller",
       publication: "Core Rules",
       page:        "158",
@@ -921,6 +979,14 @@ var ikrpg = ikrpg || {};
       name:        "Blood Spiller",
       publication: "Unleashed Core Rules",
       page:        "157",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Blood Thirst",
+      publication: "Wild Adventure",
+      page:        "25",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -1094,6 +1160,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Brutal Trapper",
+      publication: "Wild Adventure",
+      page:        "25",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Bull Rush",
       publication: "No Quarter #45",
       page:        "32",
@@ -1150,6 +1224,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Careful Practitioner",
+      publication: "Wild Adventure",
+      page:        "72",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Cataphract",
       publication: "Skorne Empire",
       page:        "62",
@@ -1169,6 +1251,14 @@ var ikrpg = ikrpg || {};
       name:        "Cautious Advance",
       publication: "Unleashed Core Rules",
       page:        "157",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Cautious Trapper",
+      publication: "Wild Adventure",
+      page:        "25",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -1358,6 +1448,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Conjoined",
+      publication: "Wild Adventure",
+      page:        "25",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Conniver",
       publication: "Core Rules",
       page:        "159",
@@ -1414,6 +1512,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Coven Leader",
+      publication: "Wild Adventure",
+      page:        "72",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Cover Identity",
       publication: "Core Rules",
       page:        "159",
@@ -1452,6 +1558,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Croaker",
+      publication: "Wild Adventure",
+      page:        "25",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Crossbowman",
@@ -1545,6 +1659,22 @@ var ikrpg = ikrpg || {};
       name:        "Defensive Line",
       publication: "Unleashed Core Rules",
       page:        "158",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Demolished",
+      publication: "Wild Adventure",
+      page:        "25",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Dhunia's Strike",
+      publication: "Wild Adventure",
+      page:        "25",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -1945,6 +2075,14 @@ var ikrpg = ikrpg || {};
       name:        "Fall Back",
       publication: "Unleashed Core Rules",
       page:        "159",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Fall's Shielding Wind",
+      publication: "Wild Adventure",
+      page:        "25",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -2470,6 +2608,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Forager",
+      publication: "Wild Adventure",
+      page:        "25",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Foresight",
       publication: "Skorne Empire",
       page:        "99",
@@ -2734,6 +2880,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Harry",
+      publication: "Wild Adventure",
+      page:        "25",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Haruspex",
       publication: "Urban Adventure",
       page:        "68",
@@ -2785,6 +2939,14 @@ var ikrpg = ikrpg || {};
       name:        "Heart Eater",
       publication: "Unleashed Core Rules",
       page:        "162",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Hidden Traps",
+      publication: "Wild Adventure",
+      page:        "25",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -2878,6 +3040,22 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Hunting Howl",
+      publication: "Wild Adventure",
+      page:        "25",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Hyper Aggressive",
+      publication: "Wild Adventure",
+      page:        "25",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Hyper Awareness",
       publication: "Core Rules",
       page:        "164",
@@ -2889,6 +3067,14 @@ var ikrpg = ikrpg || {};
       name:        "Hyper Awareness",
       publication: "Unleashed Core Rules",
       page:        "162",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Hyper Regeneration",
+      publication: "Wild Adventure",
+      page:        "25",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -3078,6 +3264,22 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Jaws of the Beast",
+      publication: "Wild Adventure",
+      page:        "25",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Jury Rig",
+      publication: "Wild Adventure",
+      page:        "25",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Keen Eyed",
       publication: "Core Rules",
       page:        "164",
@@ -3089,6 +3291,14 @@ var ikrpg = ikrpg || {};
       name:        "Keen Eyed",
       publication: "Unleashed Core Rules",
       page:        "162",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Killing Spree",
+      publication: "Wild Adventure",
+      page:        "26",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -3158,6 +3368,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Limited Arcane Tradition",
+      publication: "Skorne Empire",
+      page:        "43",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Line Breaker",
       publication: "No Quarter #45",
       page:        "32",
@@ -3177,6 +3395,14 @@ var ikrpg = ikrpg || {};
       name:        "Live Drinker",
       publication: "Skorne Empire",
       page:        "99",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Live Drinker",
+      publication: "Wild Adventure",
+      page:        "26",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -3270,6 +3496,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Mark Target",
+      publication: "Wild Adventure",
+      page:        "26",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Marksman",
       publication: "Bitter Medicine",
       page:        "54",
@@ -3321,6 +3555,14 @@ var ikrpg = ikrpg || {};
       name:        "Mend Flesh",
       publication: "No Quarter #60",
       page:        "108",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Mother's Vengeance",
+      publication: "Wild Adventure",
+      page:        "26",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -3473,6 +3715,14 @@ var ikrpg = ikrpg || {};
       name:        "Ossify",
       publication: "Skorne Empire",
       page:        "99",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Overflowing Health",
+      publication: "Wild Adventure",
+      page:        "26",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -3646,12 +3896,28 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Powerful Attack (Magical)",
+      publication: "Wild Adventure",
+      page:        "26",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Powerstrain",
       publication: "No Quarter #52",
       page:        "34",
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Prey",
+      publication: "Wild Adventure",
+      page:        "26",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Precision Strike",
@@ -3782,6 +4048,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Ram",
+      publication: "Full Metal Fridays 1/1/2",
+      page:        "2",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Range Amplifier",
       publication: "No Quarter #60",
       page:        "108",
@@ -3822,6 +4096,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Relentless Advance",
+      publication: "Wild Adventure",
+      page:        "26",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Relentless Charge",
       publication: "Core Rules",
       page:        "166",
@@ -3846,17 +4128,17 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Ram",
-      publication: "Full Metal Fridays 1/1/2",
-      page:        "2",
-      category:    "Ability",
-      subcategory: "",
-      game:        "FMF"
-    },
-    {
       name:        "Remedy",
       publication: "Skorne Empire",
       page:        "65",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Remedy",
+      publication: "Wild Adventure",
+      page:        "26",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -4022,6 +4304,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Ritualist",
+      publication: "Wild Adventure",
+      page:        "72",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Rock Solid",
       publication: "Core Rules",
       page:        "166",
@@ -4110,6 +4400,22 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Savage Strike",
+      publication: "Wild Adventure",
+      page:        "26",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Scavenger",
+      publication: "Wild Adventure",
+      page:        "26",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Scent",
       publication: "Unleashed Core Rules",
       page:        "165",
@@ -4134,12 +4440,36 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Scrabble",
+      publication: "Wild Adventure",
+      page:        "26",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Scrapper",
+      publication: "Wild Adventure",
+      page:        "26",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Scrounge",
       publication: "Core Rules",
       page:        "167",
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Self-Sacrifice",
+      publication: "Wild Adventure",
+      page:        "26",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Sentry",
@@ -4241,6 +4571,14 @@ var ikrpg = ikrpg || {};
       name:        "Shallow Breathing",
       publication: "No Quarter #61",
       page:        "75",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Share the Load",
+      publication: "Wild Adventure",
+      page:        "26",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -4574,6 +4912,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Spring of Vitality",
+      publication: "Wild Adventure",
+      page:        "27",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Sprint",
       publication: "Full Metal Fridays 1/1/2",
       page:        "2",
@@ -4686,6 +5032,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Storm of Leaves",
+      publication: "Wild Adventure",
+      page:        "27",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Strangler",
       publication: "Kings, Nations, and Gods",
       page:        "240",
@@ -4745,6 +5099,14 @@ var ikrpg = ikrpg || {};
       name:        "Sucker!",
       publication: "Unleashed Core Rules",
       page:        "168",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Summer's Wrath",
+      publication: "Wild Adventure",
+      page:        "27",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -4918,12 +5280,28 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Thick Skin",
+      publication: "Wild Adventure",
+      page:        "27",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Tinkerer",
       publication: "No Quarter #52",
       page:        "34",
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Tinkering",
+      publication: "Wild Adventure",
+      page:        "27",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Torture",
@@ -4977,6 +5355,14 @@ var ikrpg = ikrpg || {};
       name:        "Tracker",
       publication: "No Quarter #61",
       page:        "101",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Tracker",
+      publication: "Wild Adventure",
+      page:        "27",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
@@ -5094,6 +5480,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Tunneling",
+      publication: "Wild Adventure",
+      page:        "27",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Two-Weapon Fighting",
       publication: "Bitter Medicine",
       page:        "54",
@@ -5190,6 +5584,22 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Warpborn",
+      publication: "Wild Adventure",
+      page:        "27",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Wayfarer",
+      publication: "Wild Adventure",
+      page:        "72",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Waylay",
       publication: "Core Rules",
       page:        "168",
@@ -5278,6 +5688,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Winter's Respite",
+      publication: "Wild Adventure",
+      page:        "27",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Wold Mastery",
       publication: "Unleashed Core Rules",
       page:        "169",
@@ -5325,6 +5743,14 @@ var ikrpg = ikrpg || {};
       category:    "Adventure",
       subcategory: "Scenario",
       game:        "FMF"
+    },
+    {
+      name:        "Blood Runs Cold",
+      publication: "Wild Adventure",
+      page:        "94",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "IKU"
     },
     {
       name:        "Down in the Dregs",
@@ -5464,12 +5890,44 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Angry Prey",
+      publication: "Wild Adventure",
+      page:        "34",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
+    },
+    {
       name:        "Blood and Circuses",
       publication: "No Quarter #52",
       page:        "94",
       category:    "Adventure",
       subcategory: "Encounter",
       game:        "FMF"
+    },
+    {
+      name:        "Bring 'Em Back Alive",
+      publication: "Wild Adventure",
+      page:        "33",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
+    },
+    {
+      name:        "Cold Storage",
+      publication: "Wild Adventure",
+      page:        "38",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
+    },
+    {
+      name:        "Conflagration",
+      publication: "Wild Adventure",
+      page:        "46",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
     },
     {
       name:        "Dark Water",
@@ -5486,6 +5944,14 @@ var ikrpg = ikrpg || {};
       category:    "Adventure",
       subcategory: "Encounter",
       game:        "FMF"
+    },
+    {
+      name:        "Deluge",
+      publication: "Wild Adventure",
+      page:        "36",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
     },
     {
       name:        "Dirty Deeds",
@@ -5512,6 +5978,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Griffon's Roost",
+      publication: "Wild Adventure",
+      page:        "39",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
+    },
+    {
       name:        "Hadrin's Rest",
       publication: "Path of Devastation Season 4",
       page:        "20",
@@ -5523,6 +5997,22 @@ var ikrpg = ikrpg || {};
       name:        "Hogshead",
       publication: "Fridays Unleashed 2/20/2015",
       page:        "1",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
+    },
+    {
+      name:        "Live Ammo",
+      publication: "Wild Adventure",
+      page:        "44",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
+    },
+    {
+      name:        "River Gorge",
+      publication: "Wild Adventure",
+      page:        "46",
       category:    "Adventure",
       subcategory: "Encounter",
       game:        "IKU"
@@ -5542,6 +6032,22 @@ var ikrpg = ikrpg || {};
       category:    "Adventure",
       subcategory: "Encounter",
       game:        "FMF"
+    },
+    {
+      name:        "Skin and Bones",
+      publication: "Wild Adventure",
+      page:        "40",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
+    },
+    {
+      name:        "Stealth Mission",
+      publication: "Wild Adventure",
+      page:        "42",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
     },
     {
       name:        "Talons in the Dark",
@@ -6644,6 +7150,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Venom of Kossk",
+      publication: "Wild Adventure",
+      page:        "78",
+      category:    "Alchemy",
+      subcategory: "Alchemical Item",
+      game:        "IKU"
+    },
+    {
       name:        "Vitriolic Fire",
       publication: "Core Rules",
       page:        "295",
@@ -6912,6 +7426,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Fang Arrow",
+      publication: "Wild Adventure",
+      page:        "30",
+      category:    "Alchemy",
+      subcategory: "Bone Grinder Fetish",
+      game:        "IKU"
+    },
+    {
       name:        "Feral Charm",
       publication: "Unleashed Core Rules",
       page:        "349",
@@ -6952,6 +7474,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Rattlesuit",
+      publication: "Wild Adventure",
+      page:        "31",
+      category:    "Alchemy",
+      subcategory: "Bone Grinder Fetish",
+      game:        "IKU"
+    },
+    {
       name:        "Speaker's Tongue",
       publication: "Unleashed Core Rules",
       page:        "351",
@@ -6976,6 +7506,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Tusk Dagger",
+      publication: "Wild Adventure",
+      page:        "31",
+      category:    "Alchemy",
+      subcategory: "Bone Grinder Fetish",
+      game:        "IKU"
+    },
+    {
       name:        "Vermin Bag",
       publication: "No Quarter #61",
       page:        "92",
@@ -6987,6 +7525,14 @@ var ikrpg = ikrpg || {};
       name:        "Warding Flesh",
       publication: "Unleashed Core Rules",
       page:        "351",
+      category:    "Alchemy",
+      subcategory: "Bone Grinder Fetish",
+      game:        "IKU"
+    },
+    {
+      name:        "Waterlung",
+      publication: "Wild Adventure",
+      page:        "31",
       category:    "Alchemy",
       subcategory: "Bone Grinder Fetish",
       game:        "IKU"
@@ -7540,6 +8086,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Berserker",
+      publication: "Wild Adventure",
+      page:        "14",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Blackclad",
       publication: "Unleashed Core Rules",
       page:        "116",
@@ -7668,6 +8222,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Croak Conjoined Twin",
+      publication: "Wild Adventure",
+      page:        "15",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Cutthroat",
       publication: "Core Rules",
       page:        "125",
@@ -7679,6 +8241,14 @@ var ikrpg = ikrpg || {};
       name:        "Deathstalker",
       publication: "No Quarter #61",
       page:        "99",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
+      name:        "Dhunian Paragon",
+      publication: "Wild Adventure",
+      page:        "16",
       category:    "Character Creation",
       subcategory: "Career",
       game:        "IKU"
@@ -7772,6 +8342,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Guide",
+      publication: "Wild Adventure",
+      page:        "17",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Gun Mage",
       publication: "Core Rules",
       page:        "130",
@@ -7810,6 +8388,14 @@ var ikrpg = ikrpg || {};
       category:    "Character Creation",
       subcategory: "Career",
       game:        "FMF"
+    },
+    {
+      name:        "Huntsman",
+      publication: "Wild Adventure",
+      page:        "18",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
     },
     {
       name:        "Investigator",
@@ -8140,6 +8726,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Skinwalker",
+      publication: "Wild Adventure",
+      page:        "19",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Slaughterhouser",
       publication: "Unleashed Core Rules",
       page:        "137",
@@ -8260,9 +8854,25 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Tinker",
+      publication: "Wild Adventure",
+      page:        "20",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
       name:        "Tormentor",
       publication: "Skorne Empire",
       page:        "56",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
+      name:        "Trapper",
+      publication: "Wild Adventure",
+      page:        "21",
       category:    "Character Creation",
       subcategory: "Career",
       game:        "IKU"
@@ -8403,6 +9013,22 @@ var ikrpg = ikrpg || {};
       category:    "Character Creation",
       subcategory: "Career Option",
       game:        "FMF"
+    },
+    {
+      name:        "Blackclad Mist Rider",
+      publication: "Wild Adventure",
+      page:        "22",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "IKU"
+    },
+    {
+      name:        "Bloodweaver Night Witch",
+      publication: "Wild Adventure",
+      page:        "22",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "IKU"
     },
     {
       name:        "Crucible Guard",
@@ -8549,6 +9175,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Pyg Burrower",
+      publication: "Wild Adventure",
+      page:        "23",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "IKU"
+    },
+    {
       name:        "Resistance Saboteur",
       publication: "No Quarter #65",
       page:        "93",
@@ -8597,12 +9231,28 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Swamp Gobber Raider",
+      publication: "Wild Adventure",
+      page:        "23",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "IKU"
+    },
+    {
       name:        "Tempest Blazer",
       publication: "No Quarter #55",
       page:        "85",
       category:    "Character Creation",
       subcategory: "Career Option",
       game:        "FMF"
+    },
+    {
+      name:        "Tharn Blood Pack",
+      publication: "Wild Adventure",
+      page:        "23",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "IKU"
     },
     {
       name:        "Trencher Commando",
@@ -8665,6 +9315,22 @@ var ikrpg = ikrpg || {};
       name:        "Bog Trog",
       publication: "Unleashed Core Rules",
       page:        "102",
+      category:    "Character Creation",
+      subcategory: "Race",
+      game:        "IKU"
+    },
+    {
+      name:        "Bogrun",
+      publication: "Wild Adventure",
+      page:        "10",
+      category:    "Character Creation",
+      subcategory: "Race",
+      game:        "IKU"
+    },
+    {
+      name:        "Croak",
+      publication: "Wild Adventure",
+      page:        "11",
       category:    "Character Creation",
       subcategory: "Race",
       game:        "IKU"
@@ -8758,6 +9424,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Ogrun",
+      publication: "Wild Adventure",
+      page:        "12",
+      category:    "Character Creation",
+      subcategory: "Race",
+      game:        "IKU"
+    },
+    {
       name:        "Pygmy Troll (Pyg)",
       publication: "Unleashed Core Rules",
       page:        "107",
@@ -8785,6 +9459,14 @@ var ikrpg = ikrpg || {};
       name:        "Strider",
       publication: "No Quarter #61",
       page:        "97",
+      category:    "Character Creation",
+      subcategory: "Race",
+      game:        "IKU"
+    },
+    {
+      name:        "Swamp Gobber",
+      publication: "Wild Adventure",
+      page:        "13",
       category:    "Character Creation",
       subcategory: "Race",
       game:        "IKU"
@@ -8920,6 +9602,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Camouflaged Great Coat",
+      publication: "Wild Adventure",
+      page:        "28",
+      category:    "Armory",
+      subcategory: "Armor",
+      game:        "IKU"
+    },
+    {
       name:        "Cataphract Armor",
       publication: "Skorne Empire",
       page:        "71",
@@ -8950,6 +9640,14 @@ var ikrpg = ikrpg || {};
       category:    "Armory",
       subcategory: "Armor",
       game:        "FMF"
+    },
+    {
+      name:        "Croak Armor",
+      publication: "Wild Adventure",
+      page:        "28",
+      category:    "Armory",
+      subcategory: "Armor",
+      game:        "IKU"
     },
     {
       name:        "Crucible Armor",
@@ -9825,6 +10523,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Nyss Curved Halbert",
+      publication: "Wild Adventure",
+      page:        "28",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
+    },
+    {
       name:        "Nyss Great Sword",
       publication: "Unleashed Core Rules",
       page:        "315",
@@ -9935,6 +10641,14 @@ var ikrpg = ikrpg || {};
       category:    "Armory",
       subcategory: "Melee Weapon",
       game:        "FMF"
+    },
+    {
+      name:        "Rope Dart",
+      publication: "Wild Adventure",
+      page:        "28",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "IKU"
     },
     {
       name:        "Rynnish Fan",
@@ -10291,6 +11005,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Atlatl",
+      publication: "Wild Adventure",
+      page:        "28",
+      category:    "Armory",
+      subcategory: "Ranged Weapon",
+      game:        "IKU"
+    },
+    {
       name:        "Axe, Throwing",
       publication: "Core Rules",
       page:        "261",
@@ -10302,6 +11024,14 @@ var ikrpg = ikrpg || {};
       name:        "Axe, Throwing",
       publication: "Unleashed Core Rules",
       page:        "319",
+      category:    "Armory",
+      subcategory: "Ranged Weapon",
+      game:        "IKU"
+    },
+    {
+      name:        "Blowgun",
+      publication: "Wild Adventure",
+      page:        "29",
       category:    "Armory",
       subcategory: "Ranged Weapon",
       game:        "IKU"
@@ -10625,6 +11355,14 @@ var ikrpg = ikrpg || {};
       category:    "Armory",
       subcategory: "Ranged Weapon",
       game:        "FMF"
+    },
+    {
+      name:        "Grappling Pistol",
+      publication: "Wild Adventure",
+      page:        "29",
+      category:    "Armory",
+      subcategory: "Ranged Weapon",
+      game:        "IKU"
     },
     {
       name:        "Grenade, Concussion",
@@ -11123,6 +11861,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Swamp Gobber Bellows",
+      publication: "Wild Adventure",
+      page:        "29",
+      category:    "Armory",
+      subcategory: "Ranged Weapon",
+      game:        "IKU"
+    },
+    {
       name:        "Sword-Cannon, Repeating",
       publication: "Core Rules",
       page:        "270",
@@ -11207,6 +11953,14 @@ var ikrpg = ikrpg || {};
       name:        "Arrows or Bolts, Signal",
       publication: "Unleashed Core Rules",
       page:        "326",
+      category:    "Armory",
+      subcategory: "Ammunition",
+      game:        "IKU"
+    },
+    {
+      name:        "Bellows Gas Canister",
+      publication: "Wild Adventure",
+      page:        "30",
       category:    "Armory",
       subcategory: "Ammunition",
       game:        "IKU"
@@ -12639,6 +13393,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Cartographer's Kit",
+      publication: "Wild Adventure",
+      page:        "30",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "IKU"
+    },
+    {
       name:        "Char Cloth",
       publication: "Unleashed Core Rules",
       page:        "328",
@@ -12821,6 +13583,14 @@ var ikrpg = ikrpg || {};
       category:    "Equipment",
       subcategory: "Equipment",
       game:        "FMF"
+    },
+    {
+      name:        "Hunting Horn",
+      publication: "Wild Adventure",
+      page:        "30",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "IKU"
     },
     {
       name:        "Lightning Rod",
@@ -13130,6 +13900,14 @@ var ikrpg = ikrpg || {};
       name:        "Thief's Tools",
       publication: "Unleashed Core Rules",
       page:        "331",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "IKU"
+    },
+    {
+      name:        "Tinker's Kit",
+      publication: "Wild Adventure",
+      page:        "30",
       category:    "Equipment",
       subcategory: "Equipment",
       game:        "IKU"
@@ -13660,6 +14438,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Bogrin",
+      publication: "Wild Adventure",
+      page:        "6",
+      category:    "Geography",
+      subcategory: "Culture",
+      game:        "IKU"
+    },
+    {
       name:        "Bolotov",
       publication: "Unleashed Core Rules",
       page:        "59",
@@ -13687,6 +14473,14 @@ var ikrpg = ikrpg || {};
       name:        "Clamorgan",
       publication: "Unleashed Core Rules",
       page:        "60",
+      category:    "Geography",
+      subcategory: "Culture",
+      game:        "IKU"
+    },
+    {
+      name:        "Croaks",
+      publication: "Wild Adventure",
+      page:        "4",
       category:    "Geography",
       subcategory: "Culture",
       game:        "IKU"
@@ -13735,6 +14529,14 @@ var ikrpg = ikrpg || {};
       name:        "Gobbers",
       publication: "Unleashed Core Rules",
       page:        "68",
+      category:    "Geography",
+      subcategory: "Culture",
+      game:        "IKU"
+    },
+    {
+      name:        "Gobbers",
+      publication: "Wild Adventure",
+      page:        "6",
       category:    "Geography",
       subcategory: "Culture",
       game:        "IKU"
@@ -13802,6 +14604,14 @@ var ikrpg = ikrpg || {};
       category:    "Geography",
       subcategory: "Culture",
       game:        "FMF"
+    },
+    {
+      name:        "Ogrun",
+      publication: "Wild Adventure",
+      page:        "8",
+      category:    "Geography",
+      subcategory: "Culture",
+      game:        "IKU"
     },
     {
       name:        "Olgar",
@@ -16127,6 +16937,559 @@ var ikrpg = ikrpg || {};
       subcategory: "",
       game:        "FMF"
     },
+    // ##### Magic > Vessel ##### \\
+    {
+      name:        "Armor",
+      publication: "Wild Adventure",
+      page:        "49",
+      category:    "Magic",
+      subcategory: "Vessel",
+      game:        "IKU"
+    },
+    {
+      name:        "Melee Weapon",
+      publication: "Wild Adventure",
+      page:        "49",
+      category:    "Magic",
+      subcategory: "Vessel",
+      game:        "IKU"
+    },
+    {
+      name:        "Ranged Weapon",
+      publication: "Wild Adventure",
+      page:        "49",
+      category:    "Magic",
+      subcategory: "Vessel",
+      game:        "IKU"
+    },
+    {
+      name:        "Talisman",
+      publication: "Wild Adventure",
+      page:        "50",
+      category:    "Magic",
+      subcategory: "Vessel",
+      game:        "IKU"
+    },
+    // ##### Magic > General Rune ##### \\
+    {
+      name:        "Accuracy",
+      publication: "Wild Adventure",
+      page:        "51",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Balanced",
+      publication: "Wild Adventure",
+      page:        "51",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Blessed",
+      publication: "Wild Adventure",
+      page:        "51",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Cold",
+      publication: "Wild Adventure",
+      page:        "52",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Corruption",
+      publication: "Wild Adventure",
+      page:        "52",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Disbinder",
+      publication: "Wild Adventure",
+      page:        "52",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Elemental Protection",
+      publication: "Wild Adventure",
+      page:        "52",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Eyes of Darkness",
+      publication: "Wild Adventure",
+      page:        "52",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Flame",
+      publication: "Wild Adventure",
+      page:        "52",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Fleet",
+      publication: "Wild Adventure",
+      page:        "52",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Grivous Wounds",
+      publication: "Wild Adventure",
+      page:        "52",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Heightened Strength",
+      publication: "Wild Adventure",
+      page:        "52",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Mage Static",
+      publication: "Wild Adventure",
+      page:        "52",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Occultation",
+      publication: "Wild Adventure",
+      page:        "52",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Quicken",
+      publication: "Wild Adventure",
+      page:        "52",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Resilience",
+      publication: "Wild Adventure",
+      page:        "53",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Safeguard",
+      publication: "Wild Adventure",
+      page:        "53",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Savage",
+      publication: "Wild Adventure",
+      page:        "53",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Steady",
+      publication: "Wild Adventure",
+      page:        "53",
+      category:    "Magic",
+      subcategory: "General Rune",
+      game:        "IKU"
+    },
+    // ##### Magic > Devourer Rune ##### \\
+    {
+      name:        "Feast of the Wurm",
+      publication: "Wild Adventure",
+      page:        "53",
+      category:    "Magic",
+      subcategory: "Devourer Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Finisher",
+      publication: "Wild Adventure",
+      page:        "53",
+      category:    "Magic",
+      subcategory: "Devourer Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "The Hunt",
+      publication: "Wild Adventure",
+      page:        "53",
+      category:    "Magic",
+      subcategory: "Devourer Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Paralysis",
+      publication: "Wild Adventure",
+      page:        "53",
+      category:    "Magic",
+      subcategory: "Devourer Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Scent of the Prey",
+      publication: "Wild Adventure",
+      page:        "53",
+      category:    "Magic",
+      subcategory: "Devourer Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Venomous",
+      publication: "Wild Adventure",
+      page:        "53",
+      category:    "Magic",
+      subcategory: "Devourer Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Weight of Stone",
+      publication: "Wild Adventure",
+      page:        "53",
+      category:    "Magic",
+      subcategory: "Devourer Rune",
+      game:        "IKU"
+    },
+    // ##### Magic > Dhunian Rune ##### \\
+    {
+      name:        "Dhunia's Rage",
+      publication: "Wild Adventure",
+      page:        "54",
+      category:    "Magic",
+      subcategory: "Dhunian Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Dhunia's Touch",
+      publication: "Wild Adventure",
+      page:        "54",
+      category:    "Magic",
+      subcategory: "Dhunian Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Fate Blessed",
+      publication: "Wild Adventure",
+      page:        "54",
+      category:    "Magic",
+      subcategory: "Dhunian Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Flow of Vitality",
+      publication: "Wild Adventure",
+      page:        "54",
+      category:    "Magic",
+      subcategory: "Dhunian Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Spirit Chaser",
+      publication: "Wild Adventure",
+      page:        "54",
+      category:    "Magic",
+      subcategory: "Dhunian Rune",
+      game:        "IKU"
+    },
+    // ##### Magic > Nyss Rune ##### \\
+    {
+      name:        "The Hunt",
+      publication: "Wild Adventure",
+      page:        "54",
+      category:    "Magic",
+      subcategory: "Nyss Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Icy Touch",
+      publication: "Wild Adventure",
+      page:        "54",
+      category:    "Magic",
+      subcategory: "Nyss Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Nyssor's Sight",
+      publication: "Wild Adventure",
+      page:        "54",
+      category:    "Magic",
+      subcategory: "Nyss Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Nussor's Touch",
+      publication: "Wild Adventure",
+      page:        "54",
+      category:    "Magic",
+      subcategory: "Nyss Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Scent of the Hunt",
+      publication: "Wild Adventure",
+      page:        "54",
+      category:    "Magic",
+      subcategory: "Nyss Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Shatter",
+      publication: "Wild Adventure",
+      page:        "54",
+      category:    "Magic",
+      subcategory: "Nyss Rune",
+      game:        "IKU"
+    },
+    // ##### Magic > Swamp Rune ##### \\
+    {
+      name:        "Life Trader",
+      publication: "Wild Adventure",
+      page:        "55",
+      category:    "Magic",
+      subcategory: "Swamp Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Paralysis",
+      publication: "Wild Adventure",
+      page:        "55",
+      category:    "Magic",
+      subcategory: "Swamp Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Scent of Prey",
+      publication: "Wild Adventure",
+      page:        "55",
+      category:    "Magic",
+      subcategory: "Swamp Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Soul Reaper",
+      publication: "Wild Adventure",
+      page:        "55",
+      category:    "Magic",
+      subcategory: "Swamp Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Spirit Chaser",
+      publication: "Wild Adventure",
+      page:        "55",
+      category:    "Magic",
+      subcategory: "Swamp Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Venomous",
+      publication: "Wild Adventure",
+      page:        "55",
+      category:    "Magic",
+      subcategory: "Swamp Rune",
+      game:        "IKU"
+    },
+    // ##### Magic > Trollkin Rune ##### \\
+    {
+      name:        "Hardened",
+      publication: "Wild Adventure",
+      page:        "55",
+      category:    "Magic",
+      subcategory: "Trollkin Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Smite",
+      publication: "Wild Adventure",
+      page:        "55",
+      category:    "Magic",
+      subcategory: "Trollkin Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Stagger",
+      publication: "Wild Adventure",
+      page:        "55",
+      category:    "Magic",
+      subcategory: "Trollkin Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Steadfast",
+      publication: "Wild Adventure",
+      page:        "55",
+      category:    "Magic",
+      subcategory: "Trollkin Rune",
+      game:        "IKU"
+    },
+    {
+      name:        "Stone Strength",
+      publication: "Wild Adventure",
+      page:        "55",
+      category:    "Magic",
+      subcategory: "Trollkin Rune",
+      game:        "IKU"
+    },
+    // ##### Magic > Magical Item ##### \\
+    {
+      name:        "Claws of the Devourer",
+      publication: "Wild Adventure",
+      page:        "56",
+      category:    "Magic",
+      subcategory: "Magical Item",
+      game:        "IKU"
+    },
+    {
+      name:        "Sentry Stones and Mannikins",
+      publication: "Wild Adventure",
+      page:        "57",
+      category:    "Magic",
+      subcategory: "Magical Item",
+      game:        "IKU"
+    },
+    {
+      name:        "Shifting Stones",
+      publication: "Wild Adventure",
+      page:        "58",
+      category:    "Magic",
+      subcategory: "Magical Item",
+      game:        "IKU"
+    },
+    {
+      name:        "Stone Binder",
+      publication: "Wild Adventure",
+      page:        "59",
+      category:    "Magic",
+      subcategory: "Magical Item",
+      game:        "IKU"
+    },
+    // ##### Magic > Ritual ##### \\
+    {
+      name:        "Bind Spirit",
+      publication: "Wild Adventure",
+      page:        "63",
+      category:    "Magic",
+      subcategory: "Ritual",
+      game:        "IKU"
+    },
+    {
+      name:        "Blessing of Bounty",
+      publication: "Wild Adventure",
+      page:        "65",
+      category:    "Magic",
+      subcategory: "Ritual",
+      game:        "IKU"
+    },
+    {
+      name:        "Call Feralgeist",
+      publication: "Wild Adventure",
+      page:        "66",
+      category:    "Magic",
+      subcategory: "Ritual",
+      game:        "IKU"
+    },
+    {
+      name:        "Call the Lord of the Feast",
+      publication: "Wild Adventure",
+      page:        "67",
+      category:    "Magic",
+      subcategory: "Ritual",
+      game:        "IKU"
+    },
+    {
+      name:        "Control Weather",
+      publication: "Wild Adventure",
+      page:        "67",
+      category:    "Magic",
+      subcategory: "Ritual",
+      game:        "IKU"
+    },
+    {
+      name:        "Create Boneswarm",
+      publication: "Wild Adventure",
+      page:        "68",
+      category:    "Magic",
+      subcategory: "Ritual",
+      game:        "IKU"
+    },
+    {
+      name:        "Create Dreadbound",
+      publication: "Wild Adventure",
+      page:        "69",
+      category:    "Magic",
+      subcategory: "Ritual",
+      game:        "IKU"
+    },
+    {
+      name:        "Curse of Scarcity",
+      publication: "Wild Adventure",
+      page:        "65",
+      category:    "Magic",
+      subcategory: "Ritual",
+      game:        "IKU"
+    },
+    {
+      name:        "Devourer's Blessing",
+      publication: "Wild Adventure",
+      page:        "69",
+      category:    "Magic",
+      subcategory: "Ritual",
+      game:        "IKU"
+    },
+    {
+      name:        "Dhunia's Protection",
+      publication: "Wild Adventure",
+      page:        "70",
+      category:    "Magic",
+      subcategory: "Ritual",
+      game:        "IKU"
+    },
+    {
+      name:        "Ley Line Travel",
+      publication: "Wild Adventure",
+      page:        "71",
+      category:    "Magic",
+      subcategory: "Ritual",
+      game:        "IKU"
+    },
+    {
+      name:        "World Mover",
+      publication: "Wild Adventure",
+      page:        "72",
+      category:    "Magic",
+      subcategory: "Ritual",
+      game:        "IKU"
+    },
     // ##### Mechanika > Capacitor ##### \\
     {
       name:        "Alchemical Capacitor",
@@ -17015,12 +18378,12 @@ var ikrpg = ikrpg || {};
       subcategory: "Mechanikal Device",
       game:        "FMF"
     },
-    // ##### Monsternomicon > Deathly Burdens ##### \\
+    // ##### Monster > Deathly Burdens ##### \\
     {
       name:        "Afraid",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Burden",
       game:        "FMF"
     },
@@ -17028,7 +18391,7 @@ var ikrpg = ikrpg || {};
       name:        "Bane",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Burden",
       game:        "FMF"
     },
@@ -17036,7 +18399,7 @@ var ikrpg = ikrpg || {};
       name:        "Barriers",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Burden",
       game:        "FMF"
     },
@@ -17044,7 +18407,7 @@ var ikrpg = ikrpg || {};
       name:        "Bound",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Burden",
       game:        "FMF"
     },
@@ -17052,7 +18415,7 @@ var ikrpg = ikrpg || {};
       name:        "Fragmented Mind",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Burden",
       game:        "FMF"
     },
@@ -17060,7 +18423,7 @@ var ikrpg = ikrpg || {};
       name:        "Mad",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Burden",
       game:        "FMF"
     },
@@ -17068,7 +18431,7 @@ var ikrpg = ikrpg || {};
       name:        "Obsession",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Burden",
       game:        "FMF"
     },
@@ -17076,7 +18439,7 @@ var ikrpg = ikrpg || {};
       name:        "Semi-corporeal",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Burden",
       game:        "FMF"
     },
@@ -17084,7 +18447,7 @@ var ikrpg = ikrpg || {};
       name:        "Sunlight Powerlessness",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Burden",
       game:        "FMF"
     },
@@ -17092,16 +18455,16 @@ var ikrpg = ikrpg || {};
       name:        "Temporal Existence",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Burden",
       game:        "FMF"
     },
-    // ##### Monsternomicon > Deathly Endowments ##### \\
+    // ##### Monster > Deathly Endowments ##### \\
     {
       name:        "Black Gifts",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17109,7 +18472,7 @@ var ikrpg = ikrpg || {};
       name:        "Black Harvest",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17117,7 +18480,7 @@ var ikrpg = ikrpg || {};
       name:        "Blind Fear",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17125,7 +18488,7 @@ var ikrpg = ikrpg || {};
       name:        "Corpse Lord",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17133,7 +18496,7 @@ var ikrpg = ikrpg || {};
       name:        "Corrosive Touch",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17141,7 +18504,7 @@ var ikrpg = ikrpg || {};
       name:        "Dark Influence",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17149,7 +18512,7 @@ var ikrpg = ikrpg || {};
       name:        "Dark Resurrection",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17157,7 +18520,7 @@ var ikrpg = ikrpg || {};
       name:        "Disruptor",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17165,7 +18528,7 @@ var ikrpg = ikrpg || {};
       name:        "Dominator",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17173,7 +18536,7 @@ var ikrpg = ikrpg || {};
       name:        "Dread Touch",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17181,7 +18544,7 @@ var ikrpg = ikrpg || {};
       name:        "Ectoplasmic Field",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17189,7 +18552,7 @@ var ikrpg = ikrpg || {};
       name:        "Eldritch Touch",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17197,7 +18560,7 @@ var ikrpg = ikrpg || {};
       name:        "Fear Master",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17205,7 +18568,7 @@ var ikrpg = ikrpg || {};
       name:        "Fear Monger",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17213,7 +18576,7 @@ var ikrpg = ikrpg || {};
       name:        "Ghost in the Machine",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17221,7 +18584,7 @@ var ikrpg = ikrpg || {};
       name:        "Grave Chill",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17229,7 +18592,7 @@ var ikrpg = ikrpg || {};
       name:        "Grave Resilience",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17237,7 +18600,7 @@ var ikrpg = ikrpg || {};
       name:        "Grave Summons",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17245,7 +18608,7 @@ var ikrpg = ikrpg || {};
       name:        "Keening Howl",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17253,7 +18616,7 @@ var ikrpg = ikrpg || {};
       name:        "Lamentations of the Grave",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17261,7 +18624,7 @@ var ikrpg = ikrpg || {};
       name:        "Malignant Presence",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17269,7 +18632,7 @@ var ikrpg = ikrpg || {};
       name:        "Phase",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17277,7 +18640,7 @@ var ikrpg = ikrpg || {};
       name:        "Preternatural Awareness",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17285,7 +18648,7 @@ var ikrpg = ikrpg || {};
       name:        "Possession",
       publication: "Monsternomicon",
       page:        "78",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17293,7 +18656,7 @@ var ikrpg = ikrpg || {};
       name:        "Power Drain",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17301,7 +18664,7 @@ var ikrpg = ikrpg || {};
       name:        "Psychokinesis",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17309,7 +18672,7 @@ var ikrpg = ikrpg || {};
       name:        "Regeneration",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17317,7 +18680,7 @@ var ikrpg = ikrpg || {};
       name:        "Shroud of Death",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17325,7 +18688,7 @@ var ikrpg = ikrpg || {};
       name:        "Silence",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17333,7 +18696,7 @@ var ikrpg = ikrpg || {};
       name:        "Spectral Illusion",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17341,7 +18704,7 @@ var ikrpg = ikrpg || {};
       name:        "Spectral Talons",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17349,7 +18712,7 @@ var ikrpg = ikrpg || {};
       name:        "Speed of the Dead",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
       game:        "FMF"
     },
@@ -17357,1915 +18720,8 @@ var ikrpg = ikrpg || {};
       name:        "Unholy Genesis",
       publication: "Monsternomicon",
       page:        "79",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Deathly Endowment",
-      game:        "FMF"
-    },
-    // ##### Monsternomicon > Monster/Opponent ##### \\
-    {
-      name:        "Animantrax",
-      publication: "Skorne Empire",
-      page:        "120",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Aradus",
-      publication: "Skorne Empire",
-      page:        "122",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Argus, Common",
-      publication: "Monsternomicon",
-      page:        "6",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Argus, Common",
-      publication: "Unleashed Core Rules",
-      page:        "354",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Argus, Winter",
-      publication: "Unleashed Core Rules",
-      page:        "358",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Argus Moonhound",
-      publication: "Unleashed Core Rules",
-      page:        "356",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Basilisk",
-      publication: "Skorne Empire",
-      page:        "124",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Blackhide",
-      publication: "Unleashed Core Rules",
-      page:        "360",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Bogrin",
-      publication: "Unleashed Core Rules",
-      page:        "362",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Boneswarm",
-      publication: "Unleashed Core Rules",
-      page:        "364",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Broken Wheels",
-      publication: "Path of Devastation Season 4",
-      page:        "28",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Brute Boar",
-      publication: "Unleashed Core Rules",
-      page:        "366",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Burrow-Mawg",
-      publication: "Monsternomicon",
-      page:        "8",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Carnivean",
-      publication: "No Quarter #60",
-      page:        "116",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Cataphract Beetle",
-      publication: "Monsternomicon",
-      page:        "10",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Cephalyx",
-      publication: "Monsternomicon",
-      page:        "12",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Cephalyx Drudge",
-      publication: "Monsternomicon",
-      page:        "16",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Cephalyx Monstrosity",
-      publication: "Monsternomicon",
-      page:        "18",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Croak",
-      publication: "Monsternomicon",
-      page:        "20",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Croak Raider",
-      publication: "No Quarter #62",
-      page:        "87",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Crypt Spider",
-      publication: "Monsternomicon",
-      page:        "22",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Cyclops",
-      publication: "Skorne Empire",
-      page:        "126",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Deathless",
-      publication: "Monsternomicon",
-      page:        "24",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Desert Hydra",
-      publication: "Skorne Empire",
-      page:        "128",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Devil Rat",
-      publication: "Monsternomicon",
-      page:        "26",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Doom Reaver",
-      publication: "No Quarter #65",
-      page:        "106",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Dracodile",
-      publication: "Monsternomicon",
-      page:        "28",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Dragonspawn",
-      publication: "Monsternomicon",
-      page:        "30",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Dragonspawn Small",
-      publication: "Monsternomicon",
-      page:        "30",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Dragonspawn Medium",
-      publication: "Monsternomicon",
-      page:        "30",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Dragonspawn Large",
-      publication: "Monsternomicon",
-      page:        "30",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Drake, Fog",
-      publication: "Unleashed Core Rules",
-      page:        "368",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Drake, Frost",
-      publication: "Unleashed Core Rules",
-      page:        "370",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Drake, Deep",
-      publication: "Skorne Empire",
-      page:        "130",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Drake, Sea",
-      publication: "Unleashed Core Rules",
-      page:        "372",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Dread",
-      publication: "Monsternomicon",
-      page:        "34",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Dregg",
-      publication: "Monsternomicon",
-      page:        "36",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Dregg",
-      publication: "No Quarter #64",
-      page:        "107",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Dregg Chain Gunner",
-      publication: "No Quarter #64",
-      page:        "107",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Dregg Looter",
-      publication: "No Quarter #64",
-      page:        "109",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Dregg Pain Monger",
-      publication: "No Quarter #64",
-      page:        "108",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Dregg Torturer",
-      publication: "No Quarter #64",
-      page:        "108",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Duelist Wrath",
-      publication: "No Quarter #59",
-      page:        "54",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Dune Prowler",
-      publication: "Skorne Empire",
-      page:        "132",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Duskwolf",
-      publication: "Monsternomicon",
-      page:        "38",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Eldritch",
-      publication: "Monsternomicon",
-      page:        "40",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Entombed",
-      publication: "No Quarter #57",
-      page:        "84",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Excruciator",
-      publication: "Monsternomicon",
-      page:        "42",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Farrow Brigands",
-      publication: "Unleashed Adventure Kit Scenario",
-      page:        "31",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Feralgeist",
-      publication: "Unleashed Core Rules",
-      page:        "374",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Gallows Grove",
-      publication: "Unleashed Core Rules",
-      page:        "376",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Genzoul",
-      publication: "Skorne Empire",
-      page:        "134",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Giant Hog",
-      publication: "Unleashed Core Rules",
-      page:        "378",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Gorax",
-      publication: "Monsternomicon",
-      page:        "44",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Gorax",
-      publication: "Unleashed Core Rules",
-      page:        "380",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Griffon, Rotterhorn",
-      publication: "Unleashed Core Rules",
-      page:        "382",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Griffon, Scarsfell",
-      publication: "Unleashed Core Rules",
-      page:        "384",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Grymkin, Gremlin",
-      publication: "Monsternomicon",
-      page:        "46",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Hollowed",
-      publication: "No Quarter #51",
-      page:        "56",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Hollowed",
-      publication: "Monsternomicon",
-      page:        "48",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Hornbeak Trask",
-      publication: "Monsternomicon",
-      page:        "50",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Human Mercenary",
-      publication: "Unleashed Game Master Toolkit Scenario",
-      page:        "9",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Incubus",
-      publication: "No Quarter #61",
-      page:        "102",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Iron Maiden",
-      publication: "No Quarter #51",
-      page:        "58",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Iron Maiden",
-      publication: "Monsternomicon",
-      page:        "52",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Ironback Spitter",
-      publication: "Unleashed Core Rules",
-      page:        "386",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Kovaas",
-      publication: "Skorne Empire",
-      page:        "136",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Lethean",
-      publication: "Monsternomicon",
-      page:        "54",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Mammoth",
-      publication: "Skorne Empire",
-      page:        "138",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Mannikin",
-      publication: "Unleashed Game Master Toolkit Scenario",
-      page:        "12",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Nephilim",
-      publication: "No Quarter #64",
-      page:        "96",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Pistol Wraith",
-      publication: "Monsternomicon",
-      page:        "56",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Raek",
-      publication: "No Quarter #60",
-      page:        "114",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Raevhan Buffalo",
-      publication: "Monsternomicon",
-      page:        "58",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Rager Warjack",
-      publication: "No Quarter #65",
-      page:        "106",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Razor Boar",
-      publication: "Unleashed Core Rules",
-      page:        "388",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Razor Boar",
-      publication: "Unleashed Adventure Kit Scenario",
-      page:        "28",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Razor Worm",
-      publication: "Skorne Empire",
-      page:        "140",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Razorbat",
-      publication: "Monsternomicon",
-      page:        "60",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Reptile Hound",
-      publication: "Skorne Empire",
-      page:        "142",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Rhinodon",
-      publication: "Skorne Empire",
-      page:        "144",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Riven",
-      publication: "Monsternomicon",
-      page:        "62",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Satyr, Gnarlhorn",
-      publication: "Unleashed Core Rules",
-      page:        "390",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Satyr, Rip Horn",
-      publication: "Unleashed Core Rules",
-      page:        "392",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Satyr, Shadowhorn",
-      publication: "Unleashed Core Rules",
-      page:        "394",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Scylla Flock",
-      publication: "Monsternomicon",
-      page:        "64",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Sepulchral Lurker",
-      publication: "Monsternomicon",
-      page:        "66",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Shade",
-      publication: "Monsternomicon",
-      page:        "68",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Shaft Wight",
-      publication: "Monsternomicon",
-      page:        "70",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Shaft Wight",
-      publication: "No Quarter #51",
-      page:        "60",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Shredder",
-      publication: "No Quarter #60",
-      page:        "112",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Skigg",
-      publication: "Monsternomicon",
-      page:        "72",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Slaughterhousers",
-      publication: "Unleashed Adventure Kit Scenario",
-      page:        "30",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Snapper",
-      publication: "Unleashed Core Rules",
-      page:        "396",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Soul Stalker (Infernal)",
-      publication: "Monsternomicon",
-      page:        "74",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Specter",
-      publication: "Monsternomicon",
-      page:        "76",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Spell Martyr",
-      publication: "No Quarter #62",
-      page:        "104",
-      category:    "Equipment",
-      subcategory: "Mount",
-      game:        "IKU"
-    },
-    {
-      name:        "Spine Ripper",
-      publication: "Unleashed Core Rules",
-      page:        "398",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Swamp Horror",
-      publication: "Unleashed Core Rules",
-      page:        "400",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Swamp Shambler",
-      publication: "Unleashed Core Rules",
-      page:        "402",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Tatzylwurm, Black",
-      publication: "Monsternomicon",
-      page:        "80",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Tatzylwurm, Painted",
-      publication: "Unleashed Core Rules",
-      page:        "404",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Tatzylwurm, Pale",
-      publication: "Unleashed Core Rules",
-      page:        "406",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Tatzylwurm, Viper",
-      publication: "Unleashed Core Rules",
-      page:        "408",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Thornwood Mauler",
-      publication: "Unleashed Core Rules",
-      page:        "410",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Throatfish",
-      publication: "No Quarter #62",
-      page:        "93",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Titan",
-      publication: "Skorne Empire",
-      page:        "146",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Totem Hunter",
-      publication: "Monsternomicon",
-      page:        "82",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Trencher",
-      publication: "Unleashed Game Master Toolkit Scenario",
-      page:        "7",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Troll Whelp",
-      publication: "Monsternomicon",
-      page:        "84",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Troll Whelp",
-      publication: "Unleashed Core Rules",
-      page:        "428",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Troll, Common",
-      publication: "Monsternomicon",
-      page:        "86",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Troll, Common",
-      publication: "Unleashed Core Rules",
-      page:        "412",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Troll, Dire",
-      publication: "Monsternomicon",
-      page:        "88",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Troll, Dire",
-      publication: "Unleashed Core Rules",
-      page:        "414",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Troll, Earthborn Dire",
-      publication: "Unleashed Core Rules",
-      page:        "416",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Troll, Night",
-      publication: "Unleashed Core Rules",
-      page:        "418",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Troll, Pyre",
-      publication: "Unleashed Core Rules",
-      page:        "420",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Troll, Slag",
-      publication: "Unleashed Core Rules",
-      page:        "422",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Troll, Storm",
-      publication: "Unleashed Core Rules",
-      page:        "424",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Troll, Swamp",
-      publication: "Unleashed Core Rules",
-      page:        "426",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Troll, Winter",
-      publication: "Unleashed Core Rules",
-      page:        "430",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Vektiss",
-      publication: "Monsternomicon",
-      page:        "90",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Void Spirit",
-      publication: "Skorne Empire",
-      page:        "148",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Warpwolf, Feral",
-      publication: "Unleashed Core Rules",
-      page:        "430",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "IKU"
-    },
-    {
-      name:        "Winter Guard",
-      publication: "No Quarter #65",
-      page:        "101",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Winter Guard Sergeant",
-      publication: "No Quarter #65",
-      page:        "101",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    // ##### Monsternomicon > Spawn Gifts ##### \\
-    {
-      name:        "Agile",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Ash and Embers",
-      publication: "Monsternomicon",
-      page:        "33",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Barbed Tail",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Blackscale",
-      publication: "Monsternomicon",
-      page:        "33",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Blight Aura",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Blood Thirst",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Burning Acid",
-      publication: "Monsternomicon",
-      page:        "33",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Camouflage Coloration",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Carapace",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Climber",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Club Tail",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Corrosive Blood",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Deathdust",
-      publication: "Monsternomicon",
-      page:        "33",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Fleet",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Hellshroud",
-      publication: "Monsternomicon",
-      page:        "33",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Impervious Flesh",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Long Neck",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Lurker",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Muscular",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Nimble",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Pathfinder",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Preternatural Awareness",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Ravenous",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Regeneration",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Ripping Jaws",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Robust",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Roiling Death",
-      publication: "Monsternomicon",
-      page:        "33",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Ruinbringer",
-      publication: "Monsternomicon",
-      page:        "33",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Searing Aura",
-      publication: "Monsternomicon",
-      page:        "33",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Seether",
-      publication: "Monsternomicon",
-      page:        "33",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Serpentine",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Snacking",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Spines",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Tail",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Talons",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Tusks",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Venomous",
-      publication: "Monsternomicon",
-      page:        "32",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    {
-      name:        "Wyrmfire",
-      publication: "Monsternomicon",
-      page:        "33",
-      category:    "Monsternomicon",
-      subcategory: "Spawn Gift",
-      game:        "FMF"
-    },
-    // ##### Monsternomicon > Template ##### \\
-    {
-      name:        "Adapted (Environment)",
-      publication: "Monsternomicon",
-      page:        "92",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Adapted (Environment)",
-      publication: "Unleashed Core Rules",
-      page:        "458",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Alert",
-      publication: "Unleashed Core Rules",
-      page:        "459",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Alpha",
-      publication: "Monsternomicon",
-      page:        "92",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Alpha",
-      publication: "Unleashed Core Rules",
-      page:        "459",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Aquatic",
-      publication: "Unleashed Core Rules",
-      page:        "459",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Backbiter",
-      publication: "Unleashed Core Rules",
-      page:        "459",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Blighted",
-      publication: "Monsternomicon",
-      page:        "93",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Blighted",
-      publication: "Unleashed Core Rules",
-      page:        "459",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Bogrin Trapper",
-      publication: "Unleashed Core Rules",
-      page:        "460",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Bogrin War Chief",
-      publication: "Unleashed Core Rules",
-      page:        "460",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Cephalyx Monstrosity Subduer",
-      publication: "Monsternomicon",
-      page:        "93",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Cephalyx Monstrosity Warden",
-      publication: "Monsternomicon",
-      page:        "93",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Cephalyx Monstrosity Wrecker",
-      publication: "Monsternomicon",
-      page:        "94",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Chieftain",
-      publication: "Monsternomicon",
-      page:        "94",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Chieftain",
-      publication: "Unleashed Core Rules",
-      page:        "460",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Croak Conjoined Twin",
-      publication: "Monsternomicon",
-      page:        "94",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Degenerate Warpwolf",
-      publication: "Unleashed Core Rules",
-      page:        "460",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Devil Rat Matron",
-      publication: "Monsternomicon",
-      page:        "94",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Diseased",
-      publication: "Unleashed Core Rules",
-      page:        "461",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Dregg Pain Monger",
-      publication: "Monsternomicon",
-      page:        "95",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Dregg Raid Master",
-      publication: "Monsternomicon",
-      page:        "95",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Duskwolf Male",
-      publication: "Monsternomicon",
-      page:        "95",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Gluttonous",
-      publication: "Unleashed Core Rules",
-      page:        "461",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Graveswarm",
-      publication: "Unleashed Core Rules",
-      page:        "461",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Hunter",
-      publication: "Monsternomicon",
-      page:        "95",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Hunter",
-      publication: "Unleashed Core Rules",
-      page:        "462",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Ill-Tempered",
-      publication: "Unleashed Core Rules",
-      page:        "462",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Juvenile",
-      publication: "Monsternomicon",
-      page:        "96",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Juvenile",
-      publication: "Unleashed Core Rules",
-      page:        "462",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Large Specimen",
-      publication: "Monsternomicon",
-      page:        "96",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Large Specimen",
-      publication: "No Quarter #51",
-      page:        "62",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Large Specimen",
-      publication: "Unleashed Core Rules",
-      page:        "462",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Lone Wolf",
-      publication: "Monsternomicon",
-      page:        "96",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Lone Wolf",
-      publication: "Unleashed Core Rules",
-      page:        "462",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Man-Eater",
-      publication: "Monsternomicon",
-      page:        "96",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Man-Eater",
-      publication: "Unleashed Core Rules",
-      page:        "463",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Nesting Drake",
-      publication: "Unleashed Core Rules",
-      page:        "463",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Nimble",
-      publication: "Unleashed Core Rules",
-      page:        "463",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Pack Hunter",
-      publication: "Monsternomicon",
-      page:        "96",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Pack Hunter",
-      publication: "Unleashed Core Rules",
-      page:        "463",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Pestilent Hollowed",
-      publication: "Monsternomicon",
-      page:        "97",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Pestilent Hollowed",
-      publication: "No Quarter #51",
-      page:        "62",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Pistol Wraith Spellslinger",
-      publication: "Monsternomicon",
-      page:        "97",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Predator",
-      publication: "Monsternomicon",
-      page:        "98",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Predator",
-      publication: "No Quarter #51",
-      page:        "63",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Predator",
-      publication: "Unleashed Core Rules",
-      page:        "463",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Protector",
-      publication: "Monsternomicon",
-      page:        "98",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Protector",
-      publication: "Unleashed Core Rules",
-      page:        "463",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Razorbat King",
-      publication: "Monsternomicon",
-      page:        "98",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Resilient",
-      publication: "Monsternomicon",
-      page:        "98",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Resilient",
-      publication: "Errata January 2016",
-      page:        "3",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Runt",
-      publication: "Monsternomicon",
-      page:        "98",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Runt",
-      publication: "Unleashed Core Rules",
-      page:        "464",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Satyr Elder",
-      publication: "Unleashed Core Rules",
-      page:        "464",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Skittish",
-      publication: "Monsternomicon",
-      page:        "99",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Skittish",
-      publication: "Unleashed Core Rules",
-      page:        "464",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Spector, Epic",
-      publication: "Monsternomicon",
-      page:        "99",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Specter, Veteran",
-      publication: "Monsternomicon",
-      page:        "99",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Starving",
-      publication: "Monsternomicon",
-      page:        "99",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Starving",
-      publication: "Unleashed Core Rules",
-      page:        "464",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Stealthy",
-      publication: "Monsternomicon",
-      page:        "99",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Stealthy",
-      publication: "Unleashed Core Rules",
-      page:        "464",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Swarm",
-      publication: "Monsternomicon",
-      page:        "99",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Swarm",
-      publication: "Unleashed Core Rules",
-      page:        "465",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Swift",
-      publication: "Monsternomicon",
-      page:        "100",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Swift",
-      publication: "No Quarter #51",
-      page:        "63",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Swift",
-      publication: "Unleashed Core Rules",
-      page:        "465",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Trained",
-      publication: "Monsternomicon",
-      page:        "100",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Trained",
-      publication: "Unleashed Core Rules",
-      page:        "465",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "IKU"
-    },
-    {
-      name:        "Vektiss Queen",
-      publication: "Monsternomicon",
-      page:        "100",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Wild Iron Maiden",
-      publication: "Monsternomicon",
-      page:        "100",
-      category:    "Monsternomicon",
-      subcategory: "Template",
-      game:        "FMF"
-    },
-    {
-      name:        "Wild Iron Maiden",
-      publication: "No Quarter #51",
-      page:        "63",
-      category:    "Monsternomicon",
-      subcategory: "Template",
       game:        "FMF"
     },
     // ##### Monster > Monster/Opponent ##### \\
@@ -19278,12 +18734,68 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Animantrax",
+      publication: "Skorne Empire",
+      page:        "120",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Aradus",
+      publication: "Skorne Empire",
+      page:        "122",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Argus",
       publication: "No Quarter #47",
       page:        "52",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Argus, Common",
+      publication: "Monsternomicon",
+      page:        "6",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Argus, Common",
+      publication: "Unleashed Core Rules",
+      page:        "354",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Argus, Winter",
+      publication: "Unleashed Core Rules",
+      page:        "358",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Argus Moonhound",
+      publication: "Unleashed Core Rules",
+      page:        "356",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Basilisk",
+      publication: "Skorne Empire",
+      page:        "124",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Black Ogrun Boarder",
@@ -19300,6 +18812,14 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Blackhide",
+      publication: "Unleashed Core Rules",
+      page:        "360",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Blighted Nyss Archer",
@@ -19350,6 +18870,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Bog Trog Ambusher",
+      publication: "Wild Adventure",
+      page:        "101",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Bog Trog Angler",
       publication: "No Quarter #43",
       page:        "44",
@@ -19374,12 +18902,44 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Bogrin",
+      publication: "Unleashed Core Rules",
+      page:        "362",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Boneswarm",
+      publication: "Unleashed Core Rules",
+      page:        "364",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Bowden's Guards",
       publication: "No Quarter #44",
       page:        "68",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Broken Wheels",
+      publication: "Path of Devastation Season 4",
+      page:        "28",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Brute Boar",
+      publication: "Unleashed Core Rules",
+      page:        "366",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Brute Thrall",
@@ -19393,6 +18953,30 @@ var ikrpg = ikrpg || {};
       name:        "Burrow-Mawg",
       publication: "Core Rules",
       page:        "341",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Burrow-Mawg",
+      publication: "Monsternomicon",
+      page:        "8",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Carnivean",
+      publication: "No Quarter #60",
+      page:        "116",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Cataphract Beetle",
+      publication: "Monsternomicon",
+      page:        "10",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -19414,9 +18998,25 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Cephalyx",
+      publication: "Monsternomicon",
+      page:        "12",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Cephalyx Drudge",
       publication: "Core Rules Bestiary Expanded",
       page:        "6",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Cephalyx Drudge",
+      publication: "Monsternomicon",
+      page:        "16",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -19430,6 +19030,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Cephalyx Monstrosity",
+      publication: "Monsternomicon",
+      page:        "18",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Cephalyx Overlord",
       publication: "Core Rules Bestiary Expanded",
       page:        "6",
@@ -19438,9 +19046,33 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Croak",
+      publication: "Monsternomicon",
+      page:        "20",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Croak Raider",
+      publication: "No Quarter #62",
+      page:        "87",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Crucible Guards (Duelist/Man-at-Arms)",
       publication: "Fools Rush In",
       page:        "13",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Crypt Spider",
+      publication: "Monsternomicon",
+      page:        "22",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -19463,6 +19095,14 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cyclops",
+      publication: "Skorne Empire",
+      page:        "126",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Cyclops",
       publication: "The Treason of Dakaan",
       page:        "34",
       category:    "Monster",
@@ -19470,9 +19110,33 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Deathless",
+      publication: "Monsternomicon",
+      page:        "24",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Deck Hands",
       publication: "Fools Rush In",
       page:        "17",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Desert Hydra",
+      publication: "Skorne Empire",
+      page:        "128",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Devil Rat",
+      publication: "Monsternomicon",
+      page:        "26",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -19510,6 +19174,94 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Doom Reaver",
+      publication: "No Quarter #65",
+      page:        "106",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Dracodile",
+      publication: "Monsternomicon",
+      page:        "28",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Dragonspawn",
+      publication: "Monsternomicon",
+      page:        "30",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Dragonspawn Small",
+      publication: "Monsternomicon",
+      page:        "30",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Dragonspawn Medium",
+      publication: "Monsternomicon",
+      page:        "30",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Dragonspawn Large",
+      publication: "Monsternomicon",
+      page:        "30",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Drake, Fog",
+      publication: "Unleashed Core Rules",
+      page:        "368",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Drake, Frost",
+      publication: "Unleashed Core Rules",
+      page:        "370",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Drake, Deep",
+      publication: "Skorne Empire",
+      page:        "130",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Drake, Sea",
+      publication: "Unleashed Core Rules",
+      page:        "372",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Dread",
+      publication: "Monsternomicon",
+      page:        "34",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Dread Tomb Guard",
       publication: "Full Metal Fridays 1/3/4",
       page:        "4",
@@ -19518,9 +19270,49 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Dregg",
+      publication: "Monsternomicon",
+      page:        "36",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Dregg",
+      publication: "No Quarter #64",
+      page:        "107",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Dregg Chain Gunner",
+      publication: "No Quarter #64",
+      page:        "107",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Dregg Looter",
+      publication: "No Quarter #64",
+      page:        "109",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Dregg Pain Monger",
       publication: "Core Rules",
       page:        "342",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Dregg Pain Monger",
+      publication: "No Quarter #64",
+      page:        "108",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -19542,6 +19334,38 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Dregg Torturer",
+      publication: "No Quarter #64",
+      page:        "108",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Duelist Wrath",
+      publication: "No Quarter #59",
+      page:        "54",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Dune Prowler",
+      publication: "Skorne Empire",
+      page:        "132",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Duskwolf",
+      publication: "Monsternomicon",
+      page:        "38",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Duskwolf Female",
       publication: "No Quarter #44",
       page:        "58",
@@ -19558,9 +19382,33 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Eldritch",
+      publication: "Monsternomicon",
+      page:        "40",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Elimination Servitor",
       publication: "No Quarter #53",
       page:        "105",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Entombed",
+      publication: "No Quarter #57",
+      page:        "84",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Excruciator",
+      publication: "Monsternomicon",
+      page:        "42",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -19572,6 +19420,14 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Farrow Brigand",
+      publication: "Unleashed Adventure Kit Scenario",
+      page:        "31",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Farrow Shaman",
@@ -19598,6 +19454,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Farrow Warrior",
+      publication: "Wild Adventure",
+      page:        "43",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Feral Argus",
       publication: "Bad Moon Rising",
       page:        "71",
@@ -19606,12 +19470,28 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Feralgeist",
+      publication: "Unleashed Core Rules",
+      page:        "374",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Fort Bolovan Winter Guard",
       publication: "Bad Moon Rising",
       page:        "73",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Gallows Grove",
+      publication: "Unleashed Core Rules",
+      page:        "376",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Gatorman Bokor",
@@ -19630,6 +19510,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Gatorman Cultist",
+      publication: "Wild Adventure",
+      page:        "106",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Gatorman Warrior",
       publication: "No Quarter #44",
       page:        "60",
@@ -19639,8 +19527,72 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Genzoul",
+      publication: "Skorne Empire",
+      page:        "134",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Genzoul",
       publication: "The Treason of Dakaan",
       page:        "36",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Giant Hog",
+      publication: "Unleashed Core Rules",
+      page:        "378",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Gorax",
+      publication: "Monsternomicon",
+      page:        "44",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Gorax",
+      publication: "No Quarter #47",
+      page:        "55",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Gorax",
+      publication: "Unleashed Core Rules",
+      page:        "380",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Gravedigger Thugs",
+      publication: "Urban Adventure",
+      page:        "54",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Griffon, Rotterhorn",
+      publication: "Unleashed Core Rules",
+      page:        "382",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Griffon, Scarsfell",
+      publication: "Unleashed Core Rules",
+      page:        "384",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "IKU"
@@ -19654,17 +19606,9 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Gorax",
-      publication: "No Quarter #47",
-      page:        "55",
-      category:    "Monster",
-      subcategory: "Monster/Opponent",
-      game:        "FMF"
-    },
-    {
-      name:        "Gravedigger Thugs",
-      publication: "Urban Adventure",
-      page:        "54",
+      name:        "Grymkin, Gremlin",
+      publication: "Monsternomicon",
+      page:        "46",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -19673,6 +19617,30 @@ var ikrpg = ikrpg || {};
       name:        "Guards of Fort Veknost",
       publication: "No Quarter #57",
       page:        "101",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Hollowed",
+      publication: "No Quarter #51",
+      page:        "56",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Hollowed",
+      publication: "Monsternomicon",
+      page:        "48",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Hornbeak Trask",
+      publication: "Monsternomicon",
+      page:        "50",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -19716,6 +19684,14 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Human Mercenary",
+      publication: "Unleashed Game Master Toolkit Scenario",
+      page:        "9",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Human Thief",
@@ -19766,6 +19742,78 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Incubus",
+      publication: "No Quarter #61",
+      page:        "102",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Iron Maiden",
+      publication: "No Quarter #51",
+      page:        "58",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Iron Maiden",
+      publication: "Monsternomicon",
+      page:        "52",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Ironback Spitter",
+      publication: "Unleashed Core Rules",
+      page:        "386",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Kovaas",
+      publication: "Skorne Empire",
+      page:        "136",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Lethean",
+      publication: "Monsternomicon",
+      page:        "54",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Mammoth",
+      publication: "Skorne Empire",
+      page:        "138",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Mannikin",
+      publication: "Unleashed Game Master Toolkit Scenario",
+      page:        "12",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Mannikin",
+      publication: "Wild Adventure",
+      page:        "57",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Machine Wrath",
       publication: "Core Rules Bestiary Expanded",
       page:        "7",
@@ -19780,6 +19828,14 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Nephilim",
+      publication: "No Quarter #64",
+      page:        "96",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Ogrun Bodyguard",
@@ -19801,6 +19857,14 @@ var ikrpg = ikrpg || {};
       name:        "Paulson Street Rover Gangsters",
       publication: "Urban Adventure",
       page:        "82",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Pistol Wraith",
+      publication: "Monsternomicon",
+      page:        "56",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -19846,9 +19910,65 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Raek",
+      publication: "No Quarter #60",
+      page:        "114",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Raevhan Buffalo",
+      publication: "Monsternomicon",
+      page:        "58",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Raevhan Buffalo",
       publication: "No Quarter #46",
       page:        "55",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Rager Warjack",
+      publication: "No Quarter #65",
+      page:        "106",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Razor Boar",
+      publication: "Unleashed Core Rules",
+      page:        "388",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Razor Boar",
+      publication: "Unleashed Adventure Kit Scenario",
+      page:        "28",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Razor Worm",
+      publication: "Skorne Empire",
+      page:        "140",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Razorbat",
+      publication: "Monsternomicon",
+      page:        "60",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -19886,6 +20006,22 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Reptile Hound",
+      publication: "Skorne Empire",
+      page:        "142",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Rhinodon",
+      publication: "Skorne Empire",
+      page:        "144",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Risen Thrall",
       publication: "Core Rules",
       page:        "346",
@@ -19897,6 +20033,14 @@ var ikrpg = ikrpg || {};
       name:        "Risen Thrall",
       publication: "Fools Rush In",
       page:        "18",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Riven",
+      publication: "Monsternomicon",
+      page:        "62",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -19916,6 +20060,38 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Saqu",
+      publication: "Wild Adventure",
+      page:        "82",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Satyr, Gnarlhorn",
+      publication: "Unleashed Core Rules",
+      page:        "390",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Satyr, Rip Horn",
+      publication: "Unleashed Core Rules",
+      page:        "392",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Satyr, Shadowhorn",
+      publication: "Unleashed Core Rules",
+      page:        "394",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Satyxis Blood Witch",
@@ -19950,6 +20126,22 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Scylla Flock",
+      publication: "Monsternomicon",
+      page:        "64",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Sepulchral Lurker",
+      publication: "Monsternomicon",
+      page:        "66",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Sewer Gatorman Brood Mother",
       publication: "Urban Adventure",
       page:        "58",
@@ -19975,8 +20167,48 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shade",
+      publication: "Monsternomicon",
+      page:        "68",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Shade",
       publication: "No Quarter #45",
       page:        "53",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Shaft Wight",
+      publication: "Monsternomicon",
+      page:        "70",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Shaft Wight",
+      publication: "No Quarter #51",
+      page:        "60",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Shredder",
+      publication: "No Quarter #60",
+      page:        "112",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Skigg",
+      publication: "Monsternomicon",
+      page:        "72",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -20030,9 +20262,41 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Slaughterhousers",
+      publication: "Unleashed Adventure Kit Scenario",
+      page:        "30",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Snapper",
+      publication: "Unleashed Core Rules",
+      page:        "396",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Soul Stalker (Infernal)",
+      publication: "Monsternomicon",
+      page:        "74",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Soulhunter",
       publication: "Core Rules Bestiary Expanded",
       page:        "14",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Specter",
+      publication: "Monsternomicon",
+      page:        "76",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -20046,9 +20310,41 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Spell Martyr",
+      publication: "No Quarter #62",
+      page:        "104",
+      category:    "Equipment",
+      subcategory: "Mount",
+      game:        "IKU"
+    },
+    {
+      name:        "Spine Ripper",
+      publication: "Unleashed Core Rules",
+      page:        "398",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Succubus",
       publication: "No Quarter #63",
       page:        "106",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Swamp Horror",
+      publication: "Unleashed Core Rules",
+      page:        "400",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Swamp Shambler",
+      publication: "Unleashed Core Rules",
+      page:        "402",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "IKU"
@@ -20060,6 +20356,38 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Tatzylwurm, Black",
+      publication: "Monsternomicon",
+      page:        "80",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Tatzylwurm, Painted",
+      publication: "Unleashed Core Rules",
+      page:        "404",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Tatzylwurm, Pale",
+      publication: "Unleashed Core Rules",
+      page:        "406",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Tatzylwurm, Viper",
+      publication: "Unleashed Core Rules",
+      page:        "408",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Thamarite Guard",
@@ -20102,6 +20430,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Thornwood Mauler",
+      publication: "Unleashed Core Rules",
+      page:        "410",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Thrall Guard",
       publication: "No Quarter #56",
       page:        "99",
@@ -20118,6 +20454,22 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Throatfish",
+      publication: "No Quarter #62",
+      page:        "93",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Thrullg",
+      publication: "Wild Adventure",
+      page:        "84",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Thrullg Warrior",
       publication: "Core Rules",
       page:        "347",
@@ -20126,9 +20478,25 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Titan",
+      publication: "Skorne Empire",
+      page:        "146",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Totem Hunter",
       publication: "Core Rules Bestiary Expanded",
       page:        "17",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Totem Hunter",
+      publication: "Monsternomicon",
+      page:        "82",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -20158,9 +20526,25 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Trencher",
+      publication: "Unleashed Game Master Toolkit Scenario",
+      page:        "7",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Troll",
       publication: "No Quarter #47",
       page:        "56",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Troll Whelp",
+      publication: "Monsternomicon",
+      page:        "84",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -20172,6 +20556,102 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
+    },
+    {
+      name:        "Troll Whelp",
+      publication: "Unleashed Core Rules",
+      page:        "428",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Troll, Common",
+      publication: "Monsternomicon",
+      page:        "86",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Troll, Common",
+      publication: "Unleashed Core Rules",
+      page:        "412",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Troll, Dire",
+      publication: "Monsternomicon",
+      page:        "88",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Troll, Dire",
+      publication: "Unleashed Core Rules",
+      page:        "414",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Troll, Earthborn Dire",
+      publication: "Unleashed Core Rules",
+      page:        "416",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Troll, Night",
+      publication: "Unleashed Core Rules",
+      page:        "418",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Troll, Pyre",
+      publication: "Unleashed Core Rules",
+      page:        "420",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Troll, Slag",
+      publication: "Unleashed Core Rules",
+      page:        "422",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Troll, Storm",
+      publication: "Unleashed Core Rules",
+      page:        "424",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Troll, Swamp",
+      publication: "Unleashed Core Rules",
+      page:        "426",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Troll, Winter",
+      publication: "Unleashed Core Rules",
+      page:        "430",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
     },
     {
       name:        "Trollkin Champion",
@@ -20214,9 +20694,25 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Vektiss",
+      publication: "Monsternomicon",
+      page:        "90",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Venator Slinger",
       publication: "The Treason of Dakaan",
       page:        "33",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Void Spirit",
+      publication: "Skorne Empire",
+      page:        "148",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "IKU"
@@ -20230,9 +20726,49 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Warpwolf, Feral",
+      publication: "Unleashed Core Rules",
+      page:        "430",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Warpwolf, Pureblood",
+      publication: "Wild Adventure",
+      page:        "86",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "Widow Bear",
+      publication: "Wild Adventure",
+      page:        "88",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Winter Argus",
       publication: "No Quarter #47",
       page:        "53",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Winter Guard",
+      publication: "No Quarter #65",
+      page:        "101",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Winter Guard Sergeant",
+      publication: "No Quarter #65",
+      page:        "101",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -20269,6 +20805,896 @@ var ikrpg = ikrpg || {};
       subcategory: "Monster/Opponent",
       game:        "FMF"
     },
+    // ##### Monster > Spawn Gifts ##### \\
+    {
+      name:        "Agile",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Ash and Embers",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Barbed Tail",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Blackscale",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Blight Aura",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Blood Thirst",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Burning Acid",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Camouflage Coloration",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Carapace",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Climber",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Club Tail",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Corrosive Blood",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Deathdust",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Fleet",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Hellshroud",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Impervious Flesh",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Long Neck",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Lurker",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Muscular",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Nimble",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Pathfinder",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Preternatural Awareness",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Ravenous",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Regeneration",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Ripping Jaws",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Robust",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Roiling Death",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Ruinbringer",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Searing Aura",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Seether",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Serpentine",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Snacking",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Spines",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Tail",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Talons",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Tusks",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Venomous",
+      publication: "Monsternomicon",
+      page:        "32",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    {
+      name:        "Wyrmfire",
+      publication: "Monsternomicon",
+      page:        "33",
+      category:    "Monster",
+      subcategory: "Spawn Gift",
+      game:        "FMF"
+    },
+    // ##### Monster > Template ##### \\
+    {
+      name:        "Adapted (Environment)",
+      publication: "Monsternomicon",
+      page:        "92",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Adapted (Environment)",
+      publication: "Unleashed Core Rules",
+      page:        "458",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Alert",
+      publication: "Unleashed Core Rules",
+      page:        "459",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Alpha",
+      publication: "Monsternomicon",
+      page:        "92",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Alpha",
+      publication: "Unleashed Core Rules",
+      page:        "459",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Aquatic",
+      publication: "Unleashed Core Rules",
+      page:        "459",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Backbiter",
+      publication: "Unleashed Core Rules",
+      page:        "459",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Blighted",
+      publication: "Monsternomicon",
+      page:        "93",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Blighted",
+      publication: "Unleashed Core Rules",
+      page:        "459",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Bogrin Trapper",
+      publication: "Unleashed Core Rules",
+      page:        "460",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Bogrin War Chief",
+      publication: "Unleashed Core Rules",
+      page:        "460",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Cephalyx Monstrosity Subduer",
+      publication: "Monsternomicon",
+      page:        "93",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Cephalyx Monstrosity Warden",
+      publication: "Monsternomicon",
+      page:        "93",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Cephalyx Monstrosity Wrecker",
+      publication: "Monsternomicon",
+      page:        "94",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Chieftain",
+      publication: "Monsternomicon",
+      page:        "94",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Chieftain",
+      publication: "Unleashed Core Rules",
+      page:        "460",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Croak Conjoined Twin",
+      publication: "Monsternomicon",
+      page:        "94",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Degenerate Warpwolf",
+      publication: "Unleashed Core Rules",
+      page:        "460",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Devil Rat Matron",
+      publication: "Monsternomicon",
+      page:        "94",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Diseased",
+      publication: "Unleashed Core Rules",
+      page:        "461",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Dregg Pain Monger",
+      publication: "Monsternomicon",
+      page:        "95",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Dregg Raid Master",
+      publication: "Monsternomicon",
+      page:        "95",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Duskwolf Male",
+      publication: "Monsternomicon",
+      page:        "95",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Gluttonous",
+      publication: "Unleashed Core Rules",
+      page:        "461",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Graveswarm",
+      publication: "Unleashed Core Rules",
+      page:        "461",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Hunter",
+      publication: "Monsternomicon",
+      page:        "95",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Hunter",
+      publication: "Unleashed Core Rules",
+      page:        "462",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Ill-Tempered",
+      publication: "Unleashed Core Rules",
+      page:        "462",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Juvenile",
+      publication: "Monsternomicon",
+      page:        "96",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Juvenile",
+      publication: "Unleashed Core Rules",
+      page:        "462",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Large Specimen",
+      publication: "Monsternomicon",
+      page:        "96",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Large Specimen",
+      publication: "No Quarter #51",
+      page:        "62",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Large Specimen",
+      publication: "Unleashed Core Rules",
+      page:        "462",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Lone Wolf",
+      publication: "Monsternomicon",
+      page:        "96",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Lone Wolf",
+      publication: "Unleashed Core Rules",
+      page:        "462",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Man-Eater",
+      publication: "Monsternomicon",
+      page:        "96",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Man-Eater",
+      publication: "Unleashed Core Rules",
+      page:        "463",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Nesting Drake",
+      publication: "Unleashed Core Rules",
+      page:        "463",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Nimble",
+      publication: "Unleashed Core Rules",
+      page:        "463",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Pack Hunter",
+      publication: "Monsternomicon",
+      page:        "96",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Pack Hunter",
+      publication: "Unleashed Core Rules",
+      page:        "463",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Pestilent Hollowed",
+      publication: "Monsternomicon",
+      page:        "97",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Pestilent Hollowed",
+      publication: "No Quarter #51",
+      page:        "62",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Pistol Wraith Spellslinger",
+      publication: "Monsternomicon",
+      page:        "97",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Predator",
+      publication: "Monsternomicon",
+      page:        "98",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Predator",
+      publication: "No Quarter #51",
+      page:        "63",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Predator",
+      publication: "Unleashed Core Rules",
+      page:        "463",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Protector",
+      publication: "Monsternomicon",
+      page:        "98",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Protector",
+      publication: "Unleashed Core Rules",
+      page:        "463",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Razorbat King",
+      publication: "Monsternomicon",
+      page:        "98",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Resilient",
+      publication: "Monsternomicon",
+      page:        "98",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Resilient",
+      publication: "Errata January 2016",
+      page:        "3",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Runt",
+      publication: "Monsternomicon",
+      page:        "98",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Runt",
+      publication: "Unleashed Core Rules",
+      page:        "464",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Satyr Elder",
+      publication: "Unleashed Core Rules",
+      page:        "464",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Skittish",
+      publication: "Monsternomicon",
+      page:        "99",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Skittish",
+      publication: "Unleashed Core Rules",
+      page:        "464",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Spector, Epic",
+      publication: "Monsternomicon",
+      page:        "99",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Specter, Veteran",
+      publication: "Monsternomicon",
+      page:        "99",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Starving",
+      publication: "Monsternomicon",
+      page:        "99",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Starving",
+      publication: "Unleashed Core Rules",
+      page:        "464",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Stealthy",
+      publication: "Monsternomicon",
+      page:        "99",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Stealthy",
+      publication: "Unleashed Core Rules",
+      page:        "464",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Swarm",
+      publication: "Monsternomicon",
+      page:        "99",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Swarm",
+      publication: "Unleashed Core Rules",
+      page:        "465",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Swift",
+      publication: "Monsternomicon",
+      page:        "100",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Swift",
+      publication: "No Quarter #51",
+      page:        "63",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Swift",
+      publication: "Unleashed Core Rules",
+      page:        "465",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Trained",
+      publication: "Monsternomicon",
+      page:        "100",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Trained",
+      publication: "Unleashed Core Rules",
+      page:        "465",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "IKU"
+    },
+    {
+      name:        "Vektiss Queen",
+      publication: "Monsternomicon",
+      page:        "100",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Wild Iron Maiden",
+      publication: "Monsternomicon",
+      page:        "100",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
+    {
+      name:        "Wild Iron Maiden",
+      publication: "No Quarter #51",
+      page:        "63",
+      category:    "Monster",
+      subcategory: "Template",
+      game:        "FMF"
+    },
     // ##### Monster > Solo Monster/Opponent ##### \\
     {
       name:        "Abrosim, the Man",
@@ -20298,7 +21724,7 @@ var ikrpg = ikrpg || {};
       name:        "Ambroz Grishka, Koldun",
       publication: "No Quarter #65",
       page:        "108",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
     },
@@ -20322,7 +21748,7 @@ var ikrpg = ikrpg || {};
       name:        "Artek",
       publication: "Unleashed Game Master Toolkit Scenario",
       page:        "14",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "IKU"
     },
@@ -20503,10 +21929,18 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Gossag",
+      publication: "Wild Adventure",
+      page:        "101",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Gradig, Hive Leader",
       publication: "No Quarter #64",
       page:        "110",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
     },
@@ -20522,8 +21956,8 @@ var ikrpg = ikrpg || {};
       name:        "Heaget, Dregg Torturer",
       publication: "No Quarter #64",
       page:        "109",
-      category:    "Monsternomicon",
-      subcategory: "Monster/Opponent",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
       game:        "FMF"
     },
     {
@@ -20586,7 +22020,7 @@ var ikrpg = ikrpg || {};
       name:        "Kwaak, Croak Sorcerer",
       publication: "No Quarter #62",
       page:        "96",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "IKU"
     },
@@ -20594,7 +22028,7 @@ var ikrpg = ikrpg || {};
       name:        "Lanel Gozca",
       publication: "No Quarter #65",
       page:        "89",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
     },
@@ -20754,7 +22188,7 @@ var ikrpg = ikrpg || {};
       name:        "Qurak Swampfather, Croak Chieftain",
       publication: "No Quarter #62",
       page:        "94",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "IKU"
     },
@@ -20807,6 +22241,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Taloc",
+      publication: "Wild Adventure",
+      page:        "107",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Tantock Meryl (Gifted Human Spy/Thamarite Advocate)",
       publication: "Urban Adventure",
       page:        "96",
@@ -20823,6 +22265,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Tetzelcal",
+      publication: "Wild Adventure",
+      page:        "108",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "IKU"
+    },
+    {
       name:        "Thalen Malvyss (Mage Hunter)",
       publication: "No Quarter #56",
       page:        "107",
@@ -20834,7 +22284,7 @@ var ikrpg = ikrpg || {};
       name:        "Thayle Hadrin",
       publication: "Path of Devastation Season 4",
       page:        "29",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
     },
@@ -20842,7 +22292,15 @@ var ikrpg = ikrpg || {};
       name:        "The Entombed",
       publication: "Unleashed Game Master Toolkit Scenario",
       page:        "14",
-      category:    "Monsternomicon",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "IKU"
+    },
+    {
+      name:        "The Lord of the Feast",
+      publication: "Wild Adventure",
+      page:        "80",
+      category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "IKU"
     },
@@ -20922,7 +22380,7 @@ var ikrpg = ikrpg || {};
       name:        "Yurik Zarov, Kapitan",
       publication: "No Quarter #65",
       page:        "107",
-      category:    "Monsternomicon",
+      category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
     },
@@ -20941,6 +22399,55 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
+    },
+    // ##### Monster > Prey Animal ##### \\
+    {
+      name:        "Bear",
+      publication: "Wild Adventure",
+      page:        "91",
+      category:    "Monster",
+      subcategory: "Prey Animal",
+      game:        "IKU"
+    },
+    {
+      name:        "Canine",
+      publication: "Wild Adventure",
+      page:        "91",
+      category:    "Monster",
+      subcategory: "Prey Animal",
+      game:        "IKU"
+    },
+    {
+      name:        "Deer",
+      publication: "Wild Adventure",
+      page:        "91",
+      category:    "Monster",
+      subcategory: "Prey Animal",
+      game:        "IKU"
+    },
+    {
+      name:        "Goat",
+      publication: "Wild Adventure",
+      page:        "91",
+      category:    "Monster",
+      subcategory: "Prey Animal",
+      game:        "IKU"
+    },
+    {
+      name:        "Hawk",
+      publication: "Wild Adventure",
+      page:        "92",
+      category:    "Monster",
+      subcategory: "Prey Animal",
+      game:        "IKU"
+    },
+    {
+      name:        "Snake",
+      publication: "Wild Adventure",
+      page:        "92",
+      category:    "Monster",
+      subcategory: "Prey Animal",
+      game:        "IKU"
     },
     // ##### Organization > Criminal Enterprise ##### \\
     {
@@ -23806,6 +25313,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Bounder",
+      publication: "Wild Adventure",
+      page:        "79",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Boundless Charge",
       publication: "Core Rules",
       page:        "237",
@@ -23940,6 +25455,14 @@ var ikrpg = ikrpg || {};
       category:    "Spell",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Chasten",
+      publication: "Wild Adventure",
+      page:        "79",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Chiller",
@@ -25150,6 +26673,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Heightened Reflexes",
+      publication: "Wild Adventure",
+      page:        "79",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Hellfire",
       publication: "Urban Adventure",
       page:        "70",
@@ -25774,9 +27305,25 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Marsh Gas",
+      publication: "Wild Adventure",
+      page:        "79",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Medicate",
       publication: "Unleashed Core Rules",
       page:        "249",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Miasma",
+      publication: "Wild Adventure",
+      page:        "79",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -25838,6 +27385,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Mist Sight",
+      publication: "Wild Adventure",
+      page:        "79",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Mobility",
       publication: "Unleashed Core Rules",
       page:        "249",
@@ -25865,6 +27420,14 @@ var ikrpg = ikrpg || {};
       name:        "Mortality",
       publication: "Unleashed Core Rules",
       page:        "249",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Mudfoot",
+      publication: "Wild Adventure",
+      page:        "79",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -26886,6 +28449,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Shock Bolt",
+      publication: "Wild Adventure",
+      page:        "22",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Shock Wave",
       publication: "Core Rules",
       page:        "244",
@@ -27233,6 +28804,14 @@ var ikrpg = ikrpg || {};
       name:        "Sure Foot",
       publication: "Unleashed Core Rules",
       page:        "252",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Swarm",
+      publication: "Wild Adventure",
+      page:        "79",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -27609,6 +29188,14 @@ var ikrpg = ikrpg || {};
       name:        "Weald Hunter",
       publication: "Unleashed Core Rules",
       page:        "253",
+      category:    "Spell",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Webbing",
+      publication: "Wild Adventure",
+      page:        "79",
       category:    "Spell",
       subcategory: "",
       game:        "IKU"
@@ -30084,6 +31671,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Vehicle Upgrade",
       game:        "FMF"
     },
+    // ##### Warbeast > Circle Warbeast ##### \\
+    {
+      name:        "Griffon, Razorwing",
+      publication: "Wild Adventure",
+      page:        "74",
+      category:    "Warbeast",
+      subcategory: "Circle Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Warpwolf, Pureblood",
+      publication: "Wild Adventure",
+      page:        "74",
+      category:    "Warbeast",
+      subcategory: "Circle Warbeast",
+      game:        "IKU"
+    },
     // ##### Warbeast > Devourer Warbeast ##### \\
     {
       name:        "Argus, Common",
@@ -30175,6 +31779,14 @@ var ikrpg = ikrpg || {};
     },
     // ##### Warbeast > Farrow Warbeast ##### \\
     {
+      name:        "Arkadius Battle Boar",
+      publication: "Wild Adventure",
+      page:        "75",
+      category:    "Warbeast",
+      subcategory: "Farrow Warbeast",
+      game:        "IKU"
+    },
+    {
       name:        "Battle Boar",
       publication: "Unleashed Core Rules",
       page:        "281",
@@ -30210,6 +31822,14 @@ var ikrpg = ikrpg || {};
       name:        "Road Hog",
       publication: "Unleashed Core Rules",
       page:        "284",
+      category:    "Warbeast",
+      subcategory: "Farrow Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Splatter Boar",
+      publication: "Wild Adventure",
+      page:        "76",
       category:    "Warbeast",
       subcategory: "Farrow Warbeast",
       game:        "IKU"
@@ -30402,9 +32022,25 @@ var ikrpg = ikrpg || {};
     },
     // ##### Warbeast > Swamp Warbeast ##### \\
     {
+      name:        "Black Tatzylwurm",
+      publication: "Wild Adventure",
+      page:        "78",
+      category:    "Warbeast",
+      subcategory: "Swamp Warbeast",
+      game:        "IKU"
+    },
+    {
       name:        "Blackhide",
       publication: "Unleashed Core Rules",
       page:        "287",
+      category:    "Warbeast",
+      subcategory: "Swamp Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Blind Walker",
+      publication: "Wild Adventure",
+      page:        "77",
       category:    "Warbeast",
       subcategory: "Swamp Warbeast",
       game:        "IKU"
@@ -30429,6 +32065,14 @@ var ikrpg = ikrpg || {};
       name:        "Ironback Spitter",
       publication: "Unleashed Core Rules",
       page:        "288",
+      category:    "Warbeast",
+      subcategory: "Swamp Warbeast",
+      game:        "IKU"
+    },
+    {
+      name:        "Pale Tatzylwurm",
+      publication: "Wild Adventure",
+      page:        "78",
       category:    "Warbeast",
       subcategory: "Swamp Warbeast",
       game:        "IKU"
@@ -30613,9 +32257,25 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Acidic Touch",
+      publication: "Wild Adventure",
+      page:        "76",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
       name:        "Amuck",
       publication: "Skorne Empire",
       page:        "112",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Amuck",
+      publication: "Wild Adventure",
+      page:        "75",
       category:    "Warbeast",
       subcategory: "Animus",
       game:        "IKU"
@@ -30701,6 +32361,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Counterblast",
+      publication: "Wild Adventure",
+      page:        "78",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
       name:        "Diminish",
       publication: "Skorne Empire",
       page:        "115",
@@ -30776,6 +32444,14 @@ var ikrpg = ikrpg || {};
       name:        "Heightened Metabolism",
       publication: "Unleashed Core Rules",
       page:        "281",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Heightened Metabolism",
+      publication: "Wild Adventure",
+      page:        "75",
       category:    "Warbeast",
       subcategory: "Animus",
       game:        "IKU"
@@ -30917,6 +32593,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Rites of Power",
+      publication: "Wild Adventure",
+      page:        "78",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
       name:        "Rush",
       publication: "Skorne Empire",
       page:        "114",
@@ -30944,6 +32628,14 @@ var ikrpg = ikrpg || {};
       name:        "Sand Storm",
       publication: "Skorne Empire",
       page:        "109",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Serpent Strike",
+      publication: "Wild Adventure",
+      page:        "78",
       category:    "Warbeast",
       subcategory: "Animus",
       game:        "IKU"
@@ -31048,6 +32740,14 @@ var ikrpg = ikrpg || {};
       name:        "Wraithbane",
       publication: "Skorne Empire",
       page:        "105",
+      category:    "Warbeast",
+      subcategory: "Animus",
+      game:        "IKU"
+    },
+    {
+      name:        "Wraithbane",
+      publication: "Wild Adventure",
+      page:        "75",
       category:    "Warbeast",
       subcategory: "Animus",
       game:        "IKU"
@@ -31230,7 +32930,23 @@ var ikrpg = ikrpg || {};
       subcategory: "Warbeast Melee Weapon",
       game:        "IKU"
     },
+    {
+      name:        "Wing Blades",
+      publication: "Wild Adventure",
+      page:        "74",
+      category:    "Warbeast",
+      subcategory: "Warbeast Melee Weapon",
+      game:        "IKU"
+    },
     // ##### Warbeast > Warbeast Ranged Weapon ##### \\
+    {
+      name:        "Alchemical Mortar",
+      publication: "Wild Adventure",
+      page:        "77",
+      category:    "Warbeast",
+      subcategory: "Warbeast Ranged Weapon",
+      game:        "IKU"
+    },
     {
       name:        "Big Gun",
       publication: "Unleashed Core Rules",
@@ -31271,13 +32987,38 @@ var ikrpg = ikrpg || {};
       subcategory: "Warbeast Ranged Weapon",
       game:        "IKU"
     },
+    // ##### Warbeast > Warbeast Ammunition ##### \\
+    {
+      name:        "Alchemical Mortar Shell",
+      publication: "Wild Adventure",
+      page:        "77",
+      category:    "Warbeast",
+      subcategory: "Warbeast Ammunition",
+      game:        "IKU"
+    },
     // ##### Warbeast > Warbeast Gear ##### \\
+    {
+      name:        "Adrenalin Enhancement Pump",
+      publication: "Wild Adventure",
+      page:        "75",
+      category:    "Warbeast",
+      subcategory: "Warbeast Gear",
+      game:        "IKU"
+    },
+    {
+      name:        "Alchemical Mask",
+      publication: "Wild Adventure",
+      page:        "76",
+      category:    "Warbeast",
+      subcategory: "Warbeast Gear",
+      game:        "IKU"
+    },
     {
       name:        "Barbed Harness",
       publication: "Skorne Empire",
       page:        "117",
       category:    "Warbeast",
-      subcategory: "Warbeast Ranged Weapon",
+      subcategory: "Warbeast Gear",
       game:        "IKU"
     },
     {

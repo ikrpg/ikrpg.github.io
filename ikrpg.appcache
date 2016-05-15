@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2016-05-02
+# 2016-05-15
 
 CACHE:
 
@@ -56,6 +56,7 @@ CACHE:
 /index/category/Equipment/
 /index/category/Geography/
 /index/category/Individual/
+/index/category/Magic/
 /index/category/Mechanika/
 /index/category/Monster/
 /index/category/Monsternomicon/
@@ -138,11 +139,12 @@ CACHE:
 /index/publication/Path-of-Devastation-Season-4/
 /index/publication/Skorne-Empire/
 /index/publication/The-Treason-of-Dakaar/
-/index/publication/Urban-Adventure/
 /index/publication/Unleashed-Core-Rules/
 /index/publication/Unleashed-Adventure-Kit-Rulebook/
 /index/publication/Unleashed-Adventure-Kit-Scenario/
 /index/publication/Unleashed-Game-Master-Toolkit-Scenario/
+/index/publication/Urban-Adventure/
+/index/publication/Wild-Adventure/
 
 # fonts
 /static/fonts/typicons.eot
