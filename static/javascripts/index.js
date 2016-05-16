@@ -8286,7 +8286,31 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Dhunian Paragon",
+      name:        "Dhunian Paragon (Fall)",
+      publication: "Wild Adventure",
+      page:        "16",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
+      name:        "Dhunian Paragon (Spring)",
+      publication: "Wild Adventure",
+      page:        "16",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
+      name:        "Dhunian Paragon (Summer)",
+      publication: "Wild Adventure",
+      page:        "16",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "IKU"
+    },
+    {
+      name:        "Dhunian Paragon (Winter)",
       publication: "Wild Adventure",
       page:        "16",
       category:    "Character Creation",
