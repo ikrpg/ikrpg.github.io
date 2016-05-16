@@ -216,6 +216,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Amphibious",
+      publication: "Wild Adventure",
+      page:        "11",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Anatomical Precision",
       publication: "Core Rules",
       page:        "157",
@@ -3008,6 +3016,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Huge Stature",
+      publication: "Wild Adventure",
+      page:        "12",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Hulking Presence",
       publication: "Urban Adventure",
       page:        "11",
@@ -3822,6 +3838,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Poison Glands",
+      publication: "Wild Adventure",
+      page:        "11",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Poison Glaze",
@@ -5264,6 +5288,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Temperature Resistance",
+      publication: "Wild Adventure",
+      page:        "10",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Test the Wind",
       publication: "Kings, Nations, and Gods",
       page:        "305",
@@ -5526,6 +5558,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Unshakable Oath",
+      publication: "Wild Adventure",
+      page:        "12",
+      category:    "Ability",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Urcaen's Gate",
