@@ -3004,12 +3004,12 @@ var ikrpg = ikrpg || {};
       ],
       "Paingiver": [
         listItem(_notes, "Paingiver Caste"),
-        listItem(_AGL, 1),
+        number(_AGL, 1),
         listItem(_abilities, "Anatomical Precision")
       ],
       "Slave": [
         listItem(_notes, "Slave Caste"),
-        listItem(_PHY, 1),
+        number(_PHY, 1),
         listItem(_benefits, "Tough")
       ],
       "Warrior": [

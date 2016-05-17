@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2016-05-16v2
+# 2016-05-17
 
 CACHE:
 
@@ -177,7 +177,6 @@ CACHE:
 
 # javascripts
 /static/javascripts/datatables-filters.js
-/static/javascripts/foo.js
 /static/javascripts/heroic-old.js
 /static/javascripts/heroic.js
 /static/javascripts/index.js
