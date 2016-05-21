@@ -2686,7 +2686,7 @@ var ikrpg = ikrpg || {};
         choices(arrayPairs(_languages, languages), "Choose 1"),
         range(_height, 60, 75),
         range(_weight, 85, 180),
-        listItem(_notes, "begins the game with an additional ability selected from on of the careers")
+        listItem(_notes, "begins the game with an additional ability selected from one of the careers")
       ],
       "Nyss (FMF)": [
         string(_race, "Nyss"),
