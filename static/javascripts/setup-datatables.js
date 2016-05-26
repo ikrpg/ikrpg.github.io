@@ -27,7 +27,7 @@ var ikrpg = ikrpg || {};
               var g_url = data.game.replace(/[\s]+/g, "-");
               
               $('td:eq(1)', row).html('<a href="/index/publication/'+url+'/">'+data.publication+'</a>');
-              $('td:eq(3)', row).html('<a href="/index/game/'+g_url+'">'+data.game+'</a>');
+              $('td:eq(3)', row).html('<a href="/index/game/'+g_url+'/">'+data.game+'</a>');
               return row;
             }
         });
@@ -76,7 +76,7 @@ var ikrpg = ikrpg || {};
               
               $('td:eq(2)', row).html('<a href="/index/category/'+c_url+'/">'+data.category+'</a>');
               $('td:eq(3)', row).html('<a href="/index/category/'+c_url+'/#'+sc_url+'">'+data.subcategory+'</a>');
-              $('td:eq(4)', row).html('<a href="/index/game/'+g_url+'">'+data.game+'</a>');
+              $('td:eq(4)', row).html('<a href="/index/game/'+g_url+'/">'+data.game+'</a>');
               return row;
             }
         });
@@ -166,10 +166,10 @@ var ikrpg = ikrpg || {};
               var sc_url = data.subcategory.replace(/[#]/g, "").replace(/[\/\s]+/g, "-")
               var g_url = data.game.replace(/[\s]+/g, "-");
               
-              $('td:eq(1)', row).html('<a href="/index/publication/'+p_url+'">'+data.publication+'</a>');
-              $('td:eq(3)', row).html('<a href="/index/category/'+c_url+'">'+data.category+'</a>');
+              $('td:eq(1)', row).html('<a href="/index/publication/'+p_url+'/">'+data.publication+'</a>');
+              $('td:eq(3)', row).html('<a href="/index/category/'+c_url+'/">'+data.category+'</a>');
               $('td:eq(4)', row).html('<a href="/index/category/'+c_url+'/#'+sc_url+'">'+data.subcategory+'</a>');
-              $('td:eq(5)', row).html('<a href="/index/game/'+g_url+'">'+data.game+'</a>');
+              $('td:eq(5)', row).html('<a href="/index/game/'+g_url+'/">'+data.game+'</a>');
               return row;
             }
         });
