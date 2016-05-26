@@ -45,6 +45,10 @@ CACHE:
 /index/Steamjack-Index/
 /index/Thrall-Index/
 
+# Index by Game
+/index/game/FMF/
+/index/game/IKU/
+
 # Index by Category
 /index/category/Ability/
 /index/category/Adventure/
