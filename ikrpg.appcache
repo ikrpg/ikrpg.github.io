@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2016-05-21
+# 2016-05-26
 
 CACHE:
 
@@ -151,8 +151,73 @@ CACHE:
 /static/fonts/typicons.woff
 
 # images
-/static/images/bg-FMF.jpg
-/static/images/bg-Unleashed.jpg
+/static/images/constellations/moons.jpg
+/static/images/constellations/shadow.png
+/static/images/maps/bases/medium/Longchops.jpg
+/static/images/maps/bases/small/Farrow-Brigand.png
+/static/images/maps/bases/small/Gullin.png
+/static/images/maps/bases/small/Knor.png
+/static/images/maps/bases/small/Lurk.png
+/static/images/maps/bases/small/Razor-Boar.png
+/static/images/maps/bases/small/Slaughterhouser.png
+/static/images/maps/bases/small/Warlord-Morrg.png
+/static/images/maps/bases/small/Zocha.png
+/static/images/maps/tokens/elongated/HW-A03.png
+/static/images/maps/tokens/elongated/HW-A10.png
+/static/images/maps/tokens/elongated/HW-A17.png
+/static/images/maps/tokens/elongated/HW-A24.png
+/static/images/maps/tokens/elongated/HW-B03.png
+/static/images/maps/tokens/elongated/HW-B10.png
+/static/images/maps/tokens/elongated/HW-B17.png
+/static/images/maps/tokens/elongated/HW-B24.png
+/static/images/maps/tokens/large/HW-A01.png
+/static/images/maps/tokens/large/HW-A08.png
+/static/images/maps/tokens/large/HW-A15.png
+/static/images/maps/tokens/large/HW-A22.png
+/static/images/maps/tokens/large/HW-B01.png
+/static/images/maps/tokens/large/HW-B08.png
+/static/images/maps/tokens/large/HW-B15.png
+/static/images/maps/tokens/large/HW-B22.png
+/static/images/maps/tokens/medium/HW-A02.png
+/static/images/maps/tokens/medium/HW-A09.png
+/static/images/maps/tokens/medium/HW-A16.png
+/static/images/maps/tokens/medium/HW-A23.png
+/static/images/maps/tokens/medium/HW-B02.png
+/static/images/maps/tokens/medium/HW-B09.png
+/static/images/maps/tokens/medium/HW-B16.png
+/static/images/maps/tokens/medium/HW-B23.png
+/static/images/maps/tokens/small/HW-A04.png
+/static/images/maps/tokens/small/HW-A11.png
+/static/images/maps/tokens/small/HW-A18.png
+/static/images/maps/tokens/small/HW-A25.png
+/static/images/maps/tokens/small/HW-B04.png
+/static/images/maps/tokens/small/HW-B11.png
+/static/images/maps/tokens/small/HW-B18.png
+/static/images/maps/tokens/small/HW-B25.png
+/static/images/maps/tokens/small/HW-A05.png
+/static/images/maps/tokens/small/HW-A12.png
+/static/images/maps/tokens/small/HW-A19.png
+/static/images/maps/tokens/small/HW-A26.png
+/static/images/maps/tokens/small/HW-B05.png
+/static/images/maps/tokens/small/HW-B12.png
+/static/images/maps/tokens/small/HW-B19.png
+/static/images/maps/tokens/small/HW-B26.png
+/static/images/maps/tokens/small/HW-A06.png
+/static/images/maps/tokens/small/HW-A13.png
+/static/images/maps/tokens/small/HW-A20.png
+/static/images/maps/tokens/small/HW-A27.png
+/static/images/maps/tokens/small/HW-B06.png
+/static/images/maps/tokens/small/HW-B13.png
+/static/images/maps/tokens/small/HW-B20.png
+/static/images/maps/tokens/small/HW-B27.png
+/static/images/maps/tokens/small/HW-A07.png
+/static/images/maps/tokens/small/HW-A14.png
+/static/images/maps/tokens/small/HW-A21.png
+/static/images/maps/tokens/small/HW-A28.png
+/static/images/maps/tokens/small/HW-B07.png
+/static/images/maps/tokens/small/HW-B14.png
+/static/images/maps/tokens/small/HW-B21.png
+/static/images/maps/tokens/small/HW-B28.png
 /static/images/progress/cygnar.png
 /static/images/progress/khador.png
 /static/images/progress/mercenaries.png
@@ -169,24 +234,31 @@ CACHE:
 /static/images/sheet/Skills.png
 /static/images/sheet/Spells.png
 /static/images/sheet/Stats.png
+/static/images/bg-FMF.jpg
+/static/images/bg-Unleashed.jpg
 /static/images/sort_asc.png
 /static/images/sort_both.png
 /static/images/sort_desc.png
 
 # javascripts
 /static/javascripts/datatables-filters.js
+/static/javascripts/generator.js
 /static/javascripts/heroic-old.js
 /static/javascripts/heroic.js
 /static/javascripts/index.js
 /static/javascripts/jquery-ui-1.11.4.min.js
 /static/javascripts/lz-string-1.3.3-min.js
-/static/javascripts/setup-datatables.js
+/static/javascripts/maps.js
 /static/javascripts/pouchdb-3.3.1.min.js
+/static/javascripts/setup-datatables.js
+/static/javascripts/sheet.js
 
 # stylesheets
 /static/stylesheets/content/character-sheet.css
 /static/stylesheets/content/datatables.css
+/static/stylesheets/content/generator.css
 /static/stylesheets/content/lists.css
+/static/stylesheets/content/maps.css
 /static/stylesheets/content/progress-bar.css
 /static/stylesheets/content/tables.css
 /static/stylesheets/content.css
