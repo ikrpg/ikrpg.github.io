@@ -14,7 +14,7 @@ var ikrpg = ikrpg || {};
   // Alchemy
   //     Alchemical Ingredient, Alchemical Item, Field Alchemy, Grenate
   // Character Creation
-  //     Adventuring Company, Archetype, Career, Career Option, Race, Scorne Caste
+  //     Adventuring Company, Archetype, Career, Career Option, Race, Character Background, Skorne Caste
   // Armory
   //     Armor, Melee Weapon, Improvised Melee Weapon, Ranged Weapon, Ammunition,
   //     Ranged Weapon Accessory, Improvised Ranged Weapon, Magical Ranged Weapon, Trap
@@ -9469,6 +9469,47 @@ var ikrpg = ikrpg || {};
       category:    "Character Creation",
       subcategory: "Race",
       game:        "IKU"
+    },
+    // ##### Character Creation > Character Background ##### \\
+    {
+      name:        "Civil War Veteran",
+      publication: "No Quarter #66",
+      page:        "106",
+      category:    "Character Creation",
+      subcategory: "Character Background",
+      game:        "FMF"
+    },
+    {
+      name:        "Dragon-Marked",
+      publication: "No Quarter #66",
+      page:        "106",
+      category:    "Character Creation",
+      subcategory: "Character Background",
+      game:        "FMF"
+    },
+    {
+      name:        "Hammer Veteran",
+      publication: "No Quarter #66",
+      page:        "107",
+      category:    "Character Creation",
+      subcategory: "Character Background",
+      game:        "FMF"
+    },
+    {
+      name:        "Lord of Umbrey",
+      publication: "No Quarter #66",
+      page:        "108",
+      category:    "Character Creation",
+      subcategory: "Character Background",
+      game:        "FMF"
+    },
+    {
+      name:        "Vanquished Soldier",
+      publication: "No Quarter #66",
+      page:        "107",
+      category:    "Character Creation",
+      subcategory: "Character Background",
+      game:        "FMF"
     },
     // ##### Character Creation > Skorne Caste ##### \\
     {
