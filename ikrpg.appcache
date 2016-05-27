@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2016-05-26 v2
+# 2016-05-27
 
 CACHE:
 
@@ -166,6 +166,50 @@ CACHE:
 /static/images/maps/bases/small/Slaughterhouser.png
 /static/images/maps/bases/small/Warlord-Morrg.png
 /static/images/maps/bases/small/Zocha.png
+/static/images/maps/tiles/CT-Board-A01.png
+/static/images/maps/tiles/CT-Board-A02.png
+/static/images/maps/tiles/CT-Board-A03.png
+/static/images/maps/tiles/CT-Board-A04.png
+/static/images/maps/tiles/CT-Board-A05.png
+/static/images/maps/tiles/CT-Board-A06.png
+/static/images/maps/tiles/CT-Board-A07.png
+/static/images/maps/tiles/CT-Board-A08.png
+/static/images/maps/tiles/CT-Board-A09.png
+/static/images/maps/tiles/CT-Board-B01.png
+/static/images/maps/tiles/CT-Board-B02.png
+/static/images/maps/tiles/CT-Board-B03.png
+/static/images/maps/tiles/CT-Board-B04.png
+/static/images/maps/tiles/CT-Board-B05.png
+/static/images/maps/tiles/CT-Board-B06.png
+/static/images/maps/tiles/CT-Board-B07.png
+/static/images/maps/tiles/CT-Board-B08.png
+/static/images/maps/tiles/CT-Board-B09.png
+/static/images/maps/tiles/GM-Board-A01.png
+/static/images/maps/tiles/GM-Board-A02.png
+/static/images/maps/tiles/GM-Board-A03.png
+/static/images/maps/tiles/GM-Board-A04.png
+/static/images/maps/tiles/GM-Board-B01.png
+/static/images/maps/tiles/GM-Board-B02.png
+/static/images/maps/tiles/GM-Board-B03.png
+/static/images/maps/tiles/GM-Board-B04.png
+/static/images/maps/tiles/HW-Board-A01.png
+/static/images/maps/tiles/HW-Board-A02.png
+/static/images/maps/tiles/HW-Board-A03.png
+/static/images/maps/tiles/HW-Board-A04.png
+/static/images/maps/tiles/HW-Board-A05.png
+/static/images/maps/tiles/HW-Board-A06.png
+/static/images/maps/tiles/HW-Board-A07.png
+/static/images/maps/tiles/HW-Board-A08.png
+/static/images/maps/tiles/HW-Board-A09.png
+/static/images/maps/tiles/HW-Board-B01.png
+/static/images/maps/tiles/HW-Board-B02.png
+/static/images/maps/tiles/HW-Board-B03.png
+/static/images/maps/tiles/HW-Board-B04.png
+/static/images/maps/tiles/HW-Board-B05.png
+/static/images/maps/tiles/HW-Board-B06.png
+/static/images/maps/tiles/HW-Board-B07.png
+/static/images/maps/tiles/HW-Board-B08.png
+/static/images/maps/tiles/HW-Board-B09.png
 /static/images/maps/tokens/elongated/HW-A03.png
 /static/images/maps/tokens/elongated/HW-A10.png
 /static/images/maps/tokens/elongated/HW-A17.png
