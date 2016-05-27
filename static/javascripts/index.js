@@ -153,7 +153,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Advisor",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "6",
       category:    "Ability",
       subcategory: "",
@@ -201,7 +201,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ambush",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "6",
       category:    "Ability",
       subcategory: "",
@@ -241,7 +241,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Anatomical Precision",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "7",
       category:    "Ability",
       subcategory: "",
@@ -457,7 +457,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Backstab",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "7",
       category:    "Ability",
       subcategory: "",
@@ -497,7 +497,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Plan: Battlefield Coordination",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "7",
       category:    "Ability",
       subcategory: "",
@@ -537,7 +537,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Plan: Call to Action",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "7",
       category:    "Ability",
       subcategory: "",
@@ -569,7 +569,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Plan: Coordinated Strike",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "7",
       category:    "Ability",
       subcategory: "",
@@ -609,7 +609,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Plan: Go to Ground",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "7",
       category:    "Ability",
       subcategory: "",
@@ -665,7 +665,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Plan: Shadow",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "8",
       category:    "Ability",
       subcategory: "",
@@ -681,7 +681,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Battle Plan: Take Cover",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "8",
       category:    "Ability",
       subcategory: "",
@@ -833,7 +833,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Big Game Hunter",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "8",
       category:    "Ability",
       subcategory: "",
@@ -857,7 +857,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Binding",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "8",
       category:    "Ability",
       subcategory: "",
@@ -953,7 +953,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Rites",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "8",
       category:    "Ability",
       subcategory: "",
@@ -1001,7 +1001,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Trade",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "8",
       category:    "Ability",
       subcategory: "",
@@ -1121,7 +1121,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bone Grinder",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "8",
       category:    "Ability",
       subcategory: "",
@@ -1153,7 +1153,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Brew Master",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "8",
       category:    "Ability",
       subcategory: "",
@@ -1217,7 +1217,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Camouflage",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "8",
       category:    "Ability",
       subcategory: "",
@@ -1481,7 +1481,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Conniver",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "8",
       category:    "Ability",
       subcategory: "",
@@ -1713,7 +1713,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Disease Resistance",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "8",
       category:    "Ability",
       subcategory: "",
@@ -1793,7 +1793,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dodger",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "8",
       category:    "Ability",
       subcategory: "",
@@ -2041,7 +2041,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Exterminator",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "8",
       category:    "Ability",
       subcategory: "",
@@ -2073,7 +2073,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fall Back",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "8",
       category:    "Ability",
       subcategory: "",
@@ -2121,7 +2121,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fast Draw",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "8",
       category:    "Ability",
       subcategory: "",
@@ -2161,7 +2161,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fast Reload",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "9",
       category:    "Ability",
       subcategory: "",
@@ -2473,7 +2473,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Find Cover",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "9",
       category:    "Ability",
       subcategory: "",
@@ -2561,7 +2561,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Flesh of Steel",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "9",
       category:    "Ability",
       subcategory: "",
@@ -2657,7 +2657,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gang",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "9",
       category:    "Ability",
       subcategory: "",
@@ -2737,7 +2737,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Go to Ground",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "9",
       category:    "Ability",
       subcategory: "",
@@ -2841,7 +2841,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gunfighter",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "9",
       category:    "Ability",
       subcategory: "",
@@ -2913,7 +2913,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Haruspex",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "9",
       category:    "Ability",
       subcategory: "",
@@ -2937,7 +2937,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Head-Butt",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "9",
       category:    "Ability",
       subcategory: "",
@@ -3041,7 +3041,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hunting Ground",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "9",
       category:    "Ability",
       subcategory: "",
@@ -3217,7 +3217,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Inflict Pain",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "9",
       category:    "Ability",
       subcategory: "",
@@ -3345,7 +3345,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Language",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "9",
       category:    "Ability",
       subcategory: "",
@@ -3441,7 +3441,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Load Bearing",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "9",
       category:    "Ability",
       subcategory: "",
@@ -3649,7 +3649,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Natural Leader",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -3681,7 +3681,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Night Fighter",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -3713,7 +3713,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Onslaught",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -3817,7 +3817,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Pathfinder",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -3873,7 +3873,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Poison Resistance",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -3961,7 +3961,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Precision Strike",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -4001,7 +4001,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Prowl",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -4049,7 +4049,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Quick Work",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -4145,7 +4145,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Relentless Charge",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -4377,7 +4377,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Roll with It",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -4513,7 +4513,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sentry",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -4577,7 +4577,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shadow Magic",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -4625,7 +4625,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shield Guard",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -4665,7 +4665,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Shootist",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -4697,7 +4697,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Signal Language",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -4745,7 +4745,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Skilled Trapper",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -4961,7 +4961,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Staredown",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -5153,7 +5153,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Survivalist",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "10",
       category:    "Ability",
       subcategory: "",
@@ -5177,7 +5177,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Swift Hunter",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "11",
       category:    "Ability",
       subcategory: "",
@@ -5273,7 +5273,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Team Leader",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "11",
       category:    "Ability",
       subcategory: "",
@@ -5369,7 +5369,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Traceless Path",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "11",
       category:    "Ability",
       subcategory: "",
@@ -5601,7 +5601,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Vivisectionist",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "11",
       category:    "Ability",
       subcategory: "",
@@ -5657,7 +5657,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Waylay",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "11",
       category:    "Ability",
       subcategory: "",
@@ -7240,7 +7240,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Simple Acid",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "30",
       category:    "Alchemy",
       subcategory: "Field Alchemy",
@@ -7264,7 +7264,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Simple Stimulant",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "31",
       category:    "Alchemy",
       subcategory: "Field Alchemy",
@@ -7288,7 +7288,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Simple Stink Gas",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "31",
       category:    "Alchemy",
       subcategory: "Field Alchemy",
@@ -7312,7 +7312,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Simple Smoke",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "31",
       category:    "Alchemy",
       subcategory: "Field Alchemy",
@@ -7982,7 +7982,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Gifted",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "6",
       category:    "Character Creation",
       subcategory: "Archetype",
@@ -8014,7 +8014,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mighty",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "6",
       category:    "Character Creation",
       subcategory: "Archetype",
@@ -8038,7 +8038,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Skilled",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "6",
       category:    "Character Creation",
       subcategory: "Archetype",
@@ -12395,7 +12395,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Combat Caster",
-      publication: "Urban Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "6",
       category:    "Benefit",
       subcategory: "",
@@ -12451,7 +12451,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Feat: Back Swing",
-      publication: "Urban Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "6",
       category:    "Benefit",
       subcategory: "",
@@ -12707,7 +12707,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Feat: Quick Cast",
-      publication: "Urban Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "6",
       category:    "Benefit",
       subcategory: "",
@@ -12755,7 +12755,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Feat: Strength of Will",
-      publication: "Urban Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "6",
       category:    "Benefit",
       subcategory: "",
@@ -12859,7 +12859,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Occult Secrets",
-      publication: "Urban Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "6",
       category:    "Benefit",
       subcategory: "",
@@ -12891,7 +12891,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Preternatural Awareness",
-      publication: "Urban Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "6",
       category:    "Benefit",
       subcategory: "",
@@ -12915,7 +12915,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Righteous Anger",
-      publication: "Urban Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "6",
       category:    "Benefit",
       subcategory: "",
@@ -12995,7 +12995,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Virtuoso",
-      publication: "Urban Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "6",
       category:    "Benefit",
       subcategory: "",
@@ -23485,7 +23485,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Great Weapon",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "11",
       category:    "Skill",
       subcategory: "Military Skill",
@@ -23509,7 +23509,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hand Weapon",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "11",
       category:    "Skill",
       subcategory: "Military Skill",
@@ -23589,7 +23589,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rifle",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "11",
       category:    "Skill",
       subcategory: "Military Skill",
@@ -23629,7 +23629,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Thrown Weapon",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "11",
       category:    "Skill",
       subcategory: "Military Skill",
@@ -23653,7 +23653,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Unarmed Combat",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "11",
       category:    "Skill",
       subcategory: "Military Skill",
@@ -23678,7 +23678,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Alchemy",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "12",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -23702,7 +23702,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Animal Handling",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "12",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -23750,7 +23750,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Climbing",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "12",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -23774,7 +23774,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Command",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "12",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -23814,7 +23814,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cryptography",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "12",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -23838,7 +23838,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Deception",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "12",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -23862,7 +23862,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Detection",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "13",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -23990,7 +23990,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Interrogation",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "13",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -24014,7 +24014,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Intimidation",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "13",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -24030,7 +24030,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Investigation",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "13",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -24094,7 +24094,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Lore",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "13",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -24126,7 +24126,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Medicine",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "13",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -24150,7 +24150,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Navigation",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "13",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -24190,7 +24190,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Oratory",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "14",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -24302,7 +24302,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Sneak",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "14",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -24350,7 +24350,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Survival",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "14",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -24374,7 +24374,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Swimming",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "14",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -24406,7 +24406,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tracking",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "14",
       category:    "Skill",
       subcategory: "Occupational Skill",
@@ -24658,7 +24658,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Arcane Bolt",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -24666,7 +24666,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Arcane Bonds",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -24698,7 +24698,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Arcane Strike",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -24810,7 +24810,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bad Blood",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -24834,7 +24834,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Banishing Ward",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -25234,7 +25234,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Accurate Strike",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -25242,7 +25242,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Bleeder",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -25250,7 +25250,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Blood Burst",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -25258,7 +25258,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Brain Damage",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -25266,7 +25266,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Brutal Strike",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -25274,7 +25274,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Dispel",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -25282,7 +25282,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Grievous Strike",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -25290,7 +25290,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Hobbler",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -25298,7 +25298,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Invigoration",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -25306,7 +25306,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Blood Magic: Weakness",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -25402,7 +25402,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Boundless Charge",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "27",
       category:    "Spell",
       subcategory: "",
@@ -25586,7 +25586,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cloak of Fear",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -25618,7 +25618,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Cold Blooded",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -25722,7 +25722,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Dark Water",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -25858,7 +25858,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Devil's Tongue",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -26274,7 +26274,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Flesh Eater",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -26306,7 +26306,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Fog of War",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -26634,7 +26634,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Guided Blade",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -26690,7 +26690,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hand of Fate",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -26794,7 +26794,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Hex Blast",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -27122,7 +27122,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Inhospitable Ground",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -27362,7 +27362,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Marked for Death",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -27442,7 +27442,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Mist Shroud",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -27578,7 +27578,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Occultation",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -27618,7 +27618,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Parasite",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -27674,7 +27674,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Phantasm",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -27898,7 +27898,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Quagmire",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
@@ -28106,7 +28106,7 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Rift",
-      publication: "Unleashed Adventure Kit Rulebook",
+      publication: "Unleashed Game Master Toolkit Rulebook",
       page:        "28",
       category:    "Spell",
       subcategory: "",
