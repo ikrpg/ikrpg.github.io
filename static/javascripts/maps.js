@@ -28,7 +28,9 @@ var ikrpg = ikrpg || {};
   
   
   function fillLibrary() {
-    appendTiles();
+    appendHWTiles();
+    appendCTTiles();
+    appendGMTiles();
     append10x3tokens();
     append1x1Stokens();
     append4x3tokens();
@@ -36,13 +38,39 @@ var ikrpg = ikrpg || {};
     appendSmallBases();
     appendMediumBases();
   
-    function appendTiles() {
+    function appendHWTiles() {
       $.each(['01', '02', '03', '04', '05', '06', '07', '08', '09'], function(i, id) {
         $.each(['A', 'B'], function(j, key) {
-          $('#tiles').append('\
+          $('#hw-boards').append('\
             <li class="tile">\
               <h4>HW Board '+key+id+'</h4>\
               <img class="lib-img tile" src="/static/images/maps/tiles/HW-Board-'+key+id+'.png" />\
+            </li>\
+          ');
+        });
+      });
+    }
+    
+    function appendCTTiles() {
+      $.each(['01', '02', '03', '04', '05', '06', '07', '08', '09'], function(i, id) {
+        $.each(['A', 'B'], function(j, key) {
+          $('#ct-boards').append('\
+            <li class="tile">\
+              <h4>CT Board '+key+id+'</h4>\
+              <img class="lib-img tile" src="/static/images/maps/tiles/CT-Board-'+key+id+'.png" />\
+            </li>\
+          ');
+        });
+      });
+    }
+    
+    function appendGMTiles() {
+      $.each(['01', '02', '03', '04'], function(i, id) {
+        $.each(['A', 'B'], function(j, key) {
+          $('#gm-boards').append('\
+            <li class="tile">\
+              <h4>GM Board '+key+id+'</h4>\
+              <img class="lib-img tile" src="/static/images/maps/tiles/GM-Board-'+key+id+'.png" />\
             </li>\
           ');
         });

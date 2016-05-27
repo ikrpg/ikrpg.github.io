@@ -100,7 +100,7 @@
     font-size: 16px;
 }
 
-#maps #img-library ul#tiles li.tile img {
+#maps #img-library ul.tiles li.tile img {
     width: calc(1600px / 10);
 }
 
