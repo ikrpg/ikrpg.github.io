@@ -840,10 +840,30 @@ tags: [Version 1]
 
 
 <h3>
-    Advancement Points:
+    Character Background:
+    <select id="character-background-select">
+        <option value="empty"></option>
+    </select>
 </h3>
 
 <table class="epic character-generator-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody id="character-background-data" class="character-generator-data">
+        
+    </tbody>
+</table>
+
+
+<h3>
+    Advancement Points:
+</h3>
+
+<table class="hero character-generator-table">
     <thead>
         <tr>
             <th>Attribute</th>
@@ -910,7 +930,7 @@ tags: [Version 1]
     </select>
 </h3>
 
-<table class="hero character-generator-table">
+<table class="veteran character-generator-table">
     <thead>
         <tr>
             <th>Attribute</th>

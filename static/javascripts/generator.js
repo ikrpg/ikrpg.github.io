@@ -5498,6 +5498,48 @@ var ikrpg = ikrpg || {};
         list(_gear, ["Duskwolf", "tack"])
       ]
     };
+    var characterBackgrounds = {
+      "Civil War Veteran": [
+        listItem(_notes, "Character Background: Civil War Veteran"),
+        listItem(_notes, "Character Background Prerequisite: Cygnaran character"),
+        listItem(_notes, "Considered a Hero: +1 on non-Intimidation skill rolls with patriotic Cygnarans."),
+        listItem(_notes, "Decorated Veteran: Has received commendations or impressive collection of scars."),
+        listItem(_notes, "War Stories: Add Oratory 3 to list of potential Occupational skills.")
+      ],
+      "Dragon-Marked": [
+        listItem(_notes, "Character Background: Dragon-Marked"),
+        listItem(_notes, "Character Background Prerequisite: Cygnaran character"),
+        choices(arrayPairs(_benefits, [
+          "Tough"]), "If you choose Tough,<br />do not choose a benefit<br />from your archetype"),
+        listItem(_notes, "Blight Scarred: The character gains +1 to Intimidation skill rolls"),
+        listItem(_notes, "Nothing Scares Me Anymore: Roll an additional die to resist Terror."),
+        listItem(_notes, "This character always has the higher stat + Intimidation total if another character uses Intimidation.")
+      ],
+      "Hammer Veteran": [
+        listItem(_notes, "Character Background: Hammer Veteran"),
+        listItem(_notes, "Character Background Prerequisite: Any non-Military Officer Khadoran character."),
+        listItem(_notes, "Distrust of Superiors: –1 penalty on all non-Intimidation social rolls involving officers (also Military Officers)."),
+        listItem(_notes, "Veteran Wisdom: +2 to command range and a +1 bonus to social rolls involving other soldiers."),
+        listItem(_notes, "Will to Survive: Add Survival 2 to list of potential Occupational skills.")
+      ],
+      "Lord of Umbrey": [
+        listItem(_notes, "Character Background: Lord of Umbrey"),
+        listItem(_notes, "Character Background Prerequisite: Character must be Khadoran and either Aristocrat, Horseman, Iron Fang, Knight, Man-O-War, and Khadoran career options."),
+        listItem(_notes, "Air of Authority: While in Umbrean lands, the character can expect hospitality from local authorities and nobles"),
+        listItem(_notes, "Knowledge of the Old Ways: Add Etiquette 3 and Lore (history) 3 to list of potential Occupational skills."),
+        choices([
+          arrayPair(_gear, "Karpathan destrier"),
+          arrayPair(_gear, "Pozdyov warhorse"),
+          arrayPair(_abilities, "Trained Rider")], "Choose either the destrier<br />or the warhorse.<br />Choose Trained Rider<br />if not already known")
+      ],
+      "Vanquished Soldier": [
+        listItem(_notes, "Character Background: Vanquished Soldier"),
+        listItem(_notes, "Character Background Prerequisite: Any non-Military Officer Khadoran character."),
+        listItem(_notes, "Black Reputation: –1 penalty on all non-Intimidation social rolls for patriotic Cygnarans and +1 to Intimidation."),
+        listItem(_notes, "Prison Contacts: Add Connection (criminal) to list of possible connections. Remove all other possible connections."),
+        listItem(_notes, "War Hardens a Man: Add 2 additional damage circles in the PHY life spiral.")
+      ]
+    };
     var adventuringCompanies = {
       "Agents of the Crucible": [
         listItem(_notes, "Adventuring Company: Agents of the Crucible"),
@@ -6041,6 +6083,7 @@ var ikrpg = ikrpg || {};
     generator.castes = castes;
     generator.archetypes = archetypes;
     generator.careers = careers;
+    generator.characterBackgrounds = characterBackgrounds;
     generator.adventuringCompanies = adventuringCompanies;
     
   })();
@@ -6061,6 +6104,7 @@ var ikrpg = ikrpg || {};
     $.each(ikrpg.generator.races, addOption("#race-select"));
     $.each(ikrpg.generator.castes, addOption("#caste-select"));
     $.each(ikrpg.generator.archetypes, addOption("#archetype-select"));
+    $.each(ikrpg.generator.characterBackgrounds, addOption("#character-background-select"));
     
     
     var index = ikrpg.index.data;
@@ -6202,6 +6246,7 @@ var ikrpg = ikrpg || {};
       $("#archetype-select").change(lookupAndFillOut("#archetype-select", "#archetype-data", ikrpg.generator.archetypes));
       $("#career1-select").change(lookupAndFillOut("#career1-select", "#career1-data", ikrpg.generator.careers));
       $("#career2-select").change(lookupAndFillOut("#career2-select", "#career2-data", ikrpg.generator.careers));
+      $("#character-background-select").change(lookupAndFillOut("#character-background-select", "#character-background-data", ikrpg.generator.characterBackgrounds));
       $("#adventuring-company-select").change(lookupAndFillOut("#adventuring-company-select", "#adventuring-company-data", ikrpg.generator.adventuringCompanies));
             
     })();
