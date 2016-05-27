@@ -10,7 +10,7 @@ var ikrpg = ikrpg || {};
 	
   // Ability
   // Adventure
-  //     Scenario, Encounter, Scenario Setting, Hazard
+  //     Scenario, Encounter, Scenario Setting
   // Alchemy
   //     Alchemical Ingredient, Alchemical Item, Field Alchemy, Grenate
   // Character Creation
@@ -46,7 +46,7 @@ var ikrpg = ikrpg || {};
   // Steamjack
   //     Steamjack/Vector, Chassis, Cortex, Melee Weapon, Ranged Weapon, Gear/Upgrade, Tune-Up
   // Survival
-  //     Shelter, Trap
+  //     Shelter, Trap, Survival Item, Hazard
   // Thrall
   //     Thrall Type, Thrall Upgrade
   // Vehicle
@@ -5769,6 +5769,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Act of Murder",
+      publication: "Immortality",
+      page:        "32",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "FMF"
+    },
+    {
       name:        "Bad Moon Rising",
       publication: "Bad Moon Rising",
       page:        "1",
@@ -5791,6 +5799,14 @@ var ikrpg = ikrpg || {};
       category:    "Adventure",
       subcategory: "Scenario",
       game:        "IKU"
+    },
+    {
+      name:        "Dead in the Water",
+      publication: "Immortality",
+      page:        "15",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "FMF"
     },
     {
       name:        "Down in the Dregs",
@@ -5831,6 +5847,14 @@ var ikrpg = ikrpg || {};
       category:    "Adventure",
       subcategory: "Scenario",
       game:        "IKU"
+    },
+    {
+      name:        "Immortality",
+      publication: "Immortality",
+      page:        "1",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "FMF"
     },
     {
       name:        "Immortality Part 1: Undeath Metal",
@@ -5881,6 +5905,30 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Making Tracks",
+      publication: "Immortality",
+      page:        "47",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "FMF"
+    },
+    {
+      name:        "Many Deaths, One Life",
+      publication: "Immortality",
+      page:        "67",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "FMF"
+    },
+    {
+      name:        "Mercilessly Alive",
+      publication: "Immortality",
+      page:        "52",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "FMF"
+    },
+    {
       name:        "Once Upon a Time in Khadoran-Occupied Llael",
       publication: "No Quarter #65",
       page:        "98",
@@ -5890,8 +5938,32 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Spirit in Steel",
+      publication: "Immortality",
+      page:        "5",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "FMF"
+    },
+    {
+      name:        "Spirit in Steel",
       publication: "No Quarter #44",
       page:        "62",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "FMF"
+    },
+    {
+      name:        "Stone Cold",
+      publication: "Immortality",
+      page:        "82",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "FMF"
+    },
+    {
+      name:        "The Death and Life of Vladislav Abrosim",
+      publication: "Immortality",
+      page:        "98",
       category:    "Adventure",
       subcategory: "Scenario",
       game:        "FMF"
@@ -5919,6 +5991,22 @@ var ikrpg = ikrpg || {};
       category:    "Adventure",
       subcategory: "Scenario",
       game:        "IKU"
+    },
+    {
+      name:        "Undeath Metal",
+      publication: "Immortality",
+      page:        "22",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "FMF"
+    },
+    {
+      name:        "Wracking Havoc",
+      publication: "Immortality",
+      page:        "79",
+      category:    "Adventure",
+      subcategory: "Scenario",
+      game:        "FMF"
     },
     // ##### Adventure > Encounter ##### \\
     {
@@ -6153,183 +6241,6 @@ var ikrpg = ikrpg || {};
       category:    "Adventure",
       subcategory: "Scenario Setting",
       game:        "FMF"
-    },
-    // ##### Adventure > Hazard ##### \\
-    {
-      name:        "Avalanche",
-      publication: "Unleashed Core Rules",
-      page:        "227",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Blizzard",
-      publication: "Unleashed Core Rules",
-      page:        "228",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Bogs",
-      publication: "Unleashed Core Rules",
-      page:        "228",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Cane Leeches",
-      publication: "Unleashed Core Rules",
-      page:        "228",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Cave-Ins",
-      publication: "Unleashed Core Rules",
-      page:        "227",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Dense Undergrowth",
-      publication: "Unleashed Core Rules",
-      page:        "225",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Flooded River",
-      publication: "Unleashed Core Rules",
-      page:        "226",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Fog",
-      publication: "Unleashed Core Rules",
-      page:        "229",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Forest Fires",
-      publication: "Unleashed Core Rules",
-      page:        "226",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Heat Wave",
-      publication: "Unleashed Core Rules",
-      page:        "229",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Heavy Rain",
-      publication: "Unleashed Core Rules",
-      page:        "229",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Ice Sheets",
-      publication: "Unleashed Core Rules",
-      page:        "229",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Marsh Gas",
-      publication: "Unleashed Core Rules",
-      page:        "228",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Pit Traps",
-      publication: "Fridays Unleashed 1/30/2015",
-      page:        "1",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Poisonous Plants",
-      publication: "Fridays Unleashed 1/16/2014",
-      page:        "1",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Quicksand",
-      publication: "Unleashed Core Rules",
-      page:        "228",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Scree",
-      publication: "Unleashed Core Rules",
-      page:        "228",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Severe Winds",
-      publication: "Unleashed Core Rules",
-      page:        "229",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Snowdrifts",
-      publication: "Unleashed Core Rules",
-      page:        "229",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Thin Air",
-      publication: "Unleashed Core Rules",
-      page:        "228",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Tree Deadfall",
-      publication: "Unleashed Core Rules",
-      page:        "225",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
-    },
-    {
-      name:        "Wounded Razor Boar",
-      publication: "Fridays Unleashed 1/30/2015",
-      page:        "1",
-      category:    "Adventure",
-      subcategory: "Hazard",
-      game:        "IKU"
     },
     // ##### Alchemy > Alchemical Ingredient ##### \\
     {
@@ -10553,6 +10464,14 @@ var ikrpg = ikrpg || {};
       category:    "Armory",
       subcategory: "Melee Weapon",
       game:        "IKU"
+    },
+    {
+      name:        "Mechanoflail",
+      publication: "Immortality",
+      page:        "28",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "FMF"
     },
     {
       name:        "Mechanoflail",
@@ -16611,6 +16530,14 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Kasparovik, Optifex",
+      publication: "Immortality",
+      page:        "27",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Kasparovik, Optifex",
       publication: "No Quarter #53",
       page:        "105",
       category:    "Individual",
@@ -16925,6 +16852,14 @@ var ikrpg = ikrpg || {};
       name:        "Vinter Raelthorne IV",
       publication: "No Quarter #60",
       page:        "57",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Vladislav Abrosim",
+      publication: "Immortality",
+      page:        "6",
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
@@ -17959,6 +17894,14 @@ var ikrpg = ikrpg || {};
     // ##### Mechanika > Mechanikal Weapon ##### \\
     {
       name:        "Andrei's Pistol",
+      publication: "Immortality",
+      page:        "28",
+      category:    "Mechanika",
+      subcategory: "Mechanikal Weapon",
+      game:        "FMF"
+    },
+    {
+      name:        "Andrei's Pistol",
       publication: "No Quarter #53",
       page:        "107",
       category:    "Mechanika",
@@ -18983,6 +18926,14 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bowden's Guards",
+      publication: "Immortality",
+      page:        "11",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Bowden's Guards",
       publication: "No Quarter #44",
       page:        "68",
       category:    "Monster",
@@ -19129,6 +19080,14 @@ var ikrpg = ikrpg || {};
       name:        "Crucible Guards (Duelist/Man-at-Arms)",
       publication: "Fools Rush In",
       page:        "13",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Crypt Spider",
+      publication: "Immortality",
+      page:        "91",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -19455,6 +19414,14 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Elimination Servitor",
+      publication: "Immortality",
+      page:        "27",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Elimination Servitor",
       publication: "No Quarter #53",
       page:        "105",
       category:    "Monster",
@@ -19679,6 +19646,14 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Guards of Fort Veknost",
+      publication: "Immortality",
+      page:        "93",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Guards of Fort Veknost",
       publication: "No Quarter #57",
       page:        "101",
       category:    "Monster",
@@ -19711,8 +19686,24 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "House Kabalis Commander",
+      publication: "Immortality",
+      page:        "45",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "House Kabalis Commander",
       publication: "No Quarter #54",
       page:        "109",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "House Kabalis Guard",
+      publication: "Immortality",
+      page:        "44",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -19727,8 +19718,24 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "House Kabalis Mercenary",
+      publication: "Immortality",
+      page:        "43",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "House Kabalis Mercenary",
       publication: "No Quarter #54",
       page:        "108",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "House Kabalis Rifleman",
+      publication: "Immortality",
+      page:        "44",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -19849,6 +19856,22 @@ var ikrpg = ikrpg || {};
       name:        "Lethean",
       publication: "Monsternomicon",
       page:        "54",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Loyalist Guards",
+      publication: "Immortality",
+      page:        "110",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Loyalist Guards",
+      publication: "No Quarter #58",
+      page:        "106",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -20113,6 +20136,14 @@ var ikrpg = ikrpg || {};
       name:        "Riven",
       publication: "No Quarter #45",
       page:        "58",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Robbers",
+      publication: "Immortality",
+      page:        "24",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -20415,6 +20446,14 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tarn Thrullgs",
+      publication: "Immortality",
+      page:        "63",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Tarn Thrullgs",
       publication: "No Quarter #55",
       page:        "105",
       category:    "Monster",
@@ -20503,6 +20542,14 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Thrall Guard",
+      publication: "Immortality",
+      page:        "74",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Thrall Guard",
       publication: "No Quarter #56",
       page:        "99",
       category:    "Monster",
@@ -20567,8 +20614,24 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tower Ambusher",
+      publication: "Immortality",
+      page:        "57",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Tower Ambusher",
       publication: "No Quarter #55",
       page:        "99",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Tower Guard",
+      publication: "Immortality",
+      page:        "57",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -20745,6 +20808,14 @@ var ikrpg = ikrpg || {};
       name:        "Twin Bridge Blade Knifer",
       publication: "Urban Adventure",
       page:        "88",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Unkillable",
+      publication: "Immortality",
+      page:        "75",
       category:    "Monster",
       subcategory: "Monster/Opponent",
       game:        "FMF"
@@ -21744,6 +21815,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Westin Tagge's Soldiers",
+      publication: "Immortality",
+      page:        "81",
+      category:    "Monster",
+      subcategory: "Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Wild Iron Maiden",
       publication: "Monsternomicon",
       page:        "100",
@@ -21762,8 +21841,24 @@ var ikrpg = ikrpg || {};
     // ##### Monster > Solo Monster/Opponent ##### \\
     {
       name:        "Abrosim, the Man",
+      publication: "Immortality",
+      page:        "112",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Abrosim, the Man",
       publication: "No Quarter #58",
       page:        "107",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Abrosim, the Monster",
+      publication: "Immortality",
+      page:        "113",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
@@ -21796,6 +21891,14 @@ var ikrpg = ikrpg || {};
       name:        "Anacia Myetrova",
       publication: "Bad Moon Rising",
       page:        "65",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Antone Pytorevich, Rifleman",
+      publication: "Immortality",
+      page:        "87",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
@@ -21858,6 +21961,14 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Bowden Haightly (Posessed Talon Warjack)",
+      publication: "Immortality",
+      page:        "13",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Bowden Haightly (Posessed Talon Warjack)",
       publication: "No Quarter #44",
       page:        "70",
       category:    "Monster",
@@ -21898,6 +22009,14 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Davon Barlett, Man-at-Arms",
+      publication: "Immortality",
+      page:        "88",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Davon Barlett, Man-at-Arms",
       publication: "No Quarter #57",
       page:        "96",
       category:    "Monster",
@@ -21929,6 +22048,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Fenton Fain",
+      publication: "Immortality",
+      page:        "51",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Fynne di Vinianni",
       publication: "Full Metal Fridays 1/4/4",
       page:        "2",
@@ -21937,8 +22064,32 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Galen Reach",
+      publication: "Immortality",
+      page:        "19",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Gallo Morado, the Crimson Man",
+      publication: "Immortality",
+      page:        "65",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Gallo Morado, the Crimson Man",
       publication: "No Quarter #55",
+      page:        "108",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Gallo Morado, the Crimson Thrall",
+      publication: "Immortality",
       page:        "108",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
@@ -21954,8 +22105,24 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Garrow, Dead",
+      publication: "Immortality",
+      page:        "106",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Garrow, Dead",
       publication: "No Quarter #58",
       page:        "101",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Garrow, Warcaster",
+      publication: "Immortality",
+      page:        "86",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
@@ -21977,7 +22144,15 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Gerrock Scarmaker, Ranger",
+      name:        "Gerrok Scarmaker, Ranger",
+      publication: "Immortality",
+      page:        "88",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Gerrok Scarmaker, Ranger",
       publication: "No Quarter #57",
       page:        "96",
       category:    "Monster",
@@ -21997,7 +22172,7 @@ var ikrpg = ikrpg || {};
       publication: "Wild Adventure",
       page:        "101",
       category:    "Monster",
-      subcategory: "Monster/Opponent",
+      subcategory: "Solo Monster/Opponent",
       game:        "IKU"
     },
     {
@@ -22005,7 +22180,7 @@ var ikrpg = ikrpg || {};
       publication: "No Quarter #64",
       page:        "110",
       category:    "Monster",
-      subcategory: "Monster/Opponent",
+      subcategory: "Solo Monster/Opponent",
       game:        "FMF"
     },
     {
@@ -22113,14 +22288,6 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Loyalist Guards",
-      publication: "No Quarter #58",
-      page:        "106",
-      category:    "Monster",
-      subcategory: "Solo Monster/Opponent",
-      game:        "FMF"
-    },
-    {
       name:        'Luka "Left Fist" Istori',
       publication: "Full Metal Fridays 1/4/4",
       page:        "2",
@@ -22138,8 +22305,24 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Makar Iokav",
+      publication: "Immortality",
+      page:        "45",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Makar Iokav",
       publication: "No Quarter #54",
       page:        "110",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Makar Iokav, Wraith",
+      publication: "Immortality",
+      page:        "102",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
@@ -22233,6 +22416,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Pavor Rostisfenko (Possessed Nomad Warjack)",
+      publication: "Immortality",
+      page:        "108",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Pavor Rostifenko",
       publication: "No Quarter #58",
       page:        "102",
@@ -22255,6 +22446,14 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "IKU"
+    },
+    {
+      name:        "Rina Zavor, Bounty Hunter",
+      publication: "Immortality",
+      page:        "87",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
     },
     {
       name:        "Rina Zavor, Bounty Hunter",
@@ -22289,9 +22488,25 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Solomon",
+      publication: "Immortality",
+      page:        "21",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "Stazi Vietzen",
       publication: "Bad Moon Rising",
       page:        "62",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Stevan Igoris",
+      publication: "Immortality",
+      page:        "36",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
@@ -22361,6 +22576,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "The Four: Derek, Borlan, Fick & Tuttle",
+      publication: "Immortality",
+      page:        "51",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
       name:        "The Lord of the Feast",
       publication: "Wild Adventure",
       page:        "80",
@@ -22370,8 +22593,24 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Tobin Marconi",
+      publication: "Immortality",
+      page:        "77",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Tobin Marconi",
       publication: "No Quarter #56",
       page:        "101",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
+    },
+    {
+      name:        "Valeria Karpov, Steelsoul Protector",
+      publication: "Immortality",
+      page:        "30",
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "FMF"
@@ -22431,6 +22670,14 @@ var ikrpg = ikrpg || {};
       category:    "Monster",
       subcategory: "Solo Monster/Opponent",
       game:        "IKU"
+    },
+    {
+      name:        "Westin Tagge",
+      publication: "Immortality",
+      page:        "80",
+      category:    "Monster",
+      subcategory: "Solo Monster/Opponent",
+      game:        "FMF"
     },
     {
       name:        "Willem 'Three-Fingers' Abershawe",
@@ -31504,6 +31751,279 @@ var ikrpg = ikrpg || {};
       page:        "337",
       category:    "Survival",
       subcategory: "Trap",
+      game:        "IKU"
+    },
+    // ##### Survival > Hazard ##### \\
+    {
+      name:        "Avalanche",
+      publication: "Unleashed Core Rules",
+      page:        "227",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Biting Cold",
+      publication: "Immortality",
+      page:        "92",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "FMF"
+    },
+    {
+      name:        "Blizzard",
+      publication: "Immortality",
+      page:        "83",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "FMF"
+    },
+    {
+      name:        "Blizzard",
+      publication: "Unleashed Core Rules",
+      page:        "228",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Bogs",
+      publication: "Unleashed Core Rules",
+      page:        "228",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Cane Leeches",
+      publication: "Unleashed Core Rules",
+      page:        "228",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Cave-Ins",
+      publication: "Unleashed Core Rules",
+      page:        "227",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Dense Undergrowth",
+      publication: "Unleashed Core Rules",
+      page:        "225",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Flooded River",
+      publication: "Unleashed Core Rules",
+      page:        "226",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Fog",
+      publication: "Unleashed Core Rules",
+      page:        "229",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Forest Fires",
+      publication: "Unleashed Core Rules",
+      page:        "226",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Freezing Rain",
+      publication: "Immortality",
+      page:        "83",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "FMF"
+    },
+    {
+      name:        "Freezing Rain",
+      publication: "Immortality",
+      page:        "92",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "FMF"
+    },
+    {
+      name:        "Heat Wave",
+      publication: "Unleashed Core Rules",
+      page:        "229",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Heavy Rain",
+      publication: "Immortality",
+      page:        "84",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "FMF"
+    },
+    {
+      name:        "Heavy Rain",
+      publication: "Unleashed Core Rules",
+      page:        "229",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Ice Sheets",
+      publication: "Unleashed Core Rules",
+      page:        "229",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Marsh Gas",
+      publication: "Unleashed Core Rules",
+      page:        "228",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Pit Traps",
+      publication: "Fridays Unleashed 1/30/2015",
+      page:        "1",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Poisonous Plants",
+      publication: "Fridays Unleashed 1/16/2014",
+      page:        "1",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Quicksand",
+      publication: "Unleashed Core Rules",
+      page:        "228",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Scree",
+      publication: "Unleashed Core Rules",
+      page:        "228",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Severe Winds",
+      publication: "Unleashed Core Rules",
+      page:        "229",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Snow Showers",
+      publication: "Immortality",
+      page:        "83",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "FMF"
+    },
+    {
+      name:        "Snowdrifts",
+      publication: "Unleashed Core Rules",
+      page:        "229",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Snowstorm",
+      publication: "Immortality",
+      page:        "94",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "FMF"
+    },
+    {
+      name:        "Strong Winds",
+      publication: "Immortality",
+      page:        "84",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "FMF"
+    },
+    {
+      name:        "Strong Winds",
+      publication: "Immortality",
+      page:        "92",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "FMF"
+    },
+    {
+      name:        "Strong Winds",
+      publication: "Immortality",
+      page:        "96",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "FMF"
+    },
+    {
+      name:        "Thin Air",
+      publication: "Unleashed Core Rules",
+      page:        "228",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Thunderstorms",
+      publication: "Immortality",
+      page:        "83",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "FMF"
+    },
+    {
+      name:        "Tree Deadfall",
+      publication: "Unleashed Core Rules",
+      page:        "225",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "IKU"
+    },
+    {
+      name:        "Whiteout",
+      publication: "Immortality",
+      page:        "92",
+      category:    "Survival",
+      subcategory: "Hazard",
+      game:        "FMF"
+    },
+    {
+      name:        "Wounded Razor Boar",
+      publication: "Fridays Unleashed 1/30/2015",
+      page:        "1",
+      category:    "Survival",
+      subcategory: "Hazard",
       game:        "IKU"
     },
     // ##### Thrall > Thrall Type ##### \\
