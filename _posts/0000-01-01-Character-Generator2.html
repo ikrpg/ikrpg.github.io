@@ -1,0 +1,1332 @@
+---
+layout: ikrpg
+redirect_from: "/Character-Sheets/"
+tags: [Version 1]
+---
+
+<link rel="stylesheet" href="/static/stylesheets/content/generator2.css" />
+
+
+<p>
+    These are the (slightly modified) official Full Metal Fantasy and Unleashed character sheets
+    that can be downloaded at <a href="http://privateerpress.com/iron-kingdoms/downloads">privateerpress.com</a>.
+    We have modified them so you can fill, print, and save them in your browser!
+    After you saved them they are only visible to you.
+    We do not have access to your characters.
+    Only you can access them and only in the browser you saved them in.
+</p>
+<p>
+    <strong>Beware:</strong>
+    If you <strong>clear your browser cache</strong>, your character sheets <strong>will be lost</strong>!
+    Additionally, if you <strong>save</strong> a new character sheet <strong>under an existing hero name</strong>, the old sheet <strong>will be lost</strong>!
+</p>
+<p>
+    <em>Tip:</em>
+    Use your browser's print function to print your character sheet!
+</p>
+<p>
+    You can import/export character cards should you need them in a different browser, clear your browser cache or email them to a friend.
+    Exporting cards will give you a gibberish representation of your character that you can copy.
+    Pasting that gibberish into the import/export field and clicking to import the character will update your sheet.
+    Have fun using the character sheets!
+</p>
+
+
+<h2 style="font-weight:300;margin:1em 0 2em 0;">
+    | <a href="javascript:ikrpg.sheet.saveHero();">Save</a> |
+    <a href="#import-export">Import/Export Character</a> |
+</h2>
+
+<form id="import-export">
+    <textarea id="seed"></textarea>
+    <button id="generate-seed">Export seed for current cards</button>
+    <button id="update-seed">Fill out cards using current seed</button>
+</form>
+
+
+<div style="text-align:center;">
+    <table id="characters" class="hero">
+        <thead>
+            <tr>
+                <th>Hero Name</th>
+                <th>Archetype</th>
+                <th>Race</th>
+                <th>Careers</th>
+                <th>Load</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+
+<div style="margin-top:4em;">
+    <strong>Choose your character sheet design:</strong>
+    <ul style="list-style-type:disc;">
+        <li><a id="FMF-bg" href='javascript:$(".character-sheet.iku").removeClass("iku").addClass("fmf");'>Full Metal Fantasy</a> (slightly modified)</li>
+        <li><a id="IKU-bg" href='javascript:$(".character-sheet.fmf").removeClass("fmf").addClass("iku");'>Unleashed</a></li>
+    </ul>
+</div>
+
+
+<form id="character-sheet-page1" class="character-sheet fmf page1">
+    <input class="hero-name" title="Hero's Name" type="text" />
+    <input id="sex" title="Sex" type="text" />
+    <input id="definingcharacteristics" title="Defining Characteristics" type="text" />
+    <input id="weight" title="Weight" type="text" />
+    <input id="archetype" title="Archetype" type="text" />
+    <!--div id="archetype-div">
+        <span id="archetype" contenteditable="true"></span>
+    </div-->
+    <input id="race" title="Race" type="text" />
+    <input id="careers" title="Careers" type="text" />
+    <input id="faith" title="Faith" type="text" />
+    <input id="playername" title="Player Name" type="text" />
+    <input id="height" title="Height" type="text" />
+    <input id="level" title="Level" type="text" />
+    <input id="xp" title="XP" type="text" />
+    <!--div id="portrait"></div-->
+    <input id="phy" title="PHY" type="text" class="stat" />
+    <input id="phymax" title="PHY max" type="text" />
+    <input id="spd" title="SPD" type="text" class="stat" hidden />
+    <input id="computed-spd" title="SPD" type="text" class="stat" value="0" />
+    <input id="spdmax" title="SPD max" type="text" />
+    <input id="str" title="STR" type="text" class="stat" />
+    <input id="strmax" title="STR max" type="text" />
+    <input id="agl" title="AGL" type="text" class="stat" />
+    <input id="aglmax" title="AGL max" type="text" />
+    <input id="prw" title="PRW" type="text" class="stat" />
+    <input id="prwmax" title="PRW max" type="text" />
+    <input id="poi" title="POI" type="text" class="stat" />
+    <input id="poimax" title="POI max" type="text" />
+    <input id="int" title="INT" type="text" class="stat" />
+    <input id="intmax" title="INT max" type="text" />
+    <input id="arc" title="ARC" type="text" class="stat" />
+    <input id="arcmax" title="ARC max" type="text" />
+    <input id="per" title="PER" type="text" class="stat" />
+    <input id="permax" title="PER max" type="text" />
+    <input id="wil" title="WIL" type="text" />
+    <div id="rat1">
+        <input class="name" title="Name" type="text" />
+        <input class="skill" title="Skill" type="hidden" />
+        <input class="rng" title="RNG" type="text" />
+        <input class="rat" title="RAT" type="text" />
+        <input class="ratmod" title="RAT mod" type="hidden" />
+        <input class="pow" title="POW" type="text" />
+        <input class="notes" title="Notes" type="text" />
+        <input class="ammo" title="Ammo" type="text" />
+    </div>
+    <div id="rat2">
+        <input class="name" title="Name" type="text" />
+        <input class="skill" title="Skill" type="hidden" />
+        <input class="rng" title="RNG" type="text" />
+        <input class="rat" title="RAT" type="text" />
+        <input class="ratmod" title="RAT mod" type="hidden" />
+        <input class="pow" title="POW" type="text" />
+        <input class="notes" title="Notes" type="text" />
+        <input class="ammo" title="Ammo" type="text" />
+    </div>
+    <div id="mat1">
+        <input class="name" title="Name" type="text" />
+        <input class="skill" title="Skill" type="hidden" />
+        <input class="mat" title="MAT" type="text" />
+        <input class="matmod" title="RAT mod" type="hidden" />
+        <input class="pow" title="POW" type="hidden" />
+        <input class="ps" title="PS" type="text" />
+        <input class="notes" title="Notes" type="text" />
+    </div>
+    <div id="mat2">
+        <input class="name" title="Name" type="text" />
+        <input class="skill" title="Skill" type="hidden" />
+        <input class="mat" title="MAT" type="text" />
+        <input class="matmod" title="RAT mod" type="hidden" />
+        <input class="pow" title="POW" type="hidden" />
+        <input class="ps" title="PS" type="text" />
+        <input class="notes" title="Notes" type="text" />
+    </div>
+    <div id="mat3">
+        <input class="name" title="Name" type="text" />
+        <input class="free" title="Free" type="text" />
+        <input class="mat" title="MAT" type="text" />
+        <input class="ps" title="POW" type="text" />
+        <input class="notes" title="Notes" type="text" />
+    </div>
+    <input id="defracialmodifier" title="DEF racial modifier" type="text" />
+    <input id="defequipmentmodifiers" title="DEF equipment modifiers" type="text" />
+    <input id="def" title="DEF" type="text" />
+    <input id="armshieldmodifier" title="ARM shield modifier" type="text" />
+    <input id="armarmormodifiers" title="ARM armor modifiers" type="text" />
+    <input id="armothermodifiers" title="ARM other modifiers" type="text" />
+    <input id="arm" title="ARM" type="text" />
+    <input id="iniequipmentmodifiers" title="INI equipment modifiers" type="text" />
+    <input id="iniadditionalmodifiers" title="INI additional modifiers" type="text" />
+    <input id="ini" title="INI" type="text" />
+    <input id="cmdcommandskill" title="CMD" type="text" />
+    <input id="cmdabilitymodifier" title="CMD" type="text" />
+    <input id="cmd" title="CMD" type="text" />
+    <div id="s1" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s2" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s3" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s4" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s5" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s6" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s7" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s8" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s9" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s10" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s11" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s12" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s13" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s14" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s15" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s16" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="s17" class="skill">
+        <input class="title" title="Title" type="text" />
+        <input class="stat" title="Stat" type="hidden" />
+        <input class="base" title="Base" type="text" />
+        <input class="lvl" title="Level" type="text" />
+        <input class="sum" title="Sum" type="text" />
+    </div>
+    <div id="ability1" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability2" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability3" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability4" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability5" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability6" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability7" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability8" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability9" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability10" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability11" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability12" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability13" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability14" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability15" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability16" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability17" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability18" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability19" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="ability20" class="ability">
+        <input class="title" title="Title" type="text" />
+        <textarea class="description" title="Description"></textarea>
+        <input class="page" title="Page" type="text" />
+    </div>
+    <input id="feats" title="Feats" type="text" />
+</form>
+
+
+<form class="character-sheet fmf page2">
+    <div id="gear1" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear2" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear3" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear4" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear5" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear6" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear7" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear8" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear9" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear10" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear11" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear12" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear13" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear14" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear15" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear16" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear17" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear18" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="gear19" class="gear">
+        <input class="title" title="Title" type="text" />
+        <textarea class="benefit" title="Benefit"></textarea>
+    </div>
+    <div id="wornarmor1" class="wornarmor">
+        <input class="name" title="Name" type="text" />
+        <input class="notes" title="Notes" type="text" />
+        <input class="spd" title="SPD" type="text" />
+        <input class="def" title="DEF" type="text" />
+        <input class="arm" title="ARM" type="text" />
+    </div>
+    <div id="wornarmor2" class="wornarmor">
+        <input class="name" title="Name" type="text" />
+        <input class="notes" title="Notes" type="text" />
+        <input class="spd" title="SPD" type="text" />
+        <input class="def" title="DEF" type="text" />
+        <input class="arm" title="ARM" type="text" />
+    </div>
+    <div id="wornarmor3" class="wornarmor">
+        <input class="name" title="Name" type="text" />
+        <input class="notes" title="Notes" type="text" />
+        <input class="spd" title="SPD" type="text" />
+        <input class="def" title="DEF" type="text" />
+        <input class="arm" title="ARM" type="text" />
+    </div>
+    <div id="wornarmor4" class="wornarmor">
+        <input class="name" title="Name" type="text" />
+        <input class="notes" title="Notes" type="text" />
+        <input class="spd" title="SPD" type="text" />
+        <input class="def" title="DEF" type="text" />
+        <input class="arm" title="ARM" type="text" />
+    </div>
+    <div id="connection1" class="connection">
+        <input class="name" title="Name" type="text" />
+        <input class="notes" title="Notes" type="text" />
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="connection2" class="connection">
+        <input class="name" title="Name" type="text" />
+        <input class="notes" title="Notes" type="text" />
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="connection3" class="connection">
+        <input class="name" title="Name" type="text" />
+        <input class="notes" title="Notes" type="text" />
+        <input class="page" title="Page" type="text" />
+    </div>
+    <div id="connection4" class="connection">
+        <input class="name" title="Name" type="text" />
+        <input class="notes" title="Notes" type="text" />
+        <input class="page" title="Page" type="text" />
+    </div>
+    <input id="arcanetradition" title="Arcane Tradition" type="text" />
+    <div id="spell1" class="spell">
+        <input type="text" title="Spell" class="title" />
+        <input type="text" title="Cost" class="cost" />
+        <input type="text" title="RNG" class="rng" />
+        <input type="text" title="AOE" class="aoe" />
+        <input type="text" title="POW" class="pow" />
+        <input type="text" title="UP" class="up" />
+        <input type="text" title="OFF" class="off" />
+        <textarea class="description" title="Description"></textarea>
+    </div>
+    <div id="spell2" class="spell">
+        <input type="text" title="Spell" class="title" />
+        <input type="text" title="Cost" class="cost" />
+        <input type="text" title="RNG" class="rng" />
+        <input type="text" title="AOE" class="aoe" />
+        <input type="text" title="POW" class="pow" />
+        <input type="text" title="UP" class="up" />
+        <input type="text" title="OFF" class="off" />
+        <textarea class="description" title="Description"></textarea>
+    </div>
+    <div id="spell3" class="spell">
+        <input type="text" title="Spell" class="title" />
+        <input type="text" title="Cost" class="cost" />
+        <input type="text" title="RNG" class="rng" />
+        <input type="text" title="AOE" class="aoe" />
+        <input type="text" title="POW" class="pow" />
+        <input type="text" title="UP" class="up" />
+        <input type="text" title="OFF" class="off" />
+        <textarea class="description" title="Description"></textarea>
+    </div>
+    <div id="spell4" class="spell">
+        <input type="text" title="Spell" class="title" />
+        <input type="text" title="Cost" class="cost" />
+        <input type="text" title="RNG" class="rng" />
+        <input type="text" title="AOE" class="aoe" />
+        <input type="text" title="POW" class="pow" />
+        <input type="text" title="UP" class="up" />
+        <input type="text" title="OFF" class="off" />
+        <textarea class="description" title="Description"></textarea>
+    </div>
+    <div id="spell5" class="spell">
+        <input type="text" title="Spell" class="title" />
+        <input type="text" title="Cost" class="cost" />
+        <input type="text" title="RNG" class="rng" />
+        <input type="text" title="AOE" class="aoe" />
+        <input type="text" title="POW" class="pow" />
+        <input type="text" title="UP" class="up" />
+        <input type="text" title="OFF" class="off" />
+        <textarea class="description" title="Description"></textarea>
+    </div>
+    <div id="spell6" class="spell">
+        <input type="text" title="Spell" class="title" />
+        <input type="text" title="Cost" class="cost" />
+        <input type="text" title="RNG" class="rng" />
+        <input type="text" title="AOE" class="aoe" />
+        <input type="text" title="POW" class="pow" />
+        <input type="text" title="UP" class="up" />
+        <input type="text" title="OFF" class="off" />
+        <textarea class="description" title="Description"></textarea>
+    </div>
+    <div id="spell7" class="spell">
+        <input type="text" title="Spell" class="title" />
+        <input type="text" title="Cost" class="cost" />
+        <input type="text" title="RNG" class="rng" />
+        <input type="text" title="AOE" class="aoe" />
+        <input type="text" title="POW" class="pow" />
+        <input type="text" title="UP" class="up" />
+        <input type="text" title="OFF" class="off" />
+        <textarea class="description" title="Description"></textarea>
+    </div>
+    <div id="spell8" class="spell">
+        <input type="text" title="Spell" class="title" />
+        <input type="text" title="Cost" class="cost" />
+        <input type="text" title="RNG" class="rng" />
+        <input type="text" title="AOE" class="aoe" />
+        <input type="text" title="POW" class="pow" />
+        <input type="text" title="UP" class="up" />
+        <input type="text" title="OFF" class="off" />
+        <textarea class="description" title="Description"></textarea>
+    </div>
+    <div id="mechanika1" class="mechanika">
+        <input type="text" title="Housing" class="housing" />
+        <input type="text" title="Runeplate" class="runeplate" />
+        <input type="text" title="Capacitor" class="capacitor" />
+        <input type="text" title="Notes" class="notes" />
+    </div>
+    <div id="mechanika2" class="mechanika">
+        <input type="text" title="Housing" class="housing" />
+        <input type="text" title="Runeplate" class="runeplate" />
+        <input type="text" title="Capacitor" class="capacitor" />
+        <input type="text" title="Notes" class="notes" />
+    </div>
+    <div id="mechanika3" class="mechanika">
+        <input type="text" title="Housing" class="housing" />
+        <input type="text" title="Runeplate" class="runeplate" />
+        <input type="text" title="Capacitor" class="capacitor" />
+        <input type="text" title="Notes" class="notes" />
+    </div>
+    <div id="mechanika4" class="mechanika">
+        <input type="text" title="Housing" class="housing" />
+        <input type="text" title="Runeplate" class="runeplate" />
+        <input type="text" title="Capacitor" class="capacitor" />
+        <input type="text" title="Notes" class="notes" />
+    </div>
+    <div id="mechanika5" class="mechanika">
+        <input type="text" title="Housing" class="housing" />
+        <input type="text" title="Runeplate" class="runeplate" />
+        <input type="text" title="Capacitor" class="capacitor" />
+        <input type="text" title="Notes" class="notes" />
+    </div>
+    <div id="runeplate1" class="runeplate">
+        <input type="text" title="Rune Plate" class="title" />
+        <input type="text" title="Benefit" class="benefit" />
+    </div>
+    <div id="runeplate2" class="runeplate">
+        <input type="text" title="Rune Plate" class="title" />
+        <input type="text" title="Benefit" class="benefit" />
+    </div>
+    <div id="runeplate3" class="runeplate">
+        <input type="text" title="Rune Plate" class="title" />
+        <input type="text" title="Benefit" class="benefit" />
+    </div>
+    <div id="runeplate4" class="runeplate">
+        <input type="text" title="Rune Plate" class="title" />
+        <input type="text" title="Benefit" class="benefit" />
+    </div>
+    <div id="capacitor1" class="capacitor">
+        <input type="text" title="Capacitor" class="title" />
+        <input type="text" title="Charges" class="charges" />
+    </div>
+    <div id="capacitor2" class="capacitor">
+        <input type="text" title="Capacitor" class="title" />
+        <input type="text" title="Charges" class="charges" />
+    </div>
+    <div id="capacitor3" class="capacitor">
+        <input type="text" title="Capacitor" class="title" />
+        <input type="text" title="Charges" class="charges" />
+    </div>
+    <div id="capacitor4" class="capacitor">
+        <input type="text" title="Capacitor" class="title" />
+        <input type="text" title="Charges" class="charges" />
+    </div>
+    <div id="note1" class="note">
+        <input type="text" title="Text" class="text" />
+    </div>
+    <div id="note2" class="note">
+        <input type="text" title="Text" class="text" />
+    </div>
+    <div id="note3" class="note">
+        <input type="text" title="Text" class="text" />
+    </div>
+    <div id="note4" class="note">
+        <input type="text" title="Text" class="text" />
+    </div>
+    <div id="note5" class="note">
+        <input type="text" title="Text" class="text" />
+    </div>
+    <div id="note6" class="note">
+        <input type="text" title="Text" class="text" />
+    </div>
+    <div id="note7" class="note">
+        <input type="text" title="Text" class="text" />
+    </div>
+    <div id="note8" class="note">
+        <input type="text" title="Text" class="text" />
+    </div>
+    <div id="note9" class="note">
+        <input type="text" title="Text" class="text" />
+    </div>
+    <div id="note10" class="note">
+        <input type="text" title="Text" class="text" />
+    </div>
+    <div id="note11" class="note">
+        <input type="text" title="Text" class="text" />
+    </div>
+    <div id="note12" class="note">
+        <input type="text" title="Text" class="text" />
+    </div>
+    <input type="text" title="Permanent Injury" id="permanentinjury1" />
+    <input type="text" title="Permanent Injury" id="permanentinjury2" />
+    <input type="text" title="Permanent Injury" id="permanentinjury3" />
+    <input type="text" title="Spoken Language" id="spokenlanguage1" />
+    <input type="text" title="Spoken Language" id="spokenlanguage2" />
+    <input type="text" title="Spoken Language" id="spokenlanguage3" />
+    <input type="text" title="Religious Belief" id="religiousbelief1" />
+    <input type="text" title="Religious Belief" id="religiousbelief2" />
+    <input type="text" title="Religious Belief" id="religiousbelief3" />
+    <input type="text" title="Gold" id="gold" />
+</form>
+
+
+
+<h2>Character Generator <!--span style="font-size:13px;vertical-align:super;color:#d24d33;">BETA</span--></h2>
+<p>
+    We always loved creating diverse characters for role playing games.
+    And (maybe much like yours?) the vast of our characters remain concepts and are never played.
+    So when you are creating lots and lots of characters you need tools that make your life easier.
+    This character generator is built to support you in exactly that!
+</p>
+<p>
+    It allows you to fill out parts of the character sheet automatically instead of filling all values yourself (e.g. it will autofill weapons and spells) which saves you time.
+    However, it is not meant to be a full blown character manager that would help you spending XP after character creation.
+    Here it differs from the Excel Generator also available for IKRPG.
+    This is not an oversight but a design choice which makes it much easier to maintain and extend the generator.
+    Here is a list of what the character generator does for you:
+</p>
+<p>
+    <ul>
+        <li>It fills all values for the chosen races, castes, archetypes, careers, and adventuring companies</li>
+        <li>It computes DEF, ARM, Initiative, Command Range, Willpower, MAT, P+S, RAT, and Skill totals</li>
+        <li>It gives you dropdown menus for ranged/melee weapons, skills, abilities/benefits, worn armor, spells, rune plates, and capacitors (we use the names from our index, so a Tharn Axe is an "Axe, Tharn")</li>
+        <li>It includes all races, castes, archetypes, careers, career options, and adventuring companies from the index</li>
+    </ul>
+</p>
+<p>
+    Have fun creating your IKRPG characters!
+</p>
+<p>
+    <strong>Beware:</strong>
+    If you <strong>generate a character</strong>, the entries in your <strong>character sheet will be replaced</strong>!
+</p>
+
+
+<h3>
+    Race:
+    <select id="race-select">
+        <option value="empty"></option>
+    </select>
+</h3>
+
+<table class="hero character-generator-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody id="race-data" class="character-generator-data">
+        
+    </tbody>
+</table>
+
+
+<h3>
+    Caste:
+    <select id="caste-select">
+        <option value="empty"></option>
+    </select>
+</h3>
+
+<table class="veteran character-generator-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody id="caste-data" class="character-generator-data">
+        
+    </tbody>
+</table>
+
+
+<h3>
+    Archetype:
+    <select id="archetype-select">
+        <option value="empty"></option>
+    </select>
+</h3>
+
+<table class="epic character-generator-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody id="archetype-data" class="character-generator-data">
+        
+    </tbody>
+</table>
+
+
+<h3>
+    Career 1:
+    <select id="career1-select">
+        <option value="empty"></option>
+    </select>
+</h3>
+
+<table class="hero character-generator-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody id="career1-data" class="character-generator-data">
+        
+    </tbody>
+</table>
+
+
+<h3>
+    Career 2:
+    <select id="career2-select">
+        <option value="empty"></option>
+    </select>
+</h3>
+
+<table class="veteran character-generator-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody id="career2-data" class="character-generator-data">
+        
+    </tbody>
+</table>
+
+
+<h3>
+    Character Background:
+    <select id="character-background-select">
+        <option value="empty"></option>
+    </select>
+</h3>
+
+<table class="epic character-generator-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody id="character-background-data" class="character-generator-data">
+        
+    </tbody>
+</table>
+
+
+<h3>
+    Advancement Points:
+</h3>
+
+<table class="hero character-generator-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody id="advancement-points-data" class="character-generator-data">
+        <tr>
+            <td><label>Choose 1:</label></td>
+            <td>
+                <select multiple>
+                    <option class="PHY" data-type="number" value="1">PHY: 1</option>
+                    <option class="SPD" data-type="number" value="1">SPD: 1</option>
+                    <option class="STR" data-type="number" value="1">STR: 1</option>
+                    <option class="AGL" data-type="number" value="1">AGL: 1</option>
+                    <option class="PRW" data-type="number" value="1">PRW: 1</option>
+                    <option class="POI" data-type="number" value="1">POI: 1</option>
+                    <option class="INT" data-type="number" value="1">INT: 1</option>
+                    <option class="ARC" data-type="number" value="1">ARC: 1</option>
+                    <option class="PER" data-type="number" value="1">PER: 1</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Choose 1:</label></td>
+            <td>
+                <select multiple>
+                    <option class="PHY" data-type="number" value="1">PHY: 1</option>
+                    <option class="SPD" data-type="number" value="1">SPD: 1</option>
+                    <option class="STR" data-type="number" value="1">STR: 1</option>
+                    <option class="AGL" data-type="number" value="1">AGL: 1</option>
+                    <option class="PRW" data-type="number" value="1">PRW: 1</option>
+                    <option class="POI" data-type="number" value="1">POI: 1</option>
+                    <option class="INT" data-type="number" value="1">INT: 1</option>
+                    <option class="ARC" data-type="number" value="1">ARC: 1</option>
+                    <option class="PER" data-type="number" value="1">PER: 1</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Choose 1:</label></td>
+            <td>
+                <select multiple>
+                    <option class="PHY" data-type="number" value="1">PHY: 1</option>
+                    <option class="SPD" data-type="number" value="1">SPD: 1</option>
+                    <option class="STR" data-type="number" value="1">STR: 1</option>
+                    <option class="AGL" data-type="number" value="1">AGL: 1</option>
+                    <option class="PRW" data-type="number" value="1">PRW: 1</option>
+                    <option class="POI" data-type="number" value="1">POI: 1</option>
+                    <option class="INT" data-type="number" value="1">INT: 1</option>
+                    <option class="ARC" data-type="number" value="1">ARC: 1</option>
+                    <option class="PER" data-type="number" value="1">PER: 1</option>
+                </select>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<h3>
+    Adventuring Company:
+    <select id="adventuring-company-select">
+        <option value="empty"></option>
+    </select>
+</h3>
+
+<table class="veteran character-generator-table">
+    <thead>
+        <tr>
+            <th>Attribute</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody id="adventuring-company-data" class="character-generator-data">
+        
+    </tbody>
+</table>
+
+
+<div><input id="generator-submit" type="submit" value="Generate Character" /></div>
+
+
+
+<h2 style="margin-top: 10em;">Future Plans</h2>
+
+<p>
+    The following tables contain features that are planned for the character generator
+    and either will be implemented soonish or did not make it into the current version.
+</p>
+
+<h3>Simple Features</h3>
+
+<table class="hero">
+    <thead>
+        <tr>
+            <th>Number</th>
+            <th>Feature</th>
+            <th>Dependencies</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody id="features-simple">
+        <tr>
+            <td>S010</td>
+            <td>Add all races, careers, etc.</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S030</td>
+            <td>Fill out Skill Parent Set Value</td>
+            <td>M020</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S040</td>
+            <td>Compute Skill sum</td>
+            <td>S030</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S070</td>
+            <td>Fill Melee Weapon data</td>
+            <td>M050</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S080</td>
+            <td>Fill Ranged Weapon data</td>
+            <td>M060</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S100</td>
+            <td>Fill Languages</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S130</td>
+            <td>Use Skill DB on change of Skill name/value</td>
+            <td>M020</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S140</td>
+            <td>Use Spell DB on change of Spell name</td>
+            <td>M160</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S150</td>
+            <td>Fill out Spell data</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S170</td>
+            <td>Worn Armor Autofill</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S180</td>
+            <td>Melee Weapon Autofill</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S190</td>
+            <td>Ranged Weapon Autofill</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S200</td>
+            <td>Add Benefits to Index</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>S020</td>
+            <td>"overflow" for input fields</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>S050</td>
+            <td>Benefit descriptions and pages</td>
+            <td>M030</td>
+            <td>Pages Done</td>
+        </tr>
+        <tr>
+            <td>S060</td>
+            <td>Ability descriptions and pages</td>
+            <td>M040</td>
+            <td>Pages Done</td>
+        </tr>
+        <tr>
+            <td>S090</td>
+            <td>Fill Arcane Tradition</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>S110</td>
+            <td>Connections descriptions and pages</td>
+            <td>M080</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>S160</td>
+            <td>Add Warcaster Armor/Mechanikal Armor/etc. to Armor DB</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>S170</td>
+            <td>Introduce "Clear Sheet" Button</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Challenging Features</h3>
+
+<table class="veteran">
+    <thead>
+        <tr>
+            <th>Number</th>
+            <th>Feature</th>
+            <th>Dependencies</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody id="features-challenging">
+        <tr>
+            <td>M090</td>
+            <td>Mechanika DB</td>
+            <td>&nbsp;</td>
+            <td>Canceled</td>
+        </tr>
+        <tr>
+            <td>M020</td>
+            <td>Skill DB</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>M110</td>
+            <td>Capacitor DB</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>M050</td>
+            <td>Melee Weapon DB</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>M060</td>
+            <td>Ranged Weapon DB</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>M160</td>
+            <td>Spell DB</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>M010</td>
+            <td>Armor DB</td>
+            <td>&nbsp;</td>
+            <td>Done for regular armor</td>
+        </tr>
+        <tr>
+            <td>M030</td>
+            <td>Benefit DB</td>
+            <td>S200</td>
+            <td>only all names</td>
+        </tr>
+        <tr>
+            <td>M040</td>
+            <td>Ability DB</td>
+            <td>&nbsp;</td>
+            <td>only all names</td>
+        </tr>
+        <tr>
+            <td>M070</td>
+            <td>Gear DB</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>M080</td>
+            <td>Connections DB</td>
+            <td>M170</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>M100</td>
+            <td>Runeplate DB</td>
+            <td>&nbsp;</td>
+            <td>only all names</td>
+        </tr>
+        <tr>
+            <td>M140</td>
+            <td>Character Portraits</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>M170</td>
+            <td>Add Connections to Index</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>M120</td>
+            <td>Steamjack DB</td>
+            <td>&nbsp;</td>
+            <td>Later</td>
+        </tr>
+        <tr>
+            <td>M130</td>
+            <td>Riding DB</td>
+            <td>&nbsp;</td>
+            <td>Later</td>
+        </tr>
+    </tbody>
+</table>
+    
+<h3>Complex Features</h3>
+
+<table class="epic">
+    <thead>
+        <tr>
+            <th>Number</th>
+            <th>Feature</th>
+            <th>Dependencies</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody id="features-complex">
+        <tr>
+            <td>C030</td>
+            <td>Mechanika Autofill</td>
+            <td>M090</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>C040</td>
+            <td>Runeplate Autofill</td>
+            <td>M100</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>C050</td>
+            <td>Capacitor Widget</td>
+            <td>M110</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>C010</td>
+            <td>Track Equipment Modifiers</td>
+            <td>M010, M040, M050, M060, M070</td>
+            <td>worn armor/Shield/Command done</td>
+        </tr>
+        <tr>
+            <td>C020</td>
+            <td>compute DEF, ARM, INI, etc.</td>
+            <td>C010</td>
+            <td>Done for basic modifiers</td>
+        </tr>
+        <tr>
+            <td>C110</td>
+            <td>Add Character Cards as alternative design</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>C060</td>
+            <td>Steamjack Widget</td>
+            <td>M120, C090</td>
+            <td>Later</td>
+        </tr>
+        <tr>
+            <td>C070</td>
+            <td>Riding Widget</td>
+            <td>M130, C100</td>
+            <td>Later</td>
+        </tr>
+        <tr>
+            <td>C080</td>
+            <td>Leveling</td>
+            <td>&nbsp;</td>
+            <td>Later</td>
+        </tr>
+        <tr>
+            <td>C090</td>
+            <td>Steamjack Sheet</td>
+            <td>&nbsp;</td>
+            <td>Later</td>
+        </tr>
+        <tr>
+            <td>C100</td>
+            <td>Riding Sheet</td>
+            <td>&nbsp;</td>
+            <td>Later</td>
+        </tr>
+        <tr>
+            <td>C120</td>
+            <td>Chrome sync for local store</td>
+            <td>&nbsp;</td>
+            <td>Later</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Bugs</h3>
+
+<table class="hero">
+    <thead>
+        <tr>
+            <th>Number</th>
+            <th>Feature</th>
+            <th>Dependencies</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody id="bugs">
+        <tr>
+            <td>B010</td>
+            <td>Some descriptions stay when I generate a new hero.</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>B020</td>
+            <td>Changing font size in mechanika and connections and such.</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>B030</td>
+            <td>Is computed-SPD stored in save()?</td>
+            <td>&nbsp;</td>
+            <td>Done</td>
+        </tr>
+        <tr>
+            <td>B040</td>
+            <td>When the Thrown Weapon Skill is added, missing RAT is not updated.</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+
+<script type="text/javascript" src="/static/javascripts/index.js"></script>
+<script type="text/javascript" src="/static/javascripts/heroic.js"></script>
+<script type="text/javascript" src="/static/javascripts/sheet.js"></script>
+<script type="text/javascript" src="/static/javascripts/generator.js"></script>
