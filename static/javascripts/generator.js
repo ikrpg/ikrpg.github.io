@@ -770,11 +770,10 @@ var ikrpg = ikrpg || {};
         "Feat: Powerful Caster": undefined,
         "Feat: Prescient": undefined,
         "Feat: Revitalize": undefined,
-        "Feat: Shield Breaker": undefined,
-        "Feat: Swashbuckler": undefined,
         "Feat: Quick Cast": undefined,
         "Feat: Quick Thinking": undefined,
         "Feat: Shield Breaker": undefined,
+        "Feat: Swashbuckler": undefined,
         "Feat: Strength of Will": undefined,
         "Feat: Unconventional Warfare": undefined,
         "Feat: Untouchable": undefined,
@@ -801,6 +800,8 @@ var ikrpg = ikrpg || {};
     // ## Abilities DB [all abilities, but only names] ## \\ 
     (function() {
       
+      //Max length = “The maximum description size!“ 29 chars
+
       var abilitiesDB = { // { description: "" }
         "'Jack Marshal": undefined,
         "Abomination": undefined,
@@ -831,7 +832,6 @@ var ikrpg = ikrpg || {};
         "Archer": undefined,
         "Arcing Shot": undefined,
         "Artificer": undefined,
-        "Astute": undefined,
         "Astute": undefined,
         "Athanc Shard": undefined,
         "Authority": undefined,
