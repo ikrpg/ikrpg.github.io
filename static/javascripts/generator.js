@@ -5628,8 +5628,18 @@ var ikrpg = ikrpg || {};
           "Command",
           "Deception",
           "Lore (any)",
-          "Negotiation"]), "Choose 1 if Blackclad"),
-        listItem(_notes, "All non-Blackclad members of the party gain one additional rank in the general skill of their choice"),
+          "Negotiation"]), "Choose 1 if<br />Blackclad"),
+        choices(arrayPairs(_occupational_skills, [
+          "Animal Handling",
+          "Climbing",
+          "Detection",
+          "Driving",
+          "Gambling",
+          "Intimidation",
+          "Jumping",
+          "Lore (any)",
+          "Riding",
+          "Swimming"]), "Choose 1 if<br />not Blackclad")
       ],
       "Crusaders": [
         listItem(_notes, "Adventuring Company: Crusaders"),

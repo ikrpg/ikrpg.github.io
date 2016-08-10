@@ -26,6 +26,7 @@ tmtags
 *.sublime-workspace
 
 # ikrpg
+xcf
 _site
 Makefile
 _posts/0000-01-01-Todo.html
