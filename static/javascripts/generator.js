@@ -489,6 +489,7 @@ var ikrpg = ikrpg || {};
       
       var wornArmorDB = {
         "Alchemist's Leather": { "spd": 0, "def": -1, "arm": 5, "description": "" },
+        "Armored Diving Suit": { "spd": 0, "def": -2, "arm": 7, "description": "stats for underwater" },
         "Armored Great Coat": { "spd": 0, "def": -1, "arm": 5, "description": "" },
         "Assault Kommando Armor": { "spd": 0, "def": -2, "arm": 7, "description": "" },
         "Bastion Heavy Plate": { "spd": -3, "def": -4, "arm": 10, "description": "" },
@@ -534,6 +535,7 @@ var ikrpg = ikrpg || {};
         "Annihilator Blade": { "skill": "Great Weapon", "mat-mod": 0, "pow": 5, "notes": "reach" },
         "Assassin's Blade": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 4, "notes": "+2 backstrike" },
         "Axe": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 3, "notes": "" },
+        "Axe, Boarding": { "skill": "Hand Weapon", "mat-mod": 0, "pow": 3, "notes": "+1 on climbing wood" },
         "Axe, Great": { "skill": "Great Weapon", "mat-mod": 0, "pow": 6, "notes": "Crit: +1 die dmg" },
         "Axe, Horseman's": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 3, "notes": "reach, mounted: at-mod 0, POW 5, +2 charge at" },
         "Axe, Ice": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 2, "notes": "+1 to Climbing rolls" },
@@ -551,6 +553,7 @@ var ikrpg = ikrpg || {};
         "Blessed Lance": { "skill": "Lance", "mat-mod": 0, "pow": 8, "notes": "ignore ARM/DEF spell effects, only charge at, can dmg incorporeal" },
         "Blighted Blade": { "skill": "Hand Weapon", "mat-mod": 2, "pow": 3, "notes": "crit: no tough, p.92" },
         "Bloodtracker Fighting Claw": { "skill": "Hand Weapon", "mat-mod": -2, "pow": 3, "notes": "" },
+        "Boarding Pike": { "skill": "Great Weapon", "mat-mod": 0, "pow": 5, "notes": "reach, enemy: -2 on charge" },
         "Caspian Battleblade": { "skill": "Great Weapon", "mat-mod": 0, "pow": 6, "notes": "1-H: mat-mod -1, POW 4" },
         "Cat's Paw": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 2, "notes": "Crit: Knockout" },
         "Cleft Spear": { "skill": "Great Weapon", "mat-mod": -2, "pow": 5, "notes": "reach, charge: +2 at rolls, Crit: 1 feat for +1 dmg die, 1-H: POW 4" },
@@ -578,6 +581,7 @@ var ikrpg = ikrpg || {};
         "Gaff, Pole": { "skill": "Great Weapon", "mat-mod": -1, "pow": 4, "notes": "reach, Crit: Knockdown on dmg" },
         "Garrote": { "skill": "Unarmed Weapon", "mat-mod": 0, "pow": "–", "notes": "srangle the victim" },
         "Garrote, Clockwork": { "skill": "Unarmed Weapon", "mat-mod": 0, "pow": "–", "notes": "strangles the victim" },
+        "Grappling Hook": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 4, "notes": "range 4'', feat: push target towards" },
         "Halbert": { "skill": "Great Weapon", "mat-mod": 0, "pow": 5, "notes": "reach, +2 charge at, 1-H: at-mod -1, POW 4" },
         "Hand Pick": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 2, "notes": "1 feat: additional dmg die against knocked down targets" },
         "Hooked Great Sword": { "skill": "Great Weapon", "mat-mod": -2, "pow": 6, "notes": "reach, 1-H: POW 5" },
@@ -707,6 +711,8 @@ var ikrpg = ikrpg || {};
         "Pen, Grenade": { "rng": 5, "skill": "Thrown Weapon", "pow": "*", "rat-mod": -2, "notes": "several grenates, KNG p. 244", "ammo": "–" },
         "Pen, Shot": { "rng": 2, "skill": "Pistol", "pow": 8, "rat-mod": -2, "notes": "", "ammo": "1" },
         "Pistol": { "rng": 8, "skill": "Pistol", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "1" },
+        "Pistol, 3-barreled Duckfoot": { "rng": 6, "skill": "Pistol", "pow": 8, "rat-mod": -1, "notes": "Spray, 1 action to reload", "ammo": "1" },
+        "Pistol, 6-barreled Duckfoot": { "rng": 6, "skill": "Pistol", "pow": 11, "rat-mod": -2, "notes": "Spray, 1 action to reload", "ammo": "1" },
         "Pistol, Collapsible": { "rng": 7, "skill": "Pistol", "pow": 10, "rat-mod": -1, "notes": "easy to hide", "ammo": "1" },
         "Pistol, Holdout": { "rng": 4, "skill": "Pistol", "pow": 8, "rat-mod": 1, "notes": "", "ammo": "1" },
         "Pistol, Magelock": { "rng": 10, "skill": "Pistol", "pow": 10, "rat-mod": 0, "notes": "", "ammo": "1" },
@@ -1060,6 +1066,7 @@ var ikrpg = ikrpg || {};
         "Imperishable Conviction": undefined,
         "Impervious Wall Stance": undefined,
         "Improvised Formula": undefined,
+        "In Plain Sight": undefined,
         "Inflict Pain": undefined,
         "Inscribe Formulae": undefined,
         "Inscribe Thrall Rune": undefined,
@@ -1088,6 +1095,7 @@ var ikrpg = ikrpg || {};
         "Man of Iron": undefined,
         "Mark Target": undefined,
         "Marksman": undefined,
+        "Master and Commander": undefined,
         "Master Chymist": undefined,
         "Maul": undefined,
         "Meat Alchemy": undefined,
@@ -4377,6 +4385,23 @@ var ikrpg = ikrpg || {};
         listItem(_gear, "25 sl"),
         listItem(_benefits, "Feat: Revitalize")
       ],
+      "Naval Officer": [
+        listItem(_careers, "Naval Officer"),
+        list(_abilities, [
+          "Battle Plan: Coordinated Strike",
+          "Master and Commander",
+          "Natural Leader"]),
+        listItem(_military_skills, "Hand Weapon"),
+        choices(arrayPairs(_military_skills, [
+          "Great Weapon",
+          "Pistol"]), "Choose 1"),
+        list(_occupational_skills, ["Command", "Navigation", "Sailing", "Swimming"]),
+        number(_gold, 65),
+        listItem(_gear, "officer's uniform"),
+        choices([
+          arrayPair(_ranged_weapons, "Pistol"),
+          arrayPair(_melee_weapons, "Cutlass")], "Choose 1")
+      ],
       "Nihilator": [
         listItem(_careers, "Nihilator"),
         list(_abilities, ["Berserk", "Fearless"]),
@@ -4880,6 +4905,25 @@ var ikrpg = ikrpg || {};
         number(_gold, 25),
         listItem(_melee_weapons, "Halbert"),
         listItem(_armors, "Full Plate")
+      ],
+      "Smuggler": [
+        listItem(_careers, "Smuggler"),
+        list(_abilities, ["Conniver", "In Plain Sight", "Port of Call"]),
+        choices(arrayPairs(_connections, [
+          "criminal",
+          "pirate crew"]), "Choose 1"),
+        choices(arrayPairs(_military_skills, [
+          "Hand Weapon",
+          "Thrown Weapon"]), "Choose 1"),
+        list(_occupational_skills, [
+          "Bribery",
+          "Deception",
+          "Lock Picking",
+          "Lock Picking",
+          "Sailing",
+          "Sneak",
+          "Streetwise"]),
+        number(_gold, 175)
       ],
       "Soldier": [
         listItem(_careers, "Soldier"),
