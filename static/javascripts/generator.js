@@ -893,6 +893,7 @@ var ikrpg = ikrpg || {};
         "Bond": undefined,
         "Bone Grinder": undefined,
         "Brawler": undefined,
+        "Break the Ice": undefined,
         "Brew Master": undefined,
         "Broad Stroke": undefined,
         "Brutal Trapper": undefined,
@@ -1012,6 +1013,7 @@ var ikrpg = ikrpg || {};
         "Finisher": undefined,
         "Fire in the Hole!": undefined,
         "First to Fight": undefined,
+        "Fisherman": undefined,
         "Fist of God": undefined,
         "Flash Thief": undefined,
         "Fleet Foot": undefined,
@@ -1109,6 +1111,7 @@ var ikrpg = ikrpg || {};
         "Necromancer": undefined,
         "Night Fighter": undefined,
         "Oath of Silence": undefined,
+        "Of the North": undefined,
         "Onslaught": undefined,
         "Opening Salvo": undefined,
         "Ossify": undefined,
@@ -1177,6 +1180,7 @@ var ikrpg = ikrpg || {};
         "Scrabble": undefined,
         "Scrapper": undefined,
         "Scrounge": undefined,
+        "Sea Hunter": undefined,
         "Self-Sacrifice": undefined,
         "Sentry": undefined,
         "Serenity": undefined,
@@ -3149,6 +3153,41 @@ var ikrpg = ikrpg || {};
         listItem(_military_skills, "Unarmed Combat"),
         list(_occupational_skills, ["Detection", "Jumping", "Sneak"])
       ],
+      "Angler": [
+        listItem(_notes, "If you choose Angler do not choose a second career!"),
+        listItem(_careers, "Angler"),
+        list(_abilities, ["Camouflage", "Fisherman", "Sea Hunter", "Take Down"]),
+        choices(arrayPairs(_abilities, [
+          "Specialization (Harpoon Gun)",
+          "Specialization (Bomb Lance)"]), "Choose 1"),
+        listItem(_military_skills, "Hand Weapon"),
+        choices(arrayPairs(_military_skills, [
+          "Crossbow",
+          "Hand Weapon",
+          "Pistol",
+          "Rifle",
+          "Unarmed Combat"]), "Choose 2"),
+        choices(arrayPairs(_military_skills, [
+          "Archery",
+          "Crossbow",
+          "Pistol",
+          "Rifle"]), "Choose 1"),
+        list(_occupational_skills, [
+          "Detection",
+          "Detection",
+          "Rope Use",
+          "Survival",
+          "Swimming",
+          "Swimming",
+          "Tracking",
+          "Tracking"]),
+        choices([
+          arrayPair(_ranged_weapons, "Harpoon Gun"),
+          arrayPair(_gear, "12 harpoons"),
+          arrayPair(_ranged_weapons, "Bomb Lance"),
+          arrayPair(_gear, "8 bombs")], "Choose either<br />harpoons and gun<br />or bombs and lance"),
+        number(_gold, 45)
+      ],
       "Arcane Mechanik": [
         listItem(_careers, "Arcane Mechanik"),
         listItem(_abilities, "Inscribe Formulae"),
@@ -4063,6 +4102,27 @@ var ikrpg = ikrpg || {};
           "Survival",
           "Tracking"]),
         number(_gold, 100)
+      ],
+      "Ice Master": [
+        listItem(_careers, "Ice Master"),
+        list(_abilities, ["Break the Ice", "Of the North", "Pathfinder", "Specialization (Ice Axe)"]),
+        listItem(_military_skills, "Hand Weapon"),
+        choices(arrayPairs(_military_skills, [
+          "Archery",
+          "Crossbow",
+          "Pistol",
+          "Rifle"]), "Choose 1"),
+        list(_occupational_skills, [
+          "Detection",
+          "Sailing",
+          "Survival",
+          "Tracking"]),
+        listItem(_melee_weapons, "Ice Axe"),
+        listItem(_ranged_weapons, "Scattergun"),
+        listItem(_gear, "10 scattergun shots"),
+        choices([
+          arrayPair(_armors, "Winter Guard Armor"),
+          arrayPair(_gear, "Winter Cloak")], "Choose 1"),
       ],
       "Illuminated Arcanist": [
         listItem(_careers, "Illuminated Arcanist"),
