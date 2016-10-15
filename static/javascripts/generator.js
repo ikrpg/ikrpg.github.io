@@ -4906,7 +4906,7 @@ var ikrpg = ikrpg || {};
         listItem(_melee_weapons, "Halbert"),
         listItem(_armors, "Full Plate")
       ],
-      "Smuggler": [
+      "Smuggler": [ // see http://privateerpressforums.com/showthread.php?258272#post3631032 for errata
         listItem(_careers, "Smuggler"),
         list(_abilities, ["Conniver", "In Plain Sight", "Port of Call"]),
         choices(arrayPairs(_connections, [
@@ -4917,6 +4917,7 @@ var ikrpg = ikrpg || {};
           "Thrown Weapon"]), "Choose 1"),
         list(_occupational_skills, [
           "Bribery",
+          "Deception",
           "Deception",
           "Lock Picking",
           "Lock Picking",
