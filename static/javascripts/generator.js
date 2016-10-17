@@ -3521,7 +3521,7 @@ var ikrpg = ikrpg || {};
           "Survival"]),
         number(_gold, 50),
         list(_gear, ["ammo bandolier", "powder and ammunition for 10 shots"]),
-        choices(arrayPairs(_melee_weapons, [
+        choices(arrayPairs(_ranged_weapons, [
           "Rifle, Heavy",
           "Rifle, Repeating"]), "Choose 1")
       ],
