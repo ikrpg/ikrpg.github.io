@@ -694,6 +694,7 @@ var ikrpg = ikrpg || {};
         "Grenade, Smoke": { "rng": 8, "skill": "Thrown Weapon", "pow": "", "rat-mod": 0, "notes": "AOE 3", "ammo": "" },
         "Grenade, Strangle Gas": { "rng": 8, "skill": "Thrown Weapon", "pow": "", "rat-mod": 0, "notes": "AOE 3", "ammo": "" },
         "Gun Axe": { "rng": 8, "skill": "Rifle", "pow": 12, "rat-mod": -1, "notes": "", "ammo": "1" },
+        "Hand Arbalest": { "rng": 8, "skill": "Crossbow", "pow": 12, "rat-mod": -2, "notes": "pull, feat: melee AT", "ammo": "1" },
         "Hand Cannon": { "rng": 12, "skill": "Pistol", "pow": 12, "rat-mod": 0, "notes": "", "ammo": "1" },
         "Hand Cannon, Dual": { "rng": 12, "skill": "Pistol", "pow": 12, "rat-mod": 0, "notes": "", "ammo": "2" },
         "Harpoon Gun": { "rng": 10, "skill": "Rifle", "pow": 12, "rat-mod": -2, "notes": "", "ammo": "1" },
@@ -705,6 +706,7 @@ var ikrpg = ikrpg || {};
         "Linethrower": { "rng": 4, "skill": "Light Artillery", "pow": 10, "rat-mod": -2, "notes": 'pull 3"', "ammo": "1" },
         "Man-O-War Axe Cannon": { "rng": 8, "skill": "Light Artillery", "pow": 14, "rat-mod": -1, "notes": "", "ammo": "1" },
         "Man-O-War Shield Cannon": { "rng": 6, "skill": "Light Artillery", "pow": 14, "rat-mod": -1, "notes": "melee: at mod -1, POW 1", "ammo": "1" },
+        "Menoth's Rebuke": { "rng": 10, "skill": "Heavy Artillery", "pow": 14, "rat-mod": -2, "notes": "Spray, fire dmg, fire cont. eff.", "ammo": "6" },
         "Mini-Slugger": { "rng": 10, "skill": "Light Artillery", "pow": 11, "rat-mod": 0, "notes": "fired standing: at mod -1", "ammo": "30" },
         "Mortar": { "rng": 20, "skill": "Light Artillery", "pow": 16, "rat-mod": -4, "notes": 'AOE 4, -2 SPD and DEF, min rng 8"', "ammo": "1" },
         "Ogrun Battle Cannon": { "rng": 12, "skill": "Rifle", "pow": 12, "rat-mod": -1, "notes": "AOE 3, 1-H: RAT -2", "ammo": "1" },
@@ -734,6 +736,7 @@ var ikrpg = ikrpg || {};
         "Rynnish Walking Stick": { "rng": 8, "skill": "Rifle", "pow": 10, "rat-mod": 0, "notes": "1-H: RAT -2", "ammo": "1" },
         "Scattergun": { "rng": 8, "skill": "Rifle", "pow": 12, "rat-mod": 0, "notes": "SP8, 1-H: RAT -2", "ammo": "1" },
         "Skyhammer": { "rng": 16, "skill": "Light Artillery", "pow": 12, "rat-mod": -4, "notes": "AOE 3", "ammo": "1" },
+        "Skyhammer Deck Gun": { "rng": 16, "skill": "Heavy Artillery", "pow": 12, "rat-mod": -4, "notes": "AOE 3, all 1s: destoyed", "ammo": "3" },
         "Sling": { "rng": 10, "skill": "Thrown Weapon", "pow": 8, "rat-mod": -2, "notes": "", "ammo": "1" },
         "Slug Gun": { "rng": 4, "skill": "Pistol", "pow": 14, "rat-mod": -1, "notes": "1-H: RAT -2", "ammo": "1" },
         "Slugger": { "rng": 10, "skill": "Light Artillery", "pow": 13, "rat-mod": -1, "notes": "-2 SPD and DEF", "ammo": "30" },
@@ -943,6 +946,7 @@ var ikrpg = ikrpg || {};
         "Defender": undefined,
         "Defensive Line": undefined,
         "Demolished": undefined,
+        "Dervish": undefined,
         "Dhunia's Strike": undefined,
         "Dig In": undefined,
         "Disease Resistance": undefined,
@@ -1152,6 +1156,7 @@ var ikrpg = ikrpg || {};
         "Ram": undefined,
         "Remedy": undefined,
         "Renowned": undefined,
+        "Repel Boarders!": undefined,
         "Resonance: Devourer Warbeast": undefined,
         "Resonance: Farrow Warbeast": undefined,
         "Resonance: Skorne Warbeast": undefined,
@@ -3740,6 +3745,39 @@ var ikrpg = ikrpg || {};
         list(_occupational_skills, ["Gambling", "Intimidation", "Jumping"]),
         number(_gold, 75)
       ],
+      "Errant Marine": [
+        listItem(_notes, "If you choose Errant Marine do not choose a second career!"),
+        listItem(_careers, "Errant Marine"),
+        list(_abilities, ["Aegis", "Boarding Action", "Sanguine Bond"]),
+        choices(arrayPairs(_abilities, [
+          "Specialization (Lawbringer Crossbow)",
+          "Specialization (Hand Arbalest)"]), "Choose 1"),
+        choices(arrayPairs(_abilities, [
+          "Specialization (Cutlass)",
+          "Specialization (Gaff Spear)"]), "Choose 1"),
+        listItem(_connections, "Exemplar Order"),
+        list(_military_skills, [
+          "Crossbow",
+          "Hand Weapon",
+          "Hand Weapon",
+          "Shield"]),
+        list(_occupational_skills, [
+          "Command",
+          "Detection",
+          "Jumping",
+          "Lore (Menite Faith)",
+          "Medicine",
+          "Sailing",
+          "Swimming"]),
+        listItem(_armors, "Exemplar Plate"),
+        choices([
+          arrayPair(_ranged_weapons, "Crossbow, Lawbringer"),
+          arrayPair(_gear, "ten blessed bolts"),
+          arrayPair(_ranged_weapons, "Hand Arbalest")
+        ], "Choose either Hand Arbalest or<br />Crossbow and Bolts"),
+        list(_melee_weapons, ["Shield", "Sword"]),
+        number(_gold, 100)
+      ],
       "Exemplar": [
         listItem(_careers, "Exemplar"),
         listItem(_notes, "Must choose between Horseman, Man-at-Arms, Military Officer, Ranger, Soldier, or Warcaster"),
@@ -4123,6 +4161,20 @@ var ikrpg = ikrpg || {};
         choices([
           arrayPair(_armors, "Winter Guard Armor"),
           arrayPair(_gear, "Winter Cloak")], "Choose 1"),
+      ],
+      "Idrian Corsair": [
+        listItem(_careers, "Idrian Corsair"),
+        list(_abilities, ["Gang", "Steady", "Specialization (Kopis)"]),
+        listItem(_military_skills, "Hand Weapon"),
+        choices(arrayPairs(_military_skills, [
+          "Pistol",
+          "Thrown Weapon"]), "Choose 1"),
+        list(_occupational_skills, [
+          "Climbing",
+          "Intimidation",
+          "Sailing",
+          "Swimming"]),
+        number(_gold, 75)
       ],
       "Illuminated Arcanist": [
         listItem(_careers, "Illuminated Arcanist"),
