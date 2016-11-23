@@ -3441,7 +3441,7 @@ var ikrpg = ikrpg || {};
         list(_melee_weapons, ["Axe", "Sacral Blade"]),
         listItem(_armors, "Tharn Leathers"),
         number(_gold, 25),
-        list(_gear, ["apothecary kit", "skinning tools", "bone grinder fetish (any)"])
+        list(_gear, ["apothecary's kit", "skinning tools", "bone grinder fetish (any)"])
       ],
       "Bokor": [
         listItem(_careers, "Bokor"),
@@ -3471,7 +3471,7 @@ var ikrpg = ikrpg || {};
           "Medicine"]),
         list(_spells, ["Arcane Bonds", "Marked for Death"]),
         number(_gold, 25),
-        list(_gear, ["apothecary kit", "skinning tools", "bone grinder fetish (any)"])
+        list(_gear, ["apothecary's kit", "skinning tools", "bone grinder fetish (any)"])
       ],
       "Bounty Hunter": [
         listItem(_careers, "Bounty Hunter"),
