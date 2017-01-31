@@ -194,9 +194,33 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Air of Legitimacy",
+      publication: "No Quarter #70",
+      page:        "106",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Alias",
+      publication: "No Quarter #70",
+      page:        "106",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Always a Deal to be Made",
       publication: "Urban Adventure",
       page:        "10",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Amateur Surgery",
+      publication: "No Quarter #70",
+      page:        "106",
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
@@ -267,11 +291,27 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Anatomist",
+      publication: "No Quarter #70",
+      page:        "106",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Anatomist",
       publication: "Skorne Empire",
       page:        "62",
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
+    },
+    {
+      name:        "Anestetize",
+      publication: "No Quarter #70",
+      page:        "106",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
     },
     {
       name:        "Anestetize",
@@ -1144,6 +1184,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
+    },
+    {
+      name:        "Bonesetter",
+      publication: "No Quarter #70",
+      page:        "106",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
     },
     {
       name:        "Brawler",
@@ -2786,6 +2834,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Go with your Gut",
+      publication: "No Quarter #70",
+      page:        "107",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Goad",
       publication: "Unleashed Core Rules",
       page:        "161",
@@ -2821,6 +2877,14 @@ var ikrpg = ikrpg || {};
       name:        "Grave Man",
       publication: "Urban Adventure",
       page:        "68",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Grease the Wheels",
+      publication: "No Quarter #70",
+      page:        "106",
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
@@ -3272,6 +3336,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
+    },
+    {
+      name:        "Information Network",
+      publication: "No Quarter #70",
+      page:        "107",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
     },
     {
       name:        "Inscribe Formulae",
@@ -3752,6 +3824,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
+    },
+    {
+      name:        "No I'm Fine",
+      publication: "No Quarter #70",
+      page:        "106",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
     },
     {
       name:        "Oath of Silence",
@@ -4496,6 +4576,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
+    },
+    {
+      name:        "Salvage Rights",
+      publication: "No Quarter #70",
+      page:        "107",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
     },
     {
       name:        "Sanguine Bond",
@@ -7055,6 +7143,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Remedy",
+      publication: "No Quarter #70",
+      page:        "107",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Remel's Embrace",
       publication: "Kings, Nations, and Gods",
       page:        "247",
@@ -7677,6 +7773,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Four Star Syndicate",
+      publication: "No Quarter #70",
+      page:        "107",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "FMF"
+    },
+    {
       name:        "Fringe Cultists",
       publication: "No Quarter #48",
       page:        "72",
@@ -7749,6 +7853,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Khadoran Royal Navy",
+      publication: "No Quarter #70",
+      page:        "107",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "FMF"
+    },
+    {
       name:        "Korsk Stanzynat Mustyn",
       publication: "Urban Adventure",
       page:        "78",
@@ -7768,6 +7880,14 @@ var ikrpg = ikrpg || {};
       name:        "Mercenary Charter",
       publication: "Core Rules",
       page:        "152",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "FMF"
+    },
+    {
+      name:        "Mateau Traders",
+      publication: "No Quarter #70",
+      page:        "108",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
       game:        "FMF"
@@ -7856,6 +7976,22 @@ var ikrpg = ikrpg || {};
       name:        "Resistance Saboteurs",
       publication: "No Quarter #65",
       page:        "94",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "FMF"
+    },
+    {
+      name:        "Riverboat Raiders",
+      publication: "No Quarter #70",
+      page:        "108",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "FMF"
+    },
+    {
+      name:        "Seahunters",
+      publication: "No Quarter #70",
+      page:        "108",
       category:    "Character Creation",
       subcategory: "Adventuring Company",
       game:        "FMF"
@@ -8735,6 +8871,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Sawbones",
+      publication: "No Quarter #70",
+      page:        "103",
+      category:    "Character Creation",
+      subcategory: "Career",
+      game:        "FMF"
+    },
+    {
       name:        "Scout",
       publication: "Unleashed Core Rules",
       page:        "134",
@@ -9104,6 +9248,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Buccaneer",
+      publication: "No Quarter #70",
+      page:        "104",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "FMF"
+    },
+    {
       name:        "Crucible Guard",
       publication: "Kings, Nations, and Gods",
       page:        "301",
@@ -9248,6 +9400,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Merchant Trader",
+      publication: "No Quarter #70",
+      page:        "104",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "FMF"
+    },
+    {
       name:        "Naval Officer",
       publication: "No Quarter #67",
       page:        "107",
@@ -9376,6 +9536,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Treasure Hunter",
+      publication: "No Quarter #70",
+      page:        "105",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "FMF"
+    },
+    {
       name:        "Trencher Commando",
       publication: "Kings, Nations, and Gods",
       page:        "88",
@@ -9387,6 +9555,14 @@ var ikrpg = ikrpg || {};
       name:        "Vassal of Menoth",
       publication: "Kings, Nations, and Gods",
       page:        "354",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "FMF"
+    },
+    {
+      name:        "Watch Inspector",
+      publication: "No Quarter #70",
+      page:        "105",
       category:    "Character Creation",
       subcategory: "Career Option",
       game:        "FMF"
@@ -9716,7 +9892,7 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Armored Driving Suit",
+      name:        "Armored Diving Suit",
       publication: "No Quarter #67",
       page:        "108",
       category:    "Armory",
@@ -10245,6 +10421,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Bone Saw",
+      publication: "No Quarter #70",
+      page:        "108",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "FMF"
+    },
+    {
       name:        "Caspian Battleblade",
       publication: "Core Rules",
       page:        "254",
@@ -10256,6 +10440,14 @@ var ikrpg = ikrpg || {};
       name:        "Cat's Paw",
       publication: "No Quarter #45",
       page:        "61",
+      category:    "Armory",
+      subcategory: "Melee Weapon",
+      game:        "FMF"
+    },
+    {
+      name:        "Cleaver",
+      publication: "No Quarter #70",
+      page:        "108",
       category:    "Armory",
       subcategory: "Melee Weapon",
       game:        "FMF"
@@ -14617,6 +14809,14 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Ord",
+      publication: "No Quarter #70",
+      page:        "97",
+      category:    "Geography",
+      subcategory: "Nation",
+      game:        "FMF"
+    },
+    {
+      name:        "Ord",
       publication: "Kings, Nations, and Gods",
       page:        "251",
       category:    "Geography",
@@ -15523,6 +15723,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Berck",
+      publication: "No Quarter #70",
+      page:        "97",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "FMF"
+    },
+    {
       name:        "Boarsgate",
       publication: "Kings, Nations, and Gods",
       page:        "292",
@@ -15531,9 +15739,25 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Bottomton",
+      publication: "No Quarter #70",
+      page:        "99",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "FMF"
+    },
+    {
       name:        "Carre Dova",
       publication: "Kings, Nations, and Gods",
       page:        "286",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "FMF"
+    },
+    {
+      name:        "Carre Dova",
+      publication: "No Quarter #70",
+      page:        "100",
       category:    "Geography",
       subcategory: "City/Fortress",
       game:        "FMF"
@@ -15630,6 +15854,14 @@ var ikrpg = ikrpg || {};
       name:        "Five Fingers",
       publication: "Kings, Nations, and Gods",
       page:        "287",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "FMF"
+    },
+    {
+      name:        "Five Fingers",
+      publication: "No Quarter #70",
+      page:        "101",
       category:    "Geography",
       subcategory: "City/Fortress",
       game:        "FMF"
@@ -16733,6 +16965,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Casner Gant",
+      publication: "No Quarter #70",
+      page:        "98",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Coleman Stryker, Cygnaran Warcaster",
       publication: "No Quarter #50",
       page:        "39",
@@ -16829,7 +17069,23 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Evelin Turpin, Senior Commander",
+      name:        "Ellona Chambers",
+      publication: "No Quarter #70",
+      page:        "100",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Evelyn Turpin, Lord General",
+      publication: "No Quarter #70",
+      page:        "92",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Evelyn Turpin, Senior Commander",
       publication: "Kings, Nations, and Gods",
       page:        "74",
       category:    "Individual",
@@ -17021,6 +17277,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Joln Rockbottom, Lord",
+      publication: "No Quarter #70",
+      page:        "100",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Karagh-Ko",
       publication: "No Quarter #64",
       page:        "86",
@@ -17048,6 +17312,14 @@ var ikrpg = ikrpg || {};
       name:        "Kasparovik, Optifex",
       publication: "No Quarter #53",
       page:        "105",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Kelva McQuarrie",
+      publication: "No Quarter #70",
+      page:        "101",
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
@@ -17117,6 +17389,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Maestra Dialta Zuccho",
+      publication: "No Quarter #70",
+      page:        "101",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Magda McCallahan, Pirate Captain",
       publication: "No Quarter #54",
       page:        "69",
@@ -17165,6 +17445,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Natalya Morezko",
+      publication: "No Quarter #70",
+      page:        "99",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Nocior Jaia, Preceptor",
       publication: "No Quarter #69",
       page:        "103",
@@ -17176,6 +17464,14 @@ var ikrpg = ikrpg || {};
       name:        "Obrius, Senior Priest",
       publication: "No Quarter #69",
       page:        "104",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Olan Duggan, Lord General",
+      publication: "No Quarter #70",
+      page:        "90",
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
@@ -17200,6 +17496,14 @@ var ikrpg = ikrpg || {};
       name:        "Olyado Caetan, Castellan",
       publication: "Kings, Nations, and Gods",
       page:        "284",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Padrón Marco Graza",
+      publication: "No Quarter #70",
+      page:        "101",
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
@@ -17240,6 +17544,14 @@ var ikrpg = ikrpg || {};
       name:        "Quintin McCreevy",
       publication: "No Quarter #67",
       page:        "102",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Ricard Mateau",
+      publication: "No Quarter #70",
+      page:        "98",
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
@@ -17317,6 +17629,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Tanith the Feral Song",
+      publication: "No Quarter #70",
+      page:        "81",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
       name:        "Tara Florys, Long Shot Lieutenant",
       publication: "No Quarter #56",
       page:        "42",
@@ -17365,6 +17685,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "The Sister's Voice",
+      publication: "No Quarter #70",
+      page:        "101",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Trenton Bouridor, Grand Paladin",
       publication: "Kings, Nations, and Gods",
       page:        "339",
@@ -17408,6 +17736,14 @@ var ikrpg = ikrpg || {};
       name:        "Victor Pendrake, Professor",
       publication: "Kings, Nations, and Gods",
       page:        "28",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Vincent Gollan, Lord General",
+      publication: "No Quarter #70",
+      page:        "94",
       category:    "Individual",
       subcategory: "",
       game:        "FMF"

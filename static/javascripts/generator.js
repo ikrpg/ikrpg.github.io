@@ -5184,7 +5184,7 @@ var ikrpg = ikrpg || {};
       ],
       "Swamp Gobber Raider": [
         listItem(_careers, "Swamp Gobber Raider"),
-        list(_abilities, ["Ambush", "Cover"]),
+        list(_abilities, ["Ambush", "Gunfighter"]),
         choices(arrayPairs(_connections, [
           "Criminal Gang",
           "Character's Tribe"]), "Choose 1"),
