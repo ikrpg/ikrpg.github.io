@@ -7773,7 +7773,31 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Four Star Syndicate",
+      name:        "Four Star Syndicate (Dark Dealings)",
+      publication: "No Quarter #70",
+      page:        "107",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "FMF"
+    },
+    {
+      name:        "Four Star Syndicate (King's Favor)",
+      publication: "No Quarter #70",
+      page:        "107",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "FMF"
+    },
+    {
+      name:        "Four Star Syndicate (High Society)",
+      publication: "No Quarter #70",
+      page:        "107",
+      category:    "Character Creation",
+      subcategory: "Adventuring Company",
+      game:        "FMF"
+    },
+    {
+      name:        "Four Star Syndicate (Mateau Enforcers)",
       publication: "No Quarter #70",
       page:        "107",
       category:    "Character Creation",

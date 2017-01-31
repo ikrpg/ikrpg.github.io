@@ -554,8 +554,10 @@ var ikrpg = ikrpg || {};
         "Blighted Blade": { "skill": "Hand Weapon", "mat-mod": 2, "pow": 3, "notes": "crit: no tough, p.92" },
         "Bloodtracker Fighting Claw": { "skill": "Hand Weapon", "mat-mod": -2, "pow": 3, "notes": "" },
         "Boarding Pike": { "skill": "Great Weapon", "mat-mod": 0, "pow": 5, "notes": "reach, enemy: -2 on charge" },
+        "Bone Saw": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 3, "notes": "Crit: next AT auto hit, +1 Medicine" },
         "Caspian Battleblade": { "skill": "Great Weapon", "mat-mod": 0, "pow": 6, "notes": "1-H: mat-mod -1, POW 4" },
         "Cat's Paw": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 2, "notes": "Crit: Knockout" },
+        "Cleaver": { "skill": "Hand Weapon", "mat-mod": -1, "pow": 3, "notes": "+2 to charge AT dmg" },
         "Cleft Spear": { "skill": "Great Weapon", "mat-mod": -2, "pow": 5, "notes": "reach, charge: +2 at rolls, Crit: 1 feat for +1 dmg die, 1-H: POW 4" },
         "Cleft Sword": { "skill": "Great Weapon", "mat-mod": -2, "pow": 6, "notes": "harge: +2 at rolls, Crit: 1 feat for +1 dmg die, 1-H: POW 5" },
         "Clockwork Injector": { "skill": "Hand Weapon", "mat-mod": -2, "pow": "–", "notes": "1 dmg, injection" },
@@ -821,7 +823,10 @@ var ikrpg = ikrpg || {};
         "Advance Move": undefined,
         "Advisor": undefined,
         "Aegis": undefined,
+        "Air of Legitimacy": undefined,
+        "Alias": undefined,
         "Always a Deal to be Made": undefined,
+        "Amateur Surgery": undefined,
         "Ambush": undefined,
         "Anatomical Precision": undefined,
         "Anatomist": undefined,
@@ -895,6 +900,7 @@ var ikrpg = ikrpg || {};
         "Bomber": undefined,
         "Bond": undefined,
         "Bone Grinder": undefined,
+        "Bonesetter": undefined,
         "Brawler": undefined,
         "Break the Ice": undefined,
         "Brew Master": undefined,
@@ -1037,10 +1043,12 @@ var ikrpg = ikrpg || {};
         "Gift of the Beast": undefined,
         "Girded": undefined,
         "Go to Ground": undefined,
+        "Go with your Gut": undefined,
         "Goad": undefined,
         "Good Breeding": undefined,
         "Grappler": undefined,
         "Grave Man": undefined,
+        "Grease the Wheels": undefined,
         "Great Power": undefined,
         "Grenadier": undefined,
         "Gunfighter": undefined,
@@ -1074,6 +1082,7 @@ var ikrpg = ikrpg || {};
         "Improvised Formula": undefined,
         "In Plain Sight": undefined,
         "Inflict Pain": undefined,
+        "Information Network": undefined,
         "Inscribe Formulae": undefined,
         "Inscribe Thrall Rune": undefined,
         "Instructor": undefined,
@@ -1114,6 +1123,7 @@ var ikrpg = ikrpg || {};
         "Natural Leader": undefined,
         "Necromancer": undefined,
         "Night Fighter": undefined,
+        "No I'm Fine": undefined,
         "Oath of Silence": undefined,
         "Of the North": undefined,
         "Onslaught": undefined,
@@ -1176,6 +1186,7 @@ var ikrpg = ikrpg || {};
         "Roll with It": undefined,
         "Runesmith": undefined,
         "Saddle Shot": undefined,
+        "Salvage Rights": undefined,
         "Sanguine Bond": undefined,
         "Savage Strike": undefined,
         "Scavenger": undefined,
@@ -3515,6 +3526,24 @@ var ikrpg = ikrpg || {};
           "Sneak"]),
         number(_gold, 75)
       ],
+      "Buccaneer": [
+        listItem(_notes, "If you choose Buccaneer do not choose a second career!"),
+        listItem(_careers, "Buccaneer"),
+        list(_abilities, [
+          "Ambush",
+          "Anatomical Precision",
+          "Assault",
+          "Backstab",
+          "Defensive Line"]),
+        listItem(_military_skills, "Great Weapon"),
+        choices(arrayPairs(_military_skills, [
+          "Hand Weapon",
+          "Hand Weapon",
+          "Pistol",
+          "Pistol" ]), "Choose either both<br />Hand Weapon or Pistol"),
+        list(_occupational_skills, ["Command", "Detection", "Intimidation", "Sneak", "Streetwise"]),
+        number(_gold, 175)
+      ],
       "Bushwhacker": [
         listItem(_careers, "Bushwhacker"),
         list(_abilities, ["Crackshot", "Fast Reload"]),
@@ -4442,6 +4471,22 @@ var ikrpg = ikrpg || {};
         listItem(_benefits, "Rune Reader"),
         number(_gold, 75)
       ],
+      "Merchant Trader": [
+        listItem(_careers, "Merchant Trader"),
+        list(_abilities, ["Air of Legitimacy", "Counter Offer", "Grease the Wheels"]),
+        choices(arrayPairs(_languages, languages), "Choose 1"),
+        choices(arrayPairs(_connections, [
+          "Merchant Guild",
+          "Trading House"]), "Choose 1"),
+        listItem(_military_skills, "Hand Weapon"),
+        choices(arrayPairs(_military_skills, [
+          "Archery",
+          "Pistol",
+          "Rifle"]), "Choose 1"),
+        list(_occupational_skills, ["Command", "Etiquette"]),
+        listItem(_notes, "20gc each month from his merchant house"),
+        number(_gold, 200)
+      ],
       "Military Officer": [
         listItem(_careers, "Military Officer"),
         list(_abilities, [
@@ -4887,6 +4932,22 @@ var ikrpg = ikrpg || {};
           "Survival"]),
         listItem(_melee_weapons, "Nyss Great Sword"),
         listItem(_armors, "Ryssovass Plate")
+      ],
+      "Sawbones": [
+        listItem(_careers, "Sawbones"),
+        list(_abilities, ["Amateur Surgery", "Anatomist"]),
+        choices(arrayPairs(_abilities, [
+          "Specialization (Bonesaw)",
+          "Specialization (Cleaver)"]), "Choose 1"),
+        listItem(_military_skills, "Hand Weapon"),
+        list(_occupational_skills, [
+          "Medicine",
+          "Survival"]),
+        choices(arrayPairs(_melee_weapons, [
+          "Bonesaw",
+          "Cleaver"]), "Choose 1"),
+        number(_gold, 50),
+        listItem(_gear, "field medicine kit")
       ],
       "Scout": [
         listItem(_careers, "Scout"),
@@ -5347,6 +5408,25 @@ var ikrpg = ikrpg || {};
           "Survival"]),
         number(_gold, 75)
       ],
+      "Treasure Hunter": [
+        listItem(_careers, "Treasure Hunter"),
+        list(_abilities, ["Port of Call", "Salvage Rights"]),
+        choices(arrayPairs(_languages, languages), "Choose 1"),
+        listItem(_connections, "patron"),
+        choices(arrayPairs(_military_skills, [
+          "Archery",
+          "Hand Weapon",
+          "Pistol",
+          "Rifle"]), "Choose 1"),
+        list(_occupational_skills, [
+          "Detection",
+          "Lore (shipwreck)",
+          "Navigation",
+          "Survival"]),
+        listItem(_notes, "20gc each month from a patron"),
+        number(_gold, 150),
+        list(_gear, ["map case", "spyglass"])
+      ],
       "Trencher": [
         listItem(_careers, "Trencher"),
         listItem(_notes, "Must choose between Military Officer, Ranger, Rifleman, Soldier, or Warcaster for second career"),
@@ -5623,6 +5703,27 @@ var ikrpg = ikrpg || {};
           "Riding"]),
         number(_gold, 100)
       ],
+      "Watch Inspector": [
+        listItem(_careers, "Watch Inspector"),
+        list(_abilities, [ "Alias", "Go with your Gut" ]),
+        choices(arrayPairs(_military_skills, [
+          "Hand Weapon",
+          "Pistol"]), "Choose 1"),
+        list(_occupational_skills, [
+          "Detection",
+          "Disguise",
+          "Forensic Science",
+          "Interrogation",
+          "Law",
+          "Medicine",
+          "Sneak"]),
+        listItem(_benefits, "Hyper Perception"),
+        listItem(_armors, "Armored Greatcoat"),
+        listItem(_melee_weapons, "Cutlass"),
+        listItem(_ranged_weapons, "Pistol"),
+        listItem(_gear, "Watch Inspector's badge"),
+        number(_gold, 100)
+      ],
       "Wolf of Orboros": [
         listItem(_careers, "Wolf of Orboros"),
         listItem(_notes, "Must choose between Bone Grinder, Brigand, Chieftain, Monster Hunter, Scout, Devourer Shaman, Sorcerer (any), Circle Warlock, or Wolf Rider"),
@@ -5845,6 +5946,29 @@ var ikrpg = ikrpg || {};
             "Mechanikal Engineering",
             "Research"]), "Choose 1 if not leader")
       ],
+      "Four Star Syndicate (Dark Dealings)": [
+        listItem(_notes, "Four Star Syndicate (Dark Dealings)"),
+        listItem(_connections, "Ordic Navy"),
+        listItem(_occupational_skills, "Lore (Ordic Navy)")
+      ],
+      "Four Star Syndicate (King's Favor)": [
+        listItem(_notes, "Four Star Syndicate (King's Favor)"),
+        choices(arrayPairs(_connections, [
+          "Sharde Pirate",
+          "Cryxian Agents"
+        ]), "Choose one"),
+        listItem(_occupational_skills, "Lore (Cryx)")
+      ],
+      "Four Star Syndicate (High Society)": [
+        listItem(_notes, "Four Star Syndicate (High Society)"),
+        listItem(_connections, "Nobility"),
+        listItem(_occupational_skills, "Lore (Thamarite)")
+      ],
+      "Four Star Syndicate (Mateau Enforcers)": [
+        listItem(_notes, "Four Star Syndicate (Mateau Enforcers)"),
+        listItem(_connections, "Mateau Traders"),
+        listItem(_notes, "Can sell plundered Mercarian goods for double amount")
+      ],
       "Gatorman Tribe": [
         listItem(_notes, "Adventuring Company: Gatorman Tribe"),
         list(_notes, [
@@ -5926,6 +6050,22 @@ var ikrpg = ikrpg || {};
           "Field Mechaniks can begin with a Kolstot laborjack with up to 200 gc in weapons"]),
         choices([ arrayPair(_abilities, "Natural Leader") ], "Choose if lieutenant")
       ],
+      "Khadoran Royal Navy": [
+        listItem(_notes, "Adventuring Company: Khadoran Royal Navy"),
+        list(_notes, [
+          "All characters must either be an Artillerist, Buccaneer, Explorer, Marine, Military Officer, Press Ganger, Sawbones, or Smuggler.",
+          "One character must have Military Officer career",
+          "One Military Officer is the captain",
+          "One member is a first mate",
+          "Characters begin game with a large ship and supplies",
+          "Each character gains 25gc in pay each month"
+        ]),
+        list(_occupational_skills, [
+          "Climbing",
+          "Rope Use",
+          "Sailing",
+          "Swimming" ])
+      ],
       "Korsk Stanzynat Mustyn": [
         listItem(_notes, "Adventuring Company: Korsk Stanzynat Mustyn"),
         list(_notes, [
@@ -5969,6 +6109,19 @@ var ikrpg = ikrpg || {};
           arrayPair(_benefits, "Occult Secrets") ], "Choose if Gifted"),
         choices([
           arrayPair(_abilities, "Shield Guard") ], "Choose if not Gifted")
+      ],
+      "Mateau Traders": [
+        listItem(_notes, "Adventuring Company: Mateau Traders"),
+        list(_notes, [
+          "All characters must either be an Buccaneer, Explorer, Marine, Press Ganger, Sawbones, Smuggler, or Spy.",
+          "One character is the captain",
+          "Characters begin game with a ship and supplies"
+        ]),
+        list(_occupational_skills, [
+          "Climbing",
+          "Rope Use",
+          "Sailing",
+          "Swimming" ])
       ],
       "Nobile Exiles": [
         listItem(_notes, "Adventuring Company: Nobile Exiles"),
@@ -6052,6 +6205,19 @@ var ikrpg = ikrpg || {};
           "Streetwise",
           "Survival"]), "Choose 1")
       ],
+      "Riverboat Raiders": [
+        listItem(_notes, "Adventuring Company: Riverboat Raiders"),
+        list(_notes, [
+          "All characters must either be an Archer, Brigand, Buccaneer, Explorer, Marine, Sawbones, or Smuggler.",
+          "Characters begin the game with one or two small river boats",
+          "Characters begin the game with a small encampment near the river",
+        ]),
+        list(_occupational_skills, [
+          "Climbing",
+          "Rope Use",
+          "Sailing",
+          "Swimming" ])
+      ],
       "Renegades": [
         listItem(_notes, "Adventuring Company: Renegades"),
         listItem(_notes, "One is the leader"),
@@ -6068,6 +6234,18 @@ var ikrpg = ikrpg || {};
           arrayPairs(_military_skills, [ "Thrown Weapon" ]),
           arrayPairs(_occupational_skills, [ "Mechanikal Engineering" ])
           ), "Choose 1")
+      ],
+      "Seahunters": [
+        listItem(_notes, "Adventuring Company: Seahunters"),
+        list(_notes, [
+          "All characters must either be an Angler, Buccaneer, Explorer, Pirate, or Sawbones.",
+          "Characters begin the game with a small ship and special gear"
+        ]),
+        list(_occupational_skills, [
+          "Climbing",
+          "Rope Use",
+          "Sailing",
+          "Swimming" ])
       ],
       "Sleeper Cell": [
         listItem(_notes, "Adventuring Company: Sleeper Cell"),
