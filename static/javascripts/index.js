@@ -9600,7 +9600,31 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
-      name:        "Sea Sorcerer",
+      name:        "Sea Sorcerer (Fire)",
+      publication: "No Quarter #72",
+      page:        "100",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "FMF"
+    },
+		{
+      name:        "Sea Sorcerer (Ice)",
+      publication: "No Quarter #72",
+      page:        "100",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "FMF"
+    },
+		{
+      name:        "Sea Sorcerer (Stone)",
+      publication: "No Quarter #72",
+      page:        "100",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "FMF"
+    },
+		{
+      name:        "Sea Sorcerer (Storm)",
       publication: "No Quarter #72",
       page:        "100",
       category:    "Character Creation",
