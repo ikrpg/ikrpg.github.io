@@ -2471,8 +2471,7 @@ var ikrpg = ikrpg || {};
         range(_weight, 50, 90),
         listItem(_abilities, "Temperature Resistance"),
         listItem(_benefits, "Deft"),
-        number(_DEF_racial_modifier, 1),
-        listItem(_notes, "Gobbers cannot use great weapons or rifles")
+        number(_DEF_racial_modifier, 1)
       ],
       "Croak": [
         string(_race, "Croak"),

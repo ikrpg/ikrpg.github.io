@@ -5,9 +5,9 @@ var ikrpg = ikrpg || {};
 
 (function () {
 	'use strict';
-	
+
 	ikrpg.index = ikrpg.index || {};
-	
+
   // Ability
   // Adventure
   //     Scenario, Encounter, Scenario Setting
@@ -1573,6 +1573,14 @@ var ikrpg = ikrpg || {};
       name:        "Convergence Warcaster",
       publication: "No Quarter #48",
       page:        "66",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Cordeur",
+      publication: "No Quarter #72",
+      page:        "101",
       category:    "Ability",
       subcategory: "",
       game:        "FMF"
@@ -3794,6 +3802,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Nautical Sabotage",
+      publication: "No Quarter #72",
+      page:        "101",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Necromancer",
       publication: "Urban Adventure",
       page:        "68",
@@ -4778,6 +4794,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Shanghai",
+      publication: "No Quarter #72",
+      page:        "101",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
       name:        "Share the Load",
       publication: "Wild Adventure",
       page:        "26",
@@ -5224,6 +5248,14 @@ var ikrpg = ikrpg || {};
       category:    "Ability",
       subcategory: "",
       game:        "IKU"
+    },
+    {
+      name:        "Stopgap",
+      publication: "No Quarter #72",
+      page:        "101",
+      category:    "Ability",
+      subcategory: "",
+      game:        "FMF"
     },
     {
       name:        "Storm Booster",
@@ -6259,6 +6291,22 @@ var ikrpg = ikrpg || {};
       subcategory: "Encounter",
       game:        "IKU"
     },
+		{
+      name:        "Deserted Island",
+      publication: "No Quarter #71",
+      page:        "108",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
+    },
+		{
+      name:        "Deserted Ship",
+      publication: "No Quarter #71",
+      page:        "108",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
+    },
     {
       name:        "Dirty Deeds",
       publication: "No Quarter #52",
@@ -6299,6 +6347,14 @@ var ikrpg = ikrpg || {};
       subcategory: "Encounter",
       game:        "FMF"
     },
+		{
+      name:        "Heat Wave",
+      publication: "No Quarter #71",
+      page:        "108",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
+    },
     {
       name:        "Hogshead",
       publication: "Fridays Unleashed 2/20/2015",
@@ -6311,6 +6367,14 @@ var ikrpg = ikrpg || {};
       name:        "Live Ammo",
       publication: "Wild Adventure",
       page:        "44",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
+    },
+		{
+      name:        "Pirate Boarding Party",
+      publication: "No Quarter #71",
+      page:        "108",
       category:    "Adventure",
       subcategory: "Encounter",
       game:        "IKU"
@@ -6330,6 +6394,14 @@ var ikrpg = ikrpg || {};
       category:    "Adventure",
       subcategory: "Encounter",
       game:        "FMF"
+    },
+		{
+      name:        "Sea Drake Nest",
+      publication: "No Quarter #71",
+      page:        "109",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
     },
     {
       name:        "Sewer Surprise",
@@ -6378,6 +6450,14 @@ var ikrpg = ikrpg || {};
       category:    "Adventure",
       subcategory: "Encounter",
       game:        "FMF"
+    },
+		{
+      name:        "Whirlpool",
+      publication: "No Quarter #71",
+      page:        "109",
+      category:    "Adventure",
+      subcategory: "Encounter",
+      game:        "IKU"
     },
     // ##### Adventure > Scenario Setting ##### \\
     {
@@ -9464,6 +9544,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Press Ganger",
+      publication: "No Quarter #72",
+      page:        "100",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "FMF"
+    },
+    {
       name:        "Protectorate Warcaster",
       publication: "Kings, Nations, and Gods",
       page:        "355",
@@ -9507,6 +9595,14 @@ var ikrpg = ikrpg || {};
       name:        "Rhulic Warcaster",
       publication: "No Quarter #49",
       page:        "64",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "FMF"
+    },
+    {
+      name:        "Sea Sorcerer",
+      publication: "No Quarter #72",
+      page:        "100",
       category:    "Character Creation",
       subcategory: "Career Option",
       game:        "FMF"
@@ -9571,6 +9667,14 @@ var ikrpg = ikrpg || {};
       name:        "Trencher Commando",
       publication: "Kings, Nations, and Gods",
       page:        "88",
+      category:    "Character Creation",
+      subcategory: "Career Option",
+      game:        "FMF"
+    },
+    {
+      name:        "Vagabond",
+      publication: "No Quarter #72",
+      page:        "101",
       category:    "Character Creation",
       subcategory: "Career Option",
       game:        "FMF"
@@ -9641,7 +9745,7 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
-      name:        "Bogrun",
+      name:        "Bogrin",
       publication: "Wild Adventure",
       page:        "10",
       category:    "Character Creation",
@@ -13860,6 +13964,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Cannon Lighter",
+      publication: "No Quarter #72",
+      page:        "102",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "FMF"
+    },
+    {
       name:        "Cartographer's Kit",
       publication: "Wild Adventure",
       page:        "30",
@@ -13900,6 +14012,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Clockwork Diving Lantern",
+      publication: "No Quarter #72",
+      page:        "102",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "FMF"
+    },
+    {
       name:        "Compass",
       publication: "No Quarter #61",
       page:        "90",
@@ -13919,6 +14039,14 @@ var ikrpg = ikrpg || {};
       name:        "Diving Bellows",
       publication: "No Quarter #67",
       page:        "110",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "FMF"
+    },
+    {
+      name:        "Diving Suit",
+      publication: "No Quarter #72",
+      page:        "102",
       category:    "Equipment",
       subcategory: "Equipment",
       game:        "FMF"
@@ -14052,6 +14180,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Handheld Periscope",
+      publication: "No Quarter #72",
+      page:        "102",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "FMF"
+    },
+    {
       name:        "Heat-Responsive Inks",
       publication: "No Quarter #59",
       page:        "70",
@@ -14066,6 +14202,14 @@ var ikrpg = ikrpg || {};
       category:    "Equipment",
       subcategory: "Equipment",
       game:        "IKU"
+    },
+    {
+      name:        "Life Ring",
+      publication: "No Quarter #72",
+      page:        "103",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "FMF"
     },
     {
       name:        "Lightning Rod",
@@ -14100,6 +14244,14 @@ var ikrpg = ikrpg || {};
       game:        "IKU"
     },
     {
+      name:        "Marine Chronometer",
+      publication: "No Quarter #72",
+      page:        "103",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "FMF"
+    },
+    {
       name:        "Mechanik's Tool Kit",
       publication: "Core Rules",
       page:        "275",
@@ -14122,6 +14274,14 @@ var ikrpg = ikrpg || {};
       category:    "Equipment",
       subcategory: "Equipment",
       game:        "IKU"
+    },
+    {
+      name:        "Navigator's Kit",
+      publication: "No Quarter #72",
+      page:        "103",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "FMF"
     },
     {
       name:        "Necromancer's Kit",
@@ -14274,6 +14434,14 @@ var ikrpg = ikrpg || {};
       category:    "Equipment",
       subcategory: "Equipment",
       game:        "IKU"
+    },
+    {
+      name:        "Speaking Horn",
+      publication: "No Quarter #72",
+      page:        "103",
+      category:    "Equipment",
+      subcategory: "Equipment",
+      game:        "FMF"
     },
     {
       name:        "Spider Harness",
@@ -14874,6 +15042,14 @@ var ikrpg = ikrpg || {};
     // ##### Geography > Culture ##### \\
     {
       name:        "Arjun",
+      publication: "No Quarter #72",
+      page:        "97",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Arjun",
       publication: "Unleashed Core Rules",
       page:        "60",
       category:    "Geography",
@@ -15114,6 +15290,14 @@ var ikrpg = ikrpg || {};
     },
     {
       name:        "Radiz",
+      publication: "No Quarter #72",
+      page:        "98",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Radiz",
       publication: "Unleashed Core Rules",
       page:        "61",
       category:    "Geography",
@@ -15135,6 +15319,14 @@ var ikrpg = ikrpg || {};
       category:    "Geography",
       subcategory: "Culture",
       game:        "FMF"
+    },
+    {
+      name:        "Sinari",
+      publication: "No Quarter #72",
+      page:        "97",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Sinari",
@@ -15859,6 +16051,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Falconbank",
+      publication: "No Quarter #72",
+      page:        "98",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "IKU"
+    },
+    {
       name:        "Fellig",
       publication: "Kings, Nations, and Gods",
       page:        "68",
@@ -16030,6 +16230,14 @@ var ikrpg = ikrpg || {};
       name:        "Konesaan",
       publication: "Skorne Empire",
       page:        "35",
+      category:    "Geography",
+      subcategory: "City/Fortress",
+      game:        "IKU"
+    },
+		{
+      name:        "Konesta",
+      publication: "No Quarter #71",
+      page:        "101",
       category:    "Geography",
       subcategory: "City/Fortress",
       game:        "IKU"
@@ -16843,6 +17051,14 @@ var ikrpg = ikrpg || {};
       subcategory: "Geographic Region",
       game:        "IKU"
     },
+		{
+      name:        "Zu",
+      publication: "No Quarter #71",
+      page:        "101",
+      category:    "Geography",
+      subcategory: "Geographic Region",
+      game:        "FMF"
+    },
     // ##### Individual ##### \\
     {
       name:        "Aleksandra Zerkova",
@@ -16971,6 +17187,14 @@ var ikrpg = ikrpg || {};
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "Bollmeglanvi",
+      publication: "No Quarter #72",
+      page:        "99",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Bors Gately, General",
@@ -17356,6 +17580,14 @@ var ikrpg = ikrpg || {};
       subcategory: "",
       game:        "IKU"
     },
+		{
+      name:        "Kryssa, Conviction of Everblight",
+      publication: "No Quarter #71",
+      page:        "49",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
+    },
     {
       name:        "Lanel Gozca, The Clockwork Killer",
       publication: "No Quarter #65",
@@ -17376,6 +17608,14 @@ var ikrpg = ikrpg || {};
       name:        "Longchops",
       publication: "Fridays Unleashed 2/13/2015",
       page:        "1",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
+    },
+    {
+      name:        "Lord Longfellow",
+      publication: "No Quarter #72",
+      page:        "73",
       category:    "Individual",
       subcategory: "",
       game:        "IKU"
@@ -17432,6 +17672,14 @@ var ikrpg = ikrpg || {};
       name:        "Malah Sek-Rash, Sea-Chief",
       publication: "No Quarter #69",
       page:        "104",
+      category:    "Individual",
+      subcategory: "",
+      game:        "FMF"
+    },
+    {
+      name:        "Malekus, the Burning Truth",
+      publication: "No Quarter #72",
+      page:        "23",
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
@@ -17539,6 +17787,14 @@ var ikrpg = ikrpg || {};
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
+    },
+		{
+      name:        "Rök",
+      publication: "No Quarter #71",
+      page:        "12",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Rosa Petry, Owner of Petry's Firearms and Supplies",
@@ -17715,6 +17971,14 @@ var ikrpg = ikrpg || {};
       category:    "Individual",
       subcategory: "",
       game:        "FMF"
+    },
+    {
+      name:        "The Twilight Sisters",
+      publication: "No Quarter #72",
+      page:        "75",
+      category:    "Individual",
+      subcategory: "",
+      game:        "IKU"
     },
     {
       name:        "Trenton Bouridor, Grand Paladin",
@@ -19297,6 +19561,14 @@ var ikrpg = ikrpg || {};
       name:        "Farsight Googles",
       publication: "Core Rules",
       page:        "287",
+      category:    "Mechanika",
+      subcategory: "Mechanikal Device",
+      game:        "FMF"
+    },
+    {
+      name:        "Hydrophone",
+      publication: "No Quarter #72",
+      page:        "102",
       category:    "Mechanika",
       subcategory: "Mechanikal Device",
       game:        "FMF"
@@ -32007,6 +32279,14 @@ var ikrpg = ikrpg || {};
       subcategory: "Melee Weapon",
       game:        "FMF"
     },
+    {
+      name:        "Warhead Pike",
+      publication: "No Quarter #72",
+      page:        "106",
+      category:    "Steamjack",
+      subcategory: "Melee Weapon",
+      game:        "FMF"
+    },
     // ##### Steamjack > Ranged Weapon ##### \\
     {
       name:        "Avalanche Cannon",
@@ -32273,6 +32553,14 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Steamjack Torpedo Launcher",
+      publication: "No Quarter #72",
+      page:        "106",
+      category:    "Steamjack",
+      subcategory: "Ranged Weapon",
+      game:        "FMF"
+    },
+    {
       name:        "Storm Blaster (Light Steamjack Only)",
       publication: "Kings, Nations, and Gods",
       page:        "100",
@@ -32322,9 +32610,25 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Ambidexterity Upgrade",
+      publication: "No Quarter #72",
+      page:        "104",
+      category:    "Steamjack",
+      subcategory: "Gear/Upgrade",
+      game:        "FMF"
+    },
+    {
       name:        "Ammo Hopper",
       publication: "No Quarter #54",
       page:        "67",
+      category:    "Steamjack",
+      subcategory: "Gear/Upgrade",
+      game:        "FMF"
+    },
+    {
+      name:        "Amphibious Operation",
+      publication: "No Quarter #72",
+      page:        "104",
       category:    "Steamjack",
       subcategory: "Gear/Upgrade",
       game:        "FMF"
@@ -32410,9 +32714,25 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Deckjack Conditioning Module",
+      publication: "No Quarter #72",
+      page:        "104",
+      category:    "Steamjack",
+      subcategory: "Gear/Upgrade",
+      game:        "FMF"
+    },
+    {
       name:        "Defensive Reflex Array (DRA)",
       publication: "Kings, Nations, and Gods",
       page:        "110",
+      category:    "Steamjack",
+      subcategory: "Gear/Upgrade",
+      game:        "FMF"
+    },
+    {
+      name:        "Diving Lantern",
+      publication: "No Quarter #72",
+      page:        "107",
       category:    "Steamjack",
       subcategory: "Gear/Upgrade",
       game:        "FMF"
@@ -32485,6 +32805,14 @@ var ikrpg = ikrpg || {};
       name:        "Head Spike",
       publication: "No Quarter #54",
       page:        "68",
+      category:    "Steamjack",
+      subcategory: "Gear/Upgrade",
+      game:        "FMF"
+    },
+    {
+      name:        "Heartfire Gill Extractor",
+      publication: "No Quarter #72",
+      page:        "105",
       category:    "Steamjack",
       subcategory: "Gear/Upgrade",
       game:        "FMF"
@@ -32570,6 +32898,46 @@ var ikrpg = ikrpg || {};
       game:        "FMF"
     },
     {
+      name:        "Reef Runner",
+      publication: "No Quarter #72",
+      page:        "105",
+      category:    "Steamjack",
+      subcategory: "Gear/Upgrade",
+      game:        "FMF"
+    },
+    {
+      name:        "Retrieval Device",
+      publication: "No Quarter #72",
+      page:        "108",
+      category:    "Steamjack",
+      subcategory: "Gear/Upgrade",
+      game:        "FMF"
+    },
+    {
+      name:        "Sharklure Rig",
+      publication: "No Quarter #72",
+      page:        "108",
+      category:    "Steamjack",
+      subcategory: "Gear/Upgrade",
+      game:        "FMF"
+    },
+    {
+      name:        "Steamjack Armwinch",
+      publication: "No Quarter #72",
+      page:        "108",
+      category:    "Steamjack",
+      subcategory: "Gear/Upgrade",
+      game:        "FMF"
+    },
+    {
+      name:        "Steamjack Snorkel",
+      publication: "No Quarter #72",
+      page:        "108",
+      category:    "Steamjack",
+      subcategory: "Gear/Upgrade",
+      game:        "FMF"
+    },
+    {
       name:        "Storm Accumulator",
       publication: "Kings, Nations, and Gods",
       page:        "111",
@@ -32581,6 +32949,14 @@ var ikrpg = ikrpg || {};
       name:        "Storm Relay",
       publication: "Kings, Nations, and Gods",
       page:        "111",
+      category:    "Steamjack",
+      subcategory: "Gear/Upgrade",
+      game:        "FMF"
+    },
+    {
+      name:        "Submerged Mobility Upgrade",
+      publication: "No Quarter #72",
+      page:        "105",
       category:    "Steamjack",
       subcategory: "Gear/Upgrade",
       game:        "FMF"
