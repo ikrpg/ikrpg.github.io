@@ -1,0 +1,10 @@
+Hello! My name is Fillipe and I want to contribute with this project but I don't know how can I put this project to run in my local machine.
+I'm a Java EE developer and I couldn't recognize what kind of technology you're using. Could you please tell me what I need to do to run this project on my local machine? The type of tools, IDE, server or whatever.
+
+My e-mail is:
+fillipeaguiarsoares@gmail.com
+
+I'm so sorry for communicating this way but it was the only way I found it.
+
+Best Regards!
+

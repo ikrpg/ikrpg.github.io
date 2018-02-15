@@ -4,3 +4,4 @@ port: 8080
 exclude: [ Makefile, README.md ]
 gems:
   - jekyll-redirect-from
+theme: jekyll-theme-slate
